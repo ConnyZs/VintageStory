@@ -229,7 +229,24 @@
   .member .rows div{display:flex;justify-content:space-between;gap:12px;padding:6px 0;border-top:1px solid var(--line)}
   .member .rows .k{color:var(--ink-faint)} .member .rows .v{color:var(--ink)}
   .member .soon{margin-top:14px;font-size:.82rem;font-style:italic;color:var(--ink-faint)}
+  /* download-modset panel */
+  .dlpanel{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:18px;
+    margin:6px 0 8px;padding:18px 20px;background:var(--surface);border:1px solid var(--line-strong);border-radius:8px}
+  .dlpanel h2{margin:0;font-size:1.15rem}
+  .dlpanel .sub2{color:var(--ink-faint);font-size:.86rem;margin-top:3px}
+  .dlpanel code{font-family:monospace;color:var(--copper);background:var(--bg2);padding:1px 5px;border-radius:3px}
+  .dlctrl{display:flex;flex-direction:column;align-items:flex-end;gap:9px}
+  .dlopt{display:flex;align-items:center;gap:8px;font-size:.82rem;color:var(--ink-dim);cursor:pointer}
+  .dlopt em{color:var(--ink-faint);font-style:normal}
+  .dlbtn{text-decoration:none;white-space:nowrap}
+  .dlbtn .dlsize{opacity:.7;font-size:.85em;font-weight:400}
   /* gallery */
+  .gal-hint{margin:18px 0 4px;color:var(--ink-faint);font-size:.86rem;font-style:italic}
+  .gal-ctrls{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:10px 0 4px}
+  .galfilter{display:flex;gap:8px}
+  .gchip{font-family:"Spectral SC",serif;font-size:.8rem;letter-spacing:.04em;color:var(--ink-dim);cursor:pointer;
+    background:var(--surface);border:1px solid var(--line-strong);border-radius:20px;padding:6px 15px}
+  .gchip.on{background:var(--copper);color:#1a1206;border-color:var(--copper)}
   .gal-add{margin:26px 0 6px;display:flex;gap:10px;flex-wrap:wrap}
   .gal-add input{flex:1;min-width:240px;font-family:"Spectral",serif;font-size:1rem;color:var(--ink);
     background:var(--surface);border:1px solid var(--line-strong);border-radius:5px;padding:11px 13px;outline:none}
@@ -267,6 +284,7 @@
     <div class="tally" id="tally"></div>
   </header>
 
+  <section id="modset"></section>
   <section id="approvals"></section>
 
   <nav class="tabs">
@@ -339,6 +357,7 @@ fetch("registry.json?_="+Date.now()).then(r=>r.json()).then(reg=>{
   (reg.categories||[]).forEach(c=>{const o=document.createElement("option");o.value=c;dl.appendChild(o);});
   initForm();
   setupAdminButtons();
+  renderModset();
   buildTally();
   render();
   renderApprovals();
@@ -495,100 +514,65 @@ function renderCrew(){
 }
 
 function ytId(u){const m=(u||"").match(/(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|embed\/|shorts\/))([\w-]{6,})/);return m?m[1]:null;}
-// downscale an image file to a JPEG dataURL (max ~1600px) so uploads stay small + fast
-function shrinkImage(file,max=1600,q=0.85){
-  return new Promise((res,rej)=>{
-    const img=new Image(), fr=new FileReader();
-    fr.onload=()=>{img.onload=()=>{
-      let{width:w,height:h}=img;
-      if(w>max||h>max){const s=Math.min(max/w,max/h);w=Math.round(w*s);h=Math.round(h*s);}
-      const c=document.createElement("canvas");c.width=w;c.height=h;
-      c.getContext("2d").drawImage(img,0,0,w,h);
-      res(c.toDataURL("image/jpeg",q));
-    };img.onerror=rej;img.src=fr.result;};
-    fr.onerror=rej;fr.readAsDataURL(file);
+// "Download current modset" — zips ride on a GitHub release; checkbox switches to the
+// build that also bundles the client-only cosmetics.
+function fmtMB(b){return (b/1048576).toFixed(b<10485760?1:0)+" MB";}
+function renderModset(){
+  const box=document.getElementById("modset"), ms=REG.modset;
+  if(!ms||!ms.server_url){box.innerHTML="";return;}
+  const names=(ms.client_only||[]).join(", ");
+  box.innerHTML=`<div class="dlpanel">
+    <div class="dltext"><h2>Get the modset</h2>
+      <div class="sub2">Unzip into your Vintage Story <code>Mods</code> folder to match the server — always the current live set.</div></div>
+    <div class="dlctrl">
+      ${names?`<label class="dlopt"><input type="checkbox" id="dlfull"><span>Include client-only mods <em>(${esc(names)})</em></span></label>`:""}
+      <a class="cta dlbtn" id="dlbtn" href="${esc(ms.server_url)}" download>⬇ Download modset <span class="dlsize">(${ms.server_count} mods · ${fmtMB(ms.server_size)})</span></a>
+    </div></div>`;
+  const cb=document.getElementById("dlfull"), btn=document.getElementById("dlbtn"), sz=btn.querySelector(".dlsize");
+  if(cb) cb.addEventListener("change",()=>{
+    const full=cb.checked;
+    btn.href=full?ms.full_url:ms.server_url;
+    sz.textContent=`(${full?ms.full_count:ms.server_count} mods · ${fmtMB(full?ms.full_size:ms.server_size)})`;
   });
 }
-async function loadGallery(){   // live read of the Gallery tab (CORS-ok via gviz)
-  try{
-    const u=`https://docs.google.com/spreadsheets/d/${sheetId()}/gviz/tq?tqx=out:json&headers=1&sheet=Gallery&_=${Date.now()}`;
-    const txt=await (await fetch(u)).text();
-    const obj=JSON.parse(txt.slice(txt.indexOf("(")+1,txt.lastIndexOf(")")));
-    const cols=(obj.table.cols||[]).map(c=>(c.label||"").toLowerCase());
-    const ui=cols.indexOf("url");
-    if(ui<0) return [];   // Gallery tab missing → gviz silently falls back to the mods sheet; show nothing
-    const bi=cols.indexOf("by"), ci=cols.indexOf("caption");
-    const val=(r,i)=>i>=0&&r.c[i]&&r.c[i].v!=null?String(r.c[i].v):"";
-    return (obj.table.rows||[]).map(r=>({url:val(r,ui),by:val(r,bi),caption:val(r,ci)}))
-                               .filter(x=>/^https?:\/\//.test(x.url)).reverse();
-  }catch(e){return [];}
-}
+// Gallery is fed from the Discord channel by the bot → gallery.json (images hosted in
+// the repo's gallery/ folder, YouTube links embedded). Filter + sort are client-side.
+let galSort="new", galFilter="all", GAL_ITEMS=null;
 async function renderGallery(){
-  const box=document.getElementById("tab-gallery");
-  const live=!!REG.actions_v5;
-  const form=live?`<div class="gal-add">
-      <input id="gal-by" type="text" placeholder="Your name (optional)" style="flex:0 0 150px">
-      <input id="gal-url" type="text" placeholder="…or paste a YouTube / image link">
-      <label class="btn go" for="gal-file" style="flex:0 0 auto;padding:11px 18px;cursor:pointer">📷 Upload picture</label>
-      <input id="gal-file" type="file" accept="image/*" hidden>
-      <button class="btn go" id="gal-add-btn" style="flex:0 0 auto;padding:11px 18px">Add link</button>
-    </div>`
-    :`<div class="gal-add"><div class="sub2">Picture uploads go live with the next script update — almost there.</div></div>`;
-  box.innerHTML=form+`<div class="empty">Loading the gallery…</div>`;
-  const media=live?await loadGallery():[];
-  let grid="";
-  if(!media.length){
-    grid='<div class="empty">No clips or screenshots yet — upload a picture or paste a link above.</div>';
-  } else {
-    grid='<div class="gallery">';
-    media.forEach(it=>{
-      const yt=ytId(it.url);
-      const inner=yt?`<iframe src="https://www.youtube.com/embed/${yt}" allowfullscreen loading="lazy"></iframe>`
-                    :`<img class="thumb" src="${esc(it.url)}" loading="lazy" alt="${esc(it.caption||"")}">`;
-      const del=(ADMIN_KEY&&REG.actions_v6)?`<button class="gdel" data-url="${esc(it.url)}" title="Delete (admin)">🗑</button>`:"";
-      grid+=`<div class="media">${inner}<div class="cap"><span>${esc(it.by||it.caption||"")}</span>`
-           +`<a href="${esc(it.url)}" target="_blank" rel="noopener">open ↗</a>${del}</div></div>`;
-    });
-    grid+='</div>';
+  if(GAL_ITEMS===null){
+    document.getElementById("tab-gallery").innerHTML='<div class="empty">Loading the gallery…</div>';
+    try{ GAL_ITEMS=((await (await fetch("gallery.json?_="+Date.now())).json()).items)||[]; }
+    catch(e){ GAL_ITEMS=[]; }
   }
-  box.querySelector(".empty,.gallery")?.remove();
-  box.insertAdjacentHTML("beforeend",grid);
-  if(!live)return;
-  const post=async body=>fetch(REG.submit_url,{method:"POST",mode:"no-cors",
-    headers:{"Content-Type":"text/plain;charset=utf-8"},body:JSON.stringify(body)});
-  const by=()=>document.getElementById("gal-by").value.trim().slice(0,60);
-  // link add
-  document.getElementById("gal-add-btn").addEventListener("click",async()=>{
-    const url=document.getElementById("gal-url").value.trim();
-    if(!/^https?:\/\//.test(url)){showToast("Paste a full http(s) link.",false);return;}
-    try{await post({action:"media",url,by:by()});
-      showToast("Added — refreshing…",true);
-      document.getElementById("gal-url").value="";
-      setTimeout(renderGallery,2500);
-    }catch(e){showToast("Couldn't add — try again.",false);}
-  });
-  // picture upload (resized client-side, saved to Drive by the script)
-  document.getElementById("gal-file").addEventListener("change",async e=>{
-    const f=e.target.files[0]; if(!f)return;
-    if(!f.type.startsWith("image/")){showToast("Pick an image file.",false);return;}
-    showToast("Uploading "+f.name+"…",true);
-    try{
-      const dataUrl=await shrinkImage(f);
-      await post({action:"upload",dataUrl,name:f.name,by:by()});
-      showToast("Uploaded — appears in a few seconds ✓",true);
-      setTimeout(renderGallery,4000);
-    }catch(err){showToast("Upload failed — try a smaller image.",false);}
-    finally{e.target.value="";}
-  });
-  // admin: delete a gallery item (trashes the Drive file too, for uploads)
-  box.querySelectorAll(".gdel").forEach(b=>b.addEventListener("click",async()=>{
-    if(!confirm("Delete this from the gallery?"))return;
-    b.disabled=true;
-    try{await post({action:"galdel",url:b.dataset.url,key:ADMIN_KEY});
-      showToast("Deleted — refreshing…",true);
-      setTimeout(renderGallery,2000);
-    }catch(e){b.disabled=false;showToast("Couldn't delete — try again.",false);}
-  }));
+  drawGallery();
+}
+function drawGallery(){
+  const box=document.getElementById("tab-gallery");
+  let items=GAL_ITEMS.slice();
+  if(galFilter!=="all") items=items.filter(it=>it.type===galFilter);
+  items.sort((a,b)=>galSort==="new"?b.ts-a.ts:a.ts-b.ts);
+  const hint='<div class="gal-hint">Post screenshots or YouTube links in the Discord channel — they appear here automatically.</div>';
+  const controls='<div class="gal-ctrls"><div class="galfilter">'
+    +[["all","All"],["image","Pictures"],["youtube","Videos"]].map(([f,l])=>
+        `<button class="gchip ${galFilter===f?"on":""}" data-gf="${f}">${l}</button>`).join("")
+    +`</div><button class="btn go" id="galSort" style="flex:0 0 auto;padding:8px 14px">`
+    +`${galSort==="new"?"Newest first ↓":"Oldest first ↑"}</button></div>`;
+  let grid;
+  if(!items.length){
+    grid=`<div class="empty">${GAL_ITEMS.length?"Nothing in this filter.":"No screenshots or clips yet — post some in the Discord channel and they show up here."}</div>`;
+  } else {
+    grid='<div class="gallery">'+items.map(it=>{
+      const inner=it.type==="youtube"
+        ?`<iframe src="https://www.youtube.com/embed/${esc(it.vid)}" allowfullscreen loading="lazy"></iframe>`
+        :`<a href="${esc(it.src)}" target="_blank" rel="noopener"><img class="thumb" src="${esc(it.src)}" loading="lazy" alt="${esc(it.caption||"")}"></a>`;
+      const txt=(it.caption||"").replace(/https?:\/\/\S+/g,"").trim().slice(0,90);
+      const cap=esc(it.by||"")+(txt?` · ${esc(txt)}`:"");
+      return `<div class="media">${inner}<div class="cap"><span>${cap||"&nbsp;"}</span></div></div>`;
+    }).join("")+'</div>';
+  }
+  box.innerHTML=hint+controls+grid;
+  box.querySelectorAll(".gchip").forEach(b=>b.addEventListener("click",()=>{galFilter=b.dataset.gf;drawGallery();}));
+  document.getElementById("galSort").addEventListener("click",()=>{galSort=galSort==="new"?"old":"new";drawGallery();});
 }
 
 /* ---------- admin: approve proposals (only with ?key=) ---------- */
