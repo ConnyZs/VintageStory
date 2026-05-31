@@ -206,6 +206,13 @@
   .rm{background:none;border:1px solid var(--line);color:var(--ink-faint);border-radius:4px;
     cursor:pointer;padding:2px 7px;font-size:.82rem;line-height:1;transition:.2s}
   .rm:hover{border-color:var(--rust);color:var(--rust)}
+  /* mod marked for removal on next deploy — subtle, non-distracting red */
+  .mod.removing{background:rgba(199,105,63,.06);box-shadow:inset 3px 0 0 var(--rust);opacity:.82}
+  /* pending-changes marker next to Deploy now */
+  .dpend{display:inline-flex;gap:5px;align-items:center}
+  .dp{font-family:"Spectral SC",serif;font-size:.74rem;font-weight:600;letter-spacing:.03em;
+    padding:2px 8px;border-radius:11px;border:1px solid currentColor;line-height:1.3}
+  .dp.add{color:var(--verd)} .dp.upd{color:var(--copper-glow,#d98a4b)} .dp.del{color:var(--rust)}
   /* tabs */
   .tabs{display:flex;gap:2px;margin:34px 0 0;border-bottom:1px solid var(--line-strong);
     opacity:0;animation:rise .8s .4s forwards}
@@ -301,6 +308,7 @@
       <span class="stamp" id="stamp">reading the ledger…</span>
       <button class="cta" id="addBtn"><span class="plus">✚</span> Add a mod</button>
       <button class="cta" id="deployBtn" hidden><span class="plus">⚡</span> Deploy now</button>
+      <span class="dpend" id="dpend" title="pending changes on the next deploy"></span>
     </div>
   </header>
 
@@ -434,7 +442,7 @@ function render(){
       const actBox = (ADMIN_KEY&&REG.actions_v5&&m.link&&onsrv&&st!=="remove")
         ? `<label class="act-wrap" title="Active — untick to disable (applies on next deploy)">
              <input type="checkbox" class="act" data-link="${esc(m.link)}" ${st!=="disabled"?"checked":""}></label>` : "";
-      html+=`<div class="mod">${nm}
+      html+=`<div class="mod${st==='remove'?' removing':''}">${nm}
         <div class="right">
           ${(m.version||m.build_version)?`<span class="ver-pill">v${esc(m.version||m.build_version)}</span>`:""}
           ${m.build_branch==="1.21"?`<span class="seal likely" title="Only a 1.21 build exists — older, usually works on 1.22">1.21 build</span>`:""}
@@ -450,6 +458,22 @@ function render(){
     html+="</section>";
   }
   main.innerHTML=html;
+  deployBadge();
+}
+// small elegant marker next to Deploy now: +added (approved, not yet on server) ~updated −deleted
+function deployBadge(){
+  const el=document.getElementById("dpend"); if(!el)return;
+  if(!(ADMIN_KEY&&REG.actions_v4)){el.innerHTML="";return;}
+  let add=0,upd=0,del=0;
+  DATA.forEach(m=>{const st=m.server_state||"";
+    if(st==="remove"){del++;return;}
+    if(st==="yes"&&!m.version) add++;
+    if(m.update_pending) upd++;});
+  let h="";
+  if(add) h+=`<span class="dp add" title="${add} approved mod(s) will be installed">+${add}</span>`;
+  if(upd) h+=`<span class="dp upd" title="${upd} mod(s) have a newer build">~${upd}</span>`;
+  if(del) h+=`<span class="dp del" title="${del} mod(s) marked for removal">−${del}</span>`;
+  el.innerHTML=h;
 }
 function esc(s){return(s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
 
