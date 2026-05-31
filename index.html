@@ -249,8 +249,14 @@
   .dlpanel .sub2{color:var(--ink-faint);font-size:.86rem;margin-top:3px}
   .dlpanel code{font-family:monospace;color:var(--copper);background:var(--bg2);padding:1px 5px;border-radius:3px}
   .dlctrl{display:flex;flex-direction:column;align-items:flex-end;gap:9px}
-  .dlopt{display:flex;align-items:center;gap:8px;font-size:.82rem;color:var(--ink-dim);cursor:pointer}
+  .dlopt{display:flex;align-items:center;gap:9px;font-size:.82rem;color:var(--ink-dim);cursor:pointer}
   .dlopt em{color:var(--ink-faint);font-style:normal}
+  .dlopt input{appearance:none;-webkit-appearance:none;width:24px;height:24px;flex:none;cursor:pointer;
+    border:1px solid var(--copper-deep);border-radius:6px;position:relative;transition:.15s;
+    background:linear-gradient(180deg,var(--copper-glow),var(--copper));box-shadow:0 2px 0 var(--copper-deep)}
+  .dlopt input:hover{filter:brightness(1.08);transform:translateY(-1px)}
+  .dlopt input:checked::after{content:"✓";position:absolute;inset:0;display:flex;align-items:center;
+    justify-content:center;color:var(--verd);font-size:16px;font-weight:900;text-shadow:0 1px 1px rgba(0,0,0,.45)}
   .dlbtn{text-decoration:none;white-space:nowrap}
   .dlbtn .dlsize{opacity:.7;font-size:.85em;font-weight:400}
   /* gallery */
@@ -299,11 +305,11 @@
       <button class="cta" id="addBtn"><span class="plus">✚</span> Add a mod</button>
       <button class="cta" id="deployBtn" hidden><span class="plus">⚡</span> Deploy now</button>
     </div>
-    <div class="tally" id="tally"></div>
   </header>
 
   <section id="modset"></section>
   <section id="approvals"></section>
+  <div class="tally" id="tally"></div>
 
   <nav class="tabs">
     <button class="tab on" data-tab="mods">Mods</button>
