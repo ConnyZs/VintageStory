@@ -138,13 +138,12 @@
   .tag-srv.rem{color:var(--rust);border-color:var(--rust);border-style:solid}
   /* admin activation toggle: small copper checkbox, green ✓ when active */
   .act-wrap{display:inline-flex;align-items:center;cursor:pointer}
-  .act{appearance:none;-webkit-appearance:none;width:20px;height:20px;cursor:pointer;position:relative;
-    border:1.5px solid var(--copper,#b87333);border-radius:4px;background:rgba(184,115,51,.10);transition:.15s}
-  .act:hover{filter:brightness(1.1);transform:translateY(-1px)}
-  .act:checked{background:rgba(184,115,51,.30)}
+  .act{appearance:none;-webkit-appearance:none;width:22px;height:22px;cursor:pointer;position:relative;
+    border:2px solid var(--copper-glow,#d98a4b);border-radius:5px;background:#0c0a07;transition:.15s}
+  .act:hover{border-color:#e8b277;transform:translateY(-1px)}
   .act:checked::after{content:"✓";position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
-    color:#5fbf6a;font-size:.85rem;font-weight:700}
-  .act:not(:checked){opacity:.55}
+    color:var(--copper-glow,#d98a4b);font-size:.95rem;font-weight:900}
+  .act:not(:checked){opacity:.7}
   .note{grid-column:1/2;color:var(--ink-faint);font-size:.84rem;font-style:italic}
 
   footer{border-top:1px solid var(--line);margin-top:30px;padding:28px 0 60px;
@@ -195,11 +194,10 @@
   .apanel .sub2{color:var(--ink-dim);font-size:.88rem;margin-bottom:14px}
   .prow{display:flex;align-items:center;gap:14px;padding:11px 0;border-top:1px solid var(--line)}
   .prow input{appearance:none;-webkit-appearance:none;width:26px;height:26px;flex:none;cursor:pointer;order:2;
-    border:1px solid var(--copper-deep);border-radius:6px;position:relative;transition:.15s;
-    background:linear-gradient(180deg,var(--copper-glow),var(--copper));box-shadow:0 2px 0 var(--copper-deep)}
-  .prow input:hover{filter:brightness(1.08);transform:translateY(-1px)}
+    border:2px solid var(--copper-glow,#d98a4b);border-radius:6px;position:relative;transition:.15s;background:#0c0a07}
+  .prow input:hover{border-color:#e8b277;transform:translateY(-1px)}
   .prow input:checked::after{content:"✓";position:absolute;inset:0;display:flex;align-items:center;
-    justify-content:center;color:var(--verd);font-size:18px;font-weight:900;text-shadow:0 1px 1px rgba(0,0,0,.45)}
+    justify-content:center;color:var(--copper-glow,#d98a4b);font-size:18px;font-weight:900}
   .prow .pn{order:1}
   .prow .pn{flex:1}
   .prow .pn a{color:var(--ink);text-decoration:none;font-size:1.05rem}
@@ -252,11 +250,10 @@
   .dlopt{display:flex;align-items:center;gap:9px;font-size:.82rem;color:var(--ink-dim);cursor:pointer}
   .dlopt em{color:var(--ink-faint);font-style:normal}
   .dlopt input{appearance:none;-webkit-appearance:none;width:24px;height:24px;flex:none;cursor:pointer;
-    border:1px solid var(--copper-deep);border-radius:6px;position:relative;transition:.15s;
-    background:linear-gradient(180deg,var(--copper-glow),var(--copper));box-shadow:0 2px 0 var(--copper-deep)}
-  .dlopt input:hover{filter:brightness(1.08);transform:translateY(-1px)}
+    border:2px solid var(--copper-glow,#d98a4b);border-radius:6px;position:relative;transition:.15s;background:#0c0a07}
+  .dlopt input:hover{border-color:#e8b277;transform:translateY(-1px)}
   .dlopt input:checked::after{content:"✓";position:absolute;inset:0;display:flex;align-items:center;
-    justify-content:center;color:var(--verd);font-size:16px;font-weight:900;text-shadow:0 1px 1px rgba(0,0,0,.45)}
+    justify-content:center;color:var(--copper-glow,#d98a4b);font-size:16px;font-weight:900}
   .dlbtn{text-decoration:none;white-space:nowrap}
   .dlbtn .dlsize{opacity:.7;font-size:.85em;font-weight:400}
   /* gallery */
