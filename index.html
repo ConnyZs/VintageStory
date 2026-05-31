@@ -55,8 +55,10 @@
     background:linear-gradient(90deg,var(--copper-deep),var(--copper) 18%,transparent 70%);
     opacity:0;animation:wipe .9s .3s forwards;transform-origin:left}
 
-  .meta{display:flex;flex-wrap:wrap;gap:14px 26px;align-items:center;justify-content:center;margin-top:22px;
+  .meta{display:flex;flex-direction:column;align-items:center;gap:12px;margin-top:22px;
     opacity:0;animation:rise .8s .36s forwards}
+  .meta-info{display:flex;gap:14px;align-items:center;flex-wrap:wrap;justify-content:center}
+  .meta-actions{display:flex;gap:14px;align-items:center;flex-wrap:wrap;justify-content:center}
   .ver{font-family:"Cinzel",serif;font-weight:700;font-size:.86rem;letter-spacing:.08em;
     color:var(--bg);background:linear-gradient(180deg,var(--copper-glow),var(--copper));
     padding:6px 13px;border-radius:3px;box-shadow:0 2px 0 var(--copper-deep)}
@@ -394,10 +396,14 @@
     <p class="sub">Every mod our server runs — and every one proposed. Kept in sync with the shared sheet. Add yours there; if it has a build for our game version, it joins the next update.</p>
     <div class="rule"></div>
     <div class="meta">
-      <span class="ver" id="gv">v—</span>
-      <span class="stamp" id="stamp">reading the ledger…</span>
-      <button class="cta" id="addBtn"><span class="plus">✚</span> Add a mod</button>
-      <button class="cta" id="deployBtn" hidden>Deploy now</button>
+      <div class="meta-info">
+        <span class="ver" id="gv">v—</span>
+        <span class="stamp" id="stamp">reading the ledger…</span>
+      </div>
+      <div class="meta-actions">
+        <button class="cta" id="addBtn"><span class="plus">✚</span> Add a mod</button>
+        <button class="cta" id="deployBtn" hidden>Deploy now</button>
+      </div>
     </div>
     <div class="dpend-row"><span class="dpend" id="dpend"></span></div>
   </header>
