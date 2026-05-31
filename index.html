@@ -331,6 +331,15 @@
   .mbtn.go{background:linear-gradient(180deg,var(--copper-glow,#d98a4b),var(--copper));color:#1a1206;border-color:var(--copper);font-weight:600}
   .mbtn.go:hover{filter:brightness(1.06)}
   /* download-modset panel */
+  /* engine update notice */
+  #engineNotice{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;
+    margin:10px 0 0;padding:12px 18px;border-radius:6px;
+    background:rgba(204,164,40,.13);border:1px solid rgba(204,164,40,.4);color:#c8a428}
+  #engineNotice .eng-msg{font-size:.9rem;font-weight:500;font-family:"Spectral SC",serif;letter-spacing:.02em}
+  #engineNotice .eng-acts{display:flex;gap:10px;align-items:center}
+  #engineNotice .eng-dismiss{background:none;border:none;color:inherit;opacity:.6;cursor:pointer;
+    font-size:.8rem;text-decoration:underline;padding:0}
+  /* end engine notice */
   .dlpanel{display:flex;flex-direction:column;align-items:stretch;text-align:center;gap:12px;
     margin:6px 0 8px;padding:20px 24px;border:1px solid var(--line-strong);border-radius:8px;background:var(--surface)}
   .dlpanel h2{margin:0;font-size:1.15rem}
@@ -419,6 +428,7 @@
   </header>
 
   <section id="modset"></section>
+  <div id="engineNotice" hidden></div>
   <section id="approvals"></section>
   <div class="tally" id="tally"></div>
 
@@ -878,26 +888,62 @@ async function loadLiveProposals(){   // read the live sheet (CORS-ok) → insta
   });
   return props;
 }
+function renderEngineNotice(){
+  const box=document.getElementById("engineNotice");
+  const cur=REG.game_version, latest=REG.latest_engine;
+  const DISMISS_KEY="vs_engine_dismiss";
+  if(!latest || latest===cur || localStorage.getItem(DISMISS_KEY)===latest){box.hidden=true;return;}
+  const adminBtn=ADMIN_KEY?`<button class="cta" id="engUpdateBtn" style="padding:8px 16px;font-size:.82rem">Update engine to ${esc(latest)}</button>`:"";
+  box.innerHTML=`<span class="eng-msg">New stable available: v${esc(latest)}</span>
+    <span class="eng-acts">${adminBtn}<button class="eng-dismiss" id="engDismiss">Dismiss</button></span>`;
+  box.hidden=false;
+  document.getElementById("engDismiss").onclick=()=>{localStorage.setItem(DISMISS_KEY,latest);box.hidden=true;};
+  const eb=document.getElementById("engUpdateBtn");
+  if(eb) eb.onclick=async()=>{
+    eb.disabled=true; eb.textContent="Requesting…";
+    try{
+      await fetch(REG.submit_url,{method:"POST",mode:"no-cors",
+        headers:{"Content-Type":"text/plain;charset=utf-8"},
+        body:JSON.stringify({action:"engine",key:ADMIN_KEY})});
+      eb.textContent="Requested — watch Discord for progress";
+      showToast("Engine update requested. The server must be stopped first.",true);
+    }catch(e){eb.disabled=false;eb.textContent=`Update engine to ${esc(latest)}`;}
+  };
+}
+
 // admin-only "Deploy now" — asks the bot (which polls) to run the update soon.
 // Only shown once the v4 Apps Script is live (REG.actions_v4), else it'd junk the old script.
 function setupAdminButtons(){
-  // "Check for updates" is visible to everyone
+  // "Check for updates" is visible to everyone — triggers a fresh registry rebuild,
+  // then polls until registry.json's generated timestamp changes (≤~2 min).
   const cb=document.getElementById("checkBtn");
   if(cb && REG.submit_url){
     cb.addEventListener("click",async()=>{
+      if(cb.disabled) return;
       cb.disabled=true; cb.textContent="Checking…";
+      const startGen=REG.generated;
       try{
         await fetch(REG.submit_url,{method:"POST",mode:"no-cors",
           headers:{"Content-Type":"text/plain;charset=utf-8"},
           body:JSON.stringify({action:"check"})});
-        cb.textContent="Requested — check Discord";
-        setTimeout(()=>{cb.textContent="Check for updates";cb.disabled=false;},8000);
-      }catch(e){
-        cb.textContent="Check for updates"; cb.disabled=false;
-        showToast("Couldn't reach the server — try again.",false);
-      }
+      }catch(e){ cb.textContent="Check for updates"; cb.disabled=false; return; }
+      // poll registry.json until it refreshes (bot rebuilds and pushes it)
+      const poll=setInterval(async()=>{
+        try{
+          const reg=await (await fetch("registry.json?_="+Date.now())).json();
+          if(reg.generated !== startGen){
+            clearInterval(poll);
+            REG=reg; DATA=reg.mods||[];
+            render(); buildTally(); renderApprovals(); renderEngineNotice();
+            cb.textContent="Check for updates"; cb.disabled=false;
+            showToast("Updated — mod states refreshed.",true);
+          }
+        }catch(e){}
+      },8000);
+      setTimeout(()=>{ clearInterval(poll); if(cb.disabled){cb.textContent="Check for updates";cb.disabled=false;} },180000);
     });
   }
+  renderEngineNotice();
   if(!(ADMIN_KEY && REG.actions_v4))return;
   const db=document.getElementById("deployBtn");
   db.hidden=false;

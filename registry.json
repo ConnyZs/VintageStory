@@ -1,6 +1,7 @@
 {
-  "generated": "20260531-203031",
+  "generated": "20260531-215226",
   "game_version": "1.22.3",
+  "latest_engine": "1.22.3",
   "modset": {
     "server_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset.zip",
     "full_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset-full.zip",
