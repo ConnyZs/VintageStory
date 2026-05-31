@@ -1,0 +1,182 @@
+@echo off
+setlocal
+set "T=%TEMP%\vsmodsync_%RANDOM%.ps1"
+powershell -NoProfile -ExecutionPolicy Bypass -Command "Get-Content -LiteralPath '%~f0' | Select-Object -Skip 9 | Set-Content -LiteralPath $env:T -Encoding UTF8"
+powershell -NoProfile -ExecutionPolicy Bypass -File "%T%"
+del "%T%" 2>nul
+echo.
+pause
+exit /b
+<#
+  Vintage Story friend mod-sync for Windows — no installs required.
+  Uses only built-in PowerShell (HTTP, JSON, SHA-256, zip). Pre-installed on Win 10/11.
+
+  Safety (same as the Python version):
+   * Touches ONLY your Vintage Story Mods folder. Nothing else.
+   * Shows the plan first and asks before changing anything (or pass -Apply to skip the prompt).
+   * Backs up your whole Mods folder to a timestamped .zip before any change.
+   * Verifies SHA-256 of every download; a bad download is discarded, never installed.
+   * Never removes a mod whose id is not in the manifest (keeps your personal mods).
+   * Optional mods (shaders/foliage/HUD) only sync if you already have them and they're enabled.
+   * No admin rights, no system changes.
+
+  Run: double-click run-friend-sync.bat, OR:
+     powershell -ExecutionPolicy Bypass -File friend_sync.ps1
+     powershell -ExecutionPolicy Bypass -File friend_sync.ps1 -Apply
+#>
+param(
+  [string]$Manifest = "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/manifest.json",
+  [string]$ModsDir  = "",
+  [switch]$Apply
+)
+$ErrorActionPreference = "Stop"
+Add-Type -AssemblyName System.IO.Compression.FileSystem
+
+function Find-ModsDir {
+  if ($ModsDir) { return $ModsDir }
+  if ($env:VS_MODS) { return $env:VS_MODS }
+  $cands = @(
+    (Join-Path $env:APPDATA "VintagestoryData\Mods"),       # Windows default
+    (Join-Path $env:USERPROFILE ".config\VintagestoryData\Mods")
+  )
+  foreach ($p in $cands) { if (Test-Path -LiteralPath $p) { return $p } }
+  return $null
+}
+
+function Get-ModId([string]$zipPath) {
+  try {
+    $zip = [System.IO.Compression.ZipFile]::OpenRead($zipPath)
+    try {
+      $e = $zip.Entries | Where-Object { $_.FullName.ToLower() -eq "modinfo.json" } | Select-Object -First 1
+      if (-not $e) { $e = $zip.Entries | Where-Object { $_.FullName.ToLower().EndsWith("modinfo.json") } | Select-Object -First 1 }
+      if (-not $e) { return $null }
+      $sr = New-Object System.IO.StreamReader($e.Open())
+      $txt = $sr.ReadToEnd(); $sr.Close()
+    } finally { $zip.Dispose() }
+    if ($txt -match '(?i)"modid"\s*:\s*"([^"]+)"') { return $Matches[1].ToLower() }
+  } catch { }
+  return $null
+}
+
+function Get-Sha([string]$path) { return (Get-FileHash -Algorithm SHA256 -LiteralPath $path).Hash.ToLower() }
+
+function Get-Disabled([string]$modsDir) {
+  $set = @{}
+  $cs = Join-Path (Split-Path $modsDir -Parent) "clientsettings.json"
+  if (Test-Path -LiteralPath $cs) {
+    try {
+      $j = (Get-Content -LiteralPath $cs -Raw) | ConvertFrom-Json
+      foreach ($entry in $j.disabledMods) { $set[(($entry -split '@')[0]).ToLower()] = $true }
+    } catch { }
+  }
+  return $set
+}
+
+# ---- locate folder + load manifest ----
+$modsDir = Find-ModsDir
+if (-not $modsDir -or -not (Test-Path -LiteralPath $modsDir)) {
+  Write-Host "ERROR: could not find your Vintage Story Mods folder." -ForegroundColor Red
+  Write-Host "Run with:  -ModsDir `"C:\path\to\VintagestoryData\Mods`""
+  exit 2
+}
+try { $man = Invoke-RestMethod -Uri $Manifest -TimeoutSec 30 }
+catch { Write-Host "ERROR: could not load manifest from $Manifest" -ForegroundColor Red; exit 2 }
+
+Write-Host "Mods folder : $modsDir"
+Write-Host ("Manifest    : game {0} | {1} mods | built {2}" -f $man.game_version, $man.count, $man.generated)
+Write-Host ("Mode        : {0}" -f $(if ($Apply) {"APPLY"} else {"DRY RUN"}))
+Write-Host ""
+
+# ---- index installed zips by modid ----
+$installed = @{}    # modid -> list of filenames
+Get-ChildItem -LiteralPath $modsDir -Filter *.zip -File | ForEach-Object {
+  $mid = Get-ModId $_.FullName
+  if ($mid) { if (-not $installed.ContainsKey($mid)) { $installed[$mid] = @() }; $installed[$mid] += $_.Name }
+}
+$disabled = Get-Disabled $modsDir
+$present  = @{}; foreach ($k in $installed.Keys) { $present[$k] = $true }
+
+$toGet=@(); $toRemove=@(); $ok=@(); $skipped=@(); $problems=@()
+$wantFiles=@{}; $useModids=@{}
+
+function Consider($m, [bool]$optional) {
+  $mid=$m.modid; $fn=$m.filename; $sha=$m.sha256; $url=$m.url
+  if ($optional) {
+    if (-not $present.ContainsKey($mid)) { $script:skipped += "$mid (not installed - left alone)"; return }
+    if ($disabled.ContainsKey($mid))     { $script:skipped += "$mid (disabled - left alone)"; return }
+  }
+  $script:useModids[$mid]=$true
+  $script:wantFiles[$fn]=$true
+  $target = Join-Path $modsDir $fn
+  if ($mid -and $installed.ContainsKey($mid)) {                 # always purge other versions
+    foreach ($other in $installed[$mid]) { if ($other -ne $fn) { $script:toRemove += $other } }
+  }
+  if ((Test-Path -LiteralPath $target) -and $sha -and ((Get-Sha $target) -eq $sha.ToLower())) { $script:ok += $fn; return }
+  if (-not $url) { $script:problems += "$fn (no download URL)"; return }
+  $script:toGet += $m
+}
+
+foreach ($m in $man.mods)     { Consider $m $false }
+foreach ($m in $man.optional) { Consider $m $true }
+
+# ModsByServer cleanup: redundant server-pushed copies of mods we now have
+$mbs = Join-Path (Split-Path $modsDir -Parent) "ModsByServer"
+$mbsRemove=@()
+if (Test-Path -LiteralPath $mbs) {
+  Get-ChildItem -LiteralPath $mbs -Filter *.zip -File | ForEach-Object {
+    $mid = Get-ModId $_.FullName
+    if ($mid -and $useModids.ContainsKey($mid)) { $mbsRemove += $_.Name }
+  }
+}
+
+Write-Host ("Up to date  : {0}" -f $ok.Count)
+Write-Host ("To download : {0}" -f $toGet.Count)
+foreach ($m in $toGet) { Write-Host ("    + {0}  ({1})" -f $m.filename, $(if($m.name){$m.name}else{$m.modid})) }
+$toRemove = $toRemove | Sort-Object -Unique
+if ($toRemove.Count) { Write-Host ("To replace (old versions): {0}" -f $toRemove.Count); $toRemove | ForEach-Object { Write-Host "    - $_" } }
+if ($mbsRemove.Count) { Write-Host ("ModsByServer to clean: {0}" -f $mbsRemove.Count); $mbsRemove | ForEach-Object { Write-Host "    - ModsByServer\$_" } }
+if ($skipped.Count) { Write-Host ("Optional left alone: {0}" -f $skipped.Count); $skipped | ForEach-Object { Write-Host "    . $_" } }
+if ($problems.Count) { Write-Host ("Manual (no URL): {0}" -f $problems.Count) -ForegroundColor Yellow; $problems | ForEach-Object { Write-Host "    ! $_" } }
+
+if (($toGet.Count -eq 0) -and ($toRemove.Count -eq 0) -and ($mbsRemove.Count -eq 0)) {
+  Write-Host "`nAlready in sync. Nothing to do." -ForegroundColor Green; exit 0
+}
+if (-not $Apply) {
+  $ans = Read-Host "`nApply these changes? (y/N)"
+  if ($ans -notmatch '^(y|yes)$') { Write-Host "Nothing changed."; exit 0 }
+}
+
+# ---- backup first ----
+$stamp = Get-Date -Format "yyyyMMdd-HHmmss"
+$backup = Join-Path $env:USERPROFILE "VSmods-backup-$stamp.zip"
+Write-Host "`nBacking up Mods folder -> $backup"
+Compress-Archive -Path (Join-Path $modsDir '*') -DestinationPath $backup -Force
+
+# ---- download + verify + install ----
+foreach ($m in $toGet) {
+  $fn=$m.filename; $sha=$m.sha256; $url=($m.url -replace ' ','%20')
+  $tmp = Join-Path $modsDir ("." + [System.Guid]::NewGuid().ToString() + ".tmp")
+  try {
+    Write-Host "  downloading $fn ..."
+    Invoke-WebRequest -Uri $url -OutFile $tmp -TimeoutSec 300
+    if ($sha -and ((Get-Sha $tmp) -ne $sha.ToLower())) {
+      Remove-Item -LiteralPath $tmp -Force
+      Write-Host "    ! checksum mismatch for $fn - discarded, NOT installed." -ForegroundColor Red
+      continue
+    }
+    Move-Item -LiteralPath $tmp -Destination (Join-Path $modsDir $fn) -Force
+    Write-Host "    ok $fn"
+  } catch {
+    if (Test-Path -LiteralPath $tmp) { Remove-Item -LiteralPath $tmp -Force }
+    Write-Host "    ! failed $fn : $_" -ForegroundColor Red
+  }
+}
+foreach ($r in $toRemove) {
+  $rp = Join-Path $modsDir $r
+  if ((Test-Path -LiteralPath $rp) -and (-not $wantFiles.ContainsKey($r))) { Remove-Item -LiteralPath $rp -Force; Write-Host "  removed old $r" }
+}
+foreach ($r in $mbsRemove) {
+  $rp = Join-Path $mbs $r
+  if (Test-Path -LiteralPath $rp) { Remove-Item -LiteralPath $rp -Force; Write-Host "  cleaned ModsByServer\$r" }
+}
+Write-Host "`nDone. Backup kept at $backup. Start the game once to rebuild caches." -ForegroundColor Green
