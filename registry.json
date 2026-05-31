@@ -1,5 +1,5 @@
 {
-  "generated": "20260531-080102",
+  "generated": "20260531-081418",
   "game_version": "1.22.3",
   "sheet_url": "https://docs.google.com/spreadsheets/d/1MZUkPV8T5S2HtIM8LexvDzXFZAidz0b4pdVqxegL5pE/edit",
   "submit_url": "https://script.google.com/macros/s/AKfycbzEYaH2pEXwJsnnkScgl2UIpImuw-yidQhg31F2rKjJ2fQ5SxlpB1fiSXztMtCFcsf_oQ/exec",
@@ -1172,5 +1172,5 @@
       "stats": {}
     }
   ],
-  "actions_v4": false
+  "actions_v4": true
 }
