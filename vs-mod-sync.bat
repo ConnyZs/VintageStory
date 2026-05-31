@@ -60,6 +60,16 @@ function Get-ModId([string]$zipPath) {
 
 function Get-Sha([string]$path) { return (Get-FileHash -Algorithm SHA256 -LiteralPath $path).Hash.ToLower() }
 
+function Fast-Skip([string]$path, [string]$sha, [long]$expectedSize) {
+  # quick size check before expensive SHA-256 — if sizes differ the file is definitely wrong
+  if ($expectedSize -gt 0) {
+    $actual = (Get-Item -LiteralPath $path).Length
+    if ($actual -ne $expectedSize) { return $false }
+  }
+  if (-not $sha) { return $true }   # no sha in manifest + size matched → assume ok
+  return ((Get-Sha $path) -eq $sha.ToLower())
+}
+
 function Get-Disabled([string]$modsDir) {
   $set = @{}
   $cs = Join-Path (Split-Path $modsDir -Parent) "clientsettings.json"
@@ -87,12 +97,28 @@ Write-Host ("Manifest    : game {0} | {1} mods | built {2}" -f $man.game_version
 Write-Host ("Mode        : {0}" -f $(if ($Apply) {"APPLY"} else {"DRY RUN"}))
 Write-Host ""
 
-# ---- index installed zips by modid ----
+# ---- index installed zips by modid (with cache so repeat runs skip re-opening unchanged zips) ----
+$cacheFile = Join-Path $modsDir ".sync-cache.json"
+$cache = @{}
+if (Test-Path -LiteralPath $cacheFile) {
+  try { $cache = (Get-Content -LiteralPath $cacheFile -Raw | ConvertFrom-Json -AsHashtable) } catch {}
+}
+$newCache = @{}
 $installed = @{}    # modid -> list of filenames
 Get-ChildItem -LiteralPath $modsDir -Filter *.zip -File | ForEach-Object {
-  $mid = Get-ModId $_.FullName
-  if ($mid) { if (-not $installed.ContainsKey($mid)) { $installed[$mid] = @() }; $installed[$mid] += $_.Name }
+  $fi = $_; $key = $fi.Name
+  $size = $fi.Length; $mtime = $fi.LastWriteTimeUtc.Ticks
+  # reuse cached modid if file hasn't changed (same size + mtime)
+  $mid = $null
+  if ($cache.ContainsKey($key) -and $cache[$key].size -eq $size -and $cache[$key].mtime -eq $mtime) {
+    $mid = $cache[$key].modid
+  } else {
+    $mid = Get-ModId $fi.FullName
+  }
+  $newCache[$key] = @{ modid = $mid; size = $size; mtime = $mtime }
+  if ($mid) { if (-not $installed.ContainsKey($mid)) { $installed[$mid] = @() }; $installed[$mid] += $fi.Name }
 }
+try { $newCache | ConvertTo-Json | Set-Content -LiteralPath $cacheFile -Encoding UTF8 } catch {}
 $disabled = Get-Disabled $modsDir
 $present  = @{}; foreach ($k in $installed.Keys) { $present[$k] = $true }
 
@@ -111,7 +137,7 @@ function Consider($m, [bool]$optional) {
   if ($mid -and $installed.ContainsKey($mid)) {                 # always purge other versions
     foreach ($other in $installed[$mid]) { if ($other -ne $fn) { $script:toRemove += $other } }
   }
-  if ((Test-Path -LiteralPath $target) -and $sha -and ((Get-Sha $target) -eq $sha.ToLower())) { $script:ok += $fn; return }
+  if ((Test-Path -LiteralPath $target) -and (Fast-Skip $target $sha ([long]($m.size)))) { $script:ok += $fn; return }
   if (-not $url) { $script:problems += "$fn (no download URL)"; return }
   $script:toGet += $m
 }
