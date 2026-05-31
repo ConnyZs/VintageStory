@@ -1,5 +1,5 @@
 {
-  "generated": "20260531-114726",
+  "generated": "20260531-115645",
   "game_version": "1.22.3",
   "modset": {
     "server_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset.zip",
@@ -490,9 +490,9 @@
       "modid": "instruments",
       "section": "1.21",
       "category": "Technology",
-      "on_server": false,
+      "on_server": true,
       "link": "https://mods.vintagestory.at/show/mod/463",
-      "server_state": "no",
+      "server_state": "yes",
       "avail": "likely",
       "note": "no 1.22 build yet \u2014 1.21 build likely works (installs)",
       "version": null,

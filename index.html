@@ -105,7 +105,7 @@
   .cat-head h2{font-family:"Cinzel",serif;font-weight:700;font-size:1.35rem;color:var(--ink);
     letter-spacing:.02em;white-space:nowrap}
   .cat-head .dash{flex:1;height:1px;background:linear-gradient(90deg,var(--line-strong),transparent)}
-  .cat-head .ct{font-family:"Spectral SC",serif;color:var(--ink-faint);font-size:.8rem;letter-spacing:.1em}
+  .cat-head .ct{font-family:"Spectral SC",serif;color:var(--ink-faint);font-size:.98rem;letter-spacing:.1em}
 
   .mod{display:grid;grid-template-columns:1fr auto;gap:6px 18px;align-items:center;
     padding:15px 18px;border-bottom:1px solid var(--line);transition:.18s;border-radius:5px}
@@ -495,12 +495,19 @@ function modRow(m){
                : onsrv?`<span class="tag-srv">on server</span>`
                : m.section==="optional"?`<span class="tag-srv">client side</span>`
                : `<span class="tag-srv off">not on server</span>`;   // candidate / not installed → no server controls
-  // a mod can be put on the server if it has a usable build (1.22 or 1.21) and isn't client-only
-  const installable=(m.avail==="available"||m.avail==="likely")&&m.section!=="optional";
-  const active = st==="yes" || (m.version && st!=="disabled" && st!=="remove" && st!=="no");
-  const actBox = (ADMIN_KEY&&REG.actions_v5&&m.link&&st!=="remove"&&(installable||onsrv))
-    ? `<label class="act-wrap" title="${active?'On the server — untick to disable':'Tick to install on the next deploy'}">
+  const isOutdated = m.avail==="outdated" || m.avail==="no-build";
+  const isClient = m.section==="optional";
+  // a mod can be put on the server if it has a usable build (1.22/1.21) and isn't client-only
+  const installable=(m.avail==="available"||m.avail==="likely")&&!isClient;
+  // checked = active. client-side mods are enabled by default unless explicitly disabled.
+  const active = isClient ? (st!=="disabled") : (st==="yes" || (m.version && st!=="disabled" && st!=="remove" && st!=="no"));
+  const admin = ADMIN_KEY&&REG.actions_v5&&m.link;
+  // activation checkbox: installable / on-server / client-side mods (NOT outdated). Trash: every mod.
+  const actBox = (admin&&st!=="remove"&&!isOutdated&&(installable||onsrv||isClient))
+    ? `<label class="act-wrap" title="${active?(isClient?'Enabled — untick to disable':'On the server — untick to disable'):'Tick to install on the next deploy'}">
          <input type="checkbox" class="act" data-link="${esc(m.link)}" ${active?"checked":""}></label>` : "";
+  const trashBtn = admin
+    ? `<button class="rm${st==="remove"?" on":""}" data-link="${esc(m.link)}" title="${st==="remove"?"Marked for removal — click to keep it":"Remove (toggle — reversible)"}"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg></button>` : "";
   const mcls = st==="remove" ? "mod removing"
              : st==="disabled" ? "mod disabledmod"
              : (m.avail==="outdated"||m.avail==="no-build") ? "mod outdatedmod"
@@ -513,7 +520,7 @@ function modRow(m){
       ${srvTag}
       <span class="seal ${m.avail}">${AVAIL_LABEL[m.avail]||m.avail}</span>
       ${actBox}
-      ${ADMIN_KEY&&REG.actions_v5&&m.link&&(onsrv||st==="remove")?`<button class="rm${st==="remove"?" on":""}" data-link="${esc(m.link)}" title="${st==="remove"?"Marked for removal — click to keep it":"Mark for removal on next deploy (toggle — reversible)"}"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg></button>`:""}
+      ${trashBtn}
     </div>
     ${m.avail!=="available"&&m.note?`<div class="note">${esc(m.note)}</div>`:""}
     ${m.modid?`<div class="id">${esc(m.modid)}</div>`:""}
