@@ -327,12 +327,13 @@
   .mbtn.go{background:linear-gradient(180deg,var(--copper-glow,#d98a4b),var(--copper));color:#1a1206;border-color:var(--copper);font-weight:600}
   .mbtn.go:hover{filter:brightness(1.06)}
   /* download-modset panel */
-  .dlpanel{display:flex;flex-direction:column;align-items:center;text-align:center;gap:12px;
+  .dlpanel{display:flex;flex-direction:column;align-items:stretch;text-align:center;gap:12px;
     margin:6px 0 8px;padding:20px 24px;border:1px solid var(--line-strong);border-radius:8px;background:var(--surface)}
   .dlpanel h2{margin:0;font-size:1.15rem}
   .dlpanel .sub2{color:var(--ink-faint);font-size:.86rem;margin-top:3px}
   .dlpanel code{font-family:monospace;color:var(--copper);background:var(--bg2);padding:1px 5px;border-radius:3px}
   .dlctrl{display:flex;flex-direction:column;align-items:center;gap:9px}
+  .dlbtn{display:block;width:fit-content;margin:0 auto}
   .dlopt{display:flex;align-items:center;gap:9px;font-size:.82rem;color:var(--ink-dim);cursor:pointer}
   .dlopt em{color:var(--ink-faint);font-style:normal}
   .dlopt input{appearance:none;-webkit-appearance:none;width:24px;height:24px;flex:none;cursor:pointer;
@@ -439,7 +440,7 @@
 
   <footer>
     <span>Kept in sync by <strong>vs-autoupdate</strong>. Propose mods right here on the dashboard — the server picks them up on the next update.</span>
-    <span class="dash-ver" title="dashboard version">Ledger v1.4</span>
+    <span class="dash-ver" title="dashboard version">Ledger v1.5</span>
     <span id="foot"></span>
   </footer>
 </div>
