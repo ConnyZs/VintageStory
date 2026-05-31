@@ -247,6 +247,18 @@
   .member .rows div{display:flex;justify-content:space-between;gap:12px;padding:6px 0;border-top:1px solid var(--line)}
   .member .rows .k{color:var(--ink-faint)} .member .rows .v{color:var(--ink)}
   .member .soon{margin-top:14px;font-size:.82rem;font-style:italic;color:var(--ink-faint)}
+  .member .chead{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  .classbadge{font-family:"Spectral SC",serif;font-size:.72rem;letter-spacing:.06em;text-transform:capitalize;
+    color:var(--copper-glow,#d98a4b);border:1px solid var(--copper);border-radius:20px;padding:3px 11px;background:rgba(217,138,75,.08)}
+  .member .cmeta{margin-top:6px;font-size:.76rem;color:var(--ink-faint);font-family:"Spectral SC",serif;letter-spacing:.03em}
+  .statgrid{margin-top:14px;display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+  .stat{background:var(--bg2);border:1px solid var(--line);border-radius:6px;padding:9px 4px;text-align:center}
+  .stat .sv{font-family:"Cinzel",serif;font-size:1.15rem;color:var(--ink)}
+  .stat .sl{font-size:.62rem;letter-spacing:.05em;color:var(--ink-faint);text-transform:uppercase;margin-top:2px}
+  .gearrow{margin-top:14px;border-top:1px solid var(--line);padding-top:12px}
+  .gearrow .gk{font-family:"Spectral SC",serif;font-size:.7rem;letter-spacing:.1em;color:var(--ink-faint);text-transform:uppercase}
+  .gearchips{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}
+  .gchip2{font-size:.74rem;color:var(--ink-dim);background:var(--surface);border:1px solid var(--line);border-radius:4px;padding:3px 8px}
   /* deploy progress bar (fixed top) */
   #deployBar{position:fixed;top:0;left:0;right:0;z-index:50}
   .db-track{height:4px;background:var(--line);overflow:hidden}
@@ -646,28 +658,28 @@ function renderCrew(){
   const box=document.getElementById("tab-crew");
   const crew=REG.crew||[];
   if(!crew.length){box.innerHTML='<div class="empty">No players found in the save yet.</div>';return;}
+  const fmtPlay=h=>h==null?null:(h<1?`${Math.round(h*60)}m`:`${h.toFixed(1)}h`);
+  const num=v=>v==null?null:Number(v).toLocaleString();
+  const tile=(label,val)=>val==null||val===""?"":`<div class="stat"><div class="sv">${esc(String(val))}</div><div class="sl">${esc(label)}</div></div>`;
   let html='<div class="crew">';
   crew.sort((a,b)=>new Date(b.last_join)-new Date(a.last_join)).forEach(m=>{
     const s=m.stats||{};
-    const online=!!s.online;
     const active=daysBetween(m.first_join,m.last_join);
-    let rows=`<div><span class="k">Role</span><span class="v">${esc(m.role||"player")}</span></div>
-      <div><span class="k">First joined</span><span class="v">${esc((m.first_join||"").split(" ")[0])}</span></div>
-      <div><span class="k">Last seen</span><span class="v">${online?"online now":ago(m.last_join)}</span></div>
-      <div><span class="k">Days on server</span><span class="v">${active!==null?active:"—"}</span></div>`;
-    let extra="";
-    if(Object.keys(s).length){   // Phase-2 mod data present
-      if(s.playtime_h!=null) rows+=`<div><span class="k">Playtime</span><span class="v">${s.playtime_h} h</span></div>`;
-      if(s.deaths!=null)     rows+=`<div><span class="k">Deaths</span><span class="v">${s.deaths}</span></div>`;
-      if(s.drifters_killed!=null) rows+=`<div><span class="k">Drifters slain</span><span class="v">${s.drifters_killed}</span></div>`;
-      if(s.mobs_killed!=null) rows+=`<div><span class="k">Creatures slain</span><span class="v">${s.mobs_killed}</span></div>`;
-      if(s.gear&&s.gear.length) extra=`<div class="rows"><div><span class="k">Wearing</span><span class="v">${s.gear.map(g=>esc(g)).join(", ")}</span></div></div>`;
-    } else {
-      extra='<div class="soon">Gear, kills & deaths appear once the stats mod is installed.</div>';
-    }
-    html+=`<div class="member"><h3><span class="dot ${online?"on":""}"></span>${esc(m.name||"Unknown")}</h3>
-      <div class="role">${esc(m.role||"player")}</div>
-      <div class="rows">${rows}</div>${extra}</div>`;
+    const has=s.class!=null||s.deaths!=null||s.blocksTravelled!=null;
+    const cls=s.class?`<span class="classbadge" title="character class">${esc(s.class)}</span>`:"";
+    const grid=has?`<div class="statgrid">`
+        +tile("deaths",s.deaths)+tile("mobs slain",s.mobKills)+tile("PvP",s.playerKills)
+        +tile("playtime",fmtPlay(s.playtimeHours))
+        +tile("travelled",num(s.blocksTravelled))
+        +tile("broken",num(s.blocksBroken))+tile("placed",num(s.blocksPlaced))
+        +tile("deepest Y",s.deepestY)
+        +`</div>`
+      :'<div class="soon">No stats yet — join the server to start recording.</div>';
+    const gear=(s.gear&&s.gear.length)
+      ?`<div class="gearrow"><span class="gk">Wearing</span><div class="gearchips">${s.gear.map(g=>`<span class="gchip2">${esc(g)}</span>`).join("")}</div></div>`:"";
+    const meta=`<div class="cmeta">${esc(m.role||"player")} · joined ${esc((m.first_join||"").split(" ")[0])} · seen ${ago(m.last_join)}${active!=null?` · ${active}d on server`:""}</div>`;
+    html+=`<div class="member"><div class="chead"><h3>${esc(m.name||"Unknown")}</h3>${cls}</div>
+      ${meta}${grid}${gear}</div>`;
   });
   box.innerHTML=html+'</div>';
 }

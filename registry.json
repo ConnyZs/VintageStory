@@ -1,5 +1,5 @@
 {
-  "generated": "20260531-125650",
+  "generated": "20260531-162701",
   "game_version": "1.22.3",
   "modset": {
     "server_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset.zip",
@@ -527,9 +527,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "0.6.10",
-      "build_version": "0.6.10",
+      "build_version": "0.6.11",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -543,9 +543,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.2.8",
-      "build_version": "1.2.8",
+      "build_version": "1.3.0",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -1258,9 +1258,36 @@
       "name": "Raschuetzer",
       "role": "admin",
       "first_join": "04/22/2026 17:47",
-      "last_join": "05/31/2026 10:09",
+      "last_join": "05/31/2026 14:22",
       "last_char": "04/29/2026 21:30",
-      "stats": {}
+      "stats": {
+        "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
+        "name": "Raschuetzer",
+        "class": "tinker",
+        "deaths": 0,
+        "mobKills": 1,
+        "playerKills": 0,
+        "playtimeHours": 0.1,
+        "blocksTravelled": 407,
+        "blocksBroken": 3,
+        "blocksPlaced": 1,
+        "deepestY": 113,
+        "lastSeen": 1780237579,
+        "gear": [
+          "Messenger hat",
+          "Artisans scarf",
+          "Scarlet ornate linen tunic",
+          "Marketeer pants",
+          "Thigh-high boots",
+          "Laced handsome gloves",
+          "Forlorn Hope talisman",
+          "Cursed gemstone",
+          "Malefactor whitewood mask",
+          "Forlorn Hope belt",
+          "Merchant bracelet",
+          "Fur coat"
+        ]
+      }
     },
     {
       "name": "Eghetti",
