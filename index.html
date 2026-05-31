@@ -257,6 +257,8 @@
     background:var(--surface);border:1px solid var(--copper);border-radius:20px;padding:6px 16px;
     box-shadow:0 4px 18px rgba(0,0,0,.35)}
   .db-pill #db-msg{color:var(--ink-faint)}
+  .db-note{position:absolute;top:46px;left:50%;transform:translateX(-50%);white-space:nowrap;
+    font-size:.72rem;color:var(--ink-faint);font-style:italic;text-shadow:0 1px 4px var(--bg)}
   #deployBar.done .db-stripe{width:100%;transform:none;animation:none;background:var(--verd,#6a9f5b)}
   #deployBar.done .db-pill{border-color:var(--verd,#6a9f5b)}
   /* in-site deploy confirm modal */
@@ -328,6 +330,7 @@
   <div id="deployBar" hidden>
     <div class="db-track"><div class="db-stripe"></div></div>
     <div class="db-pill">⚡ Deploying… <span id="db-msg">applying the update</span></div>
+    <div class="db-note">your client updates automatically · friends grab the new modset from the dashboard</div>
   </div>
 
   <div id="deployModal" class="modal-back" hidden>
