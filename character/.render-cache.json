@@ -4,6 +4,7 @@
   "info": {
    "class": "tinker",
    "items": [
+    "facialexpression",
     "Messenger hat",
     "Artisans scarf",
     "Scarlet ornate linen tunic",
@@ -27,6 +28,7 @@
   "info": {
    "class": "smith",
    "items": [
+    "facialexpression",
     "Raccoon tail hat",
     "Blacksmith apron",
     "Workmans pants",
