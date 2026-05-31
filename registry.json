@@ -1,5 +1,5 @@
 {
-  "generated": "20260531-072942",
+  "generated": "20260531-073559",
   "game_version": "1.22.3",
   "sheet_url": "https://docs.google.com/spreadsheets/d/1MZUkPV8T5S2HtIM8LexvDzXFZAidz0b4pdVqxegL5pE/edit",
   "submit_url": "https://script.google.com/macros/s/AKfycbzEYaH2pEXwJsnnkScgl2UIpImuw-yidQhg31F2rKjJ2fQ5SxlpB1fiSXztMtCFcsf_oQ/exec",
@@ -35,7 +35,7 @@
     "Trading",
     "Weapons"
   ],
-  "count": 77,
+  "count": 78,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1114,6 +1114,20 @@
       "build_version": "2.5.2",
       "build_branch": "1.22",
       "proposed": false
+    },
+    {
+      "name": "backpacks",
+      "modid": "backpacks",
+      "section": "1.22",
+      "category": "Misc.",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/backpacks",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": null,
+      "build_version": "0.1.0",
+      "build_branch": "1.22",
+      "proposed": true
     }
   ],
   "crew": [
