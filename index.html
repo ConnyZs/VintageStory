@@ -246,6 +246,8 @@
     <div class="tally" id="tally"></div>
   </header>
 
+  <section id="approvals"></section>
+
   <nav class="tabs">
     <button class="tab on" data-tab="mods">Mods</button>
     <button class="tab" data-tab="crew">Crew</button>
@@ -253,6 +255,7 @@
   </nav>
 
   <div id="tab-mods" class="tab-panel">
+  <!-- admin proposals panel moved to top-level (always visible with ?key=) -->
   <div class="controls">
     <div class="search"><input id="q" type="text" placeholder="Search mods, ids, categories…" autocomplete="off"></div>
     <div class="chips" id="chips">
@@ -264,7 +267,6 @@
     </div>
   </div>
 
-  <section id="approvals"></section>
   <main id="main"><div class="empty">Unrolling the ledger…</div></main>
   </div><!-- /tab-mods -->
 
