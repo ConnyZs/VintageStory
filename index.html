@@ -476,41 +476,49 @@ function render(){
     html+=`<section class="cat" style="animation-delay:${(d++*0.05).toFixed(2)}s">
       <div class="cat-head"><h2>${esc(c)}</h2><span class="dash"></span>
       <span class="ct">${cats[c].length}</span></div>`;
-    cats[c].sort((a,b)=>a.name.localeCompare(b.name)).forEach(m=>{
-      const nm=m.link?`<a class="name" href="${esc(m.link)}" target="_blank" rel="noopener">${esc(m.name)}<span class="arrow">↗</span></a>`
-                      :`<span class="name">${esc(m.name)}</span>`;
-      const st=m.server_state||"";
-      const onsrv=st==="yes"||st==="disabled"||(m.on_server&&st!=="remove"&&st!=="no");
-      const srvTag = st==="remove"?`<span class="tag-srv rem">removing…</span>`
-                   : st==="disabled"?`<span class="tag-srv off">disabled</span>`
-                   : onsrv?`<span class="tag-srv">on server</span>`
-                   : m.section==="optional"?`<span class="tag-srv">client side</span>`:"";
-      // admin: per-mod activation toggle (ticked = active, untick = disabled), only for installed mods
-      const actBox = (ADMIN_KEY&&REG.actions_v5&&m.link&&onsrv&&st!=="remove")
-        ? `<label class="act-wrap" title="Active — untick to disable (applies on next deploy)">
-             <input type="checkbox" class="act" data-link="${esc(m.link)}" ${st!=="disabled"?"checked":""}></label>` : "";
-      const mcls = st==="remove" ? "mod removing"
-                 : st==="disabled" ? "mod disabledmod"
-                 : (m.avail==="outdated"||m.avail==="no-build") ? "mod outdatedmod"
-                 : m.update_pending ? "mod updatemod"
-                 : "mod";
-      html+=`<div class="${mcls}">${nm}
-        <div class="right">
-          ${(m.version||m.build_version)?`<span class="ver-pill">v${esc(m.version||m.build_version)}</span>`:""}
-          ${m.build_branch==="1.21"?`<span class="seal likely" title="Only a 1.21 build exists — older, usually works on 1.22">1.21 build</span>`:""}
-          ${srvTag}
-          <span class="seal ${m.avail}">${AVAIL_LABEL[m.avail]||m.avail}</span>
-          ${actBox}
-          ${ADMIN_KEY&&REG.actions_v5&&m.link&&(onsrv||st==="remove")?`<button class="rm${st==="remove"?" on":""}" data-link="${esc(m.link)}" title="${st==="remove"?"Marked for removal — click to keep it":"Mark for removal on next deploy (toggle — reversible)"}"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg></button>`:""}
-        </div>
-        ${m.avail!=="available"&&m.note?`<div class="note">${esc(m.note)}</div>`:""}
-        ${m.modid?`<div class="id">${esc(m.modid)}</div>`:""}
-      </div>`;
-    });
+    cats[c].sort((a,b)=>a.name.localeCompare(b.name)).forEach(m=>{ html+=modRow(m); });
     html+="</section>";
   }
   main.innerHTML=html;
   deployBadge();
+}
+// one mod's row — also used to update a single row in place (no full re-render flicker)
+function modRow(m){
+  const nm=m.link?`<a class="name" href="${esc(m.link)}" target="_blank" rel="noopener">${esc(m.name)}<span class="arrow">↗</span></a>`
+                  :`<span class="name">${esc(m.name)}</span>`;
+  const st=m.server_state||"";
+  const onsrv=st==="yes"||st==="disabled"||(m.on_server&&st!=="remove"&&st!=="no");
+  const srvTag = st==="remove"?`<span class="tag-srv rem">removing…</span>`
+               : st==="disabled"?`<span class="tag-srv off">disabled</span>`
+               : onsrv?`<span class="tag-srv">on server</span>`
+               : m.section==="optional"?`<span class="tag-srv">client side</span>`:"";
+  const actBox = (ADMIN_KEY&&REG.actions_v5&&m.link&&onsrv&&st!=="remove")
+    ? `<label class="act-wrap" title="Active — untick to disable (applies on next deploy)">
+         <input type="checkbox" class="act" data-link="${esc(m.link)}" ${st!=="disabled"?"checked":""}></label>` : "";
+  const mcls = st==="remove" ? "mod removing"
+             : st==="disabled" ? "mod disabledmod"
+             : (m.avail==="outdated"||m.avail==="no-build") ? "mod outdatedmod"
+             : m.update_pending ? "mod updatemod"
+             : "mod";
+  return `<div class="${mcls}" data-link="${esc(m.link||'')}">${nm}
+    <div class="right">
+      ${(m.version||m.build_version)?`<span class="ver-pill">v${esc(m.version||m.build_version)}</span>`:""}
+      ${m.build_branch==="1.21"?`<span class="seal likely" title="Only a 1.21 build exists — older, usually works on 1.22">1.21 build</span>`:""}
+      ${srvTag}
+      <span class="seal ${m.avail}">${AVAIL_LABEL[m.avail]||m.avail}</span>
+      ${actBox}
+      ${ADMIN_KEY&&REG.actions_v5&&m.link&&(onsrv||st==="remove")?`<button class="rm${st==="remove"?" on":""}" data-link="${esc(m.link)}" title="${st==="remove"?"Marked for removal — click to keep it":"Mark for removal on next deploy (toggle — reversible)"}"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg></button>`:""}
+    </div>
+    ${m.avail!=="available"&&m.note?`<div class="note">${esc(m.note)}</div>`:""}
+    ${m.modid?`<div class="id">${esc(m.modid)}</div>`:""}
+  </div>`;
+}
+// swap a single mod's row in place + refresh the badge/tally — no whole-list re-render
+function updateModRow(link){
+  const m=DATA.find(x=>x.link===link); if(!m)return;
+  const el=document.querySelector(`#main .mod[data-link="${(window.CSS&&CSS.escape)?CSS.escape(link):link}"]`);
+  if(el) el.outerHTML=modRow(m); else render();
+  deployBadge(); buildTally();
 }
 // elegant marker under Deploy now — +installed (accepted proposals) ~updated −removed.
 // Hovering a pill lists the exact mods. "Added" = accepted dashboard proposals only.
@@ -563,14 +571,14 @@ document.getElementById("main").addEventListener("click",async e=>{
   const m=DATA.find(x=>x.link===link); if(!m)return;
   const wasRemoving=(m.server_state==="remove"), prev=m.server_state;
   m.server_state = wasRemoving ? "yes" : "remove";   // optimistic toggle
-  buildTally();render();
+  updateModRow(link);
   try{
     await fetch(REG.submit_url,{method:"POST",mode:"no-cors",
       headers:{"Content-Type":"text/plain;charset=utf-8"},
       body:JSON.stringify({action:(wasRemoving?"approve":"remove"),link,key:ADMIN_KEY})});
     showToast(wasRemoving?"Kept — no longer marked for removal."
              :"Marked for removal — applies on next deploy (click 🗑 again to keep it).",true);
-  }catch(err){m.server_state=prev;buildTally();render();showToast("Failed — try again.",false);}
+  }catch(err){m.server_state=prev;updateModRow(link);showToast("Failed — try again.",false);}
 });
 // admin: activation toggle — tick = active (yes), untick = disabled. Applied on next deploy.
 document.getElementById("main").addEventListener("change",async e=>{
@@ -582,7 +590,7 @@ document.getElementById("main").addEventListener("change",async e=>{
       headers:{"Content-Type":"text/plain;charset=utf-8"},
       body:JSON.stringify({action:active?"approve":"disable",link,key:ADMIN_KEY})});
     const m=DATA.find(x=>x.link===link); if(m)m.server_state=active?"yes":"disabled";
-    render();
+    updateModRow(link);
     showToast((active?"Re-enabled":"Disabled")+" — applies on next deploy. Hit ⚡ Deploy now to apply.",true);
   }catch(err){cb.checked=!active;showToast("Failed — try again.",false);}
   finally{cb.disabled=false;}
