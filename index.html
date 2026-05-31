@@ -177,6 +177,17 @@
     color:var(--ink);padding:13px 22px;border-radius:6px;box-shadow:var(--shadow);opacity:0;
     transition:.3s;font-size:.95rem}
   .toast.show{opacity:1;transform:translateX(-50%)}
+  /* admin approvals panel */
+  .approvals{margin:30px 0 0}
+  .apanel{border:1px solid var(--copper);border-radius:8px;background:linear-gradient(180deg,rgba(212,149,74,.07),transparent);padding:20px 22px}
+  .apanel h2{font-family:"Cinzel",serif;font-weight:700;font-size:1.3rem;color:var(--copper-glow);margin-bottom:4px}
+  .apanel .sub2{color:var(--ink-dim);font-size:.88rem;margin-bottom:14px}
+  .prow{display:flex;align-items:center;gap:14px;padding:11px 0;border-top:1px solid var(--line)}
+  .prow input{width:20px;height:20px;accent-color:var(--verd);cursor:pointer;flex:none}
+  .prow .pn{flex:1}
+  .prow .pn a{color:var(--ink);text-decoration:none;font-size:1.05rem}
+  .prow .pn a:hover{color:var(--copper-glow)}
+  .prow .pn .meta2{color:var(--ink-faint);font-size:.8rem;font-family:"Spectral SC",serif}
 
   @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
   @keyframes wipe{from{opacity:0;transform:scaleX(0)}to{opacity:1;transform:scaleX(1)}}
@@ -211,6 +222,7 @@
     </div>
   </div>
 
+  <section id="approvals"></section>
   <main id="main"><div class="empty">Unrolling the ledger…</div></main>
 
   <footer>
@@ -245,6 +257,7 @@
 <script>
 const AVAIL_LABEL={available:"Available",likely:"Likely works",outdated:"Outdated",["no-build"]:"Outdated",["not-found"]:"Unresolved",pending:"Pending sync"};
 let DATA=[], REG={}, filter="all", query="";
+const ADMIN_KEY=new URLSearchParams(location.search).get("key");   // ?key=… → approval mode
 
 fetch("registry.json?_="+Date.now()).then(r=>r.json()).then(reg=>{
   REG=reg; DATA=reg.mods||[];
@@ -258,6 +271,7 @@ fetch("registry.json?_="+Date.now()).then(r=>r.json()).then(reg=>{
   initForm();
   buildTally();
   render();
+  renderApprovals();
 }).catch(e=>{
   document.getElementById("main").innerHTML='<div class="empty">Could not load registry.json — has the updater published it yet?</div>';
 });
@@ -323,6 +337,40 @@ document.getElementById("chips").addEventListener("click",e=>{
   document.querySelectorAll(".chip").forEach(x=>x.classList.remove("on"));
   c.classList.add("on");filter=c.dataset.f;render();
 });
+
+/* ---------- admin: approve proposals (only with ?key=) ---------- */
+function renderApprovals(){
+  const box=document.getElementById("approvals");
+  if(!ADMIN_KEY){box.innerHTML="";return;}
+  const pend=DATA.filter(m=>m.proposed && !m.on_server);
+  if(!pend.length){box.innerHTML=`<div class="apanel"><h2>Admin · proposals</h2><div class="sub2">No proposals waiting. New dashboard suggestions show up here for you to approve.</div></div>`;return;}
+  let rows="";
+  pend.sort((a,b)=>a.name.localeCompare(b.name)).forEach(m=>{
+    const ver=m.build_version?`v${esc(m.build_version)}`:"?";
+    const br=m.build_branch==="1.21"?' · ⚠ 1.21 build (older)':(m.build_branch?` · ${m.build_branch} build`:" · no build (outdated)");
+    const can=m.avail==="available"||m.avail==="likely";
+    rows+=`<div class="prow">
+      <input type="checkbox" data-link="${esc(m.link)}" ${can?"":"disabled"} title="${can?'approve':'no compatible build'}">
+      <div class="pn"><a href="${esc(m.link)}" target="_blank" rel="noopener">${esc(m.name)} ↗</a>
+        <div class="meta2">${esc(m.category||"")} · ${ver}${br}</div></div>
+    </div>`;
+  });
+  box.innerHTML=`<div class="apanel"><h2>Admin · proposals (${pend.length})</h2>
+    <div class="sub2">Tick to approve — it goes on the server with the next update. Click the name to see what it does.</div>${rows}</div>`;
+  box.querySelectorAll('input[type=checkbox]').forEach(cb=>cb.addEventListener("change",async()=>{
+    if(!cb.checked)return;
+    cb.disabled=true;
+    const link=cb.dataset.link;
+    try{
+      await fetch(REG.submit_url,{method:"POST",mode:"no-cors",
+        headers:{"Content-Type":"text/plain;charset=utf-8"},
+        body:JSON.stringify({action:"approve",link,key:ADMIN_KEY})});
+      const row=cb.closest(".prow");row.style.opacity=".5";
+      row.querySelector(".pn").insertAdjacentHTML("beforeend",' <span class="meta2" style="color:var(--verd)">approved ✓</span>');
+      showToast("Approved — installs on the next update.",true);
+    }catch(e){cb.disabled=false;showToast("Approve failed — try again.",false);}
+  }));
+}
 
 /* ---------- Add-a-mod form ---------- */
 const scrim=document.getElementById("scrim"), toast=document.getElementById("toast");

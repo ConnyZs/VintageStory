@@ -1,5 +1,5 @@
 {
-  "generated": "20260531-060933",
+  "generated": "20260531-061548",
   "game_version": "1.22.3",
   "sheet_url": "https://docs.google.com/spreadsheets/d/1MZUkPV8T5S2HtIM8LexvDzXFZAidz0b4pdVqxegL5pE/edit",
   "submit_url": "https://script.google.com/macros/s/AKfycbwn8TqA0d7dSivVRtWpTGhlkEOTCXHgXqdc8RtRRm9gUANppInTUbPN5lY_wJea8YiYVg/exec",
@@ -48,7 +48,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "3.0.9",
       "build_version": "3.0.9",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Papiers Peints",
@@ -61,7 +62,8 @@
       "note": "no 1.22 build yet \u2014 1.21 build likely works (installs)",
       "version": "1.0.1",
       "build_version": "1.0.1",
-      "build_branch": "1.21"
+      "build_branch": "1.21",
+      "proposed": false
     },
     {
       "name": "Bird's Eye",
@@ -74,7 +76,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "0.1.4",
       "build_version": "0.1.4",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "AE Titanium Tools Reborn",
@@ -87,7 +90,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "3.1.2",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Natural Foliage",
@@ -100,7 +104,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "0.0.4",
       "build_version": "0.0.4",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Alchemy",
@@ -113,7 +118,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "2.0.34",
       "build_version": "2.0.34",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Player Corpse",
@@ -126,7 +132,8 @@
       "note": "no 1.22 build yet \u2014 1.21 build likely works (installs)",
       "version": "1.12.0",
       "build_version": "1.12.0",
-      "build_branch": "1.21"
+      "build_branch": "1.21",
+      "proposed": false
     },
     {
       "name": "Coriaenderr",
@@ -139,7 +146,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "1.2.0",
       "build_version": "1.2.1",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "All Classes",
@@ -152,7 +160,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "2.2.4",
       "build_version": "2.2.4",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Quivers And Sheaths",
@@ -165,7 +174,8 @@
       "note": "no 1.22 build yet \u2014 1.21 build likely works (installs)",
       "version": null,
       "build_version": "0.8.7",
-      "build_branch": "1.21"
+      "build_branch": "1.21",
+      "proposed": false
     },
     {
       "name": "Status Hud Continued",
@@ -178,7 +188,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "4.3.1",
       "build_version": "4.3.1",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Animal cages",
@@ -191,7 +202,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "5.0.0",
       "build_version": "5.0.0",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Real Grapes",
@@ -204,7 +216,8 @@
       "note": "no 1.22 build yet \u2014 1.21 build likely works (installs)",
       "version": null,
       "build_version": "1.3.1",
-      "build_branch": "1.21"
+      "build_branch": "1.21",
+      "proposed": false
     },
     {
       "name": "Auto Map Markers",
@@ -217,7 +230,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "5.0.3",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Salty & Proto's Temporal Symphony",
@@ -230,7 +244,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "2.3.1",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Better Arrows",
@@ -243,7 +258,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "1.0.1",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Sammiches",
@@ -256,7 +272,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "1.3.0",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Better Sticks",
@@ -269,7 +286,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "1.2.1",
       "build_version": "1.2.1",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Stone Quarry",
@@ -282,7 +300,8 @@
       "note": "no 1.22 build yet \u2014 1.21 build likely works (installs)",
       "version": null,
       "build_version": "3.5.1",
-      "build_branch": "1.21"
+      "build_branch": "1.21",
+      "proposed": false
     },
     {
       "name": "BetterEr Prospecting",
@@ -295,7 +314,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "3.3.1",
       "build_version": "3.3.1",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Storage Options",
@@ -308,7 +328,8 @@
       "note": "no 1.22 build yet \u2014 1.21 build likely works (installs)",
       "version": null,
       "build_version": "2.0.0",
-      "build_branch": "1.21"
+      "build_branch": "1.21",
+      "proposed": false
     },
     {
       "name": "BetterRuins",
@@ -321,7 +342,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "0.6.2",
       "build_version": "0.6.2",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Firearms",
@@ -334,7 +356,8 @@
       "note": "no 1.22 build yet \u2014 1.21 build likely works (installs)",
       "version": null,
       "build_version": "1.8.1",
-      "build_branch": "1.21"
+      "build_branch": "1.21",
+      "proposed": false
     },
     {
       "name": "Blood Trail",
@@ -347,7 +370,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "1.2.2",
       "build_version": "1.2.2",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Bola",
@@ -360,7 +384,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "1.4.1",
       "build_version": "1.4.1",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Bricklayers",
@@ -373,7 +398,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "3.2.2",
       "build_version": "3.2.2",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Crossbows",
@@ -386,7 +412,8 @@
       "note": "no 1.22 build yet \u2014 1.21 build likely works (installs)",
       "version": null,
       "build_version": "1.8.2",
-      "build_branch": "1.21"
+      "build_branch": "1.21",
+      "proposed": false
     },
     {
       "name": "Butchering",
@@ -399,7 +426,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "1.13.4",
       "build_version": "1.13.4",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Instruments",
@@ -412,7 +440,8 @@
       "note": "no 1.22 build yet \u2014 1.21 build likely works (installs)",
       "version": null,
       "build_version": "2.0.7",
-      "build_branch": "1.21"
+      "build_branch": "1.21",
+      "proposed": false
     },
     {
       "name": "Buzzwords",
@@ -425,7 +454,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "1.8.2",
       "build_version": "1.8.2",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "CAN Jewelry",
@@ -438,7 +468,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "0.6.10",
       "build_version": "0.6.10",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Scaffolding",
@@ -451,7 +482,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "1.2.8",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Carry On",
@@ -464,7 +496,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "1.14.2",
       "build_version": "1.14.2",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Coinage",
@@ -477,7 +510,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "2.1.9",
       "build_version": "2.1.9",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Darce's Drifters Redone",
@@ -490,7 +524,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "1.3.0",
       "build_version": "1.3.0",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Ancient Tools",
@@ -503,7 +538,8 @@
       "note": "no 1.22 build yet \u2014 1.21 build likely works (installs)",
       "version": null,
       "build_version": "1.6.1",
-      "build_branch": "1.21"
+      "build_branch": "1.21",
+      "proposed": false
     },
     {
       "name": "Diverse Diets",
@@ -516,7 +552,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "1.0.4",
       "build_version": "1.0.4",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Art of Pies",
@@ -529,7 +566,8 @@
       "note": "no 1.22 build yet \u2014 1.21 build likely works (installs)",
       "version": "2.1.0",
       "build_version": "2.1.0",
-      "build_branch": "1.21"
+      "build_branch": "1.21",
+      "proposed": false
     },
     {
       "name": "Electrical Progressive: Basics",
@@ -542,7 +580,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "3.2.1",
       "build_version": "3.2.1",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Better Loot",
@@ -555,7 +594,8 @@
       "note": "no 1.22 build yet \u2014 1.21 build likely works (installs)",
       "version": "2.0.1",
       "build_version": "2.0.1",
-      "build_branch": "1.21"
+      "build_branch": "1.21",
+      "proposed": false
     },
     {
       "name": "Fauna of the Stone Age +\nother Stonage Fauna mods",
@@ -568,7 +608,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "1.2.13",
       "build_version": "1.2.13",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Food Shelves",
@@ -581,7 +622,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "3.0.4",
       "build_version": "3.0.4",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Combat Overhaul",
@@ -594,7 +636,8 @@
       "note": "no 1.22 build yet \u2014 1.21 build likely works (installs)",
       "version": null,
       "build_version": "0.16.16",
-      "build_branch": "1.21"
+      "build_branch": "1.21",
+      "proposed": false
     },
     {
       "name": "Footprints",
@@ -607,7 +650,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "1.2.2",
       "build_version": "1.2.2",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Combat Overhaul: Armory",
@@ -620,7 +664,8 @@
       "note": "no 1.22 build yet \u2014 1.21 build likely works (installs)",
       "version": null,
       "build_version": "1.10.2",
-      "build_branch": "1.21"
+      "build_branch": "1.21",
+      "proposed": false
     },
     {
       "name": "Forgotten Armory: Gothic style",
@@ -633,7 +678,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "1.3.4",
       "build_version": "1.3.4",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Combat Overhaul: Reanimated",
@@ -646,7 +692,8 @@
       "note": "outdated \u2014 no 1.22 or 1.21 build, won't be installed",
       "version": null,
       "build_version": null,
-      "build_branch": null
+      "build_branch": null,
+      "proposed": false
     },
     {
       "name": "Forgotten Armory: Landsknechts",
@@ -659,7 +706,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "1.2.5",
       "build_version": "1.2.5",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Forgotten Armory: Templar Style",
@@ -672,7 +720,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "1.4.6",
       "build_version": "1.4.6",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Gourmand",
@@ -685,7 +734,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "1.8.9",
       "build_version": "1.8.9",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Immersive Fibercraft",
@@ -698,7 +748,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "1.2.7",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Millwright",
@@ -711,7 +762,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "1.3.3",
       "build_version": "1.3.3",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "NDL Wooden Torch Holders",
@@ -724,7 +776,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "3.0.2",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Noitce Board",
@@ -737,7 +790,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "2.0.1",
       "build_version": "2.0.1",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Place On Slabs",
@@ -750,7 +804,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "1.1.3",
       "build_version": "1.1.3",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "ProspectTogether",
@@ -763,7 +818,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "2.2.1",
       "build_version": "2.2.1",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "QP's Chisel Tools",
@@ -776,7 +832,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "1.17.2",
       "build_version": "1.17.2",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Real Smoke",
@@ -789,7 +846,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "1.2.0",
       "build_version": "1.2.0",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Scarecrow",
@@ -802,7 +860,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "1.8.2",
       "build_version": "1.8.2",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Shelf Obsessed",
@@ -815,7 +874,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "2.1.5",
       "build_version": "2.1.5",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Smithing Plus",
@@ -828,7 +888,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "1.8.6",
       "build_version": "1.9.0-rc.1",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Sortable Storage",
@@ -841,7 +902,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "3.0.0",
       "build_version": "3.0.0",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Stone Bake Oven",
@@ -854,7 +916,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "1.3.2",
       "build_version": "1.3.2",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Stone Railings",
@@ -867,7 +930,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "1.4.0",
       "build_version": "1.4.0",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Tabletop Games",
@@ -880,7 +944,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "4.0.0-pre.2",
       "build_version": "4.0.0-pre.2",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Tankards, Goblets and More!",
@@ -893,7 +958,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "1.4.2",
       "build_version": "1.4.2",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Translocator Engineering - Redux",
@@ -906,7 +972,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "1.6.6",
       "build_version": "1.6.6",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "VS Roofing Mod (Successor to OneRoof)",
@@ -919,7 +986,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "1.5.7",
       "build_version": "1.5.7",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Weapon Pack",
@@ -932,7 +1000,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "1.9.0",
       "build_version": "1.8.2",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Window Storage",
@@ -945,7 +1014,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "1.8.25",
       "build_version": "1.8.25",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Tailor's Delight",
@@ -958,7 +1028,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "2.2.2",
       "build_version": "2.2.2",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Cartwright\u00b4s Caravan",
@@ -971,7 +1042,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "1.9.1",
       "build_version": "1.9.1",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Chiseled Block Retention",
@@ -984,7 +1056,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "2.0.1",
       "build_version": "2.0.1",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Expanded Foods 2.0.0-dev",
@@ -997,7 +1070,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "2.0.0-dev.8",
       "build_version": "2.0.0-dev.8",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "A Culinary Artillery 2.0.0-dev",
@@ -1010,7 +1084,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "2.0.0-dev.19",
       "build_version": "2.0.0-dev.19",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Spyglass",
@@ -1023,7 +1098,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "0.6.1",
       "build_version": "0.6.1",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     },
     {
       "name": "Useful Traders",
@@ -1036,7 +1112,8 @@
       "note": "available for 1.22 (installs on update)",
       "version": "2.5.2",
       "build_version": "2.5.2",
-      "build_branch": "1.22"
+      "build_branch": "1.22",
+      "proposed": false
     }
   ]
 }
