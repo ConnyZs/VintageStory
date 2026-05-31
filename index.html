@@ -259,6 +259,25 @@
   .db-pill #db-msg{color:var(--ink-faint)}
   #deployBar.done .db-stripe{width:100%;transform:none;animation:none;background:var(--verd,#6a9f5b)}
   #deployBar.done .db-pill{border-color:var(--verd,#6a9f5b)}
+  /* in-site deploy confirm modal */
+  .modal-back{position:fixed;inset:0;z-index:100;display:flex;align-items:center;justify-content:center;
+    background:rgba(8,6,4,.62);backdrop-filter:blur(2px);padding:20px}
+  .modal{background:var(--surface);border:1px solid var(--copper);border-radius:10px;max-width:470px;width:100%;
+    padding:24px 26px;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+  .modal h2{margin:0 0 6px;font-size:1.3rem}
+  .modal .msub{color:var(--ink-faint);font-size:.85rem;margin:0 0 16px}
+  #deployChanges{max-height:46vh;overflow:auto;margin-bottom:18px}
+  .dmsec{margin-bottom:12px}
+  .dmh{display:flex;align-items:center;gap:8px;font-family:"Spectral SC",serif;font-size:.9rem;color:var(--ink-dim)}
+  .dmsec ul{margin:6px 0 0;padding-left:26px;color:var(--ink);font-size:.9rem}
+  .dmsec li{margin:2px 0}
+  .dmnone{color:var(--ink-faint);font-style:italic;font-size:.9rem;padding:6px 0}
+  .modal-actions{display:flex;justify-content:flex-end;gap:10px}
+  .mbtn{font-family:"Spectral SC",serif;font-size:.86rem;letter-spacing:.03em;cursor:pointer;border-radius:6px;
+    padding:9px 18px;border:1px solid var(--line-strong);background:none;color:var(--ink);transition:.15s}
+  .mbtn.ghost:hover{border-color:var(--ink-dim)}
+  .mbtn.go{background:linear-gradient(180deg,var(--copper-glow,#d98a4b),var(--copper));color:#1a1206;border-color:var(--copper);font-weight:600}
+  .mbtn.go:hover{filter:brightness(1.06)}
   /* download-modset panel */
   .dlpanel{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:18px;
     margin:6px 0 8px;padding:18px 20px;background:var(--surface);border:1px solid var(--line-strong);border-radius:8px}
@@ -308,6 +327,18 @@
   <div id="deployBar" hidden>
     <div class="db-track"><div class="db-stripe"></div></div>
     <div class="db-pill">⚡ Deploying… <span id="db-msg">applying the update</span></div>
+  </div>
+
+  <div id="deployModal" class="modal-back" hidden>
+    <div class="modal">
+      <h2>Deploy to the server?</h2>
+      <p class="msub">This applies the changes below to the live server and your client, then republishes the friend modset. Takes ~1–2 min.</p>
+      <div id="deployChanges"></div>
+      <div class="modal-actions">
+        <button class="mbtn ghost" id="dmCancel">Cancel</button>
+        <button class="mbtn go" id="dmGo"><span class="plus">⚡</span> Deploy now</button>
+      </div>
+    </div>
   </div>
 
   <header>
@@ -479,19 +510,37 @@ function render(){
 }
 // elegant marker under Deploy now — +installed (accepted proposals) ~updated −removed.
 // Hovering a pill lists the exact mods. "Added" = accepted dashboard proposals only.
-function deployBadge(){
-  const el=document.getElementById("dpend"); if(!el)return;
-  if(!(ADMIN_KEY&&REG.actions_v4)){el.innerHTML="";return;}
+function pendingChanges(){
   const added=[],updated=[],removed=[];
   DATA.forEach(m=>{const st=m.server_state||"";
     if(st==="remove"){removed.push(m.name);return;}
-    if(m.proposed && st==="yes" && !m.version) added.push(m.name);  // accepted proposal, not yet installed
+    if(m.proposed && st==="yes" && !m.version) added.push(m.name);   // accepted proposal, not yet installed
     else if(m.update_pending) updated.push(m.name);});
+  return {added,updated,removed};
+}
+function deployBadge(){
+  const el=document.getElementById("dpend"); if(!el)return;
+  if(!(ADMIN_KEY&&REG.actions_v4)){el.innerHTML="";return;}
+  const {added,updated,removed}=pendingChanges();
   const pill=(cls,sym,arr,verb)=>arr.length
     ? `<span class="dp ${cls}" title="${esc(verb+":\n• "+arr.join("\n• "))}">${sym}${arr.length}</span>` : "";
-  const h=pill("add","+",added,"Will be installed")+pill("upd","~",updated,"Will be updated")
-         +pill("del","−",removed,"Will be removed");
-  el.innerHTML = h || `<span class="dp none">nothing pending</span>`;
+  el.innerHTML = (pill("add","+",added,"Will be installed")+pill("upd","~",updated,"Will be updated")
+         +pill("del","−",removed,"Will be removed")) || `<span class="dp none">nothing pending</span>`;
+}
+// in-site confirm modal showing exactly what the deploy will change
+function openDeployModal(db){
+  const {added,updated,removed}=pendingChanges();
+  const sec=(label,arr,cls,sym)=>arr.length?`<div class="dmsec"><div class="dmh"><span class="dp ${cls}">${sym}${arr.length}</span> ${label}</div>`
+    +`<ul>${arr.map(n=>`<li>${esc(n)}</li>`).join("")}</ul></div>`:"";
+  const body=sec("to install",added,"add","+")+sec("to update",updated,"upd","~")+sec("to remove",removed,"del","−");
+  document.getElementById("deployChanges").innerHTML = body
+    || `<div class="dmnone">No pending changes — this just re-syncs the current set (safe; nothing will actually change).</div>`;
+  const modal=document.getElementById("deployModal"); modal.hidden=false;
+  const close=()=>{modal.hidden=true;};
+  document.getElementById("dmCancel").onclick=close;
+  document.getElementById("dmGo").onclick=()=>{close();deployWithProgress(db);};
+  modal.onclick=e=>{if(e.target===modal)close();};
+  document.addEventListener("keydown",function esc(ev){if(ev.key==="Escape"){close();document.removeEventListener("keydown",esc);}});
 }
 function esc(s){return(s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
 
@@ -668,10 +717,7 @@ function setupAdminButtons(){
   if(!(ADMIN_KEY && REG.actions_v4))return;
   const db=document.getElementById("deployBtn");
   db.hidden=false;
-  db.addEventListener("click",()=>{
-    if(!confirm("Run a server update now? (installs all approved mods; the bot picks it up within ~90s)"))return;
-    deployWithProgress(db);
-  });
+  db.addEventListener("click",()=>openDeployModal(db));
 }
 
 // Deploy + live progress: the bot regenerates registry.json when the update finishes, so we
