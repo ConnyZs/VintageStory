@@ -508,9 +508,16 @@ function shrinkImage(file,max=1600,q=0.85){
 }
 async function loadGallery(){   // live read of the Gallery tab (CORS-ok via gviz)
   try{
-    const url=`https://docs.google.com/spreadsheets/d/${sheetId()}/gviz/tq?tqx=out:json&headers=1&sheet=Gallery&_=${Date.now()}`;
-    const rows=parseGviz(await (await fetch(url)).text());
-    return rows.filter(r=>/^https?:\/\//.test(r[1]||"")).map(r=>({url:r[1],by:r[2],caption:r[3]})).reverse();
+    const u=`https://docs.google.com/spreadsheets/d/${sheetId()}/gviz/tq?tqx=out:json&headers=1&sheet=Gallery&_=${Date.now()}`;
+    const txt=await (await fetch(u)).text();
+    const obj=JSON.parse(txt.slice(txt.indexOf("(")+1,txt.lastIndexOf(")")));
+    const cols=(obj.table.cols||[]).map(c=>(c.label||"").toLowerCase());
+    const ui=cols.indexOf("url");
+    if(ui<0) return [];   // Gallery tab missing → gviz silently falls back to the mods sheet; show nothing
+    const bi=cols.indexOf("by"), ci=cols.indexOf("caption");
+    const val=(r,i)=>i>=0&&r.c[i]&&r.c[i].v!=null?String(r.c[i].v):"";
+    return (obj.table.rows||[]).map(r=>({url:val(r,ui),by:val(r,bi),caption:val(r,ci)}))
+                               .filter(x=>/^https?:\/\//.test(x.url)).reverse();
   }catch(e){return [];}
 }
 async function renderGallery(){
