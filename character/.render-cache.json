@@ -1,6 +1,6 @@
 {
  "Raschuetzer": {
-  "hash": "8b853cfe9c6ff76c37e6fafea9ec2c5c4f0cba37",
+  "hash": "6fdf1c775c75cff2e25e826f7c34837a49c5c670",
   "info": {
    "class": "tinker",
    "items": [
@@ -14,13 +14,14 @@
     "Laced handsome gloves",
     "Forlorn Hope talisman",
     "Cursed gemstone",
+    "Malefactor whitewood mask",
     "Forlorn Hope belt",
     "Merchant bracelet",
     "Fur coat",
     "Fur coat"
    ],
    "frames": 16,
-   "v": 1780264337
+   "v": 1780264830
   }
  },
  "Eghetti": {

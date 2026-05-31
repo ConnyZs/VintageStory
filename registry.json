@@ -1,5 +1,5 @@
 {
-  "generated": "20260531-235147",
+  "generated": "20260601-000010",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "modset": {
@@ -1276,7 +1276,7 @@
       "name": "Raschuetzer",
       "role": "admin",
       "first_join": "04/22/2026 17:47",
-      "last_join": "05/31/2026 21:40",
+      "last_join": "05/31/2026 21:48",
       "last_char": "04/29/2026 21:30",
       "stats": {
         "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
@@ -1285,12 +1285,12 @@
         "deaths": 0,
         "mobKills": 1,
         "playerKills": 0,
-        "playtimeHours": 1.2,
-        "blocksTravelled": 1218,
+        "playtimeHours": 1.3,
+        "blocksTravelled": 1220,
         "blocksBroken": 8,
         "blocksPlaced": 3,
         "deepestY": 112,
-        "lastSeen": 1780264290,
+        "lastSeen": 1780264770,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1300,6 +1300,7 @@
           "Laced handsome gloves",
           "Forlorn Hope talisman",
           "Cursed gemstone",
+          "Malefactor whitewood mask",
           "Forlorn Hope belt",
           "Merchant bracelet",
           "Fur coat"
@@ -1350,6 +1351,12 @@
             "slot": "emblem",
             "code": "game:clothes-emblem-cursedgemstone",
             "name": "Cursed gemstone"
+          },
+          {
+            "slot": "face",
+            "code": "game:clothes-face-malefactor-mask",
+            "name": "Malefactor whitewood mask",
+            "icon": "character/icons/face-malefactor-mask.png"
           },
           {
             "slot": "waist",
