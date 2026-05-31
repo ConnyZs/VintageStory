@@ -388,7 +388,7 @@ function render(){
                    : onsrv?`<span class="tag-srv">on server</span>`
                    : m.section==="optional"?`<span class="tag-srv">optional</span>`:"";
       // admin: per-mod activation toggle (ticked = active, untick = disabled), only for installed mods
-      const actBox = (ADMIN_KEY&&m.link&&onsrv&&st!=="remove")
+      const actBox = (ADMIN_KEY&&REG.actions_v5&&m.link&&onsrv&&st!=="remove")
         ? `<label class="act-wrap" title="Active — untick to disable (applies on next deploy)">
              <input type="checkbox" class="act" data-link="${esc(m.link)}" ${st!=="disabled"?"checked":""}></label>` : "";
       html+=`<div class="mod">${nm}
@@ -398,7 +398,7 @@ function render(){
           ${srvTag}
           <span class="seal ${m.avail}">${AVAIL_LABEL[m.avail]||m.avail}</span>
           ${actBox}
-          ${ADMIN_KEY&&m.link&&st!=="remove"?`<button class="rm" data-link="${esc(m.link)}" title="Remove from server + list on next deploy (admin)">🗑</button>`:""}
+          ${ADMIN_KEY&&REG.actions_v5&&m.link&&st!=="remove"?`<button class="rm" data-link="${esc(m.link)}" title="Remove from server + list on next deploy (admin)">🗑</button>`:""}
         </div>
         ${m.avail!=="available"&&m.note?`<div class="note">${esc(m.note)}</div>`:""}
         ${m.modid?`<div class="id">${esc(m.modid)}</div>`:""}
@@ -492,36 +492,82 @@ function renderCrew(){
 }
 
 function ytId(u){const m=(u||"").match(/(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|embed\/|shorts\/))([\w-]{6,})/);return m?m[1]:null;}
-function renderGallery(){
+// downscale an image file to a JPEG dataURL (max ~1600px) so uploads stay small + fast
+function shrinkImage(file,max=1600,q=0.85){
+  return new Promise((res,rej)=>{
+    const img=new Image(), fr=new FileReader();
+    fr.onload=()=>{img.onload=()=>{
+      let{width:w,height:h}=img;
+      if(w>max||h>max){const s=Math.min(max/w,max/h);w=Math.round(w*s);h=Math.round(h*s);}
+      const c=document.createElement("canvas");c.width=w;c.height=h;
+      c.getContext("2d").drawImage(img,0,0,w,h);
+      res(c.toDataURL("image/jpeg",q));
+    };img.onerror=rej;img.src=fr.result;};
+    fr.onerror=rej;fr.readAsDataURL(file);
+  });
+}
+async function loadGallery(){   // live read of the Gallery tab (CORS-ok via gviz)
+  try{
+    const url=`https://docs.google.com/spreadsheets/d/${sheetId()}/gviz/tq?tqx=out:json&headers=1&sheet=Gallery&_=${Date.now()}`;
+    const rows=parseGviz(await (await fetch(url)).text());
+    return rows.filter(r=>/^https?:\/\//.test(r[1]||"")).map(r=>({url:r[1],by:r[2],caption:r[3]})).reverse();
+  }catch(e){return [];}
+}
+async function renderGallery(){
   const box=document.getElementById("tab-gallery");
-  const media=REG.gallery||[];
-  const form=`<div class="gal-add">
-    <input id="gal-url" type="text" placeholder="Paste a YouTube link or an image URL (imgur, etc.)">
-    <button class="btn go" id="gal-add-btn" style="flex:0 0 auto;padding:11px 18px">Add</button></div>`;
+  const live=!!REG.actions_v5;
+  const form=live?`<div class="gal-add">
+      <input id="gal-by" type="text" placeholder="Your name (optional)" style="flex:0 0 150px">
+      <input id="gal-url" type="text" placeholder="…or paste a YouTube / image link">
+      <label class="btn go" for="gal-file" style="flex:0 0 auto;padding:11px 18px;cursor:pointer">📷 Upload picture</label>
+      <input id="gal-file" type="file" accept="image/*" hidden>
+      <button class="btn go" id="gal-add-btn" style="flex:0 0 auto;padding:11px 18px">Add link</button>
+    </div>`
+    :`<div class="gal-add"><div class="sub2">Picture uploads go live with the next script update — almost there.</div></div>`;
+  box.innerHTML=form+`<div class="empty">Loading the gallery…</div>`;
+  const media=live?await loadGallery():[];
   let grid="";
   if(!media.length){
-    grid='<div class="empty">No clips or screenshots yet — paste a link above to start the gallery.</div>';
+    grid='<div class="empty">No clips or screenshots yet — upload a picture or paste a link above.</div>';
   } else {
     grid='<div class="gallery">';
     media.forEach(it=>{
       const yt=ytId(it.url);
       const inner=yt?`<iframe src="https://www.youtube.com/embed/${yt}" allowfullscreen loading="lazy"></iframe>`
-                    :`<img class="thumb" src="${esc(it.url)}" loading="lazy" alt="">`;
-      grid+=`<div class="media">${inner}<div class="cap"><span>${esc(it.by||"")}</span><a href="${esc(it.url)}" target="_blank" rel="noopener">open ↗</a></div></div>`;
+                    :`<img class="thumb" src="${esc(it.url)}" loading="lazy" alt="${esc(it.caption||"")}">`;
+      grid+=`<div class="media">${inner}<div class="cap"><span>${esc(it.by||it.caption||"")}</span>`
+           +`<a href="${esc(it.url)}" target="_blank" rel="noopener">open ↗</a></div></div>`;
     });
     grid+='</div>';
   }
-  box.innerHTML=form+grid;
+  box.querySelector(".empty,.gallery")?.remove();
+  box.insertAdjacentHTML("beforeend",grid);
+  if(!live)return;
+  const post=async body=>fetch(REG.submit_url,{method:"POST",mode:"no-cors",
+    headers:{"Content-Type":"text/plain;charset=utf-8"},body:JSON.stringify(body)});
+  const by=()=>document.getElementById("gal-by").value.trim().slice(0,60);
+  // link add
   document.getElementById("gal-add-btn").addEventListener("click",async()=>{
     const url=document.getElementById("gal-url").value.trim();
     if(!/^https?:\/\//.test(url)){showToast("Paste a full http(s) link.",false);return;}
-    if(!REG.media_enabled){showToast("Gallery posting lands with the next update — almost there!",false);return;}
-    try{
-      await fetch(REG.submit_url,{method:"POST",mode:"no-cors",headers:{"Content-Type":"text/plain;charset=utf-8"},
-        body:JSON.stringify({action:"media",url})});
-      showToast("Added — shows up after the next sync ✓",true);
+    try{await post({action:"media",url,by:by()});
+      showToast("Added — refreshing…",true);
       document.getElementById("gal-url").value="";
+      setTimeout(renderGallery,2500);
     }catch(e){showToast("Couldn't add — try again.",false);}
+  });
+  // picture upload (resized client-side, saved to Drive by the script)
+  document.getElementById("gal-file").addEventListener("change",async e=>{
+    const f=e.target.files[0]; if(!f)return;
+    if(!f.type.startsWith("image/")){showToast("Pick an image file.",false);return;}
+    showToast("Uploading "+f.name+"…",true);
+    try{
+      const dataUrl=await shrinkImage(f);
+      await post({action:"upload",dataUrl,name:f.name,by:by()});
+      showToast("Uploaded — appears in a few seconds ✓",true);
+      setTimeout(renderGallery,4000);
+    }catch(err){showToast("Upload failed — try a smaller image.",false);}
+    finally{e.target.value="";}
   });
 }
 
