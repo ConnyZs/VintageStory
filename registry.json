@@ -1,5 +1,5 @@
 {
-  "generated": "20260531-073559",
+  "generated": "20260531-080102",
   "game_version": "1.22.3",
   "sheet_url": "https://docs.google.com/spreadsheets/d/1MZUkPV8T5S2HtIM8LexvDzXFZAidz0b4pdVqxegL5pE/edit",
   "submit_url": "https://script.google.com/macros/s/AKfycbzEYaH2pEXwJsnnkScgl2UIpImuw-yidQhg31F2rKjJ2fQ5SxlpB1fiSXztMtCFcsf_oQ/exec",
@@ -1120,7 +1120,7 @@
       "modid": "backpacks",
       "section": "1.22",
       "category": "Misc.",
-      "on_server": false,
+      "on_server": true,
       "link": "https://mods.vintagestory.at/backpacks",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
@@ -1171,5 +1171,6 @@
       "last_char": "05/20/2026 15:53",
       "stats": {}
     }
-  ]
+  ],
+  "actions_v4": false
 }

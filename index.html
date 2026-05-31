@@ -248,6 +248,7 @@
       <span class="ver" id="gv">v—</span>
       <span class="stamp" id="stamp">reading the ledger…</span>
       <button class="cta" id="addBtn"><span class="plus">✚</span> Add a mod</button>
+      <button class="cta" id="deployBtn" hidden><span class="plus">⚡</span> Deploy now</button>
     </div>
     <div class="tally" id="tally"></div>
   </header>
@@ -323,6 +324,7 @@ fetch("registry.json?_="+Date.now()).then(r=>r.json()).then(reg=>{
   const dl=document.getElementById("cats");
   (reg.categories||[]).forEach(c=>{const o=document.createElement("option");o.value=c;dl.appendChild(o);});
   initForm();
+  setupAdminButtons();
   buildTally();
   render();
   renderApprovals();
@@ -501,12 +503,30 @@ async function loadLiveProposals(){   // read the live sheet (CORS-ok) → insta
     [[0,"1.22"],[6,"1.21"],[12,"optional"]].forEach(([st,sec])=>{
       const name=(r[st]||"").trim(), link=(r[st+1]||"").trim(),
             kom=(r[st+3]||"").trim().toLowerCase(), onsrv=(r[st+4]||"").trim().toLowerCase();
-      if(link && kom.includes("dashboard") && !onsrv.startsWith("y"))
-        props.push({name:name||link, link, section:sec});
+      if(link && kom.includes("dashboard"))
+        props.push({name:name||link, link, section:sec, approved:onsrv.startsWith("y")});
     });
   });
   return props;
 }
+// admin-only "Deploy now" — asks the bot (which polls) to run the update soon.
+// Only shown once the v4 Apps Script is live (REG.actions_v4), else it'd junk the old script.
+function setupAdminButtons(){
+  if(!(ADMIN_KEY && REG.actions_v4))return;
+  const db=document.getElementById("deployBtn");
+  db.hidden=false;
+  db.addEventListener("click",async()=>{
+    if(!confirm("Run a server update now? (installs all approved mods; the bot picks it up within ~90s)"))return;
+    db.disabled=true;
+    try{
+      await fetch(REG.submit_url,{method:"POST",mode:"no-cors",headers:{"Content-Type":"text/plain;charset=utf-8"},
+        body:JSON.stringify({action:"deploy",key:ADMIN_KEY})});
+      showToast("Deploy requested — the bot runs it within ~90s.",true);
+    }catch(e){showToast("Couldn't request deploy — try again.",false);}
+    finally{setTimeout(()=>db.disabled=false,3000);}
+  });
+}
+
 async function renderApprovals(){
   const box=document.getElementById("approvals");
   if(!ADMIN_KEY){box.innerHTML="";return;}
@@ -522,23 +542,23 @@ async function renderApprovals(){
     const meta=reg?`${reg.build_version?"v"+esc(reg.build_version):""}${reg.build_branch==="1.21"?" · ⚠ 1.21 build (older)":""}`
                   :"version checks on next sync";
     rows+=`<div class="prow">
-      <input type="checkbox" data-link="${esc(m.link)}">
+      <input type="checkbox" data-link="${esc(m.link)}" ${m.approved?"checked":""}>
       <div class="pn"><a href="${esc(m.link)}" target="_blank" rel="noopener">${esc(m.name)} ↗</a>
-        <div class="meta2">${esc(m.section)} · ${meta}</div></div></div>`;
+        <div class="meta2">${esc(m.section)} · ${meta}${m.approved?" · approved":""}</div></div></div>`;
   });
   box.innerHTML=`<div class="apanel"><h2>Admin · proposals (${pend.length})</h2>
-    <div class="sub2">Live from the sheet. Tick to approve — it installs on the next update. Click a name to see what it is.</div>${rows}</div>`;
+    <div class="sub2">Live from the sheet. Tick to approve (installs next update) · untick to un-approve. Click a name to see what it is.</div>${rows}</div>`;
   box.querySelectorAll('input[type=checkbox]').forEach(cb=>cb.addEventListener("change",async()=>{
-    if(!cb.checked)return;
+    if(!cb.checked && !REG.actions_v4){cb.checked=true;showToast("Un-approve needs the script update (redeploy) first.",false);return;}
+    const action=cb.checked?"approve":"unapprove";
     cb.disabled=true;
     try{
       await fetch(REG.submit_url,{method:"POST",mode:"no-cors",
         headers:{"Content-Type":"text/plain;charset=utf-8"},
-        body:JSON.stringify({action:"approve",link:cb.dataset.link,key:ADMIN_KEY})});
-      const row=cb.closest(".prow");row.style.opacity=".5";
-      row.querySelector(".pn").insertAdjacentHTML("beforeend",' <span class="meta2" style="color:var(--verd)">approved ✓</span>');
-      showToast("Approved — installs on the next update.",true);
-    }catch(e){cb.disabled=false;showToast("Approve failed — try again.",false);}
+        body:JSON.stringify({action,link:cb.dataset.link,key:ADMIN_KEY})});
+      showToast(cb.checked?"Approved — installs on the next update.":"Un-approved — back to a proposal.",true);
+    }catch(e){cb.checked=!cb.checked;showToast("Failed — try again.",false);}
+    finally{cb.disabled=false;}
   }));
 }
 
