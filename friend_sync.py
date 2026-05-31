@@ -26,19 +26,26 @@ import urllib.request, urllib.error
 
 DEFAULT_MANIFEST = "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/manifest.json"
 
-CANDIDATE_DIRS = [
-    "~/.var/app/at.vintagestory.VintageStory/config/VintagestoryData/Mods",  # flatpak
-    "~/.config/VintagestoryData/Mods",                                       # native/tar
-    "~/ApplicationData/Mods",
-]
+def candidate_dirs():
+    """Default Vintage Story Mods folders — Windows, Linux, macOS."""
+    c = []
+    appdata = os.environ.get("APPDATA")          # Windows: C:\Users\<you>\AppData\Roaming
+    if appdata:
+        c.append(os.path.join(appdata, "VintagestoryData", "Mods"))
+    c += [
+        os.path.expanduser("~/.var/app/at.vintagestory.VintageStory/config/VintagestoryData/Mods"),  # Linux flatpak
+        os.path.expanduser("~/.config/VintagestoryData/Mods"),     # Linux native / tar
+        os.path.expanduser("~/ApplicationData/Mods"),
+        os.path.expanduser("~/Library/Application Support/VintagestoryData/Mods"),  # macOS
+    ]
+    return c
 
 def find_mods_dir(override):
     if override:
         return os.path.expanduser(override)
     if os.environ.get("VS_MODS"):
         return os.path.expanduser(os.environ["VS_MODS"])
-    for c in CANDIDATE_DIRS:
-        p = os.path.expanduser(c)
+    for p in candidate_dirs():
         if os.path.isdir(p):
             return p
     return None
@@ -150,6 +157,12 @@ def main():
             mandatory_modids.add(mid)
         want_files.add(fn)
         target = os.path.join(mods_dir, fn)
+        # Always purge any OTHER version of this modid — even if the wanted file
+        # is already present. No modxv1.2.3 lingering next to modxv1.2.4.
+        if mid:
+            for other in installed.get(mid, []):
+                if other != fn:
+                    to_remove.append(other)
         if os.path.exists(target) and want_sha and sha256(target) == want_sha:
             ok.append(fn)
             return
@@ -157,10 +170,6 @@ def main():
             problems.append(f"{fn} (no download URL)")
             return
         to_get.append(m)
-        if mid:                                       # supersede other versions of same modid
-            for other in installed.get(mid, []):
-                if other != fn:
-                    to_remove.append(other)
 
     for m in man.get("mods", []):
         consider(m, optional=False)
