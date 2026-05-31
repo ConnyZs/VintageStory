@@ -426,6 +426,7 @@ fetch("registry.json?_="+Date.now()).then(r=>r.json()).then(reg=>{
   REG=reg; DATA=reg.mods||[];
   // restore locally-pending submissions (added since last sync) until they appear for real
   loadPending();
+  applyPendingStates();   // re-apply pending disable/remove marks across sessions
   document.getElementById("gv").textContent="v"+(reg.game_version||"?");
   document.getElementById("stamp").textContent="updated "+fmt(reg.generated);
   document.getElementById("foot").textContent=reg.count+" mods catalogued";
@@ -572,6 +573,7 @@ document.getElementById("main").addEventListener("click",async e=>{
   const m=DATA.find(x=>x.link===link); if(!m)return;
   const wasRemoving=(m.server_state==="remove"), prev=m.server_state;
   m.server_state = wasRemoving ? "yes" : "remove";   // optimistic toggle
+  savePendingState(link, m.server_state);
   updateModRow(link);
   try{
     await fetch(REG.submit_url,{method:"POST",mode:"no-cors",
@@ -579,7 +581,7 @@ document.getElementById("main").addEventListener("click",async e=>{
       body:JSON.stringify({action:(wasRemoving?"approve":"remove"),link,key:ADMIN_KEY})});
     showToast(wasRemoving?"Kept — no longer marked for removal."
              :"Marked for removal — applies on next deploy (click 🗑 again to keep it).",true);
-  }catch(err){m.server_state=prev;updateModRow(link);showToast("Failed — try again.",false);}
+  }catch(err){m.server_state=prev;savePendingState(link,prev);updateModRow(link);showToast("Failed — try again.",false);}
 });
 // admin: activation toggle — tick = active (yes), untick = disabled. Applied on next deploy.
 document.getElementById("main").addEventListener("change",async e=>{
@@ -591,6 +593,7 @@ document.getElementById("main").addEventListener("change",async e=>{
       headers:{"Content-Type":"text/plain;charset=utf-8"},
       body:JSON.stringify({action:active?"approve":"disable",link,key:ADMIN_KEY})});
     const m=DATA.find(x=>x.link===link); if(m)m.server_state=active?"yes":"disabled";
+    savePendingState(link, active?"yes":"disabled");
     updateModRow(link);
     showToast((active?"Re-enabled":"Disabled")+" — applies on next deploy. Hit ⚡ Deploy now to apply.",true);
   }catch(err){cb.checked=!active;showToast("Failed — try again.",false);}
@@ -772,7 +775,7 @@ async function deployWithProgress(db){
 async function reloadRegistry(){
   try{
     const reg=await (await fetch("registry.json?_="+Date.now())).json();
-    REG=reg; DATA=reg.mods||[]; loadPending();
+    REG=reg; DATA=reg.mods||[]; loadPending(); applyPendingStates();
     document.getElementById("stamp").textContent="updated "+fmt(reg.generated);
     document.getElementById("foot").textContent=reg.count+" mods catalogued";
     renderModset(); buildTally(); render(); renderApprovals();
@@ -834,17 +837,36 @@ function showToast(msg,good){toast.textContent=msg;toast.style.borderColor=good?
   toast.classList.add("show");setTimeout(()=>toast.classList.remove("show"),3800);}
 
 function pendingKey(){return "vs_pending_mods";}
+// normalise a ModDB link to its slug/id so trailing slashes / www / http-vs-https don't matter
+function linkKey(s){return (s||"").toLowerCase().replace(/^https?:\/\/(www\.)?/,"").replace(/\/+$/,"").split("/").pop();}
 function loadPending(){
   let p=[];try{p=JSON.parse(localStorage.getItem(pendingKey())||"[]");}catch(e){}
-  // drop ones that now exist for real in the registry
-  const have=new Set(DATA.map(m=>(m.link||m.name).toLowerCase()));
-  p=p.filter(x=>!have.has((x.link||x.name).toLowerCase()));
+  // drop ones that now exist for real in the registry — match by mod slug OR name (robust)
+  const links=new Set(DATA.map(m=>linkKey(m.link)).filter(Boolean));
+  const names=new Set(DATA.map(m=>(m.name||"").toLowerCase().trim()).filter(Boolean));
+  p=p.filter(x=>!links.has(linkKey(x.link)) && !names.has((x.name||"").toLowerCase().trim()));
   localStorage.setItem(pendingKey(),JSON.stringify(p));
   p.forEach(x=>DATA.push({...x,avail:"pending",note:"added via dashboard — installs on next sync",version:null,_pending:true}));
 }
 function savePending(entry){
   let p=[];try{p=JSON.parse(localStorage.getItem(pendingKey())||"[]");}catch(e){}
   p.push(entry);localStorage.setItem(pendingKey(),JSON.stringify(p));
+}
+// pending per-mod state changes (disable / re-enable / remove) survive reloads until a
+// deploy republishes the registry with them. Keyed by link.
+function statesKey(){return "vs_pending_states";}
+function loadStates(){try{return JSON.parse(localStorage.getItem(statesKey())||"{}");}catch(e){return {};}}
+function savePendingState(link,state){const s=loadStates();s[link]=state;localStorage.setItem(statesKey(),JSON.stringify(s));}
+function applyPendingStates(){
+  const s=loadStates(); let changed=false;
+  DATA.forEach(m=>{
+    if(m.link && s[m.link]!==undefined){
+      if(m.server_state===s[m.link]){delete s[m.link];changed=true;}   // registry caught up → drop override
+      else m.server_state=s[m.link];                                    // re-apply the pending change
+    }
+  });
+  for(const link in s){ if(!DATA.some(m=>m.link===link)){delete s[link];changed=true;} }  // mod gone → drop
+  if(changed)localStorage.setItem(statesKey(),JSON.stringify(s));
 }
 
 document.getElementById("submitBtn").addEventListener("click",async()=>{
