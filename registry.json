@@ -1,5 +1,5 @@
 {
-  "generated": "20260531-104506",
+  "generated": "20260531-105604",
   "game_version": "1.22.3",
   "modset": {
     "server_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset.zip",
@@ -176,7 +176,7 @@
       "version": "1.2.0",
       "build_version": "1.2.1",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -1024,7 +1024,7 @@
       "version": "1.8.6",
       "build_version": "1.9.0-rc.1",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -1288,9 +1288,9 @@
       "modid": "backpacks",
       "section": "1.22",
       "category": "Misc.",
-      "on_server": true,
+      "on_server": false,
       "link": "https://mods.vintagestory.at/backpacks",
-      "server_state": "yes",
+      "server_state": "remove",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "0.1.0",
