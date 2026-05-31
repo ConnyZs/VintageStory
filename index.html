@@ -457,6 +457,9 @@ function buildTally(){
 const cell=(n,c,l)=>`<div><div class="n ${c}">${n}</div><div class="l">${l}</div></div>`;
 
 function passes(m){
+  // dashboard proposals live in the Admin · proposals box, not the main list, until they're
+  // actually installed (then promote() clears the proposed flag and they appear here).
+  if((m.proposed||m.avail==="pending")&&!m.version)return false;
   if(filter==="server"&&!m.on_server)return false;
   if(filter==="optional"&&m.section!=="optional")return false;
   if(filter==="installable"&&!(m.avail==="available"||m.avail==="likely"))return false;
@@ -875,7 +878,8 @@ function loadPending(){
   const names=new Set(DATA.map(m=>(m.name||"").toLowerCase().trim()).filter(Boolean));
   p=p.filter(x=>!links.has(linkKey(x.link)) && !names.has((x.name||"").toLowerCase().trim()));
   localStorage.setItem(pendingKey(),JSON.stringify(p));
-  p.forEach(x=>DATA.push({...x,avail:"pending",note:"added via dashboard — installs on next sync",version:null,_pending:true}));
+  // proposals no longer ride in the main list — they live in the Admin · proposals box (read
+  // live from the sheet) until accepted AND deployed, at which point promote() moves them here.
 }
 function savePending(entry){
   let p=[];try{p=JSON.parse(localStorage.getItem(pendingKey())||"[]");}catch(e){}
@@ -912,13 +916,11 @@ document.getElementById("submitBtn").addEventListener("click",async()=>{
   try{
     await fetch(REG.submit_url,{method:"POST",mode:"no-cors",
       headers:{"Content-Type":"text/plain;charset=utf-8"},body:JSON.stringify(payload)});
-    // optimistic: show it as pending immediately + remember across reloads
-    savePending({name,link,category,section,on_server});
-    DATA.push({name,link,category,section,on_server,avail:"pending",
-      note:"added via dashboard — installs on next sync",_pending:true});
-    buildTally();render();closeModal();
-    showToast("Added to the ledger — pending next sync ✓",true);
+    closeModal();
+    showToast("Proposed ✓ — it's in the Admin · proposals box, awaiting approval.",true);
     document.getElementById("f-name").value="";document.getElementById("f-link").value="";
+    // it lands in the proposals box (read live from the sheet); refresh it as the sheet catches up
+    if(ADMIN_KEY){setTimeout(renderApprovals,2500);setTimeout(renderApprovals,7000);}
   }catch(err){showToast("Couldn’t submit — try again.",false);}
   finally{btn.disabled=false;btn.textContent="Add to ledger";}
 });
