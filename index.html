@@ -199,6 +199,7 @@
   .prow input:checked::after{content:"✓";position:absolute;inset:0;display:flex;align-items:center;
     justify-content:center;color:var(--copper-glow,#d98a4b);font-size:18px;font-weight:900}
   .prow .pn{order:1}
+  .prow .prm{order:3}
   .prow .pn{flex:1}
   .prow .pn a{color:var(--ink);text-decoration:none;font-size:1.05rem}
   .prow .pn a:hover{color:var(--copper-glow)}
@@ -815,11 +816,22 @@ async function renderApprovals(){
                   :"version checks on next sync";
     rows+=`<div class="prow${m.approved?" approved":""}">
       <input type="checkbox" data-link="${esc(m.link)}" ${m.approved?"checked":""}>
+      <button class="rm prm" data-link="${esc(m.link)}" title="Reject this proposal (removes it from the list)"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg></button>
       <div class="pn"><a href="${esc(m.link)}" target="_blank" rel="noopener">${esc(m.name)} ↗</a>
         <div class="meta2">${esc(m.section)} · ${meta}${m.approved?" · approved":""}</div></div></div>`;
   });
   box.innerHTML=`<div class="apanel"><h2>Admin · proposals (${pend.length})</h2>
-    <div class="sub2">Live from the sheet. Tick to approve (installs next update) · untick to un-approve. Click a name to see what it is.</div>${rows}</div>`;
+    <div class="sub2">Live from the sheet. Tick to approve (installs next update) · untick to un-approve · 🗑 to reject. Click a name to see what it is.</div>${rows}</div>`;
+  box.querySelectorAll(".prm").forEach(b=>b.addEventListener("click",async()=>{
+    const link=b.dataset.link; b.disabled=true;
+    try{
+      await fetch(REG.submit_url,{method:"POST",mode:"no-cors",headers:{"Content-Type":"text/plain;charset=utf-8"},
+        body:JSON.stringify({action:"clearrow",link,key:ADMIN_KEY})});
+      b.closest(".prow").remove();
+      DATA=DATA.filter(x=>x.link!==link); render(); buildTally();
+      showToast("Proposal rejected — removed from the list.",true);
+    }catch(e){b.disabled=false;showToast("Failed — try again.",false);}
+  }));
   box.querySelectorAll('input[type=checkbox]').forEach(cb=>cb.addEventListener("change",async()=>{
     if(!cb.checked && !REG.actions_v4){cb.checked=true;showToast("Un-approve needs the script update (redeploy) first.",false);return;}
     const action=cb.checked?"approve":"unapprove";
