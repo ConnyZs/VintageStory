@@ -1,7 +1,7 @@
 {
   "game_version": "1.22.3",
-  "generated": "20260531-200847",
-  "count": 74,
+  "generated": "20260531-233819",
+  "count": 75,
   "mods": [
     {
       "filename": "ACulinaryArtillery 2.0.0-dev.19.zip",
@@ -650,6 +650,15 @@
       "version": "2.5.2",
       "name": null,
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/usefultraders-v2.5.2.zip"
+    },
+    {
+      "filename": "vsimgui_1.2.5.zip",
+      "sha256": "b31dcdf29d7c4f976dc9a3cafa3c8d47beb05da13d7e40fc9600d5852c5fc36d",
+      "size": 8901331,
+      "modid": "vsimgui",
+      "version": "1.2.5",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/vsimgui_1.2.5.zip"
     },
     {
       "filename": "vsinstrumentsbase_2.0.7.zip",

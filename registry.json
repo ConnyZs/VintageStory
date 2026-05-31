@@ -1,20 +1,20 @@
 {
-  "generated": "20260531-232937",
+  "generated": "20260531-233931",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "modset": {
     "server_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset.zip",
     "full_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset-full.zip",
-    "server_count": 74,
-    "full_count": 77,
-    "server_size": 121878000,
-    "full_size": 122679867,
+    "server_count": 75,
+    "full_count": 78,
+    "server_size": 130779441,
+    "full_size": 131581308,
     "client_only": [
       "CoriaenderShaders",
       "Natural Foliage",
       "Status HUD"
     ],
-    "generated": "20260531-200932"
+    "generated": "20260531-233909"
   },
   "sheet_url": "https://docs.google.com/spreadsheets/d/1MZUkPV8T5S2HtIM8LexvDzXFZAidz0b4pdVqxegL5pE/edit",
   "submit_url": "https://script.google.com/macros/s/AKfycbyHYVVekkEQmbHEHJUAA1BjyheZFE_vC0Ook-bTyr3UHyeRkeQgv0j3DimOKLsqAxVmXw/exec",
@@ -25,6 +25,7 @@
     "Food",
     "Graphics",
     "Magic",
+    "Misc.",
     "Other",
     "QOL",
     "QoL",
@@ -35,7 +36,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 76,
+  "count": 77,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1249,6 +1250,22 @@
       "note": "available for 1.22 (installs on update)",
       "version": "2.5.2",
       "build_version": "2.5.2",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": false
+    },
+    {
+      "name": "ImGui",
+      "modid": "imgui",
+      "section": "1.22",
+      "category": "Misc.",
+      "on_server": true,
+      "link": "https://mods.vintagestory.at/imgui",
+      "server_state": "yes",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": "1.2.5",
+      "build_version": "1.2.5",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": false
