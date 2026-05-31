@@ -342,7 +342,7 @@
       <span class="chip on" data-f="all">All</span>
       <span class="chip" data-f="server">On server</span>
       <span class="chip" data-f="optional">Client side</span>
-      <span class="chip" data-f="installable">Installable</span>
+      <span class="chip" data-f="installable">Updated</span>
       <span class="chip" data-f="outdated">Outdated</span>
     </div>
   </div>
@@ -415,7 +415,7 @@ function buildTally(){
   const out=DATA.filter(m=>m.avail==="outdated"||m.avail==="no-build").length;
   document.getElementById("tally").innerHTML=
     cell(DATA.length,"tot","Catalogued")+cell(on,"on","On the server")+
-    cell(inst,"av","Installable")+cell(out,"wait","Outdated");
+    cell(inst,"av","Updated")+cell(out,"wait","Outdated");
 }
 const cell=(n,c,l)=>`<div><div class="n ${c}">${n}</div><div class="l">${l}</div></div>`;
 
