@@ -43,8 +43,11 @@
 
   /* ---------- masthead ---------- */
   header{padding:64px 0 30px;position:relative}
+  .kicker-row{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;
+    opacity:0;animation:rise .7s .05s forwards}
   .kicker{font-family:"Spectral SC",serif;letter-spacing:.42em;text-transform:uppercase;
-    font-size:.72rem;color:var(--copper);margin-bottom:14px;opacity:0;animation:rise .7s .05s forwards}
+    font-size:.72rem;color:var(--copper)}
+  .kicker-stamp{display:flex;gap:12px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
   h1{font-family:"Cinzel",serif;font-weight:900;line-height:.98;
     font-size:clamp(2.6rem,6.5vw,4.6rem);letter-spacing:.01em;color:var(--ink);
     text-shadow:0 2px 0 rgba(0,0,0,.4);opacity:0;animation:rise .8s .12s forwards}
@@ -62,7 +65,7 @@
   .ver{font-family:"Cinzel",serif;font-weight:700;font-size:.86rem;letter-spacing:.08em;
     color:var(--bg);background:linear-gradient(180deg,var(--copper-glow),var(--copper));
     padding:6px 13px;border-radius:3px;box-shadow:0 2px 0 var(--copper-deep)}
-  .meta .stamp{color:var(--ink-faint);font-size:.85rem;font-style:italic}
+  .kicker-stamp .stamp,.meta .stamp{color:var(--ink-faint);font-size:.85rem;font-style:italic}
   .cta{margin-left:auto;display:inline-flex;align-items:center;gap:9px;
     font-family:"Spectral SC",serif;font-weight:600;letter-spacing:.05em;font-size:.92rem;
     color:var(--ink);text-decoration:none;padding:11px 20px;border-radius:4px;
@@ -392,16 +395,21 @@
   </div>
 
   <header>
-    <div class="kicker">Cooperative Server &middot; Mod Registry</div>
+    <div class="kicker-row">
+      <div class="kicker">Cooperative Server &middot; Mod Registry</div>
+      <div class="kicker-stamp">
+        <span class="ver" id="gv">v—</span>
+        <span class="stamp" id="stamp">reading the ledger…</span>
+      </div>
+    </div>
     <h1>Vintage Story<br><span class="em">Mod Ledger</span></h1>
     <p class="sub">Every mod our server runs — and every one proposed. Kept in sync with the shared sheet. Add yours there; if it has a build for our game version, it joins the next update.</p>
     <div class="rule"></div>
     <div class="meta">
       <div class="meta-left">
-        <span class="ver" id="gv">v—</span>
-        <span class="stamp" id="stamp">reading the ledger…</span>
+        <button class="cta" id="addBtn"><span class="plus">✚</span> Add a mod</button>
       </div>
-      <button class="cta" id="addBtn"><span class="plus">✚</span> Add a mod</button>
+      <button class="cta" id="checkBtn">Check for updates</button>
       <div class="meta-right">
         <button class="cta" id="deployBtn" hidden>Deploy now</button>
       </div>
@@ -871,6 +879,23 @@ async function loadLiveProposals(){   // read the live sheet (CORS-ok) → insta
 // admin-only "Deploy now" — asks the bot (which polls) to run the update soon.
 // Only shown once the v4 Apps Script is live (REG.actions_v4), else it'd junk the old script.
 function setupAdminButtons(){
+  // "Check for updates" is visible to everyone
+  const cb=document.getElementById("checkBtn");
+  if(cb && REG.submit_url){
+    cb.addEventListener("click",async()=>{
+      cb.disabled=true; cb.textContent="Checking…";
+      try{
+        await fetch(REG.submit_url,{method:"POST",mode:"no-cors",
+          headers:{"Content-Type":"text/plain;charset=utf-8"},
+          body:JSON.stringify({action:"check"})});
+        cb.textContent="Requested — check Discord";
+        setTimeout(()=>{cb.textContent="Check for updates";cb.disabled=false;},8000);
+      }catch(e){
+        cb.textContent="Check for updates"; cb.disabled=false;
+        showToast("Couldn't reach the server — try again.",false);
+      }
+    });
+  }
   if(!(ADMIN_KEY && REG.actions_v4))return;
   const db=document.getElementById("deployBtn");
   db.hidden=false;
