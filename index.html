@@ -183,7 +183,13 @@
   .apanel h2{font-family:"Cinzel",serif;font-weight:700;font-size:1.3rem;color:var(--copper-glow);margin-bottom:4px}
   .apanel .sub2{color:var(--ink-dim);font-size:.88rem;margin-bottom:14px}
   .prow{display:flex;align-items:center;gap:14px;padding:11px 0;border-top:1px solid var(--line)}
-  .prow input{width:20px;height:20px;accent-color:var(--verd);cursor:pointer;flex:none}
+  .prow input{appearance:none;-webkit-appearance:none;width:26px;height:26px;flex:none;cursor:pointer;order:2;
+    border:1px solid var(--copper-deep);border-radius:6px;position:relative;transition:.15s;
+    background:linear-gradient(180deg,var(--copper-glow),var(--copper));box-shadow:0 2px 0 var(--copper-deep)}
+  .prow input:hover{filter:brightness(1.08);transform:translateY(-1px)}
+  .prow input:checked::after{content:"✓";position:absolute;inset:0;display:flex;align-items:center;
+    justify-content:center;color:var(--verd);font-size:18px;font-weight:900;text-shadow:0 1px 1px rgba(0,0,0,.45)}
+  .prow .pn{order:1}
   .prow .pn{flex:1}
   .prow .pn a{color:var(--ink);text-decoration:none;font-size:1.05rem}
   .prow .pn a:hover{color:var(--copper-glow)}
