@@ -420,7 +420,7 @@
 
 <script>
 const AVAIL_LABEL={available:"Updated",likely:"Likely works",outdated:"Outdated",["no-build"]:"Outdated",["not-found"]:"Unresolved",pending:"Awaiting sync"};
-let DATA=[], REG={}, filter="all", query="";
+let DATA=[], REG={}, filter="all", query="", PROPOSALS=[];
 const ADMIN_KEY=new URLSearchParams(location.search).get("key");   // ?key=… → approval mode
 
 fetch("registry.json?_="+Date.now()).then(r=>r.json()).then(reg=>{
@@ -541,10 +541,17 @@ function updateModRow(link){
 // Hovering a pill lists the exact mods. "Added" = accepted dashboard proposals only.
 function pendingChanges(){
   const added=[],updated=[],removed=[];
+  const counted=new Set();
   DATA.forEach(m=>{const st=m.server_state||"";
     if(st==="remove"){removed.push(m.name);return;}
-    if(st==="yes" && !m.version) added.push(m.name);   // approved but not yet installed → installs on deploy
+    if(st==="yes" && !m.version){added.push(m.name);counted.add(linkKey(m.link));}   // approved, not yet installed
     else if(m.update_pending) updated.push(m.name);});
+  // approved proposals (live from the proposals box) that aren't installed yet also install on deploy
+  const installed=new Set(DATA.filter(m=>m.version).map(m=>linkKey(m.link)));
+  PROPOSALS.forEach(p=>{
+    const k=linkKey(p.link);
+    if(p.approved && !installed.has(k) && !counted.has(k)){added.push(p.name);counted.add(k);}
+  });
   return {added,updated,removed};
 }
 function deployBadge(){
@@ -826,7 +833,8 @@ async function renderApprovals(){
   drafts=drafts.filter(d=>!inSheet.has(linkKey(d.link)) && !installed.has(linkKey(d.link)));
   localStorage.setItem(pendingKey(),JSON.stringify(drafts));
   pend=pend.concat(drafts.map(d=>({name:d.name||d.link,link:d.link,section:d.section||"1.22",approved:false})));
-  if(!pend.length){box.innerHTML=`<div class="apanel"><h2>Admin · proposals</h2><div class="sub2">No proposals waiting. New dashboard suggestions appear here instantly.</div></div>`;return;}
+  PROPOSALS=pend.slice();   // so the deploy badge can count approved-not-installed proposals
+  if(!pend.length){box.innerHTML=`<div class="apanel"><h2>Admin · proposals</h2><div class="sub2">No proposals waiting. New dashboard suggestions appear here instantly.</div></div>`;deployBadge();return;}
   const byLink={};DATA.forEach(m=>{if(m.link)byLink[m.link]=m;});
   let rows="";
   pend.sort((a,b)=>a.name.localeCompare(b.name)).forEach(m=>{
@@ -855,16 +863,19 @@ async function renderApprovals(){
   }));
   box.querySelectorAll('input[type=checkbox]').forEach(cb=>cb.addEventListener("change",async()=>{
     if(!cb.checked && !REG.actions_v4){cb.checked=true;showToast("Un-approve needs the script update (redeploy) first.",false);return;}
-    const action=cb.checked?"approve":"unapprove";
+    const action=cb.checked?"approve":"unapprove", link=cb.dataset.link;
     cb.disabled=true;
     try{
       await fetch(REG.submit_url,{method:"POST",mode:"no-cors",
         headers:{"Content-Type":"text/plain;charset=utf-8"},
-        body:JSON.stringify({action,link:cb.dataset.link,key:ADMIN_KEY})});
-      showToast(cb.checked?"Approved — installs on the next update.":"Un-approved — back to a proposal.",true);
+        body:JSON.stringify({action,link,key:ADMIN_KEY})});
+      const p=PROPOSALS.find(x=>x.link===link); if(p)p.approved=cb.checked;   // badge reflects it now
+      deployBadge();
+      showToast(cb.checked?"Approved — counts toward the deploy; click ⚡ Deploy now to install.":"Un-approved — back to a proposal.",true);
     }catch(e){cb.checked=!cb.checked;showToast("Failed — try again.",false);}
     finally{cb.disabled=false;}
   }));
+  deployBadge();
 }
 
 /* ---------- Add-a-mod form ---------- */
