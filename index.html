@@ -418,7 +418,7 @@
 <div class="toast" id="toast"></div>
 
 <script>
-const AVAIL_LABEL={available:"Updated",likely:"Likely works",outdated:"Outdated",["no-build"]:"Outdated",["not-found"]:"Unresolved",pending:"Pending sync"};
+const AVAIL_LABEL={available:"Updated",likely:"Likely works",outdated:"Outdated",["no-build"]:"Outdated",["not-found"]:"Unresolved",pending:"Awaiting sync"};
 let DATA=[], REG={}, filter="all", query="";
 const ADMIN_KEY=new URLSearchParams(location.search).get("key");   // ?key=… → approval mode
 
@@ -487,7 +487,8 @@ function modRow(m){
   const nm=m.link?`<a class="name" href="${esc(m.link)}" target="_blank" rel="noopener">${esc(m.name)}<span class="arrow">↗</span></a>`
                   :`<span class="name">${esc(m.name)}</span>`;
   const st=m.server_state||"";
-  const onsrv=st==="yes"||st==="disabled"||(m.on_server&&st!=="remove"&&st!=="no");
+  // on the server = approved, OR actually installed (has a manifest version) and not a client-only mod
+  const onsrv=st==="yes"||st==="disabled"||(m.version&&m.section!=="optional")||(m.on_server&&st!=="remove"&&st!=="no");
   const srvTag = st==="remove"?`<span class="tag-srv rem">removing…</span>`
                : st==="disabled"?`<span class="tag-srv off">disabled</span>`
                : onsrv?`<span class="tag-srv">on server</span>`
