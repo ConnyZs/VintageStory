@@ -240,6 +240,9 @@
   .media .thumb,.media iframe{width:100%;aspect-ratio:16/9;display:block;object-fit:cover;border:0;background:var(--bg2)}
   .media .cap{padding:10px 13px;font-size:.88rem;color:var(--ink-dim);display:flex;justify-content:space-between;gap:8px}
   .media .cap a{color:var(--copper);text-decoration:none}
+  .gdel{background:none;border:1px solid var(--line);color:var(--ink-faint);border-radius:4px;cursor:pointer;
+    padding:0 6px;line-height:1.5;font-size:.85rem}
+  .gdel:hover{border-color:var(--rust);color:var(--rust)}
 
   @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
   @keyframes wipe{from{opacity:0;transform:scaleX(0)}to{opacity:1;transform:scaleX(1)}}
@@ -542,8 +545,9 @@ async function renderGallery(){
       const yt=ytId(it.url);
       const inner=yt?`<iframe src="https://www.youtube.com/embed/${yt}" allowfullscreen loading="lazy"></iframe>`
                     :`<img class="thumb" src="${esc(it.url)}" loading="lazy" alt="${esc(it.caption||"")}">`;
+      const del=(ADMIN_KEY&&REG.actions_v6)?`<button class="gdel" data-url="${esc(it.url)}" title="Delete (admin)">🗑</button>`:"";
       grid+=`<div class="media">${inner}<div class="cap"><span>${esc(it.by||it.caption||"")}</span>`
-           +`<a href="${esc(it.url)}" target="_blank" rel="noopener">open ↗</a></div></div>`;
+           +`<a href="${esc(it.url)}" target="_blank" rel="noopener">open ↗</a>${del}</div></div>`;
     });
     grid+='</div>';
   }
@@ -576,6 +580,15 @@ async function renderGallery(){
     }catch(err){showToast("Upload failed — try a smaller image.",false);}
     finally{e.target.value="";}
   });
+  // admin: delete a gallery item (trashes the Drive file too, for uploads)
+  box.querySelectorAll(".gdel").forEach(b=>b.addEventListener("click",async()=>{
+    if(!confirm("Delete this from the gallery?"))return;
+    b.disabled=true;
+    try{await post({action:"galdel",url:b.dataset.url,key:ADMIN_KEY});
+      showToast("Deleted — refreshing…",true);
+      setTimeout(renderGallery,2000);
+    }catch(e){b.disabled=false;showToast("Couldn't delete — try again.",false);}
+  }));
 }
 
 /* ---------- admin: approve proposals (only with ?key=) ---------- */
