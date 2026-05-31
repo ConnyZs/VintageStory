@@ -1,8 +1,8 @@
 {
-  "generated": "20260531-085529",
+  "generated": "20260531-085944",
   "game_version": "1.22.3",
   "sheet_url": "https://docs.google.com/spreadsheets/d/1MZUkPV8T5S2HtIM8LexvDzXFZAidz0b4pdVqxegL5pE/edit",
-  "submit_url": "https://script.google.com/macros/s/AKfycbzrfbARpq43DE6hsX6Vdpz4s5X_NqXj7wSukRAoa40XCatULvYv3WWeeV_D-m7Am1aD/exec",
+  "submit_url": "https://script.google.com/macros/s/AKfycbwvmmGT8o0zYH6oE1jXH04ypzcb-ozH-ZXkoT-Po2hE91PrNmWx96RHTz6UMQ-v7fn3gg/exec",
   "categories": [
     "Armor",
     "Baking",
@@ -1252,5 +1252,5 @@
   ],
   "actions_v4": true,
   "actions_v5": true,
-  "actions_v6": false
+  "actions_v6": true
 }
