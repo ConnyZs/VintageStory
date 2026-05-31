@@ -21,5 +21,22 @@
    ],
    "frames": 16
   }
+ },
+ "Eghetti": {
+  "hash": "2d0a09b005477fb89683e0500c2d2b2f870c2e6d",
+  "info": {
+   "class": "smith",
+   "items": [
+    "Blacksmith apron",
+    "Workmans pants",
+    "Soldier boots",
+    "Heavy leather gloves",
+    "Miner belt",
+    "Leather bracers",
+    "Fur coat",
+    "Fur coat"
+   ],
+   "frames": 16
+  }
  }
 }

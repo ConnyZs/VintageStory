@@ -21,6 +21,20 @@
     "Fur coat"
    ],
    "frames": 16
+  },
+  "Eghetti": {
+   "class": "smith",
+   "items": [
+    "Blacksmith apron",
+    "Workmans pants",
+    "Soldier boots",
+    "Heavy leather gloves",
+    "Miner belt",
+    "Leather bracers",
+    "Fur coat",
+    "Fur coat"
+   ],
+   "frames": 16
   }
  }
 }

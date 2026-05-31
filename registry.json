@@ -1,5 +1,5 @@
 {
-  "generated": "20260531-215501",
+  "generated": "20260531-225942",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "modset": {
@@ -1273,7 +1273,7 @@
         "blocksBroken": 3,
         "blocksPlaced": 1,
         "deepestY": 112,
-        "lastSeen": 1780240677,
+        "lastSeen": 1780261110,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1369,7 +1369,87 @@
       "first_join": "04/22/2026 18:03",
       "last_join": "05/28/2026 21:18",
       "last_char": "04/22/2026 18:08",
-      "stats": {}
+      "stats": {
+        "uid": "TxqQ4g4qqKs+G5yFUTFmyGYb",
+        "name": "Eghetti",
+        "class": "smith",
+        "deaths": 0,
+        "mobKills": 0,
+        "playerKills": 0,
+        "playtimeHours": 0.0,
+        "blocksTravelled": 42,
+        "blocksBroken": 1,
+        "blocksPlaced": 1,
+        "deepestY": 129,
+        "lastSeen": 1780261097,
+        "gear": [
+          "Raccoon tail hat",
+          "Blacksmith apron",
+          "Workmans pants",
+          "Soldier boots",
+          "Heavy leather gloves",
+          "Miner belt",
+          "Leather bracers",
+          "Fur coat",
+          "Tailored gambeson body armor"
+        ],
+        "gearDetail": [
+          {
+            "slot": "head",
+            "code": "game:clothes-head-furhattail-raccoon-common",
+            "name": "Raccoon tail hat",
+            "icon": "character/icons/head-furhattail-raccoon-common.png"
+          },
+          {
+            "slot": "shoulder",
+            "code": "game:clothes-shoulder-blacksmith-apron",
+            "name": "Blacksmith apron",
+            "icon": "character/icons/shoulder-blacksmith-apron.png"
+          },
+          {
+            "slot": "lowerbody",
+            "code": "game:clothes-lowerbody-workmans-gown",
+            "name": "Workmans pants",
+            "icon": "character/icons/lowerbody-workmans-gown.png"
+          },
+          {
+            "slot": "foot",
+            "code": "game:clothes-foot-soldier-boots",
+            "name": "Soldier boots",
+            "icon": "character/icons/foot-soldier-boots.png"
+          },
+          {
+            "slot": "hand",
+            "code": "game:clothes-hand-heavy-leather-gloves",
+            "name": "Heavy leather gloves",
+            "icon": "character/icons/hand-heavy-leather-gloves.png"
+          },
+          {
+            "slot": "waist",
+            "code": "game:clothes-waist-miner",
+            "name": "Miner belt",
+            "icon": "character/icons/waist-miner.png"
+          },
+          {
+            "slot": "arm",
+            "code": "game:clothes-arm-leather-bracers",
+            "name": "Leather bracers",
+            "icon": "character/icons/arm-leather-bracers.png"
+          },
+          {
+            "slot": "upperbodyover",
+            "code": "game:clothes-upperbodyover-fur-coat",
+            "name": "Fur coat",
+            "icon": "character/icons/upperbodyover-fur-coat.png"
+          },
+          {
+            "slot": "armorbody",
+            "code": "game:armor-body-tailored-pink-linen",
+            "name": "Tailored gambeson body armor"
+          }
+        ],
+        "skin": {}
+      }
     },
     {
       "name": "AddyBuschu",
