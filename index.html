@@ -74,8 +74,7 @@
   .tally{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;
     margin:38px 0 8px;background:var(--line);border:1px solid var(--line);border-radius:6px;
     overflow:hidden;opacity:0;animation:rise .8s .44s forwards}
-  .tally div{background:linear-gradient(180deg,var(--surface),var(--bg2)),url("tex/parchment.png");
-    background-size:cover,200px 200px;background-blend-mode:soft-light;padding:18px 20px}
+  .tally div{background:linear-gradient(180deg,var(--surface),var(--bg2));padding:18px 20px}
   .tally .n{font-family:"Cinzel",serif;font-weight:700;font-size:1.9rem;line-height:1}
   .tally .l{font-family:"Spectral SC",serif;letter-spacing:.12em;font-size:.7rem;
     text-transform:uppercase;color:var(--ink-faint);margin-top:7px}
@@ -239,8 +238,7 @@
   .tab.on{color:var(--copper-glow);border-bottom-color:var(--copper)}
   /* crew */
   .crew{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:18px;margin-top:30px}
-  .member{background:linear-gradient(180deg,var(--surface),var(--bg2)),url("tex/parchment.png");
-    background-size:cover,200px 200px;background-blend-mode:soft-light;border:1px solid var(--line);
+  .member{background:linear-gradient(180deg,var(--surface),var(--bg2));border:1px solid var(--line);
     border-radius:9px;padding:20px 22px;box-shadow:var(--shadow)}
   .member h3{font-family:"Cinzel",serif;font-weight:700;font-size:1.35rem;display:flex;align-items:center;gap:10px}
   .member .dot{width:9px;height:9px;border-radius:50%;background:var(--slate);flex:none}
@@ -328,9 +326,7 @@
   .mbtn.go:hover{filter:brightness(1.06)}
   /* download-modset panel */
   .dlpanel{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;text-align:center;gap:16px 30px;
-    margin:6px 0 8px;padding:20px 24px;border:1px solid var(--line-strong);border-radius:8px;
-    background:linear-gradient(0deg,var(--surface),var(--surface)),url("tex/leather.png");
-    background-size:cover,240px 240px;background-blend-mode:soft-light}
+    margin:6px 0 8px;padding:20px 24px;border:1px solid var(--line-strong);border-radius:8px;background:var(--surface)}
   .dlpanel h2{margin:0;font-size:1.15rem}
   .dlpanel .sub2{color:var(--ink-faint);font-size:.86rem;margin-top:3px}
   .dlpanel code{font-family:monospace;color:var(--copper);background:var(--bg2);padding:1px 5px;border-radius:3px}
