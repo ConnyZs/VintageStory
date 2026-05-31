@@ -1,5 +1,5 @@
 {
-  "generated": "20260531-051751",
+  "generated": "20260531-053657",
   "game_version": "1.22.3",
   "sheet_url": "https://docs.google.com/spreadsheets/d/1MZUkPV8T5S2HtIM8LexvDzXFZAidz0b4pdVqxegL5pE/edit",
   "submit_url": "",
@@ -816,7 +816,7 @@
       "link": "https://mods.vintagestory.at/tailorsdelight",
       "avail": "available",
       "note": "available for 1.22 (in the update / running on server)",
-      "version": null
+      "version": "2.2.2"
     },
     {
       "name": "Cartwright\u00b4s Caravan",

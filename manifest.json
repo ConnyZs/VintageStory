@@ -1,7 +1,7 @@
 {
   "game_version": "1.22.3",
-  "generated": "20260531-044648",
-  "count": 68,
+  "generated": "20260531-053636",
+  "count": 69,
   "mods": [
     {
       "filename": "ACulinaryArtillery 2.0.0-dev.19.zip",
@@ -578,6 +578,15 @@
       "version": "1.3.2",
       "name": null,
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/stonebakeoven_1.3.2.zip"
+    },
+    {
+      "filename": "tailors_delight-2.2.2.zip",
+      "sha256": "13812149e502fb9f3b5ee1d9379e829573a78633542727b92ec7035f2001dc09",
+      "size": 223805,
+      "modid": "tailorsdelight",
+      "version": "2.2.2",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/tailors_delight-2.2.2.zip"
     },
     {
       "filename": "translocatorengineeringredux_1.6.6.zip",
