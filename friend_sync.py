@@ -76,6 +76,36 @@ def load_manifest(src):
     with open(os.path.expanduser(src)) as f:
         return json.load(f)
 
+def disabled_modids(mods_dir):
+    """Read clientsettings.json (next to the Mods folder) and return the set of
+    disabled modids. VS stores them as 'modid@version' strings."""
+    cs = os.path.join(os.path.dirname(mods_dir.rstrip("/")), "clientsettings.json")
+    out = set()
+    try:
+        with open(cs) as f:
+            data = json.load(f)
+        lst = data.get("disabledMods") or data.get("stringListSettings", {}).get("disabledMods") or []
+        for entry in lst:
+            out.add(str(entry).split("@", 1)[0].lower())
+    except Exception:
+        pass
+    return out
+
+def installed_modids(mods_dir):
+    """modid -> [filenames] for every zip currently in the Mods folder."""
+    out = {}
+    for fn in os.listdir(mods_dir):
+        if fn.lower().endswith(".zip"):
+            mid = modid_of(os.path.join(mods_dir, fn))
+            if mid:
+                out.setdefault(mid, []).append(fn)
+    return out
+
+def mods_by_server_dir(mods_dir):
+    """The sibling ModsByServer folder, if it exists."""
+    p = os.path.join(os.path.dirname(mods_dir.rstrip("/")), "ModsByServer")
+    return p if os.path.isdir(p) else None
+
 def main():
     ap = argparse.ArgumentParser(description="Sync VS mods to the server's approved set (safe).")
     ap.add_argument("--manifest", default=DEFAULT_MANIFEST, help="manifest URL or path")
@@ -98,41 +128,71 @@ def main():
     print(f"Manifest    : game {man.get('game_version')} | {man.get('count')} mods | built {man.get('generated')}")
     print(f"Mode        : {'APPLY (will change files)' if args.apply else 'DRY RUN (no changes)'}\n")
 
-    # map installed zips by modid
-    installed = {}   # modid -> filename
-    for fn in os.listdir(mods_dir):
-        if fn.lower().endswith(".zip"):
-            mid = modid_of(os.path.join(mods_dir, fn))
-            if mid:
-                installed.setdefault(mid, []).append(fn)
+    installed = installed_modids(mods_dir)           # modid -> [filenames] in Mods
+    disabled = disabled_modids(mods_dir)             # set of disabled modids
+    present = set(installed.keys())
 
-    to_get, to_remove, ok, problems = [], [], [], []
-    want_files = set()
-    for m in man["mods"]:
+    to_get, to_remove, ok, problems, skipped_opt = [], [], [], [], []
+    want_files, mandatory_modids = set(), set()
+
+    def consider(m, optional=False):
         mid, fn, want_sha, url = m.get("modid"), m["filename"], m.get("sha256"), m.get("url")
+        # OPTIONAL (client-side, taste-dependent) mods: only touch if the friend
+        # already has them present AND has not disabled them. Never add fresh.
+        if optional:
+            if mid not in present:
+                skipped_opt.append(f"{mid} (not installed — left alone)")
+                return
+            if mid in disabled:
+                skipped_opt.append(f"{mid} (disabled — left alone)")
+                return
+        else:
+            mandatory_modids.add(mid)
         want_files.add(fn)
         target = os.path.join(mods_dir, fn)
-        # already correct?
         if os.path.exists(target) and want_sha and sha256(target) == want_sha:
             ok.append(fn)
-            continue
+            return
         if not url:
-            problems.append(f"{fn} (no download URL — get it manually from ModDB)")
-            continue
+            problems.append(f"{fn} (no download URL)")
+            return
         to_get.append(m)
-        # mark any other-version file of the same modid for removal
-        if mid:
+        if mid:                                       # supersede other versions of same modid
             for other in installed.get(mid, []):
                 if other != fn:
                     to_remove.append(other)
+
+    for m in man.get("mods", []):
+        consider(m, optional=False)
+    for m in man.get("optional", []):
+        consider(m, optional=True)
+
+    # ModsByServer cleanup: server-pushed copies of mods we now have in Mods are
+    # redundant and can conflict. Plan removal of any whose modid is one we use.
+    mbs = mods_by_server_dir(mods_dir)
+    mbs_remove = []
+    if mbs:
+        use = mandatory_modids | {m.get("modid") for m in man.get("optional", []) if m.get("modid") in present}
+        for fn in os.listdir(mbs):
+            if fn.lower().endswith(".zip") and modid_of(os.path.join(mbs, fn)) in use:
+                mbs_remove.append(fn)
 
     print(f"Up to date  : {len(ok)}")
     print(f"To download : {len(to_get)}")
     for m in to_get:
         print(f"    + {m['filename']}  ({m.get('name') or m.get('modid')})")
-    print(f"To remove (outdated versions of listed mods): {len(to_remove)}")
-    for r in sorted(set(to_remove)):
-        print(f"    - {r}")
+    if to_remove:
+        print(f"To replace (old versions): {len(set(to_remove))}")
+        for r in sorted(set(to_remove)):
+            print(f"    - {r}")
+    if mbs_remove:
+        print(f"ModsByServer to clean (redundant): {len(mbs_remove)}")
+        for r in sorted(mbs_remove):
+            print(f"    - ModsByServer/{r}")
+    if skipped_opt:
+        print(f"Optional left alone: {len(skipped_opt)}")
+        for s in skipped_opt:
+            print(f"    · {s}")
     if problems:
         print(f"Manual (no URL): {len(problems)}")
         for p in problems:
@@ -141,31 +201,33 @@ def main():
     if not args.apply:
         print("\nDRY RUN — nothing changed. Re-run with --apply to sync.")
         return
-    if not to_get and not to_remove:
+    if not to_get and not to_remove and not mbs_remove:
         print("\nAlready in sync. Nothing to do.")
         return
 
-    # backup first
+    # backup Mods (and ModsByServer if we touch it) first
     stamp = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
     backup = os.path.expanduser(f"~/VSmods-backup-{stamp}.zip")
-    print(f"\nBacking up Mods folder → {backup}")
+    print(f"\nBacking up → {backup}")
     with zipfile.ZipFile(backup, "w", zipfile.ZIP_DEFLATED) as z:
         for fn in os.listdir(mods_dir):
             fp = os.path.join(mods_dir, fn)
             if os.path.isfile(fp):
-                z.write(fp, fn)
+                z.write(fp, "Mods/" + fn)
+        if mbs:
+            for fn in os.listdir(mbs):
+                fp = os.path.join(mbs, fn)
+                if os.path.isfile(fp):
+                    z.write(fp, "ModsByServer/" + fn)
 
-    # download + verify + install
     for m in to_get:
-        fn, want_sha, url = m["filename"], m.get("sha256"), m["url"]
+        fn, want_sha, url = m["filename"], m.get("sha256"), m["url"].replace(" ", "%20")
         tmp = tempfile.NamedTemporaryFile(delete=False, suffix=".zip", dir=mods_dir).name
-        url = url.replace(" ", "%20")   # ModDB ?dl= filenames can contain spaces
         try:
             print(f"  downloading {fn}...")
             with urllib.request.urlopen(url, timeout=120) as r, open(tmp, "wb") as f:
                 shutil.copyfileobj(r, f)
-            got = sha256(tmp)
-            if want_sha and got != want_sha:
+            if want_sha and sha256(tmp) != want_sha:
                 os.remove(tmp)
                 print(f"    ! checksum mismatch for {fn} — discarded, NOT installed.")
                 continue
@@ -176,12 +238,17 @@ def main():
                 os.remove(tmp)
             print(f"    ! failed {fn}: {e}")
 
-    # remove outdated versions (only of mods that ARE in the manifest)
     for r in sorted(set(to_remove)):
         rp = os.path.join(mods_dir, r)
         if os.path.exists(rp) and r not in want_files:
             os.remove(rp)
-            print(f"  removed outdated {r}")
+            print(f"  removed old {r}")
+
+    for r in sorted(mbs_remove):
+        rp = os.path.join(mbs, r)
+        if os.path.exists(rp):
+            os.remove(rp)
+            print(f"  cleaned ModsByServer/{r}")
 
     print(f"\nDone. Backup kept at {backup}. Start the game once to rebuild caches.")
 

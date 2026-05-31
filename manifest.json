@@ -1,6 +1,6 @@
 {
   "game_version": "1.22.3",
-  "generated": "20260531-030754",
+  "generated": "20260531-031625",
   "count": 68,
   "mods": [
     {
@@ -614,6 +614,35 @@
       "version": "1.5.1",
       "name": null,
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/vsroofing_1.5.1.zip"
+    }
+  ],
+  "optional": [
+    {
+      "filename": "Natural Foliage_v0.04.zip",
+      "sha256": "cc8fc35262b6f2a1092bb7ba0f189a4ec78aa01284f746f72b45f067ccbd11eb",
+      "size": 389801,
+      "modid": "naturalfoliage",
+      "version": "0.0.4",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/Natural%20Foliage_v0.04.zip"
+    },
+    {
+      "filename": "coriaendershaders-v1.2.0.zip",
+      "sha256": "b891314106b3dd11e6378c0723b4d8da81ea695aedaafb68a1cd6e35fd92f22a",
+      "size": 187060,
+      "modid": "coriaendershaders",
+      "version": "1.2.0",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/coriaendershaders-v1.2.0.zip"
+    },
+    {
+      "filename": "statushudcont_4.3.1.zip",
+      "sha256": "ded7cb4b79d3fede4d5156c79f8f611041be7a2b851bc7b2ccb9dc5906184bd6",
+      "size": 224626,
+      "modid": "statushudcont",
+      "version": "4.3.1",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/statushudcont_4.3.1.zip"
     }
   ]
 }
