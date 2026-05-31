@@ -810,6 +810,14 @@ async function renderApprovals(){
   let pend=[];
   try{ pend=await loadLiveProposals(); }
   catch(e){ box.innerHTML=`<div class="apanel"><h2>Admin · proposals</h2><div class="sub2">Couldn't read the live sheet.</div></div>`; return; }
+  // merge just-submitted drafts (the sheet API lags a few seconds) so they show immediately;
+  // prune ones that have since appeared in the sheet or already installed
+  let drafts=[];try{drafts=JSON.parse(localStorage.getItem(pendingKey())||"[]");}catch(e){}
+  const inSheet=new Set(pend.map(p=>linkKey(p.link)));
+  const installed=new Set(DATA.filter(m=>m.version).map(m=>linkKey(m.link)));
+  drafts=drafts.filter(d=>!inSheet.has(linkKey(d.link)) && !installed.has(linkKey(d.link)));
+  localStorage.setItem(pendingKey(),JSON.stringify(drafts));
+  pend=pend.concat(drafts.map(d=>({name:d.name||d.link,link:d.link,section:d.section||"1.22",approved:false})));
   if(!pend.length){box.innerHTML=`<div class="apanel"><h2>Admin · proposals</h2><div class="sub2">No proposals waiting. New dashboard suggestions appear here instantly.</div></div>`;return;}
   const byLink={};DATA.forEach(m=>{if(m.link)byLink[m.link]=m;});
   let rows="";
@@ -830,6 +838,7 @@ async function renderApprovals(){
     try{
       await fetch(REG.submit_url,{method:"POST",mode:"no-cors",headers:{"Content-Type":"text/plain;charset=utf-8"},
         body:JSON.stringify({action:"clearrow",link,key:ADMIN_KEY})});
+      try{let d=JSON.parse(localStorage.getItem(pendingKey())||"[]");d=d.filter(x=>linkKey(x.link)!==linkKey(link));localStorage.setItem(pendingKey(),JSON.stringify(d));}catch(_){}
       b.closest(".prow").remove();
       DATA=DATA.filter(x=>x.link!==link); render(); buildTally();
       showToast("Proposal rejected — removed from the list.",true);
@@ -916,11 +925,11 @@ document.getElementById("submitBtn").addEventListener("click",async()=>{
   try{
     await fetch(REG.submit_url,{method:"POST",mode:"no-cors",
       headers:{"Content-Type":"text/plain;charset=utf-8"},body:JSON.stringify(payload)});
+    savePending({name,link,category,section});   // draft → shows in the proposals box instantly
     closeModal();
     showToast("Proposed ✓ — it's in the Admin · proposals box, awaiting approval.",true);
     document.getElementById("f-name").value="";document.getElementById("f-link").value="";
-    // it lands in the proposals box (read live from the sheet); refresh it as the sheet catches up
-    if(ADMIN_KEY){setTimeout(renderApprovals,2500);setTimeout(renderApprovals,7000);}
+    if(ADMIN_KEY){renderApprovals();setTimeout(renderApprovals,3000);setTimeout(renderApprovals,8000);}
   }catch(err){showToast("Couldn’t submit — try again.",false);}
   finally{btn.disabled=false;btn.textContent="Add to ledger";}
 });
