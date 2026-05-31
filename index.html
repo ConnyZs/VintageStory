@@ -673,8 +673,12 @@ const SERAPH_SVG=`<svg viewBox="0 0 64 132" fill="none" stroke="var(--copper-glo
 const EQ_SLOTS=[["head","Head"],["face","Face"],["neck","Neck"],["shoulder","Shoulders"],["upperbody","Chest"],["upperbodyover","Over"],["arm","Arms"],["hand","Hands"],["waist","Waist"],["lowerbody","Legs"],["foot","Feet"],["emblem","Emblem"]];
 function paperDoll(detail){
   const by={}; (detail||[]).forEach(g=>{ if(g&&g.slot) by[g.slot]=g; });
-  const rows=EQ_SLOTS.map(([k,l])=>{const it=by[k];
+  const known=new Set(EQ_SLOTS.map(s=>s[0]));
+  let rows=EQ_SLOTS.map(([k,l])=>{const it=by[k];
     return `<div class="eqrow${it?"":" empty"}"><span class="eqs">${l}</span><span class="eqi">${it?esc(it.name):"—"}</span></div>`;}).join("");
+  // any item in an unrecognised/modded slot still shows (nothing hidden)
+  (detail||[]).forEach(g=>{ if(g&&g.slot&&!known.has(g.slot))
+    rows+=`<div class="eqrow"><span class="eqs">${esc(g.slot)}</span><span class="eqi">${esc(g.name||"")}</span></div>`; });
   return `<div class="paperdoll"><div class="seraph">${SERAPH_SVG}</div><div class="equip">${rows}</div></div>`;
 }
 function renderCrew(){
