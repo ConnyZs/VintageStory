@@ -232,7 +232,7 @@
         <option value="optional">Client-side optional</option>
       </select></div>
     </div>
-    <label class="checkrow"><input type="checkbox" id="f-srv" checked> Install on the server (uncheck for client-only)</label>
+    <p class="hint" style="margin:0 0 4px">Your suggestion is added as a <strong>proposal</strong> — an admin reviews and approves it before it goes on the server.</p>
     <div class="setup" id="setupMsg" style="display:none"></div>
     <div class="actions">
       <button class="btn ghost" id="cancelBtn">Cancel</button>
@@ -362,7 +362,7 @@ document.getElementById("submitBtn").addEventListener("click",async()=>{
   const link=document.getElementById("f-link").value.trim();
   const category=document.getElementById("f-cat").value.trim()||"Misc.";
   const section=document.getElementById("f-sec").value;
-  const on_server=document.getElementById("f-srv").checked && section==="1.22";
+  const on_server=false;   // all dashboard submissions are proposals until an admin approves
   if(!name){showToast("Give the mod a name.",false);return;}
   if(!/^https?:\/\/mods\.vintagestory\.at\//.test(link)){showToast("Use a mods.vintagestory.at link.",false);return;}
   if(!REG.submit_url){showToast("Setup not finished — ask the admin.",false);return;}
