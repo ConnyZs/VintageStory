@@ -235,7 +235,7 @@
   .tab:hover{color:var(--ink)}
   .tab.on{color:var(--copper-glow);border-bottom-color:var(--copper)}
   /* crew */
-  .crew{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:18px;margin-top:30px}
+  .crew{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:18px;margin-top:30px}
   .member{background:linear-gradient(180deg,var(--surface),var(--bg2));border:1px solid var(--line);
     border-radius:9px;padding:20px 22px;box-shadow:var(--shadow)}
   .member h3{font-family:"Cinzel",serif;font-weight:700;font-size:1.35rem;display:flex;align-items:center;gap:10px}
@@ -260,29 +260,32 @@
   .gearchips{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}
   .gchip2{font-size:.74rem;color:var(--ink-dim);background:var(--surface);border:1px solid var(--line);border-radius:4px;padding:3px 8px}
   /* character paper-doll */
-  .paperdoll{display:flex;gap:14px;margin-top:14px;border-top:1px solid var(--line);padding-top:14px}
+  .paperdoll{display:flex;gap:20px;margin-top:14px;border-top:1px solid var(--line);padding-top:16px;align-items:flex-start}
   .paperdoll .seraph{flex:0 0 70px;display:flex;align-items:center;justify-content:center;
     background:radial-gradient(ellipse at 50% 35%,rgba(217,138,75,.10),transparent 70%)}
   .paperdoll .seraph svg{width:64px;height:auto;filter:drop-shadow(0 2px 6px rgba(0,0,0,.3))}
-  /* rotatable rendered character (drag to spin) */
-  .charview{flex:0 0 150px;position:relative;aspect-ratio:384/560;cursor:grab;touch-action:pan-y;
-    border-radius:8px;background:radial-gradient(ellipse at 50% 32%,rgba(217,138,75,.12),transparent 72%);
+  /* rotatable rendered character (drag to spin, scroll/click to zoom) */
+  .charview{flex:0 0 195px;position:relative;aspect-ratio:384/560;cursor:grab;touch-action:pan-y;overflow:hidden;
+    border-radius:10px;border:1px solid var(--line);
+    background:radial-gradient(ellipse at 50% 30%,rgba(217,138,75,.14),transparent 72%);
     user-select:none;-webkit-user-select:none}
-  .charview.drag{cursor:grabbing}
+  .charview.drag{cursor:grabbing} .charview.zoomed{cursor:zoom-out}
   .charview img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;
-    image-rendering:pixelated;filter:drop-shadow(0 4px 10px rgba(0,0,0,.45));pointer-events:none}
-  .charhint{position:absolute;left:0;right:0;bottom:2px;text-align:center;font-family:"Spectral SC",serif;
-    font-size:.58rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-faint);
+    image-rendering:pixelated;filter:drop-shadow(0 4px 12px rgba(0,0,0,.5));pointer-events:none;
+    transform-origin:center 40%;transition:transform .12s ease-out}
+  .charhint{position:absolute;left:0;right:0;bottom:4px;text-align:center;font-family:"Spectral SC",serif;
+    font-size:.56rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-faint);
     opacity:.7;transition:opacity .3s;pointer-events:none}
   .charview.spun .charhint{opacity:0}
-  .paperdoll .equip{flex:1;display:flex;flex-direction:column;gap:2px}
-  .eqrow{display:flex;gap:8px;align-items:center;font-size:.82rem;padding:3px 0;border-bottom:1px dotted var(--line)}
+  .member.has-char{grid-column:1/-1}            /* geared players get a full-width feature row */
+  .paperdoll .equip{flex:1;min-width:0;columns:185px;column-gap:24px}
+  .eqrow{break-inside:avoid;display:flex;gap:8px;align-items:center;font-size:.82rem;padding:4px 0;border-bottom:1px dotted var(--line)}
   .eqrow .eqx{flex:0 0 26px;width:26px;height:26px;object-fit:contain;image-rendering:pixelated;
     background:var(--bg2);border:1px solid var(--line);border-radius:4px;padding:1px}
   .eqrow .eqx.ph{opacity:.25}
   .eqrow.empty .eqx{opacity:.18}
-  .eqrow .eqs{flex:0 0 58px;font-family:"Spectral SC",serif;font-size:.64rem;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-faint)}
-  .eqrow .eqi{color:var(--ink)}
+  .eqrow .eqs{flex:0 0 52px;font-family:"Spectral SC",serif;font-size:.62rem;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-faint)}
+  .eqrow .eqi{color:var(--ink);line-height:1.15}
   .eqrow.empty .eqi{color:var(--ink-faint);opacity:.5}
   /* deploy progress bar (fixed top) */
   #deployBar{position:fixed;top:0;left:0;right:0;z-index:50}
@@ -706,7 +709,7 @@ function charDoll(name,detail,info){
   const front=(CHAR_MAN&&CHAR_MAN.front)||0;
   const view=`<div class="charview" data-char="${esc(name)}" data-frames="${n}" data-dir="${esc(dir)}" data-front="${front}">
       <img class="charimg" src="${esc(dir)}f${String(front).padStart(2,"0")}.png" alt="${esc(name)}'s character" draggable="false">
-      <div class="charhint">drag to rotate</div></div>`;
+      <div class="charhint">drag to rotate · scroll to zoom</div></div>`;
   return `<div class="paperdoll">${view}<div class="equip">${equipRows(detail)}</div></div>`;
 }
 // attach drag-to-rotate to every rendered character on the Crew tab (and preload its frames)
@@ -714,16 +717,20 @@ function initCharViews(){
   document.querySelectorAll(".charview").forEach(v=>{
     const N=+v.dataset.frames, dir=v.dataset.dir, front=+v.dataset.front||0;
     if(!N){return;}
-    const img=v.querySelector(".charimg"); let cur=front, dragging=false, sx=0, sf=front;
+    const img=v.querySelector(".charimg"); let cur=front, dragging=false, sx=0, sf=front, moved=0, zoom=1;
     const frames=[]; for(let i=0;i<N;i++){const im=new Image(); im.src=dir+"f"+String(i).padStart(2,"0")+".png"; frames[i]=im;}
     const STEP=14; // px of drag per frame
     const show=i=>{cur=((i%N)+N)%N; img.src=dir+"f"+String(cur).padStart(2,"0")+".png";};
-    const down=e=>{dragging=true;sx=(e.touches?e.touches[0].clientX:e.clientX);sf=cur;v.classList.add("drag","spun");};
-    const move=e=>{if(!dragging)return; const x=(e.touches?e.touches[0].clientX:e.clientX);
-      show(sf - Math.round((x-sx)/STEP)); if(e.cancelable&&e.touches)e.preventDefault();};
+    const setZoom=z=>{zoom=Math.min(3,Math.max(1,z)); img.style.transform="scale("+zoom.toFixed(2)+")";
+      v.classList.toggle("zoomed",zoom>1.01);};
+    const down=e=>{dragging=true;moved=0;sx=(e.touches?e.touches[0].clientX:e.clientX);sf=cur;v.classList.add("drag","spun");};
+    const move=e=>{if(!dragging)return; const x=(e.touches?e.touches[0].clientX:e.clientX); const dx=x-sx;
+      moved=Math.max(moved,Math.abs(dx)); show(sf + Math.round(dx/STEP)); if(e.cancelable&&e.touches)e.preventDefault();};
     const up=()=>{dragging=false;v.classList.remove("drag");};
     v.addEventListener("pointerdown",down); window.addEventListener("pointermove",move); window.addEventListener("pointerup",up);
     v.addEventListener("touchstart",down,{passive:true}); v.addEventListener("touchmove",move,{passive:false}); v.addEventListener("touchend",up);
+    v.addEventListener("wheel",e=>{e.preventDefault(); setZoom(zoom+(e.deltaY<0?0.3:-0.3));},{passive:false});
+    v.addEventListener("click",()=>{ if(moved<5) setZoom(zoom>1.01?1:2); });   // click w/o drag toggles zoom
   });
 }
 let CHAR_MAN=null;
@@ -761,7 +768,7 @@ async function renderCrew(){
                : (s.gear&&s.gear.length)
                ? `<div class="gearrow"><span class="gk">Wearing</span><div class="gearchips">${s.gear.map(g=>`<span class="gchip2">${esc(g)}</span>`).join("")}</div></div>`:"";
     const meta=`<div class="cmeta">${esc(m.role||"player")} · joined ${esc((m.first_join||"").split(" ")[0])} · seen ${ago(m.last_join)}${active!=null?` · ${active}d on server`:""}</div>`;
-    html+=`<div class="member"><div class="chead"><h3>${esc(m.name||"Unknown")}</h3>${cls}</div>
+    html+=`<div class="member${(cinfo&&cinfo.frames)?" has-char":""}"><div class="chead"><h3>${esc(m.name||"Unknown")}</h3>${cls}</div>
       ${meta}${grid}${gear}</div>`;
   });
   box.innerHTML=html+'</div>';
