@@ -302,7 +302,8 @@ function render(){
                       :`<span class="name">${esc(m.name)}</span>`;
       html+=`<div class="mod">${nm}
         <div class="right">
-          ${m.version?`<span class="ver-pill">v${esc(m.version)}</span>`:""}
+          ${(m.version||m.build_version)?`<span class="ver-pill">v${esc(m.version||m.build_version)}</span>`:""}
+          ${m.build_branch==="1.21"?`<span class="seal likely" title="Only a 1.21 build exists — older, usually works on 1.22">1.21 build</span>`:""}
           ${m.on_server?`<span class="tag-srv">on server</span>`:m.section==="optional"?`<span class="tag-srv">optional</span>`:""}
           <span class="seal ${m.avail}">${AVAIL_LABEL[m.avail]||m.avail}</span>
         </div>
