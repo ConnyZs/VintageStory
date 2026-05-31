@@ -1,5 +1,5 @@
 {
-  "generated": "20260531-162701",
+  "generated": "20260531-171053",
   "game_version": "1.22.3",
   "modset": {
     "server_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset.zip",
@@ -1258,7 +1258,7 @@
       "name": "Raschuetzer",
       "role": "admin",
       "first_join": "04/22/2026 17:47",
-      "last_join": "05/31/2026 14:22",
+      "last_join": "05/31/2026 15:06",
       "last_char": "04/29/2026 21:30",
       "stats": {
         "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
@@ -1267,12 +1267,12 @@
         "deaths": 0,
         "mobKills": 1,
         "playerKills": 0,
-        "playtimeHours": 0.1,
-        "blocksTravelled": 407,
+        "playtimeHours": 0.2,
+        "blocksTravelled": 895,
         "blocksBroken": 3,
         "blocksPlaced": 1,
-        "deepestY": 113,
-        "lastSeen": 1780237579,
+        "deepestY": 112,
+        "lastSeen": 1780240218,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1286,7 +1286,70 @@
           "Forlorn Hope belt",
           "Merchant bracelet",
           "Fur coat"
-        ]
+        ],
+        "gearDetail": [
+          {
+            "slot": "head",
+            "code": "game:clothes-head-messengers-hat",
+            "name": "Messenger hat"
+          },
+          {
+            "slot": "shoulder",
+            "code": "game:clothes-shoulder-artisans-scarf",
+            "name": "Artisans scarf"
+          },
+          {
+            "slot": "upperbody",
+            "code": "game:clothes-upperbody-scarlet-ornate-linen-tunic",
+            "name": "Scarlet ornate linen tunic"
+          },
+          {
+            "slot": "lowerbody",
+            "code": "game:clothes-lowerbody-marketeer",
+            "name": "Marketeer pants"
+          },
+          {
+            "slot": "foot",
+            "code": "game:clothes-foot-tigh-high-boots",
+            "name": "Thigh-high boots"
+          },
+          {
+            "slot": "hand",
+            "code": "game:clothes-hand-laced-handsome-gloves",
+            "name": "Laced handsome gloves"
+          },
+          {
+            "slot": "neck",
+            "code": "game:clothes-neck-forlorn-talisman",
+            "name": "Forlorn Hope talisman"
+          },
+          {
+            "slot": "emblem",
+            "code": "game:clothes-emblem-cursedgemstone",
+            "name": "Cursed gemstone"
+          },
+          {
+            "slot": "face",
+            "code": "game:clothes-face-malefactor-mask",
+            "name": "Malefactor whitewood mask"
+          },
+          {
+            "slot": "waist",
+            "code": "game:clothes-waist-forlorn-belt",
+            "name": "Forlorn Hope belt"
+          },
+          {
+            "slot": "arm",
+            "code": "game:clothes-arm-merchant-bracelet",
+            "name": "Merchant bracelet"
+          },
+          {
+            "slot": "upperbodyover",
+            "code": "game:clothes-upperbodyover-fur-coat",
+            "name": "Fur coat"
+          }
+        ],
+        "skin": {}
       }
     },
     {

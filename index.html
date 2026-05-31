@@ -259,6 +259,16 @@
   .gearrow .gk{font-family:"Spectral SC",serif;font-size:.7rem;letter-spacing:.1em;color:var(--ink-faint);text-transform:uppercase}
   .gearchips{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}
   .gchip2{font-size:.74rem;color:var(--ink-dim);background:var(--surface);border:1px solid var(--line);border-radius:4px;padding:3px 8px}
+  /* character paper-doll */
+  .paperdoll{display:flex;gap:14px;margin-top:14px;border-top:1px solid var(--line);padding-top:14px}
+  .paperdoll .seraph{flex:0 0 70px;display:flex;align-items:center;justify-content:center;
+    background:radial-gradient(ellipse at 50% 35%,rgba(217,138,75,.10),transparent 70%)}
+  .paperdoll .seraph svg{width:64px;height:auto;filter:drop-shadow(0 2px 6px rgba(0,0,0,.3))}
+  .paperdoll .equip{flex:1;display:flex;flex-direction:column;gap:2px}
+  .eqrow{display:flex;gap:8px;align-items:baseline;font-size:.82rem;padding:2px 0;border-bottom:1px dotted var(--line)}
+  .eqrow .eqs{flex:0 0 64px;font-family:"Spectral SC",serif;font-size:.66rem;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-faint)}
+  .eqrow .eqi{color:var(--ink)}
+  .eqrow.empty .eqi{color:var(--ink-faint);opacity:.5}
   /* deploy progress bar (fixed top) */
   #deployBar{position:fixed;top:0;left:0;right:0;z-index:50}
   .db-track{height:4px;background:var(--line);overflow:hidden}
@@ -654,6 +664,19 @@ document.querySelector(".tabs").addEventListener("click",e=>{
 function daysBetween(a,b){const d=(new Date(b)-new Date(a))/86400000;return isFinite(d)?Math.max(0,Math.round(d)):null;}
 function ago(dstr){const d=daysBetween(dstr,new Date());if(d===null)return"—";return d===0?"today":d===1?"yesterday":d+" days ago";}
 
+const SERAPH_SVG=`<svg viewBox="0 0 64 132" fill="none" stroke="var(--copper-glow,#d98a4b)" stroke-width="1.6" stroke-linejoin="round">
+  <ellipse cx="32" cy="15" rx="10" ry="11" fill="rgba(217,138,75,.13)"/>
+  <path d="M21 31 Q32 27 43 31 L46 78 Q32 85 18 78 Z" fill="rgba(217,138,75,.10)"/>
+  <path d="M21 33 L9 70 Q8 74 12 74 M43 33 L55 70 Q56 74 52 74"/>
+  <path d="M23 80 L21 124 Q21 127 25 127 M41 80 L43 124 Q43 127 39 127"/>
+</svg>`;
+const EQ_SLOTS=[["head","Head"],["face","Face"],["neck","Neck"],["shoulder","Shoulders"],["upperbody","Chest"],["upperbodyover","Over"],["arm","Arms"],["hand","Hands"],["waist","Waist"],["lowerbody","Legs"],["foot","Feet"],["emblem","Emblem"]];
+function paperDoll(detail){
+  const by={}; (detail||[]).forEach(g=>{ if(g&&g.slot) by[g.slot]=g; });
+  const rows=EQ_SLOTS.map(([k,l])=>{const it=by[k];
+    return `<div class="eqrow${it?"":" empty"}"><span class="eqs">${l}</span><span class="eqi">${it?esc(it.name):"—"}</span></div>`;}).join("");
+  return `<div class="paperdoll"><div class="seraph">${SERAPH_SVG}</div><div class="equip">${rows}</div></div>`;
+}
 function renderCrew(){
   const box=document.getElementById("tab-crew");
   const crew=REG.crew||[];
@@ -675,8 +698,9 @@ function renderCrew(){
         +tile("deepest Y",s.deepestY)
         +`</div>`
       :'<div class="soon">No stats yet — join the server to start recording.</div>';
-    const gear=(s.gear&&s.gear.length)
-      ?`<div class="gearrow"><span class="gk">Wearing</span><div class="gearchips">${s.gear.map(g=>`<span class="gchip2">${esc(g)}</span>`).join("")}</div></div>`:"";
+    const gear = (s.gearDetail&&s.gearDetail.length) ? paperDoll(s.gearDetail)
+               : (s.gear&&s.gear.length)
+               ? `<div class="gearrow"><span class="gk">Wearing</span><div class="gearchips">${s.gear.map(g=>`<span class="gchip2">${esc(g)}</span>`).join("")}</div></div>`:"";
     const meta=`<div class="cmeta">${esc(m.role||"player")} · joined ${esc((m.first_join||"").split(" ")[0])} · seen ${ago(m.last_join)}${active!=null?` · ${active}d on server`:""}</div>`;
     html+=`<div class="member"><div class="chead"><h3>${esc(m.name||"Unknown")}</h3>${cls}</div>
       ${meta}${grid}${gear}</div>`;
