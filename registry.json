@@ -1,19 +1,19 @@
 {
-  "generated": "20260531-125320",
+  "generated": "20260531-125650",
   "game_version": "1.22.3",
   "modset": {
     "server_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset.zip",
     "full_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset-full.zip",
-    "server_count": 74,
-    "full_count": 77,
-    "server_size": 122109099,
-    "full_size": 122910966,
+    "server_count": 73,
+    "full_count": 76,
+    "server_size": 121737636,
+    "full_size": 122539503,
     "client_only": [
       "CoriaenderShaders",
       "Natural Foliage",
       "Status HUD"
     ],
-    "generated": "20260531-125258"
+    "generated": "20260531-125629"
   },
   "sheet_url": "https://docs.google.com/spreadsheets/d/1MZUkPV8T5S2HtIM8LexvDzXFZAidz0b4pdVqxegL5pE/edit",
   "submit_url": "https://script.google.com/macros/s/AKfycbyJfYjXatdotRQxc6gvoZz6ZQ3CVaxJchP9-Z58Jxi_ZbGxY2wbXXRVWjyk0N8xyJ4X9A/exec",
@@ -34,7 +34,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 77,
+  "count": 76,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1248,22 +1248,6 @@
       "note": "available for 1.22 (installs on update)",
       "version": "2.5.2",
       "build_version": "2.5.2",
-      "build_branch": "1.22",
-      "update_pending": false,
-      "proposed": false
-    },
-    {
-      "name": "raccoonplrmdl",
-      "modid": "raccoonplrmdl",
-      "section": "1.22",
-      "category": "Cosmetics",
-      "on_server": true,
-      "link": "https://mods.vintagestory.at/raccoonplrmdl",
-      "server_state": "yes",
-      "avail": "available",
-      "note": "available for 1.22 (installs on update)",
-      "version": "0.1.6",
-      "build_version": "0.1.6",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": false
