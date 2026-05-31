@@ -737,8 +737,9 @@ function paperDoll(detail){
 function charDoll(name,detail,info){
   const n=info.frames||0, dir="character/"+encodeURIComponent(name)+"/";
   const front=(CHAR_MAN&&CHAR_MAN.front)||0;
-  const view=`<div class="charview" data-char="${esc(name)}" data-frames="${n}" data-dir="${esc(dir)}" data-front="${front}">
-      <img class="charimg" src="${esc(dir)}f${String(front).padStart(2,"0")}.png" alt="${esc(name)}'s character" draggable="false">
+  const ver=info.v?`?v=${info.v}`:"";
+  const view=`<div class="charview" data-char="${esc(name)}" data-frames="${n}" data-dir="${esc(dir)}" data-front="${front}" data-ver="${esc(ver)}">
+      <img class="charimg" src="${esc(dir)}f${String(front).padStart(2,"0")}.png${ver}" alt="${esc(name)}'s character" draggable="false">
       <div class="charhint">drag to rotate · scroll to zoom</div></div>`;
   return `<div class="paperdoll">${view}<div class="equip">${equipRows(detail)}</div></div>`;
 }
@@ -748,9 +749,10 @@ function initCharViews(){
     const N=+v.dataset.frames, dir=v.dataset.dir, front=+v.dataset.front||0;
     if(!N){return;}
     const img=v.querySelector(".charimg"); let cur=front, dragging=false, sx=0, sf=front, moved=0, zoom=1;
-    const frames=[]; for(let i=0;i<N;i++){const im=new Image(); im.src=dir+"f"+String(i).padStart(2,"0")+".png"; frames[i]=im;}
+    const ver=v.dataset.ver||"";
+    const frames=[]; for(let i=0;i<N;i++){const im=new Image(); im.src=dir+"f"+String(i).padStart(2,"0")+".png"+ver; frames[i]=im;}
     const STEP=14; // px of drag per frame
-    const show=i=>{cur=((i%N)+N)%N; img.src=dir+"f"+String(cur).padStart(2,"0")+".png";};
+    const show=i=>{cur=((i%N)+N)%N; img.src=dir+"f"+String(cur).padStart(2,"0")+".png"+ver;};
     const setZoom=z=>{zoom=Math.min(3,Math.max(1,z)); img.style.transform="scale("+zoom.toFixed(2)+")";
       v.classList.toggle("zoomed",zoom>1.01);};
     const down=e=>{dragging=true;moved=0;sx=(e.touches?e.touches[0].clientX:e.clientX);sf=cur;v.classList.add("drag","spun");};
