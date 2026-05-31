@@ -55,7 +55,7 @@
     background:linear-gradient(90deg,var(--copper-deep),var(--copper) 18%,transparent 70%);
     opacity:0;animation:wipe .9s .3s forwards;transform-origin:left}
 
-  .meta{display:flex;flex-wrap:wrap;gap:14px 26px;align-items:center;margin-top:22px;
+  .meta{display:flex;flex-wrap:wrap;gap:14px 26px;align-items:center;justify-content:center;margin-top:22px;
     opacity:0;animation:rise .8s .36s forwards}
   .ver{font-family:"Cinzel",serif;font-weight:700;font-size:.86rem;letter-spacing:.08em;
     color:var(--bg);background:linear-gradient(180deg,var(--copper-glow),var(--copper));
@@ -74,7 +74,8 @@
   .tally{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;
     margin:38px 0 8px;background:var(--line);border:1px solid var(--line);border-radius:6px;
     overflow:hidden;opacity:0;animation:rise .8s .44s forwards}
-  .tally div{background:linear-gradient(180deg,var(--surface),var(--bg2));padding:18px 20px}
+  .tally div{background:linear-gradient(180deg,var(--surface),var(--bg2)),url("tex/parchment.png");
+    background-size:cover,200px 200px;background-blend-mode:soft-light;padding:18px 20px}
   .tally .n{font-family:"Cinzel",serif;font-weight:700;font-size:1.9rem;line-height:1}
   .tally .l{font-family:"Spectral SC",serif;letter-spacing:.12em;font-size:.7rem;
     text-transform:uppercase;color:var(--ink-faint);margin-top:7px}
@@ -147,7 +148,9 @@
   .note{grid-column:1/2;color:var(--ink-faint);font-size:.84rem;font-style:italic}
 
   footer{border-top:1px solid var(--line);margin-top:30px;padding:28px 0 60px;
-    color:var(--ink-faint);font-size:.82rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+    color:var(--ink-faint);font-size:.82rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;align-items:center}
+  .dash-ver{font-family:"Cinzel",serif;font-weight:600;font-size:.74rem;letter-spacing:.08em;color:var(--copper-glow,#d98a4b);
+    border:1px solid var(--line-strong);border-radius:20px;padding:3px 12px;white-space:nowrap}
   footer a{color:var(--copper);text-decoration:none}
   .empty{padding:60px 0;text-align:center;color:var(--ink-faint);font-style:italic}
   button.cta{cursor:pointer;font-family:"Spectral SC",serif}
@@ -236,7 +239,8 @@
   .tab.on{color:var(--copper-glow);border-bottom-color:var(--copper)}
   /* crew */
   .crew{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:18px;margin-top:30px}
-  .member{background:linear-gradient(180deg,var(--surface),var(--bg2));border:1px solid var(--line);
+  .member{background:linear-gradient(180deg,var(--surface),var(--bg2)),url("tex/parchment.png");
+    background-size:cover,200px 200px;background-blend-mode:soft-light;border:1px solid var(--line);
     border-radius:9px;padding:20px 22px;box-shadow:var(--shadow)}
   .member h3{font-family:"Cinzel",serif;font-weight:700;font-size:1.35rem;display:flex;align-items:center;gap:10px}
   .member .dot{width:9px;height:9px;border-radius:50%;background:var(--slate);flex:none}
@@ -323,12 +327,14 @@
   .mbtn.go{background:linear-gradient(180deg,var(--copper-glow,#d98a4b),var(--copper));color:#1a1206;border-color:var(--copper);font-weight:600}
   .mbtn.go:hover{filter:brightness(1.06)}
   /* download-modset panel */
-  .dlpanel{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:18px;
-    margin:6px 0 8px;padding:18px 20px;background:var(--surface);border:1px solid var(--line-strong);border-radius:8px}
+  .dlpanel{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;text-align:center;gap:16px 30px;
+    margin:6px 0 8px;padding:20px 24px;border:1px solid var(--line-strong);border-radius:8px;
+    background:linear-gradient(0deg,var(--surface),var(--surface)),url("tex/leather.png");
+    background-size:cover,240px 240px;background-blend-mode:soft-light}
   .dlpanel h2{margin:0;font-size:1.15rem}
   .dlpanel .sub2{color:var(--ink-faint);font-size:.86rem;margin-top:3px}
   .dlpanel code{font-family:monospace;color:var(--copper);background:var(--bg2);padding:1px 5px;border-radius:3px}
-  .dlctrl{display:flex;flex-direction:column;align-items:flex-end;gap:9px}
+  .dlctrl{display:flex;flex-direction:column;align-items:center;gap:9px}
   .dlopt{display:flex;align-items:center;gap:9px;font-size:.82rem;color:var(--ink-dim);cursor:pointer}
   .dlopt em{color:var(--ink-faint);font-style:normal}
   .dlopt input{appearance:none;-webkit-appearance:none;width:24px;height:24px;flex:none;cursor:pointer;
@@ -370,7 +376,7 @@
 <div class="wrap">
   <div id="deployBar" hidden>
     <div class="db-track"><div class="db-stripe"></div></div>
-    <div class="db-pill">⚡ Deploying… <span id="db-msg">applying the update</span></div>
+    <div class="db-pill">Deploying… <span id="db-msg">applying the update</span></div>
     <div class="db-note">your client updates automatically · friends grab the new modset from the dashboard</div>
   </div>
 
@@ -381,7 +387,7 @@
       <div id="deployChanges"></div>
       <div class="modal-actions">
         <button class="mbtn ghost" id="dmCancel">Cancel</button>
-        <button class="mbtn go" id="dmGo"><span class="plus">⚡</span> Deploy now</button>
+        <button class="mbtn go" id="dmGo">Deploy now</button>
       </div>
     </div>
   </div>
@@ -395,7 +401,7 @@
       <span class="ver" id="gv">v—</span>
       <span class="stamp" id="stamp">reading the ledger…</span>
       <button class="cta" id="addBtn"><span class="plus">✚</span> Add a mod</button>
-      <button class="cta" id="deployBtn" hidden><span class="plus">⚡</span> Deploy now</button>
+      <button class="cta" id="deployBtn" hidden>Deploy now</button>
     </div>
     <div class="dpend-row"><span class="dpend" id="dpend"></span></div>
   </header>
@@ -430,7 +436,8 @@
   <div id="tab-gallery" class="tab-panel" hidden></div>
 
   <footer>
-    <span>Generated from the live sheet by <strong>vs-autoupdate</strong>. Editing happens in the sheet — this page mirrors it.</span>
+    <span>Kept in sync by <strong>vs-autoupdate</strong>. Propose mods right here on the dashboard — the server picks them up on the next update.</span>
+    <span class="dash-ver" title="dashboard version">Ledger v1.4</span>
     <span id="foot"></span>
   </footer>
 </div>
