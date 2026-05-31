@@ -495,9 +495,12 @@ function modRow(m){
                : onsrv?`<span class="tag-srv">on server</span>`
                : m.section==="optional"?`<span class="tag-srv">client side</span>`
                : `<span class="tag-srv off">not on server</span>`;   // candidate / not installed → no server controls
-  const actBox = (ADMIN_KEY&&REG.actions_v5&&m.link&&onsrv&&st!=="remove")
-    ? `<label class="act-wrap" title="Active — untick to disable (applies on next deploy)">
-         <input type="checkbox" class="act" data-link="${esc(m.link)}" ${st!=="disabled"?"checked":""}></label>` : "";
+  // a mod can be put on the server if it has a usable build (1.22 or 1.21) and isn't client-only
+  const installable=(m.avail==="available"||m.avail==="likely")&&m.section!=="optional";
+  const active = st==="yes" || (m.version && st!=="disabled" && st!=="remove" && st!=="no");
+  const actBox = (ADMIN_KEY&&REG.actions_v5&&m.link&&st!=="remove"&&(installable||onsrv))
+    ? `<label class="act-wrap" title="${active?'On the server — untick to disable':'Tick to install on the next deploy'}">
+         <input type="checkbox" class="act" data-link="${esc(m.link)}" ${active?"checked":""}></label>` : "";
   const mcls = st==="remove" ? "mod removing"
              : st==="disabled" ? "mod disabledmod"
              : (m.avail==="outdated"||m.avail==="no-build") ? "mod outdatedmod"
@@ -529,7 +532,7 @@ function pendingChanges(){
   const added=[],updated=[],removed=[];
   DATA.forEach(m=>{const st=m.server_state||"";
     if(st==="remove"){removed.push(m.name);return;}
-    if(m.proposed && st==="yes" && !m.version) added.push(m.name);   // accepted proposal, not yet installed
+    if(st==="yes" && !m.version) added.push(m.name);   // approved but not yet installed → installs on deploy
     else if(m.update_pending) updated.push(m.name);});
   return {added,updated,removed};
 }
@@ -584,19 +587,25 @@ document.getElementById("main").addEventListener("click",async e=>{
              :"Marked for removal — applies on next deploy (click 🗑 again to keep it).",true);
   }catch(err){m.server_state=prev;savePendingState(link,prev);updateModRow(link);showToast("Failed — try again.",false);}
 });
-// admin: activation toggle — tick = active (yes), untick = disabled. Applied on next deploy.
+// admin: "on the server?" toggle. tick → install (or re-enable if already installed);
+// untick → disable if it's installed (keep the file, just off), else un-approve (don't install).
 document.getElementById("main").addEventListener("change",async e=>{
   const cb=e.target.closest(".act");if(!cb)return;
   const link=cb.dataset.link, active=cb.checked;
+  const m=DATA.find(x=>x.link===link); const installed=!!(m&&m.version);
+  const apiAction = active ? "approve" : (installed ? "disable" : "unapprove");
+  const newState  = active ? "yes"     : (installed ? "disabled" : "no");
   cb.disabled=true;
   try{
     await fetch(REG.submit_url,{method:"POST",mode:"no-cors",
       headers:{"Content-Type":"text/plain;charset=utf-8"},
-      body:JSON.stringify({action:active?"approve":"disable",link,key:ADMIN_KEY})});
-    const m=DATA.find(x=>x.link===link); if(m)m.server_state=active?"yes":"disabled";
-    savePendingState(link, active?"yes":"disabled");
+      body:JSON.stringify({action:apiAction,link,key:ADMIN_KEY})});
+    if(m)m.server_state=newState;
+    savePendingState(link,newState);
     updateModRow(link);
-    showToast((active?"Re-enabled":"Disabled")+" — applies on next deploy. Hit ⚡ Deploy now to apply.",true);
+    const msg = active ? (installed?"Re-enabled":"Queued to install — Deploy now to apply.")
+                       : (installed?"Disabled — Deploy now to apply.":"Won't be installed.");
+    showToast(msg+"",true);
   }catch(err){cb.checked=!active;showToast("Failed — try again.",false);}
   finally{cb.disabled=false;}
 });

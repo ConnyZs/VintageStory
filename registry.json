@@ -1,5 +1,5 @@
 {
-  "generated": "20260531-112832",
+  "generated": "20260531-114726",
   "game_version": "1.22.3",
   "modset": {
     "server_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset.zip",
@@ -58,9 +58,9 @@
       "modid": "papierspeints",
       "section": "1.21",
       "category": "Cosmetics",
-      "on_server": false,
+      "on_server": true,
       "link": "https://mods.vintagestory.at/show/mod/40762XXX",
-      "server_state": "disabled",
+      "server_state": "yes",
       "avail": "likely",
       "note": "no 1.22 build yet \u2014 1.21 build likely works (installs)",
       "version": "1.0.1",
