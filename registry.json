@@ -1,5 +1,5 @@
 {
-  "generated": "20260531-071429",
+  "generated": "20260531-072942",
   "game_version": "1.22.3",
   "sheet_url": "https://docs.google.com/spreadsheets/d/1MZUkPV8T5S2HtIM8LexvDzXFZAidz0b4pdVqxegL5pE/edit",
   "submit_url": "https://script.google.com/macros/s/AKfycbzEYaH2pEXwJsnnkScgl2UIpImuw-yidQhg31F2rKjJ2fQ5SxlpB1fiSXztMtCFcsf_oQ/exec",
@@ -1114,6 +1114,48 @@
       "build_version": "2.5.2",
       "build_branch": "1.22",
       "proposed": false
+    }
+  ],
+  "crew": [
+    {
+      "name": "Raschuetzer",
+      "role": "admin",
+      "first_join": "04/22/2026 17:47",
+      "last_join": "05/29/2026 23:49",
+      "last_char": "04/29/2026 21:30",
+      "stats": {}
+    },
+    {
+      "name": "Eghetti",
+      "role": "suplayer",
+      "first_join": "04/22/2026 18:03",
+      "last_join": "05/28/2026 21:18",
+      "last_char": "04/22/2026 18:08",
+      "stats": {}
+    },
+    {
+      "name": "AddyBuschu",
+      "role": "suplayer",
+      "first_join": "04/22/2026 17:55",
+      "last_join": "05/19/2026 22:13",
+      "last_char": "04/25/2026 15:34",
+      "stats": {}
+    },
+    {
+      "name": "Moritz",
+      "role": "suplayer",
+      "first_join": "04/22/2026 18:03",
+      "last_join": "05/20/2026 21:53",
+      "last_char": "04/22/2026 18:05",
+      "stats": {}
+    },
+    {
+      "name": "Barberschascher",
+      "role": "suplayer",
+      "first_join": "05/20/2026 15:50",
+      "last_join": "05/20/2026 20:10",
+      "last_char": "05/20/2026 15:53",
+      "stats": {}
     }
   ]
 }

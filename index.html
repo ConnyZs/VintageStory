@@ -191,6 +191,38 @@
   .rm{background:none;border:1px solid var(--line);color:var(--ink-faint);border-radius:4px;
     cursor:pointer;padding:2px 7px;font-size:.82rem;line-height:1;transition:.2s}
   .rm:hover{border-color:var(--rust);color:var(--rust)}
+  /* tabs */
+  .tabs{display:flex;gap:2px;margin:34px 0 0;border-bottom:1px solid var(--line-strong);
+    opacity:0;animation:rise .8s .4s forwards}
+  .tab{font-family:"Cinzel",serif;font-weight:500;font-size:1.02rem;letter-spacing:.03em;
+    color:var(--ink-dim);background:none;border:0;border-bottom:2px solid transparent;
+    padding:12px 22px;cursor:pointer;transition:.2s;margin-bottom:-1px}
+  .tab:hover{color:var(--ink)}
+  .tab.on{color:var(--copper-glow);border-bottom-color:var(--copper)}
+  /* crew */
+  .crew{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:18px;margin-top:30px}
+  .member{background:linear-gradient(180deg,var(--surface),var(--bg2));border:1px solid var(--line);
+    border-radius:9px;padding:20px 22px;box-shadow:var(--shadow)}
+  .member h3{font-family:"Cinzel",serif;font-weight:700;font-size:1.35rem;display:flex;align-items:center;gap:10px}
+  .member .dot{width:9px;height:9px;border-radius:50%;background:var(--slate);flex:none}
+  .member .dot.on{background:var(--verd);box-shadow:0 0 8px var(--verd)}
+  .member .role{font-family:"Spectral SC",serif;font-size:.7rem;letter-spacing:.12em;
+    text-transform:uppercase;color:var(--copper);margin:3px 0 0}
+  .member .rows{margin-top:14px;font-size:.92rem}
+  .member .rows div{display:flex;justify-content:space-between;gap:12px;padding:6px 0;border-top:1px solid var(--line)}
+  .member .rows .k{color:var(--ink-faint)} .member .rows .v{color:var(--ink)}
+  .member .soon{margin-top:14px;font-size:.82rem;font-style:italic;color:var(--ink-faint)}
+  /* gallery */
+  .gal-add{margin:26px 0 6px;display:flex;gap:10px;flex-wrap:wrap}
+  .gal-add input{flex:1;min-width:240px;font-family:"Spectral",serif;font-size:1rem;color:var(--ink);
+    background:var(--surface);border:1px solid var(--line-strong);border-radius:5px;padding:11px 13px;outline:none}
+  .gal-add input:focus{border-color:var(--copper)}
+  .gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:16px;margin-top:12px}
+  .media{background:var(--surface);border:1px solid var(--line);border-radius:8px;overflow:hidden;transition:.2s}
+  .media:hover{border-color:var(--line-strong);transform:translateY(-2px)}
+  .media .thumb,.media iframe{width:100%;aspect-ratio:16/9;display:block;object-fit:cover;border:0;background:var(--bg2)}
+  .media .cap{padding:10px 13px;font-size:.88rem;color:var(--ink-dim);display:flex;justify-content:space-between;gap:8px}
+  .media .cap a{color:var(--copper);text-decoration:none}
 
   @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
   @keyframes wipe{from{opacity:0;transform:scaleX(0)}to{opacity:1;transform:scaleX(1)}}
@@ -214,6 +246,13 @@
     <div class="tally" id="tally"></div>
   </header>
 
+  <nav class="tabs">
+    <button class="tab on" data-tab="mods">Mods</button>
+    <button class="tab" data-tab="crew">Crew</button>
+    <button class="tab" data-tab="gallery">Gallery</button>
+  </nav>
+
+  <div id="tab-mods" class="tab-panel">
   <div class="controls">
     <div class="search"><input id="q" type="text" placeholder="Search mods, ids, categories…" autocomplete="off"></div>
     <div class="chips" id="chips">
@@ -227,6 +266,10 @@
 
   <section id="approvals"></section>
   <main id="main"><div class="empty">Unrolling the ledger…</div></main>
+  </div><!-- /tab-mods -->
+
+  <div id="tab-crew" class="tab-panel" hidden></div>
+  <div id="tab-gallery" class="tab-panel" hidden></div>
 
   <footer>
     <span>Generated from the live sheet by <strong>vs-autoupdate</strong>. Editing happens in the sheet — this page mirrors it.</span>
@@ -356,6 +399,84 @@ document.getElementById("main").addEventListener("click",async e=>{
     showToast("Removed — gone on next sync.",true);
   }catch(err){b.disabled=false;showToast("Remove failed — try again.",false);}
 });
+
+/* ---------- tabs ---------- */
+let crewDone=false, galDone=false;
+document.querySelector(".tabs").addEventListener("click",e=>{
+  const b=e.target.closest(".tab"); if(!b) return;
+  document.querySelectorAll(".tab").forEach(t=>t.classList.toggle("on",t===b));
+  const tab=b.dataset.tab;
+  document.querySelectorAll(".tab-panel").forEach(p=>p.hidden = p.id!=="tab-"+tab);
+  if(tab==="crew"&&!crewDone){renderCrew();crewDone=true;}
+  if(tab==="gallery"&&!galDone){renderGallery();galDone=true;}
+});
+
+function daysBetween(a,b){const d=(new Date(b)-new Date(a))/86400000;return isFinite(d)?Math.max(0,Math.round(d)):null;}
+function ago(dstr){const d=daysBetween(dstr,new Date());if(d===null)return"—";return d===0?"today":d===1?"yesterday":d+" days ago";}
+
+function renderCrew(){
+  const box=document.getElementById("tab-crew");
+  const crew=REG.crew||[];
+  if(!crew.length){box.innerHTML='<div class="empty">No players found in the save yet.</div>';return;}
+  let html='<div class="crew">';
+  crew.sort((a,b)=>new Date(b.last_join)-new Date(a.last_join)).forEach(m=>{
+    const s=m.stats||{};
+    const online=!!s.online;
+    const active=daysBetween(m.first_join,m.last_join);
+    let rows=`<div><span class="k">Role</span><span class="v">${esc(m.role||"player")}</span></div>
+      <div><span class="k">First joined</span><span class="v">${esc((m.first_join||"").split(" ")[0])}</span></div>
+      <div><span class="k">Last seen</span><span class="v">${online?"online now":ago(m.last_join)}</span></div>
+      <div><span class="k">Days on server</span><span class="v">${active!==null?active:"—"}</span></div>`;
+    let extra="";
+    if(Object.keys(s).length){   // Phase-2 mod data present
+      if(s.playtime_h!=null) rows+=`<div><span class="k">Playtime</span><span class="v">${s.playtime_h} h</span></div>`;
+      if(s.deaths!=null)     rows+=`<div><span class="k">Deaths</span><span class="v">${s.deaths}</span></div>`;
+      if(s.drifters_killed!=null) rows+=`<div><span class="k">Drifters slain</span><span class="v">${s.drifters_killed}</span></div>`;
+      if(s.mobs_killed!=null) rows+=`<div><span class="k">Creatures slain</span><span class="v">${s.mobs_killed}</span></div>`;
+      if(s.gear&&s.gear.length) extra=`<div class="rows"><div><span class="k">Wearing</span><span class="v">${s.gear.map(g=>esc(g)).join(", ")}</span></div></div>`;
+    } else {
+      extra='<div class="soon">Gear, kills & deaths appear once the stats mod is installed.</div>';
+    }
+    html+=`<div class="member"><h3><span class="dot ${online?"on":""}"></span>${esc(m.name||"Unknown")}</h3>
+      <div class="role">${esc(m.role||"player")}</div>
+      <div class="rows">${rows}</div>${extra}</div>`;
+  });
+  box.innerHTML=html+'</div>';
+}
+
+function ytId(u){const m=(u||"").match(/(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|embed\/|shorts\/))([\w-]{6,})/);return m?m[1]:null;}
+function renderGallery(){
+  const box=document.getElementById("tab-gallery");
+  const media=REG.gallery||[];
+  const form=`<div class="gal-add">
+    <input id="gal-url" type="text" placeholder="Paste a YouTube link or an image URL (imgur, etc.)">
+    <button class="btn go" id="gal-add-btn" style="flex:0 0 auto;padding:11px 18px">Add</button></div>`;
+  let grid="";
+  if(!media.length){
+    grid='<div class="empty">No clips or screenshots yet — paste a link above to start the gallery.</div>';
+  } else {
+    grid='<div class="gallery">';
+    media.forEach(it=>{
+      const yt=ytId(it.url);
+      const inner=yt?`<iframe src="https://www.youtube.com/embed/${yt}" allowfullscreen loading="lazy"></iframe>`
+                    :`<img class="thumb" src="${esc(it.url)}" loading="lazy" alt="">`;
+      grid+=`<div class="media">${inner}<div class="cap"><span>${esc(it.by||"")}</span><a href="${esc(it.url)}" target="_blank" rel="noopener">open ↗</a></div></div>`;
+    });
+    grid+='</div>';
+  }
+  box.innerHTML=form+grid;
+  document.getElementById("gal-add-btn").addEventListener("click",async()=>{
+    const url=document.getElementById("gal-url").value.trim();
+    if(!/^https?:\/\//.test(url)){showToast("Paste a full http(s) link.",false);return;}
+    if(!REG.media_enabled){showToast("Gallery posting lands with the next update — almost there!",false);return;}
+    try{
+      await fetch(REG.submit_url,{method:"POST",mode:"no-cors",headers:{"Content-Type":"text/plain;charset=utf-8"},
+        body:JSON.stringify({action:"media",url})});
+      showToast("Added — shows up after the next sync ✓",true);
+      document.getElementById("gal-url").value="";
+    }catch(e){showToast("Couldn't add — try again.",false);}
+  });
+}
 
 /* ---------- admin: approve proposals (only with ?key=) ---------- */
 function renderApprovals(){
