@@ -134,6 +134,17 @@
   .seal.not-found::before{background:var(--rust)}
   .tag-srv{font-family:"Spectral SC",serif;font-size:.68rem;letter-spacing:.08em;color:var(--ink-faint);
     border:1px dashed var(--line-strong);padding:3px 8px;border-radius:3px}
+  .tag-srv.off{color:var(--ink-faint);border-color:var(--line);opacity:.7;text-decoration:line-through}
+  .tag-srv.rem{color:var(--rust);border-color:var(--rust);border-style:solid}
+  /* admin activation toggle: small copper checkbox, green ✓ when active */
+  .act-wrap{display:inline-flex;align-items:center;cursor:pointer}
+  .act{appearance:none;-webkit-appearance:none;width:20px;height:20px;cursor:pointer;position:relative;
+    border:1.5px solid var(--copper,#b87333);border-radius:4px;background:rgba(184,115,51,.10);transition:.15s}
+  .act:hover{filter:brightness(1.1);transform:translateY(-1px)}
+  .act:checked{background:rgba(184,115,51,.30)}
+  .act:checked::after{content:"✓";position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+    color:#5fbf6a;font-size:.85rem;font-weight:700}
+  .act:not(:checked){opacity:.55}
   .note{grid-column:1/2;color:var(--ink-faint);font-size:.84rem;font-style:italic}
 
   footer{border-top:1px solid var(--line);margin-top:30px;padding:28px 0 60px;
@@ -370,13 +381,24 @@ function render(){
     cats[c].sort((a,b)=>a.name.localeCompare(b.name)).forEach(m=>{
       const nm=m.link?`<a class="name" href="${esc(m.link)}" target="_blank" rel="noopener">${esc(m.name)}<span class="arrow">↗</span></a>`
                       :`<span class="name">${esc(m.name)}</span>`;
+      const st=m.server_state||"";
+      const onsrv=st==="yes"||st==="disabled"||(m.on_server&&st!=="remove"&&st!=="no");
+      const srvTag = st==="remove"?`<span class="tag-srv rem">removing…</span>`
+                   : st==="disabled"?`<span class="tag-srv off">disabled</span>`
+                   : onsrv?`<span class="tag-srv">on server</span>`
+                   : m.section==="optional"?`<span class="tag-srv">optional</span>`:"";
+      // admin: per-mod activation toggle (ticked = active, untick = disabled), only for installed mods
+      const actBox = (ADMIN_KEY&&m.link&&onsrv&&st!=="remove")
+        ? `<label class="act-wrap" title="Active — untick to disable (applies on next deploy)">
+             <input type="checkbox" class="act" data-link="${esc(m.link)}" ${st!=="disabled"?"checked":""}></label>` : "";
       html+=`<div class="mod">${nm}
         <div class="right">
           ${(m.version||m.build_version)?`<span class="ver-pill">v${esc(m.version||m.build_version)}</span>`:""}
           ${m.build_branch==="1.21"?`<span class="seal likely" title="Only a 1.21 build exists — older, usually works on 1.22">1.21 build</span>`:""}
-          ${m.on_server?`<span class="tag-srv">on server</span>`:m.section==="optional"?`<span class="tag-srv">optional</span>`:""}
+          ${srvTag}
           <span class="seal ${m.avail}">${AVAIL_LABEL[m.avail]||m.avail}</span>
-          ${ADMIN_KEY&&m.link?`<button class="rm" data-link="${esc(m.link)}" title="Remove from the list (admin)">🗑</button>`:""}
+          ${actBox}
+          ${ADMIN_KEY&&m.link&&st!=="remove"?`<button class="rm" data-link="${esc(m.link)}" title="Remove from server + list on next deploy (admin)">🗑</button>`:""}
         </div>
         ${m.avail!=="available"&&m.note?`<div class="note">${esc(m.note)}</div>`:""}
         ${m.modid?`<div class="id">${esc(m.modid)}</div>`:""}
@@ -395,19 +417,34 @@ document.getElementById("chips").addEventListener("click",e=>{
   c.classList.add("on");filter=c.dataset.f;render();
 });
 
-// admin: delete a mod from the list (so the next update won't re-add it)
+// admin: mark a mod for removal (server-update deletes the file + clears the row on next deploy)
 document.getElementById("main").addEventListener("click",async e=>{
   const b=e.target.closest(".rm");if(!b)return;
   const link=b.dataset.link;
-  if(!confirm("Remove this mod from the list? It won't be installed on the next update."))return;
+  if(!confirm("Mark this mod for removal? It's deleted from the server and the list on the next deploy."))return;
   b.disabled=true;
   try{
     await fetch(REG.submit_url,{method:"POST",mode:"no-cors",
       headers:{"Content-Type":"text/plain;charset=utf-8"},
       body:JSON.stringify({action:"remove",link,key:ADMIN_KEY})});
-    DATA=DATA.filter(m=>m.link!==link);buildTally();render();renderApprovals();
-    showToast("Removed — gone on next sync.",true);
-  }catch(err){b.disabled=false;showToast("Remove failed — try again.",false);}
+    const m=DATA.find(x=>x.link===link); if(m)m.server_state="remove";
+    buildTally();render();
+    showToast("Marked for removal — deleted on next deploy. Hit ⚡ Deploy now to apply.",true);
+  }catch(err){b.disabled=false;showToast("Failed — try again.",false);}
+});
+// admin: activation toggle — tick = active (yes), untick = disabled. Applied on next deploy.
+document.getElementById("main").addEventListener("change",async e=>{
+  const cb=e.target.closest(".act");if(!cb)return;
+  const link=cb.dataset.link, active=cb.checked;
+  cb.disabled=true;
+  try{
+    await fetch(REG.submit_url,{method:"POST",mode:"no-cors",
+      headers:{"Content-Type":"text/plain;charset=utf-8"},
+      body:JSON.stringify({action:active?"approve":"disable",link,key:ADMIN_KEY})});
+    const m=DATA.find(x=>x.link===link); if(m)m.server_state=active?"yes":"disabled";
+    showToast((active?"Re-enabled":"Disabled")+" — applies on next deploy. Hit ⚡ Deploy now to apply.",true);
+  }catch(err){cb.checked=!active;showToast("Failed — try again.",false);}
+  finally{cb.disabled=false;}
 });
 
 /* ---------- tabs ---------- */
