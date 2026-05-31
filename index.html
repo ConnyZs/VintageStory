@@ -479,32 +479,54 @@ function renderGallery(){
 }
 
 /* ---------- admin: approve proposals (only with ?key=) ---------- */
-function renderApprovals(){
+function sheetId(){const m=(REG.sheet_url||"").match(/\/d\/([\w-]+)/);return m?m[1]:"";}
+function parseGviz(text){
+  const s=text.indexOf("(")+1, e=text.lastIndexOf(")");
+  const obj=JSON.parse(text.slice(s,e));
+  return (obj.table.rows||[]).map(r=>(r.c||[]).map(c=>c&&c.v!=null?String(c.v):""));
+}
+async function loadLiveProposals(){   // read the live sheet (CORS-ok) → instant, no sync wait
+  const url=`https://docs.google.com/spreadsheets/d/${sheetId()}/gviz/tq?tqx=out:json&headers=0&gid=0&_=${Date.now()}`;
+  const rows=parseGviz(await (await fetch(url)).text());
+  const props=[];
+  rows.slice(2).forEach(r=>{
+    [[0,"1.22"],[6,"1.21"],[12,"optional"]].forEach(([st,sec])=>{
+      const name=(r[st]||"").trim(), link=(r[st+1]||"").trim(),
+            kom=(r[st+3]||"").trim().toLowerCase(), onsrv=(r[st+4]||"").trim().toLowerCase();
+      if(link && kom.includes("dashboard") && !onsrv.startsWith("y"))
+        props.push({name:name||link, link, section:sec});
+    });
+  });
+  return props;
+}
+async function renderApprovals(){
   const box=document.getElementById("approvals");
   if(!ADMIN_KEY){box.innerHTML="";return;}
-  const pend=DATA.filter(m=>m.proposed && !m.on_server);
-  if(!pend.length){box.innerHTML=`<div class="apanel"><h2>Admin · proposals</h2><div class="sub2">No proposals waiting. New dashboard suggestions show up here for you to approve.</div></div>`;return;}
+  box.innerHTML=`<div class="apanel"><h2>Admin · proposals</h2><div class="sub2">Reading the live sheet…</div></div>`;
+  let pend=[];
+  try{ pend=await loadLiveProposals(); }
+  catch(e){ box.innerHTML=`<div class="apanel"><h2>Admin · proposals</h2><div class="sub2">Couldn't read the live sheet.</div></div>`; return; }
+  if(!pend.length){box.innerHTML=`<div class="apanel"><h2>Admin · proposals</h2><div class="sub2">No proposals waiting. New dashboard suggestions appear here instantly.</div></div>`;return;}
+  const byLink={};DATA.forEach(m=>{if(m.link)byLink[m.link]=m;});
   let rows="";
   pend.sort((a,b)=>a.name.localeCompare(b.name)).forEach(m=>{
-    const ver=m.build_version?`v${esc(m.build_version)}`:"?";
-    const br=m.build_branch==="1.21"?' · ⚠ 1.21 build (older)':(m.build_branch?` · ${m.build_branch} build`:" · no build (outdated)");
-    const can=m.avail==="available"||m.avail==="likely";
+    const reg=byLink[m.link];                       // registry metadata if already synced
+    const meta=reg?`${reg.build_version?"v"+esc(reg.build_version):""}${reg.build_branch==="1.21"?" · ⚠ 1.21 build (older)":""}`
+                  :"version checks on next sync";
     rows+=`<div class="prow">
-      <input type="checkbox" data-link="${esc(m.link)}" ${can?"":"disabled"} title="${can?'approve':'no compatible build'}">
+      <input type="checkbox" data-link="${esc(m.link)}">
       <div class="pn"><a href="${esc(m.link)}" target="_blank" rel="noopener">${esc(m.name)} ↗</a>
-        <div class="meta2">${esc(m.category||"")} · ${ver}${br}</div></div>
-    </div>`;
+        <div class="meta2">${esc(m.section)} · ${meta}</div></div></div>`;
   });
   box.innerHTML=`<div class="apanel"><h2>Admin · proposals (${pend.length})</h2>
-    <div class="sub2">Tick to approve — it goes on the server with the next update. Click the name to see what it does.</div>${rows}</div>`;
+    <div class="sub2">Live from the sheet. Tick to approve — it installs on the next update. Click a name to see what it is.</div>${rows}</div>`;
   box.querySelectorAll('input[type=checkbox]').forEach(cb=>cb.addEventListener("change",async()=>{
     if(!cb.checked)return;
     cb.disabled=true;
-    const link=cb.dataset.link;
     try{
       await fetch(REG.submit_url,{method:"POST",mode:"no-cors",
         headers:{"Content-Type":"text/plain;charset=utf-8"},
-        body:JSON.stringify({action:"approve",link,key:ADMIN_KEY})});
+        body:JSON.stringify({action:"approve",link:cb.dataset.link,key:ADMIN_KEY})});
       const row=cb.closest(".prow");row.style.opacity=".5";
       row.querySelector(".pn").insertAdjacentHTML("beforeend",' <span class="meta2" style="color:var(--verd)">approved ✓</span>');
       showToast("Approved — installs on the next update.",true);
