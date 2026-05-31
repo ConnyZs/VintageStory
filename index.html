@@ -229,6 +229,19 @@
   .member .rows div{display:flex;justify-content:space-between;gap:12px;padding:6px 0;border-top:1px solid var(--line)}
   .member .rows .k{color:var(--ink-faint)} .member .rows .v{color:var(--ink)}
   .member .soon{margin-top:14px;font-size:.82rem;font-style:italic;color:var(--ink-faint)}
+  /* deploy progress bar (fixed top) */
+  #deployBar{position:fixed;top:0;left:0;right:0;z-index:50}
+  .db-track{height:4px;background:var(--line);overflow:hidden}
+  .db-stripe{height:100%;width:38%;background:linear-gradient(90deg,transparent,var(--copper-glow,#d98a4b),transparent);
+    animation:dbslide 1.15s ease-in-out infinite}
+  @keyframes dbslide{0%{transform:translateX(-110%)}100%{transform:translateX(290%)}}
+  .db-pill{position:absolute;top:10px;left:50%;transform:translateX(-50%);white-space:nowrap;
+    font-family:"Spectral SC",serif;font-size:.82rem;letter-spacing:.04em;color:var(--ink);
+    background:var(--surface);border:1px solid var(--copper);border-radius:20px;padding:6px 16px;
+    box-shadow:0 4px 18px rgba(0,0,0,.35)}
+  .db-pill #db-msg{color:var(--ink-faint)}
+  #deployBar.done .db-stripe{width:100%;transform:none;animation:none;background:var(--verd,#6a9f5b)}
+  #deployBar.done .db-pill{border-color:var(--verd,#6a9f5b)}
   /* download-modset panel */
   .dlpanel{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:18px;
     margin:6px 0 8px;padding:18px 20px;background:var(--surface);border:1px solid var(--line-strong);border-radius:8px}
@@ -270,6 +283,11 @@
 <body>
 <div class="contours"></div>
 <div class="wrap">
+  <div id="deployBar" hidden>
+    <div class="db-track"><div class="db-stripe"></div></div>
+    <div class="db-pill">⚡ Deploying… <span id="db-msg">applying the update</span></div>
+  </div>
+
   <header>
     <div class="kicker">Cooperative Server &middot; Mod Registry</div>
     <h1>Vintage Story<br><span class="em">Mod Ledger</span></h1>
@@ -602,16 +620,54 @@ function setupAdminButtons(){
   if(!(ADMIN_KEY && REG.actions_v4))return;
   const db=document.getElementById("deployBtn");
   db.hidden=false;
-  db.addEventListener("click",async()=>{
+  db.addEventListener("click",()=>{
     if(!confirm("Run a server update now? (installs all approved mods; the bot picks it up within ~90s)"))return;
-    db.disabled=true;
-    try{
-      await fetch(REG.submit_url,{method:"POST",mode:"no-cors",headers:{"Content-Type":"text/plain;charset=utf-8"},
-        body:JSON.stringify({action:"deploy",key:ADMIN_KEY})});
-      showToast("Deploy requested — the bot runs it within ~90s.",true);
-    }catch(e){showToast("Couldn't request deploy — try again.",false);}
-    finally{setTimeout(()=>db.disabled=false,3000);}
+    deployWithProgress(db);
   });
+}
+
+// Deploy + live progress: the bot regenerates registry.json when the update finishes, so we
+// poll its timestamp. Bar runs until it changes → flash "complete" → reload (proposals → mods).
+let deployPoll=null;
+async function deployWithProgress(db){
+  const startGen=REG.generated;
+  const bar=document.getElementById("deployBar"), msg=document.getElementById("db-msg");
+  db.disabled=true; bar.classList.remove("done"); bar.hidden=false; msg.textContent="the bot is picking it up (~90s)…";
+  try{
+    await fetch(REG.submit_url,{method:"POST",mode:"no-cors",headers:{"Content-Type":"text/plain;charset=utf-8"},
+      body:JSON.stringify({action:"deploy",key:ADMIN_KEY})});
+  }catch(e){ bar.hidden=true; db.disabled=false; showToast("Couldn't request deploy — try again.",false); return; }
+  const t0=Date.now();
+  clearInterval(deployPoll);
+  deployPoll=setInterval(async()=>{
+    const mins=(Date.now()-t0)/60000;
+    if(mins>1.4) msg.textContent="validating + pushing to the server…";
+    let gen=null;
+    try{ gen=(await (await fetch("registry.json?_="+Date.now())).json()).generated; }catch(e){}
+    if(gen && gen!==startGen){                 // bot finished → registry refreshed
+      clearInterval(deployPoll);
+      bar.classList.add("done");
+      setTimeout(async()=>{
+        bar.hidden=true; bar.classList.remove("done");
+        showToast("Deployment complete ✓",true);
+        await reloadRegistry();
+        db.disabled=false;
+      },750);
+    } else if(mins>10){                         // safety timeout
+      clearInterval(deployPoll); bar.hidden=true; db.disabled=false;
+      showToast("Deploy is taking a while — check Discord; the list refreshes when it’s done.",false);
+    }
+  },7000);
+}
+// re-pull registry.json + re-render so just-installed proposals graduate into the mod list
+async function reloadRegistry(){
+  try{
+    const reg=await (await fetch("registry.json?_="+Date.now())).json();
+    REG=reg; DATA=reg.mods||[]; loadPending();
+    document.getElementById("stamp").textContent="updated "+fmt(reg.generated);
+    document.getElementById("foot").textContent=reg.count+" mods catalogued";
+    renderModset(); buildTally(); render(); renderApprovals();
+  }catch(e){}
 }
 
 async function renderApprovals(){
