@@ -264,6 +264,17 @@
   .paperdoll .seraph{flex:0 0 70px;display:flex;align-items:center;justify-content:center;
     background:radial-gradient(ellipse at 50% 35%,rgba(217,138,75,.10),transparent 70%)}
   .paperdoll .seraph svg{width:64px;height:auto;filter:drop-shadow(0 2px 6px rgba(0,0,0,.3))}
+  /* rotatable rendered character (drag to spin) */
+  .charview{flex:0 0 150px;position:relative;aspect-ratio:384/560;cursor:grab;touch-action:pan-y;
+    border-radius:8px;background:radial-gradient(ellipse at 50% 32%,rgba(217,138,75,.12),transparent 72%);
+    user-select:none;-webkit-user-select:none}
+  .charview.drag{cursor:grabbing}
+  .charview img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;
+    image-rendering:pixelated;filter:drop-shadow(0 4px 10px rgba(0,0,0,.45));pointer-events:none}
+  .charhint{position:absolute;left:0;right:0;bottom:2px;text-align:center;font-family:"Spectral SC",serif;
+    font-size:.58rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-faint);
+    opacity:.7;transition:opacity .3s;pointer-events:none}
+  .charview.spun .charhint{opacity:0}
   .paperdoll .equip{flex:1;display:flex;flex-direction:column;gap:2px}
   .eqrow{display:flex;gap:8px;align-items:center;font-size:.82rem;padding:3px 0;border-bottom:1px dotted var(--line)}
   .eqrow .eqx{flex:0 0 26px;width:26px;height:26px;object-fit:contain;image-rendering:pixelated;
@@ -675,18 +686,55 @@ const SERAPH_SVG=`<svg viewBox="0 0 64 132" fill="none" stroke="var(--copper-glo
   <path d="M23 80 L21 124 Q21 127 25 127 M41 80 L43 124 Q43 127 39 127"/>
 </svg>`;
 const EQ_SLOTS=[["head","Head"],["face","Face"],["neck","Neck"],["shoulder","Shoulders"],["upperbody","Chest"],["upperbodyover","Over"],["arm","Arms"],["hand","Hands"],["waist","Waist"],["lowerbody","Legs"],["foot","Feet"],["emblem","Emblem"]];
-function paperDoll(detail){
+function equipRows(detail){
   const by={}; (detail||[]).forEach(g=>{ if(g&&g.slot) by[g.slot]=g; });
   const known=new Set(EQ_SLOTS.map(s=>s[0]));
   const ico=g=>g&&g.icon?`<img class="eqx" src="${esc(g.icon)}" alt="" loading="lazy">`:`<span class="eqx ph"></span>`;
   let rows=EQ_SLOTS.map(([k,l])=>{const it=by[k];
     return `<div class="eqrow${it?"":" empty"}">${ico(it)}<span class="eqs">${l}</span><span class="eqi">${it?esc(it.name):"—"}</span></div>`;}).join("");
-  // any item in an unrecognised/modded slot still shows (nothing hidden)
   (detail||[]).forEach(g=>{ if(g&&g.slot&&!known.has(g.slot))
     rows+=`<div class="eqrow">${ico(g)}<span class="eqs">${esc(g.slot)}</span><span class="eqi">${esc(g.name||"")}</span></div>`; });
-  return `<div class="paperdoll"><div class="seraph">${SERAPH_SVG}</div><div class="equip">${rows}</div></div>`;
+  return rows;
 }
-function renderCrew(){
+// fallback when there's no rendered character (silhouette + equip list)
+function paperDoll(detail){
+  return `<div class="paperdoll"><div class="seraph">${SERAPH_SVG}</div><div class="equip">${equipRows(detail)}</div></div>`;
+}
+// the real deal: the player's rendered 3D character, drag-to-rotate, beside the equip list
+function charDoll(name,detail,info){
+  const n=info.frames||0, dir="character/"+encodeURIComponent(name)+"/";
+  const front=(CHAR_MAN&&CHAR_MAN.front)||0;
+  const view=`<div class="charview" data-char="${esc(name)}" data-frames="${n}" data-dir="${esc(dir)}" data-front="${front}">
+      <img class="charimg" src="${esc(dir)}f${String(front).padStart(2,"0")}.png" alt="${esc(name)}'s character" draggable="false">
+      <div class="charhint">drag to rotate</div></div>`;
+  return `<div class="paperdoll">${view}<div class="equip">${equipRows(detail)}</div></div>`;
+}
+// attach drag-to-rotate to every rendered character on the Crew tab (and preload its frames)
+function initCharViews(){
+  document.querySelectorAll(".charview").forEach(v=>{
+    const N=+v.dataset.frames, dir=v.dataset.dir, front=+v.dataset.front||0;
+    if(!N){return;}
+    const img=v.querySelector(".charimg"); let cur=front, dragging=false, sx=0, sf=front;
+    const frames=[]; for(let i=0;i<N;i++){const im=new Image(); im.src=dir+"f"+String(i).padStart(2,"0")+".png"; frames[i]=im;}
+    const STEP=14; // px of drag per frame
+    const show=i=>{cur=((i%N)+N)%N; img.src=dir+"f"+String(cur).padStart(2,"0")+".png";};
+    const down=e=>{dragging=true;sx=(e.touches?e.touches[0].clientX:e.clientX);sf=cur;v.classList.add("drag","spun");};
+    const move=e=>{if(!dragging)return; const x=(e.touches?e.touches[0].clientX:e.clientX);
+      show(sf - Math.round((x-sx)/STEP)); if(e.cancelable&&e.touches)e.preventDefault();};
+    const up=()=>{dragging=false;v.classList.remove("drag");};
+    v.addEventListener("pointerdown",down); window.addEventListener("pointermove",move); window.addEventListener("pointerup",up);
+    v.addEventListener("touchstart",down,{passive:true}); v.addEventListener("touchmove",move,{passive:false}); v.addEventListener("touchend",up);
+  });
+}
+let CHAR_MAN=null;
+async function loadCharManifest(){
+  if(CHAR_MAN!==null)return CHAR_MAN;
+  try{ CHAR_MAN=await (await fetch("character/manifest.json?_="+Date.now())).json(); }
+  catch(e){ CHAR_MAN={players:{}}; }
+  return CHAR_MAN;
+}
+async function renderCrew(){
+  await loadCharManifest();
   const box=document.getElementById("tab-crew");
   const crew=REG.crew||[];
   if(!crew.length){box.innerHTML='<div class="empty">No players found in the save yet.</div>';return;}
@@ -707,7 +755,9 @@ function renderCrew(){
         +tile("deepest Y",s.deepestY)
         +`</div>`
       :'<div class="soon">No stats yet — join the server to start recording.</div>';
-    const gear = (s.gearDetail&&s.gearDetail.length) ? paperDoll(s.gearDetail)
+    const cinfo=(CHAR_MAN&&CHAR_MAN.players&&CHAR_MAN.players[m.name])||null;
+    const gear = (cinfo&&cinfo.frames) ? charDoll(m.name,s.gearDetail,cinfo)
+               : (s.gearDetail&&s.gearDetail.length) ? paperDoll(s.gearDetail)
                : (s.gear&&s.gear.length)
                ? `<div class="gearrow"><span class="gk">Wearing</span><div class="gearchips">${s.gear.map(g=>`<span class="gchip2">${esc(g)}</span>`).join("")}</div></div>`:"";
     const meta=`<div class="cmeta">${esc(m.role||"player")} · joined ${esc((m.first_join||"").split(" ")[0])} · seen ${ago(m.last_join)}${active!=null?` · ${active}d on server`:""}</div>`;
@@ -715,6 +765,7 @@ function renderCrew(){
       ${meta}${grid}${gear}</div>`;
   });
   box.innerHTML=html+'</div>';
+  initCharViews();
 }
 
 function ytId(u){const m=(u||"").match(/(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|embed\/|shorts\/))([\w-]{6,})/);return m?m[1]:null;}
