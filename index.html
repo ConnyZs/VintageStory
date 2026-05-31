@@ -265,8 +265,12 @@
     background:radial-gradient(ellipse at 50% 35%,rgba(217,138,75,.10),transparent 70%)}
   .paperdoll .seraph svg{width:64px;height:auto;filter:drop-shadow(0 2px 6px rgba(0,0,0,.3))}
   .paperdoll .equip{flex:1;display:flex;flex-direction:column;gap:2px}
-  .eqrow{display:flex;gap:8px;align-items:baseline;font-size:.82rem;padding:2px 0;border-bottom:1px dotted var(--line)}
-  .eqrow .eqs{flex:0 0 64px;font-family:"Spectral SC",serif;font-size:.66rem;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-faint)}
+  .eqrow{display:flex;gap:8px;align-items:center;font-size:.82rem;padding:3px 0;border-bottom:1px dotted var(--line)}
+  .eqrow .eqx{flex:0 0 26px;width:26px;height:26px;object-fit:contain;image-rendering:pixelated;
+    background:var(--bg2);border:1px solid var(--line);border-radius:4px;padding:1px}
+  .eqrow .eqx.ph{opacity:.25}
+  .eqrow.empty .eqx{opacity:.18}
+  .eqrow .eqs{flex:0 0 58px;font-family:"Spectral SC",serif;font-size:.64rem;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-faint)}
   .eqrow .eqi{color:var(--ink)}
   .eqrow.empty .eqi{color:var(--ink-faint);opacity:.5}
   /* deploy progress bar (fixed top) */
@@ -674,11 +678,12 @@ const EQ_SLOTS=[["head","Head"],["face","Face"],["neck","Neck"],["shoulder","Sho
 function paperDoll(detail){
   const by={}; (detail||[]).forEach(g=>{ if(g&&g.slot) by[g.slot]=g; });
   const known=new Set(EQ_SLOTS.map(s=>s[0]));
+  const ico=g=>g&&g.icon?`<img class="eqx" src="${esc(g.icon)}" alt="" loading="lazy">`:`<span class="eqx ph"></span>`;
   let rows=EQ_SLOTS.map(([k,l])=>{const it=by[k];
-    return `<div class="eqrow${it?"":" empty"}"><span class="eqs">${l}</span><span class="eqi">${it?esc(it.name):"—"}</span></div>`;}).join("");
+    return `<div class="eqrow${it?"":" empty"}">${ico(it)}<span class="eqs">${l}</span><span class="eqi">${it?esc(it.name):"—"}</span></div>`;}).join("");
   // any item in an unrecognised/modded slot still shows (nothing hidden)
   (detail||[]).forEach(g=>{ if(g&&g.slot&&!known.has(g.slot))
-    rows+=`<div class="eqrow"><span class="eqs">${esc(g.slot)}</span><span class="eqi">${esc(g.name||"")}</span></div>`; });
+    rows+=`<div class="eqrow">${ico(g)}<span class="eqs">${esc(g.slot)}</span><span class="eqi">${esc(g.name||"")}</span></div>`; });
   return `<div class="paperdoll"><div class="seraph">${SERAPH_SVG}</div><div class="equip">${rows}</div></div>`;
 }
 function renderCrew(){

@@ -1,5 +1,5 @@
 {
-  "generated": "20260531-171053",
+  "generated": "20260531-172210",
   "game_version": "1.22.3",
   "modset": {
     "server_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset.zip",
@@ -1267,12 +1267,12 @@
         "deaths": 0,
         "mobKills": 1,
         "playerKills": 0,
-        "playtimeHours": 0.2,
+        "playtimeHours": 0.3,
         "blocksTravelled": 895,
         "blocksBroken": 3,
         "blocksPlaced": 1,
         "deepestY": 112,
-        "lastSeen": 1780240218,
+        "lastSeen": 1780240677,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1291,32 +1291,38 @@
           {
             "slot": "head",
             "code": "game:clothes-head-messengers-hat",
-            "name": "Messenger hat"
+            "name": "Messenger hat",
+            "icon": "character/icons/head-messengers-hat.png"
           },
           {
             "slot": "shoulder",
             "code": "game:clothes-shoulder-artisans-scarf",
-            "name": "Artisans scarf"
+            "name": "Artisans scarf",
+            "icon": "character/icons/shoulder-artisans-scarf.png"
           },
           {
             "slot": "upperbody",
             "code": "game:clothes-upperbody-scarlet-ornate-linen-tunic",
-            "name": "Scarlet ornate linen tunic"
+            "name": "Scarlet ornate linen tunic",
+            "icon": "character/icons/upperbody-scarlet-ornate-linen-tunic.png"
           },
           {
             "slot": "lowerbody",
             "code": "game:clothes-lowerbody-marketeer",
-            "name": "Marketeer pants"
+            "name": "Marketeer pants",
+            "icon": "character/icons/lowerbody-marketeer.png"
           },
           {
             "slot": "foot",
             "code": "game:clothes-foot-tigh-high-boots",
-            "name": "Thigh-high boots"
+            "name": "Thigh-high boots",
+            "icon": "character/icons/foot-tigh-high-boots.png"
           },
           {
             "slot": "hand",
             "code": "game:clothes-hand-laced-handsome-gloves",
-            "name": "Laced handsome gloves"
+            "name": "Laced handsome gloves",
+            "icon": "character/icons/hand-laced-handsome-gloves.png"
           },
           {
             "slot": "neck",
@@ -1331,22 +1337,26 @@
           {
             "slot": "face",
             "code": "game:clothes-face-malefactor-mask",
-            "name": "Malefactor whitewood mask"
+            "name": "Malefactor whitewood mask",
+            "icon": "character/icons/face-malefactor-mask.png"
           },
           {
             "slot": "waist",
             "code": "game:clothes-waist-forlorn-belt",
-            "name": "Forlorn Hope belt"
+            "name": "Forlorn Hope belt",
+            "icon": "character/icons/waist-forlorn-belt.png"
           },
           {
             "slot": "arm",
             "code": "game:clothes-arm-merchant-bracelet",
-            "name": "Merchant bracelet"
+            "name": "Merchant bracelet",
+            "icon": "character/icons/arm-merchant-bracelet.png"
           },
           {
             "slot": "upperbodyover",
             "code": "game:clothes-upperbodyover-fur-coat",
-            "name": "Fur coat"
+            "name": "Fur coat",
+            "icon": "character/icons/upperbodyover-fur-coat.png"
           }
         ],
         "skin": {}
