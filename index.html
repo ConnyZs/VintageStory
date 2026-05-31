@@ -205,13 +205,14 @@
   .prow .pn .meta2{color:var(--ink-faint);font-size:.8rem;font-family:"Spectral SC",serif}
   .prow.approved .pn a{color:var(--verd)}
   .prow.approved .meta2{color:var(--verd);opacity:.8}
-  .rm{background:none;border:1px solid var(--line);color:var(--ink-faint);border-radius:4px;
-    cursor:pointer;padding:2px 7px;font-size:.82rem;line-height:1;transition:.2s}
+  .rm{background:none;border:1px solid var(--line-strong);color:var(--ink-dim);border-radius:4px;
+    cursor:pointer;padding:3px 6px;line-height:0;transition:.2s;display:inline-flex;align-items:center}
   .rm:hover{border-color:var(--rust);color:var(--rust)}
+  .rm.on{border-color:var(--rust);color:var(--rust);background:rgba(199,105,63,.16)}  /* marked — click to undo */
   /* mod marked for removal on next deploy — subtle, non-distracting red */
-  /* row states — fit the parchment/copper palette */
-  .mod.removing{box-shadow:inset 4px 0 0 var(--rust);background:rgba(199,105,63,.10)}
-  .mod.removing .name{text-decoration:line-through;opacity:.7}
+  /* row states — fit the parchment/copper palette. Removal is signalled by the red 🗑 icon
+     + "removing…" tag, NOT a tinted row (only the name gets a faint strike for context). */
+  .mod.removing .name{text-decoration:line-through;opacity:.75}
   .mod.disabledmod{box-shadow:inset 4px 0 0 var(--slate);background:rgba(124,138,146,.06);opacity:.66}
   .mod.disabledmod .name{color:var(--slate)}
   .mod.outdatedmod{box-shadow:inset 4px 0 0 var(--rust);background:rgba(199,105,63,.045)}
@@ -465,7 +466,7 @@ function render(){
           ${srvTag}
           <span class="seal ${m.avail}">${AVAIL_LABEL[m.avail]||m.avail}</span>
           ${actBox}
-          ${ADMIN_KEY&&REG.actions_v5&&m.link&&st!=="remove"?`<button class="rm" data-link="${esc(m.link)}" title="Remove from server + list on next deploy (admin)">🗑</button>`:""}
+          ${ADMIN_KEY&&REG.actions_v5&&m.link&&(onsrv||st==="remove")?`<button class="rm${st==="remove"?" on":""}" data-link="${esc(m.link)}" title="${st==="remove"?"Marked for removal — click to keep it":"Mark for removal on next deploy (toggle — reversible)"}"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg></button>`:""}
         </div>
         ${m.avail!=="available"&&m.note?`<div class="note">${esc(m.note)}</div>`:""}
         ${m.modid?`<div class="id">${esc(m.modid)}</div>`:""}
@@ -501,20 +502,22 @@ document.getElementById("chips").addEventListener("click",e=>{
   c.classList.add("on");filter=c.dataset.f;render();
 });
 
-// admin: mark a mod for removal (server-update deletes the file + clears the row on next deploy)
+// admin: 🗑 toggles "mark for removal" (reversible, no confirm — misclick just toggle back).
+// On = removed on next deploy; clicking again restores it to active.
 document.getElementById("main").addEventListener("click",async e=>{
   const b=e.target.closest(".rm");if(!b)return;
   const link=b.dataset.link;
-  if(!confirm("Mark this mod for removal? It's deleted from the server and the list on the next deploy."))return;
-  b.disabled=true;
+  const m=DATA.find(x=>x.link===link); if(!m)return;
+  const wasRemoving=(m.server_state==="remove"), prev=m.server_state;
+  m.server_state = wasRemoving ? "yes" : "remove";   // optimistic toggle
+  buildTally();render();
   try{
     await fetch(REG.submit_url,{method:"POST",mode:"no-cors",
       headers:{"Content-Type":"text/plain;charset=utf-8"},
-      body:JSON.stringify({action:"remove",link,key:ADMIN_KEY})});
-    const m=DATA.find(x=>x.link===link); if(m)m.server_state="remove";
-    buildTally();render();
-    showToast("Marked for removal — deleted on next deploy. Hit ⚡ Deploy now to apply.",true);
-  }catch(err){b.disabled=false;showToast("Failed — try again.",false);}
+      body:JSON.stringify({action:(wasRemoving?"approve":"remove"),link,key:ADMIN_KEY})});
+    showToast(wasRemoving?"Kept — no longer marked for removal."
+             :"Marked for removal — applies on next deploy (click 🗑 again to keep it).",true);
+  }catch(err){m.server_state=prev;buildTally();render();showToast("Failed — try again.",false);}
 });
 // admin: activation toggle — tick = active (yes), untick = disabled. Applied on next deploy.
 document.getElementById("main").addEventListener("change",async e=>{
