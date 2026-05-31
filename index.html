@@ -493,7 +493,8 @@ function modRow(m){
   const srvTag = st==="remove"?`<span class="tag-srv rem">removing…</span>`
                : st==="disabled"?`<span class="tag-srv off">disabled</span>`
                : onsrv?`<span class="tag-srv">on server</span>`
-               : m.section==="optional"?`<span class="tag-srv">client side</span>`:"";
+               : m.section==="optional"?`<span class="tag-srv">client side</span>`
+               : `<span class="tag-srv off">not on server</span>`;   // candidate / not installed → no server controls
   const actBox = (ADMIN_KEY&&REG.actions_v5&&m.link&&onsrv&&st!=="remove")
     ? `<label class="act-wrap" title="Active — untick to disable (applies on next deploy)">
          <input type="checkbox" class="act" data-link="${esc(m.link)}" ${st!=="disabled"?"checked":""}></label>` : "";
