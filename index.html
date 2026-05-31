@@ -203,16 +203,27 @@
   .prow .pn a{color:var(--ink);text-decoration:none;font-size:1.05rem}
   .prow .pn a:hover{color:var(--copper-glow)}
   .prow .pn .meta2{color:var(--ink-faint);font-size:.8rem;font-family:"Spectral SC",serif}
+  .prow.approved .pn a{color:var(--verd)}
+  .prow.approved .meta2{color:var(--verd);opacity:.8}
   .rm{background:none;border:1px solid var(--line);color:var(--ink-faint);border-radius:4px;
     cursor:pointer;padding:2px 7px;font-size:.82rem;line-height:1;transition:.2s}
   .rm:hover{border-color:var(--rust);color:var(--rust)}
   /* mod marked for removal on next deploy — subtle, non-distracting red */
-  .mod.removing{background:rgba(199,105,63,.06);box-shadow:inset 3px 0 0 var(--rust);opacity:.82}
-  /* pending-changes marker next to Deploy now */
-  .dpend{display:inline-flex;gap:5px;align-items:center}
-  .dp{font-family:"Spectral SC",serif;font-size:.74rem;font-weight:600;letter-spacing:.03em;
-    padding:2px 8px;border-radius:11px;border:1px solid currentColor;line-height:1.3}
+  /* row states — fit the parchment/copper palette */
+  .mod.removing{box-shadow:inset 4px 0 0 var(--rust);background:rgba(199,105,63,.10)}
+  .mod.removing .name{text-decoration:line-through;opacity:.7}
+  .mod.disabledmod{box-shadow:inset 4px 0 0 var(--slate);background:rgba(124,138,146,.06);opacity:.66}
+  .mod.disabledmod .name{color:var(--slate)}
+  .mod.outdatedmod{box-shadow:inset 4px 0 0 var(--rust);background:rgba(199,105,63,.045)}
+  .mod.outdatedmod .name{color:var(--rust)}
+  .mod.updatemod{box-shadow:inset 4px 0 0 var(--copper-glow,#d98a4b);background:rgba(217,138,75,.05)}
+  /* pending-changes marker under Deploy now */
+  .dpend-row{display:flex;justify-content:flex-end;margin-top:9px}
+  .dpend{display:inline-flex;gap:6px;align-items:center}
+  .dp{font-family:"Spectral SC",serif;font-size:.74rem;font-weight:600;letter-spacing:.03em;cursor:default;
+    padding:3px 9px;border-radius:11px;border:1px solid currentColor;line-height:1.3;white-space:pre-line}
   .dp.add{color:var(--verd)} .dp.upd{color:var(--copper-glow,#d98a4b)} .dp.del{color:var(--rust)}
+  .dp.none{color:var(--ink-faint);border-color:var(--line);font-weight:400;font-style:italic}
   /* tabs */
   .tabs{display:flex;gap:2px;margin:34px 0 0;border-bottom:1px solid var(--line-strong);
     opacity:0;animation:rise .8s .4s forwards}
@@ -308,8 +319,8 @@
       <span class="stamp" id="stamp">reading the ledger…</span>
       <button class="cta" id="addBtn"><span class="plus">✚</span> Add a mod</button>
       <button class="cta" id="deployBtn" hidden><span class="plus">⚡</span> Deploy now</button>
-      <span class="dpend" id="dpend" title="pending changes on the next deploy"></span>
     </div>
+    <div class="dpend-row"><span class="dpend" id="dpend"></span></div>
   </header>
 
   <section id="modset"></section>
@@ -442,7 +453,12 @@ function render(){
       const actBox = (ADMIN_KEY&&REG.actions_v5&&m.link&&onsrv&&st!=="remove")
         ? `<label class="act-wrap" title="Active — untick to disable (applies on next deploy)">
              <input type="checkbox" class="act" data-link="${esc(m.link)}" ${st!=="disabled"?"checked":""}></label>` : "";
-      html+=`<div class="mod${st==='remove'?' removing':''}">${nm}
+      const mcls = st==="remove" ? "mod removing"
+                 : st==="disabled" ? "mod disabledmod"
+                 : (m.avail==="outdated"||m.avail==="no-build") ? "mod outdatedmod"
+                 : m.update_pending ? "mod updatemod"
+                 : "mod";
+      html+=`<div class="${mcls}">${nm}
         <div class="right">
           ${(m.version||m.build_version)?`<span class="ver-pill">v${esc(m.version||m.build_version)}</span>`:""}
           ${m.build_branch==="1.21"?`<span class="seal likely" title="Only a 1.21 build exists — older, usually works on 1.22">1.21 build</span>`:""}
@@ -460,20 +476,21 @@ function render(){
   main.innerHTML=html;
   deployBadge();
 }
-// small elegant marker next to Deploy now: +added (approved, not yet on server) ~updated −deleted
+// elegant marker under Deploy now — +installed (accepted proposals) ~updated −removed.
+// Hovering a pill lists the exact mods. "Added" = accepted dashboard proposals only.
 function deployBadge(){
   const el=document.getElementById("dpend"); if(!el)return;
   if(!(ADMIN_KEY&&REG.actions_v4)){el.innerHTML="";return;}
-  let add=0,upd=0,del=0;
+  const added=[],updated=[],removed=[];
   DATA.forEach(m=>{const st=m.server_state||"";
-    if(st==="remove"){del++;return;}
-    if(st==="yes"&&!m.version) add++;
-    if(m.update_pending) upd++;});
-  let h="";
-  if(add) h+=`<span class="dp add" title="${add} approved mod(s) will be installed">+${add}</span>`;
-  if(upd) h+=`<span class="dp upd" title="${upd} mod(s) have a newer build">~${upd}</span>`;
-  if(del) h+=`<span class="dp del" title="${del} mod(s) marked for removal">−${del}</span>`;
-  el.innerHTML=h;
+    if(st==="remove"){removed.push(m.name);return;}
+    if(m.proposed && st==="yes" && !m.version) added.push(m.name);  // accepted proposal, not yet installed
+    else if(m.update_pending) updated.push(m.name);});
+  const pill=(cls,sym,arr,verb)=>arr.length
+    ? `<span class="dp ${cls}" title="${esc(verb+":\n• "+arr.join("\n• "))}">${sym}${arr.length}</span>` : "";
+  const h=pill("add","+",added,"Will be installed")+pill("upd","~",updated,"Will be updated")
+         +pill("del","−",removed,"Will be removed");
+  el.innerHTML = h || `<span class="dp none">nothing pending</span>`;
 }
 function esc(s){return(s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
 
@@ -509,6 +526,7 @@ document.getElementById("main").addEventListener("change",async e=>{
       headers:{"Content-Type":"text/plain;charset=utf-8"},
       body:JSON.stringify({action:active?"approve":"disable",link,key:ADMIN_KEY})});
     const m=DATA.find(x=>x.link===link); if(m)m.server_state=active?"yes":"disabled";
+    render();
     showToast((active?"Re-enabled":"Disabled")+" — applies on next deploy. Hit ⚡ Deploy now to apply.",true);
   }catch(err){cb.checked=!active;showToast("Failed — try again.",false);}
   finally{cb.disabled=false;}
@@ -713,7 +731,7 @@ async function renderApprovals(){
     const reg=byLink[m.link];                       // registry metadata if already synced
     const meta=reg?`${reg.build_version?"v"+esc(reg.build_version):""}${reg.build_branch==="1.21"?" · ⚠ 1.21 build (older)":""}`
                   :"version checks on next sync";
-    rows+=`<div class="prow">
+    rows+=`<div class="prow${m.approved?" approved":""}">
       <input type="checkbox" data-link="${esc(m.link)}" ${m.approved?"checked":""}>
       <div class="pn"><a href="${esc(m.link)}" target="_blank" rel="noopener">${esc(m.name)} ↗</a>
         <div class="meta2">${esc(m.section)} · ${meta}${m.approved?" · approved":""}</div></div></div>`;
