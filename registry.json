@@ -1,5 +1,5 @@
 {
-  "generated": "20260531-082521",
+  "generated": "20260531-083010",
   "game_version": "1.22.3",
   "sheet_url": "https://docs.google.com/spreadsheets/d/1MZUkPV8T5S2HtIM8LexvDzXFZAidz0b4pdVqxegL5pE/edit",
   "submit_url": "https://script.google.com/macros/s/AKfycbzEYaH2pEXwJsnnkScgl2UIpImuw-yidQhg31F2rKjJ2fQ5SxlpB1fiSXztMtCFcsf_oQ/exec",
@@ -1202,7 +1202,7 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "0.1.0",
       "build_version": "0.1.0",
       "build_branch": "1.22",
       "proposed": true
