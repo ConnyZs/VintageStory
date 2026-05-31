@@ -188,6 +188,9 @@
   .prow .pn a{color:var(--ink);text-decoration:none;font-size:1.05rem}
   .prow .pn a:hover{color:var(--copper-glow)}
   .prow .pn .meta2{color:var(--ink-faint);font-size:.8rem;font-family:"Spectral SC",serif}
+  .rm{background:none;border:1px solid var(--line);color:var(--ink-faint);border-radius:4px;
+    cursor:pointer;padding:2px 7px;font-size:.82rem;line-height:1;transition:.2s}
+  .rm:hover{border-color:var(--rust);color:var(--rust)}
 
   @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
   @keyframes wipe{from{opacity:0;transform:scaleX(0)}to{opacity:1;transform:scaleX(1)}}
@@ -320,6 +323,7 @@ function render(){
           ${m.build_branch==="1.21"?`<span class="seal likely" title="Only a 1.21 build exists — older, usually works on 1.22">1.21 build</span>`:""}
           ${m.on_server?`<span class="tag-srv">on server</span>`:m.section==="optional"?`<span class="tag-srv">optional</span>`:""}
           <span class="seal ${m.avail}">${AVAIL_LABEL[m.avail]||m.avail}</span>
+          ${ADMIN_KEY&&m.link?`<button class="rm" data-link="${esc(m.link)}" title="Remove from the list (admin)">🗑</button>`:""}
         </div>
         ${m.avail!=="available"&&m.note?`<div class="note">${esc(m.note)}</div>`:""}
         ${m.modid?`<div class="id">${esc(m.modid)}</div>`:""}
@@ -336,6 +340,21 @@ document.getElementById("chips").addEventListener("click",e=>{
   const c=e.target.closest(".chip");if(!c)return;
   document.querySelectorAll(".chip").forEach(x=>x.classList.remove("on"));
   c.classList.add("on");filter=c.dataset.f;render();
+});
+
+// admin: delete a mod from the list (so the next update won't re-add it)
+document.getElementById("main").addEventListener("click",async e=>{
+  const b=e.target.closest(".rm");if(!b)return;
+  const link=b.dataset.link;
+  if(!confirm("Remove this mod from the list? It won't be installed on the next update."))return;
+  b.disabled=true;
+  try{
+    await fetch(REG.submit_url,{method:"POST",mode:"no-cors",
+      headers:{"Content-Type":"text/plain;charset=utf-8"},
+      body:JSON.stringify({action:"remove",link,key:ADMIN_KEY})});
+    DATA=DATA.filter(m=>m.link!==link);buildTally();render();renderApprovals();
+    showToast("Removed — gone on next sync.",true);
+  }catch(err){b.disabled=false;showToast("Remove failed — try again.",false);}
 });
 
 /* ---------- admin: approve proposals (only with ?key=) ---------- */
