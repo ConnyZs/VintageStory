@@ -497,6 +497,7 @@ fetch("registry.json?_="+Date.now()).then(r=>r.json()).then(reg=>{
   buildTally();
   render();
   renderApprovals();
+  if(ADMIN_KEY) setInterval(renderApprovals, 30000); // auto-refresh proposals every 30s
 }).catch(e=>{
   document.getElementById("main").innerHTML='<div class="empty">Could not load registry.json — has the updater published it yet?</div>';
 });
