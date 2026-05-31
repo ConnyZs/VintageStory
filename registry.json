@@ -1,5 +1,5 @@
 {
-  "generated": "20260531-225942",
+  "generated": "20260531-230356",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "modset": {
@@ -1259,7 +1259,7 @@
       "name": "Raschuetzer",
       "role": "admin",
       "first_join": "04/22/2026 17:47",
-      "last_join": "05/31/2026 15:06",
+      "last_join": "05/31/2026 21:00",
       "last_char": "04/29/2026 21:30",
       "stats": {
         "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
@@ -1268,12 +1268,12 @@
         "deaths": 0,
         "mobKills": 1,
         "playerKills": 0,
-        "playtimeHours": 0.3,
-        "blocksTravelled": 895,
+        "playtimeHours": 0.4,
+        "blocksTravelled": 1108,
         "blocksBroken": 3,
         "blocksPlaced": 1,
         "deepestY": 112,
-        "lastSeen": 1780261110,
+        "lastSeen": 1780261338,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1367,7 +1367,7 @@
       "name": "Eghetti",
       "role": "suplayer",
       "first_join": "04/22/2026 18:03",
-      "last_join": "05/28/2026 21:18",
+      "last_join": "05/31/2026 20:56",
       "last_char": "04/22/2026 18:08",
       "stats": {
         "uid": "TxqQ4g4qqKs+G5yFUTFmyGYb",
@@ -1376,12 +1376,12 @@
         "deaths": 0,
         "mobKills": 0,
         "playerKills": 0,
-        "playtimeHours": 0.0,
-        "blocksTravelled": 42,
+        "playtimeHours": 0.1,
+        "blocksTravelled": 248,
         "blocksBroken": 1,
         "blocksPlaced": 1,
-        "deepestY": 129,
-        "lastSeen": 1780261097,
+        "deepestY": 128,
+        "lastSeen": 1780261338,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
