@@ -146,10 +146,19 @@ function Get-InstalledModids([string]$dir) {
 }
 
 Say "Scanning installed mods..." Gray
+# ModsByServer is where the server push-installs mods automatically - count those as installed too
+$mbsDir = Join-Path (Split-Path $modsDir -Parent) "ModsByServer"
 $installedIds = Get-InstalledModids $modsDir
+if (Test-Path -LiteralPath $mbsDir -ErrorAction SilentlyContinue) {
+  (Get-InstalledModids $mbsDir).GetEnumerator() | ForEach-Object {
+    if (-not $installedIds.ContainsKey($_.Key)) { $installedIds[$_.Key] = $_.Value }
+  }
+}
 $existingFiles = @{}
-Get-ChildItem -LiteralPath $modsDir -Filter *.zip -File -ErrorAction SilentlyContinue |
-  ForEach-Object { $existingFiles[$_.Name] = $true }
+foreach ($scanDir in @($modsDir, $mbsDir)) {
+  Get-ChildItem -LiteralPath $scanDir -Filter *.zip -File -ErrorAction SilentlyContinue |
+    ForEach-Object { $existingFiles[$_.Name] = $true }
+}
 
 # ---- mandatory mods: bulk download ----
 $mandatoryDiff = @($man.mods | Where-Object { $_.filename -and -not $existingFiles.ContainsKey($_.filename) })
@@ -280,6 +289,31 @@ if ($optChosen.Count -gt 0) {
       Say "  ! Failed to download $label : $_" Red
     }
   }
+}
+
+# ---- clean up ModsByServer duplicates ----
+# VS auto-pushes server mods into ModsByServer; now that they're in Mods, remove the
+# duplicates so the mod manager doesn't show every mod twice with one copy failing.
+if (Test-Path -LiteralPath $mbsDir -ErrorAction SilentlyContinue) {
+  $modsNow = Get-InstalledModids $modsDir
+  $cleaned = 0
+  Get-ChildItem -LiteralPath $mbsDir -Filter *.zip -File -ErrorAction SilentlyContinue | ForEach-Object {
+    $mid = $null
+    try {
+      $z = [System.IO.Compression.ZipFile]::OpenRead($_.FullName)
+      $e = $z.Entries | Where-Object { $_.Name -eq "modinfo.json" } | Select-Object -First 1
+      if ($e) {
+        $r = New-Object System.IO.StreamReader($e.Open()); $txt = $r.ReadToEnd(); $r.Close()
+        if ($txt -match '(?i)"modid"\s*:\s*"([^"]+)"') { $mid = $Matches[1].ToLower() }
+      }
+      $z.Dispose()
+    } catch {}
+    if ($mid -and $modsNow.ContainsKey($mid)) {
+      Remove-Item -LiteralPath $_.FullName -Force -ErrorAction SilentlyContinue
+      $cleaned++
+    }
+  }
+  if ($cleaned -gt 0) { Say "Removed $cleaned duplicate(s) from ModsByServer." Gray }
 }
 
 Say ""
