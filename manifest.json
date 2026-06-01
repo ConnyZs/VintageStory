@@ -1,6 +1,6 @@
 {
   "game_version": "1.22.3",
-  "generated": "20260601-194448",
+  "generated": "20260601-230607",
   "count": 74,
   "mods": [
     {
@@ -427,13 +427,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/buzzwords_1.8.2.zip"
     },
     {
-      "filename": "canjewelry_0.6.11.zip",
-      "sha256": "5964d3408189b197e32d32cf75748f50b3c2e617ecea2482164060a456ab12c2",
-      "size": 710115,
+      "filename": "canjewelry_0.6.12.zip",
+      "sha256": "382933e18b45d59bf25e96be48ab526c094f8403a4cc2fe290923685b55457c6",
+      "size": 710328,
       "modid": "canjewelry",
-      "version": "0.6.11",
+      "version": "0.6.12",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/canjewelry_0.6.11.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/canjewelry_0.6.12.zip"
     },
     {
       "filename": "coinage-2.1.9.zip",
