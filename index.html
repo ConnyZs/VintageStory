@@ -332,6 +332,7 @@
   .mbtn.go:hover{filter:brightness(1.06)}
   /* download-modset panel */
   /* engine update notice */
+  #engineNotice[hidden]{display:none}
   #engineNotice{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;
     margin:10px 0 0;padding:12px 18px;border-radius:6px;
     background:rgba(204,164,40,.13);border:1px solid rgba(204,164,40,.4);color:#c8a428}
@@ -356,11 +357,11 @@
     justify-content:center;color:var(--copper-glow,#d98a4b);font-size:16px;font-weight:900}
   .dlbtn{text-decoration:none;white-space:nowrap}
   .dlsep{width:100%;border-top:1px solid var(--line);margin:4px 0 2px}
-  .dlmanual{display:flex;align-items:center;gap:10px;flex-wrap:wrap;justify-content:center}
-  .dlopt-inline{gap:6px}
-  .dlopt-inline input{width:16px;height:16px;border-radius:3px}
-  .dlopt-inline input:checked::after{font-size:11px}
-  .dlopt-inline span{font-size:.78rem;color:var(--ink-dim)}
+  .dlmanual{display:flex;align-items:center;gap:10px;flex-wrap:wrap;justify-content:center;line-height:1.4}
+  .dlopt-inline{gap:5px;align-self:center}
+  .dlopt-inline input{width:15px;height:15px;border-radius:3px;flex:none;vertical-align:middle}
+  .dlopt-inline input:checked::after{font-size:10px}
+  .dlopt-inline span{font-size:.78rem;color:var(--ink-dim);line-height:1}
   .dlbtn .dlsize{opacity:.7;font-size:.85em;font-weight:400}
   /* gallery */
   .gal-hint{margin:18px 0 4px;color:var(--ink-faint);font-size:.86rem;font-style:italic}
@@ -465,7 +466,7 @@
 
   <footer>
     <span>Kept in sync by <strong>vs-autoupdate</strong>. Propose mods right here on the dashboard — the server picks them up on the next update.</span>
-    <span class="dash-ver" title="dashboard version">Ledger v1.5</span>
+    <span class="dash-ver" title="dashboard version">Ledger v1.10</span>
     <span id="foot"></span>
   </footer>
 </div>
@@ -1018,7 +1019,14 @@ async function reloadRegistry(){
 
 async function renderApprovals(){
   const box=document.getElementById("approvals");
-  if(!ADMIN_KEY){box.innerHTML="";return;}
+  if(!ADMIN_KEY){
+    const props=(REG.mods||[]).filter(m=>m.proposed);
+    if(!props.length){box.innerHTML=`<div class="apanel"><h2>Proposals</h2><div class="sub2">No mod proposals waiting right now.</div></div>`;return;}
+    let rows=props.map(m=>`<div class="prow"><div class="pn"><a href="${esc(m.link||"")}" target="_blank" rel="noopener">${esc(m.name||m.modid||m.link)} ↗</a>
+      <div class="meta2">${esc(m.section||"")}${m.build_version?" · v"+esc(m.build_version):""} · awaiting admin approval</div></div></div>`).join("");
+    box.innerHTML=`<div class="apanel"><h2>Proposals (${props.length})</h2><div class="sub2">Mods suggested by the crew, waiting for admin review.</div>${rows}</div>`;
+    return;
+  }
   box.innerHTML=`<div class="apanel"><h2>Admin · proposals</h2><div class="sub2">Reading the live sheet…</div></div>`;
   let pend=[];
   try{ pend=await loadLiveProposals(); }
