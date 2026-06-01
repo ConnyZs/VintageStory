@@ -1,7 +1,7 @@
 {
   "game_version": "1.22.3",
   "generated": "20260601-194448",
-  "count": 75,
+  "count": 74,
   "mods": [
     {
       "filename": "ACulinaryArtillery 2.0.0-dev.19.zip",
@@ -443,15 +443,6 @@
       "version": "2.1.9",
       "name": null,
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/coinage-2.1.9.zip"
-    },
-    {
-      "filename": "dashboardstats_0.1.0.zip",
-      "sha256": "c9abef2765c886b1b874fb5e4917c9e75247656d156c01bdd1945e475b3515b4",
-      "size": 3907,
-      "modid": "dashboardstats",
-      "version": "0.1.0",
-      "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/dashboardstats_0.1.0.zip"
     },
     {
       "filename": "electricalprogressivebasics_3.2.1.zip",
