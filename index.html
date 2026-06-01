@@ -821,7 +821,7 @@ function renderModset(){
     <div class="dltext"><h2>Get the modset</h2>
       <div class="sub2">Installs everything automatically — works even on a fresh VS install. Also prompts for optional visual mods.</div></div>
     <div class="dlctrl">
-      <a class="cta dlbtn" href="${esc(setupUrl)}" download>Download &amp; install mods <span class="dlsize">(one-click · first time)</span></a>
+      <a class="cta dlbtn" href="${esc(setupUrl)}" download>Download mod installer</a>
       <div class="dlsep"></div>
       ${names?`<label class="dlopt"><input type="checkbox" id="dlfull"><span>Include optional visual mods <em>(${esc(names)})</em></span></label>`:""}
       <div class="sub2" style="font-size:.8rem;color:var(--ink-dim)">Prefer to drop it in manually? <a id="rawlink" href="${esc(ms.server_url)}" download style="color:var(--amber);text-decoration:none;border-bottom:1px solid rgba(224,169,63,.35)">Download modset.zip <span id="rawsize">(${fmtMB(ms.server_size)})</span></a></div>
