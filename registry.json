@@ -1,20 +1,20 @@
 {
-  "generated": "20260601-194116",
+  "generated": "20260601-194558",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "modset": {
     "server_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset.zip",
     "full_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset-full.zip",
-    "server_count": 75,
+    "server_count": 74,
     "full_count": 78,
-    "server_size": 130779441,
-    "full_size": 131581308,
+    "server_size": 130776844,
+    "full_size": 131582742,
     "client_only": [
       "CoriaenderShaders",
       "Natural Foliage",
       "Status HUD"
     ],
-    "generated": "20260531-233909"
+    "generated": "20260601-194536"
   },
   "sheet_url": "https://docs.google.com/spreadsheets/d/1MZUkPV8T5S2HtIM8LexvDzXFZAidz0b4pdVqxegL5pE/edit",
   "submit_url": "https://script.google.com/macros/s/AKfycbyHYVVekkEQmbHEHJUAA1BjyheZFE_vC0Ook-bTyr3UHyeRkeQgv0j3DimOKLsqAxVmXw/exec",
@@ -272,10 +272,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "2.3.1",
+      "version": "2.3.2",
       "build_version": "2.3.2",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -832,10 +832,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.2.7",
+      "version": "1.2.8",
       "build_version": "1.2.8",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -880,10 +880,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "2.0.1",
+      "version": "2.0.2",
       "build_version": "2.0.2",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {

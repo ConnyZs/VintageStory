@@ -1,6 +1,6 @@
 {
   "game_version": "1.22.3",
-  "generated": "20260531-233819",
+  "generated": "20260601-194448",
   "count": 75,
   "mods": [
     {
@@ -202,13 +202,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/Molds_v0.3.3.zip"
     },
     {
-      "filename": "NoticeBoard_2.0.1.zip",
-      "sha256": "9889bdad71810c476b891a66e293a2c5f67b6db4abbef37d9035306a024638a0",
-      "size": 465171,
+      "filename": "NoticeBoard_2.0.2.zip",
+      "sha256": "f904d43d380bea0656d381efa6313fcc6b265f57a774300044925ef9483209cd",
+      "size": 466217,
       "modid": "noticeboard",
-      "version": "2.0.1",
+      "version": "2.0.2",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/NoticeBoard_2.0.1.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/NoticeBoard_2.0.2.zip"
     },
     {
       "filename": "PlayerCorpse_VS1.21.1_net8_v1.12.0.zip",
@@ -274,13 +274,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/TankardsandGoblets_v1.4.2.zip"
     },
     {
-      "filename": "TemporalSymphony_2.3.1.zip",
-      "sha256": "a964f140f1af7591a5c65fa238130d41301888d5b3e3d798869abcadc8ac98d8",
-      "size": 35543307,
+      "filename": "TemporalSymphony_2.3.2.zip",
+      "sha256": "5139dfcc2c7c28c4f64fbc94409f80a97e26c48fb39abad5d5c0b06c459dae77",
+      "size": 35543526,
       "modid": "temporalsymphony",
-      "version": "2.3.1",
+      "version": "2.3.2",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/TemporalSymphony_2.3.1.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/TemporalSymphony_2.3.2.zip"
     },
     {
       "filename": "The_Art_of_Pies_v2.1.0.zip",
@@ -589,13 +589,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/sortablestorage_3.0.0.zip"
     },
     {
-      "filename": "spinningwheel_1.2.7.zip",
-      "sha256": "7db84dd5d6c957c45be8bf083856acb186bdf596ba43e2cd7489f43ca71c88bb",
-      "size": 692555,
+      "filename": "spinningwheel_1.2.8.zip",
+      "sha256": "d6b7f2133e332c80029e3539dfa9d423c5434a310b660453c83360b9fc11040f",
+      "size": 692724,
       "modid": "spinningwheel",
-      "version": "1.2.7",
+      "version": "1.2.8",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/spinningwheel_1.2.7.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/spinningwheel_1.2.8.zip"
     },
     {
       "filename": "spyglass_0.6.1.zip",
