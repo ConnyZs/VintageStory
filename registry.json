@@ -1,5 +1,5 @@
 {
-  "generated": "20260601-234801",
+  "generated": "20260601-235802",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1287,12 +1287,12 @@
         "deaths": 0,
         "mobKills": 1,
         "playerKills": 0,
-        "playtimeHours": 2.2,
+        "playtimeHours": 2.3,
         "blocksTravelled": 1386,
         "blocksBroken": 8,
         "blocksPlaced": 3,
         "deepestY": 112,
-        "lastSeen": 1780350432,
+        "lastSeen": 1780351064,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1377,11 +1377,6 @@
             "code": "game:clothes-upperbodyover-fur-coat",
             "name": "Fur coat",
             "icon": "character/icons/upperbodyover-fur-coat.png"
-          },
-          {
-            "slot": "backpack",
-            "code": "game:knife-generic-tinbronze",
-            "name": "Tin bronze knife"
           }
         ],
         "skin": {
