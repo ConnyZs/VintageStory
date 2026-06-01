@@ -356,6 +356,11 @@
     justify-content:center;color:var(--copper-glow,#d98a4b);font-size:16px;font-weight:900}
   .dlbtn{text-decoration:none;white-space:nowrap}
   .dlsep{width:100%;border-top:1px solid var(--line);margin:4px 0 2px}
+  .dlmanual{display:flex;align-items:center;gap:10px;flex-wrap:wrap;justify-content:center}
+  .dlopt-inline{gap:6px}
+  .dlopt-inline input{width:16px;height:16px;border-radius:3px}
+  .dlopt-inline input:checked::after{font-size:11px}
+  .dlopt-inline span{font-size:.78rem;color:var(--ink-dim)}
   .dlbtn .dlsize{opacity:.7;font-size:.85em;font-weight:400}
   /* gallery */
   .gal-hint{margin:18px 0 4px;color:var(--ink-faint);font-size:.86rem;font-style:italic}
@@ -823,8 +828,10 @@ function renderModset(){
     <div class="dlctrl">
       <a class="cta dlbtn" href="${esc(setupUrl)}" download>Download mod installer</a>
       <div class="dlsep"></div>
-      ${names?`<label class="dlopt"><input type="checkbox" id="dlfull"><span>Include optional visual mods <em>(${esc(names)})</em></span></label>`:""}
-      <div class="sub2" style="font-size:.8rem;color:var(--ink-dim)">Prefer to drop it in manually? <a id="rawlink" href="${esc(ms.server_url)}" download style="color:var(--amber);text-decoration:none;border-bottom:1px solid rgba(224,169,63,.35)">Download modset.zip <span id="rawsize">(${fmtMB(ms.server_size)})</span></a></div>
+      <div class="dlmanual">
+        <span class="sub2" style="font-size:.8rem;color:var(--ink-dim)">Prefer to drop it in manually? <a id="rawlink" href="${esc(ms.server_url)}" download style="color:var(--amber);text-decoration:none;border-bottom:1px solid rgba(224,169,63,.35)">Download modset.zip <span id="rawsize">(${fmtMB(ms.server_size)})</span></a></span>
+        ${names?`<label class="dlopt dlopt-inline"><input type="checkbox" id="dlfull"><span>+ visual mods</span></label>`:""}
+      </div>
     </div></div>`;
   if(document.getElementById("dlfull")){
     document.getElementById("dlfull").addEventListener("change", e=>{
