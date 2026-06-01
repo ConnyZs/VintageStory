@@ -212,7 +212,7 @@ if ($optUpdate.Count -gt 0) {
   Say ("{0} optional mod(s) you have installed will be updated:" -f $optUpdate.Count) Cyan
   foreach ($m in $optUpdate) {
     $label = if ($m.name) { $m.name } elseif ($m.modid) { $m.modid } else { $m.filename }
-    $old = $installedIds[($m.modid ?? "").ToLower()]
+    $old = $installedIds[(if ($m.modid) { $m.modid } else { "" }).ToLower()]
     Say "  * $label  ($old  ->  $($m.filename))" White
   }
   $optChosen += $optUpdate
