@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Spectral+SC:wght@500;600&display=swap" rel="stylesheet">
 <style>
+  [hidden]{display:none!important}
   :root{
     --bg:#171310; --bg2:#1f1a13; --surface:#251f17; --surface2:#2c241a;
     --ink:#efe6d6; --ink-dim:#b3a589; --ink-faint:#7d7259;
@@ -332,7 +333,6 @@
   .mbtn.go:hover{filter:brightness(1.06)}
   /* download-modset panel */
   /* engine update notice */
-  #engineNotice[hidden]{display:none}
   #engineNotice{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;
     margin:10px 0 0;padding:12px 18px;border-radius:6px;
     background:rgba(204,164,40,.13);border:1px solid rgba(204,164,40,.4);color:#c8a428}
@@ -471,7 +471,7 @@
 
   <footer>
     <span>Kept in sync by <strong>vs-autoupdate</strong>. Propose mods right here on the dashboard — the server picks them up on the next update.</span>
-    <span class="dash-ver" title="dashboard version">Ledger v1.11</span>
+    <span class="dash-ver" id="dashVer" title="dashboard version">Ledger v1.22.3</span>
     <span id="foot"></span>
   </footer>
 </div>
@@ -510,9 +510,10 @@ fetch("registry.json?_="+Date.now()).then(r=>r.json()).then(reg=>{
   loadPending();
   applyPendingStates();   // re-apply pending disable/remove marks across sessions
   document.getElementById("gv").textContent="v"+(reg.game_version||"?");
+  document.getElementById("dashVer").textContent="Ledger v"+(reg.game_version||"?");
   document.getElementById("stamp").textContent="updated "+fmt(reg.generated);
   document.getElementById("foot").textContent=reg.count+" mods catalogued";
-  const _cts=document.getElementById("checkTs"); if(_cts && reg.generated) _cts.textContent="last checked "+fmt(reg.generated);
+  const _cts=document.getElementById("checkTs"); if(_cts && reg.generated){const _d=new Date((()=>{const m=reg.generated.match(/(\d{4})(\d{2})(\d{2})-(\d{2})(\d{2})/);return m?`${m[1]}-${m[2]}-${m[3]}T${m[4]}:${m[5]}:00`:reg.generated})());const _p=n=>String(n).padStart(2,'0');if(!isNaN(_d)) _cts.textContent=`last checked ${_p(_d.getDate())}.${_p(_d.getMonth()+1)}.${_d.getFullYear()} ${_p(_d.getHours())}:${_p(_d.getMinutes())}`; }
   const dl=document.getElementById("cats");
   (reg.categories||[]).forEach(c=>{const o=document.createElement("option");o.value=c;dl.appendChild(o);});
   initForm();
@@ -949,10 +950,13 @@ function setupAdminButtons(){
       if(cb.disabled) return;
       cb.disabled=true; cb.textContent="Checking…";
       const startGen=REG.generated;
+      const cts=document.getElementById("checkTs");
+      const setTs=()=>{if(cts){const d=new Date();const p=n=>String(n).padStart(2,'0');cts.textContent=`last checked ${p(d.getDate())}.${p(d.getMonth()+1)}.${d.getFullYear()} ${p(d.getHours())}:${p(d.getMinutes())}`;}}
       try{
         await fetch(REG.submit_url,{method:"POST",mode:"no-cors",
           headers:{"Content-Type":"text/plain;charset=utf-8"},
           body:JSON.stringify({action:"check"})});
+        setTs();  // update timestamp immediately once request sent
       }catch(e){ cb.textContent="Check for updates"; cb.disabled=false; return; }
       // poll registry.json until it refreshes (bot rebuilds and pushes it)
       const poll=setInterval(async()=>{
@@ -963,7 +967,7 @@ function setupAdminButtons(){
             REG=reg; DATA=reg.mods||[];
             render(); buildTally(); renderApprovals(); renderEngineNotice();
             cb.textContent="Check for updates"; cb.disabled=false;
-            const cts=document.getElementById("checkTs"); if(cts) cts.textContent="last checked "+fmt(reg.generated);
+            setTs();
             showToast("Updated — mod states refreshed.",true);
           }
         }catch(e){}
