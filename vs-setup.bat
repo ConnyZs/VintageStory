@@ -285,4 +285,3 @@ Say ""
 Say "Start Vintage Story and connect to the server." White
 Say "The game will load the new mods automatically." Gray
 Say ""
-pause

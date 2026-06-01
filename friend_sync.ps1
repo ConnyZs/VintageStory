@@ -120,7 +120,7 @@ function Consider($m, [bool]$optional) {
   $mid=$m.modid; $fn=$m.filename; $sha=$m.sha256; $url=$m.url
   if ($optional) {
     if (-not $present.ContainsKey($mid)) { $script:skipped += "$mid (not installed - left alone)"; return }
-    if ($disabled.ContainsKey($mid))     { $script:skipped += "$mid (disabled - left alone)"; return }
+    # disabled-but-installed: still sync the zip so VS picks up the update if re-enabled
   }
   $script:useModids[$mid]=$true
   $script:wantFiles[$fn]=$true
