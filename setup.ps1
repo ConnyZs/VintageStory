@@ -1,8 +1,9 @@
 <#
   Vintage Story — mod installer / updater
   Works on a fresh install or an existing setup.
-  Checks game version, shows which mods change, handles optional visual mods.
-  No admin rights required. Nothing is changed outside your VS data folder.
+  Mandatory mods: always synced via bulk zip.
+  Optional mods: auto-updated if already installed; asked individually if not.
+  No admin rights required. Nothing changed outside your VS data folder.
 #>
 $ErrorActionPreference = "Stop"
 Add-Type -AssemblyName System.IO.Compression.FileSystem
@@ -70,17 +71,18 @@ if (-not (Test-Path -LiteralPath $modsDir)) {
   Say "Creating Mods folder at: $modsDir" Yellow
   New-Item -ItemType Directory -Path $modsDir -Force | Out-Null
 } else {
-  $existing = (Get-ChildItem -LiteralPath $modsDir -Filter *.zip -File).Count
-  Say "Mods folder: $modsDir ($existing mod(s) currently installed)" Green
+  $cnt = (Get-ChildItem -LiteralPath $modsDir -Filter *.zip -File -ErrorAction SilentlyContinue).Count
+  Say "Mods folder: $modsDir ($cnt mod(s) currently installed)" Green
 }
 Say ""
 
 # ---- fetch manifest + modset ----
 Say "Loading server mod list..." Gray
-try   { $man = Invoke-RestMethod -Uri $MANIFEST_URL -TimeoutSec 30 }
+try   { $man    = Invoke-RestMethod -Uri $MANIFEST_URL -TimeoutSec 30 }
 catch { Die "Could not reach the server mod list. Check your connection and try again." }
 try   { $modset = Invoke-RestMethod -Uri $MODSET_URL -TimeoutSec 30 }
 catch { $modset = $null }
+if (-not $modset) { Die "Could not load download index (modset.json). Try again later." }
 
 Say ("Server: game v{0} | {1} mods" -f $man.game_version, $man.count) Cyan
 Say ""
@@ -109,91 +111,166 @@ if ($vsVerObj -and $man.game_version) {
   } catch {}
 }
 
-# ---- optional visual mods ----
-$includeCosmetics = $false
-$cosmeticNames = if ($modset -and $modset.client_only) { $modset.client_only } else { @() }
-if ($cosmeticNames.Count) {
-  Say ("Optional visual mods: {0}" -f ($cosmeticNames -join ", ")) Yellow
-  Say "These improve looks but are not required to play." Gray
-  $ans = Read-Host "Include them? (y/N)"
-  $includeCosmetics = ($ans -match '^(y|yes)$')
-  Say ""
+# ---- read modids already installed (from zip modinfo.json) ----
+# keyed modid -> filename, so we know which optional mods are already present
+function Get-InstalledModids([string]$dir) {
+  $ids = @{}
+  Get-ChildItem -LiteralPath $dir -Filter *.zip -File -ErrorAction SilentlyContinue | ForEach-Object {
+    try {
+      $z = [System.IO.Compression.ZipFile]::OpenRead($_.FullName)
+      $e = $z.Entries | Where-Object { $_.Name -eq "modinfo.json" } | Select-Object -First 1
+      if ($e) {
+        $r  = New-Object System.IO.StreamReader($e.Open())
+        $mi = $r.ReadToEnd() | ConvertFrom-Json
+        $r.Close()
+        if ($mi.modid) { $ids[$mi.modid.ToLower()] = $_.Name }
+      }
+      $z.Dispose()
+    } catch {}
+  }
+  return $ids
 }
 
-# ---- mod diff ----
+Say "Scanning installed mods..." Gray
+$installedIds = Get-InstalledModids $modsDir
 $existingFiles = @{}
 Get-ChildItem -LiteralPath $modsDir -Filter *.zip -File -ErrorAction SilentlyContinue |
   ForEach-Object { $existingFiles[$_.Name] = $true }
 
-$allMods = @($man.mods)
-if ($includeCosmetics) { $allMods += @($man.optional) }
+# ---- mandatory mods: bulk download ----
+$mandatoryDiff = @($man.mods | Where-Object { $_.filename -and -not $existingFiles.ContainsKey($_.filename) })
+$mandatoryOk   = @($man.mods | Where-Object { $_.filename -and  $existingFiles.ContainsKey($_.filename) })
 
-$toInstall = @($allMods | Where-Object { $_.filename -and -not $existingFiles.ContainsKey($_.filename) })
-$alreadyOk = @($allMods | Where-Object { $_.filename -and  $existingFiles.ContainsKey($_.filename) })
+# ---- optional mods: per-mod decision ----
+# already installed (any version) -> auto-update if newer filename
+# not installed -> ask individually
+$optUpdate = @()   # already have it, new version available -> silently update
+$optAsk    = @()   # not installed -> prompt
+$optSkip   = @()   # already up to date
 
-if ($toInstall.Count -eq 0) {
-  Say ("All {0} mods are already up to date." -f $allMods.Count) Green
-  Say ""
-  $go = Read-Host "Reinstall anyway? (y/N)"
-  if ($go -notmatch '^(y|yes)$') { Say "Nothing changed."; pause; exit 0 }
-} else {
-  if ($alreadyOk.Count -gt 0) {
-    Say ("{0} mod(s) already up to date." -f $alreadyOk.Count) Gray
+foreach ($m in $man.optional) {
+  if (-not $m.filename) { continue }
+  $mid = if ($m.modid) { $m.modid.ToLower() } else { "" }
+  if ($existingFiles.ContainsKey($m.filename)) {
+    $optSkip += $m   # exact version already present
+  } elseif ($mid -and $installedIds.ContainsKey($mid)) {
+    $optUpdate += $m  # has it but older version
+  } else {
+    $optAsk += $m     # not installed at all
   }
-  Say ("{0} mod(s) to install / update:" -f $toInstall.Count) Yellow
-  foreach ($m in $toInstall) {
+}
+
+Say ""
+
+# show update summary
+if ($mandatoryDiff.Count -eq 0 -and $optUpdate.Count -eq 0 -and $optAsk.Count -eq 0) {
+  Say ("All {0} mods are already up to date." -f ($man.mods.Count + $man.optional.Count)) Green
+  Say ""
+  $go = Read-Host "Reinstall mandatory mods anyway? (y/N)"
+  if ($go -notmatch '^(y|yes)$') { Say "Nothing changed."; pause; exit 0 }
+  Say ""
+}
+
+if ($mandatoryOk.Count -gt 0 -and $mandatoryDiff.Count -gt 0) {
+  Say ("{0} mandatory mod(s) already up to date." -f $mandatoryOk.Count) Gray
+}
+if ($mandatoryDiff.Count -gt 0) {
+  Say ("{0} mandatory mod(s) to install / update:" -f $mandatoryDiff.Count) Yellow
+  foreach ($m in $mandatoryDiff) {
     $label = if ($m.name) { $m.name } elseif ($m.modid) { $m.modid } else { $m.filename }
     Say "  + $label" White
   }
   Say ""
-  $go = Read-Host "Install now? (Y/n)"
-  if ($go -match '^(n|no)$') { Say "Nothing changed."; pause; exit 0 }
 }
+
+# auto-update optional mods already installed
+$optChosen = @()
+if ($optUpdate.Count -gt 0) {
+  Say ("{0} optional mod(s) you have installed will be updated:" -f $optUpdate.Count) Cyan
+  foreach ($m in $optUpdate) {
+    $label = if ($m.name) { $m.name } elseif ($m.modid) { $m.modid } else { $m.filename }
+    $old = $installedIds[($m.modid ?? "").ToLower()]
+    Say "  * $label  ($old  ->  $($m.filename))" White
+  }
+  $optChosen += $optUpdate
+  Say ""
+}
+
+# ask about optional mods not yet installed
+foreach ($m in $optAsk) {
+  $label = if ($m.name) { $m.name } elseif ($m.modid) { $m.modid } else { $m.filename }
+  $ans = Read-Host "Install optional mod '$label'? (y/N)"
+  if ($ans -match '^(y|yes)$') { $optChosen += $m }
+}
+if ($optAsk.Count -gt 0) { Say "" }
+
+# ---- confirm ----
+$totalNew = $mandatoryDiff.Count + $optChosen.Count
+if ($totalNew -eq 0) {
+  Say "Nothing to do." Green
+  pause; exit 0
+}
+$go = Read-Host ("Ready to install {0} mod(s). Proceed? (Y/n)" -f $totalNew)
+if ($go -match '^(n|no)$') { Say "Nothing changed."; pause; exit 0 }
 Say ""
 
-# ---- pick download URL ----
-if ($modset) {
-  $url    = if ($includeCosmetics) { $modset.full_url    } else { $modset.server_url    }
-  $sizeMB = [math]::Round((if ($includeCosmetics) { $modset.full_size } else { $modset.server_size }) / 1MB, 0)
-} else {
-  # fallback: derive URL from individual mod entries (slower but works without modset.json)
-  Die "Could not load download index. Try again later."
-}
-
-# ---- download ----
-$tmp = Join-Path $env:TEMP ("vs_modset_" + [System.Guid]::NewGuid().ToString() + ".zip")
-Say "Downloading mods ($sizeMB MB)..." White
-try {
-  $wc = New-Object System.Net.WebClient
-  $wc.Headers.Add("User-Agent", "VS-Setup/1.0")
-  $wc.DownloadFile($url, $tmp)
-} catch {
-  if (Test-Path -LiteralPath $tmp) { Remove-Item -LiteralPath $tmp -Force }
-  Die "Download failed: $_"
-}
-Say "Download complete." Green
-
-# ---- extract into Mods folder ----
-Say "Installing mods..." White
-try {
-  $zip = [System.IO.Compression.ZipFile]::OpenRead($tmp)
-  $installed = 0
-  foreach ($entry in $zip.Entries) {
-    if ($entry.Name -eq "") { continue }
-    $dest = Join-Path $modsDir $entry.Name
-    [System.IO.Compression.ZipFileExtensions]::ExtractToFile($entry, $dest, $true)
-    $installed++
+# ---- download mandatory bulk zip ----
+$installedCount = 0
+if ($mandatoryDiff.Count -gt 0 -or $mandatoryOk.Count -eq 0) {
+  # download the full mandatory set as a zip (efficient even for partial updates)
+  $sizeMB = [math]::Round($modset.server_size / 1MB, 0)
+  Say "Downloading mandatory mods ($sizeMB MB)..." White
+  $tmp = Join-Path $env:TEMP ("vs_modset_" + [System.Guid]::NewGuid().ToString() + ".zip")
+  try {
+    $wc = New-Object System.Net.WebClient
+    $wc.Headers.Add("User-Agent", "VS-Setup/1.0")
+    $wc.DownloadFile($modset.server_url, $tmp)
+    $zip = [System.IO.Compression.ZipFile]::OpenRead($tmp)
+    foreach ($entry in $zip.Entries) {
+      if ($entry.Name -eq "") { continue }
+      $dest = Join-Path $modsDir $entry.Name
+      [System.IO.Compression.ZipFileExtensions]::ExtractToFile($entry, $dest, $true)
+      $installedCount++
+    }
+    $zip.Dispose()
+  } catch {
+    if (Test-Path -LiteralPath $tmp) { Remove-Item -LiteralPath $tmp -Force }
+    Die "Mandatory mods download failed: $_"
+  } finally {
+    if (Test-Path -LiteralPath $tmp) { Remove-Item -LiteralPath $tmp -Force -ErrorAction SilentlyContinue }
   }
-  $zip.Dispose()
-} catch {
-  Die "Could not extract mods: $_"
-} finally {
-  if (Test-Path -LiteralPath $tmp) { Remove-Item -LiteralPath $tmp -Force }
+  Say "Mandatory mods installed." Green
+}
+
+# ---- download optional mods individually ----
+if ($optChosen.Count -gt 0) {
+  Say "Downloading optional mods..." White
+  $wc2 = New-Object System.Net.WebClient
+  $wc2.Headers.Add("User-Agent", "VS-Setup/1.0")
+  foreach ($m in $optChosen) {
+    $label = if ($m.name) { $m.name } elseif ($m.modid) { $m.modid } else { $m.filename }
+    $dest  = Join-Path $modsDir $m.filename
+    # remove old version if present
+    $mid = if ($m.modid) { $m.modid.ToLower() } else { "" }
+    if ($mid -and $installedIds.ContainsKey($mid)) {
+      $oldFile = Join-Path $modsDir $installedIds[$mid]
+      if ((Test-Path -LiteralPath $oldFile) -and $installedIds[$mid] -ne $m.filename) {
+        Remove-Item -LiteralPath $oldFile -Force
+      }
+    }
+    try {
+      Say "  $label" Gray
+      $wc2.DownloadFile($m.url, $dest)
+      $installedCount++
+    } catch {
+      Say "  ! Failed to download $label : $_" Red
+    }
+  }
 }
 
 Say ""
 Say "============================================" Green
-Say "  Done! $installed mods installed." Green
+Say "  Done! $installedCount mod(s) installed." Green
 Say "============================================" Green
 Say ""
 Say "Start Vintage Story and connect to the server." White
