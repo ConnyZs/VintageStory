@@ -1,5 +1,5 @@
 {
-  "generated": "20260601-175720",
+  "generated": "20260601-193310",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "modset": {
@@ -71,7 +71,7 @@
       "proposed": false
     },
     {
-      "name": "Bird's Eye",
+      "name": "Salty\u00b4s Bird\u00b4s Eye",
       "modid": "birdseye",
       "section": "optional",
       "category": "QoL",
@@ -151,7 +151,7 @@
       "proposed": false
     },
     {
-      "name": "Coriaenderr",
+      "name": "Coriaender Shaders",
       "modid": "coriaendershaders",
       "section": "optional",
       "category": "Graphics",
@@ -273,9 +273,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "2.3.1",
-      "build_version": "2.3.1",
+      "build_version": "2.3.2",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -519,7 +519,7 @@
       "proposed": false
     },
     {
-      "name": "CAN Jewelry",
+      "name": "C&N Jewelry",
       "modid": "canjewelry",
       "section": "1.22",
       "category": "Utility",
@@ -615,7 +615,7 @@
       "proposed": false
     },
     {
-      "name": "Art of Pies",
+      "name": "The Art of Pies",
       "modid": "theartofpies",
       "section": "1.21",
       "category": "Cosmetics",
@@ -663,7 +663,7 @@
       "proposed": false
     },
     {
-      "name": "Fauna of the Stone Age +\nother Stonage Fauna mods",
+      "name": "Fauna of the Stone Age: Pantherinae",
       "modid": "pantherinae",
       "section": "1.22",
       "category": "Crafting",
@@ -871,7 +871,7 @@
       "proposed": false
     },
     {
-      "name": "Noitce Board",
+      "name": "Notice Board",
       "modid": "noticeboard",
       "section": "1.22",
       "category": "Utility",
@@ -1095,7 +1095,7 @@
       "proposed": false
     },
     {
-      "name": "VS Roofing Mod (Successor to OneRoof)",
+      "name": "VS Roofing Mod",
       "modid": "vsroofing",
       "section": "1.22",
       "category": "Utility",
@@ -1111,7 +1111,7 @@
       "proposed": false
     },
     {
-      "name": "Weapon Pack",
+      "name": "Weapon Pack Alpha unofficial 1.18/1.19/1.20/1.21 update repack",
       "modid": "weaponpackalphaunoff",
       "section": "1.22",
       "category": "Weapons",
