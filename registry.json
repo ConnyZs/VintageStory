@@ -1495,5 +1495,6 @@
   ],
   "actions_v4": true,
   "actions_v5": true,
-  "actions_v6": true
+  "actions_v6": true,
+  "last_deploy_ts": "20260601-201803"
 }
