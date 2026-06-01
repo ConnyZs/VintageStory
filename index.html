@@ -816,20 +816,25 @@ function renderModset(){
   if(!ms||!ms.server_url){box.innerHTML="";return;}
   const names=(ms.client_only||[]).join(", ");
   const setupUrl="vs-setup.zip";
-  const syncUrl="vs-mod-sync.zip";
   box.innerHTML=`<div class="dlpanel">
     <div class="dltext"><h2>Get the modset</h2>
       <div class="sub2">Download the installer once — it sets everything up automatically, even on a fresh install.</div></div>
     <div class="dlctrl">
-      <a class="cta dlbtn" id="setupbtn" href="${esc(setupUrl)}" download>Download &amp; install mods <span class="dlsize">(one-click · first time)</span></a>
-      <div class="sub2" style="font-size:.78rem;margin:2px 0 4px">Already have mods installed? Use the updater instead: <a href="${esc(syncUrl)}" download style="color:var(--copper)">vs-mod-sync.zip</a></div>
+      <a class="cta dlbtn" href="${esc(setupUrl)}" download>Download &amp; install mods <span class="dlsize">(one-click · first time)</span></a>
       ${names?`<label class="dlopt"><input type="checkbox" id="dlfull"><span>Include optional visual mods <em>(${esc(names)})</em></span></label>`:""}
+      <div class="sub2" style="font-size:.78rem;margin:4px 0 2px">Already have mods? Drop the zip into your Mods folder: <a id="rawlink" href="${esc(ms.server_url)}" download>modset.zip <span id="rawsize">(${fmtMB(ms.server_size)})</span></a></div>
     </div></div>`;
   if(document.getElementById("dlfull")){
     document.getElementById("dlfull").addEventListener("change", e=>{
-      // cosmetics toggle not applicable to the bat — just inform
-      if(e.target.checked) alert("The installer will ask about optional visual mods during setup.");
-      e.target.checked=false;
+      const a=document.getElementById("rawlink");
+      const sz=document.getElementById("rawsize");
+      if(e.target.checked){
+        a.href=ms.full_url; a.download="modset-full.zip";
+        sz.textContent="("+fmtMB(ms.full_size)+")";
+      } else {
+        a.href=ms.server_url; a.download="modset.zip";
+        sz.textContent="("+fmtMB(ms.server_size)+")";
+      }
     });
   }
 }
