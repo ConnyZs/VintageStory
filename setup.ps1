@@ -111,23 +111,37 @@ if ($vsVerObj -and $man.game_version) {
   } catch {}
 }
 
-# ---- read modids already installed (from zip modinfo.json) ----
-# keyed modid -> filename, so we know which optional mods are already present
+# ---- read modids already installed (from zip modinfo.json, cached) ----
+# keyed modid -> filename. Uses .sync-cache.json (same format as friend_sync.ps1) to
+# skip re-opening unchanged zips — makes repeated runs on a full Mods folder fast.
 function Get-InstalledModids([string]$dir) {
-  $ids = @{}
-  Get-ChildItem -LiteralPath $dir -Filter *.zip -File -ErrorAction SilentlyContinue | ForEach-Object {
-    try {
-      $z = [System.IO.Compression.ZipFile]::OpenRead($_.FullName)
-      $e = $z.Entries | Where-Object { $_.Name -eq "modinfo.json" } | Select-Object -First 1
-      if ($e) {
-        $r  = New-Object System.IO.StreamReader($e.Open())
-        $mi = $r.ReadToEnd() | ConvertFrom-Json
-        $r.Close()
-        if ($mi.modid) { $ids[$mi.modid.ToLower()] = $_.Name }
-      }
-      $z.Dispose()
-    } catch {}
+  $ids      = @{}
+  $cacheFile = Join-Path $dir ".sync-cache.json"
+  $cache    = @{}
+  if (Test-Path -LiteralPath $cacheFile) {
+    try { $cache = (Get-Content -LiteralPath $cacheFile -Raw | ConvertFrom-Json -AsHashtable) } catch {}
   }
+  $newCache = @{}
+  Get-ChildItem -LiteralPath $dir -Filter *.zip -File -ErrorAction SilentlyContinue | ForEach-Object {
+    $fi = $_; $key = $fi.Name; $size = $fi.Length; $mtime = $fi.LastWriteTimeUtc.Ticks
+    $mid = $null
+    if ($cache.ContainsKey($key) -and $cache[$key].size -eq $size -and $cache[$key].mtime -eq $mtime) {
+      $mid = $cache[$key].modid   # cache hit — skip opening the zip
+    } else {
+      try {
+        $z = [System.IO.Compression.ZipFile]::OpenRead($fi.FullName)
+        $e = $z.Entries | Where-Object { $_.Name -eq "modinfo.json" } | Select-Object -First 1
+        if ($e) {
+          $r = New-Object System.IO.StreamReader($e.Open()); $txt = $r.ReadToEnd(); $r.Close()
+          if ($txt -match '(?i)"modid"\s*:\s*"([^"]+)"') { $mid = $Matches[1].ToLower() }
+        }
+        $z.Dispose()
+      } catch {}
+    }
+    $newCache[$key] = @{ modid = $mid; size = $size; mtime = $mtime }
+    if ($mid) { $ids[$mid] = $fi.Name }
+  }
+  try { $newCache | ConvertTo-Json | Set-Content -LiteralPath $cacheFile -Encoding UTF8 } catch {}
   return $ids
 }
 
