@@ -1,5 +1,5 @@
 <#
-  Vintage Story — mod installer / updater
+  Vintage Story - mod installer / updater
   Works on a fresh install or an existing setup.
   Mandatory mods: always synced via bulk zip.
   Optional mods: auto-updated if already installed; asked individually if not.
@@ -17,7 +17,7 @@ function Die([string]$msg) { Say "`n$msg" Red; Write-Host ""; pause; exit 1 }
 
 Say ""
 Say "============================================" Cyan
-Say "  $SERVER_NAME — mod installer" Cyan
+Say "  $SERVER_NAME - mod installer" Cyan
 Say "============================================" Cyan
 Say ""
 
@@ -113,7 +113,7 @@ if ($vsVerObj -and $man.game_version) {
 
 # ---- read modids already installed (from zip modinfo.json, cached) ----
 # keyed modid -> filename. Uses .sync-cache.json (same format as friend_sync.ps1) to
-# skip re-opening unchanged zips — makes repeated runs on a full Mods folder fast.
+# skip re-opening unchanged zips - makes repeated runs on a full Mods folder fast.
 function Get-InstalledModids([string]$dir) {
   $ids      = @{}
   $cacheFile = Join-Path $dir ".sync-cache.json"
@@ -126,7 +126,7 @@ function Get-InstalledModids([string]$dir) {
     $fi = $_; $key = $fi.Name; $size = $fi.Length; $mtime = $fi.LastWriteTimeUtc.Ticks
     $mid = $null
     if ($cache.ContainsKey($key) -and $cache[$key].size -eq $size -and $cache[$key].mtime -eq $mtime) {
-      $mid = $cache[$key].modid   # cache hit — skip opening the zip
+      $mid = $cache[$key].modid   # cache hit - skip opening the zip
     } else {
       try {
         $z = [System.IO.Compression.ZipFile]::OpenRead($fi.FullName)
