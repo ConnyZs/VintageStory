@@ -160,40 +160,62 @@ foreach ($scanDir in @($modsDir, $mbsDir)) {
     ForEach-Object { $existingFiles[$_.Name] = $true }
 }
 
+# ---- build wanted-file index (used for diff AND old-version detection) ----
+$wantedFiles  = @{}
+$wantedModIds = @{}
+foreach ($m in @($man.mods) + @($man.optional)) {
+  if ($m.filename) { $wantedFiles[$m.filename] = $true }
+  if ($m.modid -and $m.filename) { $wantedModIds[$m.modid.ToLower()] = $m.filename }
+}
+
+# ---- detect old versions already in the Mods folder ----
+function Get-ModId-FromZip([string]$path) {
+  try {
+    $z = [System.IO.Compression.ZipFile]::OpenRead($path)
+    $e = $z.Entries | Where-Object { $_.Name -eq "modinfo.json" } | Select-Object -First 1
+    if ($e) {
+      $r = New-Object System.IO.StreamReader($e.Open()); $txt = $r.ReadToEnd(); $r.Close()
+      if ($txt -match '(?i)"modid"\s*:\s*"([^"]+)"') { $z.Dispose(); return $Matches[1].ToLower() }
+    }
+    $z.Dispose()
+  } catch {}
+  return $null
+}
+$oldVersionFiles = @(Get-ChildItem -LiteralPath $modsDir -Filter *.zip -File -ErrorAction SilentlyContinue |
+  Where-Object {
+    if ($wantedFiles.ContainsKey($_.Name)) { return $false }   # correct version, keep it
+    $mid = Get-ModId-FromZip $_.FullName
+    return ($mid -and $wantedModIds.ContainsKey($mid))          # old version of a wanted mod
+  })
+
 # ---- mandatory mods: bulk download ----
 $mandatoryDiff = @($man.mods | Where-Object { $_.filename -and -not $existingFiles.ContainsKey($_.filename) })
 $mandatoryOk   = @($man.mods | Where-Object { $_.filename -and  $existingFiles.ContainsKey($_.filename) })
 
 # ---- optional mods: per-mod decision ----
-# already installed (any version) -> auto-update if newer filename
-# not installed -> ask individually
-$optUpdate = @()   # already have it, new version available -> silently update
-$optAsk    = @()   # not installed -> prompt
-$optSkip   = @()   # already up to date
+$optUpdate = @()
+$optAsk    = @()
 
 foreach ($m in $man.optional) {
   if (-not $m.filename) { continue }
   $mid = if ($m.modid) { $m.modid.ToLower() } else { "" }
   if ($existingFiles.ContainsKey($m.filename)) {
-    $optSkip += $m   # exact version already present
+    # correct version present, skip
   } elseif ($mid -and $installedIds.ContainsKey($mid)) {
-    $optUpdate += $m  # has it but older version
+    $optUpdate += $m
   } else {
-    $optAsk += $m     # not installed at all
+    $optAsk += $m
   }
 }
 
 Say ""
 
-# show update summary
-if ($mandatoryDiff.Count -eq 0 -and $optUpdate.Count -eq 0 -and $optAsk.Count -eq 0) {
-  Say ("All {0} mods are already up to date." -f ($man.mods.Count + $man.optional.Count)) Green
-  Say ""
-  $go = Read-Host "Reinstall mandatory mods anyway? (y/N)"
-  if ($go -notmatch '^(y|yes)$') { Say "Nothing changed."; pause; exit 0 }
+# show summary
+if ($oldVersionFiles.Count -gt 0) {
+  Say ("{0} old mod version(s) to remove:" -f $oldVersionFiles.Count) Yellow
+  foreach ($f in $oldVersionFiles) { Say "  - $($f.Name)" White }
   Say ""
 }
-
 if ($mandatoryOk.Count -gt 0 -and $mandatoryDiff.Count -gt 0) {
   Say ("{0} mandatory mod(s) already up to date." -f $mandatoryOk.Count) Gray
 }
@@ -218,8 +240,6 @@ if ($optUpdate.Count -gt 0) {
   $optChosen += $optUpdate
   Say ""
 }
-
-# ask about optional mods not yet installed
 foreach ($m in $optAsk) {
   $label = if ($m.name) { $m.name } elseif ($m.modid) { $m.modid } else { $m.filename }
   $ans = Read-Host "Install optional mod '$label'? (y/N)"
@@ -228,14 +248,22 @@ foreach ($m in $optAsk) {
 if ($optAsk.Count -gt 0) { Say "" }
 
 # ---- confirm ----
-$totalNew = $mandatoryDiff.Count + $optChosen.Count
-if ($totalNew -eq 0) {
-  Say "Nothing to do." Green
-  pause; exit 0
+$totalNew   = $mandatoryDiff.Count + $optChosen.Count
+$totalClean = $oldVersionFiles.Count
+if ($totalNew -eq 0 -and $totalClean -eq 0) {
+  Say "All mods are already up to date." Green
+  Say ""
+  $go = Read-Host "Reinstall mandatory mods anyway? (y/N)"
+  if ($go -notmatch '^(y|yes)$') { Say "Nothing changed."; pause; exit 0 }
+  Say ""
+} else {
+  $summary = @()
+  if ($totalNew   -gt 0) { $summary += "install $totalNew mod(s)" }
+  if ($totalClean -gt 0) { $summary += "remove $totalClean old version(s)" }
+  $go = Read-Host ("Ready to {0}. Proceed? (Y/n)" -f ($summary -join ", "))
+  if ($go -match '^(n|no)$') { Say "Nothing changed."; pause; exit 0 }
+  Say ""
 }
-$go = Read-Host ("Ready to install {0} mod(s). Proceed? (Y/n)" -f $totalNew)
-if ($go -match '^(n|no)$') { Say "Nothing changed."; pause; exit 0 }
-Say ""
 
 # ---- download mandatory bulk zip ----
 $installedCount = 0
@@ -291,31 +319,11 @@ if ($optChosen.Count -gt 0) {
   }
 }
 
-# ---- remove old versions of updated mods ----
-# After extracting new files, delete any old zip whose modid now has a newer file.
-$wantedFiles = @{}
-$wantedModIds = @{}   # modid -> expected filename (from manifest)
-foreach ($m in @($man.mods) + @($man.optional)) {
-  if ($m.filename) { $wantedFiles[$m.filename] = $true }
-  if ($m.modid -and $m.filename) { $wantedModIds[$m.modid.ToLower()] = $m.filename }
-}
+# ---- remove old versions (detected up-front, removed now) ----
 $oldRemoved = 0
-Get-ChildItem -LiteralPath $modsDir -Filter *.zip -File -ErrorAction SilentlyContinue | ForEach-Object {
-  if ($wantedFiles.ContainsKey($_.Name)) { return }   # this is the wanted version, keep it
-  $mid = $null
-  try {
-    $z = [System.IO.Compression.ZipFile]::OpenRead($_.FullName)
-    $e = $z.Entries | Where-Object { $_.Name -eq "modinfo.json" } | Select-Object -First 1
-    if ($e) {
-      $r = New-Object System.IO.StreamReader($e.Open()); $txt = $r.ReadToEnd(); $r.Close()
-      if ($txt -match '(?i)"modid"\s*:\s*"([^"]+)"') { $mid = $Matches[1].ToLower() }
-    }
-    $z.Dispose()
-  } catch {}
-  if ($mid -and $wantedModIds.ContainsKey($mid)) {
-    Remove-Item -LiteralPath $_.FullName -Force -ErrorAction SilentlyContinue
-    $oldRemoved++
-  }
+foreach ($f in $oldVersionFiles) {
+  Remove-Item -LiteralPath $f.FullName -Force -ErrorAction SilentlyContinue
+  $oldRemoved++
 }
 if ($oldRemoved -gt 0) { Say "Removed $oldRemoved old mod version(s)." Gray }
 
