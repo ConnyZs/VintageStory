@@ -1,5 +1,5 @@
 {
-  "generated": "20260601-215221",
+  "generated": "20260601-215731",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "modset": {
@@ -1276,7 +1276,7 @@
       "name": "Raschuetzer",
       "role": "admin",
       "first_join": "04/22/2026 17:47",
-      "last_join": "06/01/2026 19:04",
+      "last_join": "06/01/2026 19:51",
       "last_char": "04/29/2026 21:30",
       "stats": {
         "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
@@ -1285,12 +1285,12 @@
         "deaths": 0,
         "mobKills": 1,
         "playerKills": 0,
-        "playtimeHours": 1.5,
-        "blocksTravelled": 1224,
+        "playtimeHours": 1.6,
+        "blocksTravelled": 1234,
         "blocksBroken": 8,
         "blocksPlaced": 3,
         "deepestY": 112,
-        "lastSeen": 1780340738,
+        "lastSeen": 1780343818,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
