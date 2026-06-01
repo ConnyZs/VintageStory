@@ -357,6 +357,8 @@
     justify-content:center;color:var(--copper-glow,#d98a4b);font-size:16px;font-weight:900}
   .dlbtn{text-decoration:none;white-space:nowrap}
   .dlsep{width:100%;border-top:1px solid var(--line);margin:4px 0 2px}
+  .check-wrap{display:flex;flex-direction:column;align-items:center;gap:5px}
+  .check-ts{font-size:.7rem;color:var(--ink-faint);text-align:center;white-space:nowrap}
   .dlmanual{display:flex;align-items:center;gap:10px;flex-wrap:wrap;justify-content:center;line-height:1.4}
   .dlopt-inline{gap:5px;align-self:center}
   .dlopt-inline input{width:15px;height:15px;border-radius:3px;flex:none;vertical-align:middle}
@@ -426,7 +428,10 @@
       <div class="meta-left">
         <button class="cta" id="addBtn"><span class="plus">✚</span> Add a mod</button>
       </div>
-      <button class="cta" id="checkBtn">Check for updates</button>
+      <div class="check-wrap">
+        <button class="cta" id="checkBtn">Check for updates</button>
+        <div class="check-ts" id="checkTs"></div>
+      </div>
       <div class="meta-right">
         <button class="cta" id="deployBtn" hidden>Deploy now</button>
       </div>
@@ -466,7 +471,7 @@
 
   <footer>
     <span>Kept in sync by <strong>vs-autoupdate</strong>. Propose mods right here on the dashboard — the server picks them up on the next update.</span>
-    <span class="dash-ver" title="dashboard version">Ledger v1.10</span>
+    <span class="dash-ver" title="dashboard version">Ledger v1.11</span>
     <span id="foot"></span>
   </footer>
 </div>
@@ -507,6 +512,7 @@ fetch("registry.json?_="+Date.now()).then(r=>r.json()).then(reg=>{
   document.getElementById("gv").textContent="v"+(reg.game_version||"?");
   document.getElementById("stamp").textContent="updated "+fmt(reg.generated);
   document.getElementById("foot").textContent=reg.count+" mods catalogued";
+  const _cts=document.getElementById("checkTs"); if(_cts && reg.generated) _cts.textContent="last checked "+fmt(reg.generated);
   const dl=document.getElementById("cats");
   (reg.categories||[]).forEach(c=>{const o=document.createElement("option");o.value=c;dl.appendChild(o);});
   initForm();
@@ -957,6 +963,7 @@ function setupAdminButtons(){
             REG=reg; DATA=reg.mods||[];
             render(); buildTally(); renderApprovals(); renderEngineNotice();
             cb.textContent="Check for updates"; cb.disabled=false;
+            const cts=document.getElementById("checkTs"); if(cts) cts.textContent="last checked "+fmt(reg.generated);
             showToast("Updated — mod states refreshed.",true);
           }
         }catch(e){}
