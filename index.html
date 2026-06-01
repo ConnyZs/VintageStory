@@ -815,19 +815,23 @@ function renderModset(){
   const box=document.getElementById("modset"), ms=REG.modset;
   if(!ms||!ms.server_url){box.innerHTML="";return;}
   const names=(ms.client_only||[]).join(", ");
+  const setupUrl="vs-setup.zip";
+  const syncUrl="vs-mod-sync.zip";
   box.innerHTML=`<div class="dlpanel">
     <div class="dltext"><h2>Get the modset</h2>
-      <div class="sub2">Unzip into your Vintage Story <code>Mods</code> folder to match the server — always the current live set.</div></div>
+      <div class="sub2">Download the installer once — it sets everything up automatically, even on a fresh install.</div></div>
     <div class="dlctrl">
-      ${names?`<label class="dlopt"><input type="checkbox" id="dlfull"><span>Include client-only mods <em>(${esc(names)})</em></span></label>`:""}
-      <a class="cta dlbtn" id="dlbtn" href="${esc(ms.server_url)}" download>⬇ Download modset <span class="dlsize">(${ms.server_count} mods · ${fmtMB(ms.server_size)})</span></a>
+      <a class="cta dlbtn" id="setupbtn" href="${esc(setupUrl)}" download>Download &amp; install mods <span class="dlsize">(one-click · first time)</span></a>
+      <div class="sub2" style="font-size:.78rem;margin:2px 0 4px">Already have mods installed? Use the updater instead: <a href="${esc(syncUrl)}" download style="color:var(--copper)">vs-mod-sync.zip</a></div>
+      ${names?`<label class="dlopt"><input type="checkbox" id="dlfull"><span>Include optional visual mods <em>(${esc(names)})</em></span></label>`:""}
     </div></div>`;
-  const cb=document.getElementById("dlfull"), btn=document.getElementById("dlbtn"), sz=btn.querySelector(".dlsize");
-  if(cb) cb.addEventListener("change",()=>{
-    const full=cb.checked;
-    btn.href=full?ms.full_url:ms.server_url;
-    sz.textContent=`(${full?ms.full_count:ms.server_count} mods · ${fmtMB(full?ms.full_size:ms.server_size)})`;
-  });
+  if(document.getElementById("dlfull")){
+    document.getElementById("dlfull").addEventListener("change", e=>{
+      // cosmetics toggle not applicable to the bat — just inform
+      if(e.target.checked) alert("The installer will ask about optional visual mods during setup.");
+      e.target.checked=false;
+    });
+  }
 }
 // Gallery is fed from the Discord channel by the bot → gallery.json (images hosted in
 // the repo's gallery/ folder, YouTube links embedded). Filter + sort are client-side.
