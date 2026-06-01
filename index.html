@@ -479,7 +479,7 @@
 
   <footer>
     <span>Kept in sync by <strong>vs-autoupdate</strong>. Propose mods right here on the dashboard — the server picks them up on the next update.</span>
-    <span class="dash-ver" id="dashVer" title="dashboard version">Ledger v1.22.3-d</span>
+    <span class="dash-ver" id="dashVer" title="dashboard version">Ledger v1.22.3-e</span>
     <span id="foot"></span>
   </footer>
 </div>
@@ -1013,49 +1013,51 @@ async function deployWithProgress(db){
   const startGen=REG.generated;
   const bar=document.getElementById("deployBar"), msg=document.getElementById("db-msg");
   db.disabled=true; bar.classList.remove("done"); bar.hidden=false; msg.textContent="the bot is picking it up (~90s)…";
-  localStorage.setItem("vs_deploy_gen",startGen); localStorage.setItem("vs_deploy_ts",Date.now());
+  const startDeployTs=REG.last_deploy_ts||"";
+  localStorage.setItem("vs_deploy_dts",startDeployTs); localStorage.setItem("vs_deploy_ts",Date.now());
   try{
     await fetch(REG.submit_url,{method:"POST",mode:"no-cors",headers:{"Content-Type":"text/plain;charset=utf-8"},
       body:JSON.stringify({action:"deploy",key:ADMIN_KEY})});
-  }catch(e){ bar.hidden=true; db.disabled=false; localStorage.removeItem("vs_deploy_gen"); showToast("Couldn’t request deploy — try again.",false); return; }
-  _startDeployPoll(db,startGen,Date.now());
+  }catch(e){ bar.hidden=true; db.disabled=false; localStorage.removeItem("vs_deploy_dts"); showToast("Couldn’t request deploy — try again.",false); return; }
+  _startDeployPoll(db,startDeployTs,Date.now());
 }
-function _startDeployPoll(db,startGen,t0){
+function _startDeployPoll(db,startDts,t0){
   const bar=document.getElementById("deployBar"), msg=document.getElementById("db-msg");
   clearInterval(deployPoll);
   deployPoll=setInterval(async()=>{
     const mins=(Date.now()-t0)/60000;
     if(msg && mins>1.4) msg.textContent="validating + pushing to the server…";
-    let gen=null;
-    try{ gen=(await (await fetch("registry.json?_="+Date.now())).json()).generated; }catch(e){}
-    if(gen && gen!==startGen && mins>=1.5){
+    let reg=null;
+    try{ reg=await (await fetch("registry.json?_="+Date.now())).json(); }catch(e){}
+    const newDts=reg&&reg.last_deploy_ts;
+    if(newDts && newDts!==startDts){
       clearInterval(deployPoll);
-      localStorage.removeItem("vs_deploy_gen"); localStorage.removeItem("vs_deploy_ts");
+      localStorage.removeItem("vs_deploy_dts"); localStorage.removeItem("vs_deploy_ts");
       bar.classList.add("done");
+      REG=reg; DATA=reg.mods||[];
       setTimeout(async()=>{
         bar.hidden=true; bar.classList.remove("done");
         showToast("Deployment complete ✓",true);
         if(db) db.disabled=false;
-        await reloadRegistry();
+        render(); buildTally(); renderApprovals(); renderEngineNotice(); renderRestartNotice();
       },750);
-    } else if(gen && gen!==startGen){
-      startGen=gen; localStorage.setItem("vs_deploy_gen",gen);
     } else if(mins>10){
       clearInterval(deployPoll); bar.hidden=true; if(db) db.disabled=false;
-      localStorage.removeItem("vs_deploy_gen"); localStorage.removeItem("vs_deploy_ts");
+      localStorage.removeItem("vs_deploy_dts"); localStorage.removeItem("vs_deploy_ts");
       showToast("Deploy is taking a while — check Discord; the list refreshes when it’s done.",false);
     }
   },7000);
 }
 function resumeDeployIfNeeded(){
   if(!ADMIN_KEY) return;
-  const depGen=localStorage.getItem("vs_deploy_gen"), depTs=localStorage.getItem("vs_deploy_ts");
-  if(!depGen||!depTs) return;
+  const depDts=localStorage.getItem("vs_deploy_dts"), depTs=localStorage.getItem("vs_deploy_ts");
+  if(!depTs) return;
   const elapsed=(Date.now()-parseInt(depTs))/1000;
-  if(elapsed>600){ localStorage.removeItem("vs_deploy_gen"); localStorage.removeItem("vs_deploy_ts"); return; }
-  if(REG.generated!==depGen){
-    localStorage.removeItem("vs_deploy_gen"); localStorage.removeItem("vs_deploy_ts");
+  if(elapsed>600){ localStorage.removeItem("vs_deploy_dts"); localStorage.removeItem("vs_deploy_ts"); return; }
+  if(REG.last_deploy_ts && REG.last_deploy_ts!==depDts){
+    localStorage.removeItem("vs_deploy_dts"); localStorage.removeItem("vs_deploy_ts");
     showToast("Deploy finished while you were away ✓",true);
+    render(); buildTally(); renderApprovals(); renderEngineNotice(); renderRestartNotice();
     return;
   }
   const bar=document.getElementById("deployBar"), msg=document.getElementById("db-msg"), db=document.getElementById("deployBtn");
@@ -1064,7 +1066,7 @@ function resumeDeployIfNeeded(){
   bar.hidden=false; bar.classList.remove("done");
   msg.textContent=`started ${p(d.getHours())}:${p(d.getMinutes())} — still running…`;
   if(db) db.disabled=true;
-  _startDeployPoll(db,depGen,parseInt(depTs));
+  _startDeployPoll(db,depDts||"",parseInt(depTs));
 }
 // re-pull registry.json + re-render so just-installed proposals graduate into the mod list
 async function reloadRegistry(){
