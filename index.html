@@ -471,7 +471,7 @@
 
   <footer>
     <span>Kept in sync by <strong>vs-autoupdate</strong>. Propose mods right here on the dashboard — the server picks them up on the next update.</span>
-    <span class="dash-ver" id="dashVer" title="dashboard version">Ledger v1.22.3</span>
+    <span class="dash-ver" id="dashVer" title="dashboard version">Ledger v1.22.3-b</span>
     <span id="foot"></span>
   </footer>
 </div>
@@ -513,7 +513,8 @@ fetch("registry.json?_="+Date.now()).then(r=>r.json()).then(reg=>{
   document.getElementById("dashVer").textContent="Ledger v"+(reg.game_version||"?");
   document.getElementById("stamp").textContent="updated "+fmt(reg.generated);
   document.getElementById("foot").textContent=reg.count+" mods catalogued";
-  const _cts=document.getElementById("checkTs"); if(_cts && reg.generated){const _d=new Date((()=>{const m=reg.generated.match(/(\d{4})(\d{2})(\d{2})-(\d{2})(\d{2})/);return m?`${m[1]}-${m[2]}-${m[3]}T${m[4]}:${m[5]}:00`:reg.generated})());const _p=n=>String(n).padStart(2,'0');if(!isNaN(_d)) _cts.textContent=`last checked ${_p(_d.getDate())}.${_p(_d.getMonth()+1)}.${_d.getFullYear()} ${_p(_d.getHours())}:${_p(_d.getMinutes())}`; }
+  const _cts=document.getElementById("checkTs");
+  if(_cts){ const _s=localStorage.getItem("vs_last_check_ts"); _cts.textContent=_s?"last checked "+_s:""; }
   const dl=document.getElementById("cats");
   (reg.categories||[]).forEach(c=>{const o=document.createElement("option");o.value=c;dl.appendChild(o);});
   initForm();
@@ -951,7 +952,7 @@ function setupAdminButtons(){
       cb.disabled=true; cb.textContent="Checking…";
       const startGen=REG.generated;
       const cts=document.getElementById("checkTs");
-      const setTs=()=>{if(cts){const d=new Date();const p=n=>String(n).padStart(2,'0');cts.textContent=`last checked ${p(d.getDate())}.${p(d.getMonth()+1)}.${d.getFullYear()} ${p(d.getHours())}:${p(d.getMinutes())}`;}}
+      const setTs=()=>{const d=new Date();const p=n=>String(n).padStart(2,'0');const s=`${p(d.getDate())}.${p(d.getMonth()+1)}.${d.getFullYear()} ${p(d.getHours())}:${p(d.getMinutes())}`;localStorage.setItem("vs_last_check_ts",s);if(cts)cts.textContent="last checked "+s;}
       try{
         await fetch(REG.submit_url,{method:"POST",mode:"no-cors",
           headers:{"Content-Type":"text/plain;charset=utf-8"},
