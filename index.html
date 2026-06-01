@@ -341,6 +341,13 @@
   #engineNotice .eng-dismiss{background:none;border:none;color:inherit;opacity:.6;cursor:pointer;
     font-size:.8rem;text-decoration:underline;padding:0}
   /* end engine notice */
+  #restartNotice{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;
+    margin:8px 0 0;padding:11px 18px;border-radius:6px;
+    background:rgba(199,105,63,.13);border:1px solid rgba(199,105,63,.4);color:var(--rust)}
+  #restartNotice .eng-msg{font-size:.9rem;font-weight:500;font-family:"Spectral SC",serif;letter-spacing:.02em}
+  #restartNotice .eng-acts{display:flex;gap:10px;align-items:center}
+  #restartNotice .eng-dismiss{background:none;border:none;color:inherit;opacity:.6;cursor:pointer;
+    font-size:.8rem;text-decoration:underline;padding:0}
   .dlpanel{display:flex;flex-direction:column;align-items:stretch;text-align:center;gap:12px;
     margin:6px 0 8px;padding:20px 24px;border:1px solid var(--line-strong);border-radius:8px;background:var(--surface)}
   .dlpanel h2{margin:0;font-size:1.15rem}
@@ -441,6 +448,7 @@
 
   <section id="modset"></section>
   <div id="engineNotice" hidden></div>
+  <div id="restartNotice" hidden></div>
   <section id="approvals"></section>
   <div class="tally" id="tally"></div>
 
@@ -471,7 +479,7 @@
 
   <footer>
     <span>Kept in sync by <strong>vs-autoupdate</strong>. Propose mods right here on the dashboard — the server picks them up on the next update.</span>
-    <span class="dash-ver" id="dashVer" title="dashboard version">Ledger v1.22.3-c</span>
+    <span class="dash-ver" id="dashVer" title="dashboard version">Ledger v1.22.3-d</span>
     <span id="foot"></span>
   </footer>
 </div>
@@ -966,7 +974,7 @@ function setupAdminButtons(){
           if(reg.generated !== startGen){
             clearInterval(poll);
             REG=reg; DATA=reg.mods||[];
-            render(); buildTally(); renderApprovals(); renderEngineNotice();
+            render(); buildTally(); renderApprovals(); renderEngineNotice(); renderRestartNotice();
             cb.textContent="Check for updates"; cb.disabled=false;
             setTs();
             showToast("Updated — mod states refreshed.",true);
@@ -976,47 +984,87 @@ function setupAdminButtons(){
       setTimeout(()=>{ clearInterval(poll); if(cb.disabled){cb.textContent="Check for updates";cb.disabled=false;} },180000);
     });
   }
-  renderEngineNotice();
+  renderEngineNotice(); renderRestartNotice();
+  resumeDeployIfNeeded();
   if(!(ADMIN_KEY && REG.actions_v4))return;
   const db=document.getElementById("deployBtn");
   db.hidden=false;
   db.addEventListener("click",()=>openDeployModal(db));
 }
 
+function renderRestartNotice(){
+  const box=document.getElementById("restartNotice");
+  if(!ADMIN_KEY||!REG.restart_needed){box.hidden=true;return;}
+  if(localStorage.getItem("vs_restart_dismissed")===REG.restart_needed){box.hidden=true;return;}
+  box.hidden=false;
+  box.innerHTML=`<span class="eng-msg">Deploy completed ${fmt(REG.restart_needed)} — restart the server to load the new mods.</span>
+    <span class="eng-acts"><button class="eng-dismiss" id="restartDismiss">Dismiss</button></span>`;
+  document.getElementById("restartDismiss").onclick=()=>{
+    localStorage.setItem("vs_restart_dismissed",REG.restart_needed);
+    box.hidden=true;
+  };
+}
+
 // Deploy + live progress: the bot regenerates registry.json when the update finishes, so we
 // poll its timestamp. Bar runs until it changes → flash "complete" → reload (proposals → mods).
+// State is persisted in localStorage so a page reload during a deploy resumes polling.
 let deployPoll=null;
 async function deployWithProgress(db){
   const startGen=REG.generated;
   const bar=document.getElementById("deployBar"), msg=document.getElementById("db-msg");
   db.disabled=true; bar.classList.remove("done"); bar.hidden=false; msg.textContent="the bot is picking it up (~90s)…";
+  localStorage.setItem("vs_deploy_gen",startGen); localStorage.setItem("vs_deploy_ts",Date.now());
   try{
     await fetch(REG.submit_url,{method:"POST",mode:"no-cors",headers:{"Content-Type":"text/plain;charset=utf-8"},
       body:JSON.stringify({action:"deploy",key:ADMIN_KEY})});
-  }catch(e){ bar.hidden=true; db.disabled=false; showToast("Couldn't request deploy — try again.",false); return; }
-  const t0=Date.now();
+  }catch(e){ bar.hidden=true; db.disabled=false; localStorage.removeItem("vs_deploy_gen"); showToast("Couldn’t request deploy — try again.",false); return; }
+  _startDeployPoll(db,startGen,Date.now());
+}
+function _startDeployPoll(db,startGen,t0){
+  const bar=document.getElementById("deployBar"), msg=document.getElementById("db-msg");
   clearInterval(deployPoll);
   deployPoll=setInterval(async()=>{
     const mins=(Date.now()-t0)/60000;
-    if(mins>1.4) msg.textContent="validating + pushing to the server…";
+    if(msg && mins>1.4) msg.textContent="validating + pushing to the server…";
     let gen=null;
     try{ gen=(await (await fetch("registry.json?_="+Date.now())).json()).generated; }catch(e){}
-    if(gen && gen!==startGen && mins>=1.5){     // bot finished (real deploys take >90s)
+    if(gen && gen!==startGen && mins>=1.5){
       clearInterval(deployPoll);
+      localStorage.removeItem("vs_deploy_gen"); localStorage.removeItem("vs_deploy_ts");
       bar.classList.add("done");
       setTimeout(async()=>{
         bar.hidden=true; bar.classList.remove("done");
         showToast("Deployment complete ✓",true);
+        if(db) db.disabled=false;
         await reloadRegistry();
-        db.disabled=false;
       },750);
-    } else if(gen && gen!==startGen){           // an earlier/unrelated refresh — absorb it, keep waiting
-      startGen=gen;
-    } else if(mins>10){                         // safety timeout
-      clearInterval(deployPoll); bar.hidden=true; db.disabled=false;
+    } else if(gen && gen!==startGen){
+      startGen=gen; localStorage.setItem("vs_deploy_gen",gen);
+    } else if(mins>10){
+      clearInterval(deployPoll); bar.hidden=true; if(db) db.disabled=false;
+      localStorage.removeItem("vs_deploy_gen"); localStorage.removeItem("vs_deploy_ts");
       showToast("Deploy is taking a while — check Discord; the list refreshes when it’s done.",false);
     }
   },7000);
+}
+function resumeDeployIfNeeded(){
+  if(!ADMIN_KEY) return;
+  const depGen=localStorage.getItem("vs_deploy_gen"), depTs=localStorage.getItem("vs_deploy_ts");
+  if(!depGen||!depTs) return;
+  const elapsed=(Date.now()-parseInt(depTs))/1000;
+  if(elapsed>600){ localStorage.removeItem("vs_deploy_gen"); localStorage.removeItem("vs_deploy_ts"); return; }
+  if(REG.generated!==depGen){
+    localStorage.removeItem("vs_deploy_gen"); localStorage.removeItem("vs_deploy_ts");
+    showToast("Deploy finished while you were away ✓",true);
+    return;
+  }
+  const bar=document.getElementById("deployBar"), msg=document.getElementById("db-msg"), db=document.getElementById("deployBtn");
+  if(!bar||!msg) return;
+  const d=new Date(parseInt(depTs)), p=n=>String(n).padStart(2,"0");
+  bar.hidden=false; bar.classList.remove("done");
+  msg.textContent=`started ${p(d.getHours())}:${p(d.getMinutes())} — still running…`;
+  if(db) db.disabled=true;
+  _startDeployPoll(db,depGen,parseInt(depTs));
 }
 // re-pull registry.json + re-render so just-installed proposals graduate into the mod list
 async function reloadRegistry(){
@@ -1025,7 +1073,7 @@ async function reloadRegistry(){
     REG=reg; DATA=reg.mods||[]; loadPending(); applyPendingStates();
     document.getElementById("stamp").textContent="updated "+fmt(reg.generated);
     document.getElementById("foot").textContent=reg.count+" mods catalogued";
-    renderModset(); buildTally(); render(); renderApprovals();
+    renderModset(); buildTally(); render(); renderApprovals(); renderEngineNotice(); renderRestartNotice();
   }catch(e){}
 }
 
