@@ -1,5 +1,5 @@
 {
-  "generated": "20260601-233759",
+  "generated": "20260601-234801",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1278,7 +1278,7 @@
       "name": "Raschuetzer",
       "role": "admin",
       "first_join": "04/22/2026 17:47",
-      "last_join": "06/01/2026 21:14",
+      "last_join": "06/01/2026 21:44",
       "last_char": "04/29/2026 21:30",
       "stats": {
         "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
@@ -1287,12 +1287,12 @@
         "deaths": 0,
         "mobKills": 1,
         "playerKills": 0,
-        "playtimeHours": 2.1,
-        "blocksTravelled": 1359,
+        "playtimeHours": 2.2,
+        "blocksTravelled": 1386,
         "blocksBroken": 8,
         "blocksPlaced": 3,
         "deepestY": 112,
-        "lastSeen": 1780349848,
+        "lastSeen": 1780350432,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1377,6 +1377,11 @@
             "code": "game:clothes-upperbodyover-fur-coat",
             "name": "Fur coat",
             "icon": "character/icons/upperbodyover-fur-coat.png"
+          },
+          {
+            "slot": "backpack",
+            "code": "game:knife-generic-tinbronze",
+            "name": "Tin bronze knife"
           }
         ],
         "skin": {
