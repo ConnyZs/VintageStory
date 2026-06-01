@@ -1,8 +1,8 @@
 {
-  "generated": "20260601-230716",
+  "generated": "20260601-231753",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
-  "restart_needed": "20260601-230718",
+  "restart_needed": null,
   "last_deploy_ts": "20260601-230718",
   "modset": {
     "server_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset.zip",
@@ -1278,7 +1278,7 @@
       "name": "Raschuetzer",
       "role": "admin",
       "first_join": "04/22/2026 17:47",
-      "last_join": "06/01/2026 19:51",
+      "last_join": "06/01/2026 21:14",
       "last_char": "04/29/2026 21:30",
       "stats": {
         "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
@@ -1287,12 +1287,12 @@
         "deaths": 0,
         "mobKills": 1,
         "playerKills": 0,
-        "playtimeHours": 1.7,
-        "blocksTravelled": 1234,
+        "playtimeHours": 1.8,
+        "blocksTravelled": 1277,
         "blocksBroken": 8,
         "blocksPlaced": 3,
         "deepestY": 112,
-        "lastSeen": 1780344430,
+        "lastSeen": 1780348647,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1398,21 +1398,21 @@
       "name": "Eghetti",
       "role": "suplayer",
       "first_join": "04/22/2026 18:03",
-      "last_join": "05/31/2026 20:56",
+      "last_join": "06/01/2026 21:13",
       "last_char": "04/22/2026 18:08",
       "stats": {
         "uid": "TxqQ4g4qqKs+G5yFUTFmyGYb",
         "name": "Eghetti",
         "class": "smith",
         "deaths": 0,
-        "mobKills": 0,
+        "mobKills": 1,
         "playerKills": 0,
-        "playtimeHours": 0.3,
-        "blocksTravelled": 435,
+        "playtimeHours": 0.4,
+        "blocksTravelled": 558,
         "blocksBroken": 1,
         "blocksPlaced": 2,
-        "deepestY": 128,
-        "lastSeen": 1780262187,
+        "deepestY": 116,
+        "lastSeen": 1780348647,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -1479,7 +1479,19 @@
             "name": "Tailored gambeson body armor"
           }
         ],
-        "skin": {}
+        "skin": {
+          "baseskin": "skin15",
+          "eyecolor": "dark-green",
+          "underwear": "twopiece",
+          "voicetype": "trumpet",
+          "voicepitch": "low",
+          "hairbase": "bowlcut",
+          "hairextra": "none",
+          "facialexpression": "kind",
+          "mustache": "mst-walrus05-neat",
+          "beard": "brd-box01-chincurtain",
+          "haircolor": "oldburgundy"
+        }
       }
     },
     {

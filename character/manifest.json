@@ -31,6 +31,9 @@
   "Eghetti": {
    "class": "smith",
    "items": [
+    "hairbase",
+    "mustache",
+    "beard",
     "facialexpression",
     "Raccoon tail hat",
     "Blacksmith apron",
@@ -43,7 +46,7 @@
     "Fur coat"
    ],
    "frames": 16,
-   "v": 1780264354
+   "v": 1780348693
   }
  }
 }
