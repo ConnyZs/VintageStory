@@ -471,7 +471,7 @@
 
   <footer>
     <span>Kept in sync by <strong>vs-autoupdate</strong>. Propose mods right here on the dashboard — the server picks them up on the next update.</span>
-    <span class="dash-ver" id="dashVer" title="dashboard version">Ledger v1.22.3-b</span>
+    <span class="dash-ver" id="dashVer" title="dashboard version">Ledger v1.22.3-c</span>
     <span id="foot"></span>
   </footer>
 </div>
@@ -480,8 +480,8 @@
   <div class="modal" role="dialog" aria-modal="true">
     <h3>Propose a mod</h3>
     <p class="hint">It joins the ledger as <em>pending</em> right away. Next time the server syncs, if it has a build for our version, it gets installed.</p>
-    <div class="field"><label>Mod name</label><input type="text" id="f-name" placeholder="e.g. Quivers and Sheaths"></div>
-    <div class="field"><label>ModDB link</label><input type="text" id="f-link" placeholder="https://mods.vintagestory.at/…"></div>
+    <div class="field"><label>ModDB link <span style="color:var(--rust)">*</span></label><input type="text" id="f-link" placeholder="https://mods.vintagestory.at/…"></div>
+    <div class="field"><label>Mod name <span style="color:var(--ink-faint);font-size:.8em">(optional — auto-filled from ModDB)</span></label><input type="text" id="f-name" placeholder="e.g. Quivers and Sheaths"></div>
     <div class="field row">
       <div><label>Category</label><input type="text" id="f-cat" list="cats" placeholder="QOL"><datalist id="cats"></datalist></div>
       <div><label>Where</label><select id="f-sec">
@@ -1032,10 +1032,14 @@ async function reloadRegistry(){
 async function renderApprovals(){
   const box=document.getElementById("approvals");
   if(!ADMIN_KEY){
-    const props=(REG.mods||[]).filter(m=>m.proposed);
-    if(!props.length){box.innerHTML=`<div class="apanel"><h2>Proposals</h2><div class="sub2">No mod proposals waiting right now.</div></div>`;return;}
+    const fromReg=(REG.mods||[]).filter(m=>m.proposed);
+    let drafts=[];try{drafts=JSON.parse(localStorage.getItem(pendingKey())||"[]");}catch(e){}
+    const regLinks=new Set(fromReg.map(m=>linkKey(m.link)));
+    const pendingDrafts=drafts.filter(d=>d.link&&!regLinks.has(linkKey(d.link)));
+    const props=[...fromReg,...pendingDrafts.map(d=>({...d,_draft:true}))];
+    if(!props.length){box.innerHTML=`<div class="apanel"><h2>Proposals</h2><div class="sub2">No mod proposals waiting. Use <b>+ Add a mod</b> to suggest one.</div></div>`;return;}
     let rows=props.map(m=>`<div class="prow"><div class="pn"><a href="${esc(m.link||"")}" target="_blank" rel="noopener">${esc(m.name||m.modid||m.link)} ↗</a>
-      <div class="meta2">${esc(m.section||"")}${m.build_version?" · v"+esc(m.build_version):""} · awaiting admin approval</div></div></div>`).join("");
+      <div class="meta2">${esc(m.section||"")}${m.build_version?" · v"+esc(m.build_version):""}${m._draft?" · submitted, pending sync":" · awaiting admin approval"}</div></div></div>`).join("");
     box.innerHTML=`<div class="apanel"><h2>Proposals (${props.length})</h2><div class="sub2">Mods suggested by the crew, waiting for admin review.</div>${rows}</div>`;
     return;
   }
@@ -1106,7 +1110,7 @@ async function renderApprovals(){
 
 /* ---------- Add-a-mod form ---------- */
 const scrim=document.getElementById("scrim"), toast=document.getElementById("toast");
-function openModal(){scrim.classList.add("open");document.getElementById("f-name").focus();}
+function openModal(){scrim.classList.add("open");document.getElementById("f-link").focus();}
 function closeModal(){scrim.classList.remove("open");}
 document.getElementById("addBtn").addEventListener("click",openModal);
 document.getElementById("cancelBtn").addEventListener("click",closeModal);
@@ -1163,7 +1167,6 @@ document.getElementById("submitBtn").addEventListener("click",async()=>{
   const category=document.getElementById("f-cat").value.trim()||"Misc.";
   const section=document.getElementById("f-sec").value;
   const on_server=false;   // all dashboard submissions are proposals until an admin approves
-  if(!name){showToast("Give the mod a name.",false);return;}
   if(!/^https?:\/\/mods\.vintagestory\.at\//.test(link)){showToast("Use a mods.vintagestory.at link.",false);return;}
   if(!REG.submit_url){showToast("Setup not finished — ask the admin.",false);return;}
   const btn=document.getElementById("submitBtn");btn.disabled=true;btn.textContent="Adding…";
@@ -1171,11 +1174,12 @@ document.getElementById("submitBtn").addEventListener("click",async()=>{
   try{
     await fetch(REG.submit_url,{method:"POST",mode:"no-cors",
       headers:{"Content-Type":"text/plain;charset=utf-8"},body:JSON.stringify(payload)});
-    savePending({name,link,category,section});   // draft → shows in the proposals box instantly
+    savePending({name:name||link,link,category,section});
     closeModal();
-    showToast("Proposed ✓ — it's in the Admin · proposals box, awaiting approval.",true);
+    showToast("Proposed ✓ — visible in the Proposals box below, awaiting admin approval.",true);
     document.getElementById("f-name").value="";document.getElementById("f-link").value="";
-    if(ADMIN_KEY){renderApprovals();setTimeout(renderApprovals,3000);setTimeout(renderApprovals,8000);}
+    renderApprovals();   // always update proposals box so the submitter sees their entry
+    if(ADMIN_KEY){setTimeout(renderApprovals,3000);setTimeout(renderApprovals,8000);}
   }catch(err){showToast("Couldn’t submit — try again.",false);}
   finally{btn.disabled=false;btn.textContent="Add to ledger";}
 });
