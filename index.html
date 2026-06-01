@@ -355,6 +355,7 @@
   .dlopt input:checked::after{content:"✓";position:absolute;inset:0;display:flex;align-items:center;
     justify-content:center;color:var(--copper-glow,#d98a4b);font-size:16px;font-weight:900}
   .dlbtn{text-decoration:none;white-space:nowrap}
+  .dlsep{width:100%;border-top:1px solid var(--line);margin:4px 0 2px}
   .dlbtn .dlsize{opacity:.7;font-size:.85em;font-weight:400}
   /* gallery */
   .gal-hint{margin:18px 0 4px;color:var(--ink-faint);font-size:.86rem;font-style:italic}
@@ -818,11 +819,13 @@ function renderModset(){
   const setupUrl="vs-setup.zip";
   box.innerHTML=`<div class="dlpanel">
     <div class="dltext"><h2>Get the modset</h2>
-      <div class="sub2">Download the installer once — it sets everything up automatically, even on a fresh install.</div></div>
+      <div class="sub2">Installs everything automatically — works even on a fresh VS install. Also prompts for optional visual mods.</div></div>
     <div class="dlctrl">
       <a class="cta dlbtn" href="${esc(setupUrl)}" download>Download &amp; install mods <span class="dlsize">(one-click · first time)</span></a>
+      <div class="dlsep"></div>
+      <div class="sub2" style="font-size:.8rem;color:var(--ink-dim)">Prefer to install manually? Download the zip and drop it into your Mods folder.</div>
       ${names?`<label class="dlopt"><input type="checkbox" id="dlfull"><span>Include optional visual mods <em>(${esc(names)})</em></span></label>`:""}
-      <div class="sub2" style="font-size:.78rem;margin:4px 0 2px">Already have mods? Drop the zip into your Mods folder: <a id="rawlink" href="${esc(ms.server_url)}" download>modset.zip <span id="rawsize">(${fmtMB(ms.server_size)})</span></a></div>
+      <a id="rawlink" href="${esc(ms.server_url)}" download style="font-size:.82rem;color:var(--amber);text-decoration:none;border-bottom:1px solid rgba(224,169,63,.35)">modset.zip <span id="rawsize">(${fmtMB(ms.server_size)})</span></a>
     </div></div>`;
   if(document.getElementById("dlfull")){
     document.getElementById("dlfull").addEventListener("change", e=>{
