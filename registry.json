@@ -1,7 +1,9 @@
 {
-  "generated": "20260601-223741",
+  "generated": "20260601-225951",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
+  "restart_needed": null,
+  "last_deploy_ts": "20260601-201803",
   "modset": {
     "server_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset.zip",
     "full_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset-full.zip",
@@ -529,9 +531,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "0.6.11",
-      "build_version": "0.6.11",
+      "build_version": "0.6.12",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -1507,6 +1509,5 @@
   ],
   "actions_v4": true,
   "actions_v5": true,
-  "actions_v6": true,
-  "last_deploy_ts": "20260601-201803"
+  "actions_v6": true
 }
