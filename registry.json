@@ -1,5 +1,5 @@
 {
-  "generated": "20260601-204711",
+  "generated": "20260601-210719",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "modset": {
@@ -1276,7 +1276,7 @@
       "name": "Raschuetzer",
       "role": "admin",
       "first_join": "04/22/2026 17:47",
-      "last_join": "05/31/2026 21:48",
+      "last_join": "06/01/2026 19:04",
       "last_char": "04/29/2026 21:30",
       "stats": {
         "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
@@ -1285,12 +1285,12 @@
         "deaths": 0,
         "mobKills": 1,
         "playerKills": 0,
-        "playtimeHours": 1.4,
-        "blocksTravelled": 1220,
+        "playtimeHours": 1.5,
+        "blocksTravelled": 1224,
         "blocksBroken": 8,
         "blocksPlaced": 3,
         "deepestY": 112,
-        "lastSeen": 1780265229,
+        "lastSeen": 1780340738,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1377,7 +1377,19 @@
             "icon": "character/icons/upperbodyover-fur-coat.png"
           }
         ],
-        "skin": {}
+        "skin": {
+          "baseskin": "skin1",
+          "eyecolor": "aquamarine",
+          "underwear": "leotard",
+          "voicetype": "harmonica",
+          "voicepitch": "high",
+          "hairbase": "short",
+          "hairextra": "ponytailcurly",
+          "facialexpression": "smirk",
+          "mustache": "mst-u05-stirrups",
+          "beard": "brd-box05-anchor",
+          "haircolor": "rosewood"
+        }
       }
     },
     {

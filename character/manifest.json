@@ -5,6 +5,10 @@
   "Raschuetzer": {
    "class": "tinker",
    "items": [
+    "hairbase",
+    "hairextra",
+    "mustache",
+    "beard",
     "facialexpression",
     "Messenger hat",
     "Artisans scarf",
@@ -22,7 +26,7 @@
     "Fur coat"
    ],
    "frames": 16,
-   "v": 1780264830
+   "v": 1780340861
   },
   "Eghetti": {
    "class": "smith",

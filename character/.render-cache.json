@@ -1,9 +1,13 @@
 {
  "Raschuetzer": {
-  "hash": "6fdf1c775c75cff2e25e826f7c34837a49c5c670",
+  "hash": "a79793269f5150cef7ed57b9e63e654be17ac7bd",
   "info": {
    "class": "tinker",
    "items": [
+    "hairbase",
+    "hairextra",
+    "mustache",
+    "beard",
     "facialexpression",
     "Messenger hat",
     "Artisans scarf",
@@ -21,7 +25,7 @@
     "Fur coat"
    ],
    "frames": 16,
-   "v": 1780264830
+   "v": 1780340861
   }
  },
  "Eghetti": {
