@@ -291,6 +291,34 @@ if ($optChosen.Count -gt 0) {
   }
 }
 
+# ---- remove old versions of updated mods ----
+# After extracting new files, delete any old zip whose modid now has a newer file.
+$wantedFiles = @{}
+$wantedModIds = @{}   # modid -> expected filename (from manifest)
+foreach ($m in @($man.mods) + @($man.optional)) {
+  if ($m.filename) { $wantedFiles[$m.filename] = $true }
+  if ($m.modid -and $m.filename) { $wantedModIds[$m.modid.ToLower()] = $m.filename }
+}
+$oldRemoved = 0
+Get-ChildItem -LiteralPath $modsDir -Filter *.zip -File -ErrorAction SilentlyContinue | ForEach-Object {
+  if ($wantedFiles.ContainsKey($_.Name)) { return }   # this is the wanted version, keep it
+  $mid = $null
+  try {
+    $z = [System.IO.Compression.ZipFile]::OpenRead($_.FullName)
+    $e = $z.Entries | Where-Object { $_.Name -eq "modinfo.json" } | Select-Object -First 1
+    if ($e) {
+      $r = New-Object System.IO.StreamReader($e.Open()); $txt = $r.ReadToEnd(); $r.Close()
+      if ($txt -match '(?i)"modid"\s*:\s*"([^"]+)"') { $mid = $Matches[1].ToLower() }
+    }
+    $z.Dispose()
+  } catch {}
+  if ($mid -and $wantedModIds.ContainsKey($mid)) {
+    Remove-Item -LiteralPath $_.FullName -Force -ErrorAction SilentlyContinue
+    $oldRemoved++
+  }
+}
+if ($oldRemoved -gt 0) { Say "Removed $oldRemoved old mod version(s)." Gray }
+
 # ---- clean up ModsByServer duplicates ----
 # VS auto-pushes server mods into ModsByServer; now that they're in Mods, remove the
 # duplicates so the mod manager doesn't show every mod twice with one copy failing.
