@@ -1,14 +1,14 @@
 {
   "server_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset.zip",
   "full_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset-full.zip",
-  "server_count": 74,
-  "full_count": 77,
-  "server_size": 130975324,
-  "full_size": 131777191,
+  "server_count": 83,
+  "full_count": 86,
+  "server_size": 132450711,
+  "full_size": 133252578,
   "client_only": [
     "CoriaenderShaders",
     "Natural Foliage",
     "Status HUD"
   ],
-  "generated": "20260602-181022"
+  "generated": "20260602-184241"
 }
