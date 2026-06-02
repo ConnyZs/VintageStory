@@ -71,5 +71,33 @@
    "frames": 16,
    "v": 1780420092
   }
+ },
+ "AddyBuschu": {
+  "hash": "a9e5c37a053e7e33c3a849af1832ab62bcc87973",
+  "info": {
+   "class": "homesteader",
+   "items": [
+    "hairbase",
+    "hairextra",
+    "mustache",
+    "beard",
+    "facialexpression",
+    "Red fox fur trapper hat",
+    "Rotwalker cape",
+    "Rotwalker cape",
+    "Tattered crimson tunic",
+    "Nomad trousers",
+    "Wool lined knee-high boots",
+    "Fur gloves",
+    "Acorn amulet",
+    "Rotten king mask",
+    "Marketeer belt",
+    "Leather bracers",
+    "Fur coat",
+    "Fur coat"
+   ],
+   "frames": 16,
+   "v": 1780423594
+  }
  }
 }

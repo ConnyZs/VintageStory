@@ -1,5 +1,5 @@
 {
-  "generated": "20260602-195610",
+  "generated": "20260602-200614",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1560,7 +1560,145 @@
       "first_join": "04/22/2026 17:55",
       "last_join": "05/19/2026 22:13",
       "last_char": "04/25/2026 15:34",
-      "stats": {}
+      "stats": {
+        "uid": "MT3maN90oN2gwGyklJR20Gu1",
+        "name": "AddyBuschu",
+        "class": "homesteader",
+        "deaths": 0,
+        "mobKills": 0,
+        "playerKills": 0,
+        "playtimeHours": 0.0,
+        "blocksTravelled": 0,
+        "blocksBroken": 0,
+        "blocksPlaced": 0,
+        "deepestY": 118,
+        "lastSeen": 1780423571,
+        "gear": [
+          "Red fox fur trapper hat",
+          "Rotwalker cape",
+          "Tattered crimson tunic",
+          "Nomad trousers",
+          "Wool lined knee-high boots",
+          "Fur gloves",
+          "Acorn amulet",
+          "Rotten king mask",
+          "Marketeer belt",
+          "Leather bracers",
+          "Fur coat",
+          "Black bear hide helmet",
+          "Black bear hide body armor"
+        ],
+        "gearDetail": [
+          {
+            "slot": "head",
+            "code": "game:clothes-head-furhatwide-fox-red",
+            "name": "Red fox fur trapper hat",
+            "icon": "character/icons/head-furhatwide-fox-red.png"
+          },
+          {
+            "slot": "shoulder",
+            "code": "game:clothes-shoulder-rotwalker",
+            "name": "Rotwalker cape",
+            "icon": "character/icons/shoulder-rotwalker.png"
+          },
+          {
+            "slot": "upperbody",
+            "code": "game:clothes-upperbody-tattered-crimson-tunic",
+            "name": "Tattered crimson tunic",
+            "icon": "character/icons/upperbody-tattered-crimson-tunic.png"
+          },
+          {
+            "slot": "lowerbody",
+            "code": "game:clothes-lowerbody-nomad-trousers",
+            "name": "Nomad trousers",
+            "icon": "character/icons/lowerbody-nomad-trousers.png"
+          },
+          {
+            "slot": "foot",
+            "code": "game:clothes-foot-wool-lined-knee-high-boots",
+            "name": "Wool lined knee-high boots",
+            "icon": "character/icons/foot-wool-lined-knee-high-boots.png"
+          },
+          {
+            "slot": "hand",
+            "code": "game:clothes-hand-fur-gloves",
+            "name": "Fur gloves",
+            "icon": "character/icons/hand-fur-gloves.png"
+          },
+          {
+            "slot": "neck",
+            "code": "game:clothes-neck-acorn-amulet",
+            "name": "Acorn amulet"
+          },
+          {
+            "slot": "face",
+            "code": "game:clothes-face-rottenking",
+            "name": "Rotten king mask",
+            "icon": "character/icons/face-rottenking.png"
+          },
+          {
+            "slot": "waist",
+            "code": "game:clothes-waist-marketeer",
+            "name": "Marketeer belt",
+            "icon": "character/icons/waist-marketeer.png"
+          },
+          {
+            "slot": "arm",
+            "code": "game:clothes-arm-leather-bracers",
+            "name": "Leather bracers",
+            "icon": "character/icons/arm-leather-bracers.png"
+          },
+          {
+            "slot": "upperbodyover",
+            "code": "game:clothes-upperbodyover-fur-coat",
+            "name": "Fur coat",
+            "icon": "character/icons/upperbodyover-fur-coat.png"
+          },
+          {
+            "slot": "armorhead",
+            "code": "game:armor-head-hide-bear-black",
+            "name": "Black bear hide helmet"
+          },
+          {
+            "slot": "armorbody",
+            "code": "game:armor-body-hide-bear-black",
+            "name": "Black bear hide body armor"
+          },
+          {
+            "slot": "bag-1",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-3",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-4",
+            "code": "butchering:butcherybag-standard",
+            "name": "Hide Butchering Bag"
+          }
+        ],
+        "skin": {
+          "baseskin": "skin16",
+          "eyecolor": "citrine",
+          "underwear": "leotard",
+          "voicetype": "tuba",
+          "voicepitch": "high",
+          "hairbase": "messy2",
+          "hairextra": "unkempt",
+          "facialexpression": "kind",
+          "mustache": "mst-walrus30-fat",
+          "beard": "brd-full10-shaggy",
+          "haircolor": "lightgray"
+        }
+      }
     },
     {
       "name": "Moritz",

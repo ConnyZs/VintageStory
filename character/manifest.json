@@ -48,6 +48,31 @@
    "frames": 16,
    "v": 1780419609
   },
+  "AddyBuschu": {
+   "class": "homesteader",
+   "items": [
+    "hairbase",
+    "hairextra",
+    "mustache",
+    "beard",
+    "facialexpression",
+    "Red fox fur trapper hat",
+    "Rotwalker cape",
+    "Rotwalker cape",
+    "Tattered crimson tunic",
+    "Nomad trousers",
+    "Wool lined knee-high boots",
+    "Fur gloves",
+    "Acorn amulet",
+    "Rotten king mask",
+    "Marketeer belt",
+    "Leather bracers",
+    "Fur coat",
+    "Fur coat"
+   ],
+   "frames": 16,
+   "v": 1780423594
+  },
   "Moritz": {
    "class": "mason",
    "items": [
