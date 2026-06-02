@@ -1,5 +1,5 @@
 {
-  "generated": "20260602-231721",
+  "generated": "20260602-231922",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1308,11 +1308,11 @@
         "mobKills": 7,
         "playerKills": 0,
         "playtimeHours": 8.1,
-        "blocksTravelled": 6036,
+        "blocksTravelled": 6037,
         "blocksBroken": 18,
         "blocksPlaced": 17,
         "deepestY": 107,
-        "lastSeen": 1780434947,
+        "lastSeen": 1780435067,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1448,11 +1448,11 @@
         "mobKills": 7,
         "playerKills": 0,
         "playtimeHours": 4.4,
-        "blocksTravelled": 5968,
+        "blocksTravelled": 6100,
         "blocksBroken": 7,
         "blocksPlaced": 17,
         "deepestY": 109,
-        "lastSeen": 1780434947,
+        "lastSeen": 1780435067,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -1567,12 +1567,12 @@
         "deaths": 1,
         "mobKills": 20,
         "playerKills": 0,
-        "playtimeHours": 2.3,
-        "blocksTravelled": 12650,
+        "playtimeHours": 2.4,
+        "blocksTravelled": 12713,
         "blocksBroken": 1289,
         "blocksPlaced": 91,
         "deepestY": 97,
-        "lastSeen": 1780434947,
+        "lastSeen": 1780435067,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -1681,8 +1681,8 @@
           },
           {
             "slot": "bag-4",
-            "code": "butchering:butcherybag-standard",
-            "name": "Hide Butchering Bag"
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           }
         ],
         "skin": {
