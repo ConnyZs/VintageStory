@@ -1,6 +1,6 @@
 {
  "Raschuetzer": {
-  "hash": "a79793269f5150cef7ed57b9e63e654be17ac7bd",
+  "hash": "c43230b7cff2e5b57ae089f6163d462dd4a93af0",
   "info": {
    "class": "tinker",
    "items": [
@@ -22,10 +22,11 @@
     "Forlorn Hope belt",
     "Merchant bracelet",
     "Fur coat",
-    "Fur coat"
+    "Fur coat",
+    "Leather backpack"
    ],
    "frames": 16,
-   "v": 1780351103
+   "v": 1780397886
   }
  },
  "Eghetti": {
