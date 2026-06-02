@@ -1,5 +1,5 @@
 {
-  "generated": "20260602-144822",
+  "generated": "20260602-144903",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -7,16 +7,16 @@
   "modset": {
     "server_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset.zip",
     "full_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset-full.zip",
-    "server_count": 74,
-    "full_count": 77,
-    "server_size": 130777057,
-    "full_size": 131578924,
+    "server_count": 83,
+    "full_count": 86,
+    "server_size": 132252444,
+    "full_size": 133054311,
     "client_only": [
       "CoriaenderShaders",
       "Natural Foliage",
       "Status HUD"
     ],
-    "generated": "20260601-230654"
+    "generated": "20260602-144839"
   },
   "sheet_url": "https://docs.google.com/spreadsheets/d/1MZUkPV8T5S2HtIM8LexvDzXFZAidz0b4pdVqxegL5pE/edit",
   "submit_url": "https://script.google.com/macros/s/AKfycbyHYVVekkEQmbHEHJUAA1BjyheZFE_vC0Ook-bTyr3UHyeRkeQgv0j3DimOKLsqAxVmXw/exec",
@@ -179,9 +179,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "2.2.4",
-      "build_version": "2.2.4",
+      "build_version": "2.2.5",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -355,9 +355,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "3.3.1",
-      "build_version": "3.3.1",
+      "build_version": "3.3.2",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -1193,7 +1193,7 @@
       "proposed": false
     },
     {
-      "name": "Expanded Foods 2.0.0-dev",
+      "name": "Expanded Foods: Core 2.0.0-dev",
       "modid": "expandedfoods",
       "section": "1.22",
       "category": "Utility",
@@ -1203,9 +1203,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "2.0.0-dev.8",
-      "build_version": "2.0.0-dev.8",
+      "build_version": "2.0.0-dev.9",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -1287,12 +1287,12 @@
         "deaths": 0,
         "mobKills": 1,
         "playerKills": 0,
-        "playtimeHours": 4.4,
+        "playtimeHours": 4.5,
         "blocksTravelled": 1386,
         "blocksBroken": 8,
         "blocksPlaced": 3,
         "deepestY": 112,
-        "lastSeen": 1780404483,
+        "lastSeen": 1780404537,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
