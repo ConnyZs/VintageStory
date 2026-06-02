@@ -1,5 +1,5 @@
 {
-  "generated": "20260602-232323",
+  "generated": "20260602-232524",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1307,12 +1307,12 @@
         "deaths": 1,
         "mobKills": 7,
         "playerKills": 0,
-        "playtimeHours": 8.2,
-        "blocksTravelled": 6566,
-        "blocksBroken": 18,
-        "blocksPlaced": 18,
+        "playtimeHours": 8.3,
+        "blocksTravelled": 6612,
+        "blocksBroken": 20,
+        "blocksPlaced": 21,
         "deepestY": 107,
-        "lastSeen": 1780435308,
+        "lastSeen": 1780435474,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1448,11 +1448,11 @@
         "mobKills": 7,
         "playerKills": 0,
         "playtimeHours": 4.5,
-        "blocksTravelled": 6520,
+        "blocksTravelled": 6848,
         "blocksBroken": 10,
         "blocksPlaced": 31,
         "deepestY": 109,
-        "lastSeen": 1780435308,
+        "lastSeen": 1780435474,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -1567,12 +1567,12 @@
         "deaths": 1,
         "mobKills": 22,
         "playerKills": 0,
-        "playtimeHours": 2.4,
-        "blocksTravelled": 12944,
-        "blocksBroken": 1437,
+        "playtimeHours": 2.5,
+        "blocksTravelled": 13215,
+        "blocksBroken": 1443,
         "blocksPlaced": 91,
         "deepestY": 97,
-        "lastSeen": 1780435308,
+        "lastSeen": 1780435474,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -1681,8 +1681,8 @@
           },
           {
             "slot": "bag-4",
-            "code": "butchering:butcherybag-standard",
-            "name": "Hide Butchering Bag"
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           }
         ],
         "skin": {
