@@ -1,5 +1,5 @@
 {
-  "generated": "20260602-184305",
+  "generated": "20260602-185101",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -16,7 +16,7 @@
       "Natural Foliage",
       "Status HUD"
     ],
-    "generated": "20260602-184241"
+    "generated": "20260602-185037"
   },
   "sheet_url": "https://docs.google.com/spreadsheets/d/1MZUkPV8T5S2HtIM8LexvDzXFZAidz0b4pdVqxegL5pE/edit",
   "submit_url": "https://script.google.com/macros/s/AKfycbyHYVVekkEQmbHEHJUAA1BjyheZFE_vC0Ook-bTyr3UHyeRkeQgv0j3DimOKLsqAxVmXw/exec",
@@ -38,7 +38,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 77,
+  "count": 78,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -998,7 +998,9 @@
       "build_version": "1.9.0-rc.1",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": false
+      "proposed": false,
+      "custom": true,
+      "repo_link": "https://github.com/ConnyZs/SmithingPlus-1.22"
     },
     {
       "name": "Sortable Storage",
@@ -1271,6 +1273,24 @@
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": false
+    },
+    {
+      "name": "Windmill Sail Fix",
+      "modid": "windmillsailfix",
+      "section": "optional",
+      "category": "Misc.",
+      "on_server": false,
+      "link": null,
+      "repo_link": null,
+      "server_state": "",
+      "avail": "available",
+      "note": "",
+      "version": "2.0.0",
+      "build_version": null,
+      "build_branch": null,
+      "update_pending": false,
+      "proposed": false,
+      "custom": true
     }
   ],
   "crew": [
