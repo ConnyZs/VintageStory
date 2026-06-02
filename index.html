@@ -127,6 +127,8 @@
   .mod .right{display:flex;align-items:center;gap:10px;justify-self:end;grid-row:span 2}
   .ver-pill{font-family:"Cinzel",serif;font-weight:500;font-size:.78rem;color:var(--copper-glow);
     border:1px solid var(--line-strong);border-radius:3px;padding:3px 8px;white-space:nowrap}
+  .custom-pill{font-family:"Spectral SC",serif;font-size:.68rem;letter-spacing:.06em;text-transform:uppercase;
+    padding:3px 8px;border-radius:3px;color:#9b7fda;border:1px solid rgba(155,127,218,.35);white-space:nowrap}
   .seal{font-family:"Spectral SC",serif;font-weight:600;letter-spacing:.05em;font-size:.72rem;
     text-transform:uppercase;padding:5px 11px;border-radius:20px;white-space:nowrap;
     display:inline-flex;align-items:center;gap:6px}
@@ -587,8 +589,9 @@ function render(){
 }
 // one mod's row — also used to update a single row in place (no full re-render flicker)
 function modRow(m){
-  const nm=m.link?`<a class="name" href="${esc(m.link)}" target="_blank" rel="noopener">${esc(m.name)}<span class="arrow">↗</span></a>`
-                  :`<span class="name">${esc(m.name)}</span>`;
+  const displayLink=m.custom?(m.repo_link||null):m.link;
+  const nm=displayLink?`<a class="name" href="${esc(displayLink)}" target="_blank" rel="noopener">${esc(m.name)}<span class="arrow">↗</span></a>`
+                      :`<span class="name">${esc(m.name)}</span>`;
   const st=m.server_state||"";
   // on the server = approved, OR actually installed (has a manifest version) and not a client-only mod
   const onsrv=st==="yes"||st==="disabled"||(m.version&&m.section!=="optional")||(m.on_server&&st!=="remove"&&st!=="no");
@@ -603,7 +606,7 @@ function modRow(m){
   const installable=(m.avail==="available"||m.avail==="likely")&&!isClient;
   // checked = active. client-side mods are enabled by default unless explicitly disabled.
   const active = isClient ? (st!=="disabled") : (st==="yes" || (m.version && st!=="disabled" && st!=="remove" && st!=="no"));
-  const admin = ADMIN_KEY&&REG.actions_v5&&m.link;
+  const admin = ADMIN_KEY&&REG.actions_v5&&m.link&&!m.custom;
   // activation checkbox: installable / on-server / client-side mods (NOT outdated). Trash: every mod.
   const actBox = (admin&&st!=="remove"&&!isOutdated&&(installable||onsrv||isClient))
     ? `<label class="act-wrap" title="${active?(isClient?'Enabled — untick to disable':'On the server — untick to disable'):'Tick to install on the next deploy'}">
@@ -617,7 +620,7 @@ function modRow(m){
              : "mod";
   return `<div class="${mcls}" data-link="${esc(m.link||'')}">${nm}
     <div class="right">
-      ${(m.version||m.build_version)?`<span class="ver-pill">v${esc(m.version||m.build_version)}</span>`:""}
+      ${m.custom?`<span class="custom-pill">Custom</span>`:(m.version||m.build_version)?`<span class="ver-pill">v${esc(m.version||m.build_version)}</span>`:""}
       ${m.build_branch==="1.21"?`<span class="seal likely" title="Only a 1.21 build exists — older, usually works on 1.22">1.21 build</span>`:""}
       ${srvTag}
       <span class="seal ${m.avail}">${AVAIL_LABEL[m.avail]||m.avail}</span>
