@@ -1,5 +1,5 @@
 {
-  "generated": "20260602-190151",
+  "generated": "20260602-190352",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1298,7 +1298,7 @@
       "name": "Raschuetzer",
       "role": "admin",
       "first_join": "04/22/2026 17:47",
-      "last_join": "06/02/2026 16:26",
+      "last_join": "06/02/2026 16:58",
       "last_char": "04/29/2026 21:30",
       "stats": {
         "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
@@ -1307,12 +1307,12 @@
         "deaths": 0,
         "mobKills": 1,
         "playerKills": 0,
-        "playtimeHours": 5.2,
-        "blocksTravelled": 1396,
+        "playtimeHours": 5.3,
+        "blocksTravelled": 1398,
         "blocksBroken": 8,
         "blocksPlaced": 3,
         "deepestY": 112,
-        "lastSeen": 1780419556,
+        "lastSeen": 1780419790,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1438,7 +1438,7 @@
       "name": "Eghetti",
       "role": "suplayer",
       "first_join": "04/22/2026 18:03",
-      "last_join": "06/01/2026 21:13",
+      "last_join": "06/02/2026 16:59",
       "last_char": "04/22/2026 18:08",
       "stats": {
         "uid": "TxqQ4g4qqKs+G5yFUTFmyGYb",
