@@ -1,5 +1,5 @@
 {
-  "generated": "20260602-224108",
+  "generated": "20260602-224309",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1307,12 +1307,12 @@
         "deaths": 0,
         "mobKills": 5,
         "playerKills": 0,
-        "playtimeHours": 7.5,
-        "blocksTravelled": 4635,
+        "playtimeHours": 7.6,
+        "blocksTravelled": 4677,
         "blocksBroken": 11,
         "blocksPlaced": 12,
         "deepestY": 109,
-        "lastSeen": 1780432785,
+        "lastSeen": 1780432905,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1567,12 +1567,12 @@
         "deaths": 1,
         "mobKills": 17,
         "playerKills": 0,
-        "playtimeHours": 1.7,
-        "blocksTravelled": 10327,
-        "blocksBroken": 958,
+        "playtimeHours": 1.8,
+        "blocksTravelled": 10351,
+        "blocksBroken": 990,
         "blocksPlaced": 79,
         "deepestY": 97,
-        "lastSeen": 1780432785,
+        "lastSeen": 1780432905,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -1714,18 +1714,19 @@
         "mobKills": 0,
         "playerKills": 0,
         "playtimeHours": 3.5,
-        "blocksTravelled": 5578,
+        "blocksTravelled": 5795,
         "blocksBroken": 175,
         "blocksPlaced": 236,
         "deepestY": 108,
-        "lastSeen": 1780432785,
+        "lastSeen": 1780432905,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
           "Workmans pants",
           "Forlorn Hope shoes",
           "Scribe gloves",
-          "Sturdy belt"
+          "Sturdy belt",
+          "Fur coat"
         ],
         "gearDetail": [
           {
@@ -1762,6 +1763,12 @@
             "code": "game:clothes-waist-sturdy-belt",
             "name": "Sturdy belt",
             "icon": "character/icons/waist-sturdy-belt.png"
+          },
+          {
+            "slot": "upperbodyover",
+            "code": "game:clothes-upperbodyover-fur-coat",
+            "name": "Fur coat",
+            "icon": "character/icons/upperbodyover-fur-coat.png"
           },
           {
             "slot": "bag-1",
