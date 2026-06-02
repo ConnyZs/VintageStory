@@ -1,5 +1,5 @@
 {
-  "generated": "20260602-172116",
+  "generated": "20260602-172145",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -355,7 +355,7 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "3.3.1",
-      "build_version": "3.3.2",
+      "build_version": "3.3.3",
       "build_branch": "1.22",
       "update_pending": true,
       "proposed": false
