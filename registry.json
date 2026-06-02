@@ -1,5 +1,5 @@
 {
-  "generated": "20260602-191155",
+  "generated": "20260602-191356",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1312,7 +1312,7 @@
         "blocksBroken": 8,
         "blocksPlaced": 3,
         "deepestY": 112,
-        "lastSeen": 1780420298,
+        "lastSeen": 1780420418,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1566,7 +1566,7 @@
       "name": "Moritz",
       "role": "suplayer",
       "first_join": "04/22/2026 18:03",
-      "last_join": "05/20/2026 21:53",
+      "last_join": "06/02/2026 17:12",
       "last_char": "04/22/2026 18:05",
       "stats": {
         "uid": "bKc3JB7NGywTi9YbzXu/Qogt",
@@ -1575,12 +1575,12 @@
         "deaths": 0,
         "mobKills": 0,
         "playerKills": 0,
-        "playtimeHours": 0.0,
-        "blocksTravelled": 277,
-        "blocksBroken": 0,
-        "blocksPlaced": 0,
-        "deepestY": 114,
-        "lastSeen": 1780420281,
+        "playtimeHours": 0.1,
+        "blocksTravelled": 376,
+        "blocksBroken": 4,
+        "blocksPlaced": 6,
+        "deepestY": 112,
+        "lastSeen": 1780420418,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
