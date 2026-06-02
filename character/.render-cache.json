@@ -101,7 +101,7 @@
   }
  },
  "Barberschascher": {
-  "hash": "528aa24ff14b866820c28d66f8611678a07717b7",
+  "hash": "d80bb2c6b7c6fd52afbcf6b2aac58d75445330ba",
   "info": {
    "class": "miner",
    "items": [
@@ -115,10 +115,11 @@
     "Malefactor trousers",
     "Blackguard shoes",
     "Heavy leather gloves",
+    "Leather reinforced mask",
     "Heavy belt"
    ],
    "frames": 16,
-   "v": 1780426851
+   "v": 1780427334
   }
  }
 }
