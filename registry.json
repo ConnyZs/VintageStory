@@ -1,5 +1,5 @@
 {
-  "generated": "20260602-223908",
+  "generated": "20260602-224108",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1308,11 +1308,11 @@
         "mobKills": 5,
         "playerKills": 0,
         "playtimeHours": 7.5,
-        "blocksTravelled": 4631,
+        "blocksTravelled": 4635,
         "blocksBroken": 11,
         "blocksPlaced": 12,
         "deepestY": 109,
-        "lastSeen": 1780432665,
+        "lastSeen": 1780432785,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1568,11 +1568,11 @@
         "mobKills": 17,
         "playerKills": 0,
         "playtimeHours": 1.7,
-        "blocksTravelled": 9960,
-        "blocksBroken": 942,
-        "blocksPlaced": 78,
+        "blocksTravelled": 10327,
+        "blocksBroken": 958,
+        "blocksPlaced": 79,
         "deepestY": 97,
-        "lastSeen": 1780432665,
+        "lastSeen": 1780432785,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -1714,11 +1714,11 @@
         "mobKills": 0,
         "playerKills": 0,
         "playtimeHours": 3.5,
-        "blocksTravelled": 5209,
+        "blocksTravelled": 5578,
         "blocksBroken": 175,
         "blocksPlaced": 236,
         "deepestY": 108,
-        "lastSeen": 1780432665,
+        "lastSeen": 1780432785,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -1812,12 +1812,12 @@
         "deaths": 6,
         "mobKills": 2,
         "playerKills": 0,
-        "playtimeHours": 1.7,
-        "blocksTravelled": 10319,
+        "playtimeHours": 1.8,
+        "blocksTravelled": 10594,
         "blocksBroken": 43,
         "blocksPlaced": 6,
         "deepestY": 108,
-        "lastSeen": 1780432665,
+        "lastSeen": 1780432862,
         "gear": [
           "Jailors hat",
           "Clockmaker shirt",
@@ -1825,8 +1825,7 @@
           "Blackguard shoes",
           "Heavy leather gloves",
           "Leather reinforced mask",
-          "Heavy belt",
-          "Fur coat"
+          "Heavy belt"
         ],
         "gearDetail": [
           {
@@ -1870,12 +1869,6 @@
             "code": "game:clothes-waist-heavy-belt",
             "name": "Heavy belt",
             "icon": "character/icons/waist-heavy-belt.png"
-          },
-          {
-            "slot": "upperbodyover",
-            "code": "game:clothes-upperbodyover-fur-coat",
-            "name": "Fur coat",
-            "icon": "character/icons/upperbodyover-fur-coat.png"
           }
         ],
         "skin": {
