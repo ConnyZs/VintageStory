@@ -296,6 +296,16 @@
   .eqrow .eqs{flex:0 0 52px;font-family:"Spectral SC",serif;font-size:.62rem;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-faint)}
   .eqrow .eqi{color:var(--ink);line-height:1.15}
   .eqrow.empty .eqi{color:var(--ink-faint);opacity:.5}
+  /* bag rack */
+  .bagrack{margin-top:12px;border-top:1px solid var(--line);padding-top:12px}
+  .bk{font-family:"Spectral SC",serif;font-size:.7rem;letter-spacing:.1em;color:var(--ink-faint);text-transform:uppercase;display:block;margin-bottom:10px}
+  .bagslots{display:flex;gap:10px}
+  .bagslot{flex:1;display:flex;flex-direction:column;align-items:center;gap:5px;padding:8px 6px;border-radius:8px;border:1px solid var(--line);background:var(--surface);transition:border-color .15s}
+  .bagslot:not(.empty){border-color:rgba(212,149,74,.35);background:var(--surface2)}
+  .bagslot:not(.empty):hover{border-color:var(--copper)}
+  .bagico{width:38px;height:38px}
+  .bagname{font-size:.62rem;font-family:"Spectral SC",serif;letter-spacing:.03em;color:var(--ink-faint);text-align:center;line-height:1.2;word-break:break-word}
+  .bagslot:not(.empty) .bagname{color:var(--ink-dim)}
   /* deploy progress bar (fixed top) */
   #deployBar{position:fixed;top:0;left:0;right:0;z-index:50}
   .db-track{height:4px;background:var(--line);overflow:hidden}
@@ -742,19 +752,53 @@ const SERAPH_SVG=`<svg viewBox="0 0 64 132" fill="none" stroke="var(--copper-glo
   <path d="M23 80 L21 124 Q21 127 25 127 M41 80 L43 124 Q43 127 39 127"/>
 </svg>`;
 const EQ_SLOTS=[["head","Head"],["face","Face"],["neck","Neck"],["shoulder","Shoulders"],["upperbody","Chest"],["upperbodyover","Over"],["arm","Arms"],["hand","Hands"],["waist","Waist"],["lowerbody","Legs"],["foot","Feet"],["emblem","Emblem"]];
+// Slot-type → simple SVG icon (path data only, drawn at 20×20)
+const SLOT_ICONS={
+  head:`<path d="M10 3a7 7 0 0 0-7 7c0 2.5 1.3 4.7 3.2 6h7.6A7 7 0 0 0 17 10a7 7 0 0 0-7-7z" fill="none" stroke="currentColor" stroke-width="1.4"/>`,
+  face:`<circle cx="8" cy="11" r="1.5" fill="currentColor"/><circle cx="12" cy="11" r="1.5" fill="currentColor"/><path d="M7 14.5c.8 1 2 1.5 3 1.5s2.2-.5 3-1.5" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/><rect x="3" y="7" width="14" height="10" rx="4" fill="none" stroke="currentColor" stroke-width="1.4"/>`,
+  neck:`<path d="M7 5v4a3 3 0 0 0 6 0V5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M5 15h10" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>`,
+  shoulder:`<path d="M4 12c0-3.3 2.7-6 6-6s6 2.7 6 6" fill="none" stroke="currentColor" stroke-width="1.4"/><rect x="2" y="12" width="5" height="4" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/><rect x="13" y="12" width="5" height="4" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>`,
+  upperbody:`<path d="M7 4H5L3 8v1h2v7h10V9h2V8l-2-4h-2l-2 2H9L7 4z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>`,
+  upperbodyover:`<path d="M6 3H4L2 7v2h2v8h12V9h2V7l-2-4h-2L12 5H8L6 3z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>`,
+  arm:`<rect x="6" y="4" width="3" height="12" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/><rect x="11" y="4" width="3" height="12" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/>`,
+  hand:`<path d="M8 14V9m0 0V6.5a1 1 0 0 1 2 0V9m0 0V7a1 1 0 0 1 2 0v2m0 0V8a1 1 0 0 1 2 0v6a4 4 0 0 1-4 4H9a4 4 0 0 1-4-4v-2a1 1 0 0 1 2 0" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>`,
+  waist:`<rect x="3" y="8" width="14" height="5" rx="2" fill="none" stroke="currentColor" stroke-width="1.4"/><rect x="8.5" y="9.5" width="3" height="2" rx=".5" fill="none" stroke="currentColor" stroke-width="1.2"/>`,
+  lowerbody:`<path d="M5 4h10l1 8H4L5 4z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M10 12v4M7 12l-1 4M13 12l1 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>`,
+  foot:`<path d="M4 12h8l3 4H4v-4z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M4 12V9a4 4 0 0 1 8 0v3" fill="none" stroke="currentColor" stroke-width="1.4"/>`,
+  emblem:`<circle cx="10" cy="10" r="7" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M10 6v8M7 8l3-2 3 2M7 12l3 2 3-2" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>`,
+};
+function slotIco(slot,hasItem){
+  const d=SLOT_ICONS[slot];
+  if(!d) return `<span class="eqx ph"></span>`;
+  return `<svg class="eqx${hasItem?"":" ph"}" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" style="color:${hasItem?'var(--copper-glow)':'var(--ink-faint)'}">${d}</svg>`;
+}
+function bagRack(detail){
+  const bags=[null,null,null,null];
+  (detail||[]).forEach(g=>{ const m=g&&g.slot&&g.slot.match(/^bag-([1-4])$/); if(m) bags[+m[1]-1]=g; });
+  if(bags.every(b=>!b)) return "";
+  const slots=bags.map((b,i)=>`<div class="bagslot${b?"":" empty"}" title="${b?esc(b.name):`Bag slot ${i+1} — empty`}">
+    <svg class="bagico" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="3" y="8" width="18" height="13" rx="2.5" fill="none" stroke="${b?'var(--copper)':'var(--ink-faint)'}" stroke-width="1.5" opacity="${b?1:.4}"/>
+      <path d="M8 8V6a4 4 0 0 1 8 0v2" fill="none" stroke="${b?'var(--copper)':'var(--ink-faint)'}" stroke-width="1.5" stroke-linecap="round" opacity="${b?1:.4}"/>
+      <path d="M3 13h18" stroke="${b?'var(--copper-glow)':'var(--ink-faint)'}" stroke-width="1" opacity="${b?1:.25}"/>
+      ${b?`<circle cx="12" cy="16" r="1.5" fill="var(--copper-glow)" opacity=".8"/>`:''}
+    </svg>
+    <span class="bagname">${b?esc(b.name):"—"}</span>
+  </div>`).join("");
+  return `<div class="bagrack"><span class="bk">Bags</span><div class="bagslots">${slots}</div></div>`;
+}
 function equipRows(detail){
   const by={}; (detail||[]).forEach(g=>{ if(g&&g.slot) by[g.slot]=g; });
-  const known=new Set(EQ_SLOTS.map(s=>s[0]));
-  const ico=g=>g&&g.icon?`<img class="eqx" src="${esc(g.icon)}" alt="" loading="lazy">`:`<span class="eqx ph"></span>`;
+  const known=new Set([...EQ_SLOTS.map(s=>s[0]),'backpack','bag-1','bag-2','bag-3','bag-4']);
   let rows=EQ_SLOTS.map(([k,l])=>{const it=by[k];
-    return `<div class="eqrow${it?"":" empty"}">${ico(it)}<span class="eqs">${l}</span><span class="eqi">${it?esc(it.name):"—"}</span></div>`;}).join("");
+    return `<div class="eqrow${it?"":" empty"}">${slotIco(k,!!it)}<span class="eqs">${l}</span><span class="eqi">${it?esc(it.name):"—"}</span></div>`;}).join("");
   (detail||[]).forEach(g=>{ if(g&&g.slot&&!known.has(g.slot))
-    rows+=`<div class="eqrow">${ico(g)}<span class="eqs">${esc(g.slot)}</span><span class="eqi">${esc(g.name||"")}</span></div>`; });
+    rows+=`<div class="eqrow">${slotIco(g.slot,true)}<span class="eqs">${esc(g.slot)}</span><span class="eqi">${esc(g.name||"")}</span></div>`; });
   return rows;
 }
 // fallback when there's no rendered character (silhouette + equip list)
 function paperDoll(detail){
-  return `<div class="paperdoll"><div class="seraph">${SERAPH_SVG}</div><div class="equip">${equipRows(detail)}</div></div>`;
+  return `<div class="paperdoll"><div class="seraph">${SERAPH_SVG}</div><div class="equip">${equipRows(detail)}</div></div>${bagRack(detail)}`;
 }
 // the real deal: the player's rendered 3D character, drag-to-rotate, beside the equip list
 function charDoll(name,detail,info){
@@ -764,7 +808,7 @@ function charDoll(name,detail,info){
   const view=`<div class="charview" data-char="${esc(name)}" data-frames="${n}" data-dir="${esc(dir)}" data-front="${front}" data-ver="${esc(ver)}">
       <img class="charimg" src="${esc(dir)}f${String(front).padStart(2,"0")}.png${ver}" alt="${esc(name)}'s character" draggable="false">
       <div class="charhint">drag to rotate · scroll to zoom</div></div>`;
-  return `<div class="paperdoll">${view}<div class="equip">${equipRows(detail)}</div></div>`;
+  return `<div class="paperdoll">${view}<div class="equip">${equipRows(detail)}</div></div>${bagRack(detail)}`;
 }
 // attach drag-to-rotate to every rendered character on the Crew tab (and preload its frames)
 function initCharViews(){
