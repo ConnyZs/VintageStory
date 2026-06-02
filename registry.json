@@ -1,5 +1,5 @@
 {
-  "generated": "20260602-191757",
+  "generated": "20260602-191958",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1312,7 +1312,7 @@
         "blocksBroken": 8,
         "blocksPlaced": 3,
         "deepestY": 112,
-        "lastSeen": 1780420658,
+        "lastSeen": 1780420778,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1575,12 +1575,12 @@
         "deaths": 0,
         "mobKills": 0,
         "playerKills": 0,
-        "playtimeHours": 0.1,
-        "blocksTravelled": 628,
-        "blocksBroken": 34,
+        "playtimeHours": 0.2,
+        "blocksTravelled": 987,
+        "blocksBroken": 37,
         "blocksPlaced": 67,
-        "deepestY": 112,
-        "lastSeen": 1780420658,
+        "deepestY": 111,
+        "lastSeen": 1780420778,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
