@@ -1,5 +1,5 @@
 {
-  "generated": "20260602-214047",
+  "generated": "20260602-214248",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1308,11 +1308,11 @@
         "mobKills": 1,
         "playerKills": 0,
         "playtimeHours": 6.5,
-        "blocksTravelled": 2398,
+        "blocksTravelled": 2428,
         "blocksBroken": 8,
         "blocksPlaced": 4,
         "deepestY": 109,
-        "lastSeen": 1780429183,
+        "lastSeen": 1780429303,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1448,11 +1448,11 @@
         "mobKills": 1,
         "playerKills": 0,
         "playtimeHours": 3.2,
-        "blocksTravelled": 2320,
+        "blocksTravelled": 2503,
         "blocksBroken": 2,
-        "blocksPlaced": 3,
+        "blocksPlaced": 4,
         "deepestY": 109,
-        "lastSeen": 1780429183,
+        "lastSeen": 1780429303,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -1565,14 +1565,14 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 1,
-        "mobKills": 6,
+        "mobKills": 7,
         "playerKills": 0,
-        "playtimeHours": 0.7,
-        "blocksTravelled": 3833,
-        "blocksBroken": 625,
-        "blocksPlaced": 46,
+        "playtimeHours": 0.8,
+        "blocksTravelled": 4208,
+        "blocksBroken": 626,
+        "blocksPlaced": 47,
         "deepestY": 97,
-        "lastSeen": 1780429183,
+        "lastSeen": 1780429303,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -1714,11 +1714,11 @@
         "mobKills": 0,
         "playerKills": 0,
         "playtimeHours": 2.5,
-        "blocksTravelled": 3544,
+        "blocksTravelled": 3563,
         "blocksBroken": 122,
-        "blocksPlaced": 131,
+        "blocksPlaced": 133,
         "deepestY": 109,
-        "lastSeen": 1780429183,
+        "lastSeen": 1780429303,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -1819,12 +1819,12 @@
         "deaths": 1,
         "mobKills": 0,
         "playerKills": 0,
-        "playtimeHours": 0.7,
-        "blocksTravelled": 4371,
-        "blocksBroken": 5,
+        "playtimeHours": 0.8,
+        "blocksTravelled": 4517,
+        "blocksBroken": 8,
         "blocksPlaced": 0,
         "deepestY": 109,
-        "lastSeen": 1780429183,
+        "lastSeen": 1780429303,
         "gear": [
           "Jailors hat",
           "Clockmaker shirt",
@@ -1876,6 +1876,26 @@
             "code": "game:clothes-waist-heavy-belt",
             "name": "Heavy belt",
             "icon": "character/icons/waist-heavy-belt.png"
+          },
+          {
+            "slot": "bag-1",
+            "code": "game:hunterbackpack",
+            "name": "Hunter backpack"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:hunterbackpack",
+            "name": "Hunter backpack"
+          },
+          {
+            "slot": "bag-3",
+            "code": "game:hunterbackpack",
+            "name": "Hunter backpack"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:hunterbackpack",
+            "name": "Hunter backpack"
           }
         ],
         "skin": {
