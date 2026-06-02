@@ -29,7 +29,7 @@
   }
  },
  "Eghetti": {
-  "hash": "4d55f0c0a1aab148811c7b74f2aaf6d5e5834c66",
+  "hash": "38cba62e3fad18c0a2f88a05209e0223451f7d39",
   "info": {
    "class": "smith",
    "items": [
@@ -48,7 +48,7 @@
     "Fur coat"
    ],
    "frames": 16,
-   "v": 1780406736
+   "v": 1780419609
   }
  }
 }

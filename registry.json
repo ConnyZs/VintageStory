@@ -1,5 +1,5 @@
 {
-  "generated": "20260602-185101",
+  "generated": "20260602-185951",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1308,11 +1308,11 @@
         "mobKills": 1,
         "playerKills": 0,
         "playtimeHours": 5.2,
-        "blocksTravelled": 1394,
+        "blocksTravelled": 1396,
         "blocksBroken": 8,
         "blocksPlaced": 3,
         "deepestY": 112,
-        "lastSeen": 1780417664,
+        "lastSeen": 1780419556,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1452,7 +1452,7 @@
         "blocksBroken": 1,
         "blocksPlaced": 2,
         "deepestY": 116,
-        "lastSeen": 1780349151,
+        "lastSeen": 1780419577,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -1517,6 +1517,26 @@
             "slot": "armorbody",
             "code": "game:armor-body-tailored-pink-linen",
             "name": "Tailored gambeson body armor"
+          },
+          {
+            "slot": "bag-1",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-3",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           }
         ],
         "skin": {
