@@ -1,5 +1,5 @@
 {
-  "generated": "20260602-223306",
+  "generated": "20260602-223506",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1308,11 +1308,11 @@
         "mobKills": 5,
         "playerKills": 0,
         "playtimeHours": 7.4,
-        "blocksTravelled": 4604,
+        "blocksTravelled": 4618,
         "blocksBroken": 11,
         "blocksPlaced": 12,
         "deepestY": 109,
-        "lastSeen": 1780432305,
+        "lastSeen": 1780432453,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1568,11 +1568,11 @@
         "mobKills": 14,
         "playerKills": 0,
         "playtimeHours": 1.6,
-        "blocksTravelled": 8980,
-        "blocksBroken": 933,
-        "blocksPlaced": 74,
+        "blocksTravelled": 9425,
+        "blocksBroken": 942,
+        "blocksPlaced": 78,
         "deepestY": 97,
-        "lastSeen": 1780432305,
+        "lastSeen": 1780432453,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -1681,8 +1681,8 @@
           },
           {
             "slot": "bag-4",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "code": "butchering:butcherybag-standard",
+            "name": "Hide Butchering Bag"
           }
         ],
         "skin": {
@@ -1714,11 +1714,11 @@
         "mobKills": 0,
         "playerKills": 0,
         "playtimeHours": 3.4,
-        "blocksTravelled": 5085,
+        "blocksTravelled": 5095,
         "blocksBroken": 167,
-        "blocksPlaced": 224,
+        "blocksPlaced": 229,
         "deepestY": 109,
-        "lastSeen": 1780432305,
+        "lastSeen": 1780432453,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -1813,11 +1813,11 @@
         "mobKills": 2,
         "playerKills": 0,
         "playtimeHours": 1.6,
-        "blocksTravelled": 9385,
-        "blocksBroken": 36,
-        "blocksPlaced": 5,
-        "deepestY": 109,
-        "lastSeen": 1780432305,
+        "blocksTravelled": 10075,
+        "blocksBroken": 43,
+        "blocksPlaced": 6,
+        "deepestY": 108,
+        "lastSeen": 1780432453,
         "gear": [
           "Jailors hat",
           "Clockmaker shirt",
