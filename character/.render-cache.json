@@ -52,7 +52,7 @@
   }
  },
  "Moritz": {
-  "hash": "4d3f7208036c46ef02e67165c030de693fc76c63",
+  "hash": "9e12dc9b661ad45e678ffe0c8d5906f961fbf970",
   "info": {
    "class": "mason",
    "items": [
@@ -64,12 +64,10 @@
     "Workmans pants",
     "Forlorn Hope shoes",
     "Scribe gloves",
-    "Sturdy belt",
-    "Fur coat",
-    "Fur coat"
+    "Sturdy belt"
    ],
    "frames": 16,
-   "v": 1780420092
+   "v": 1780431558
   }
  },
  "AddyBuschu": {
@@ -101,7 +99,7 @@
   }
  },
  "Barberschascher": {
-  "hash": "05aeb70ddc097425d1b89c47f0d1b6ecb27f38f2",
+  "hash": "0dcd3eb12c101b9db095a091b757776fd9c5b5f1",
   "info": {
    "class": "miner",
    "items": [
@@ -116,10 +114,12 @@
     "Blackguard shoes",
     "Heavy leather gloves",
     "Leather reinforced mask",
-    "Heavy belt"
+    "Heavy belt",
+    "Fur coat",
+    "Fur coat"
    ],
    "frames": 16,
-   "v": 1780430231
+   "v": 1780431577
   }
  }
 }

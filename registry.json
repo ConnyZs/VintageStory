@@ -1,5 +1,5 @@
 {
-  "generated": "20260602-221700",
+  "generated": "20260602-221900",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1307,12 +1307,12 @@
         "deaths": 0,
         "mobKills": 5,
         "playerKills": 0,
-        "playtimeHours": 7.1,
-        "blocksTravelled": 3935,
+        "playtimeHours": 7.2,
+        "blocksTravelled": 4006,
         "blocksBroken": 11,
         "blocksPlaced": 12,
         "deepestY": 109,
-        "lastSeen": 1780431344,
+        "lastSeen": 1780431464,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1448,11 +1448,11 @@
         "mobKills": 7,
         "playerKills": 0,
         "playtimeHours": 3.8,
-        "blocksTravelled": 4064,
-        "blocksBroken": 2,
-        "blocksPlaced": 6,
+        "blocksTravelled": 4090,
+        "blocksBroken": 7,
+        "blocksPlaced": 11,
         "deepestY": 109,
-        "lastSeen": 1780431344,
+        "lastSeen": 1780431464,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -1565,14 +1565,14 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 1,
-        "mobKills": 12,
+        "mobKills": 13,
         "playerKills": 0,
-        "playtimeHours": 1.3,
-        "blocksTravelled": 6992,
+        "playtimeHours": 1.4,
+        "blocksTravelled": 7353,
         "blocksBroken": 863,
         "blocksPlaced": 66,
         "deepestY": 97,
-        "lastSeen": 1780431344,
+        "lastSeen": 1780431464,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -1714,19 +1714,18 @@
         "mobKills": 0,
         "playerKills": 0,
         "playtimeHours": 3.1,
-        "blocksTravelled": 4511,
+        "blocksTravelled": 4550,
         "blocksBroken": 167,
-        "blocksPlaced": 199,
+        "blocksPlaced": 203,
         "deepestY": 109,
-        "lastSeen": 1780431344,
+        "lastSeen": 1780431464,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
           "Workmans pants",
           "Forlorn Hope shoes",
           "Scribe gloves",
-          "Sturdy belt",
-          "Fur coat"
+          "Sturdy belt"
         ],
         "gearDetail": [
           {
@@ -1763,12 +1762,6 @@
             "code": "game:clothes-waist-sturdy-belt",
             "name": "Sturdy belt",
             "icon": "character/icons/waist-sturdy-belt.png"
-          },
-          {
-            "slot": "upperbodyover",
-            "code": "game:clothes-upperbodyover-fur-coat",
-            "name": "Fur coat",
-            "icon": "character/icons/upperbodyover-fur-coat.png"
           },
           {
             "slot": "bag-1",
@@ -1819,12 +1812,12 @@
         "deaths": 2,
         "mobKills": 2,
         "playerKills": 0,
-        "playtimeHours": 1.3,
-        "blocksTravelled": 6922,
+        "playtimeHours": 1.4,
+        "blocksTravelled": 6928,
         "blocksBroken": 33,
         "blocksPlaced": 5,
         "deepestY": 109,
-        "lastSeen": 1780431344,
+        "lastSeen": 1780431464,
         "gear": [
           "Jailors hat",
           "Clockmaker shirt",
@@ -1832,7 +1825,8 @@
           "Blackguard shoes",
           "Heavy leather gloves",
           "Leather reinforced mask",
-          "Heavy belt"
+          "Heavy belt",
+          "Fur coat"
         ],
         "gearDetail": [
           {
@@ -1876,6 +1870,12 @@
             "code": "game:clothes-waist-heavy-belt",
             "name": "Heavy belt",
             "icon": "character/icons/waist-heavy-belt.png"
+          },
+          {
+            "slot": "upperbodyover",
+            "code": "game:clothes-upperbodyover-fur-coat",
+            "name": "Fur coat",
+            "icon": "character/icons/upperbodyover-fur-coat.png"
           }
         ],
         "skin": {
