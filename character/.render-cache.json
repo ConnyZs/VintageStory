@@ -50,5 +50,26 @@
    "frames": 16,
    "v": 1780419609
   }
+ },
+ "Moritz": {
+  "hash": "4d3f7208036c46ef02e67165c030de693fc76c63",
+  "info": {
+   "class": "mason",
+   "items": [
+    "hairbase",
+    "mustache",
+    "facialexpression",
+    "Raccoon fur trapper hat",
+    "Linen tunic",
+    "Workmans pants",
+    "Forlorn Hope shoes",
+    "Scribe gloves",
+    "Sturdy belt",
+    "Fur coat",
+    "Fur coat"
+   ],
+   "frames": 16,
+   "v": 1780420092
+  }
  }
 }
