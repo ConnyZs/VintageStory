@@ -90,6 +90,25 @@
    ],
    "frames": 16,
    "v": 1780420092
+  },
+  "Barberschascher": {
+   "class": "miner",
+   "items": [
+    "hairbase",
+    "hairextra",
+    "mustache",
+    "beard",
+    "facialexpression",
+    "Jailors hat",
+    "Clockmaker shirt",
+    "Malefactor trousers",
+    "Blackguard shoes",
+    "Heavy leather gloves",
+    "Leather reinforced mask",
+    "Heavy belt"
+   ],
+   "frames": 16,
+   "v": 1780426006
   }
  }
 }
