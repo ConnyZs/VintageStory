@@ -1,5 +1,5 @@
 {
-  "generated": "20260602-230316",
+  "generated": "20260602-230517",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1308,11 +1308,11 @@
         "mobKills": 7,
         "playerKills": 0,
         "playtimeHours": 7.9,
-        "blocksTravelled": 5863,
+        "blocksTravelled": 5955,
         "blocksBroken": 18,
         "blocksPlaced": 17,
         "deepestY": 107,
-        "lastSeen": 1780434107,
+        "lastSeen": 1780434266,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1438,7 +1438,7 @@
       "name": "Eghetti",
       "role": "suplayer",
       "first_join": "04/22/2026 18:03",
-      "last_join": "06/02/2026 20:44",
+      "last_join": "06/02/2026 21:01",
       "last_char": "04/22/2026 18:08",
       "stats": {
         "uid": "TxqQ4g4qqKs+G5yFUTFmyGYb",
@@ -1448,11 +1448,11 @@
         "mobKills": 7,
         "playerKills": 0,
         "playtimeHours": 4.2,
-        "blocksTravelled": 5146,
+        "blocksTravelled": 5263,
         "blocksBroken": 7,
         "blocksPlaced": 17,
         "deepestY": 109,
-        "lastSeen": 1780434107,
+        "lastSeen": 1780434266,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -1565,14 +1565,14 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 1,
-        "mobKills": 19,
+        "mobKills": 20,
         "playerKills": 0,
         "playtimeHours": 2.1,
-        "blocksTravelled": 11649,
-        "blocksBroken": 1158,
+        "blocksTravelled": 11823,
+        "blocksBroken": 1186,
         "blocksPlaced": 89,
         "deepestY": 97,
-        "lastSeen": 1780434107,
+        "lastSeen": 1780434266,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -1681,8 +1681,8 @@
           },
           {
             "slot": "bag-4",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "code": "butchering:butcherybag-standard",
+            "name": "Hide Butchering Bag"
           }
         ],
         "skin": {
@@ -1714,11 +1714,11 @@
         "mobKills": 0,
         "playerKills": 0,
         "playtimeHours": 3.8,
-        "blocksTravelled": 9098,
-        "blocksBroken": 203,
+        "blocksTravelled": 9642,
+        "blocksBroken": 208,
         "blocksPlaced": 237,
         "deepestY": 108,
-        "lastSeen": 1780434107,
+        "lastSeen": 1780434266,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
