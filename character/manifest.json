@@ -23,11 +23,10 @@
     "Forlorn Hope belt",
     "Merchant bracelet",
     "Fur coat",
-    "Fur coat",
-    "Leather backpack"
+    "Fur coat"
    ],
    "frames": 16,
-   "v": 1780404644
+   "v": 1780405580
   },
   "Eghetti": {
    "class": "smith",
@@ -47,7 +46,7 @@
     "Fur coat"
    ],
    "frames": 16,
-   "v": 1780404661
+   "v": 1780405597
   }
  }
 }
