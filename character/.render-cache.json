@@ -101,7 +101,7 @@
   }
  },
  "Barberschascher": {
-  "hash": "d80bb2c6b7c6fd52afbcf6b2aac58d75445330ba",
+  "hash": "05aeb70ddc097425d1b89c47f0d1b6ecb27f38f2",
   "info": {
    "class": "miner",
    "items": [
@@ -119,7 +119,7 @@
     "Heavy belt"
    ],
    "frames": 16,
-   "v": 1780427334
+   "v": 1780428783
   }
  }
 }
