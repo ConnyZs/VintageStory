@@ -786,11 +786,12 @@ function equipRows(detail){
     return `<div class="eqrow${it?"":" empty"}">${itemIco(it,k,!!it)}<span class="eqs">${l}</span><span class="eqi">${it?esc(it.name):"—"}</span></div>`;}).join("");
   (detail||[]).forEach(g=>{ if(g&&g.slot&&!known.has(g.slot))
     rows+=`<div class="eqrow">${itemIco(g,g.slot,true)}<span class="eqs">${esc(g.slot)}</span><span class="eqi">${esc(g.name||"")}</span></div>`; });
+  rows+=bagRows(detail);
   return rows;
 }
 // fallback when there's no rendered character (silhouette + equip list)
 function paperDoll(detail){
-  return `<div class="paperdoll"><div class="seraph">${SERAPH_SVG}</div><div class="equip">${equipRows(detail)}</div></div>${bagRack(detail)}`;
+  return `<div class="paperdoll"><div class="seraph">${SERAPH_SVG}</div><div class="equip">${equipRows(detail)}</div></div>`;
 }
 // the real deal: the player's rendered 3D character, drag-to-rotate, beside the equip list
 function charDoll(name,detail,info){
@@ -800,7 +801,7 @@ function charDoll(name,detail,info){
   const view=`<div class="charview" data-char="${esc(name)}" data-frames="${n}" data-dir="${esc(dir)}" data-front="${front}" data-ver="${esc(ver)}">
       <img class="charimg" src="${esc(dir)}f${String(front).padStart(2,"0")}.png${ver}" alt="${esc(name)}'s character" draggable="false">
       <div class="charhint">drag to rotate · scroll to zoom</div></div>`;
-  return `<div class="paperdoll">${view}<div class="equip">${equipRows(detail)}</div></div>${bagRack(detail)}`;
+  return `<div class="paperdoll">${view}<div class="equip">${equipRows(detail)}</div></div>`;
 }
 // attach drag-to-rotate to every rendered character on the Crew tab (and preload its frames)
 function initCharViews(){
