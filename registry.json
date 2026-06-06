@@ -1128,7 +1128,9 @@
       "build_version": "1.8.2",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": false
+      "proposed": false,
+      "custom": true,
+      "repo_link": null
     },
     {
       "name": "Window Storage",
