@@ -1,5 +1,5 @@
 {
-  "generated": "20260609-213817",
+  "generated": "20260609-214018",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1312,7 +1312,7 @@
         "blocksBroken": 327,
         "blocksPlaced": 36,
         "deepestY": 107,
-        "lastSeen": 1781033895,
+        "lastSeen": 1781034015,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1448,11 +1448,11 @@
         "mobKills": 20,
         "playerKills": 0,
         "playtimeHours": 6.5,
-        "blocksTravelled": 11443,
+        "blocksTravelled": 11452,
         "blocksBroken": 89,
         "blocksPlaced": 72,
         "deepestY": 108,
-        "lastSeen": 1781033895,
+        "lastSeen": 1781034015,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -1567,12 +1567,12 @@
         "deaths": 3,
         "mobKills": 43,
         "playerKills": 0,
-        "playtimeHours": 5.8,
-        "blocksTravelled": 28813,
-        "blocksBroken": 2691,
+        "playtimeHours": 5.9,
+        "blocksTravelled": 29009,
+        "blocksBroken": 2696,
         "blocksPlaced": 901,
         "deepestY": 97,
-        "lastSeen": 1781033895,
+        "lastSeen": 1781034015,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -1681,8 +1681,8 @@
           },
           {
             "slot": "bag-4",
-            "code": "butchering:butcherybag-standard",
-            "name": "Hide Butchering Bag"
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           }
         ],
         "skin": {
@@ -1714,11 +1714,11 @@
         "mobKills": 9,
         "playerKills": 0,
         "playtimeHours": 6.9,
-        "blocksTravelled": 26979,
+        "blocksTravelled": 27256,
         "blocksBroken": 1057,
-        "blocksPlaced": 911,
+        "blocksPlaced": 912,
         "deepestY": 106,
-        "lastSeen": 1781033895,
+        "lastSeen": 1781034015,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
