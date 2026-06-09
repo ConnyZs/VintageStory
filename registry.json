@@ -1,5 +1,5 @@
 {
-  "generated": "20260609-215021",
+  "generated": "20260609-215222",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1305,14 +1305,14 @@
         "name": "Raschuetzer",
         "class": "tinker",
         "deaths": 1,
-        "mobKills": 13,
+        "mobKills": 14,
         "playerKills": 0,
-        "playtimeHours": 11.1,
-        "blocksTravelled": 18575,
-        "blocksBroken": 329,
+        "playtimeHours": 11.2,
+        "blocksTravelled": 18832,
+        "blocksBroken": 332,
         "blocksPlaced": 36,
-        "deepestY": 107,
-        "lastSeen": 1781034612,
+        "deepestY": 57,
+        "lastSeen": 1781034732,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1324,8 +1324,7 @@
           "Cursed gemstone",
           "Malefactor whitewood mask",
           "Forlorn Hope belt",
-          "Merchant bracelet",
-          "Fur coat"
+          "Merchant bracelet"
         ],
         "gearDetail": [
           {
@@ -1391,12 +1390,6 @@
             "code": "game:clothes-arm-merchant-bracelet",
             "name": "Merchant bracelet",
             "icon": "character/icons/arm-merchant-bracelet.png"
-          },
-          {
-            "slot": "upperbodyover",
-            "code": "game:clothes-upperbodyover-fur-coat",
-            "name": "Fur coat",
-            "icon": "character/icons/upperbodyover-fur-coat.png"
           },
           {
             "slot": "bag-1",
@@ -1567,14 +1560,14 @@
         "deaths": 3,
         "mobKills": 43,
         "playerKills": 0,
-        "playtimeHours": 5.9,
-        "blocksTravelled": 29435,
+        "playtimeHours": 6.0,
+        "blocksTravelled": 29580,
         "blocksBroken": 2697,
         "blocksPlaced": 903,
         "deepestY": 97,
-        "lastSeen": 1781034612,
+        "lastSeen": 1781034732,
         "gear": [
-          "Red fox fur trapper hat",
+          "Flower wreath",
           "Rotwalker cape",
           "Tattered crimson tunic",
           "Nomad trousers",
@@ -1584,16 +1577,14 @@
           "Rotten king mask",
           "Marketeer belt",
           "Leather bracers",
-          "Fur coat",
           "Black bear hide helmet",
           "Black bear hide body armor"
         ],
         "gearDetail": [
           {
             "slot": "head",
-            "code": "game:clothes-head-furhatwide-fox-red",
-            "name": "Red fox fur trapper hat",
-            "icon": "character/icons/head-furhatwide-fox-red.png"
+            "code": "game:clothes-head-wreathflower",
+            "name": "Flower wreath"
           },
           {
             "slot": "shoulder",
@@ -1647,12 +1638,6 @@
             "code": "game:clothes-arm-leather-bracers",
             "name": "Leather bracers",
             "icon": "character/icons/arm-leather-bracers.png"
-          },
-          {
-            "slot": "upperbodyover",
-            "code": "game:clothes-upperbodyover-fur-coat",
-            "name": "Fur coat",
-            "icon": "character/icons/upperbodyover-fur-coat.png"
           },
           {
             "slot": "armorhead",
@@ -1714,11 +1699,11 @@
         "mobKills": 9,
         "playerKills": 0,
         "playtimeHours": 7.0,
-        "blocksTravelled": 27648,
-        "blocksBroken": 1068,
-        "blocksPlaced": 925,
+        "blocksTravelled": 27738,
+        "blocksBroken": 1069,
+        "blocksPlaced": 928,
         "deepestY": 106,
-        "lastSeen": 1781034612,
+        "lastSeen": 1781034732,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",

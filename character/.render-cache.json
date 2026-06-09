@@ -1,6 +1,6 @@
 {
  "Raschuetzer": {
-  "hash": "2204141665511c59c753c667f8cee3d94d92ebcb",
+  "hash": "e623c8f43439c7313b450f40916afa47daa21912",
   "info": {
    "class": "tinker",
    "items": [
@@ -20,12 +20,10 @@
     "Cursed gemstone",
     "Malefactor whitewood mask",
     "Forlorn Hope belt",
-    "Merchant bracelet",
-    "Fur coat",
-    "Fur coat"
+    "Merchant bracelet"
    ],
    "frames": 16,
-   "v": 1780406719
+   "v": 1781034763
   }
  },
  "Eghetti": {
@@ -73,7 +71,7 @@
   }
  },
  "AddyBuschu": {
-  "hash": "41aaf4b7b57d57f0ce95b6b2ad801b10b914e197",
+  "hash": "b4f4776d9ebbd7035fc637062665dcdb2d41887e",
   "info": {
    "class": "homesteader",
    "items": [
@@ -82,7 +80,7 @@
     "mustache",
     "beard",
     "facialexpression",
-    "Red fox fur trapper hat",
+    "Flower wreath",
     "Rotwalker cape",
     "Rotwalker cape",
     "Tattered crimson tunic",
@@ -92,12 +90,10 @@
     "Acorn amulet",
     "Rotten king mask",
     "Marketeer belt",
-    "Leather bracers",
-    "Fur coat",
-    "Fur coat"
+    "Leather bracers"
    ],
    "frames": 16,
-   "v": 1781034161
+   "v": 1781034784
   }
  },
  "Barberschascher": {
