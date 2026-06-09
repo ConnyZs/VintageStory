@@ -1,5 +1,5 @@
 {
-  "generated": "20260610-000710",
+  "generated": "20260610-000911",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1332,7 +1332,7 @@
         "blocksBroken": 1806,
         "blocksPlaced": 56,
         "deepestY": 40,
-        "lastSeen": 1781042778,
+        "lastSeen": 1781042898,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1581,11 +1581,11 @@
         "mobKills": 64,
         "playerKills": 0,
         "playtimeHours": 8.2,
-        "blocksTravelled": 39486,
-        "blocksBroken": 2946,
-        "blocksPlaced": 1087,
+        "blocksTravelled": 39535,
+        "blocksBroken": 2952,
+        "blocksPlaced": 1092,
         "deepestY": 97,
-        "lastSeen": 1781042778,
+        "lastSeen": 1781042898,
         "gear": [
           "Flower wreath",
           "Rotwalker cape",
@@ -1693,8 +1693,8 @@
           },
           {
             "slot": "bag-4",
-            "code": "butchering:butcherybag-standard",
-            "name": "Hide Butchering Bag"
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           }
         ],
         "skin": {
@@ -1726,11 +1726,11 @@
         "mobKills": 19,
         "playerKills": 0,
         "playtimeHours": 9.3,
-        "blocksTravelled": 37099,
+        "blocksTravelled": 37366,
         "blocksBroken": 1757,
-        "blocksPlaced": 1521,
+        "blocksPlaced": 1526,
         "deepestY": 106,
-        "lastSeen": 1781042778,
+        "lastSeen": 1781042898,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
