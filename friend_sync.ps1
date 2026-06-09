@@ -202,9 +202,24 @@ $cacheDir = Join-Path $dataParent "Cache"
 if (Test-Path -LiteralPath $cacheDir) {
   $ats = Get-ChildItem -LiteralPath $cacheDir -Filter "*.ats" -File -Recurse -ErrorAction SilentlyContinue
   if ($ats.Count -gt 0) {
-    Write-Host "Clearing $($ats.Count) texture cache file(s) from $cacheDir ..."
+    Write-Host "Clearing $($ats.Count) texture atlas cache file(s) ..."
     $ats | Remove-Item -Force -ErrorAction SilentlyContinue
   }
+  # clear mod unpack cache to force re-extraction (fixes missing textures after mod updates)
+  $unpackDir = Join-Path $cacheDir "unpack"
+  if (Test-Path -LiteralPath $unpackDir) {
+    $entries = Get-ChildItem -LiteralPath $unpackDir -ErrorAction SilentlyContinue
+    if ($entries.Count -gt 0) {
+      Write-Host "Clearing mod unpack cache ($($entries.Count) entries) ..."
+      $entries | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue
+    }
+  }
+}
+# delete stale WindowStorageLib config — float value where int expected causes parse error on SP load
+$modCfg = Join-Path $dataParent "ModConfig\windowstoragelibconfig.json"
+if (Test-Path -LiteralPath $modCfg) {
+  Remove-Item -LiteralPath $modCfg -Force -ErrorAction SilentlyContinue
+  Write-Host "Cleared WindowStorageLib config (will regenerate on next launch)."
 }
 
 Write-Host "`nDone. Backup kept at $backup." -ForegroundColor Green
