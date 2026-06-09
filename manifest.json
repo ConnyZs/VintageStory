@@ -1,7 +1,7 @@
 {
   "game_version": "1.22.3",
   "generated": "20260610-000000",
-  "count": 79,
+  "count": 75,
   "mods": [
     {
       "filename": "windmillsailfix.zip",
@@ -634,15 +634,6 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/translocatorengineeringredux_1.6.6.zip"
     },
     {
-      "filename": "tstoolsr_v3.1.2.zip",
-      "sha256": "3c26909658346cd235bcecaac0220a9bc1d37fcea1e927198a7a2c78bff3f034",
-      "size": 3379117,
-      "modid": "tstools",
-      "version": "3.1.2",
-      "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/tstoolsr_v3.1.2.zip"
-    },
-    {
       "filename": "usefultraders-v2.5.2.zip",
       "sha256": "d03ab1d5df4c6fe80dcfe6fe556359057ebc414a6f9e49d9349495358b5acd97",
       "size": 1020639,
@@ -677,33 +668,6 @@
       "version": "1.5.7",
       "name": null,
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/vsroofing_1.5.7.zip"
-    },
-    {
-      "filename": "backpacks_0.1.0.zip",
-      "sha256": "25c9d9ed84fc6a9488582dd8749754e614cf572dfdba81f349ee7dce57e44f69",
-      "size": 84441,
-      "modid": "backpacks",
-      "version": "0.1.0",
-      "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/backpacks_0.1.0.zip"
-    },
-    {
-      "filename": "overhaullib_2.0.8.zip",
-      "sha256": "b5d0d077fc01af6c2e24e6d36b9825597ae1972f9d2fa880ff65c0037e7d329e",
-      "size": 45748,
-      "modid": "overhaullib",
-      "version": "2.0.8",
-      "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/overhaullib_2.0.8.zip"
-    },
-    {
-      "filename": "playerinventorylib_0.0.2.zip",
-      "sha256": "f490166b8b5f1c4be4112c03cd12beed7bc1070d92baf2ebd8a111e57498b3f5",
-      "size": 101423,
-      "modid": "playerinventorylib",
-      "version": "0.0.2",
-      "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/playerinventorylib_0.0.2.zip"
     },
     {
       "filename": "labeledtrunk-1.1.0.zip",
