@@ -64,10 +64,12 @@
     "Acorn amulet",
     "Rotten king mask",
     "Marketeer belt",
-    "Leather bracers"
+    "Leather bracers",
+    "Rotwalker coat",
+    "Rotwalker coat"
    ],
    "frames": 16,
-   "v": 1781034784
+   "v": 1781034884
   },
   "Moritz": {
    "class": "mason",
@@ -80,12 +82,10 @@
     "Workmans pants",
     "Forlorn Hope shoes",
     "Scribe gloves",
-    "Sturdy belt",
-    "Fur coat",
-    "Fur coat"
+    "Sturdy belt"
    ],
    "frames": 16,
-   "v": 1780433008
+   "v": 1781034902
   },
   "Barberschascher": {
    "class": "miner",

@@ -1,5 +1,5 @@
 {
-  "generated": "20260609-215222",
+  "generated": "20260609-215423",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1308,11 +1308,11 @@
         "mobKills": 14,
         "playerKills": 0,
         "playtimeHours": 11.2,
-        "blocksTravelled": 18832,
-        "blocksBroken": 332,
+        "blocksTravelled": 18863,
+        "blocksBroken": 380,
         "blocksPlaced": 36,
-        "deepestY": 57,
-        "lastSeen": 1781034732,
+        "deepestY": 55,
+        "lastSeen": 1781034852,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1551,7 +1551,7 @@
       "name": "AddyBuschu",
       "role": "suplayer",
       "first_join": "04/22/2026 17:55",
-      "last_join": "06/09/2026 17:19",
+      "last_join": "06/09/2026 19:49",
       "last_char": "04/25/2026 15:34",
       "stats": {
         "uid": "MT3maN90oN2gwGyklJR20Gu1",
@@ -1561,11 +1561,11 @@
         "mobKills": 43,
         "playerKills": 0,
         "playtimeHours": 6.0,
-        "blocksTravelled": 29580,
-        "blocksBroken": 2697,
-        "blocksPlaced": 903,
+        "blocksTravelled": 29626,
+        "blocksBroken": 2700,
+        "blocksPlaced": 906,
         "deepestY": 97,
-        "lastSeen": 1781034732,
+        "lastSeen": 1781034852,
         "gear": [
           "Flower wreath",
           "Rotwalker cape",
@@ -1577,6 +1577,7 @@
           "Rotten king mask",
           "Marketeer belt",
           "Leather bracers",
+          "Rotwalker coat",
           "Black bear hide helmet",
           "Black bear hide body armor"
         ],
@@ -1640,6 +1641,12 @@
             "icon": "character/icons/arm-leather-bracers.png"
           },
           {
+            "slot": "upperbodyover",
+            "code": "game:clothes-upperbodyover-rotwalker",
+            "name": "Rotwalker coat",
+            "icon": "character/icons/upperbodyover-rotwalker.png"
+          },
+          {
             "slot": "armorhead",
             "code": "game:armor-head-hide-bear-black",
             "name": "Black bear hide helmet"
@@ -1666,8 +1673,8 @@
           },
           {
             "slot": "bag-4",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "code": "butchering:butcherybag-standard",
+            "name": "Hide Butchering Bag"
           }
         ],
         "skin": {
@@ -1698,20 +1705,19 @@
         "deaths": 0,
         "mobKills": 9,
         "playerKills": 0,
-        "playtimeHours": 7.0,
-        "blocksTravelled": 27738,
+        "playtimeHours": 7.1,
+        "blocksTravelled": 27799,
         "blocksBroken": 1069,
         "blocksPlaced": 928,
         "deepestY": 106,
-        "lastSeen": 1781034732,
+        "lastSeen": 1781034852,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
           "Workmans pants",
           "Forlorn Hope shoes",
           "Scribe gloves",
-          "Sturdy belt",
-          "Fur coat"
+          "Sturdy belt"
         ],
         "gearDetail": [
           {
@@ -1748,12 +1754,6 @@
             "code": "game:clothes-waist-sturdy-belt",
             "name": "Sturdy belt",
             "icon": "character/icons/waist-sturdy-belt.png"
-          },
-          {
-            "slot": "upperbodyover",
-            "code": "game:clothes-upperbodyover-fur-coat",
-            "name": "Fur coat",
-            "icon": "character/icons/upperbodyover-fur-coat.png"
           },
           {
             "slot": "bag-1",
