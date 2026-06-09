@@ -1,7 +1,7 @@
 {
   "game_version": "1.22.3",
   "generated": "20260609-183501",
-  "count": 75,
+  "count": 76,
   "mods": [
     {
       "filename": "windmillsailfix.zip",
@@ -677,6 +677,15 @@
       "version": "1.5.7",
       "name": null,
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/vsroofing_1.5.7.zip"
+    },
+    {
+      "filename": "labeledtrunk-1.1.0.zip",
+      "sha256": "1277dee0e650cce00908df19e0f615fad6ba1b96adbbc55426ee433435992fab",
+      "size": 10927,
+      "modid": "labeledtrunk",
+      "version": "1.1.0",
+      "name": "Labeled Trunks",
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/labeledtrunk-1.1.0.zip"
     }
   ],
   "optional": [
