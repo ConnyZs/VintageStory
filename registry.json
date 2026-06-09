@@ -1,5 +1,5 @@
 {
-  "generated": "20260609-182710",
+  "generated": "20260609-183005",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -531,9 +531,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "0.6.12",
-      "build_version": "0.6.12",
+      "build_version": "0.6.13",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -656,12 +656,12 @@
       "on_server": true,
       "link": "https://mods.vintagestory.at/betterloot",
       "server_state": "yes",
-      "avail": "likely",
-      "note": "no 1.22 build yet \u2014 1.21 build likely works (installs)",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
       "version": "2.0.1",
-      "build_version": "2.0.1",
-      "build_branch": "1.21",
-      "update_pending": false,
+      "build_version": "2.0.2",
+      "build_branch": "1.22",
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -947,9 +947,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.2.0",
-      "build_version": "1.2.0",
+      "build_version": "1.3.0",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
