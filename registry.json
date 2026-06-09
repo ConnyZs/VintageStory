@@ -1,5 +1,5 @@
 {
-  "generated": "20260609-184316",
+  "generated": "20260609-184516",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1308,11 +1308,11 @@
         "mobKills": 9,
         "playerKills": 0,
         "playtimeHours": 8.9,
-        "blocksTravelled": 9361,
+        "blocksTravelled": 9585,
         "blocksBroken": 32,
         "blocksPlaced": 24,
         "deepestY": 107,
-        "lastSeen": 1781023363,
+        "lastSeen": 1781023459,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
