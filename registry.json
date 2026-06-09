@@ -1,5 +1,5 @@
 {
-  "generated": "20260609-234302",
+  "generated": "20260609-234502",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1312,7 +1312,7 @@
         "blocksBroken": 1805,
         "blocksPlaced": 54,
         "deepestY": 40,
-        "lastSeen": 1781041337,
+        "lastSeen": 1781041462,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1440,12 +1440,12 @@
         "deaths": 0,
         "mobKills": 22,
         "playerKills": 0,
-        "playtimeHours": 8.3,
-        "blocksTravelled": 13472,
+        "playtimeHours": 8.4,
+        "blocksTravelled": 13476,
         "blocksBroken": 144,
         "blocksPlaced": 138,
         "deepestY": 108,
-        "lastSeen": 1781041337,
+        "lastSeen": 1781041462,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -1557,15 +1557,15 @@
         "uid": "MT3maN90oN2gwGyklJR20Gu1",
         "name": "AddyBuschu",
         "class": "homesteader",
-        "deaths": 10,
-        "mobKills": 57,
+        "deaths": 11,
+        "mobKills": 59,
         "playerKills": 0,
         "playtimeHours": 7.8,
-        "blocksTravelled": 37919,
-        "blocksBroken": 2929,
-        "blocksPlaced": 1062,
+        "blocksTravelled": 38088,
+        "blocksBroken": 2932,
+        "blocksPlaced": 1064,
         "deepestY": 97,
-        "lastSeen": 1781041337,
+        "lastSeen": 1781041462,
         "gear": [
           "Flower wreath",
           "Rotwalker cape",
@@ -1655,26 +1655,6 @@
             "slot": "armorbody",
             "code": "game:armor-body-hide-bear-black",
             "name": "Black bear hide body armor"
-          },
-          {
-            "slot": "bag-1",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-2",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-3",
-            "code": "butchering:butcherybag-standard",
-            "name": "Hide Butchering Bag"
-          },
-          {
-            "slot": "bag-4",
-            "code": "butchering:butcherybag-standard",
-            "name": "Hide Butchering Bag"
           }
         ],
         "skin": {
@@ -1706,11 +1686,11 @@
         "mobKills": 15,
         "playerKills": 0,
         "playtimeHours": 8.9,
-        "blocksTravelled": 35762,
-        "blocksBroken": 1620,
-        "blocksPlaced": 1425,
+        "blocksTravelled": 35786,
+        "blocksBroken": 1627,
+        "blocksPlaced": 1434,
         "deepestY": 106,
-        "lastSeen": 1781041337,
+        "lastSeen": 1781041462,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
