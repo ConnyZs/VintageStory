@@ -1,5 +1,5 @@
 {
-  "generated": "20260610-000309",
+  "generated": "20260610-000520",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1115,7 +1115,7 @@
       "proposed": false
     },
     {
-      "name": "Weapon Pack Alpha unofficial 1.18/1.19/1.20/1.21 update repack",
+      "name": "Weapon Pack Alpha (quenchable)",
       "modid": "weaponpackalphaunoff",
       "section": "1.22",
       "category": "Weapons",
@@ -1123,12 +1123,14 @@
       "link": "https://mods.vintagestory.at/show/mod/6522",
       "server_state": "yes",
       "avail": "available",
-      "note": "available for 1.22 (installs on update)",
+      "note": "custom 1.9.0 build \u2014 quenching, tempering and sharpening added",
       "version": "1.9.0",
       "build_version": "1.8.2",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": false
+      "proposed": false,
+      "custom": true,
+      "repo_link": "https://mods.vintagestory.at/show/mod/6522"
     },
     {
       "name": "Window Storage",
@@ -1325,12 +1327,12 @@
         "deaths": 1,
         "mobKills": 19,
         "playerKills": 0,
-        "playtimeHours": 13.3,
-        "blocksTravelled": 27882,
+        "playtimeHours": 13.4,
+        "blocksTravelled": 27886,
         "blocksBroken": 1806,
         "blocksPlaced": 56,
         "deepestY": 40,
-        "lastSeen": 1781042537,
+        "lastSeen": 1781042673,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1459,11 +1461,11 @@
         "mobKills": 22,
         "playerKills": 0,
         "playtimeHours": 8.7,
-        "blocksTravelled": 14857,
-        "blocksBroken": 178,
-        "blocksPlaced": 182,
+        "blocksTravelled": 14899,
+        "blocksBroken": 183,
+        "blocksPlaced": 189,
         "deepestY": 108,
-        "lastSeen": 1781042537,
+        "lastSeen": 1781042690,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -1578,12 +1580,12 @@
         "deaths": 15,
         "mobKills": 64,
         "playerKills": 0,
-        "playtimeHours": 8.1,
-        "blocksTravelled": 39301,
+        "playtimeHours": 8.2,
+        "blocksTravelled": 39428,
         "blocksBroken": 2946,
-        "blocksPlaced": 1086,
+        "blocksPlaced": 1087,
         "deepestY": 97,
-        "lastSeen": 1781042537,
+        "lastSeen": 1781042673,
         "gear": [
           "Flower wreath",
           "Rotwalker cape",
@@ -1686,13 +1688,13 @@
           },
           {
             "slot": "bag-3",
-            "code": "butchering:butcherybag-standard",
-            "name": "Hide Butchering Bag"
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           },
           {
             "slot": "bag-4",
-            "code": "butchering:butcherybag-standard",
-            "name": "Hide Butchering Bag"
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           }
         ],
         "skin": {
@@ -1723,12 +1725,12 @@
         "deaths": 0,
         "mobKills": 19,
         "playerKills": 0,
-        "playtimeHours": 9.2,
-        "blocksTravelled": 36913,
-        "blocksBroken": 1719,
-        "blocksPlaced": 1509,
+        "playtimeHours": 9.3,
+        "blocksTravelled": 36997,
+        "blocksBroken": 1740,
+        "blocksPlaced": 1519,
         "deepestY": 106,
-        "lastSeen": 1781042537,
+        "lastSeen": 1781042673,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
