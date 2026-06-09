@@ -5,10 +5,11 @@
   Safety (same as the Python version):
    * Touches ONLY your Vintage Story Mods folder. Nothing else.
    * Shows the plan first and asks before changing anything (or pass -Apply to skip the prompt).
-   * Backs up your whole Mods folder to a timestamped .zip before any change.
+   * Backs up your Mods folder to VintagestoryData\Mods_Backup_TIMESTAMP.zip before any change.
    * Verifies SHA-256 of every download; a bad download is discarded, never installed.
    * Never removes a mod whose id is not in the manifest (keeps your personal mods).
-   * Optional mods (shaders/foliage/HUD) only sync if you already have them and they're enabled.
+   * Optional mods (shaders/foliage/HUD): updated if already installed (enabled or disabled);
+     if not installed at all, you are asked individually whether you want each one.
    * No admin rights, no system changes.
 
   Run: double-click run-friend-sync.bat, OR:
