@@ -1,5 +1,5 @@
 {
-  "generated": "20260609-212211",
+  "generated": "20260609-212412",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1308,11 +1308,11 @@
         "mobKills": 13,
         "playerKills": 0,
         "playtimeHours": 10.7,
-        "blocksTravelled": 17440,
-        "blocksBroken": 325,
-        "blocksPlaced": 34,
+        "blocksTravelled": 17548,
+        "blocksBroken": 326,
+        "blocksPlaced": 35,
         "deepestY": 107,
-        "lastSeen": 1781032814,
+        "lastSeen": 1781033049,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1448,11 +1448,11 @@
         "mobKills": 20,
         "playerKills": 0,
         "playtimeHours": 6.2,
-        "blocksTravelled": 11106,
+        "blocksTravelled": 11331,
         "blocksBroken": 89,
         "blocksPlaced": 72,
-        "deepestY": 109,
-        "lastSeen": 1781032814,
+        "deepestY": 108,
+        "lastSeen": 1781033015,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -1567,12 +1567,12 @@
         "deaths": 3,
         "mobKills": 40,
         "playerKills": 0,
-        "playtimeHours": 5.5,
-        "blocksTravelled": 27199,
-        "blocksBroken": 2670,
-        "blocksPlaced": 863,
+        "playtimeHours": 5.6,
+        "blocksTravelled": 27527,
+        "blocksBroken": 2679,
+        "blocksPlaced": 864,
         "deepestY": 97,
-        "lastSeen": 1781032814,
+        "lastSeen": 1781033015,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -1673,16 +1673,6 @@
             "slot": "bag-2",
             "code": "game:backpack-normal",
             "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-3",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-4",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
           }
         ],
         "skin": {
@@ -1714,11 +1704,11 @@
         "mobKills": 9,
         "playerKills": 0,
         "playtimeHours": 6.6,
-        "blocksTravelled": 24952,
+        "blocksTravelled": 25411,
         "blocksBroken": 1026,
         "blocksPlaced": 853,
         "deepestY": 106,
-        "lastSeen": 1781032814,
+        "lastSeen": 1781033015,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
