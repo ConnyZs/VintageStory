@@ -14,10 +14,11 @@ exit /b
   Safety (same as the Python version):
    * Touches ONLY your Vintage Story Mods folder. Nothing else.
    * Shows the plan first and asks before changing anything (or pass -Apply to skip the prompt).
-   * Backs up your whole Mods folder to a timestamped .zip before any change.
+   * Backs up your Mods folder to VintagestoryData\Mods_Backup_TIMESTAMP.zip before any change.
    * Verifies SHA-256 of every download; a bad download is discarded, never installed.
    * Never removes a mod whose id is not in the manifest (keeps your personal mods).
-   * Optional mods (shaders/foliage/HUD) only sync if you already have them and they're enabled.
+   * Optional mods (shaders/foliage/HUD): updated if already installed (enabled or disabled);
+     if not installed at all, you are asked individually whether you want each one.
    * No admin rights, no system changes.
 
   Run: double-click run-friend-sync.bat, OR:
@@ -122,13 +123,13 @@ try { $newCache | ConvertTo-Json | Set-Content -LiteralPath $cacheFile -Encoding
 $disabled = Get-Disabled $modsDir
 $present  = @{}; foreach ($k in $installed.Keys) { $present[$k] = $true }
 
-$toGet=@(); $toRemove=@(); $ok=@(); $skipped=@(); $problems=@()
+$toGet=@(); $toRemove=@(); $ok=@(); $skipped=@(); $problems=@(); $promptMods=@()
 $wantFiles=@{}; $useModids=@{}
 
 function Consider($m, [bool]$optional) {
   $mid=$m.modid; $fn=$m.filename; $sha=$m.sha256; $url=$m.url
   if ($optional) {
-    if (-not $present.ContainsKey($mid)) { $script:skipped += "$mid (not installed - left alone)"; return }
+    if (-not $present.ContainsKey($mid)) { $script:promptMods += $m; return }
     # disabled-but-installed: still sync the zip so VS picks up the update if re-enabled
   }
   $script:useModids[$mid]=$true
@@ -174,6 +175,21 @@ if ($forceRemove.Count) { Write-Host ("To remove (retired mods): {0}" -f $forceR
 if ($skipped.Count) { Write-Host ("Optional left alone: {0}" -f $skipped.Count); $skipped | ForEach-Object { Write-Host "    . $_" } }
 if ($problems.Count) { Write-Host ("Manual (no URL): {0}" -f $problems.Count) -ForegroundColor Yellow; $problems | ForEach-Object { Write-Host "    ! $_" } }
 
+# ---- prompt for optional mods not currently installed (interactive mode only) ----
+if (-not $Apply -and $promptMods.Count -gt 0) {
+  Write-Host ""
+  Write-Host "Optional mods available (not installed on your machine):" -ForegroundColor Cyan
+  foreach ($m in $promptMods) {
+    $label = if ($m.name) { $m.name } else { $m.modid }
+    $ans = Read-Host "  Install '$label'? (y/N)"
+    if ($ans -match '^(y|yes)$') {
+      $toGet += $m; $wantFiles[$m.filename] = $true; $useModids[$m.modid] = $true
+    } else {
+      $skipped += "$($m.modid) (declined)"
+    }
+  }
+}
+
 if (($toGet.Count -eq 0) -and ($toRemove.Count -eq 0) -and ($mbsRemove.Count -eq 0) -and ($forceRemove.Count -eq 0)) {
   Write-Host "`nAlready in sync. Nothing to do." -ForegroundColor Green; exit 0
 }
@@ -183,8 +199,9 @@ if (-not $Apply) {
 }
 
 # ---- backup first ----
+$dataParent = Split-Path $modsDir -Parent
 $stamp = Get-Date -Format "yyyyMMdd-HHmmss"
-$backup = Join-Path $env:USERPROFILE "VSmods-backup-$stamp.zip"
+$backup = Join-Path $dataParent "Mods_Backup_$stamp.zip"
 Write-Host "`nBacking up Mods folder -> $backup"
 Compress-Archive -Path (Join-Path $modsDir '*') -DestinationPath $backup -Force
 
@@ -220,7 +237,6 @@ foreach ($r in $forceRemove) {
   if (Test-Path -LiteralPath $rp) { Remove-Item -LiteralPath $rp -Force; Write-Host "  removed retired mod $r" }
 }
 # clear VS texture atlas cache so mod changes take effect without stale-atlas artefacts
-$dataParent = Split-Path $modsDir -Parent
 $cacheDir = Join-Path $dataParent "Cache"
 if (Test-Path -LiteralPath $cacheDir) {
   $ats = Get-ChildItem -LiteralPath $cacheDir -Filter "*.ats" -File -Recurse -ErrorAction SilentlyContinue
