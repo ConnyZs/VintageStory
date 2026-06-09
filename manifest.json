@@ -2,6 +2,7 @@
   "game_version": "1.22.3",
   "generated": "20260610-000000",
   "count": 75,
+  "remove_modids": ["tstools", "backpacks", "overhaullib", "playerinventorylib"],
   "mods": [
     {
       "filename": "windmillsailfix.zip",

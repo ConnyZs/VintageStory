@@ -145,6 +145,14 @@ function Consider($m, [bool]$optional) {
 foreach ($m in $man.mods)     { Consider $m $false }
 foreach ($m in $man.optional) { Consider $m $true }
 
+# active removals: modids the manifest says must be deleted from the client
+$forceRemove=@()
+if ($man.remove_modids) {
+  foreach ($mid in $man.remove_modids) {
+    if ($installed.ContainsKey($mid)) { $forceRemove += $installed[$mid] }
+  }
+}
+
 # ModsByServer cleanup: redundant server-pushed copies of mods we now have
 $mbs = Join-Path (Split-Path $modsDir -Parent) "ModsByServer"
 $mbsRemove=@()
@@ -161,10 +169,12 @@ foreach ($m in $toGet) { Write-Host ("    + {0}  ({1})" -f $m.filename, $(if($m.
 $toRemove = $toRemove | Sort-Object -Unique
 if ($toRemove.Count) { Write-Host ("To replace (old versions): {0}" -f $toRemove.Count); $toRemove | ForEach-Object { Write-Host "    - $_" } }
 if ($mbsRemove.Count) { Write-Host ("ModsByServer to clean: {0}" -f $mbsRemove.Count); $mbsRemove | ForEach-Object { Write-Host "    - ModsByServer\$_" } }
+$forceRemove = $forceRemove | Sort-Object -Unique
+if ($forceRemove.Count) { Write-Host ("To remove (retired mods): {0}" -f $forceRemove.Count) -ForegroundColor Yellow; $forceRemove | ForEach-Object { Write-Host "    x $_" } }
 if ($skipped.Count) { Write-Host ("Optional left alone: {0}" -f $skipped.Count); $skipped | ForEach-Object { Write-Host "    . $_" } }
 if ($problems.Count) { Write-Host ("Manual (no URL): {0}" -f $problems.Count) -ForegroundColor Yellow; $problems | ForEach-Object { Write-Host "    ! $_" } }
 
-if (($toGet.Count -eq 0) -and ($toRemove.Count -eq 0) -and ($mbsRemove.Count -eq 0)) {
+if (($toGet.Count -eq 0) -and ($toRemove.Count -eq 0) -and ($mbsRemove.Count -eq 0) -and ($forceRemove.Count -eq 0)) {
   Write-Host "`nAlready in sync. Nothing to do." -ForegroundColor Green; exit 0
 }
 if (-not $Apply) {
@@ -204,6 +214,10 @@ foreach ($r in $toRemove) {
 foreach ($r in $mbsRemove) {
   $rp = Join-Path $mbs $r
   if (Test-Path -LiteralPath $rp) { Remove-Item -LiteralPath $rp -Force; Write-Host "  cleaned ModsByServer\$r" }
+}
+foreach ($r in $forceRemove) {
+  $rp = Join-Path $modsDir $r
+  if (Test-Path -LiteralPath $rp) { Remove-Item -LiteralPath $rp -Force; Write-Host "  removed retired mod $r" }
 }
 # clear VS texture atlas cache so mod changes take effect without stale-atlas artefacts
 $dataParent = Split-Path $modsDir -Parent
