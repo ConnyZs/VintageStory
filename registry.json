@@ -1,5 +1,5 @@
 {
-  "generated": "20260609-202752",
+  "generated": "20260609-202953",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1448,11 +1448,11 @@
         "mobKills": 19,
         "playerKills": 0,
         "playtimeHours": 5.3,
-        "blocksTravelled": 9655,
+        "blocksTravelled": 9679,
         "blocksBroken": 59,
         "blocksPlaced": 46,
         "deepestY": 109,
-        "lastSeen": 1781029571,
+        "lastSeen": 1781029691,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -1565,14 +1565,14 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 3,
-        "mobKills": 37,
+        "mobKills": 38,
         "playerKills": 0,
-        "playtimeHours": 4.6,
-        "blocksTravelled": 23165,
+        "playtimeHours": 4.7,
+        "blocksTravelled": 23360,
         "blocksBroken": 2224,
         "blocksPlaced": 770,
         "deepestY": 97,
-        "lastSeen": 1781029571,
+        "lastSeen": 1781029691,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -1681,8 +1681,8 @@
           },
           {
             "slot": "bag-4",
-            "code": "butchering:butcherybag-standard",
-            "name": "Hide Butchering Bag"
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           }
         ],
         "skin": {
@@ -1714,11 +1714,11 @@
         "mobKills": 7,
         "playerKills": 0,
         "playtimeHours": 5.7,
-        "blocksTravelled": 17402,
-        "blocksBroken": 748,
-        "blocksPlaced": 825,
+        "blocksTravelled": 17644,
+        "blocksBroken": 750,
+        "blocksPlaced": 830,
         "deepestY": 108,
-        "lastSeen": 1781029571,
+        "lastSeen": 1781029691,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
