@@ -475,6 +475,7 @@
       <span class="chip" data-f="optional">Client side</span>
       <span class="chip" data-f="installable">Updated</span>
       <span class="chip" data-f="outdated">Outdated</span>
+      <span class="chip" data-f="custom">Custom</span>
     </div>
   </div>
 
@@ -564,6 +565,7 @@ function passes(m){
   if(filter==="optional"&&m.section!=="optional")return false;
   if(filter==="installable"&&!(m.avail==="available"||m.avail==="likely"))return false;
   if(filter==="outdated"&&!(m.avail==="outdated"||m.avail==="no-build"))return false;
+  if(filter==="custom"&&!m.custom)return false;
   if(query){const h=(m.name+" "+(m.modid||"")+" "+(m.category||"")).toLowerCase();
     if(!h.includes(query))return false;}
   return true;
