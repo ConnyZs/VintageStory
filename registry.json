@@ -1,5 +1,5 @@
 {
-  "generated": "20260609-223638",
+  "generated": "20260609-223838",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1308,11 +1308,11 @@
         "mobKills": 19,
         "playerKills": 0,
         "playtimeHours": 11.9,
-        "blocksTravelled": 21178,
-        "blocksBroken": 1099,
+        "blocksTravelled": 21601,
+        "blocksBroken": 1101,
         "blocksPlaced": 44,
         "deepestY": 51,
-        "lastSeen": 1781037374,
+        "lastSeen": 1781037494,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1440,12 +1440,12 @@
         "deaths": 0,
         "mobKills": 20,
         "playerKills": 0,
-        "playtimeHours": 7.2,
-        "blocksTravelled": 12004,
+        "playtimeHours": 7.3,
+        "blocksTravelled": 12035,
         "blocksBroken": 89,
         "blocksPlaced": 73,
         "deepestY": 108,
-        "lastSeen": 1781037374,
+        "lastSeen": 1781037494,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -1558,14 +1558,14 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 3,
-        "mobKills": 43,
+        "mobKills": 44,
         "playerKills": 0,
         "playtimeHours": 6.7,
-        "blocksTravelled": 31487,
+        "blocksTravelled": 31882,
         "blocksBroken": 2776,
         "blocksPlaced": 962,
         "deepestY": 97,
-        "lastSeen": 1781037374,
+        "lastSeen": 1781037494,
         "gear": [
           "Flower wreath",
           "Rotwalker cape",
@@ -1673,8 +1673,8 @@
           },
           {
             "slot": "bag-4",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "code": "butchering:butcherybag-standard",
+            "name": "Hide Butchering Bag"
           }
         ],
         "skin": {
@@ -1706,11 +1706,11 @@
         "mobKills": 10,
         "playerKills": 0,
         "playtimeHours": 7.8,
-        "blocksTravelled": 31866,
-        "blocksBroken": 1372,
-        "blocksPlaced": 1029,
+        "blocksTravelled": 32091,
+        "blocksBroken": 1382,
+        "blocksPlaced": 1043,
         "deepestY": 106,
-        "lastSeen": 1781037374,
+        "lastSeen": 1781037494,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
