@@ -205,4 +205,15 @@ foreach ($r in $mbsRemove) {
   $rp = Join-Path $mbs $r
   if (Test-Path -LiteralPath $rp) { Remove-Item -LiteralPath $rp -Force; Write-Host "  cleaned ModsByServer\$r" }
 }
-Write-Host "`nDone. Backup kept at $backup. Start the game once to rebuild caches." -ForegroundColor Green
+# clear VS texture atlas cache so mod changes take effect without stale-atlas artefacts
+$dataParent = Split-Path $modsDir -Parent
+$cacheDir = Join-Path $dataParent "Cache"
+if (Test-Path -LiteralPath $cacheDir) {
+  $ats = Get-ChildItem -LiteralPath $cacheDir -Filter "*.ats" -File -Recurse -ErrorAction SilentlyContinue
+  if ($ats.Count -gt 0) {
+    Write-Host "Clearing $($ats.Count) texture cache file(s) from $cacheDir ..."
+    $ats | Remove-Item -Force -ErrorAction SilentlyContinue
+  }
+}
+
+Write-Host "`nDone. Backup kept at $backup." -ForegroundColor Green
