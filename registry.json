@@ -93,16 +93,17 @@
       "modid": "aetstoolsreborn",
       "section": "1.22",
       "category": "Crafting",
-      "on_server": true,
+      "on_server": false,
       "link": "https://mods.vintagestory.at/aetstoolsreborn",
-      "server_state": "yes",
+      "server_state": "no",
       "avail": "available",
-      "note": "available for 1.22 (installs on update)",
+      "note": "removed \u2014 caused overhaullib dependency conflict",
       "version": null,
       "build_version": "3.1.2",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": false
+      "proposed": false,
+      "on_server_raw": "no"
     },
     {
       "name": "Natural Foliage",
