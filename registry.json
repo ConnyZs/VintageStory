@@ -1,5 +1,5 @@
 {
-  "generated": "20260612-182841",
+  "generated": "20260612-183041",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": "20260612-181419",
@@ -1497,9 +1497,9 @@
     },
     {
       "name": "Eghetti",
-      "role": "admin",
+      "role": "suplayer",
       "first_join": "04/22/2026 18:03",
-      "last_join": "06/12/2026 16:27",
+      "last_join": "06/12/2026 16:29",
       "last_char": "04/22/2026 18:08",
       "stats": {
         "uid": "TxqQ4g4qqKs+G5yFUTFmyGYb",
