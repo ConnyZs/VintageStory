@@ -76,5 +76,8 @@ A Culinary Artillery 2.0.0-dev,https://mods.vintagestory.at/aculinaryartillery,T
 Spyglass,https://mods.vintagestory.at/spyglass,Technology,1.22,yes,available for 1.22 (installs on update),spyglass,available,0.6.1
 Useful Traders,https://mods.vintagestory.at/show/mod/19225,QoL,1.22,yes,available for 1.22 (installs on update),usefultraders,available,2.5.2
 ImGui,https://mods.vintagestory.at/imgui,Misc.,1.22,yes,available for 1.22 (installs on update),imgui,available,1.2.6
+Snowshoes - FORKED,https://mods.vintagestory.at/snowshoesforked,Utility,1.22,no,available for 1.22 (installs on update),snowshoesforked,available,
+Sewing Commoner,https://mods.vintagestory.at/sewingcommoner,Crafting,1.22,no,"outdated — no 1.22 or 1.21 build, won't be installed",sewingcommoner,outdated,
+Farseer,https://mods.vintagestory.at/show/mod/22371,Worldgen,1.22,no,available for 1.22 (installs on update),farseer,available,
 Windmill Sail Fix,,Misc.,optional,,,windmillsailfix,available,2.0.0
 Labeled Trunks,,Storage,1.22,yes,,labeledtrunk,available,1.1.0

@@ -1,5 +1,5 @@
 {
-  "generated": "20260612-172235",
+  "generated": "20260612-172814",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -38,7 +38,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 79,
+  "count": 82,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -93,17 +93,16 @@
       "modid": "aetstoolsreborn",
       "section": "1.22",
       "category": "Crafting",
-      "on_server": false,
+      "on_server": true,
       "link": "https://mods.vintagestory.at/aetstoolsreborn",
-      "server_state": "no",
+      "server_state": "yes",
       "avail": "available",
-      "note": "removed \u2014 caused overhaullib dependency conflict",
+      "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "3.1.2",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": false,
-      "on_server_raw": "no"
+      "proposed": false
     },
     {
       "name": "Natural Foliage",
@@ -1276,6 +1275,54 @@
       "build_branch": "1.22",
       "update_pending": true,
       "proposed": false
+    },
+    {
+      "name": "Snowshoes - FORKED",
+      "modid": "snowshoesforked",
+      "section": "1.22",
+      "category": "Utility",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/snowshoesforked",
+      "server_state": "no",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": null,
+      "build_version": "2.2.0",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": true
+    },
+    {
+      "name": "Sewing Commoner",
+      "modid": "sewingcommoner",
+      "section": "1.22",
+      "category": "Crafting",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/sewingcommoner",
+      "server_state": "no",
+      "avail": "outdated",
+      "note": "outdated \u2014 no 1.22 or 1.21 build, won't be installed",
+      "version": null,
+      "build_version": null,
+      "build_branch": null,
+      "update_pending": false,
+      "proposed": true
+    },
+    {
+      "name": "Farseer",
+      "modid": "farseer",
+      "section": "1.22",
+      "category": "Worldgen",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/show/mod/22371",
+      "server_state": "no",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": null,
+      "build_version": "1.4.0",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": true
     },
     {
       "name": "Windmill Sail Fix",
