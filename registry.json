@@ -1,5 +1,5 @@
 {
-  "generated": "20260612-180638",
+  "generated": "20260612-181418",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -7,16 +7,16 @@
   "modset": {
     "server_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset.zip",
     "full_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset-full.zip",
-    "server_count": 78,
-    "full_count": 81,
-    "server_size": 134970254,
-    "full_size": 135772121,
+    "server_count": 79,
+    "full_count": 82,
+    "server_size": 134978667,
+    "full_size": 135780534,
     "client_only": [
       "CoriaenderShaders",
       "Natural Foliage",
       "Status HUD"
     ],
-    "generated": "20260612-173539"
+    "generated": "20260612-181354"
   },
   "sheet_url": "https://docs.google.com/spreadsheets/d/1MZUkPV8T5S2HtIM8LexvDzXFZAidz0b4pdVqxegL5pE/edit",
   "submit_url": "https://script.google.com/macros/s/AKfycbyHYVVekkEQmbHEHJUAA1BjyheZFE_vC0Ook-bTyr3UHyeRkeQgv0j3DimOKLsqAxVmXw/exec",
@@ -1302,11 +1302,11 @@
       "server_state": "yes",
       "avail": "outdated",
       "note": "outdated \u2014 no 1.22 or 1.21 build, won't be installed",
-      "version": null,
+      "version": "1.0.0",
       "build_version": null,
       "build_branch": null,
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Farseer",

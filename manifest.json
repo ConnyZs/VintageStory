@@ -1,7 +1,7 @@
 {
   "game_version": "1.22.3",
-  "generated": "20260612-173449",
-  "count": 78,
+  "generated": "20260612-181306",
+  "count": 79,
   "mods": [
     {
       "filename": "windmillsailfix.zip",
@@ -245,6 +245,15 @@
       "version": "1.3.0",
       "name": null,
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/Sammiches_v1.3.0.zip"
+    },
+    {
+      "filename": "SewingCommoner.zip",
+      "sha256": "a6032f5bad2dd36f827c099cab4bc02313bfe24a2386a3ef8c876b74a1f92d5e",
+      "size": 8301,
+      "modid": "sc",
+      "version": "1.0.0",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/SewingCommoner.zip"
     },
     {
       "filename": "SmithingPlus_1.8.6_1.22.zip",
