@@ -1,8 +1,7 @@
 {
   "game_version": "1.22.3",
-  "generated": "20260610-000000",
-  "count": 75,
-  "remove_modids": ["tstools", "backpacks", "overhaullib", "playerinventorylib", "raccoonplayermodeliiqh", "playermodellib"],
+  "generated": "20260612-173449",
+  "count": 78,
   "mods": [
     {
       "filename": "windmillsailfix.zip",
@@ -482,6 +481,15 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/expanded_matter-3.7.0.zip"
     },
     {
+      "filename": "farseer_1.4.0.zip",
+      "sha256": "bac916746b57c214e31d0d9189c4f7bc8be11b689c238ea7d6cbf32debc302bc",
+      "size": 168172,
+      "modid": "farseer",
+      "version": "1.4.0",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/farseer_1.4.0.zip"
+    },
+    {
       "filename": "foodshelves_3.0.4.zip",
       "sha256": "32646547648debd404b7be753ca8e9a20595bda4bc0ea2f65188420dad069b7c",
       "size": 1046520,
@@ -507,6 +515,15 @@
       "version": "1.5.3",
       "name": null,
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/jsonpatcheslib_1.5.3.zip"
+    },
+    {
+      "filename": "labeledtrunk-1.1.0.zip",
+      "sha256": "1277dee0e650cce00908df19e0f615fad6ba1b96adbbc55426ee433435992fab",
+      "size": 10927,
+      "modid": "labeledtrunk",
+      "version": "1.1.0",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/labeledtrunk-1.1.0.zip"
     },
     {
       "filename": "millwright_1.3.3.zip",
@@ -581,6 +598,15 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/shelfobsessed_v2.1.5.zip"
     },
     {
+      "filename": "snowshoesforked_2.2.0.zip",
+      "sha256": "1e21ea27d1566d10dcaa6412cb99934cf13938c7870c71fbff7650389925410f",
+      "size": 299396,
+      "modid": "snowshoesforked",
+      "version": "2.2.0",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/snowshoesforked_2.2.0.zip"
+    },
+    {
       "filename": "sortablestorage_3.0.0.zip",
       "sha256": "934cfd4e386d427cc1ccf179352586786572958bfb20bfb72c87eee8f715a190",
       "size": 30652,
@@ -635,6 +661,15 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/translocatorengineeringredux_1.6.6.zip"
     },
     {
+      "filename": "tstoolsr_v3.1.2.zip",
+      "sha256": "3c26909658346cd235bcecaac0220a9bc1d37fcea1e927198a7a2c78bff3f034",
+      "size": 3379117,
+      "modid": "tstools",
+      "version": "3.1.2",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/tstoolsr_v3.1.2.zip"
+    },
+    {
       "filename": "usefultraders-v2.5.2.zip",
       "sha256": "d03ab1d5df4c6fe80dcfe6fe556359057ebc414a6f9e49d9349495358b5acd97",
       "size": 1020639,
@@ -644,13 +679,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/usefultraders-v2.5.2.zip"
     },
     {
-      "filename": "vsimgui_1.2.6.zip",
-      "sha256": "464b59985465e8d6d129c30e4e0d4fffa4eae5f699c05ef1ec4a7df6b2e326e6",
-      "size": 11774979,
+      "filename": "vsimgui_1.2.7.zip",
+      "sha256": "27cb87de02034a97d154ea2052687aa2c015870bd1ed0bb7a01b813fa57558e3",
+      "size": 11775114,
       "modid": "vsimgui",
-      "version": "1.2.6",
+      "version": "1.2.7",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/vsimgui_1.2.6.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/vsimgui_1.2.7.zip"
     },
     {
       "filename": "vsinstrumentsbase_2.0.7.zip",
@@ -669,15 +704,6 @@
       "version": "1.5.7",
       "name": null,
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/vsroofing_1.5.7.zip"
-    },
-    {
-      "filename": "labeledtrunk-1.1.0.zip",
-      "sha256": "1277dee0e650cce00908df19e0f615fad6ba1b96adbbc55426ee433435992fab",
-      "size": 10927,
-      "modid": "labeledtrunk",
-      "version": "1.1.0",
-      "name": "Labeled Trunks",
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/labeledtrunk-1.1.0.zip"
     }
   ],
   "optional": [

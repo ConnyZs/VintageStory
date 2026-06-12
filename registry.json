@@ -1,5 +1,5 @@
 {
-  "generated": "20260612-172814",
+  "generated": "20260612-173603",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -7,16 +7,16 @@
   "modset": {
     "server_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset.zip",
     "full_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset-full.zip",
-    "server_count": 75,
-    "full_count": 78,
-    "server_size": 134491268,
-    "full_size": 135293135,
+    "server_count": 78,
+    "full_count": 81,
+    "server_size": 134970254,
+    "full_size": 135772121,
     "client_only": [
       "CoriaenderShaders",
       "Natural Foliage",
       "Status HUD"
     ],
-    "generated": "20260609-183549"
+    "generated": "20260612-173539"
   },
   "sheet_url": "https://docs.google.com/spreadsheets/d/1MZUkPV8T5S2HtIM8LexvDzXFZAidz0b4pdVqxegL5pE/edit",
   "submit_url": "https://script.google.com/macros/s/AKfycbyHYVVekkEQmbHEHJUAA1BjyheZFE_vC0Ook-bTyr3UHyeRkeQgv0j3DimOKLsqAxVmXw/exec",
@@ -98,7 +98,7 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "3.1.2",
       "build_version": "3.1.2",
       "build_branch": "1.22",
       "update_pending": false,
@@ -1270,10 +1270,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.2.6",
+      "version": "1.2.7",
       "build_version": "1.2.7",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -1281,25 +1281,25 @@
       "modid": "snowshoesforked",
       "section": "1.22",
       "category": "Utility",
-      "on_server": false,
+      "on_server": true,
       "link": "https://mods.vintagestory.at/snowshoesforked",
-      "server_state": "no",
+      "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "2.2.0",
       "build_version": "2.2.0",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Sewing Commoner",
       "modid": "sewingcommoner",
       "section": "1.22",
       "category": "Crafting",
-      "on_server": false,
+      "on_server": true,
       "link": "https://mods.vintagestory.at/sewingcommoner",
-      "server_state": "no",
+      "server_state": "yes",
       "avail": "outdated",
       "note": "outdated \u2014 no 1.22 or 1.21 build, won't be installed",
       "version": null,
@@ -1313,16 +1313,16 @@
       "modid": "farseer",
       "section": "1.22",
       "category": "Worldgen",
-      "on_server": false,
+      "on_server": true,
       "link": "https://mods.vintagestory.at/show/mod/22371",
-      "server_state": "no",
+      "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "1.4.0",
       "build_version": "1.4.0",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Windmill Sail Fix",
