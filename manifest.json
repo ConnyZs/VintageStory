@@ -1,7 +1,7 @@
 {
   "game_version": "1.22.3",
-  "generated": "20260612-181306",
-  "count": 79,
+  "generated": "20260612-200835",
+  "count": 80,
   "mods": [
     {
       "filename": "windmillsailfix.zip",
@@ -355,6 +355,15 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/alchemy_2.0.34.zip"
     },
     {
+      "filename": "algernonsterrainsampler_1.3.0.zip",
+      "sha256": "3519c79113808041dcb22fd0fe338c93f6b669699cc8f456546a0c118722e3b4",
+      "size": 179004,
+      "modid": "algernonsterrainsampler",
+      "version": "1.3.0",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/algernonsterrainsampler_1.3.0.zip"
+    },
+    {
       "filename": "allclasses2.2.5.zip",
       "sha256": "86c197d5809b2bd652f8dc723fb247ea3962b61f36e9a1a2ab558defc068480d",
       "size": 467233,
@@ -445,13 +454,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/buzzwords_1.8.2.zip"
     },
     {
-      "filename": "canjewelry_0.6.13.zip",
-      "sha256": "ea48d9dfe74bfe0e9e890b0a798ab9740e92ffa6841f29510c097571a1337db6",
-      "size": 710335,
+      "filename": "canjewelry_0.6.14.zip",
+      "sha256": "165d85132604d85aaad227da9509d078c5a2bf8da759f35b9cb91f8e322c10db",
+      "size": 710358,
       "modid": "canjewelry",
-      "version": "0.6.13",
+      "version": "0.6.14",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/canjewelry_0.6.13.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/canjewelry_0.6.14.zip"
     },
     {
       "filename": "coinage-2.1.9.zip",
