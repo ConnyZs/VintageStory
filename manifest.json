@@ -1,7 +1,7 @@
 {
   "game_version": "1.22.3",
-  "generated": "20260617-000118",
-  "count": 80,
+  "generated": "20260617-001650",
+  "count": 82,
   "mods": [
     {
       "filename": "windmillsailfix.zip",
@@ -155,6 +155,24 @@
       "version": "2.0.0-dev.12",
       "name": null,
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/ExpandedFoods%202.0.0-dev.12.zip"
+    },
+    {
+      "filename": "ExpandedFoods_ChefsTricks 1.0.0-dev.3.zip",
+      "sha256": "970d4bd5c40da39ebf3d432069e835834997477b46db01437c4ec1f98c65a118",
+      "size": 128308,
+      "modid": "efchefstricks",
+      "version": "1.0.0-dev.3",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/ExpandedFoods_ChefsTricks%201.0.0-dev.3.zip"
+    },
+    {
+      "filename": "ExpandedFoods_MealsModule 1.0.0-dev.5.zip",
+      "sha256": "a55cf8014acb996eb8298e1255d006dbbc63a23cf71e4a8d7621f70a30d92789",
+      "size": 103939,
+      "modid": "efmealsmodule",
+      "version": "1.0.0-dev.5",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/ExpandedFoods_MealsModule%201.0.0-dev.5.zip"
     },
     {
       "filename": "Footprints-v1.2.3.zip",
