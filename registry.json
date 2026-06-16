@@ -1,5 +1,5 @@
 {
-  "generated": "20260616-234212",
+  "generated": "20260616-234521",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": "20260612-200949",
@@ -180,9 +180,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "2.2.5",
-      "build_version": "2.2.5",
+      "build_version": "2.2.10",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -388,9 +388,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "0.6.2",
-      "build_version": "0.6.2",
+      "build_version": "0.6.3",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -532,9 +532,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "0.6.14",
-      "build_version": "0.6.14",
+      "build_version": "0.6.16",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -644,9 +644,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "3.2.3",
-      "build_version": "3.2.3",
+      "build_version": "3.2.4",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -820,9 +820,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.8.9",
-      "build_version": "1.8.9",
+      "build_version": "1.8.10",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -1030,9 +1030,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.3.4",
-      "build_version": "1.3.4",
+      "build_version": "1.3.5",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -1110,9 +1110,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.5.7",
-      "build_version": "1.5.7",
+      "build_version": "1.6.2",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -1144,7 +1144,7 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.8.25",
-      "build_version": "1.8.25",
+      "build_version": "1.8.3",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": false
@@ -1208,9 +1208,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "2.0.0-dev.9",
-      "build_version": "2.0.0-dev.9",
+      "build_version": "2.0.0-dev.12",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -1224,9 +1224,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "2.0.0-dev.20",
-      "build_version": "2.0.0-dev.20",
+      "build_version": "2.0.0-dev.21",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -1288,9 +1288,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "2.2.0",
-      "build_version": "2.2.0",
+      "build_version": "2.3.0",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
