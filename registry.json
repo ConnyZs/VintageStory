@@ -1,5 +1,5 @@
 {
-  "generated": "20260617-010617",
+  "generated": "20260619-232141",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": "20260617-001805",
@@ -1415,7 +1415,7 @@
       "name": "Raschuetzer",
       "role": "admin",
       "first_join": "04/22/2026 17:47",
-      "last_join": "06/16/2026 22:23",
+      "last_join": "06/18/2026 01:31",
       "last_char": "04/29/2026 21:30",
       "stats": {
         "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
@@ -1546,9 +1546,9 @@
     },
     {
       "name": "Eghetti",
-      "role": "suplayer",
+      "role": "admin",
       "first_join": "04/22/2026 18:03",
-      "last_join": "06/12/2026 16:29",
+      "last_join": "06/17/2026 19:19",
       "last_char": "04/22/2026 18:08",
       "stats": {
         "uid": "TxqQ4g4qqKs+G5yFUTFmyGYb",
@@ -1668,7 +1668,7 @@
       "name": "AddyBuschu",
       "role": "suplayer",
       "first_join": "04/22/2026 17:55",
-      "last_join": "06/09/2026 19:49",
+      "last_join": "06/17/2026 18:58",
       "last_char": "04/25/2026 15:34",
       "stats": {
         "uid": "MT3maN90oN2gwGyklJR20Gu1",
@@ -1813,7 +1813,7 @@
       "name": "Moritz",
       "role": "suplayer",
       "first_join": "04/22/2026 18:03",
-      "last_join": "06/15/2026 10:12",
+      "last_join": "06/19/2026 09:39",
       "last_char": "04/22/2026 18:05",
       "stats": {
         "uid": "bKc3JB7NGywTi9YbzXu/Qogt",
@@ -1912,7 +1912,7 @@
       "name": "Barberschascher",
       "role": "suplayer",
       "first_join": "05/20/2026 15:50",
-      "last_join": "06/02/2026 20:56",
+      "last_join": "06/17/2026 19:32",
       "last_char": "05/20/2026 15:53",
       "stats": {
         "uid": "UrK7mUY2s/AeUmjXRew0G72x",
