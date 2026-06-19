@@ -1408,6 +1408,24 @@
       "update_pending": false,
       "proposed": false,
       "custom": true
+    },
+    {
+      "name": "Flowers & Mushrooms Cultivation",
+      "modid": "floramycology",
+      "section": "1.22",
+      "category": "Tweak",
+      "on_server": true,
+      "link": null,
+      "repo_link": null,
+      "server_state": "yes",
+      "avail": "available",
+      "note": "custom mod \u2014 cultivate alchemy flowers and mushrooms in garden beds",
+      "version": "1.0.1",
+      "build_version": null,
+      "build_branch": null,
+      "update_pending": false,
+      "proposed": false,
+      "custom": true
     }
   ],
   "crew": [
