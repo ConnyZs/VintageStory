@@ -1,7 +1,7 @@
 {
   "game_version": "1.22.3",
   "generated": "20260617-001650",
-  "count": 82,
+  "count": 83,
   "mods": [
     {
       "filename": "windmillsailfix.zip",
@@ -740,6 +740,15 @@
       "version": "1.6.2",
       "name": null,
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/vsroofing_1.6.2.zip"
+    },
+    {
+      "filename": "floramycology_1.0.1.zip",
+      "sha256": "98a810e212ffb118e5fb512ddd9c105ef5f75aa411986294abd86e3bd9815c5d",
+      "size": 200163,
+      "modid": "floramycology",
+      "version": "1.0.1",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/floramycology_1.0.1.zip"
     }
   ],
   "optional": [
