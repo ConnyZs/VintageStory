@@ -1302,7 +1302,7 @@
       "link": "https://mods.vintagestory.at/sewingcommoner",
       "server_state": "yes",
       "avail": "outdated",
-      "note": "outdated \u2014 no 1.22 or 1.21 build, won't be installed",
+      "note": "outdated \u2014 no 1.22 build, running on server as-is",
       "version": "1.0.0",
       "build_version": null,
       "build_branch": null,
