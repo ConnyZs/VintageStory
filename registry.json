@@ -1,5 +1,5 @@
 {
-  "generated": "20260622-004831",
+  "generated": "20260622-005306",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": "20260617-001805",
@@ -7,16 +7,16 @@
   "modset": {
     "server_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset.zip",
     "full_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset-full.zip",
-    "server_count": 82,
-    "full_count": 85,
-    "server_size": 135987388,
-    "full_size": 136789255,
+    "server_count": 84,
+    "full_count": 87,
+    "server_size": 137119062,
+    "full_size": 137920929,
     "client_only": [
       "CoriaenderShaders",
       "Natural Foliage",
       "Status HUD"
     ],
-    "generated": "20260617-001739"
+    "generated": "20260622-005244"
   },
   "sheet_url": "https://docs.google.com/spreadsheets/d/1MZUkPV8T5S2HtIM8LexvDzXFZAidz0b4pdVqxegL5pE/edit",
   "submit_url": "https://script.google.com/macros/s/AKfycbyHYVVekkEQmbHEHJUAA1BjyheZFE_vC0Ook-bTyr3UHyeRkeQgv0j3DimOKLsqAxVmXw/exec",
@@ -531,10 +531,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "0.6.16",
+      "version": "0.6.17",
       "build_version": "0.6.17",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -643,10 +643,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "3.2.4",
+      "version": "3.2.5",
       "build_version": "3.2.5",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -723,10 +723,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.2.3",
+      "version": "1.2.4",
       "build_version": "1.2.4",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -819,10 +819,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.8.10",
+      "version": "1.8.12",
       "build_version": "1.8.12",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -931,10 +931,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.17.2",
+      "version": "1.17.3",
       "build_version": "1.17.3",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -947,10 +947,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.3.0",
+      "version": "1.3.1",
       "build_version": "1.3.1",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -1077,10 +1077,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.4.2",
+      "version": "1.4.3",
       "build_version": "1.4.3",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -1287,10 +1287,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "2.3.0",
+      "version": "2.3.1",
       "build_version": "2.3.1",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -1383,11 +1383,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "0.4.2",
       "build_version": "0.4.2",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Composter [Finished]",
@@ -1399,11 +1399,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "1.2.2",
       "build_version": "1.2.2",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Windmill Sail Fix",
@@ -1450,9 +1450,9 @@
       "link": null,
       "repo_link": null,
       "server_state": "yes",
-      "avail": "available",
+      "avail": "not-found",
       "note": "custom mod \u2014 cultivate alchemy flowers and mushrooms in garden beds",
-      "version": "1.0.1",
+      "version": null,
       "build_version": null,
       "build_branch": null,
       "update_pending": false,
