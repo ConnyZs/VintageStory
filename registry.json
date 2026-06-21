@@ -1,5 +1,5 @@
 {
-  "generated": "20260622-003458",
+  "generated": "20260622-004232",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": "20260617-001805",
@@ -39,7 +39,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 86,
+  "count": 88,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1372,6 +1372,38 @@
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": false
+    },
+    {
+      "name": "Salty\u00b4s TrashBinned",
+      "modid": "trashbinned",
+      "section": "1.22",
+      "category": "QoL",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/trashbinned",
+      "server_state": "no",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": null,
+      "build_version": "0.4.2",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": true
+    },
+    {
+      "name": "Composter [Finished]",
+      "modid": "composter",
+      "section": "1.22",
+      "category": "Utility",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/composter",
+      "server_state": "no",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": null,
+      "build_version": "1.2.2",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": true
     },
     {
       "name": "Windmill Sail Fix",
