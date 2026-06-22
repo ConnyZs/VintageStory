@@ -1,5 +1,5 @@
 {
-  "generated": "20260622-203257",
+  "generated": "20260622-204258",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": "20260622-140809",
@@ -1465,7 +1465,7 @@
       "name": "Raschuetzer",
       "role": "admin",
       "first_join": "04/22/2026 17:47",
-      "last_join": "06/22/2026 18:21",
+      "last_join": "06/22/2026 18:37",
       "last_char": "04/29/2026 21:30",
       "stats": {
         "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
@@ -2049,8 +2049,8 @@
       "name": "Morsel",
       "role": "suplayer",
       "first_join": "06/22/2026 18:28",
-      "last_join": "06/22/2026 18:28",
-      "last_char": null,
+      "last_join": "06/22/2026 18:38",
+      "last_char": "06/22/2026 18:37",
       "stats": {}
     }
   ],
