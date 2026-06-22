@@ -1,5 +1,5 @@
 {
-  "generated": "20260622-221304",
+  "generated": "20260622-221705",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": "20260622-140809",
@@ -1718,7 +1718,7 @@
       "name": "AddyBuschu",
       "role": "suplayer",
       "first_join": "04/22/2026 17:55",
-      "last_join": "06/22/2026 20:02",
+      "last_join": "06/22/2026 20:16",
       "last_char": "04/25/2026 15:34",
       "stats": {
         "uid": "MT3maN90oN2gwGyklJR20Gu1",
@@ -2049,7 +2049,7 @@
       "name": "Morsel",
       "role": "suplayer",
       "first_join": "06/22/2026 18:28",
-      "last_join": "06/22/2026 20:09",
+      "last_join": "06/22/2026 20:14",
       "last_char": "06/22/2026 18:37",
       "stats": {}
     }
