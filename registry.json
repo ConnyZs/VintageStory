@@ -1,5 +1,5 @@
 {
-  "generated": "20260622-130024",
+  "generated": "20260622-130157",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": "20260622-012640",
@@ -270,9 +270,9 @@
       "modid": "temporalsymphony",
       "section": "1.21",
       "category": "Cosmetics",
-      "on_server": false,
+      "on_server": true,
       "link": "https://mods.vintagestory.at/temporalsymphony",
-      "server_state": "disabled",
+      "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": null,
