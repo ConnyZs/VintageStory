@@ -1,5 +1,5 @@
 {
-  "generated": "20260622-201656",
+  "generated": "20260622-201856",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": "20260622-140809",
@@ -2044,6 +2044,14 @@
           "haircolor": "oldburgundy"
         }
       }
+    },
+    {
+      "name": "Morsel",
+      "role": "suplayer",
+      "first_join": null,
+      "last_join": null,
+      "last_char": null,
+      "stats": {}
     }
   ],
   "actions_v4": true,
