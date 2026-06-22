@@ -1,5 +1,5 @@
 {
-  "generated": "20260622-202657",
+  "generated": "20260622-203257",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": "20260622-140809",
@@ -2048,8 +2048,8 @@
     {
       "name": "Morsel",
       "role": "suplayer",
-      "first_join": null,
-      "last_join": null,
+      "first_join": "06/22/2026 18:28",
+      "last_join": "06/22/2026 18:28",
       "last_char": null,
       "stats": {}
     }
