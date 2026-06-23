@@ -1,6 +1,6 @@
 {
   "game_version": "1.22.3",
-  "generated": "20260622-140648",
+  "generated": "20260623-134141",
   "count": 85,
   "mods": [
     {
@@ -400,13 +400,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/algernonsterrainsampler_1.3.0.zip"
     },
     {
-      "filename": "allclasses2.2.10.zip",
-      "sha256": "3251b8a4f20b8e7a71ff30acc7e807ccbdbb110d44e97eaa5a601d5fdc9db617",
-      "size": 469231,
+      "filename": "allclasses2.3.0.zip",
+      "sha256": "e62d47bd8f071d4e4831beb0bb82af5f39b4f29361510f1ffff83cedfe8f98dd",
+      "size": 476159,
       "modid": "allclasses",
-      "version": "2.2.10",
+      "version": "2.3.0",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/allclasses2.2.10.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/allclasses2.3.0.zip"
     },
     {
       "filename": "animalcages_v5.0.0.zip",
@@ -472,13 +472,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/bricklayers-3.2.2.zip"
     },
     {
-      "filename": "butchering_1.13.4.zip",
-      "sha256": "6dfe4a49adc64b35f1b73b46f2ac9d8952e031154517a54a9cf277716253236b",
-      "size": 1715673,
+      "filename": "butchering_1.13.5.zip",
+      "sha256": "dbce8b11387b1a88cb5f904407f178e12b60fef87053a24dd2e80d4936902107",
+      "size": 1715802,
       "modid": "butchering",
-      "version": "1.13.4",
+      "version": "1.13.5",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/butchering_1.13.4.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/butchering_1.13.5.zip"
     },
     {
       "filename": "buzzwords_1.8.2.zip",
@@ -581,8 +581,8 @@
     },
     {
       "filename": "labeledtrunk-1.1.0.zip",
-      "sha256": "1277dee0e650cce00908df19e0f615fad6ba1b96adbbc55426ee433435992fab",
-      "size": 10927,
+      "sha256": "a5188d50351d408acb1633a28cfce62d18b5dfa658fa2c26bbec200e8f3fafcc",
+      "size": 11257,
       "modid": "labeledtrunk",
       "version": "1.1.0",
       "name": null,
@@ -679,13 +679,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/sortablestorage_3.0.0.zip"
     },
     {
-      "filename": "spinningwheel_1.2.9.zip",
-      "sha256": "c6d504e486078e0ed8237e6602271009f032881cc9300bc5effb1be47846c168",
-      "size": 692700,
+      "filename": "spinningwheel_1.2.11.zip",
+      "sha256": "e2128c93be95112fdbe4b7cae89783e661d2f3c0be0777619a8da71c21666678",
+      "size": 696224,
       "modid": "spinningwheel",
-      "version": "1.2.9",
+      "version": "1.2.11",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/spinningwheel_1.2.9.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/spinningwheel_1.2.11.zip"
     },
     {
       "filename": "spyglass_0.6.1.zip",
