@@ -1,6 +1,6 @@
 {
   "game_version": "1.22.3",
-  "generated": "20260623-174220",
+  "generated": "20260623-175336",
   "count": 93,
   "mods": [
     {
@@ -301,13 +301,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/SewingCommoner.zip"
     },
     {
-      "filename": "SmithingPlus_1.8.6_1.22.zip",
-      "sha256": "1eb089f9817a51f34d377afd66dcb7a536f3ecc818b9071bf47451a3bff3961f",
-      "size": 172908,
+      "filename": "SmithingPlus_1.8.7_1.22.zip",
+      "sha256": "98c34883d7b3ae87809d68e45ed0234eae0577c7df9063ecce6368d556224cf8",
+      "size": 202712,
       "modid": "smithingplus",
-      "version": "1.8.6",
+      "version": "1.8.7",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/SmithingPlus_1.8.6_1.22.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/SmithingPlus_1.8.7_1.22.zip"
     },
     {
       "filename": "StoneRailings.1.4.0.zip",
@@ -625,13 +625,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/jsonpatcheslib_1.5.3.zip"
     },
     {
-      "filename": "labeledtrunk-1.1.0.zip",
-      "sha256": "a5188d50351d408acb1633a28cfce62d18b5dfa658fa2c26bbec200e8f3fafcc",
-      "size": 11257,
+      "filename": "labeledtrunk-1.1.1.zip",
+      "sha256": "f2a094ec6b6d32fb6303cbfb26d88aa702d9a0202c65ab97c8056c3890af902e",
+      "size": 19810,
       "modid": "labeledtrunk",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/labeledtrunk-1.1.0.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/labeledtrunk-1.1.1.zip"
     },
     {
       "filename": "millwright_1.3.3.zip",
