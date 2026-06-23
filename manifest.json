@@ -283,13 +283,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/SewingCommoner.zip"
     },
     {
-      "filename": "SmithingPlus_1.8.6_1.22.zip",
-      "sha256": "1eb089f9817a51f34d377afd66dcb7a536f3ecc818b9071bf47451a3bff3961f",
-      "size": 172908,
+      "filename": "SmithingPlus_1.8.7_1.22.zip",
+      "sha256": "98c34883d7b3ae87809d68e45ed0234eae0577c7df9063ecce6368d556224cf8",
+      "size": 202712,
       "modid": "smithingplus",
-      "version": "1.8.6",
-      "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/SmithingPlus_1.8.6_1.22.zip"
+      "version": "1.8.7",
+      "name": "Smithing Plus",
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/SmithingPlus_1.8.7_1.22.zip"
     },
     {
       "filename": "StoneRailings.1.4.0.zip",
