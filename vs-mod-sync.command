@@ -228,5 +228,27 @@ fi
 typeset WSLCFG="$DATA_DIR/ModConfig/windowstoragelibconfig.json"
 [[ -f "$WSLCFG" ]] && { rm -f "$WSLCFG"; print "Cleared WindowStorageLib config."; }
 
+# ── keep placeonslabs disabled (crashes on Mac near sign blocks) ──────────────
+if [[ -f "$CS" ]]; then
+  CS_PATH="$CS" osascript -l JavaScript << 'JS' 2>/dev/null || true
+ObjC.import('Foundation');
+const path = $.NSProcessInfo.processInfo.environment.objectForKey('CS_PATH').js;
+const raw = ObjC.unwrap($.NSString.alloc.initWithDataEncoding(
+  $.NSData.dataWithContentsOfFile(path), $.NSUTF8StringEncoding));
+try {
+  const d = JSON.parse(raw);
+  let dm = d.disabledMods;
+  if (!dm && d.stringListSettings) dm = d.stringListSettings.disabledMods;
+  if (!dm) { d.disabledMods = []; dm = d.disabledMods; }
+  if (!dm.some(e => String(e).split('@')[0].toLowerCase() === 'placeonslabs')) {
+    dm.push('placeonslabs');
+    const ns = $.NSString.alloc.initWithUTF8String(JSON.stringify(d, null, '\t'));
+    ns.writeToFileAtomicallyEncodingError(path, true, $.NSUTF8StringEncoding, null);
+  }
+} catch(e) {}
+JS
+  print "  placeonslabs kept disabled in clientsettings.json."
+fi
+
 print "\nDone. Backup kept at $BACKUP."
 read -r "?Press Enter to close..."
