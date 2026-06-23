@@ -219,21 +219,11 @@ for r in "${mbs_rm[@]:-}"; do
   [[ -f "$MBS/$r" ]] && { rm -f "$MBS/$r"; print "  cleaned ModsByServer/$r"; }
 done
 
-# ── clear VS texture atlas + unpack cache ─────────────────────────────────────
+# ── clear VS cache ────────────────────────────────────────────────────────────
 typeset CACHE="$DATA_DIR/Cache"
 if [[ -d "$CACHE" ]]; then
-  local -a ats=("${(@f)$(find "$CACHE" -name "*.ats" -type f 2>/dev/null)}")
-  if (( ${#ats} > 0 )); then
-    print "Clearing ${#ats} texture atlas cache file(s) ..."
-    rm -f "${ats[@]}"
-  fi
-  if [[ -d "$CACHE/unpack" ]]; then
-    local -i uc=$(ls -1 "$CACHE/unpack" 2>/dev/null | wc -l | tr -d ' ')
-    if (( uc > 0 )); then
-      print "Clearing mod unpack cache ($uc entries) ..."
-      rm -rf "$CACHE/unpack"/*(N)
-    fi
-  fi
+  print "Clearing game cache ..."
+  rm -rf "$CACHE"
 fi
 typeset WSLCFG="$DATA_DIR/ModConfig/windowstoragelibconfig.json"
 [[ -f "$WSLCFG" ]] && { rm -f "$WSLCFG"; print "Cleared WindowStorageLib config."; }
