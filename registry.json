@@ -1,5 +1,5 @@
 {
-  "generated": "20260623-183202",
+  "generated": "20260623-183354",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": "20260623-134255",
@@ -995,10 +995,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.8.7",
+      "version": "1.8.6",
       "build_version": "1.8.7",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false,
       "custom": true,
       "repo_link": "https://github.com/ConnyZs/SmithingPlus-1.22"
@@ -1434,10 +1434,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "",
-      "version": "1.1.1",
+      "version": "1.1.0",
       "build_version": "1.1.1",
       "build_branch": null,
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false,
       "custom": true
     },
