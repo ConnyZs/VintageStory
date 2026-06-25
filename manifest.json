@@ -1,8 +1,17 @@
 {
   "game_version": "1.22.3",
-  "generated": "20260623-180112",
-  "count": 93,
+  "generated": "20260626-005133",
+  "count": 85,
   "mods": [
+    {
+      "filename": "windmillsailfix.zip",
+      "sha256": "430159799f18174618ea6305cefb527aee34c111dd22445c91bab58471f895e5",
+      "size": 3415,
+      "modid": "windmillsailfix",
+      "version": "2.0.0",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/windmillsailfix.zip"
+    },
     {
       "filename": "ACulinaryArtillery 2.0.0-dev.21.zip",
       "sha256": "2bdd6c86632c24df7f1306ed367fce6a383b2c139a3e9acaf268a886fd0037be",
@@ -67,13 +76,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/BirdsEye_0.1.4.zip"
     },
     {
-      "filename": "BloodTrail-v1.2.3.zip",
-      "sha256": "52a685267312d02951c19072d34ba251725b6aee2fb3ace31c2d4676af654da8",
-      "size": 481250,
+      "filename": "BloodTrail-v1.2.4.zip",
+      "sha256": "0c6910a379ae81519e85a744b517bfcc72609a8762d0dc8b8f5cf15bb2111b83",
+      "size": 483777,
       "modid": "bloodtrail",
-      "version": "1.2.3",
+      "version": "1.2.4",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/BloodTrail-v1.2.3.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/BloodTrail-v1.2.4.zip"
     },
     {
       "filename": "CarryOn-1.22.0_v1.14.2.zip",
@@ -175,15 +184,6 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/ExpandedFoods_MealsModule%201.0.0-dev.5.zip"
     },
     {
-      "filename": "ExtraInfo-v2.2.1.zip",
-      "sha256": "4d6058abbb1e30640db8a8b67b8eba7030da1bc80bc8410a6f6c1fcfb532ca44",
-      "size": 80671,
-      "modid": "extrainfo",
-      "version": "2.2.1",
-      "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/ExtraInfo-v2.2.1.zip"
-    },
-    {
       "filename": "Footprints-v1.2.4.zip",
       "sha256": "daea3f0b8caaeb8eed67fd2aab97e144b516ead1c31959841aacb953cb9edd99",
       "size": 445616,
@@ -220,31 +220,22 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/Forgotten%20Armory_Templar%20v1.4.6.zip"
     },
     {
-      "filename": "FotSA-Pantherinae-v1.2.13.zip",
-      "sha256": "e03c7ba9052e2d83e2c0b6769c1ba3cc19c3b543ac9d6a4bc8d5ddc329dc8418",
-      "size": 2689959,
+      "filename": "FotSA-Pantherinae-v1.2.14.zip",
+      "sha256": "4ff12c045dbb6814427081be8b0c443a934fa484555b679725b20652d5036452",
+      "size": 2651427,
       "modid": "pantherinae",
-      "version": "1.2.13",
+      "version": "1.2.14",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/FotSA-Pantherinae-v1.2.13.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/FotSA-Pantherinae-v1.2.14.zip"
     },
     {
-      "filename": "Molds_v0.3.3.zip",
-      "sha256": "d954871b903973fd7ae877d5ae13bdba31c75716ce8f4779790ef996b796cfcc",
-      "size": 119915,
+      "filename": "Molds_v0.3.4.zip",
+      "sha256": "91e17bf815fd7d7883f9011ed0d08c809228e8852be3440cd61ce828979488a2",
+      "size": 121823,
       "modid": "molds",
-      "version": "0.3.3",
+      "version": "0.3.4",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/Molds_v0.3.3.zip"
-    },
-    {
-      "filename": "NailMold-1.0.2.zip",
-      "sha256": "9335435212b689c1b9d01dbeb25c954d60a02f21b6eed69b500dfb1477196512",
-      "size": 192898,
-      "modid": "nailsmold",
-      "version": "1.0.2",
-      "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/NailMold-1.0.2.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/Molds_v0.3.4.zip"
     },
     {
       "filename": "NoticeBoard_2.0.2.zip",
@@ -319,13 +310,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/TabletopGames-v4.0.0-pre.2.zip"
     },
     {
-      "filename": "TankardsandGoblets_v1.4.3.zip",
-      "sha256": "e680b08d9e9eccd1938765c30af4dce25749401a5c8634be81bc2a62fdc9fb67",
-      "size": 603678,
+      "filename": "TankardsandGoblets_v1.4.4.zip",
+      "sha256": "95a4d123250f45b5c3fac4a7fbac278a2f8f7e16867f02a0d355616ea1c4a421",
+      "size": 608723,
       "modid": "tankardsandgoblets",
-      "version": "1.4.3",
+      "version": "1.4.4",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/TankardsandGoblets_v1.4.3.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/TankardsandGoblets_v1.4.4.zip"
     },
     {
       "filename": "TemporalSymphony_2.3.2.zip",
@@ -508,22 +499,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/canjewelry_0.6.17.zip"
     },
     {
-      "filename": "coinage-2.1.9.zip",
-      "sha256": "a44dfc84d600a9542a0610c24ff8ec390ab1bda60932053548c10cc434be7a98",
-      "size": 229522,
+      "filename": "coinage-2.1.10.zip",
+      "sha256": "c50689f8f1da44167d501047f4b6b83a2e3d061f283cf1a4ab0977b6a25560ac",
+      "size": 229080,
       "modid": "coinage",
-      "version": "2.1.9",
+      "version": "2.1.10",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/coinage-2.1.9.zip"
-    },
-    {
-      "filename": "configlib_1.12.0.zip",
-      "sha256": "7376d892ee4b9dc8d435e4b4b32e964773e770d5f6ec01f2c913ef49b729d9fc",
-      "size": 198885,
-      "modid": "configlib",
-      "version": "1.12.0",
-      "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/configlib_1.12.0.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/coinage-2.1.10.zip"
     },
     {
       "filename": "electricalprogressivebasics_3.2.5.zip",
@@ -587,15 +569,6 @@
       "version": "1.8.12",
       "name": null,
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/gourmand_1.8.12.zip"
-    },
-    {
-      "filename": "improvedhandbookrecipesfork-1222.0.2.zip",
-      "sha256": "db2f8660bdfa06e33f4982e076636826233060e69a20a38b2aa28785508ce9a9",
-      "size": 195458,
-      "modid": "improvedhandbookrecipesfork",
-      "version": "1222.0.2",
-      "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/improvedhandbookrecipesfork-1222.0.2.zip"
     },
     {
       "filename": "jsonpatcheslib_1.5.3.zip",
@@ -794,24 +767,6 @@
       "version": "1.6.2",
       "name": null,
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/vsroofing_1.6.2.zip"
-    },
-    {
-      "filename": "windmillsailfix.zip",
-      "sha256": "430159799f18174618ea6305cefb527aee34c111dd22445c91bab58471f895e5",
-      "size": 3415,
-      "modid": "windmillsailfix",
-      "version": "2.0.0",
-      "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/windmillsailfix.zip"
-    },
-    {
-      "filename": "windmillsailfix.zip",
-      "sha256": "430159799f18174618ea6305cefb527aee34c111dd22445c91bab58471f895e5",
-      "size": 3415,
-      "modid": "windmillsailfix",
-      "version": "2.0.0",
-      "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/windmillsailfix.zip"
     }
   ],
   "optional": [
