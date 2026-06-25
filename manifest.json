@@ -247,15 +247,6 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/NailMold-1.0.2.zip"
     },
     {
-      "filename": "Natural Foliage_v0.04.zip",
-      "sha256": "cc8fc35262b6f2a1092bb7ba0f189a4ec78aa01284f746f72b45f067ccbd11eb",
-      "size": 389801,
-      "modid": "naturalfoliage",
-      "version": "0.0.4",
-      "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/Natural%20Foliage_v0.04.zip"
-    },
-    {
       "filename": "NoticeBoard_2.0.2.zip",
       "sha256": "f904d43d380bea0656d381efa6313fcc6b265f57a774300044925ef9483209cd",
       "size": 466217,
@@ -535,15 +526,6 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/configlib_1.12.0.zip"
     },
     {
-      "filename": "coriaendershaders-v1.2.0.zip",
-      "sha256": "b891314106b3dd11e6378c0723b4d8da81ea695aedaafb68a1cd6e35fd92f22a",
-      "size": 187060,
-      "modid": "coriaendershaders",
-      "version": "1.2.0",
-      "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/coriaendershaders-v1.2.0.zip"
-    },
-    {
       "filename": "electricalprogressivebasics_3.2.5.zip",
       "sha256": "eac382449b41dd7d8cce63acefabf09b08febcd722f5ea1d5a9e8ff536306863",
       "size": 1472576,
@@ -740,15 +722,6 @@
       "version": "0.6.1",
       "name": null,
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/spyglass_0.6.1.zip"
-    },
-    {
-      "filename": "statushudcont_4.3.1.zip",
-      "sha256": "ded7cb4b79d3fede4d5156c79f8f611041be7a2b851bc7b2ccb9dc5906184bd6",
-      "size": 224626,
-      "modid": "statushudcont",
-      "version": "4.3.1",
-      "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/statushudcont_4.3.1.zip"
     },
     {
       "filename": "stonebakeoven_1.3.5.zip",
