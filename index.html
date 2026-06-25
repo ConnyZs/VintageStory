@@ -530,7 +530,7 @@ fetch("registry.json?_="+Date.now()).then(r=>r.json()).then(reg=>{
   document.getElementById("stamp").textContent="updated "+fmt(reg.generated);
   document.getElementById("foot").textContent=reg.count+" mods catalogued";
   const _cts=document.getElementById("checkTs");
-  if(_cts){ const _s=localStorage.getItem("vs_last_check_ts"); _cts.textContent=_s?"last checked "+_s:""; }
+  if(_cts){ const _s=fmt(reg.generated); _cts.textContent=_s?"last checked "+_s:""; }
   const dl=document.getElementById("cats");
   (reg.categories||[]).forEach(c=>{const o=document.createElement("option");o.value=c;dl.appendChild(o);});
   initForm();
