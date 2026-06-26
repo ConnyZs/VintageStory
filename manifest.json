@@ -1,6 +1,6 @@
 {
   "game_version": "1.22.3",
-  "generated": "20260626-184718",
+  "generated": "20260626-190548",
   "count": 86,
   "mods": [
     {
@@ -409,13 +409,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/allclasses2.3.0.zip"
     },
     {
-      "filename": "allhelveworkable_1.0.2.zip",
-      "sha256": "3dfce901fecb08a1450eadcc94c1b0c3a5392deb8baecbfaf33a2973a2250bd5",
-      "size": 2922,
+      "filename": "allhelveworkable_1.0.3.zip",
+      "sha256": "f34c8dd07f91a49b7676213ce0c5d9d1c42e61e7b9149d299e38990afa46fc6f",
+      "size": 2925,
       "modid": "allhelveworkable",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/allhelveworkable_1.0.2.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/allhelveworkable_1.0.3.zip"
     },
     {
       "filename": "animalcages_v5.0.0.zip",
