@@ -1,5 +1,5 @@
 {
-  "generated": "20260626-022428",
+  "generated": "20260626-022520",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": "20260626-005245",
@@ -1131,7 +1131,7 @@
       "update_pending": false,
       "proposed": false,
       "custom": true,
-      "repo_link": "https://mods.vintagestory.at/show/mod/6522"
+      "repo_link": "https://github.com/ConnyZs/WeaponPack-v1.22-SmithingPlus-Compatibility"
     },
     {
       "name": "Window Storage",
@@ -1412,7 +1412,7 @@
       "category": "Misc.",
       "on_server": false,
       "link": null,
-      "repo_link": null,
+      "repo_link": "https://github.com/ConnyZs/vs-windmillsailfix",
       "server_state": "",
       "avail": "available",
       "note": "",
@@ -1448,7 +1448,7 @@
       "category": "Tweak",
       "on_server": true,
       "link": null,
-      "repo_link": null,
+      "repo_link": "https://github.com/ConnyZs/vs-floramycology",
       "server_state": "yes",
       "avail": "available",
       "note": "custom mod \u2014 cultivate alchemy flowers and mushrooms in garden beds",
@@ -1458,23 +1458,6 @@
       "update_pending": false,
       "proposed": false,
       "custom": true
-    },
-    {
-      "name": "Molds",
-      "modid": "molds",
-      "section": "1.22",
-      "category": "Other",
-      "on_server": true,
-      "link": "https://mods.vintagestory.at/show/mod/13685",
-      "server_state": "yes",
-      "avail": "available",
-      "note": "",
-      "version": "0.3.3",
-      "build_version": "0.3.4",
-      "build_branch": "1.22",
-      "update_pending": true,
-      "proposed": false,
-      "untracked": true
     },
     {
       "name": "apegrapes",
@@ -1607,6 +1590,23 @@
       "note": "",
       "version": "1.5.3",
       "build_version": "1.5.3",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": false,
+      "untracked": true
+    },
+    {
+      "name": "molds",
+      "modid": "molds",
+      "section": "1.22",
+      "category": "Other",
+      "on_server": true,
+      "link": null,
+      "server_state": "yes",
+      "avail": "available",
+      "note": "",
+      "version": "0.3.4",
+      "build_version": "0.3.4",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": false,
