@@ -117,7 +117,7 @@ consider() {
   local type="$1" modid="$2" fname="$3" sha="$4" url="$5" name="$6"
   if [[ "$type" = "opt" ]]; then
     if (( ! ${+inst[$modid]} )); then skipped+=("$modid (not installed — left alone)"); return; fi
-    if (( ${+disabled[$modid]} ));  then skipped+=("$modid (disabled — left alone)"); return; fi
+    # disabled-but-installed: still sync so VS picks up the update if re-enabled
   fi
   use_modids[$modid]=1
   want_files[$fname]=1
