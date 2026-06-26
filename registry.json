@@ -1,5 +1,5 @@
 {
-  "generated": "20260626-144803",
+  "generated": "20260626-145403",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2157,14 +2157,17 @@
         "blocksBroken": 1780,
         "blocksPlaced": 1532,
         "deepestY": 106,
-        "lastSeen": 1781093247,
+        "lastSeen": 1782478384,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
           "Workmans pants",
           "Forlorn Hope shoes",
           "Scribe gloves",
-          "Sturdy belt"
+          "Jade amulet",
+          "Sturdy belt",
+          "Large silver bracelets",
+          "Forgotten noble robe"
         ],
         "gearDetail": [
           {
@@ -2197,30 +2200,26 @@
             "name": "Scribe gloves"
           },
           {
+            "slot": "neck",
+            "code": "game:clothes-neck-jade-amulet",
+            "name": "Jade amulet"
+          },
+          {
             "slot": "waist",
             "code": "game:clothes-waist-sturdy-belt",
             "name": "Sturdy belt",
             "icon": "character/icons/waist-sturdy-belt.png"
           },
           {
-            "slot": "bag-1",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "slot": "arm",
+            "code": "game:clothes-arm-large-silver-bracelets",
+            "name": "Large silver bracelets"
           },
           {
-            "slot": "bag-2",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-3",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-4",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "slot": "upperbodyover",
+            "code": "game:clothes-upperbodyover-forgotten",
+            "name": "Forgotten noble robe",
+            "icon": "character/icons/upperbodyover-forgotten.png"
           }
         ],
         "skin": {

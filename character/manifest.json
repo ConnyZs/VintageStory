@@ -82,10 +82,13 @@
     "Workmans pants",
     "Forlorn Hope shoes",
     "Scribe gloves",
-    "Sturdy belt"
+    "Jade amulet",
+    "Sturdy belt",
+    "Large silver bracelets",
+    "Forgotten noble robe"
    ],
    "frames": 16,
-   "v": 1781034902
+   "v": 1782478462
   },
   "Barberschascher": {
    "class": "miner",

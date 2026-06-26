@@ -50,7 +50,7 @@
   }
  },
  "Moritz": {
-  "hash": "9e12dc9b661ad45e678ffe0c8d5906f961fbf970",
+  "hash": "33056f471df6352d6bf63061d9d5e59c5646b358",
   "info": {
    "class": "mason",
    "items": [
@@ -62,10 +62,13 @@
     "Workmans pants",
     "Forlorn Hope shoes",
     "Scribe gloves",
-    "Sturdy belt"
+    "Jade amulet",
+    "Sturdy belt",
+    "Large silver bracelets",
+    "Forgotten noble robe"
    ],
    "frames": 16,
-   "v": 1781034902
+   "v": 1782478462
   }
  },
  "AddyBuschu": {
