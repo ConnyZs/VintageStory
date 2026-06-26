@@ -1,5 +1,5 @@
 {
-  "generated": "20260626-195625",
+  "generated": "20260626-200053",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -9,14 +9,14 @@
     "full_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset-full.zip",
     "server_count": 86,
     "full_count": 89,
-    "server_size": 137333985,
-    "full_size": 138135852,
+    "server_size": 137333987,
+    "full_size": 138135854,
     "client_only": [
       "CoriaenderShaders",
       "Natural Foliage",
       "Status HUD"
     ],
-    "generated": "20260626-194818"
+    "generated": "20260626-200048"
   },
   "sheet_url": "https://docs.google.com/spreadsheets/d/1MZUkPV8T5S2HtIM8LexvDzXFZAidz0b4pdVqxegL5pE/edit",
   "submit_url": "https://script.google.com/macros/s/AKfycbyHYVVekkEQmbHEHJUAA1BjyheZFE_vC0Ook-bTyr3UHyeRkeQgv0j3DimOKLsqAxVmXw/exec",
@@ -1434,8 +1434,8 @@
       "server_state": "yes",
       "avail": "available",
       "note": "",
-      "version": "1.1.6",
-      "build_version": "1.1.6",
+      "version": "1.1.7",
+      "build_version": "1.1.7",
       "build_branch": null,
       "update_pending": false,
       "proposed": false,
@@ -1755,7 +1755,7 @@
       "name": "Raschuetzer",
       "role": "admin",
       "first_join": "04/22/2026 17:47",
-      "last_join": "06/26/2026 17:53",
+      "last_join": "06/26/2026 17:55",
       "last_char": "04/29/2026 21:30",
       "stats": {
         "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
