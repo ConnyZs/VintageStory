@@ -1,5 +1,5 @@
 {
-  "generated": "20260626-180630",
+  "generated": "20260626-181133",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -16,7 +16,7 @@
       "Natural Foliage",
       "Status HUD"
     ],
-    "generated": "20260626-180132"
+    "generated": "20260626-181109"
   },
   "sheet_url": "https://docs.google.com/spreadsheets/d/1MZUkPV8T5S2HtIM8LexvDzXFZAidz0b4pdVqxegL5pE/edit",
   "submit_url": "https://script.google.com/macros/s/AKfycbyHYVVekkEQmbHEHJUAA1BjyheZFE_vC0Ook-bTyr3UHyeRkeQgv0j3DimOKLsqAxVmXw/exec",
@@ -39,7 +39,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 104,
+  "count": 105,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1454,6 +1454,24 @@
       "note": "custom mod \u2014 cultivate alchemy flowers and mushrooms in garden beds",
       "version": "1.0.1",
       "build_version": "1.0.1",
+      "build_branch": null,
+      "update_pending": false,
+      "proposed": false,
+      "custom": true
+    },
+    {
+      "name": "All Helve Workable",
+      "modid": "allhelveworkable",
+      "section": "1.22",
+      "category": "Tweak",
+      "on_server": true,
+      "link": null,
+      "repo_link": "https://github.com/ConnyZs/vs-allhelveworkable",
+      "server_state": "yes",
+      "avail": "available",
+      "note": "custom build \u2014 makes all anvil recipes fully workable by the helve hammer (client+server)",
+      "version": "1.0.2",
+      "build_version": null,
       "build_branch": null,
       "update_pending": false,
       "proposed": false,
