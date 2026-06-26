@@ -1,6 +1,6 @@
 {
   "game_version": "1.22.3",
-  "generated": "20260626-191635",
+  "generated": "20260626-191943",
   "count": 86,
   "mods": [
     {
@@ -589,13 +589,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/jsonpatcheslib_1.5.3.zip"
     },
     {
-      "filename": "labeledtrunk-1.1.3.zip",
-      "sha256": "586ee53d9892840072e0380d8b33e0e1b8f2d22930a1f912c34ee6cc4da48dec",
-      "size": 11390,
+      "filename": "labeledtrunk-1.1.4.zip",
+      "sha256": "29f9a85a55e2668f9a2f88c1cde6bbc313a3530b5b713051ae4b12e63b465ce2",
+      "size": 11556,
       "modid": "labeledtrunk",
-      "version": "1.1.3",
+      "version": "1.1.4",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/labeledtrunk-1.1.3.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/labeledtrunk-1.1.4.zip"
     },
     {
       "filename": "millwright_1.3.3.zip",
