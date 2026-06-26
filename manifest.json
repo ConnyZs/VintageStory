@@ -1,6 +1,6 @@
 {
   "game_version": "1.22.3",
-  "generated": "20260626-183851",
+  "generated": "20260626-184718",
   "count": 86,
   "mods": [
     {
@@ -410,8 +410,8 @@
     },
     {
       "filename": "allhelveworkable_1.0.2.zip",
-      "sha256": "d4f3da4ea07ede51efc24acdfe8536286ef11177c19c720fcf8ac5b2aa581a45",
-      "size": 2820,
+      "sha256": "3dfce901fecb08a1450eadcc94c1b0c3a5392deb8baecbfaf33a2973a2250bd5",
+      "size": 2922,
       "modid": "allhelveworkable",
       "version": "1.0.2",
       "name": null,
