@@ -1,5 +1,5 @@
 {
-  "generated": "20260626-183820",
+  "generated": "20260626-184002",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -7,16 +7,16 @@
   "modset": {
     "server_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset.zip",
     "full_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset-full.zip",
-    "server_count": 89,
-    "full_count": 92,
-    "server_size": 138007535,
-    "full_size": 138809402,
+    "server_count": 86,
+    "full_count": 89,
+    "server_size": 137333875,
+    "full_size": 138135742,
     "client_only": [
       "CoriaenderShaders",
       "Natural Foliage",
       "Status HUD"
     ],
-    "generated": "20260626-181109"
+    "generated": "20260626-183939"
   },
   "sheet_url": "https://docs.google.com/spreadsheets/d/1MZUkPV8T5S2HtIM8LexvDzXFZAidz0b4pdVqxegL5pE/edit",
   "submit_url": "https://script.google.com/macros/s/AKfycbyHYVVekkEQmbHEHJUAA1BjyheZFE_vC0Ook-bTyr3UHyeRkeQgv0j3DimOKLsqAxVmXw/exec",
@@ -1435,7 +1435,7 @@
       "avail": "available",
       "note": "",
       "version": "1.1.2",
-      "build_version": "1.1.1",
+      "build_version": "1.1.2",
       "build_branch": null,
       "update_pending": false,
       "proposed": false,
@@ -1471,7 +1471,7 @@
       "avail": "available",
       "note": "custom build \u2014 makes all anvil recipes fully workable by the helve hammer (client+server)",
       "version": "1.0.2",
-      "build_version": null,
+      "build_version": "1.0.2",
       "build_branch": null,
       "update_pending": false,
       "proposed": false,

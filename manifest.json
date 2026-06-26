@@ -1,8 +1,17 @@
 {
   "game_version": "1.22.3",
-  "generated": "20260626-181019",
-  "count": 90,
+  "generated": "20260626-183851",
+  "count": 86,
   "mods": [
+    {
+      "filename": "windmillsailfix.zip",
+      "sha256": "430159799f18174618ea6305cefb527aee34c111dd22445c91bab58471f895e5",
+      "size": 3415,
+      "modid": "windmillsailfix",
+      "version": "2.0.0",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/windmillsailfix.zip"
+    },
     {
       "filename": "ACulinaryArtillery 2.0.0-dev.21.zip",
       "sha256": "2bdd6c86632c24df7f1306ed367fce6a383b2c139a3e9acaf268a886fd0037be",
@@ -175,15 +184,6 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/ExpandedFoods_MealsModule%201.0.0-dev.5.zip"
     },
     {
-      "filename": "ExtraInfo-v2.2.1.zip",
-      "sha256": "4d6058abbb1e30640db8a8b67b8eba7030da1bc80bc8410a6f6c1fcfb532ca44",
-      "size": 80671,
-      "modid": "extrainfo",
-      "version": "2.2.1",
-      "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/ExtraInfo-v2.2.1.zip"
-    },
-    {
       "filename": "Footprints-v1.2.4.zip",
       "sha256": "daea3f0b8caaeb8eed67fd2aab97e144b516ead1c31959841aacb953cb9edd99",
       "size": 445616,
@@ -236,15 +236,6 @@
       "version": "0.3.4",
       "name": null,
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/Molds_v0.3.4.zip"
-    },
-    {
-      "filename": "NailMold-1.0.2.zip",
-      "sha256": "9335435212b689c1b9d01dbeb25c954d60a02f21b6eed69b500dfb1477196512",
-      "size": 192898,
-      "modid": "nailsmold",
-      "version": "1.0.2",
-      "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/NailMold-1.0.2.zip"
     },
     {
       "filename": "NoticeBoard_2.0.2.zip",
@@ -418,6 +409,15 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/allclasses2.3.0.zip"
     },
     {
+      "filename": "allhelveworkable_1.0.2.zip",
+      "sha256": "d4f3da4ea07ede51efc24acdfe8536286ef11177c19c720fcf8ac5b2aa581a45",
+      "size": 2820,
+      "modid": "allhelveworkable",
+      "version": "1.0.2",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/allhelveworkable_1.0.2.zip"
+    },
+    {
       "filename": "animalcages_v5.0.0.zip",
       "sha256": "295b428a21d454e57da7f8e49ee9a76c5dd38354212fbe952d764a98337fbd36",
       "size": 500242,
@@ -517,15 +517,6 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/coinage-2.1.10.zip"
     },
     {
-      "filename": "configlib_1.12.0.zip",
-      "sha256": "7376d892ee4b9dc8d435e4b4b32e964773e770d5f6ec01f2c913ef49b729d9fc",
-      "size": 198885,
-      "modid": "configlib",
-      "version": "1.12.0",
-      "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/configlib_1.12.0.zip"
-    },
-    {
       "filename": "electricalprogressivebasics_3.2.5.zip",
       "sha256": "eac382449b41dd7d8cce63acefabf09b08febcd722f5ea1d5a9e8ff536306863",
       "size": 1472576,
@@ -589,15 +580,6 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/gourmand_1.8.12.zip"
     },
     {
-      "filename": "improvedhandbookrecipesfork-1222.0.2.zip",
-      "sha256": "db2f8660bdfa06e33f4982e076636826233060e69a20a38b2aa28785508ce9a9",
-      "size": 195458,
-      "modid": "improvedhandbookrecipesfork",
-      "version": "1222.0.2",
-      "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/improvedhandbookrecipesfork-1222.0.2.zip"
-    },
-    {
       "filename": "jsonpatcheslib_1.5.3.zip",
       "sha256": "a00fc7ea4103415e63b1cc7e04618d47c24845215681cc856ccd70907ed5b9e1",
       "size": 56856,
@@ -607,13 +589,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/jsonpatcheslib_1.5.3.zip"
     },
     {
-      "filename": "labeledtrunk-1.1.1.zip",
-      "sha256": "f2a094ec6b6d32fb6303cbfb26d88aa702d9a0202c65ab97c8056c3890af902e",
-      "size": 19810,
+      "filename": "labeledtrunk-1.1.2.zip",
+      "sha256": "467a9c733a6c286112211c5c8f42a617696eedb5526727c03ed1c8f3ae331033",
+      "size": 11614,
       "modid": "labeledtrunk",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/labeledtrunk-1.1.1.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/labeledtrunk-1.1.2.zip"
     },
     {
       "filename": "millwright_1.3.3.zip",
@@ -794,24 +776,6 @@
       "version": "1.6.2",
       "name": null,
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/vsroofing_1.6.2.zip"
-    },
-    {
-      "filename": "windmillsailfix.zip",
-      "sha256": "430159799f18174618ea6305cefb527aee34c111dd22445c91bab58471f895e5",
-      "size": 3415,
-      "modid": "windmillsailfix",
-      "version": "2.0.0",
-      "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/windmillsailfix.zip"
-    },
-    {
-      "filename": "windmillsailfix.zip",
-      "sha256": "430159799f18174618ea6305cefb527aee34c111dd22445c91bab58471f895e5",
-      "size": 3415,
-      "modid": "windmillsailfix",
-      "version": "2.0.0",
-      "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/windmillsailfix.zip"
     }
   ],
   "optional": [
