@@ -1,5 +1,5 @@
 {
-  "generated": "20260626-173416",
+  "generated": "20260626-173616",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1888,7 +1888,7 @@
         "blocksBroken": 183,
         "blocksPlaced": 189,
         "deepestY": 108,
-        "lastSeen": 1781042690,
+        "lastSeen": 1782488143,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -1966,11 +1966,6 @@
           },
           {
             "slot": "bag-3",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-4",
             "code": "game:backpack-normal",
             "name": "Leather backpack"
           }
