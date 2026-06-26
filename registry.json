@@ -1,8 +1,8 @@
 {
-  "generated": "20260626-022520",
+  "generated": "20260626-023028",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
-  "restart_needed": "20260626-005245",
+  "restart_needed": null,
   "last_deploy_ts": "20260626-022106",
   "modset": {
     "server_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset.zip",
@@ -1753,7 +1753,7 @@
         "blocksBroken": 1806,
         "blocksPlaced": 56,
         "deepestY": 40,
-        "lastSeen": 1781048065,
+        "lastSeen": 1782433765,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1765,7 +1765,7 @@
           "Cursed gemstone",
           "Malefactor whitewood mask",
           "Forlorn Hope belt",
-          "Merchant bracelet"
+          "Squire bracers"
         ],
         "gearDetail": [
           {
@@ -1828,9 +1828,9 @@
           },
           {
             "slot": "arm",
-            "code": "game:clothes-arm-merchant-bracelet",
-            "name": "Merchant bracelet",
-            "icon": "character/icons/arm-merchant-bracelet.png"
+            "code": "game:clothes-arm-squire-bracers",
+            "name": "Squire bracers",
+            "icon": "character/icons/arm-squire-bracers.png"
           },
           {
             "slot": "bag-1",
