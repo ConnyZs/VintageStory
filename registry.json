@@ -1,5 +1,5 @@
 {
-  "generated": "20260627-211147",
+  "generated": "20260627-211338",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1773,7 +1773,136 @@
       "first_join": "04/22/2026 17:47",
       "last_join": "06/27/2026 16:55",
       "last_char": "04/29/2026 21:30",
-      "stats": {}
+      "stats": {
+        "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
+        "name": "Raschuetzer",
+        "class": "tinker",
+        "deaths": 2,
+        "mobKills": 19,
+        "playerKills": 0,
+        "mealsEaten": 0,
+        "deathCauses": {
+          "wolf-eurasian-adult-male": 1
+        },
+        "playtimeHours": 15.2,
+        "blocksTravelled": 31018,
+        "blocksBroken": 1806,
+        "blocksPlaced": 56,
+        "deepestY": 40,
+        "lastSeen": 1782579411,
+        "gear": [
+          "Messenger hat",
+          "Artisans scarf",
+          "Scarlet ornate linen tunic",
+          "Marketeer pants",
+          "Thigh-high boots",
+          "Laced handsome gloves",
+          "Forlorn Hope talisman",
+          "Cursed gemstone",
+          "Malefactor whitewood mask",
+          "Forlorn Hope belt",
+          "Squire bracers"
+        ],
+        "gearDetail": [
+          {
+            "slot": "head",
+            "code": "game:clothes-head-messengers-hat",
+            "name": "Messenger hat",
+            "icon": "character/icons/head-messengers-hat.png"
+          },
+          {
+            "slot": "shoulder",
+            "code": "game:clothes-shoulder-artisans-scarf",
+            "name": "Artisans scarf",
+            "icon": "character/icons/shoulder-artisans-scarf.png"
+          },
+          {
+            "slot": "upperbody",
+            "code": "game:clothes-upperbody-scarlet-ornate-linen-tunic",
+            "name": "Scarlet ornate linen tunic",
+            "icon": "character/icons/upperbody-scarlet-ornate-linen-tunic.png"
+          },
+          {
+            "slot": "lowerbody",
+            "code": "game:clothes-lowerbody-marketeer",
+            "name": "Marketeer pants",
+            "icon": "character/icons/lowerbody-marketeer.png"
+          },
+          {
+            "slot": "foot",
+            "code": "game:clothes-foot-tigh-high-boots",
+            "name": "Thigh-high boots",
+            "icon": "character/icons/foot-tigh-high-boots.png"
+          },
+          {
+            "slot": "hand",
+            "code": "game:clothes-hand-laced-handsome-gloves",
+            "name": "Laced handsome gloves",
+            "icon": "character/icons/hand-laced-handsome-gloves.png"
+          },
+          {
+            "slot": "neck",
+            "code": "game:clothes-neck-forlorn-talisman",
+            "name": "Forlorn Hope talisman"
+          },
+          {
+            "slot": "emblem",
+            "code": "game:clothes-emblem-cursedgemstone",
+            "name": "Cursed gemstone"
+          },
+          {
+            "slot": "face",
+            "code": "game:clothes-face-malefactor-mask",
+            "name": "Malefactor whitewood mask",
+            "icon": "character/icons/face-malefactor-mask.png"
+          },
+          {
+            "slot": "waist",
+            "code": "game:clothes-waist-forlorn-belt",
+            "name": "Forlorn Hope belt",
+            "icon": "character/icons/waist-forlorn-belt.png"
+          },
+          {
+            "slot": "arm",
+            "code": "game:clothes-arm-squire-bracers",
+            "name": "Squire bracers",
+            "icon": "character/icons/arm-squire-bracers.png"
+          },
+          {
+            "slot": "bag-1",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-3",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          }
+        ],
+        "skin": {
+          "baseskin": "skin1",
+          "eyecolor": "aquamarine",
+          "underwear": "leotard",
+          "voicetype": "harmonica",
+          "voicepitch": "high",
+          "hairbase": "short",
+          "hairextra": "ponytailcurly",
+          "facialexpression": "smirk",
+          "mustache": "mst-u05-stirrups",
+          "beard": "brd-box05-anchor",
+          "haircolor": "rosewood"
+        }
+      }
     },
     {
       "name": "Eghetti",
@@ -1781,7 +1910,116 @@
       "first_join": "04/22/2026 18:03",
       "last_join": "06/27/2026 08:16",
       "last_char": "04/22/2026 18:08",
-      "stats": {}
+      "stats": {
+        "uid": "TxqQ4g4qqKs+G5yFUTFmyGYb",
+        "name": "Eghetti",
+        "class": "smith",
+        "deaths": 0,
+        "mobKills": 22,
+        "playerKills": 0,
+        "mealsEaten": 0,
+        "deathCauses": {},
+        "playtimeHours": 9.0,
+        "blocksTravelled": 15067,
+        "blocksBroken": 185,
+        "blocksPlaced": 191,
+        "deepestY": 108,
+        "lastSeen": 1782548358,
+        "gear": [
+          "Raccoon tail hat",
+          "Blacksmith apron",
+          "Workmans pants",
+          "Soldier boots",
+          "Heavy leather gloves",
+          "Miner belt",
+          "Leather bracers",
+          "Fur coat",
+          "Tailored gambeson body armor"
+        ],
+        "gearDetail": [
+          {
+            "slot": "head",
+            "code": "game:clothes-head-furhattail-raccoon-common",
+            "name": "Raccoon tail hat",
+            "icon": "character/icons/head-furhattail-raccoon-common.png"
+          },
+          {
+            "slot": "shoulder",
+            "code": "game:clothes-shoulder-blacksmith-apron",
+            "name": "Blacksmith apron",
+            "icon": "character/icons/shoulder-blacksmith-apron.png"
+          },
+          {
+            "slot": "lowerbody",
+            "code": "game:clothes-lowerbody-workmans-gown",
+            "name": "Workmans pants",
+            "icon": "character/icons/lowerbody-workmans-gown.png"
+          },
+          {
+            "slot": "foot",
+            "code": "game:clothes-foot-soldier-boots",
+            "name": "Soldier boots",
+            "icon": "character/icons/foot-soldier-boots.png"
+          },
+          {
+            "slot": "hand",
+            "code": "game:clothes-hand-heavy-leather-gloves",
+            "name": "Heavy leather gloves",
+            "icon": "character/icons/hand-heavy-leather-gloves.png"
+          },
+          {
+            "slot": "waist",
+            "code": "game:clothes-waist-miner",
+            "name": "Miner belt",
+            "icon": "character/icons/waist-miner.png"
+          },
+          {
+            "slot": "arm",
+            "code": "game:clothes-arm-leather-bracers",
+            "name": "Leather bracers",
+            "icon": "character/icons/arm-leather-bracers.png"
+          },
+          {
+            "slot": "upperbodyover",
+            "code": "game:clothes-upperbodyover-fur-coat",
+            "name": "Fur coat",
+            "icon": "character/icons/upperbodyover-fur-coat.png"
+          },
+          {
+            "slot": "armorbody",
+            "code": "game:armor-body-tailored-pink-linen",
+            "name": "Tailored gambeson body armor"
+          },
+          {
+            "slot": "bag-1",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-3",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          }
+        ],
+        "skin": {
+          "baseskin": "skin15",
+          "eyecolor": "dark-green",
+          "underwear": "twopiece",
+          "voicetype": "trumpet",
+          "voicepitch": "low",
+          "hairbase": "bowlcut",
+          "hairextra": "none",
+          "facialexpression": "kind",
+          "mustache": "mst-walrus05-neat",
+          "beard": "brd-box01-chincurtain",
+          "haircolor": "oldburgundy"
+        }
+      }
     },
     {
       "name": "AddyBuschu",
@@ -1789,7 +2027,146 @@
       "first_join": "04/22/2026 17:55",
       "last_join": "06/22/2026 20:16",
       "last_char": "04/25/2026 15:34",
-      "stats": {}
+      "stats": {
+        "uid": "MT3maN90oN2gwGyklJR20Gu1",
+        "name": "AddyBuschu",
+        "class": "homesteader",
+        "deaths": 15,
+        "mobKills": 67,
+        "playerKills": 0,
+        "mealsEaten": 0,
+        "deathCauses": {},
+        "playtimeHours": 8.4,
+        "blocksTravelled": 40091,
+        "blocksBroken": 2955,
+        "blocksPlaced": 1096,
+        "deepestY": 97,
+        "lastSeen": 1781043335,
+        "gear": [
+          "Flower wreath",
+          "Rotwalker cape",
+          "Tattered crimson tunic",
+          "Nomad trousers",
+          "Wool lined knee-high boots",
+          "Fur gloves",
+          "Acorn amulet",
+          "Rotten king mask",
+          "Marketeer belt",
+          "Leather bracers",
+          "Rotwalker coat",
+          "Black bear hide helmet",
+          "Black bear hide body armor"
+        ],
+        "gearDetail": [
+          {
+            "slot": "head",
+            "code": "game:clothes-head-wreathflower",
+            "name": "Flower wreath"
+          },
+          {
+            "slot": "shoulder",
+            "code": "game:clothes-shoulder-rotwalker",
+            "name": "Rotwalker cape",
+            "icon": "character/icons/shoulder-rotwalker.png"
+          },
+          {
+            "slot": "upperbody",
+            "code": "game:clothes-upperbody-tattered-crimson-tunic",
+            "name": "Tattered crimson tunic",
+            "icon": "character/icons/upperbody-tattered-crimson-tunic.png"
+          },
+          {
+            "slot": "lowerbody",
+            "code": "game:clothes-lowerbody-nomad-trousers",
+            "name": "Nomad trousers",
+            "icon": "character/icons/lowerbody-nomad-trousers.png"
+          },
+          {
+            "slot": "foot",
+            "code": "game:clothes-foot-wool-lined-knee-high-boots",
+            "name": "Wool lined knee-high boots",
+            "icon": "character/icons/foot-wool-lined-knee-high-boots.png"
+          },
+          {
+            "slot": "hand",
+            "code": "game:clothes-hand-fur-gloves",
+            "name": "Fur gloves",
+            "icon": "character/icons/hand-fur-gloves.png"
+          },
+          {
+            "slot": "neck",
+            "code": "game:clothes-neck-acorn-amulet",
+            "name": "Acorn amulet"
+          },
+          {
+            "slot": "face",
+            "code": "game:clothes-face-rottenking",
+            "name": "Rotten king mask",
+            "icon": "character/icons/face-rottenking.png"
+          },
+          {
+            "slot": "waist",
+            "code": "game:clothes-waist-marketeer",
+            "name": "Marketeer belt",
+            "icon": "character/icons/waist-marketeer.png"
+          },
+          {
+            "slot": "arm",
+            "code": "game:clothes-arm-leather-bracers",
+            "name": "Leather bracers",
+            "icon": "character/icons/arm-leather-bracers.png"
+          },
+          {
+            "slot": "upperbodyover",
+            "code": "game:clothes-upperbodyover-rotwalker",
+            "name": "Rotwalker coat",
+            "icon": "character/icons/upperbodyover-rotwalker.png"
+          },
+          {
+            "slot": "armorhead",
+            "code": "game:armor-head-hide-bear-black",
+            "name": "Black bear hide helmet"
+          },
+          {
+            "slot": "armorbody",
+            "code": "game:armor-body-hide-bear-black",
+            "name": "Black bear hide body armor"
+          },
+          {
+            "slot": "bag-1",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-3",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-4",
+            "code": "butchering:butcherybag-standard",
+            "name": "Hide Butchering Bag"
+          }
+        ],
+        "skin": {
+          "baseskin": "skin16",
+          "eyecolor": "citrine",
+          "underwear": "leotard",
+          "voicetype": "tuba",
+          "voicepitch": "high",
+          "hairbase": "messy2",
+          "hairextra": "unkempt",
+          "facialexpression": "kind",
+          "mustache": "mst-walrus30-fat",
+          "beard": "brd-full10-shaggy",
+          "haircolor": "lightgray"
+        }
+      }
     },
     {
       "name": "Moritz",
@@ -1797,7 +2174,99 @@
       "first_join": "04/22/2026 18:03",
       "last_join": "06/23/2026 08:13",
       "last_char": "04/22/2026 18:05",
-      "stats": {}
+      "stats": {
+        "uid": "bKc3JB7NGywTi9YbzXu/Qogt",
+        "name": "Moritz",
+        "class": "mason",
+        "deaths": 0,
+        "mobKills": 19,
+        "playerKills": 0,
+        "mealsEaten": 0,
+        "deathCauses": {},
+        "playtimeHours": 9.7,
+        "blocksTravelled": 39052,
+        "blocksBroken": 1780,
+        "blocksPlaced": 1532,
+        "deepestY": 106,
+        "lastSeen": 1782478384,
+        "gear": [
+          "Raccoon fur trapper hat",
+          "Linen tunic",
+          "Workmans pants",
+          "Forlorn Hope shoes",
+          "Scribe gloves",
+          "Jade amulet",
+          "Sturdy belt",
+          "Large silver bracelets",
+          "Forgotten noble robe"
+        ],
+        "gearDetail": [
+          {
+            "slot": "head",
+            "code": "game:clothes-head-furhatwide-generic-gray",
+            "name": "Raccoon fur trapper hat",
+            "icon": "character/icons/head-furhatwide-generic-gray.png"
+          },
+          {
+            "slot": "upperbody",
+            "code": "game:clothes-upperbody-linen-tunic",
+            "name": "Linen tunic",
+            "icon": "character/icons/upperbody-linen-tunic.png"
+          },
+          {
+            "slot": "lowerbody",
+            "code": "game:clothes-lowerbody-workmans-gown",
+            "name": "Workmans pants",
+            "icon": "character/icons/lowerbody-workmans-gown.png"
+          },
+          {
+            "slot": "foot",
+            "code": "game:clothes-foot-forlorn-shoes",
+            "name": "Forlorn Hope shoes",
+            "icon": "character/icons/foot-forlorn-shoes.png"
+          },
+          {
+            "slot": "hand",
+            "code": "game:clothes-hand-scribe",
+            "name": "Scribe gloves"
+          },
+          {
+            "slot": "neck",
+            "code": "game:clothes-neck-jade-amulet",
+            "name": "Jade amulet"
+          },
+          {
+            "slot": "waist",
+            "code": "game:clothes-waist-sturdy-belt",
+            "name": "Sturdy belt",
+            "icon": "character/icons/waist-sturdy-belt.png"
+          },
+          {
+            "slot": "arm",
+            "code": "game:clothes-arm-large-silver-bracelets",
+            "name": "Large silver bracelets"
+          },
+          {
+            "slot": "upperbodyover",
+            "code": "game:clothes-upperbodyover-forgotten",
+            "name": "Forgotten noble robe",
+            "icon": "character/icons/upperbodyover-forgotten.png"
+          }
+        ],
+        "skin": {
+          "baseskin": "skin11",
+          "eyecolor": "citron",
+          "underwear": "leotard",
+          "voicetype": "harmonica",
+          "voicepitch": "high",
+          "hairbase": "dreadlocks",
+          "hairextra": "none",
+          "facialexpression": "weary",
+          "mustache": "mst-u01-horseshoe",
+          "beard": "none",
+          "haircolor": "palatinatepurple"
+        }
+      }
     },
     {
       "name": "Barberschascher",
@@ -1805,7 +2274,88 @@
       "first_join": "05/20/2026 15:50",
       "last_join": "06/17/2026 19:32",
       "last_char": "05/20/2026 15:53",
-      "stats": {}
+      "stats": {
+        "uid": "UrK7mUY2s/AeUmjXRew0G72x",
+        "name": "Barberschascher",
+        "class": "miner",
+        "deaths": 6,
+        "mobKills": 2,
+        "playerKills": 0,
+        "mealsEaten": 0,
+        "deathCauses": {},
+        "playtimeHours": 1.8,
+        "blocksTravelled": 10635,
+        "blocksBroken": 43,
+        "blocksPlaced": 6,
+        "deepestY": 108,
+        "lastSeen": 1780434032,
+        "gear": [
+          "Jailors hat",
+          "Clockmaker shirt",
+          "Malefactor trousers",
+          "Blackguard shoes",
+          "Heavy leather gloves",
+          "Leather reinforced mask",
+          "Heavy belt"
+        ],
+        "gearDetail": [
+          {
+            "slot": "head",
+            "code": "game:clothes-head-jailors-hat",
+            "name": "Jailors hat",
+            "icon": "character/icons/head-jailors-hat.png"
+          },
+          {
+            "slot": "upperbody",
+            "code": "game:clothes-upperbody-clockmaker-shirt",
+            "name": "Clockmaker shirt",
+            "icon": "character/icons/upperbody-clockmaker-shirt.png"
+          },
+          {
+            "slot": "lowerbody",
+            "code": "game:clothes-lowerbody-malefactor-trousers",
+            "name": "Malefactor trousers",
+            "icon": "character/icons/lowerbody-malefactor-trousers.png"
+          },
+          {
+            "slot": "foot",
+            "code": "game:clothes-foot-blackguard-shoes",
+            "name": "Blackguard shoes",
+            "icon": "character/icons/foot-blackguard-shoes.png"
+          },
+          {
+            "slot": "hand",
+            "code": "game:clothes-hand-heavy-leather-gloves",
+            "name": "Heavy leather gloves",
+            "icon": "character/icons/hand-heavy-leather-gloves.png"
+          },
+          {
+            "slot": "face",
+            "code": "game:clothes-face-leather-reinforced-mask",
+            "name": "Leather reinforced mask",
+            "icon": "character/icons/face-leather-reinforced-mask.png"
+          },
+          {
+            "slot": "waist",
+            "code": "game:clothes-waist-heavy-belt",
+            "name": "Heavy belt",
+            "icon": "character/icons/waist-heavy-belt.png"
+          }
+        ],
+        "skin": {
+          "baseskin": "skin16",
+          "eyecolor": "dark-green",
+          "underwear": "breeches",
+          "voicetype": "tuba",
+          "voicepitch": "low",
+          "hairbase": "longwithstrands",
+          "hairextra": "vikingtopbraid",
+          "facialexpression": "exhausted",
+          "mustache": "mst-whiskbroom",
+          "beard": "brd-wisp10-wiseman",
+          "haircolor": "oldburgundy"
+        }
+      }
     },
     {
       "name": "Morsel",
