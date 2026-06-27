@@ -1,5 +1,5 @@
 {
-  "generated": "20260627-181116",
+  "generated": "20260627-181731",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -9,14 +9,14 @@
     "full_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset-full.zip",
     "server_count": 86,
     "full_count": 89,
-    "server_size": 137334110,
-    "full_size": 138135977,
+    "server_size": 137334147,
+    "full_size": 138136014,
     "client_only": [
       "CoriaenderShaders",
       "Natural Foliage",
       "Status HUD"
     ],
-    "generated": "20260626-201153"
+    "generated": "20260627-181707"
   },
   "sheet_url": "https://docs.google.com/spreadsheets/d/1MZUkPV8T5S2HtIM8LexvDzXFZAidz0b4pdVqxegL5pE/edit",
   "submit_url": "https://script.google.com/macros/s/AKfycbyHYVVekkEQmbHEHJUAA1BjyheZFE_vC0Ook-bTyr3UHyeRkeQgv0j3DimOKLsqAxVmXw/exec",
@@ -39,7 +39,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 105,
+  "count": 106,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1406,6 +1406,22 @@
       "proposed": false
     },
     {
+      "name": "Steelmaking Expanded",
+      "modid": "smex",
+      "section": "1.22",
+      "category": "Technology",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/smex",
+      "server_state": "no",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": null,
+      "build_version": "0.9.4",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": true
+    },
+    {
       "name": "Windmill Sail Fix",
       "modid": "windmillsailfix",
       "section": "optional",
@@ -1434,8 +1450,8 @@
       "server_state": "yes",
       "avail": "available",
       "note": "",
-      "version": "1.1.8",
-      "build_version": "1.1.8",
+      "version": "1.1.9",
+      "build_version": "1.1.9",
       "build_branch": null,
       "update_pending": false,
       "proposed": false,
