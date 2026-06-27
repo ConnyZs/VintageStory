@@ -1,5 +1,5 @@
 {
-  "generated": "20260628-002140",
+  "generated": "20260628-002540",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1784,12 +1784,12 @@
         "deathCauses": {
           "wolf-eurasian-adult-male": 1
         },
-        "playtimeHours": 15.2,
-        "blocksTravelled": 31018,
+        "playtimeHours": 20.6,
+        "blocksTravelled": 31179,
         "blocksBroken": 1806,
         "blocksPlaced": 56,
         "deepestY": 40,
-        "lastSeen": 1782579411,
+        "lastSeen": 1782599130,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
