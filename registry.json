@@ -1,5 +1,5 @@
 {
-  "generated": "20260628-190303",
+  "generated": "20260628-190503",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1771,7 +1771,7 @@
       "name": "Raschuetzer",
       "role": "admin",
       "first_join": "04/22/2026 17:47",
-      "last_join": "06/27/2026 22:24",
+      "last_join": "06/28/2026 17:01",
       "last_char": "04/29/2026 21:30",
       "stats": {
         "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
@@ -1784,12 +1784,12 @@
         "deathCauses": {
           "wolf-eurasian-adult-male": 1
         },
-        "playtimeHours": 20.6,
-        "blocksTravelled": 31207,
+        "playtimeHours": 20.7,
+        "blocksTravelled": 31249,
         "blocksBroken": 1806,
         "blocksPlaced": 56,
         "deepestY": 40,
-        "lastSeen": 1782666157,
+        "lastSeen": 1782666299,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
