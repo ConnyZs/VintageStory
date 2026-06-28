@@ -1,5 +1,5 @@
 {
-  "generated": "20260628-185103",
+  "generated": "20260628-185859",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -9,14 +9,14 @@
     "full_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset-full.zip",
     "server_count": 86,
     "full_count": 89,
-    "server_size": 137334147,
-    "full_size": 138136014,
+    "server_size": 137334209,
+    "full_size": 138136076,
     "client_only": [
       "CoriaenderShaders",
       "Natural Foliage",
       "Status HUD"
     ],
-    "generated": "20260627-184347"
+    "generated": "20260628-185836"
   },
   "sheet_url": "https://docs.google.com/spreadsheets/d/1MZUkPV8T5S2HtIM8LexvDzXFZAidz0b4pdVqxegL5pE/edit",
   "submit_url": "https://script.google.com/macros/s/AKfycbyHYVVekkEQmbHEHJUAA1BjyheZFE_vC0Ook-bTyr3UHyeRkeQgv0j3DimOKLsqAxVmXw/exec",
@@ -580,9 +580,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "2.1.10",
-      "build_version": "2.1.10",
+      "build_version": "2.2.0",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -644,9 +644,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "3.2.5",
-      "build_version": "3.2.5",
+      "build_version": "3.3.0",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -1450,8 +1450,8 @@
       "server_state": "yes",
       "avail": "available",
       "note": "",
-      "version": "1.1.9",
-      "build_version": "1.1.9",
+      "version": "1.1.10",
+      "build_version": "1.1.10",
       "build_branch": null,
       "update_pending": false,
       "proposed": false,
