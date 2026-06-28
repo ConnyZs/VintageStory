@@ -1,5 +1,5 @@
 {
-  "generated": "20260628-192905",
+  "generated": "20260628-193056",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -9,14 +9,14 @@
     "full_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset-full.zip",
     "server_count": 86,
     "full_count": 89,
-    "server_size": 137334209,
-    "full_size": 138136076,
+    "server_size": 137334026,
+    "full_size": 138135893,
     "client_only": [
       "CoriaenderShaders",
       "Natural Foliage",
       "Status HUD"
     ],
-    "generated": "20260628-185836"
+    "generated": "20260628-193028"
   },
   "sheet_url": "https://docs.google.com/spreadsheets/d/1MZUkPV8T5S2HtIM8LexvDzXFZAidz0b4pdVqxegL5pE/edit",
   "submit_url": "https://script.google.com/macros/s/AKfycbyHYVVekkEQmbHEHJUAA1BjyheZFE_vC0Ook-bTyr3UHyeRkeQgv0j3DimOKLsqAxVmXw/exec",
@@ -1450,8 +1450,8 @@
       "server_state": "yes",
       "avail": "available",
       "note": "",
-      "version": "1.1.10",
-      "build_version": "1.1.10",
+      "version": "1.1.11",
+      "build_version": "1.1.11",
       "build_branch": null,
       "update_pending": false,
       "proposed": false,
@@ -1789,7 +1789,7 @@
         "blocksBroken": 1806,
         "blocksPlaced": 56,
         "deepestY": 40,
-        "lastSeen": 1782667717,
+        "lastSeen": 1782667790,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
