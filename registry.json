@@ -1,5 +1,5 @@
 {
-  "generated": "20260629-182416",
+  "generated": "20260629-183217",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1785,11 +1785,11 @@
           "wolf-eurasian-adult-male": 1
         },
         "playtimeHours": 21.1,
-        "blocksTravelled": 31637,
+        "blocksTravelled": 31666,
         "blocksBroken": 1806,
         "blocksPlaced": 56,
         "deepestY": 40,
-        "lastSeen": 1782675784,
+        "lastSeen": 1782750678,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
