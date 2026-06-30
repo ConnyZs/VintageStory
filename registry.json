@@ -1,5 +1,5 @@
 {
-  "generated": "20260630-192017",
+  "generated": "20260630-192217",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1768,12 +1768,12 @@
         "deathCauses": {
           "wolf-eurasian-adult-male": 1
         },
-        "playtimeHours": 21.7,
-        "blocksTravelled": 33839,
+        "playtimeHours": 21.8,
+        "blocksTravelled": 33852,
         "blocksBroken": 1807,
         "blocksPlaced": 58,
         "deepestY": 40,
-        "lastSeen": 1782839907,
+        "lastSeen": 1782840027,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2021,11 +2021,11 @@
         "mealsEaten": 0,
         "deathCauses": {},
         "playtimeHours": 8.8,
-        "blocksTravelled": 43106,
-        "blocksBroken": 3027,
-        "blocksPlaced": 1102,
+        "blocksTravelled": 43153,
+        "blocksBroken": 3033,
+        "blocksPlaced": 1103,
         "deepestY": 23,
-        "lastSeen": 1782839907,
+        "lastSeen": 1782840027,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2168,11 +2168,11 @@
         "mealsEaten": 0,
         "deathCauses": {},
         "playtimeHours": 10.1,
-        "blocksTravelled": 41636,
-        "blocksBroken": 1866,
+        "blocksTravelled": 41693,
+        "blocksBroken": 1867,
         "blocksPlaced": 1560,
         "deepestY": 24,
-        "lastSeen": 1782839907,
+        "lastSeen": 1782840027,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
