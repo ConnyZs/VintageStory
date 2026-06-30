@@ -1,5 +1,5 @@
 {
-  "generated": "20260630-165607",
+  "generated": "20260630-170008",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1769,11 +1769,11 @@
           "wolf-eurasian-adult-male": 1
         },
         "playtimeHours": 21.2,
-        "blocksTravelled": 32147,
+        "blocksTravelled": 32148,
         "blocksBroken": 1806,
         "blocksPlaced": 56,
         "deepestY": 40,
-        "lastSeen": 1782831277,
+        "lastSeen": 1782831533,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1851,6 +1851,26 @@
             "code": "game:clothes-arm-squire-bracers",
             "name": "Squire bracers",
             "icon": "character/icons/arm-squire-bracers.png"
+          },
+          {
+            "slot": "bag-1",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-3",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           }
         ],
         "skin": {
