@@ -1,5 +1,5 @@
 {
-  "generated": "20260630-211824",
+  "generated": "20260630-212024",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1769,11 +1769,11 @@
           "internal": 1
         },
         "playtimeHours": 23.7,
-        "blocksTravelled": 45341,
-        "blocksBroken": 2802,
+        "blocksTravelled": 45385,
+        "blocksBroken": 2909,
         "blocksPlaced": 86,
         "deepestY": 40,
-        "lastSeen": 1782846993,
+        "lastSeen": 1782847146,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1903,12 +1903,12 @@
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {},
-        "playtimeHours": 13.5,
-        "blocksTravelled": 19340,
+        "playtimeHours": 13.6,
+        "blocksTravelled": 19344,
         "blocksBroken": 185,
         "blocksPlaced": 192,
         "deepestY": 108,
-        "lastSeen": 1782846993,
+        "lastSeen": 1782847146,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2032,11 +2032,11 @@
         "mealsEaten": 0,
         "deathCauses": {},
         "playtimeHours": 10.8,
-        "blocksTravelled": 55418,
+        "blocksTravelled": 55484,
         "blocksBroken": 3367,
-        "blocksPlaced": 1180,
+        "blocksPlaced": 1185,
         "deepestY": 23,
-        "lastSeen": 1782846993,
+        "lastSeen": 1782847146,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2144,8 +2144,8 @@
           },
           {
             "slot": "bag-4",
-            "code": "butchering:butcherybag-standard",
-            "name": "Hide Butchering Bag"
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           }
         ],
         "skin": {
@@ -2179,11 +2179,11 @@
         "mealsEaten": 0,
         "deathCauses": {},
         "playtimeHours": 12.1,
-        "blocksTravelled": 48394,
-        "blocksBroken": 2716,
-        "blocksPlaced": 1987,
+        "blocksTravelled": 48486,
+        "blocksBroken": 2733,
+        "blocksPlaced": 2004,
         "deepestY": 24,
-        "lastSeen": 1782846993,
+        "lastSeen": 1782847146,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2387,12 +2387,12 @@
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {},
-        "playtimeHours": 0.7,
-        "blocksTravelled": 759,
+        "playtimeHours": 0.8,
+        "blocksTravelled": 844,
         "blocksBroken": 26,
         "blocksPlaced": 10,
         "deepestY": 105,
-        "lastSeen": 1782846993,
+        "lastSeen": 1782847146,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
