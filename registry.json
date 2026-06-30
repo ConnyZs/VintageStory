@@ -1,5 +1,5 @@
 {
-  "generated": "20260630-185215",
+  "generated": "20260630-185415",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2021,11 +2021,11 @@
         "mealsEaten": 0,
         "deathCauses": {},
         "playtimeHours": 8.4,
-        "blocksTravelled": 40304,
+        "blocksTravelled": 40314,
         "blocksBroken": 2955,
         "blocksPlaced": 1096,
         "deepestY": 97,
-        "lastSeen": 1782833428,
+        "lastSeen": 1782838418,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2156,7 +2156,7 @@
       "name": "Moritz",
       "role": "suplayer",
       "first_join": "04/22/2026 18:03",
-      "last_join": "06/23/2026 08:13",
+      "last_join": "06/30/2026 16:51",
       "last_char": "04/22/2026 18:05",
       "stats": {
         "uid": "bKc3JB7NGywTi9YbzXu/Qogt",
@@ -2168,11 +2168,11 @@
         "mealsEaten": 0,
         "deathCauses": {},
         "playtimeHours": 9.7,
-        "blocksTravelled": 39052,
+        "blocksTravelled": 39100,
         "blocksBroken": 1780,
         "blocksPlaced": 1532,
         "deepestY": 106,
-        "lastSeen": 1782838297,
+        "lastSeen": 1782838385,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
