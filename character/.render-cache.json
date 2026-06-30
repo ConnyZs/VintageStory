@@ -1,6 +1,6 @@
 {
  "Raschuetzer": {
-  "hash": "c24751c27926c73bb4345f0d7a529e4fe3d10792",
+  "hash": "974509ef46b56ee6175eded5017db76fd1a7016b",
   "info": {
    "class": "tinker",
    "items": [
@@ -23,11 +23,11 @@
     "Squire bracers"
    ],
    "frames": 16,
-   "v": 1782845923
+   "v": 1782856375
   }
  },
  "Eghetti": {
-  "hash": "610e55d1f647837cf8e94de942a1908b8cf105c2",
+  "hash": "43eedd968fd6b23741b2e6f5dfea087f1106ad26",
   "info": {
    "class": "smith",
    "items": [
@@ -47,7 +47,7 @@
     "Fur coat"
    ],
    "frames": 16,
-   "v": 1782856255
+   "v": 1782856394
   }
  },
  "Moritz": {
