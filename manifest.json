@@ -4,13 +4,13 @@
   "count": 86,
   "mods": [
     {
-      "filename": "windmillsailfix.zip",
-      "sha256": "42dd457ffa3470c557141710f6935242e5fcbadc9e198dbc3a6deabcee17345c",
-      "size": 7175,
+      "filename": "windmillsailfix-2.0.2.zip",
+      "sha256": "265947d48b78820a7f5dc1520046ac1150c7e956098be9ed8ef67078af6c4c8a",
+      "size": 7138,
       "modid": "windmillsailfix",
       "version": "2.0.2",
       "name": "Windmill Sail Atlas Fix",
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/windmillsailfix.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/windmillsailfix-2.0.2.zip"
     },
     {
       "filename": "ACulinaryArtillery 2.0.0-dev.21.zip",
