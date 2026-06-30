@@ -1,5 +1,5 @@
 {
-  "generated": "20260630-223829",
+  "generated": "20260630-224029",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2026,19 +2026,20 @@
         "uid": "MT3maN90oN2gwGyklJR20Gu1",
         "name": "AddyBuschu",
         "class": "homesteader",
-        "deaths": 16,
+        "deaths": 17,
         "mobKills": 96,
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {
-          "bear-brown-adult-female": 1
+          "bear-brown-adult-female": 1,
+          "sheep-mouflon-adult-male": 1
         },
-        "playtimeHours": 12.1,
-        "blocksTravelled": 61586,
-        "blocksBroken": 3737,
+        "playtimeHours": 12.2,
+        "blocksTravelled": 61915,
+        "blocksBroken": 3739,
         "blocksPlaced": 1204,
         "deepestY": 23,
-        "lastSeen": 1782851797,
+        "lastSeen": 1782851979,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2181,11 +2182,11 @@
         "mealsEaten": 0,
         "deathCauses": {},
         "playtimeHours": 13.4,
-        "blocksTravelled": 51265,
-        "blocksBroken": 3066,
-        "blocksPlaced": 2232,
+        "blocksTravelled": 51433,
+        "blocksBroken": 3078,
+        "blocksPlaced": 2306,
         "deepestY": 24,
-        "lastSeen": 1782851797,
+        "lastSeen": 1782851979,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2392,11 +2393,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 2.1,
-        "blocksTravelled": 5937,
+        "blocksTravelled": 5982,
         "blocksBroken": 66,
         "blocksPlaced": 19,
         "deepestY": 105,
-        "lastSeen": 1782851797,
+        "lastSeen": 1782851979,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
