@@ -530,7 +530,13 @@ fetch("registry.json?_="+Date.now()).then(r=>r.json()).then(reg=>{
   document.getElementById("stamp").textContent="updated "+fmt(reg.generated);
   document.getElementById("foot").textContent=reg.count+" mods catalogued";
   const _cts=document.getElementById("checkTs");
-  if(_cts){ const _s=fmt(reg.generated); _cts.textContent=_s?"last checked "+_s:""; }
+  if(_cts){
+    const _regRaw=reg.generated||"";
+    const _localRaw=localStorage.getItem("vs_last_check_raw")||"";
+    const _localFmt=localStorage.getItem("vs_last_check_ts")||"";
+    const _s=(_localRaw && _localFmt && _localRaw>_regRaw)?_localFmt:fmt(_regRaw);
+    _cts.textContent=_s?"last checked "+_s:"";
+  }
   const dl=document.getElementById("cats");
   (reg.categories||[]).forEach(c=>{const o=document.createElement("option");o.value=c;dl.appendChild(o);});
   initForm();
@@ -1010,7 +1016,7 @@ function setupAdminButtons(){
       cb.disabled=true; cb.textContent="Checking…";
       const startGen=REG.generated;
       const cts=document.getElementById("checkTs");
-      const setTs=()=>{const d=new Date();const p=n=>String(n).padStart(2,'0');const s=`${p(d.getDate())}.${p(d.getMonth()+1)}.${d.getFullYear()} ${p(d.getHours())}:${p(d.getMinutes())}`;localStorage.setItem("vs_last_check_ts",s);if(cts)cts.textContent="last checked "+s;}
+      const setTs=()=>{const d=new Date();const p=n=>String(n).padStart(2,'0');const s=`${p(d.getDate())}.${p(d.getMonth()+1)}.${d.getFullYear()} ${p(d.getHours())}:${p(d.getMinutes())}`;const raw=`${d.getFullYear()}${p(d.getMonth()+1)}${p(d.getDate())}-${p(d.getHours())}${p(d.getMinutes())}${p(d.getSeconds())}`;localStorage.setItem("vs_last_check_ts",s);localStorage.setItem("vs_last_check_raw",raw);if(cts)cts.textContent="last checked "+s;}
       try{
         await fetch(REG.submit_url,{method:"POST",mode:"no-cors",
           headers:{"Content-Type":"text/plain;charset=utf-8"},

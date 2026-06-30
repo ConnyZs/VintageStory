@@ -826,22 +826,6 @@
       "proposed": false
     },
     {
-      "name": "Immersive Fibercraft",
-      "modid": "hpspinningwheel",
-      "section": "1.22",
-      "category": "Crafting",
-      "on_server": true,
-      "link": "https://mods.vintagestory.at/show/mod/34327",
-      "server_state": "yes",
-      "avail": "available",
-      "note": "available for 1.22 (installs on update)",
-      "version": "1.2.11",
-      "build_version": "1.2.12",
-      "build_branch": "1.22",
-      "update_pending": true,
-      "proposed": false
-    },
-    {
       "name": "Millwright",
       "modid": "millwright",
       "section": "1.22",
