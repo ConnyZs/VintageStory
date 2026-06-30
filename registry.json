@@ -1,5 +1,5 @@
 {
-  "generated": "20260630-232632",
+  "generated": "20260630-232832",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1768,12 +1768,12 @@
           "wolf-eurasian-adult-male": 1,
           "internal": 1
         },
-        "playtimeHours": 24.8,
-        "blocksTravelled": 50541,
+        "playtimeHours": 24.9,
+        "blocksTravelled": 50707,
         "blocksBroken": 2997,
         "blocksPlaced": 110,
         "deepestY": 40,
-        "lastSeen": 1782854697,
+        "lastSeen": 1782854798,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1904,11 +1904,11 @@
         "mealsEaten": 0,
         "deathCauses": {},
         "playtimeHours": 15.7,
-        "blocksTravelled": 22586,
+        "blocksTravelled": 22600,
         "blocksBroken": 199,
         "blocksPlaced": 206,
         "deepestY": 108,
-        "lastSeen": 1782854697,
+        "lastSeen": 1782854877,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2182,11 +2182,11 @@
         "mealsEaten": 0,
         "deathCauses": {},
         "playtimeHours": 14.2,
-        "blocksTravelled": 53064,
-        "blocksBroken": 3156,
-        "blocksPlaced": 2362,
+        "blocksTravelled": 53146,
+        "blocksBroken": 3158,
+        "blocksPlaced": 2364,
         "deepestY": 24,
-        "lastSeen": 1782854697,
+        "lastSeen": 1782854798,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2392,12 +2392,12 @@
         "deathCauses": {
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 2.8,
-        "blocksTravelled": 6557,
+        "playtimeHours": 2.9,
+        "blocksTravelled": 6728,
         "blocksBroken": 66,
         "blocksPlaced": 24,
         "deepestY": 105,
-        "lastSeen": 1782854697,
+        "lastSeen": 1782854798,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
