@@ -1,5 +1,5 @@
 {
-  "generated": "20260701-003036",
+  "generated": "20260701-003236",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1770,11 +1770,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 25.9,
-        "blocksTravelled": 57897,
+        "blocksTravelled": 57905,
         "blocksBroken": 3026,
         "blocksPlaced": 123,
         "deepestY": 40,
-        "lastSeen": 1782858625,
+        "lastSeen": 1782858641,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2399,11 +2399,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 3.9,
-        "blocksTravelled": 8227,
+        "blocksTravelled": 8234,
         "blocksBroken": 139,
         "blocksPlaced": 27,
         "deepestY": 105,
-        "lastSeen": 1782858625,
+        "lastSeen": 1782858641,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
