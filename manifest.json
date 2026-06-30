@@ -5,10 +5,10 @@
   "mods": [
     {
       "filename": "windmillsailfix.zip",
-      "sha256": "ebfa56031ee749aed8e39a34f09ef3c5fc2cb0a2fd9b6069b11af60025c0d26a",
-      "size": 7196,
+      "sha256": "42dd457ffa3470c557141710f6935242e5fcbadc9e198dbc3a6deabcee17345c",
+      "size": 7175,
       "modid": "windmillsailfix",
-      "version": "2.0.1",
+      "version": "2.0.2",
       "name": "Windmill Sail Atlas Fix",
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/windmillsailfix.zip"
     },
