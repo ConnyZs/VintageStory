@@ -1,5 +1,5 @@
 {
-  "generated": "20260630-223029",
+  "generated": "20260630-223229",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2026,17 +2026,19 @@
         "uid": "MT3maN90oN2gwGyklJR20Gu1",
         "name": "AddyBuschu",
         "class": "homesteader",
-        "deaths": 15,
+        "deaths": 16,
         "mobKills": 95,
         "playerKills": 0,
         "mealsEaten": 0,
-        "deathCauses": {},
+        "deathCauses": {
+          "bear-brown-adult-female": 1
+        },
         "playtimeHours": 12.0,
-        "blocksTravelled": 60515,
+        "blocksTravelled": 60701,
         "blocksBroken": 3737,
         "blocksPlaced": 1204,
         "deepestY": 23,
-        "lastSeen": 1782851375,
+        "lastSeen": 1782851436,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2126,26 +2128,6 @@
             "slot": "armorbody",
             "code": "game:armor-body-hide-bear-black",
             "name": "Black bear hide body armor"
-          },
-          {
-            "slot": "bag-1",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-2",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-3",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-4",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
           }
         ],
         "skin": {
@@ -2179,11 +2161,11 @@
         "mealsEaten": 0,
         "deathCauses": {},
         "playtimeHours": 13.3,
-        "blocksTravelled": 51037,
-        "blocksBroken": 3001,
-        "blocksPlaced": 2183,
+        "blocksTravelled": 51060,
+        "blocksBroken": 3023,
+        "blocksPlaced": 2186,
         "deepestY": 24,
-        "lastSeen": 1782851375,
+        "lastSeen": 1782851436,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2389,12 +2371,12 @@
         "deathCauses": {
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 1.9,
-        "blocksTravelled": 5314,
+        "playtimeHours": 2.0,
+        "blocksTravelled": 5494,
         "blocksBroken": 66,
         "blocksPlaced": 19,
         "deepestY": 105,
-        "lastSeen": 1782851375,
+        "lastSeen": 1782851436,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
