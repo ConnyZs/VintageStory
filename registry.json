@@ -1,5 +1,5 @@
 {
-  "generated": "20260630-172610",
+  "generated": "20260630-172810",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1755,7 +1755,7 @@
       "name": "Raschuetzer",
       "role": "admin",
       "first_join": "04/22/2026 17:47",
-      "last_join": "06/30/2026 15:02",
+      "last_join": "06/30/2026 15:22",
       "last_char": "04/29/2026 21:30",
       "stats": {
         "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
@@ -1769,11 +1769,11 @@
           "wolf-eurasian-adult-male": 1
         },
         "playtimeHours": 21.2,
-        "blocksTravelled": 32101,
+        "blocksTravelled": 32168,
         "blocksBroken": 1806,
         "blocksPlaced": 56,
         "deepestY": 40,
-        "lastSeen": 1782833063,
+        "lastSeen": 1782833212,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1892,7 +1892,7 @@
       "name": "Eghetti",
       "role": "admin",
       "first_join": "04/22/2026 18:03",
-      "last_join": "06/30/2026 13:06",
+      "last_join": "06/30/2026 15:26",
       "last_char": "04/22/2026 18:08",
       "stats": {
         "uid": "TxqQ4g4qqKs+G5yFUTFmyGYb",
@@ -1904,11 +1904,11 @@
         "mealsEaten": 0,
         "deathCauses": {},
         "playtimeHours": 9.8,
-        "blocksTravelled": 15787,
+        "blocksTravelled": 15813,
         "blocksBroken": 185,
         "blocksPlaced": 191,
         "deepestY": 108,
-        "lastSeen": 1782755517,
+        "lastSeen": 1782833221,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2009,7 +2009,7 @@
       "name": "AddyBuschu",
       "role": "suplayer",
       "first_join": "04/22/2026 17:55",
-      "last_join": "06/22/2026 20:16",
+      "last_join": "06/30/2026 15:26",
       "last_char": "04/25/2026 15:34",
       "stats": {
         "uid": "MT3maN90oN2gwGyklJR20Gu1",
@@ -2025,9 +2025,9 @@
         "blocksBroken": 2955,
         "blocksPlaced": 1096,
         "deepestY": 97,
-        "lastSeen": 1781043335,
+        "lastSeen": 1782833282,
         "gear": [
-          "Flower wreath",
+          "Jester cowl",
           "Rotwalker cape",
           "Tattered crimson tunic",
           "Nomad trousers",
@@ -2044,8 +2044,8 @@
         "gearDetail": [
           {
             "slot": "head",
-            "code": "game:clothes-head-wreathflower",
-            "name": "Flower wreath"
+            "code": "game:clothes-head-jester",
+            "name": "Jester cowl"
           },
           {
             "slot": "shoulder",
@@ -2133,8 +2133,8 @@
           },
           {
             "slot": "bag-4",
-            "code": "butchering:butcherybag-standard",
-            "name": "Hide Butchering Bag"
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           }
         ],
         "skin": {
