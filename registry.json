@@ -1,5 +1,5 @@
 {
-  "generated": "20260630-172810",
+  "generated": "20260630-173010",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1768,12 +1768,12 @@
         "deathCauses": {
           "wolf-eurasian-adult-male": 1
         },
-        "playtimeHours": 21.2,
-        "blocksTravelled": 32168,
+        "playtimeHours": 21.3,
+        "blocksTravelled": 32244,
         "blocksBroken": 1806,
         "blocksPlaced": 56,
         "deepestY": 40,
-        "lastSeen": 1782833212,
+        "lastSeen": 1782833304,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1908,7 +1908,7 @@
         "blocksBroken": 185,
         "blocksPlaced": 191,
         "deepestY": 108,
-        "lastSeen": 1782833221,
+        "lastSeen": 1782833293,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2021,11 +2021,11 @@
         "mealsEaten": 0,
         "deathCauses": {},
         "playtimeHours": 8.4,
-        "blocksTravelled": 40091,
+        "blocksTravelled": 40095,
         "blocksBroken": 2955,
         "blocksPlaced": 1096,
         "deepestY": 97,
-        "lastSeen": 1782833282,
+        "lastSeen": 1782833304,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
