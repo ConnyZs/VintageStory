@@ -1,5 +1,5 @@
 {
-  "generated": "20260630-185015",
+  "generated": "20260630-185215",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2172,7 +2172,7 @@
         "blocksBroken": 1780,
         "blocksPlaced": 1532,
         "deepestY": 106,
-        "lastSeen": 1782836955,
+        "lastSeen": 1782838297,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2235,6 +2235,26 @@
             "code": "game:clothes-upperbodyover-forgotten",
             "name": "Forgotten noble robe",
             "icon": "character/icons/upperbodyover-forgotten.png"
+          },
+          {
+            "slot": "bag-1",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-3",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           }
         ],
         "skin": {
