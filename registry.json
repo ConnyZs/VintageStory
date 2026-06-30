@@ -1,5 +1,5 @@
 {
-  "generated": "20260701-002436",
+  "generated": "20260701-002636",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1770,11 +1770,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 25.8,
-        "blocksTravelled": 57406,
-        "blocksBroken": 3025,
-        "blocksPlaced": 121,
+        "blocksTravelled": 57683,
+        "blocksBroken": 3026,
+        "blocksPlaced": 123,
         "deepestY": 40,
-        "lastSeen": 1782858161,
+        "lastSeen": 1782858323,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1906,12 +1906,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 16.6,
-        "blocksTravelled": 24547,
-        "blocksBroken": 199,
-        "blocksPlaced": 208,
+        "playtimeHours": 16.7,
+        "blocksTravelled": 24606,
+        "blocksBroken": 200,
+        "blocksPlaced": 209,
         "deepestY": 108,
-        "lastSeen": 1782858161,
+        "lastSeen": 1782858323,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2399,11 +2399,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 3.8,
-        "blocksTravelled": 7829,
-        "blocksBroken": 87,
-        "blocksPlaced": 26,
+        "blocksTravelled": 8018,
+        "blocksBroken": 91,
+        "blocksPlaced": 27,
         "deepestY": 105,
-        "lastSeen": 1782858161,
+        "lastSeen": 1782858323,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
