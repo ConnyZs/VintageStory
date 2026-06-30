@@ -1,5 +1,5 @@
 {
-  "generated": "20260630-203221",
+  "generated": "20260630-203421",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1767,12 +1767,12 @@
         "deathCauses": {
           "wolf-eurasian-adult-male": 1
         },
-        "playtimeHours": 22.9,
-        "blocksTravelled": 40544,
-        "blocksBroken": 2224,
+        "playtimeHours": 23.0,
+        "blocksTravelled": 40576,
+        "blocksBroken": 2287,
         "blocksPlaced": 75,
         "deepestY": 40,
-        "lastSeen": 1782844231,
+        "lastSeen": 1782844428,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1903,11 +1903,11 @@
         "mealsEaten": 0,
         "deathCauses": {},
         "playtimeHours": 12.8,
-        "blocksTravelled": 17772,
+        "blocksTravelled": 17787,
         "blocksBroken": 185,
         "blocksPlaced": 191,
         "deepestY": 108,
-        "lastSeen": 1782844231,
+        "lastSeen": 1782844428,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2026,16 +2026,16 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 15,
-        "mobKills": 82,
+        "mobKills": 84,
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {},
-        "playtimeHours": 10.0,
-        "blocksTravelled": 50596,
-        "blocksBroken": 3315,
+        "playtimeHours": 10.1,
+        "blocksTravelled": 50908,
+        "blocksBroken": 3329,
         "blocksPlaced": 1147,
         "deepestY": 23,
-        "lastSeen": 1782844231,
+        "lastSeen": 1782844428,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2143,8 +2143,8 @@
           },
           {
             "slot": "bag-4",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "code": "butchering:butcherybag-standard",
+            "name": "Hide Butchering Bag"
           }
         ],
         "skin": {
@@ -2178,11 +2178,11 @@
         "mealsEaten": 0,
         "deathCauses": {},
         "playtimeHours": 11.3,
-        "blocksTravelled": 45422,
-        "blocksBroken": 2327,
-        "blocksPlaced": 1766,
+        "blocksTravelled": 45483,
+        "blocksBroken": 2381,
+        "blocksPlaced": 1821,
         "deepestY": 24,
-        "lastSeen": 1782844231,
+        "lastSeen": 1782844428,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2375,7 +2375,7 @@
       "name": "Morsel",
       "role": "suplayer",
       "first_join": "06/22/2026 18:28",
-      "last_join": "06/22/2026 20:33",
+      "last_join": "06/30/2026 18:32",
       "last_char": "06/22/2026 18:37",
       "stats": {
         "uid": "1VGBHqraGibxC1fHS6a4PjOF",
@@ -2390,8 +2390,8 @@
         "blocksTravelled": 0,
         "blocksBroken": 0,
         "blocksPlaced": 0,
-        "deepestY": null,
-        "lastSeen": 1782844281,
+        "deepestY": 118,
+        "lastSeen": 1782844428,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
@@ -2450,6 +2450,26 @@
             "code": "game:clothes-upperbodyover-tailor-jacket",
             "name": "Tailor jacket",
             "icon": "character/icons/upperbodyover-tailor-jacket.png"
+          },
+          {
+            "slot": "bag-1",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-3",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           }
         ],
         "skin": {
