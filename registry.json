@@ -1,5 +1,5 @@
 {
-  "generated": "20260630-235234",
+  "generated": "20260630-235434",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1761,7 +1761,7 @@
         "name": "Raschuetzer",
         "class": "tinker",
         "deaths": 6,
-        "mobKills": 22,
+        "mobKills": 25,
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {
@@ -1770,11 +1770,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 25.3,
-        "blocksTravelled": 51937,
+        "blocksTravelled": 52003,
         "blocksBroken": 2997,
         "blocksPlaced": 119,
         "deepestY": 40,
-        "lastSeen": 1782856239,
+        "lastSeen": 1782856359,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1857,6 +1857,21 @@
             "slot": "bag-1",
             "code": "game:backpack-normal",
             "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-3",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           }
         ],
         "skin": {
@@ -1885,18 +1900,18 @@
         "name": "Eghetti",
         "class": "smith",
         "deaths": 1,
-        "mobKills": 25,
+        "mobKills": 26,
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {
           "shiver-corrupt": 1
         },
         "playtimeHours": 16.1,
-        "blocksTravelled": 23191,
+        "blocksTravelled": 23277,
         "blocksBroken": 199,
         "blocksPlaced": 206,
         "deepestY": 108,
-        "lastSeen": 1782856239,
+        "lastSeen": 1782856359,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2171,12 +2186,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 14.6,
-        "blocksTravelled": 54145,
+        "playtimeHours": 14.7,
+        "blocksTravelled": 54188,
         "blocksBroken": 3166,
-        "blocksPlaced": 2374,
+        "blocksPlaced": 2375,
         "deepestY": 24,
-        "lastSeen": 1782856239,
+        "lastSeen": 1782856359,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2384,11 +2399,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 3.3,
-        "blocksTravelled": 7364,
+        "blocksTravelled": 7435,
         "blocksBroken": 66,
         "blocksPlaced": 24,
         "deepestY": 105,
-        "lastSeen": 1782856239,
+        "lastSeen": 1782856359,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
@@ -2440,6 +2455,26 @@
             "code": "game:clothes-upperbodyover-tailor-jacket",
             "name": "Tailor jacket",
             "icon": "character/icons/upperbodyover-tailor-jacket.png"
+          },
+          {
+            "slot": "bag-1",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-3",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           }
         ],
         "skin": {

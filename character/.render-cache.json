@@ -1,6 +1,6 @@
 {
  "Raschuetzer": {
-  "hash": "974509ef46b56ee6175eded5017db76fd1a7016b",
+  "hash": "c24751c27926c73bb4345f0d7a529e4fe3d10792",
   "info": {
    "class": "tinker",
    "items": [
@@ -23,7 +23,7 @@
     "Squire bracers"
    ],
    "frames": 16,
-   "v": 1782856375
+   "v": 1782856494
   }
  },
  "Eghetti": {
@@ -123,7 +123,7 @@
   }
  },
  "Morsel": {
-  "hash": "0a250386574f1ac0ad83768485bec184ce89d82b",
+  "hash": "4ef4f086ca8ecdce00caf6dbcbabfe4b98df731a",
   "info": {
    "class": "tailor",
    "items": [
@@ -142,7 +142,7 @@
     "Tailor jacket"
    ],
    "frames": 16,
-   "v": 1782856273
+   "v": 1782856513
   }
  }
 }
