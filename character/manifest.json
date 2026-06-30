@@ -109,6 +109,27 @@
    ],
    "frames": 16,
    "v": 1780432886
+  },
+  "Morsel": {
+   "class": "tailor",
+   "items": [
+    "hairbase",
+    "hairextra",
+    "mustache",
+    "beard",
+    "facialexpression",
+    "Tailor blouse",
+    "Tailor blouse",
+    "Tailor trousers",
+    "Tailor shoes",
+    "Tailor gloves",
+    "Tailor mask",
+    "Tailor belt",
+    "Tailor needle puff",
+    "Tailor jacket"
+   ],
+   "frames": 16,
+   "v": 1782844119
   }
  }
 }

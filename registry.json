@@ -1,5 +1,5 @@
 {
-  "generated": "20260630-202621",
+  "generated": "20260630-202821",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1767,12 +1767,12 @@
         "deathCauses": {
           "wolf-eurasian-adult-male": 1
         },
-        "playtimeHours": 22.8,
-        "blocksTravelled": 40464,
-        "blocksBroken": 2041,
+        "playtimeHours": 22.9,
+        "blocksTravelled": 40497,
+        "blocksBroken": 2120,
         "blocksPlaced": 74,
         "deepestY": 40,
-        "lastSeen": 1782843870,
+        "lastSeen": 1782843990,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1903,11 +1903,11 @@
         "mealsEaten": 0,
         "deathCauses": {},
         "playtimeHours": 12.7,
-        "blocksTravelled": 17720,
+        "blocksTravelled": 17749,
         "blocksBroken": 185,
         "blocksPlaced": 191,
         "deepestY": 108,
-        "lastSeen": 1782843870,
+        "lastSeen": 1782843990,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2031,11 +2031,11 @@
         "mealsEaten": 0,
         "deathCauses": {},
         "playtimeHours": 9.9,
-        "blocksTravelled": 49798,
+        "blocksTravelled": 50261,
         "blocksBroken": 3314,
         "blocksPlaced": 1145,
         "deepestY": 23,
-        "lastSeen": 1782843870,
+        "lastSeen": 1782843990,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2177,12 +2177,12 @@
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {},
-        "playtimeHours": 11.1,
-        "blocksTravelled": 45293,
+        "playtimeHours": 11.2,
+        "blocksTravelled": 45299,
         "blocksBroken": 2295,
         "blocksPlaced": 1735,
         "deepestY": 24,
-        "lastSeen": 1782843695,
+        "lastSeen": 1782844020,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2377,7 +2377,95 @@
       "first_join": "06/22/2026 18:28",
       "last_join": "06/22/2026 20:33",
       "last_char": "06/22/2026 18:37",
-      "stats": {}
+      "stats": {
+        "uid": "1VGBHqraGibxC1fHS6a4PjOF",
+        "name": "Morsel",
+        "class": "tailor",
+        "deaths": 0,
+        "mobKills": 0,
+        "playerKills": 0,
+        "mealsEaten": 0,
+        "deathCauses": {},
+        "playtimeHours": 0.0,
+        "blocksTravelled": 0,
+        "blocksBroken": 0,
+        "blocksPlaced": 0,
+        "deepestY": null,
+        "lastSeen": 1782844025,
+        "gear": [
+          "Tailor blouse",
+          "Tailor trousers",
+          "Tailor shoes",
+          "Tailor gloves",
+          "Tailor mask",
+          "Tailor belt",
+          "Tailor needle puff",
+          "Tailor jacket"
+        ],
+        "gearDetail": [
+          {
+            "slot": "upperbody",
+            "code": "game:clothes-upperbody-tailor-blouse",
+            "name": "Tailor blouse",
+            "icon": "character/icons/upperbody-tailor-blouse.png"
+          },
+          {
+            "slot": "lowerbody",
+            "code": "game:clothes-lowerbody-tailor-trousers",
+            "name": "Tailor trousers",
+            "icon": "character/icons/lowerbody-tailor-trousers.png"
+          },
+          {
+            "slot": "foot",
+            "code": "game:clothes-foot-tailor-shoes",
+            "name": "Tailor shoes",
+            "icon": "character/icons/foot-tailor-shoes.png"
+          },
+          {
+            "slot": "hand",
+            "code": "game:clothes-hand-tailor-gloves",
+            "name": "Tailor gloves",
+            "icon": "character/icons/hand-tailor-gloves.png"
+          },
+          {
+            "slot": "face",
+            "code": "game:clothes-face-tailor-mask",
+            "name": "Tailor mask",
+            "icon": "character/icons/face-tailor-mask.png"
+          },
+          {
+            "slot": "waist",
+            "code": "game:clothes-waist-tailor-belt",
+            "name": "Tailor belt",
+            "icon": "character/icons/waist-tailor-belt.png"
+          },
+          {
+            "slot": "arm",
+            "code": "game:clothes-arm-tailor-needlepuff",
+            "name": "Tailor needle puff",
+            "icon": "character/icons/arm-tailor-needlepuff.png"
+          },
+          {
+            "slot": "upperbodyover",
+            "code": "game:clothes-upperbodyover-tailor-jacket",
+            "name": "Tailor jacket",
+            "icon": "character/icons/upperbodyover-tailor-jacket.png"
+          }
+        ],
+        "skin": {
+          "baseskin": "skin10",
+          "eyecolor": "azure",
+          "underwear": "leotard",
+          "voicetype": "tuba",
+          "voicepitch": "low",
+          "hairbase": "tonsure",
+          "hairextra": "vikingtopbraid",
+          "facialexpression": "weary",
+          "mustache": "mst-u01-horseshoe",
+          "beard": "brd-braid15-triple",
+          "haircolor": "palatinatepurple"
+        }
+      }
     }
   ],
   "actions_v4": true,
