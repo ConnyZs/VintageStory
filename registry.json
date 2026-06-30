@@ -1,5 +1,5 @@
 {
-  "generated": "20260630-182413",
+  "generated": "20260630-183014",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2172,7 +2172,7 @@
         "blocksBroken": 1780,
         "blocksPlaced": 1532,
         "deepestY": 106,
-        "lastSeen": 1782478384,
+        "lastSeen": 1782836955,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
