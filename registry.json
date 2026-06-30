@@ -1,5 +1,5 @@
 {
-  "generated": "20260701-001435",
+  "generated": "20260701-001635",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1769,12 +1769,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 25.6,
-        "blocksTravelled": 54322,
-        "blocksBroken": 3002,
+        "playtimeHours": 25.7,
+        "blocksTravelled": 55285,
+        "blocksBroken": 3010,
         "blocksPlaced": 121,
         "deepestY": 40,
-        "lastSeen": 1782857560,
+        "lastSeen": 1782857718,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1907,11 +1907,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 16.5,
-        "blocksTravelled": 23860,
+        "blocksTravelled": 24151,
         "blocksBroken": 199,
         "blocksPlaced": 208,
         "deepestY": 108,
-        "lastSeen": 1782857560,
+        "lastSeen": 1782857718,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2398,12 +2398,12 @@
           "bear-brown-adult-female": 1,
           "shiver-corrupt": 1
         },
-        "playtimeHours": 3.6,
-        "blocksTravelled": 7746,
-        "blocksBroken": 66,
-        "blocksPlaced": 25,
+        "playtimeHours": 3.7,
+        "blocksTravelled": 7757,
+        "blocksBroken": 67,
+        "blocksPlaced": 26,
         "deepestY": 105,
-        "lastSeen": 1782857560,
+        "lastSeen": 1782857718,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
@@ -2411,7 +2411,8 @@
           "Tailor gloves",
           "Tailor belt",
           "Tailor needle puff",
-          "Tailor jacket"
+          "Tailor jacket",
+          "Tailored gamboised helmet"
         ],
         "gearDetail": [
           {
@@ -2455,6 +2456,11 @@
             "code": "game:clothes-upperbodyover-tailor-jacket",
             "name": "Tailor jacket",
             "icon": "character/icons/upperbodyover-tailor-jacket.png"
+          },
+          {
+            "slot": "armorhead",
+            "code": "game:armor-head-tailored-plain-linen",
+            "name": "Tailored gamboised helmet"
           },
           {
             "slot": "bag-1",
