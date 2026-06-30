@@ -1,5 +1,5 @@
 {
-  "generated": "20260630-205623",
+  "generated": "20260630-205823",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1768,12 +1768,12 @@
           "wolf-eurasian-adult-male": 1,
           "internal": 1
         },
-        "playtimeHours": 23.3,
-        "blocksTravelled": 43865,
+        "playtimeHours": 23.4,
+        "blocksTravelled": 44542,
         "blocksBroken": 2365,
         "blocksPlaced": 84,
         "deepestY": 40,
-        "lastSeen": 1782845672,
+        "lastSeen": 1782845792,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1851,6 +1851,26 @@
             "code": "game:clothes-arm-squire-bracers",
             "name": "Squire bracers",
             "icon": "character/icons/arm-squire-bracers.png"
+          },
+          {
+            "slot": "bag-1",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-3",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           }
         ],
         "skin": {
@@ -1884,11 +1904,11 @@
         "mealsEaten": 0,
         "deathCauses": {},
         "playtimeHours": 13.2,
-        "blocksTravelled": 18587,
+        "blocksTravelled": 18648,
         "blocksBroken": 185,
         "blocksPlaced": 192,
         "deepestY": 108,
-        "lastSeen": 1782845672,
+        "lastSeen": 1782845792,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2007,16 +2027,16 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 15,
-        "mobKills": 88,
+        "mobKills": 89,
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {},
         "playtimeHours": 10.4,
-        "blocksTravelled": 53374,
-        "blocksBroken": 3337,
+        "blocksTravelled": 53728,
+        "blocksBroken": 3338,
         "blocksPlaced": 1151,
         "deepestY": 23,
-        "lastSeen": 1782845672,
+        "lastSeen": 1782845792,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2159,11 +2179,11 @@
         "mealsEaten": 0,
         "deathCauses": {},
         "playtimeHours": 11.7,
-        "blocksTravelled": 47290,
-        "blocksBroken": 2591,
-        "blocksPlaced": 1826,
+        "blocksTravelled": 47341,
+        "blocksBroken": 2633,
+        "blocksPlaced": 1829,
         "deepestY": 24,
-        "lastSeen": 1782845672,
+        "lastSeen": 1782845792,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2368,11 +2388,11 @@
         "mealsEaten": 0,
         "deathCauses": {},
         "playtimeHours": 0.4,
-        "blocksTravelled": 382,
-        "blocksBroken": 4,
+        "blocksTravelled": 401,
+        "blocksBroken": 16,
         "blocksPlaced": 3,
-        "deepestY": 113,
-        "lastSeen": 1782845672,
+        "deepestY": 112,
+        "lastSeen": 1782845792,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
