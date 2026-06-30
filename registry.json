@@ -1,5 +1,5 @@
 {
-  "generated": "20260630-222829",
+  "generated": "20260630-223029",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2031,12 +2031,12 @@
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {},
-        "playtimeHours": 11.9,
-        "blocksTravelled": 60396,
-        "blocksBroken": 3694,
-        "blocksPlaced": 1203,
+        "playtimeHours": 12.0,
+        "blocksTravelled": 60515,
+        "blocksBroken": 3737,
+        "blocksPlaced": 1204,
         "deepestY": 23,
-        "lastSeen": 1782851196,
+        "lastSeen": 1782851375,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2144,8 +2144,8 @@
           },
           {
             "slot": "bag-4",
-            "code": "butchering:butcherybag-standard",
-            "name": "Hide Butchering Bag"
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           }
         ],
         "skin": {
@@ -2178,12 +2178,12 @@
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {},
-        "playtimeHours": 13.2,
-        "blocksTravelled": 51015,
+        "playtimeHours": 13.3,
+        "blocksTravelled": 51037,
         "blocksBroken": 3001,
         "blocksPlaced": 2183,
         "deepestY": 24,
-        "lastSeen": 1782851196,
+        "lastSeen": 1782851375,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2390,11 +2390,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 1.9,
-        "blocksTravelled": 4759,
+        "blocksTravelled": 5314,
         "blocksBroken": 66,
         "blocksPlaced": 19,
         "deepestY": 105,
-        "lastSeen": 1782851196,
+        "lastSeen": 1782851375,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
@@ -2446,26 +2446,6 @@
             "code": "game:clothes-upperbodyover-tailor-jacket",
             "name": "Tailor jacket",
             "icon": "character/icons/upperbodyover-tailor-jacket.png"
-          },
-          {
-            "slot": "bag-1",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-2",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-3",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-4",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
           }
         ],
         "skin": {
