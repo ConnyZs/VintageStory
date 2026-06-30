@@ -1,5 +1,5 @@
 {
-  "generated": "20260630-195219",
+  "generated": "20260630-195419",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1769,11 +1769,11 @@
           "wolf-eurasian-adult-male": 1
         },
         "playtimeHours": 22.3,
-        "blocksTravelled": 36304,
+        "blocksTravelled": 37189,
         "blocksBroken": 1813,
         "blocksPlaced": 60,
         "deepestY": 40,
-        "lastSeen": 1782841828,
+        "lastSeen": 1782842010,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1903,12 +1903,12 @@
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {},
-        "playtimeHours": 12.1,
-        "blocksTravelled": 16484,
+        "playtimeHours": 12.2,
+        "blocksTravelled": 16552,
         "blocksBroken": 185,
         "blocksPlaced": 191,
         "deepestY": 108,
-        "lastSeen": 1782841828,
+        "lastSeen": 1782842010,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2031,12 +2031,12 @@
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {},
-        "playtimeHours": 9.3,
-        "blocksTravelled": 46340,
-        "blocksBroken": 3056,
-        "blocksPlaced": 1115,
+        "playtimeHours": 9.4,
+        "blocksTravelled": 46426,
+        "blocksBroken": 3058,
+        "blocksPlaced": 1116,
         "deepestY": 23,
-        "lastSeen": 1782841828,
+        "lastSeen": 1782842010,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2139,13 +2139,13 @@
           },
           {
             "slot": "bag-3",
-            "code": "butchering:butcherybag-standard",
-            "name": "Hide Butchering Bag"
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           },
           {
             "slot": "bag-4",
-            "code": "butchering:butcherybag-standard",
-            "name": "Hide Butchering Bag"
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           }
         ],
         "skin": {
@@ -2178,12 +2178,12 @@
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {},
-        "playtimeHours": 10.6,
-        "blocksTravelled": 44145,
-        "blocksBroken": 1919,
-        "blocksPlaced": 1593,
+        "playtimeHours": 10.7,
+        "blocksTravelled": 44208,
+        "blocksBroken": 1934,
+        "blocksPlaced": 1610,
         "deepestY": 24,
-        "lastSeen": 1782841828,
+        "lastSeen": 1782842010,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
