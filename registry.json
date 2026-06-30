@@ -1,5 +1,5 @@
 {
-  "generated": "20260630-235834",
+  "generated": "20260701-000034",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1761,7 +1761,7 @@
         "name": "Raschuetzer",
         "class": "tinker",
         "deaths": 6,
-        "mobKills": 25,
+        "mobKills": 26,
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {
@@ -1770,11 +1770,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 25.4,
-        "blocksTravelled": 52060,
+        "blocksTravelled": 52365,
         "blocksBroken": 2997,
-        "blocksPlaced": 119,
+        "blocksPlaced": 120,
         "deepestY": 40,
-        "lastSeen": 1782856599,
+        "lastSeen": 1782856812,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1907,11 +1907,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 16.2,
-        "blocksTravelled": 23419,
+        "blocksTravelled": 23425,
         "blocksBroken": 199,
         "blocksPlaced": 206,
         "deepestY": 108,
-        "lastSeen": 1782856599,
+        "lastSeen": 1782856812,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2399,11 +2399,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 3.4,
-        "blocksTravelled": 7469,
+        "blocksTravelled": 7490,
         "blocksBroken": 66,
         "blocksPlaced": 24,
         "deepestY": 105,
-        "lastSeen": 1782856599,
+        "lastSeen": 1782856812,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
