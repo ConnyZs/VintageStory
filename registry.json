@@ -1,5 +1,5 @@
 {
-  "generated": "20260630-225631",
+  "generated": "20260630-225830",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1768,12 +1768,12 @@
           "wolf-eurasian-adult-male": 1,
           "internal": 1
         },
-        "playtimeHours": 24.3,
-        "blocksTravelled": 49845,
+        "playtimeHours": 24.4,
+        "blocksTravelled": 49924,
         "blocksBroken": 2996,
         "blocksPlaced": 109,
         "deepestY": 40,
-        "lastSeen": 1782852931,
+        "lastSeen": 1782852997,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1904,11 +1904,11 @@
         "mealsEaten": 0,
         "deathCauses": {},
         "playtimeHours": 15.2,
-        "blocksTravelled": 22110,
+        "blocksTravelled": 22117,
         "blocksBroken": 197,
         "blocksPlaced": 206,
         "deepestY": 108,
-        "lastSeen": 1782852885,
+        "lastSeen": 1782852997,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2035,11 +2035,11 @@
           "sheep-mouflon-adult-male": 1
         },
         "playtimeHours": 12.4,
-        "blocksTravelled": 63256,
+        "blocksTravelled": 63296,
         "blocksBroken": 3742,
         "blocksPlaced": 1207,
         "deepestY": 23,
-        "lastSeen": 1782852885,
+        "lastSeen": 1782852997,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2182,11 +2182,11 @@
         "mealsEaten": 0,
         "deathCauses": {},
         "playtimeHours": 13.7,
-        "blocksTravelled": 52257,
+        "blocksTravelled": 52279,
         "blocksBroken": 3152,
         "blocksPlaced": 2341,
         "deepestY": 24,
-        "lastSeen": 1782852885,
+        "lastSeen": 1782852997,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2397,7 +2397,7 @@
         "blocksBroken": 66,
         "blocksPlaced": 22,
         "deepestY": 105,
-        "lastSeen": 1782852976,
+        "lastSeen": 1782852997,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
