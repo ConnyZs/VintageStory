@@ -1,5 +1,5 @@
 {
-  "generated": "20260630-223429",
+  "generated": "20260630-223629",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2033,12 +2033,12 @@
         "deathCauses": {
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 12.0,
-        "blocksTravelled": 61327,
+        "playtimeHours": 12.1,
+        "blocksTravelled": 61517,
         "blocksBroken": 3737,
         "blocksPlaced": 1204,
         "deepestY": 23,
-        "lastSeen": 1782851556,
+        "lastSeen": 1782851677,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2180,12 +2180,12 @@
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {},
-        "playtimeHours": 13.3,
-        "blocksTravelled": 51105,
-        "blocksBroken": 3039,
-        "blocksPlaced": 2201,
+        "playtimeHours": 13.4,
+        "blocksTravelled": 51239,
+        "blocksBroken": 3047,
+        "blocksPlaced": 2210,
         "deepestY": 24,
-        "lastSeen": 1782851556,
+        "lastSeen": 1782851677,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2392,11 +2392,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 2.0,
-        "blocksTravelled": 5681,
+        "blocksTravelled": 5898,
         "blocksBroken": 66,
         "blocksPlaced": 19,
         "deepestY": 105,
-        "lastSeen": 1782851556,
+        "lastSeen": 1782851677,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
