@@ -1,5 +1,5 @@
 {
-  "generated": "20260701-195648",
+  "generated": "20260701-200046",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -39,7 +39,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 105,
+  "count": 107,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1494,6 +1494,38 @@
       "custom": true
     },
     {
+      "name": "Extra Info",
+      "modid": "extrainfo",
+      "section": "optional",
+      "category": "QoL",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/extrainfo",
+      "server_state": "no",
+      "avail": "available",
+      "note": "",
+      "version": null,
+      "build_version": null,
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": false
+    },
+    {
+      "name": "Improved Handbook Recipes (Fork)",
+      "modid": "improvedhandbookrecipesfork",
+      "section": "optional",
+      "category": "QoL",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/improvedhandbookrecipesfork",
+      "server_state": "no",
+      "avail": "available",
+      "note": "",
+      "version": null,
+      "build_version": null,
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": false
+    },
+    {
       "name": "Electrical Progressive: Core",
       "modid": "electricalprogressivecore",
       "section": "1.22",
@@ -1747,22 +1779,6 @@
       "update_pending": false,
       "proposed": false,
       "untracked": true
-    },
-    {
-      "name": "Extra Info",
-      "modid": "extrainfo",
-      "section": "optional",
-      "category": "QoL",
-      "on_server": false,
-      "link": "https://mods.vintagestory.at/extrainfo",
-      "server_state": "no",
-      "avail": "available",
-      "note": "available for 1.22 (installs on update)",
-      "version": "2.2.1",
-      "build_version": "2.2.1",
-      "build_branch": "1.22",
-      "update_pending": false,
-      "proposed": false
     }
   ],
   "crew": [
