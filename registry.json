@@ -1,5 +1,5 @@
 {
-  "generated": "20260701-192246",
+  "generated": "20260701-192446",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1907,11 +1907,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 35.6,
-        "blocksTravelled": 25833,
+        "blocksTravelled": 25990,
         "blocksBroken": 200,
         "blocksPlaced": 209,
         "deepestY": 108,
-        "lastSeen": 1782926471,
+        "lastSeen": 1782926591,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
