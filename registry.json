@@ -1,5 +1,5 @@
 {
-  "generated": "20260701-191245",
+  "generated": "20260701-191445",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1893,7 +1893,7 @@
       "name": "Eghetti",
       "role": "admin",
       "first_join": "04/22/2026 18:03",
-      "last_join": "06/30/2026 21:27",
+      "last_join": "07/01/2026 17:11",
       "last_char": "04/22/2026 18:08",
       "stats": {
         "uid": "TxqQ4g4qqKs+G5yFUTFmyGYb",
@@ -1906,12 +1906,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 35.4,
-        "blocksTravelled": 24661,
+        "playtimeHours": 35.5,
+        "blocksTravelled": 24749,
         "blocksBroken": 200,
         "blocksPlaced": 209,
         "deepestY": 108,
-        "lastSeen": 1782925904,
+        "lastSeen": 1782925991,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
