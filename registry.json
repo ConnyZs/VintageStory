@@ -1747,6 +1747,22 @@
       "update_pending": false,
       "proposed": false,
       "untracked": true
+    },
+    {
+      "name": "Extra Info",
+      "modid": "extrainfo",
+      "section": "optional",
+      "category": "QoL",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/extrainfo",
+      "server_state": "no",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": "2.2.1",
+      "build_version": "2.2.1",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": false
     }
   ],
   "crew": [
