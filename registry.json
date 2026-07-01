@@ -1,5 +1,5 @@
 {
-  "generated": "20260701-193046",
+  "generated": "20260701-193246",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1911,7 +1911,7 @@
         "blocksBroken": 200,
         "blocksPlaced": 209,
         "deepestY": 108,
-        "lastSeen": 1782926957,
+        "lastSeen": 1782927162,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2186,12 +2186,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 28.0,
-        "blocksTravelled": 54563,
-        "blocksBroken": 3167,
-        "blocksPlaced": 2386,
+        "playtimeHours": 34.3,
+        "blocksTravelled": 54619,
+        "blocksBroken": 3168,
+        "blocksPlaced": 2387,
         "deepestY": 24,
-        "lastSeen": 1782904346,
+        "lastSeen": 1782927083,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
