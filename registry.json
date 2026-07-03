@@ -1,5 +1,5 @@
 {
-  "generated": "20260703-175628",
+  "generated": "20260703-180402",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -17,10 +17,9 @@
       "Natural Foliage",
       "Status HUD"
     ],
-    "generated": "20260703-173325"
+    "generated": "20260703-180338"
   },
-  "sheet_url": "https://docs.google.com/spreadsheets/d/1MZUkPV8T5S2HtIM8LexvDzXFZAidz0b4pdVqxegL5pE/edit",
-  "submit_url": "https://script.google.com/macros/s/AKfycbyHYVVekkEQmbHEHJUAA1BjyheZFE_vC0Ook-bTyr3UHyeRkeQgv0j3DimOKLsqAxVmXw/exec",
+  "admin_url": "http://127.0.0.1:3042",
   "categories": [
     "Cosmetics",
     "Crafting",
@@ -987,24 +986,6 @@
       "proposed": false
     },
     {
-      "name": "Smithing Plus",
-      "modid": "smithingplus",
-      "section": "1.22",
-      "category": "Crafting",
-      "on_server": true,
-      "link": "https://mods.vintagestory.at/smithingplus",
-      "server_state": "yes",
-      "avail": "available",
-      "note": "available for 1.22 (installs on update)",
-      "version": "1.8.7",
-      "build_version": "1.8.7",
-      "build_branch": "1.22",
-      "update_pending": false,
-      "proposed": false,
-      "custom": true,
-      "repo_link": "https://github.com/ConnyZs/SmithingPlus-1.22"
-    },
-    {
       "name": "Sortable Storage",
       "modid": "sortablestorage",
       "section": "1.22",
@@ -1115,24 +1096,6 @@
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": false
-    },
-    {
-      "name": "Weapon Pack Alpha (quenchable)",
-      "modid": "weaponpackalphaunoff",
-      "section": "1.22",
-      "category": "Weapons",
-      "on_server": true,
-      "link": "https://mods.vintagestory.at/show/mod/6522",
-      "server_state": "yes",
-      "avail": "available",
-      "note": "custom 1.9.0 build \u2014 quenching, tempering and sharpening added",
-      "version": "1.9.0",
-      "build_version": "1.9.0",
-      "build_branch": "1.22",
-      "update_pending": false,
-      "proposed": false,
-      "custom": true,
-      "repo_link": "https://github.com/ConnyZs/WeaponPack-v1.22-SmithingPlus-Compatibility"
     },
     {
       "name": "Window Storage",
@@ -1439,6 +1402,56 @@
       "proposed": false
     },
     {
+      "name": "Extra Info",
+      "modid": "extrainfo",
+      "section": "optional",
+      "category": "Utility",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/extrainfo",
+      "server_state": "no",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": "2.2.1",
+      "build_version": "2.2.1",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": false
+    },
+    {
+      "name": "Improved Handbook Recipe Helper",
+      "modid": "improvedhandbookrecipesfork",
+      "section": "optional",
+      "category": "Utility",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/improvedhandbookrecipesfork",
+      "server_state": "no",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": "1222.0.2",
+      "build_version": "1222.0.2",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": false
+    },
+    {
+      "name": "smithingplus",
+      "modid": "smithingplus",
+      "section": "optional",
+      "category": "Misc.",
+      "on_server": false,
+      "link": null,
+      "repo_link": "https://github.com/ConnyZs/SmithingPlus-1.22",
+      "server_state": "",
+      "avail": "available",
+      "note": "",
+      "version": "1.8.7",
+      "build_version": "1.8.7",
+      "build_branch": null,
+      "update_pending": false,
+      "proposed": false,
+      "custom": true
+    },
+    {
       "name": "Windmill Sail Fix",
       "modid": "windmillsailfix",
       "section": "optional",
@@ -1469,6 +1482,24 @@
       "note": "",
       "version": "1.1.11",
       "build_version": "1.1.11",
+      "build_branch": null,
+      "update_pending": false,
+      "proposed": false,
+      "custom": true
+    },
+    {
+      "name": "Weapon Pack Alpha (quenchable)",
+      "modid": "weaponpackalphaunoff",
+      "section": "optional",
+      "category": "Misc.",
+      "on_server": false,
+      "link": null,
+      "repo_link": "https://github.com/ConnyZs/WeaponPack-v1.22-SmithingPlus-Compatibility",
+      "server_state": "",
+      "avail": "available",
+      "note": "custom 1.9.0 build \u2014 quenching, tempering and sharpening added",
+      "version": "1.9.0",
+      "build_version": "1.9.0",
       "build_branch": null,
       "update_pending": false,
       "proposed": false,
@@ -1509,38 +1540,6 @@
       "update_pending": false,
       "proposed": false,
       "custom": true
-    },
-    {
-      "name": "Extra Info",
-      "modid": "extrainfo",
-      "section": "optional",
-      "category": "QoL",
-      "on_server": false,
-      "link": "https://mods.vintagestory.at/extrainfo",
-      "server_state": "no",
-      "avail": "available",
-      "note": "",
-      "version": null,
-      "build_version": null,
-      "build_branch": "1.22",
-      "update_pending": false,
-      "proposed": false
-    },
-    {
-      "name": "Improved Handbook Recipes (Fork)",
-      "modid": "improvedhandbookrecipesfork",
-      "section": "optional",
-      "category": "QoL",
-      "on_server": false,
-      "link": "https://mods.vintagestory.at/improvedhandbookrecipesfork",
-      "server_state": "no",
-      "avail": "available",
-      "note": "",
-      "version": null,
-      "build_version": null,
-      "build_branch": "1.22",
-      "update_pending": false,
-      "proposed": false
     },
     {
       "name": "apegrapes",
@@ -2547,8 +2546,5 @@
         }
       }
     }
-  ],
-  "actions_v4": true,
-  "actions_v5": true,
-  "actions_v6": true
+  ]
 }
