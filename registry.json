@@ -1,5 +1,5 @@
 {
-  "generated": "20260703-201036",
+  "generated": "20260703-201236",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1819,7 +1819,7 @@
       "name": "Raschuetzer",
       "role": "admin",
       "first_join": "04/22/2026 17:47",
-      "last_join": "07/03/2026 17:33",
+      "last_join": "07/03/2026 18:08",
       "last_char": "04/29/2026 21:30",
       "stats": {
         "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
@@ -1835,11 +1835,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 28.8,
-        "blocksTravelled": 65737,
-        "blocksBroken": 3194,
+        "blocksTravelled": 65767,
+        "blocksBroken": 3296,
         "blocksPlaced": 134,
         "deepestY": 40,
-        "lastSeen": 1783102205,
+        "lastSeen": 1783102325,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2088,7 +2088,7 @@
       "name": "AddyBuschu",
       "role": "suplayer",
       "first_join": "04/22/2026 17:55",
-      "last_join": "07/03/2026 17:03",
+      "last_join": "07/03/2026 18:08",
       "last_char": "04/25/2026 15:34",
       "stats": {
         "uid": "MT3maN90oN2gwGyklJR20Gu1",
@@ -2103,11 +2103,11 @@
           "sheep-mouflon-adult-male": 1
         },
         "playtimeHours": 14.0,
-        "blocksTravelled": 72409,
-        "blocksBroken": 4216,
+        "blocksTravelled": 72456,
+        "blocksBroken": 4297,
         "blocksPlaced": 1291,
         "deepestY": 23,
-        "lastSeen": 1783102205,
+        "lastSeen": 1783102325,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2252,11 +2252,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 35.5,
-        "blocksTravelled": 58229,
-        "blocksBroken": 3228,
-        "blocksPlaced": 2442,
+        "blocksTravelled": 58305,
+        "blocksBroken": 3234,
+        "blocksPlaced": 2445,
         "deepestY": 24,
-        "lastSeen": 1783102205,
+        "lastSeen": 1783102325,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
