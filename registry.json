@@ -1,5 +1,5 @@
 {
-  "generated": "20260703-200045",
+  "generated": "20260703-200236",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1834,12 +1834,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 28.6,
-        "blocksTravelled": 64726,
+        "playtimeHours": 28.7,
+        "blocksTravelled": 65420,
         "blocksBroken": 3068,
         "blocksPlaced": 132,
         "deepestY": 40,
-        "lastSeen": 1783101604,
+        "lastSeen": 1783101725,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1972,11 +1972,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 36.7,
-        "blocksTravelled": 28185,
+        "blocksTravelled": 28276,
         "blocksBroken": 200,
         "blocksPlaced": 211,
         "deepestY": 105,
-        "lastSeen": 1783101604,
+        "lastSeen": 1783101738,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2102,12 +2102,12 @@
           "bear-brown-adult-female": 1,
           "sheep-mouflon-adult-male": 1
         },
-        "playtimeHours": 13.8,
-        "blocksTravelled": 71927,
-        "blocksBroken": 4004,
+        "playtimeHours": 13.9,
+        "blocksTravelled": 72027,
+        "blocksBroken": 4069,
         "blocksPlaced": 1287,
         "deepestY": 23,
-        "lastSeen": 1783101604,
+        "lastSeen": 1783101725,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2245,18 +2245,18 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 30,
+        "mobKills": 31,
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {
           "shiver-corrupt": 1
         },
         "playtimeHours": 35.3,
-        "blocksTravelled": 57477,
+        "blocksTravelled": 57553,
         "blocksBroken": 3220,
         "blocksPlaced": 2438,
         "deepestY": 24,
-        "lastSeen": 1783101604,
+        "lastSeen": 1783101725,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
