@@ -997,26 +997,20 @@ function renderEngineNotice(){
   };
 }
 
-// admin-only "Deploy now" — asks the bot (which polls) to run the update soon.
-// Only shown once the v4 Apps Script is live (REG.actions_v4), else it'd junk the old script.
 function setupAdminButtons(){
-  // "Check for updates" is visible to everyone — triggers a fresh registry rebuild,
-  // then polls until registry.json's generated timestamp changes (≤~2 min).
+  // "Check for updates" — admin triggers bot to rebuild registry; non-admin just refreshes the page.
   const cb=document.getElementById("checkBtn");
-  if(cb && REG.submit_url){
+  if(cb){
     cb.addEventListener("click",async()=>{
       if(cb.disabled) return;
       cb.disabled=true; cb.textContent="Checking…";
       const startGen=REG.generated;
       const cts=document.getElementById("checkTs");
       const setTs=()=>{const d=new Date();const p=n=>String(n).padStart(2,'0');const s=`${p(d.getDate())}.${p(d.getMonth()+1)}.${d.getFullYear()} ${p(d.getHours())}:${p(d.getMinutes())}`;const raw=`${d.getFullYear()}${p(d.getMonth()+1)}${p(d.getDate())}-${p(d.getHours())}${p(d.getMinutes())}${p(d.getSeconds())}`;localStorage.setItem("vs_last_check_ts",s);localStorage.setItem("vs_last_check_raw",raw);if(cts)cts.textContent="last checked "+s;}
-      try{
-        await fetch(REG.submit_url,{method:"POST",mode:"no-cors",
-          headers:{"Content-Type":"text/plain;charset=utf-8"},
-          body:JSON.stringify({action:"check"})});
-        setTs();  // update timestamp immediately once request sent
-      }catch(e){ cb.textContent="Check for updates"; cb.disabled=false; return; }
-      // poll registry.json until it refreshes (bot rebuilds and pushes it)
+      if(ADMIN_KEY){
+        try{ await _adminPost({action:"check"}); setTs(); }
+        catch(e){ cb.textContent="Check for updates"; cb.disabled=false; return; }
+      }
       const poll=setInterval(async()=>{
         try{
           const reg=await (await fetch("registry.json?_="+Date.now())).json();
@@ -1035,7 +1029,7 @@ function setupAdminButtons(){
   }
   renderEngineNotice(); renderRestartNotice(); renderClientUpdateNotice(REG.last_deploy_ts);
   resumeDeployIfNeeded();
-  if(!(ADMIN_KEY && REG.actions_v4))return;
+  if(!ADMIN_KEY)return;
   const db=document.getElementById("deployBtn");
   db.hidden=false;
   db.addEventListener("click",()=>openDeployModal(db));
@@ -1090,8 +1084,7 @@ async function deployWithProgress(db){
   const startDeployTs=REG.last_deploy_ts||"";
   localStorage.setItem("vs_deploy_dts",startDeployTs); localStorage.setItem("vs_deploy_ts",Date.now());
   try{
-    await fetch(REG.submit_url,{method:"POST",mode:"no-cors",headers:{"Content-Type":"text/plain;charset=utf-8"},
-      body:JSON.stringify({action:"deploy",key:ADMIN_KEY})});
+    await _adminPost({action:"deploy"});
   }catch(e){ bar.hidden=true; db.disabled=false; localStorage.removeItem("vs_deploy_dts"); showToast("Couldn’t request deploy — try again.",false); return; }
   _startDeployPoll(db,startDeployTs,Date.now());
 }
@@ -1227,11 +1220,14 @@ scrim.addEventListener("click",e=>{if(e.target===scrim)closeModal();});
 document.addEventListener("keydown",e=>{if(e.key==="Escape")closeModal();});
 
 function initForm(){
-  const ok=!!REG.submit_url;
-  document.getElementById("submitBtn").disabled=!ok;
+  // Non-admin: disable the form and redirect to Discord for submissions.
+  // Admin: form posts to the local bot endpoint.
   const s=document.getElementById("setupMsg");
-  if(!ok){s.style.display="block";
-    s.textContent="Submissions aren’t wired up yet — the admin needs to finish the one-time setup (DEPLOY-DASHBOARD-FORM.md).";}
+  if(!ADMIN_KEY){
+    document.getElementById("submitBtn").disabled=true;
+    s.style.display="block";
+    s.innerHTML=’Post a <b>mods.vintagestory.at</b> link in the Discord channel — the bot picks it up automatically.’;
+  }
 }
 function showToast(msg,good){toast.textContent=msg;toast.style.borderColor=good?"var(--verd)":"var(--rust)";
   toast.classList.add("show");setTimeout(()=>toast.classList.remove("show"),3800);}
@@ -1246,8 +1242,7 @@ function loadPending(){
   const names=new Set(DATA.map(m=>(m.name||"").toLowerCase().trim()).filter(Boolean));
   p=p.filter(x=>!links.has(linkKey(x.link)) && !names.has((x.name||"").toLowerCase().trim()));
   localStorage.setItem(pendingKey(),JSON.stringify(p));
-  // proposals no longer ride in the main list — they live in the Admin · proposals box (read
-  // live from the sheet) until accepted AND deployed, at which point promote() moves them here.
+  // proposals live in the Admin · proposals box (read from registry.json) until accepted AND deployed.
 }
 function savePending(entry){
   let p=[];try{p=JSON.parse(localStorage.getItem(pendingKey())||"[]");}catch(e){}
@@ -1277,18 +1272,16 @@ document.getElementById("submitBtn").addEventListener("click",async()=>{
   const section=document.getElementById("f-sec").value;
   const on_server=false;   // all dashboard submissions are proposals until an admin approves
   if(!/^https?:\/\/mods\.vintagestory\.at\//.test(link)){showToast("Use a mods.vintagestory.at link.",false);return;}
-  if(!REG.submit_url){showToast("Setup not finished — ask the admin.",false);return;}
   const btn=document.getElementById("submitBtn");btn.disabled=true;btn.textContent="Adding…";
-  const payload={name,link,category,section,on_server,note:"added via dashboard"};
   try{
-    await fetch(REG.submit_url,{method:"POST",mode:"no-cors",
-      headers:{"Content-Type":"text/plain;charset=utf-8"},body:JSON.stringify(payload)});
+    if(ADMIN_KEY){
+      await _adminPost({action:"submit",link,name,category,section,note:"added via dashboard"});
+    }
     savePending({name:name||link,link,category,section});
     closeModal();
-    showToast("Proposed ✓ — visible in the Proposals box below, awaiting admin approval.",true);
+    showToast(ADMIN_KEY?"Added ✓ — bot will pick it up on the next sync.":"Proposed ✓ — awaiting admin approval.",true);
     document.getElementById("f-name").value="";document.getElementById("f-link").value="";
-    renderApprovals();   // always update proposals box so the submitter sees their entry
-    if(ADMIN_KEY){setTimeout(renderApprovals,3000);setTimeout(renderApprovals,8000);}
+    renderApprovals();
   }catch(err){showToast("Couldn’t submit — try again.",false);}
   finally{btn.disabled=false;btn.textContent="Add to ledger";}
 });
