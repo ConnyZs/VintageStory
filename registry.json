@@ -1,5 +1,5 @@
 {
-  "generated": "20260703-204839",
+  "generated": "20260703-205039",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1834,12 +1834,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 29.4,
-        "blocksTravelled": 70236,
-        "blocksBroken": 3673,
+        "playtimeHours": 29.5,
+        "blocksTravelled": 70844,
+        "blocksBroken": 3674,
         "blocksPlaced": 155,
         "deepestY": 40,
-        "lastSeen": 1783104487,
+        "lastSeen": 1783104607,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1971,12 +1971,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 37.1,
-        "blocksTravelled": 28853,
+        "playtimeHours": 37.2,
+        "blocksTravelled": 28857,
         "blocksBroken": 205,
         "blocksPlaced": 216,
         "deepestY": 105,
-        "lastSeen": 1783104487,
+        "lastSeen": 1783104607,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2102,12 +2102,12 @@
           "bear-brown-adult-female": 1,
           "sheep-mouflon-adult-male": 1
         },
-        "playtimeHours": 14.6,
-        "blocksTravelled": 74561,
-        "blocksBroken": 4501,
+        "playtimeHours": 14.7,
+        "blocksTravelled": 74603,
+        "blocksBroken": 4505,
         "blocksPlaced": 1307,
         "deepestY": 23,
-        "lastSeen": 1783104487,
+        "lastSeen": 1783104607,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2252,11 +2252,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 36.1,
-        "blocksTravelled": 62745,
-        "blocksBroken": 3858,
-        "blocksPlaced": 2456,
+        "blocksTravelled": 62847,
+        "blocksBroken": 3868,
+        "blocksPlaced": 2457,
         "deepestY": 24,
-        "lastSeen": 1783104487,
+        "lastSeen": 1783104607,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
