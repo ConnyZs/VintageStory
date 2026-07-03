@@ -1,5 +1,5 @@
 {
-  "generated": "20260703-213641",
+  "generated": "20260703-213841",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2103,12 +2103,12 @@
           "sheep-mouflon-adult-male": 1,
           "pig-eurasian-adult-male": 1
         },
-        "playtimeHours": 15.4,
-        "blocksTravelled": 78025,
-        "blocksBroken": 4740,
-        "blocksPlaced": 1366,
+        "playtimeHours": 15.5,
+        "blocksTravelled": 78164,
+        "blocksBroken": 4742,
+        "blocksPlaced": 1371,
         "deepestY": 23,
-        "lastSeen": 1783107370,
+        "lastSeen": 1783107490,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2208,16 +2208,6 @@
             "slot": "bag-2",
             "code": "game:backpack-normal",
             "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-3",
-            "code": "butchering:butcherybag-standard",
-            "name": "Hide Butchering Bag"
-          },
-          {
-            "slot": "bag-4",
-            "code": "butchering:butcherybag-standard",
-            "name": "Hide Butchering Bag"
           }
         ],
         "skin": {
@@ -2253,11 +2243,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 36.9,
-        "blocksTravelled": 67152,
+        "blocksTravelled": 67281,
         "blocksBroken": 4014,
         "blocksPlaced": 2520,
         "deepestY": 24,
-        "lastSeen": 1783107370,
+        "lastSeen": 1783107490,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
