@@ -1,5 +1,5 @@
 {
-  "generated": "20260703-230647",
+  "generated": "20260703-230847",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1835,11 +1835,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 30.4,
-        "blocksTravelled": 77333,
+        "blocksTravelled": 77423,
         "blocksBroken": 4293,
         "blocksPlaced": 159,
         "deepestY": 28,
-        "lastSeen": 1783112774,
+        "lastSeen": 1783112894,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1965,18 +1965,18 @@
         "name": "Eghetti",
         "class": "smith",
         "deaths": 1,
-        "mobKills": 32,
+        "mobKills": 34,
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 39.2,
-        "blocksTravelled": 30649,
+        "playtimeHours": 39.3,
+        "blocksTravelled": 30700,
         "blocksBroken": 249,
         "blocksPlaced": 335,
         "deepestY": 105,
-        "lastSeen": 1783112774,
+        "lastSeen": 1783112894,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2104,11 +2104,11 @@
           "pig-eurasian-adult-male": 1
         },
         "playtimeHours": 16.9,
-        "blocksTravelled": 86348,
-        "blocksBroken": 6157,
+        "blocksTravelled": 86411,
+        "blocksBroken": 6406,
         "blocksPlaced": 1458,
         "deepestY": 23,
-        "lastSeen": 1783112774,
+        "lastSeen": 1783112894,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2253,11 +2253,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 38.4,
-        "blocksTravelled": 73548,
-        "blocksBroken": 4643,
+        "blocksTravelled": 73665,
+        "blocksBroken": 4659,
         "blocksPlaced": 2639,
         "deepestY": 24,
-        "lastSeen": 1783112774,
+        "lastSeen": 1783112894,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
