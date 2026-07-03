@@ -1,5 +1,5 @@
 {
-  "generated": "20260703-223445",
+  "generated": "20260703-223645",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1972,11 +1972,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 38.9,
-        "blocksTravelled": 30357,
+        "blocksTravelled": 30374,
         "blocksBroken": 246,
         "blocksPlaced": 330,
         "deepestY": 105,
-        "lastSeen": 1783110852,
+        "lastSeen": 1783110973,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2104,11 +2104,11 @@
           "pig-eurasian-adult-male": 1
         },
         "playtimeHours": 16.4,
-        "blocksTravelled": 83842,
-        "blocksBroken": 5538,
-        "blocksPlaced": 1408,
+        "blocksTravelled": 83956,
+        "blocksBroken": 5540,
+        "blocksPlaced": 1410,
         "deepestY": 23,
-        "lastSeen": 1783110852,
+        "lastSeen": 1783110973,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2211,13 +2211,13 @@
           },
           {
             "slot": "bag-3",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "code": "butchering:butcherybag-standard",
+            "name": "Hide Butchering Bag"
           },
           {
             "slot": "bag-4",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "code": "butchering:butcherybag-standard",
+            "name": "Hide Butchering Bag"
           }
         ],
         "skin": {
@@ -2252,12 +2252,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 37.8,
-        "blocksTravelled": 69324,
+        "playtimeHours": 37.9,
+        "blocksTravelled": 69372,
         "blocksBroken": 4321,
         "blocksPlaced": 2623,
         "deepestY": 24,
-        "lastSeen": 1783110852,
+        "lastSeen": 1783110973,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
