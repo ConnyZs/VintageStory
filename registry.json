@@ -1,5 +1,5 @@
 {
-  "generated": "20260703-181438",
+  "generated": "20260703-182002",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -39,7 +39,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 108,
+  "count": 110,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1432,6 +1432,38 @@
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": false
+    },
+    {
+      "name": "",
+      "modid": "httptest",
+      "section": "1.22",
+      "category": "Other",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/HTTPTEST",
+      "server_state": "no",
+      "avail": "not-found",
+      "note": "not on ModDB / link unresolved",
+      "version": null,
+      "build_version": null,
+      "build_branch": null,
+      "update_pending": false,
+      "proposed": false
+    },
+    {
+      "name": "",
+      "modid": "test2",
+      "section": "1.22",
+      "category": "Other",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/test2",
+      "server_state": "no",
+      "avail": "not-found",
+      "note": "not on ModDB / link unresolved",
+      "version": null,
+      "build_version": null,
+      "build_branch": null,
+      "update_pending": false,
+      "proposed": true
     },
     {
       "name": "smithingplus",
