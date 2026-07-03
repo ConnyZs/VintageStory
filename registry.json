@@ -1,5 +1,5 @@
 {
-  "generated": "20260703-190432",
+  "generated": "20260703-190632",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1802,7 +1802,7 @@
       "name": "Raschuetzer",
       "role": "admin",
       "first_join": "04/22/2026 17:47",
-      "last_join": "07/03/2026 15:24",
+      "last_join": "07/03/2026 17:06",
       "last_char": "04/29/2026 21:30",
       "stats": {
         "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
@@ -1817,12 +1817,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 26.2,
-        "blocksTravelled": 58559,
+        "playtimeHours": 27.8,
+        "blocksTravelled": 58563,
         "blocksBroken": 3029,
         "blocksPlaced": 128,
         "deepestY": 40,
-        "lastSeen": 1783092573,
+        "lastSeen": 1783098380,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1941,7 +1941,7 @@
       "name": "Eghetti",
       "role": "admin",
       "first_join": "04/22/2026 18:03",
-      "last_join": "07/01/2026 17:32",
+      "last_join": "07/03/2026 17:05",
       "last_char": "04/22/2026 18:08",
       "stats": {
         "uid": "TxqQ4g4qqKs+G5yFUTFmyGYb",
@@ -1955,11 +1955,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 35.8,
-        "blocksTravelled": 26313,
+        "blocksTravelled": 26322,
         "blocksBroken": 200,
         "blocksPlaced": 209,
         "deepestY": 108,
-        "lastSeen": 1782927358,
+        "lastSeen": 1783098380,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2071,7 +2071,7 @@
       "name": "AddyBuschu",
       "role": "suplayer",
       "first_join": "04/22/2026 17:55",
-      "last_join": "06/30/2026 16:53",
+      "last_join": "07/03/2026 17:03",
       "last_char": "04/25/2026 15:34",
       "stats": {
         "uid": "MT3maN90oN2gwGyklJR20Gu1",
@@ -2086,11 +2086,11 @@
           "sheep-mouflon-adult-male": 1
         },
         "playtimeHours": 12.9,
-        "blocksTravelled": 65818,
+        "blocksTravelled": 65873,
         "blocksBroken": 3774,
-        "blocksPlaced": 1233,
+        "blocksPlaced": 1235,
         "deepestY": 23,
-        "lastSeen": 1783098241,
+        "lastSeen": 1783098380,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
