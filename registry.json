@@ -1,5 +1,5 @@
 {
-  "generated": "20260703-191433",
+  "generated": "20260703-191633",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1818,11 +1818,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 27.9,
-        "blocksTravelled": 58762,
+        "blocksTravelled": 58894,
         "blocksBroken": 3029,
         "blocksPlaced": 128,
         "deepestY": 40,
-        "lastSeen": 1783098842,
+        "lastSeen": 1783098985,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1955,11 +1955,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 35.9,
-        "blocksTravelled": 27138,
+        "blocksTravelled": 27156,
         "blocksBroken": 200,
         "blocksPlaced": 209,
         "deepestY": 108,
-        "lastSeen": 1783098842,
+        "lastSeen": 1783098971,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2078,7 +2078,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 17,
-        "mobKills": 98,
+        "mobKills": 99,
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {
@@ -2086,11 +2086,11 @@
           "sheep-mouflon-adult-male": 1
         },
         "playtimeHours": 13.1,
-        "blocksTravelled": 66677,
-        "blocksBroken": 3779,
-        "blocksPlaced": 1239,
+        "blocksTravelled": 67012,
+        "blocksBroken": 3781,
+        "blocksPlaced": 1240,
         "deepestY": 23,
-        "lastSeen": 1783098842,
+        "lastSeen": 1783098985,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2234,12 +2234,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 34.5,
-        "blocksTravelled": 55304,
-        "blocksBroken": 3192,
-        "blocksPlaced": 2413,
+        "playtimeHours": 34.6,
+        "blocksTravelled": 55621,
+        "blocksBroken": 3210,
+        "blocksPlaced": 2414,
         "deepestY": 24,
-        "lastSeen": 1783098842,
+        "lastSeen": 1783098985,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
