@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-03T16:15:21Z",
+  "updated": "2026-07-03T16:15:23Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -790,8 +790,8 @@
       "link": "https://mods.vintagestory.at/ETEST_DUMMY",
       "category": "Test",
       "section": "1.22",
-      "server_state": "no",
-      "proposed": true,
+      "server_state": "yes",
+      "proposed": false,
       "note": "e2e test"
     }
   ]
