@@ -1,5 +1,5 @@
 {
-  "generated": "20260704-005654",
+  "generated": "20260704-005854",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1819,7 +1819,7 @@
       "name": "Raschuetzer",
       "role": "admin",
       "first_join": "04/22/2026 17:47",
-      "last_join": "07/03/2026 22:08",
+      "last_join": "07/03/2026 22:55",
       "last_char": "04/29/2026 21:30",
       "stats": {
         "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
@@ -1835,11 +1835,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 32.2,
-        "blocksTravelled": 82119,
+        "blocksTravelled": 82235,
         "blocksBroken": 4352,
         "blocksPlaced": 233,
         "deepestY": 28,
-        "lastSeen": 1783119379,
+        "lastSeen": 1783119528,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2105,12 +2105,12 @@
           "pig-eurasian-adult-male": 1,
           "pig-eurasian-adult-female": 1
         },
-        "playtimeHours": 18.7,
-        "blocksTravelled": 92644,
-        "blocksBroken": 6894,
-        "blocksPlaced": 1519,
+        "playtimeHours": 18.8,
+        "blocksTravelled": 92892,
+        "blocksBroken": 6897,
+        "blocksPlaced": 1522,
         "deepestY": 23,
-        "lastSeen": 1783119379,
+        "lastSeen": 1783119528,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2255,11 +2255,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 40.2,
-        "blocksTravelled": 79274,
-        "blocksBroken": 4983,
-        "blocksPlaced": 2822,
+        "blocksTravelled": 79360,
+        "blocksBroken": 4984,
+        "blocksPlaced": 2823,
         "deepestY": 24,
-        "lastSeen": 1783119379,
+        "lastSeen": 1783119528,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
