@@ -1,5 +1,5 @@
 {
-  "generated": "20260703-201637",
+  "generated": "20260703-201837",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1819,7 +1819,7 @@
       "name": "Raschuetzer",
       "role": "admin",
       "first_join": "04/22/2026 17:47",
-      "last_join": "07/03/2026 18:08",
+      "last_join": "07/03/2026 18:14",
       "last_char": "04/29/2026 21:30",
       "stats": {
         "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
@@ -1835,11 +1835,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 28.9,
-        "blocksTravelled": 66192,
-        "blocksBroken": 3316,
+        "blocksTravelled": 66581,
+        "blocksBroken": 3320,
         "blocksPlaced": 134,
         "deepestY": 40,
-        "lastSeen": 1783102565,
+        "lastSeen": 1783102685,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2103,11 +2103,11 @@
           "sheep-mouflon-adult-male": 1
         },
         "playtimeHours": 14.1,
-        "blocksTravelled": 72569,
-        "blocksBroken": 4374,
+        "blocksTravelled": 72651,
+        "blocksBroken": 4389,
         "blocksPlaced": 1295,
         "deepestY": 23,
-        "lastSeen": 1783102565,
+        "lastSeen": 1783102685,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2252,11 +2252,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 35.6,
-        "blocksTravelled": 58735,
+        "blocksTravelled": 59480,
         "blocksBroken": 3235,
         "blocksPlaced": 2446,
         "deepestY": 24,
-        "lastSeen": 1783102565,
+        "lastSeen": 1783102685,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
