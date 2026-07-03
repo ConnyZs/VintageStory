@@ -1,5 +1,5 @@
 {
-  "generated": "20260703-214442",
+  "generated": "20260703-214642",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2095,7 +2095,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 18,
-        "mobKills": 118,
+        "mobKills": 119,
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {
@@ -2104,11 +2104,11 @@
           "pig-eurasian-adult-male": 1
         },
         "playtimeHours": 15.6,
-        "blocksTravelled": 78571,
+        "blocksTravelled": 78673,
         "blocksBroken": 4742,
-        "blocksPlaced": 1371,
+        "blocksPlaced": 1383,
         "deepestY": 23,
-        "lastSeen": 1783107850,
+        "lastSeen": 1783107970,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2252,12 +2252,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 37.0,
-        "blocksTravelled": 67562,
+        "playtimeHours": 37.1,
+        "blocksTravelled": 67684,
         "blocksBroken": 4014,
         "blocksPlaced": 2520,
         "deepestY": 24,
-        "lastSeen": 1783107850,
+        "lastSeen": 1783107970,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
