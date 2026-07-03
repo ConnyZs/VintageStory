@@ -1,5 +1,5 @@
 {
-  "generated": "20260703-223245",
+  "generated": "20260703-223445",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1972,11 +1972,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 38.9,
-        "blocksTravelled": 30251,
+        "blocksTravelled": 30357,
         "blocksBroken": 246,
-        "blocksPlaced": 329,
+        "blocksPlaced": 330,
         "deepestY": 105,
-        "lastSeen": 1783110732,
+        "lastSeen": 1783110852,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2103,12 +2103,12 @@
           "sheep-mouflon-adult-male": 1,
           "pig-eurasian-adult-male": 1
         },
-        "playtimeHours": 16.3,
-        "blocksTravelled": 83800,
-        "blocksBroken": 5535,
-        "blocksPlaced": 1398,
+        "playtimeHours": 16.4,
+        "blocksTravelled": 83842,
+        "blocksBroken": 5538,
+        "blocksPlaced": 1408,
         "deepestY": 23,
-        "lastSeen": 1783110732,
+        "lastSeen": 1783110852,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2239,7 +2239,7 @@
       "name": "Moritz",
       "role": "suplayer",
       "first_join": "04/22/2026 18:03",
-      "last_join": "07/03/2026 17:07",
+      "last_join": "07/03/2026 20:30",
       "last_char": "04/22/2026 18:05",
       "stats": {
         "uid": "bKc3JB7NGywTi9YbzXu/Qogt",
@@ -2253,11 +2253,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 37.8,
-        "blocksTravelled": 69299,
+        "blocksTravelled": 69324,
         "blocksBroken": 4321,
         "blocksPlaced": 2623,
         "deepestY": 24,
-        "lastSeen": 1783110732,
+        "lastSeen": 1783110852,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
