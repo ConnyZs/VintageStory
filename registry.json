@@ -1,5 +1,5 @@
 {
-  "generated": "20260703-221044",
+  "generated": "20260703-221244",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1972,11 +1972,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 38.5,
-        "blocksTravelled": 29188,
+        "blocksTravelled": 29229,
         "blocksBroken": 205,
         "blocksPlaced": 216,
         "deepestY": 105,
-        "lastSeen": 1783109411,
+        "lastSeen": 1783109558,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2104,11 +2104,11 @@
           "pig-eurasian-adult-male": 1
         },
         "playtimeHours": 16.0,
-        "blocksTravelled": 81148,
-        "blocksBroken": 5168,
-        "blocksPlaced": 1394,
+        "blocksTravelled": 81196,
+        "blocksBroken": 5307,
+        "blocksPlaced": 1395,
         "deepestY": 23,
-        "lastSeen": 1783109411,
+        "lastSeen": 1783109558,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2253,11 +2253,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 37.5,
-        "blocksTravelled": 68556,
+        "blocksTravelled": 68727,
         "blocksBroken": 4170,
         "blocksPlaced": 2569,
         "deepestY": 24,
-        "lastSeen": 1783109411,
+        "lastSeen": 1783109558,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
