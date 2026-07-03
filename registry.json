@@ -1,5 +1,5 @@
 {
-  "generated": "20260703-225046",
+  "generated": "20260703-225246",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2103,12 +2103,12 @@
           "sheep-mouflon-adult-male": 1,
           "pig-eurasian-adult-male": 1
         },
-        "playtimeHours": 16.6,
-        "blocksTravelled": 84816,
-        "blocksBroken": 5561,
+        "playtimeHours": 16.7,
+        "blocksTravelled": 84968,
+        "blocksBroken": 5568,
         "blocksPlaced": 1421,
         "deepestY": 23,
-        "lastSeen": 1783111813,
+        "lastSeen": 1783111933,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2253,11 +2253,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 38.1,
-        "blocksTravelled": 71633,
+        "blocksTravelled": 72296,
         "blocksBroken": 4347,
         "blocksPlaced": 2632,
         "deepestY": 24,
-        "lastSeen": 1783111813,
+        "lastSeen": 1783111933,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
