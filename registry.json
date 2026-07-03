@@ -1,5 +1,5 @@
 {
-  "generated": "20260703-200636",
+  "generated": "20260703-200836",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1835,11 +1835,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 28.8,
-        "blocksTravelled": 65699,
-        "blocksBroken": 3119,
+        "blocksTravelled": 65724,
+        "blocksBroken": 3154,
         "blocksPlaced": 134,
         "deepestY": 40,
-        "lastSeen": 1783101965,
+        "lastSeen": 1783102116,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2102,12 +2102,12 @@
           "bear-brown-adult-female": 1,
           "sheep-mouflon-adult-male": 1
         },
-        "playtimeHours": 13.9,
-        "blocksTravelled": 72213,
-        "blocksBroken": 4152,
+        "playtimeHours": 14.0,
+        "blocksTravelled": 72306,
+        "blocksBroken": 4178,
         "blocksPlaced": 1288,
         "deepestY": 23,
-        "lastSeen": 1783101965,
+        "lastSeen": 1783102098,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2245,18 +2245,18 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 34,
+        "mobKills": 35,
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {
           "shiver-corrupt": 1
         },
         "playtimeHours": 35.4,
-        "blocksTravelled": 57837,
-        "blocksBroken": 3220,
-        "blocksPlaced": 2439,
+        "blocksTravelled": 58060,
+        "blocksBroken": 3223,
+        "blocksPlaced": 2440,
         "deepestY": 24,
-        "lastSeen": 1783101965,
+        "lastSeen": 1783102085,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
