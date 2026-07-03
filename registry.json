@@ -1,5 +1,5 @@
 {
-  "generated": "20260703-203838",
+  "generated": "20260703-204038",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1835,11 +1835,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 29.3,
-        "blocksTravelled": 68072,
-        "blocksBroken": 3672,
+        "blocksTravelled": 68415,
+        "blocksBroken": 3673,
         "blocksPlaced": 155,
         "deepestY": 40,
-        "lastSeen": 1783103887,
+        "lastSeen": 1783104007,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1976,7 +1976,7 @@
         "blocksBroken": 205,
         "blocksPlaced": 216,
         "deepestY": 105,
-        "lastSeen": 1783103887,
+        "lastSeen": 1783104007,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2095,7 +2095,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 17,
-        "mobKills": 100,
+        "mobKills": 101,
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {
@@ -2103,11 +2103,11 @@
           "sheep-mouflon-adult-male": 1
         },
         "playtimeHours": 14.5,
-        "blocksTravelled": 73764,
+        "blocksTravelled": 73954,
         "blocksBroken": 4497,
         "blocksPlaced": 1298,
         "deepestY": 23,
-        "lastSeen": 1783103887,
+        "lastSeen": 1783104007,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2245,18 +2245,18 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 35,
+        "mobKills": 36,
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 35.9,
-        "blocksTravelled": 61282,
-        "blocksBroken": 3787,
-        "blocksPlaced": 2453,
+        "playtimeHours": 36.0,
+        "blocksTravelled": 61493,
+        "blocksBroken": 3808,
+        "blocksPlaced": 2454,
         "deepestY": 24,
-        "lastSeen": 1783103887,
+        "lastSeen": 1783104007,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
