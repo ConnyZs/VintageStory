@@ -1,14 +1,15 @@
 {
   "server_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset.zip",
   "full_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset-full.zip",
-  "server_count": 86,
-  "full_count": 89,
-  "server_size": 137334026,
-  "full_size": 138135893,
+  "server_count": 87,
+  "full_count": 91,
+  "server_size": 137733602,
+  "full_size": 138624678,
   "client_only": [
-    "CoriaenderShaders",
+    "Extra Info",
+    "Improved Handbook Recipes (Fork)",
     "Natural Foliage",
     "Status HUD"
   ],
-  "generated": "20260628-193028"
+  "generated": "20260703-164951"
 }

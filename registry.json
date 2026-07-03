@@ -1,5 +1,5 @@
 {
-  "generated": "20260703-164222",
+  "generated": "20260703-165015",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -7,16 +7,17 @@
   "modset": {
     "server_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset.zip",
     "full_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset-full.zip",
-    "server_count": 86,
-    "full_count": 89,
-    "server_size": 137334026,
-    "full_size": 138135893,
+    "server_count": 87,
+    "full_count": 91,
+    "server_size": 137733602,
+    "full_size": 138624678,
     "client_only": [
-      "CoriaenderShaders",
+      "Extra Info",
+      "Improved Handbook Recipes (Fork)",
       "Natural Foliage",
       "Status HUD"
     ],
-    "generated": "20260628-193028"
+    "generated": "20260703-164951"
   },
   "sheet_url": "https://docs.google.com/spreadsheets/d/1MZUkPV8T5S2HtIM8LexvDzXFZAidz0b4pdVqxegL5pE/edit",
   "submit_url": "https://script.google.com/macros/s/AKfycbyHYVVekkEQmbHEHJUAA1BjyheZFE_vC0Ook-bTyr3UHyeRkeQgv0j3DimOKLsqAxVmXw/exec",
@@ -163,7 +164,7 @@
       "server_state": "no",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.2.0",
+      "version": null,
       "build_version": "1.2.1",
       "build_branch": "1.22",
       "update_pending": false,
@@ -531,10 +532,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "0.6.17",
+      "version": "0.6.18",
       "build_version": "0.6.18",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -579,10 +580,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "2.1.10",
+      "version": "2.2.0",
       "build_version": "2.2.0",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -643,10 +644,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "3.2.5",
+      "version": "3.3.0",
       "build_version": "3.3.0",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -835,10 +836,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.2.11",
+      "version": "1.2.12",
       "build_version": "1.2.12",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -1431,11 +1432,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "1.0.2",
       "build_version": "1.0.2",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Windmill Sail Fix",
