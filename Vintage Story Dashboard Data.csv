@@ -92,8 +92,6 @@ Flowers & Mushrooms Cultivation,,Tweak,1.22,yes,custom mod — cultivate alchemy
 All Helve Workable,,Tweak,1.22,yes,custom build — makes all anvil recipes fully workable by the helve hammer (client+server),allhelveworkable,available,1.0.3
 Extra Info,https://mods.vintagestory.at/extrainfo,QoL,optional,no,,extrainfo,available,
 Improved Handbook Recipes (Fork),https://mods.vintagestory.at/improvedhandbookrecipesfork,QoL,optional,no,,improvedhandbookrecipesfork,available,
-Electrical Progressive: Core,https://mods.vintagestory.at/show/mod/21786,Other,1.22,yes,,electricalprogressivecore,available,3.2.3
-Molds,https://mods.vintagestory.at/show/mod/13685,Other,1.22,yes,,molds,available,0.3.4
 apegrapes,,Other,1.22,yes,,apegrapes,available,1.4.0
 attributerenderinglibrary,,Other,1.22,yes,,attributerenderinglibrary,available,3.1.5
 betterarrows,,Other,1.22,yes,,betterarrows,available,1.0.1
@@ -107,3 +105,5 @@ scaffolding,,Other,1.22,yes,,scaffolding,available,1.3.1
 tstools,,Other,1.22,yes,,tstools,available,3.1.2
 vsimgui,,Other,1.22,yes,,vsimgui,available,1.2.7
 windowstoragelib,,Other,1.22,yes,,windowstoragelib,available,1.2.6
+Electrical Progressive: Core,,Other,1.22,yes,,electricalprogressivecore,available,3.3.0
+Molds,,Other,1.22,yes,,molds,available,0.3.5

@@ -1,17 +1,8 @@
 {
   "game_version": "1.22.3",
-  "generated": "20260703-164903",
-  "count": 87,
+  "generated": "20260703-173236",
+  "count": 89,
   "mods": [
-    {
-      "filename": "windmillsailfix.zip",
-      "sha256": "265947d48b78820a7f5dc1520046ac1150c7e956098be9ed8ef67078af6c4c8a",
-      "size": 7138,
-      "modid": "windmillsailfix",
-      "version": "2.0.2",
-      "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/windmillsailfix.zip"
-    },
     {
       "filename": "ACulinaryArtillery 2.0.0-dev.21.zip",
       "sha256": "2bdd6c86632c24df7f1306ed367fce6a383b2c139a3e9acaf268a886fd0037be",
@@ -526,6 +517,15 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/coinage-2.2.0.zip"
     },
     {
+      "filename": "configlib_1.12.0.zip",
+      "sha256": "7376d892ee4b9dc8d435e4b4b32e964773e770d5f6ec01f2c913ef49b729d9fc",
+      "size": 198885,
+      "modid": "configlib",
+      "version": "1.12.0",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/configlib_1.12.0.zip"
+    },
+    {
       "filename": "electricalprogressivebasics_3.3.0.zip",
       "sha256": "99dba4f3e7a5304e0600d891324b9d92ef517a8823e52d1828533287634d1930",
       "size": 1475461,
@@ -785,6 +785,24 @@
       "version": "1.6.2",
       "name": null,
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/vsroofing_1.6.2.zip"
+    },
+    {
+      "filename": "windmillsailfix.zip",
+      "sha256": "265947d48b78820a7f5dc1520046ac1150c7e956098be9ed8ef67078af6c4c8a",
+      "size": 7138,
+      "modid": "windmillsailfix",
+      "version": "2.0.2",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/windmillsailfix.zip"
+    },
+    {
+      "filename": "windmillsailfix.zip",
+      "sha256": "265947d48b78820a7f5dc1520046ac1150c7e956098be9ed8ef67078af6c4c8a",
+      "size": 7138,
+      "modid": "windmillsailfix",
+      "version": "2.0.2",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/windmillsailfix.zip"
     }
   ],
   "optional": [
