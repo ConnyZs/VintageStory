@@ -24,4 +24,3 @@ jobs:
       - id: deployment
         name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v5
-        continue-on-error: true
