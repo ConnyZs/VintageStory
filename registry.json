@@ -1,5 +1,5 @@
 {
-  "generated": "20260703-191032",
+  "generated": "20260703-191233",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1817,12 +1817,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 27.8,
-        "blocksTravelled": 58686,
+        "playtimeHours": 27.9,
+        "blocksTravelled": 58692,
         "blocksBroken": 3029,
         "blocksPlaced": 128,
         "deepestY": 40,
-        "lastSeen": 1783098602,
+        "lastSeen": 1783098722,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1954,12 +1954,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 35.8,
-        "blocksTravelled": 26516,
+        "playtimeHours": 35.9,
+        "blocksTravelled": 26910,
         "blocksBroken": 200,
         "blocksPlaced": 209,
         "deepestY": 108,
-        "lastSeen": 1783098602,
+        "lastSeen": 1783098722,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2086,11 +2086,11 @@
           "sheep-mouflon-adult-male": 1
         },
         "playtimeHours": 13.0,
-        "blocksTravelled": 66181,
-        "blocksBroken": 3774,
+        "blocksTravelled": 66481,
+        "blocksBroken": 3775,
         "blocksPlaced": 1235,
         "deepestY": 23,
-        "lastSeen": 1783098602,
+        "lastSeen": 1783098722,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2221,7 +2221,7 @@
       "name": "Moritz",
       "role": "suplayer",
       "first_join": "04/22/2026 18:03",
-      "last_join": "07/03/2026 12:10",
+      "last_join": "07/03/2026 17:07",
       "last_char": "04/22/2026 18:05",
       "stats": {
         "uid": "bKc3JB7NGywTi9YbzXu/Qogt",
@@ -2235,11 +2235,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 34.5,
-        "blocksTravelled": 55111,
-        "blocksBroken": 3188,
-        "blocksPlaced": 2408,
+        "blocksTravelled": 55207,
+        "blocksBroken": 3189,
+        "blocksPlaced": 2412,
         "deepestY": 24,
-        "lastSeen": 1783098602,
+        "lastSeen": 1783098722,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
