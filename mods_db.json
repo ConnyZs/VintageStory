@@ -1,0 +1,789 @@
+{
+  "version": 1,
+  "updated": "2026-07-03T15:53:40Z",
+  "mods": [
+    {
+      "name": "Adventurer's Walking Stick",
+      "link": "https://mods.vintagestory.at/show/mod/34545",
+      "category": "Utility",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Papiers Peints",
+      "link": "https://mods.vintagestory.at/show/mod/40762XXX",
+      "category": "Cosmetics",
+      "section": "1.21",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Salty\u00b4s Bird\u00b4s Eye",
+      "link": "https://mods.vintagestory.at/birdseye",
+      "category": "QoL",
+      "section": "optional",
+      "server_state": "no",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "AE Titanium Tools Reborn",
+      "link": "https://mods.vintagestory.at/aetstoolsreborn",
+      "category": "Crafting",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Natural Foliage",
+      "link": "https://mods.vintagestory.at/naturalfoliage",
+      "category": "Cosmetics",
+      "section": "optional",
+      "server_state": "no",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Alchemy",
+      "link": "https://mods.vintagestory.at/alchemy",
+      "category": "Magic",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Player Corpse",
+      "link": "https://mods.vintagestory.at/playercorpse",
+      "category": "Utility",
+      "section": "1.21",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Coriaender Shaders",
+      "link": "https://mods.vintagestory.at/coriaendershaders",
+      "category": "Graphics",
+      "section": "optional",
+      "server_state": "no",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "All Classes",
+      "link": "https://mods.vintagestory.at/allclasses",
+      "category": "Cosmetics",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Quivers And Sheaths",
+      "link": "https://mods.vintagestory.at/quiversandsheaths",
+      "category": "Weapons",
+      "section": "1.21",
+      "server_state": "no",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Status Hud Continued",
+      "link": "https://mods.vintagestory.at/statushudcont",
+      "category": "Utility",
+      "section": "optional",
+      "server_state": "no",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Animal cages",
+      "link": "https://mods.vintagestory.at/animalcages",
+      "category": "Utility",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Real Grapes",
+      "link": "https://mods.vintagestory.at/realgrapes",
+      "category": "Worldgen",
+      "section": "1.21",
+      "server_state": "no",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Auto Map Markers",
+      "link": "https://mods.vintagestory.at/automapmarkers",
+      "category": "QoL",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Salty & Proto's Temporal Symphony",
+      "link": "https://mods.vintagestory.at/temporalsymphony",
+      "category": "Cosmetics",
+      "section": "1.21",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Better Arrows",
+      "link": "https://mods.vintagestory.at/betterarrowsmod",
+      "category": "Tweak",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Sammiches",
+      "link": "https://mods.vintagestory.at/sammiches",
+      "category": "Food",
+      "section": "1.21",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Better Sticks",
+      "link": "https://mods.vintagestory.at/show/mod/8859",
+      "category": "Utility",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Stone Quarry",
+      "link": "https://mods.vintagestory.at/stonequarry",
+      "category": "Utility",
+      "section": "1.21",
+      "server_state": "no",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "BetterEr Prospecting",
+      "link": "https://mods.vintagestory.at/bettererprospecting",
+      "category": "QoL",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Storage Options",
+      "link": "https://mods.vintagestory.at/storageoptions",
+      "category": "Storage",
+      "section": "1.21",
+      "server_state": "no",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "BetterRuins",
+      "link": "https://mods.vintagestory.at/betterruins",
+      "category": "Worldgen",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Firearms",
+      "link": "https://mods.vintagestory.at/firearms",
+      "category": "Weapons",
+      "section": "1.21",
+      "server_state": "no",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Blood Trail",
+      "link": "https://mods.vintagestory.at/bloodtrail",
+      "category": "Other",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Bola",
+      "link": "https://mods.vintagestory.at/bola",
+      "category": "Weapons",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Bricklayers",
+      "link": "https://mods.vintagestory.at/bricklayers",
+      "category": "Cosmetics",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Crossbows",
+      "link": "https://mods.vintagestory.at/crossbows",
+      "category": "Weapons",
+      "section": "1.21",
+      "server_state": "no",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Butchering",
+      "link": "https://mods.vintagestory.at/butchering",
+      "category": "Crafting",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Instruments",
+      "link": "https://mods.vintagestory.at/show/mod/463",
+      "category": "Technology",
+      "section": "1.21",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Buzzwords",
+      "link": "https://mods.vintagestory.at/buzzwords",
+      "category": "QOL",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "C&N Jewelry",
+      "link": "https://mods.vintagestory.at/canjewelry",
+      "category": "Utility",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Scaffolding",
+      "link": "https://mods.vintagestory.at/scafolding",
+      "category": "QoL",
+      "section": "1.21",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Carry On",
+      "link": "https://mods.vintagestory.at/carryon",
+      "category": "Storage",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Coinage",
+      "link": "https://mods.vintagestory.at/coinage",
+      "category": "Utility",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Darce's Drifters Redone",
+      "link": "https://mods.vintagestory.at/darcesdriftersredone",
+      "category": "Creatures",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Diverse Diets",
+      "link": "https://mods.vintagestory.at/diversediets",
+      "category": "Utility",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "The Art of Pies",
+      "link": "https://mods.vintagestory.at/theartofpies",
+      "category": "Cosmetics",
+      "section": "1.21",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Electrical Progressive: Basics",
+      "link": "https://mods.vintagestory.at/electricalprogressivebasics",
+      "category": "Technology",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Better Loot",
+      "link": "https://mods.vintagestory.at/betterloot",
+      "category": "QoL",
+      "section": "1.21",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Fauna of the Stone Age: Pantherinae",
+      "link": "https://mods.vintagestory.at/pantherinae",
+      "category": "Crafting",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Food Shelves",
+      "link": "https://mods.vintagestory.at/foodshelves",
+      "category": "Storage",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Combat Overhaul",
+      "link": "https://mods.vintagestory.at/combatoverhaul",
+      "category": "Weapons",
+      "section": "1.21",
+      "server_state": "no",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Footprints",
+      "link": "https://mods.vintagestory.at/footprints",
+      "category": "Other",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Combat Overhaul: Armory",
+      "link": "https://mods.vintagestory.at/armory",
+      "category": "Weapons",
+      "section": "1.21",
+      "server_state": "no",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Forgotten Armory: Gothic style",
+      "link": "https://mods.vintagestory.at/show/mod/25580",
+      "category": "Cosmetics",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Combat Overhaul: Reanimated",
+      "link": "https://mods.vintagestory.at/combatoverhaulreanimated",
+      "category": "Weapons",
+      "section": "1.21",
+      "server_state": "no",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Forgotten Armory: Landsknechts",
+      "link": "https://mods.vintagestory.at/show/mod/27605",
+      "category": "Cosmetics",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Forgotten Armory: Templar Style",
+      "link": "https://mods.vintagestory.at/show/mod/26077",
+      "category": "Cosmetics",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Gourmand",
+      "link": "https://mods.vintagestory.at/show/mod/14390",
+      "category": "Other",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Immersive Fibercraft",
+      "link": "https://mods.vintagestory.at/show/mod/34327",
+      "category": "Crafting",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Millwright",
+      "link": "https://mods.vintagestory.at/millwright",
+      "category": "QoL",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "NDL Wooden Torch Holders",
+      "link": "https://mods.vintagestory.at/ndlwoodentorchholders",
+      "category": "Utility",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Notice Board",
+      "link": "https://mods.vintagestory.at/noticeboard",
+      "category": "Utility",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Place On Slabs",
+      "link": "https://mods.vintagestory.at/show/mod/38090",
+      "category": "QoL",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "ProspectTogether",
+      "link": "https://mods.vintagestory.at/prospecttogether",
+      "category": "Other",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "QP's Chisel Tools",
+      "link": "https://mods.vintagestory.at/chiseltools",
+      "category": "Utility",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Real Smoke",
+      "link": "https://mods.vintagestory.at/realsmoke",
+      "category": "Graphics",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Scarecrow",
+      "link": "https://mods.vintagestory.at/scarecrow",
+      "category": "QoL",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Shelf Obsessed",
+      "link": "https://mods.vintagestory.at/shelfobsessed",
+      "category": "Storage",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Sortable Storage",
+      "link": "https://mods.vintagestory.at/sortablestorage",
+      "category": "QoL",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Stone Bake Oven",
+      "link": "https://mods.vintagestory.at/stonebakeoven",
+      "category": "Food",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Stone Railings",
+      "link": "https://mods.vintagestory.at/stonerailings",
+      "category": "Cosmetics",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Tabletop Games",
+      "link": "https://mods.vintagestory.at/tabletopgames",
+      "category": "Utility",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Tankards, Goblets and More!",
+      "link": "https://mods.vintagestory.at/tankardsandgoblets",
+      "category": "Food",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Translocator Engineering - Redux",
+      "link": "https://mods.vintagestory.at/translocatorengineeringredux",
+      "category": "Technology",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "VS Roofing Mod",
+      "link": "https://mods.vintagestory.at/show/mod/30143",
+      "category": "Utility",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Window Storage",
+      "link": "https://mods.vintagestory.at/windowstorage",
+      "category": "Storage",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Tailor's Delight",
+      "link": "https://mods.vintagestory.at/tailorsdelight",
+      "category": "Cosmetics",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Cartwright\u00b4s Caravan",
+      "link": "https://mods.vintagestory.at/cartwrightscaravan",
+      "category": "Storage",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Chiseled Block Retention",
+      "link": "https://mods.vintagestory.at/cbr",
+      "category": "QoL",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Expanded Foods: Core 2.0.0-dev",
+      "link": "https://mods.vintagestory.at/expandedfoods",
+      "category": "Utility",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "A Culinary Artillery 2.0.0-dev",
+      "link": "https://mods.vintagestory.at/aculinaryartillery",
+      "category": "Technology",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Spyglass",
+      "link": "https://mods.vintagestory.at/spyglass",
+      "category": "Technology",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Useful Traders",
+      "link": "https://mods.vintagestory.at/show/mod/19225",
+      "category": "QoL",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "ImGui",
+      "link": "https://mods.vintagestory.at/imgui",
+      "category": "Misc.",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Snowshoes - FORKED",
+      "link": "https://mods.vintagestory.at/snowshoesforked",
+      "category": "Utility",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Sewing Commoner",
+      "link": "https://mods.vintagestory.at/sewingcommoner",
+      "category": "Crafting",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Farseer",
+      "link": "https://mods.vintagestory.at/show/mod/22371",
+      "category": "Worldgen",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Algernon's Terrain Sampler Lib",
+      "link": "https://mods.vintagestory.at/algernonsterrainsampler",
+      "category": "Library",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Expanded Foods: Meals Module 1.0.0-dev.5",
+      "link": "https://mods.vintagestory.at/efmealsmodule",
+      "category": "Food",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Expanded Foods: Chef's Tricks 1.0.0-dev.3",
+      "link": "https://mods.vintagestory.at/efchefstricks",
+      "category": "Food",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Salty\u00b4s TrashBinned",
+      "link": "https://mods.vintagestory.at/trashbinned",
+      "category": "QoL",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Composter [Finished]",
+      "link": "https://mods.vintagestory.at/composter",
+      "category": "Utility",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Steelmaking Expanded",
+      "link": "https://mods.vintagestory.at/smex",
+      "category": "Technology",
+      "section": "1.22",
+      "server_state": "no",
+      "proposed": true,
+      "note": ""
+    },
+    {
+      "name": "Amphorae",
+      "link": "https://mods.vintagestory.at/amphorae",
+      "category": "Crafting",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Extra Info",
+      "link": "https://mods.vintagestory.at/extrainfo",
+      "category": "QoL",
+      "section": "optional",
+      "server_state": "no",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Improved Handbook Recipes (Fork)",
+      "link": "https://mods.vintagestory.at/improvedhandbookrecipesfork",
+      "category": "QoL",
+      "section": "optional",
+      "server_state": "no",
+      "proposed": false,
+      "note": ""
+    }
+  ]
+}
