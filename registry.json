@@ -1,5 +1,5 @@
 {
-  "generated": "20260703-191833",
+  "generated": "20260703-192033",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1818,11 +1818,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 28.0,
-        "blocksTravelled": 58989,
+        "blocksTravelled": 59017,
         "blocksBroken": 3029,
         "blocksPlaced": 128,
         "deepestY": 40,
-        "lastSeen": 1783099082,
+        "lastSeen": 1783099202,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1959,7 +1959,7 @@
         "blocksBroken": 200,
         "blocksPlaced": 209,
         "deepestY": 108,
-        "lastSeen": 1783099082,
+        "lastSeen": 1783099202,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2085,12 +2085,12 @@
           "bear-brown-adult-female": 1,
           "sheep-mouflon-adult-male": 1
         },
-        "playtimeHours": 13.1,
-        "blocksTravelled": 67510,
-        "blocksBroken": 3781,
+        "playtimeHours": 13.2,
+        "blocksTravelled": 67969,
+        "blocksBroken": 3792,
         "blocksPlaced": 1240,
         "deepestY": 23,
-        "lastSeen": 1783099082,
+        "lastSeen": 1783099202,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2198,8 +2198,8 @@
           },
           {
             "slot": "bag-4",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "code": "butchering:butcherybag-standard",
+            "name": "Hide Butchering Bag"
           }
         ],
         "skin": {
@@ -2235,11 +2235,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 34.6,
-        "blocksTravelled": 55769,
-        "blocksBroken": 3210,
-        "blocksPlaced": 2414,
+        "blocksTravelled": 55855,
+        "blocksBroken": 3214,
+        "blocksPlaced": 2417,
         "deepestY": 24,
-        "lastSeen": 1783099082,
+        "lastSeen": 1783099202,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
