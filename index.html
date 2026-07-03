@@ -618,7 +618,7 @@ function modRow(m){
   const installable=(m.avail==="available"||m.avail==="likely")&&!isClient;
   // checked = active. client-side mods are enabled by default unless explicitly disabled.
   const active = isClient ? (st!=="disabled") : (st==="yes" || (m.version && st!=="disabled" && st!=="remove" && st!=="no"));
-  const admin = ADMIN_KEY&&REG.actions_v5&&m.link&&!m.custom;
+  const admin = ADMIN_KEY&&m.link&&!m.custom;
   // activation checkbox: installable / on-server / client-side mods (NOT outdated). Trash: every mod.
   const actBox = (admin&&st!=="remove"&&!isOutdated&&(installable||onsrv||isClient))
     ? `<label class="act-wrap" title="${active?(isClient?'Enabled — untick to disable':'On the server — untick to disable'):'Tick to install on the next deploy'}">
@@ -670,7 +670,7 @@ function pendingChanges(){
 }
 function deployBadge(){
   const el=document.getElementById("dpend"); if(!el)return;
-  if(!(ADMIN_KEY&&REG.actions_v4)){el.innerHTML="";return;}
+  if(!ADMIN_KEY){el.innerHTML="";return;}
   const {added,updated,removed}=pendingChanges();
   const pill=(cls,sym,arr,verb)=>arr.length
     ? `<span class="dp ${cls}" title="${esc(verb+":\n• "+arr.join("\n• "))}">${sym}${arr.length}</span>` : "";
@@ -712,9 +712,7 @@ document.getElementById("main").addEventListener("click",async e=>{
   savePendingState(link, m.server_state);
   updateModRow(link);
   try{
-    await fetch(REG.submit_url,{method:"POST",mode:"no-cors",
-      headers:{"Content-Type":"text/plain;charset=utf-8"},
-      body:JSON.stringify({action:(wasRemoving?"approve":"remove"),link,key:ADMIN_KEY})});
+    await _adminPost({action:(wasRemoving?"approve":"remove"),link});
     showToast(wasRemoving?"Kept — no longer marked for removal."
              :"Marked for removal — applies on next deploy (click 🗑 again to keep it).",true);
   }catch(err){m.server_state=prev;savePendingState(link,prev);updateModRow(link);showToast("Failed — try again.",false);}
@@ -729,9 +727,7 @@ document.getElementById("main").addEventListener("change",async e=>{
   const newState  = active ? "yes"     : (installed ? "disabled" : "no");
   cb.disabled=true;
   try{
-    await fetch(REG.submit_url,{method:"POST",mode:"no-cors",
-      headers:{"Content-Type":"text/plain;charset=utf-8"},
-      body:JSON.stringify({action:apiAction,link,key:ADMIN_KEY})});
+    await _adminPost({action:apiAction,link});
     if(m)m.server_state=newState;
     savePendingState(link,newState);
     updateModRow(link);
@@ -965,25 +961,20 @@ function drawGallery(){
 }
 
 /* ---------- admin: approve proposals (only with ?key=) ---------- */
-function sheetId(){const m=(REG.sheet_url||"").match(/\/d\/([\w-]+)/);return m?m[1]:"";}
-function parseGviz(text){
-  const s=text.indexOf("(")+1, e=text.lastIndexOf(")");
-  const obj=JSON.parse(text.slice(s,e));
-  return (obj.table.rows||[]).map(r=>(r.c||[]).map(c=>c&&c.v!=null?String(c.v):""));
+function _adminUrl(){return (REG.admin_url||"").replace(/\/$/,"");}
+async function _adminPost(payload){
+  const url=_adminUrl();
+  if(!url) return;
+  await fetch(url,{method:"POST",mode:"no-cors",
+    headers:{"Content-Type":"text/plain;charset=utf-8"},
+    body:JSON.stringify({...payload,key:ADMIN_KEY})});
 }
-async function loadLiveProposals(){   // read the live sheet (CORS-ok) → instant, no sync wait
-  const url=`https://docs.google.com/spreadsheets/d/${sheetId()}/gviz/tq?tqx=out:json&headers=0&gid=0&_=${Date.now()}`;
-  const rows=parseGviz(await (await fetch(url)).text());
-  const props=[];
-  rows.slice(2).forEach(r=>{
-    [[0,"1.22"],[6,"1.21"],[12,"optional"]].forEach(([st,sec])=>{
-      const name=(r[st]||"").trim(), link=(r[st+1]||"").trim(),
-            kom=(r[st+3]||"").trim().toLowerCase(), onsrv=(r[st+4]||"").trim().toLowerCase();
-      if(link && kom.includes("dashboard"))
-        props.push({name:name||link, link, section:sec, approved:onsrv.startsWith("y")});
-    });
-  });
-  return props;
+function loadProposalsFromRegistry(){
+  // proposals are embedded in registry.json — no separate live fetch needed
+  return (REG.mods||[]).filter(m=>m.proposed).map(m=>({
+    name:m.name||m.link, link:m.link, section:m.section||"1.22",
+    approved:m.on_server||false, build_version:m.build_version
+  }));
 }
 function renderEngineNotice(){
   const box=document.getElementById("engineNotice");
@@ -999,9 +990,7 @@ function renderEngineNotice(){
   if(eb) eb.onclick=async()=>{
     eb.disabled=true; eb.textContent="Requesting…";
     try{
-      await fetch(REG.submit_url,{method:"POST",mode:"no-cors",
-        headers:{"Content-Type":"text/plain;charset=utf-8"},
-        body:JSON.stringify({action:"engine",key:ADMIN_KEY})});
+      await _adminPost({action:"engine"});
       eb.textContent="Requested — watch Discord for progress";
       showToast("Engine update requested. The server must be stopped first.",true);
     }catch(e){eb.disabled=false;eb.textContent=`Update engine to ${esc(latest)}`;}
@@ -1173,38 +1162,27 @@ async function renderApprovals(){
     const regLinks=new Set(fromReg.map(m=>linkKey(m.link)));
     const pendingDrafts=drafts.filter(d=>d.link&&!regLinks.has(linkKey(d.link)));
     const props=[...fromReg,...pendingDrafts.map(d=>({...d,_draft:true}))];
-    if(!props.length){box.innerHTML=`<div class="apanel"><h2>Proposals</h2><div class="sub2">No mod proposals waiting. Use <b>+ Add a mod</b> to suggest one.</div></div>`;return;}
+    if(!props.length){box.innerHTML=`<div class="apanel"><h2>Proposals</h2><div class="sub2">No mod proposals waiting. Post a mods.vintagestory.at link in the Discord channel to suggest one.</div></div>`;return;}
     let rows=props.map(m=>`<div class="prow"><div class="pn"><a href="${esc(m.link||"")}" target="_blank" rel="noopener">${esc(m.name||m.modid||m.link)} ↗</a>
       <div class="meta2">${esc(m.section||"")}${m.build_version?" · v"+esc(m.build_version):""}${m._draft?" · submitted, pending sync":" · awaiting admin approval"}</div></div></div>`).join("");
     box.innerHTML=`<div class="apanel"><h2>Proposals (${props.length})</h2><div class="sub2">Mods suggested by the crew, waiting for admin review.</div>${rows}</div>`;
     return;
   }
-  box.innerHTML=`<div class="apanel"><h2>Admin · proposals</h2><div class="sub2">Reading the live sheet…</div></div>`;
-  let pend=[];
-  try{ pend=await loadLiveProposals(); }
-  catch(e){ box.innerHTML=`<div class="apanel"><h2>Admin · proposals</h2><div class="sub2">Couldn't read the live sheet.</div></div>`; return; }
-  // hide just-rejected proposals while the live-sheet read still lags (clearrow already sent);
-  // forget them once the sheet no longer returns them
-  let rejected=[];try{rejected=JSON.parse(localStorage.getItem("vs_rejected")||"[]");}catch(e){}
-  const gvizLinks=new Set(pend.map(p=>linkKey(p.link)));
-  rejected=rejected.filter(r=>gvizLinks.has(r));
-  localStorage.setItem("vs_rejected",JSON.stringify(rejected));
-  const rejSet=new Set(rejected);
-  pend=pend.filter(p=>!rejSet.has(linkKey(p.link)));
-  // merge just-submitted drafts (the sheet API lags a few seconds) so they show immediately;
-  // prune ones that have since appeared in the sheet or already installed
+  // Admin: read proposals directly from registry.json (no external fetch)
+  let pend=loadProposalsFromRegistry();
+  // merge just-submitted local drafts (bot hasn't rebuilt registry yet)
   let drafts=[];try{drafts=JSON.parse(localStorage.getItem(pendingKey())||"[]");}catch(e){}
-  const inSheet=new Set(pend.map(p=>linkKey(p.link)));
+  const inReg=new Set(pend.map(p=>linkKey(p.link)));
   const installed=new Set(DATA.filter(m=>m.version).map(m=>linkKey(m.link)));
-  drafts=drafts.filter(d=>!inSheet.has(linkKey(d.link)) && !installed.has(linkKey(d.link)));
+  drafts=drafts.filter(d=>!inReg.has(linkKey(d.link)) && !installed.has(linkKey(d.link)));
   localStorage.setItem(pendingKey(),JSON.stringify(drafts));
   pend=pend.concat(drafts.map(d=>({name:d.name||d.link,link:d.link,section:d.section||"1.22",approved:false})));
-  PROPOSALS=pend.slice();   // so the deploy badge can count approved-not-installed proposals
-  if(!pend.length){box.innerHTML=`<div class="apanel"><h2>Admin · proposals</h2><div class="sub2">No proposals waiting. New dashboard suggestions appear here instantly.</div></div>`;deployBadge();return;}
+  PROPOSALS=pend.slice();
+  if(!pend.length){box.innerHTML=`<div class="apanel"><h2>Admin · proposals</h2><div class="sub2">No proposals waiting.</div></div>`;deployBadge();return;}
   const byLink={};DATA.forEach(m=>{if(m.link)byLink[m.link]=m;});
   let rows="";
   pend.sort((a,b)=>a.name.localeCompare(b.name)).forEach(m=>{
-    const reg=byLink[m.link];                       // registry metadata if already synced
+    const reg=byLink[m.link];
     const meta=reg?`${reg.build_version?"v"+esc(reg.build_version):""}${reg.build_branch==="1.21"?" · ⚠ 1.21 build (older)":""}`
                   :"version checks on next sync";
     rows+=`<div class="prow${m.approved?" approved":""}">
@@ -1214,28 +1192,23 @@ async function renderApprovals(){
         <div class="meta2">${esc(m.section)} · ${meta}${m.approved?" · approved":""}</div></div></div>`;
   });
   box.innerHTML=`<div class="apanel"><h2>Admin · proposals (${pend.length})</h2>
-    <div class="sub2">Live from the sheet. Tick to approve (installs next update) · untick to un-approve · 🗑 to reject. Click a name to see what it is.</div>${rows}</div>`;
+    <div class="sub2">Tick to approve (installs next deploy) · untick to un-approve · 🗑 to reject.</div>${rows}</div>`;
   box.querySelectorAll(".prm").forEach(b=>b.addEventListener("click",async()=>{
     const link=b.dataset.link; b.disabled=true;
     try{
-      await fetch(REG.submit_url,{method:"POST",mode:"no-cors",headers:{"Content-Type":"text/plain;charset=utf-8"},
-        body:JSON.stringify({action:"clearrow",link,key:ADMIN_KEY})});
+      await _adminPost({action:"clearrow",link});
       try{let d=JSON.parse(localStorage.getItem(pendingKey())||"[]");d=d.filter(x=>linkKey(x.link)!==linkKey(link));localStorage.setItem(pendingKey(),JSON.stringify(d));}catch(_){}
-      try{let r=JSON.parse(localStorage.getItem("vs_rejected")||"[]");r.push(linkKey(link));localStorage.setItem("vs_rejected",JSON.stringify(r));}catch(_){}
-      DATA=DATA.filter(x=>x.link!==link);
-      renderApprovals(); render(); buildTally();   // re-render so the (count) updates + it can't bounce back
+      DATA=DATA.filter(x=>x.link!==link); REG.mods=(REG.mods||[]).filter(x=>x.link!==link);
+      renderApprovals(); render(); buildTally();
       showToast("Proposal rejected — removed from the list.",true);
     }catch(e){b.disabled=false;showToast("Failed — try again.",false);}
   }));
   box.querySelectorAll('input[type=checkbox]').forEach(cb=>cb.addEventListener("change",async()=>{
-    if(!cb.checked && !REG.actions_v4){cb.checked=true;showToast("Un-approve needs the script update (redeploy) first.",false);return;}
     const action=cb.checked?"approve":"unapprove", link=cb.dataset.link;
     cb.disabled=true;
     try{
-      await fetch(REG.submit_url,{method:"POST",mode:"no-cors",
-        headers:{"Content-Type":"text/plain;charset=utf-8"},
-        body:JSON.stringify({action,link,key:ADMIN_KEY})});
-      const p=PROPOSALS.find(x=>x.link===link); if(p)p.approved=cb.checked;   // badge reflects it now
+      await _adminPost({action,link});
+      const p=PROPOSALS.find(x=>x.link===link); if(p)p.approved=cb.checked;
       deployBadge();
       showToast(cb.checked?"Approved — counts toward the deploy; click ⚡ Deploy now to install.":"Un-approved — back to a proposal.",true);
     }catch(e){cb.checked=!cb.checked;showToast("Failed — try again.",false);}
