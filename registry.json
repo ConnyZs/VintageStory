@@ -1,5 +1,5 @@
 {
-  "generated": "20260703-222644",
+  "generated": "20260703-222845",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1965,18 +1965,18 @@
         "name": "Eghetti",
         "class": "smith",
         "deaths": 1,
-        "mobKills": 31,
+        "mobKills": 32,
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {
           "shiver-corrupt": 1
         },
         "playtimeHours": 38.8,
-        "blocksTravelled": 29896,
-        "blocksBroken": 222,
-        "blocksPlaced": 242,
+        "blocksTravelled": 29973,
+        "blocksBroken": 238,
+        "blocksPlaced": 303,
         "deepestY": 105,
-        "lastSeen": 1783110372,
+        "lastSeen": 1783110492,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2103,12 +2103,12 @@
           "sheep-mouflon-adult-male": 1,
           "pig-eurasian-adult-male": 1
         },
-        "playtimeHours": 16.2,
-        "blocksTravelled": 83396,
+        "playtimeHours": 16.3,
+        "blocksTravelled": 83467,
         "blocksBroken": 5535,
         "blocksPlaced": 1395,
         "deepestY": 23,
-        "lastSeen": 1783110372,
+        "lastSeen": 1783110492,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2252,12 +2252,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 37.7,
-        "blocksTravelled": 69165,
-        "blocksBroken": 4274,
-        "blocksPlaced": 2605,
+        "playtimeHours": 37.8,
+        "blocksTravelled": 69212,
+        "blocksBroken": 4304,
+        "blocksPlaced": 2615,
         "deepestY": 24,
-        "lastSeen": 1783110372,
+        "lastSeen": 1783110492,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
