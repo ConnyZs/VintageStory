@@ -1,5 +1,5 @@
 {
-  "generated": "20260703-192033",
+  "generated": "20260703-192233",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1818,11 +1818,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 28.0,
-        "blocksTravelled": 59017,
-        "blocksBroken": 3029,
-        "blocksPlaced": 128,
+        "blocksTravelled": 59072,
+        "blocksBroken": 3031,
+        "blocksPlaced": 130,
         "deepestY": 40,
-        "lastSeen": 1783099202,
+        "lastSeen": 1783099322,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1941,7 +1941,7 @@
       "name": "Eghetti",
       "role": "admin",
       "first_join": "04/22/2026 18:03",
-      "last_join": "07/03/2026 17:05",
+      "last_join": "07/03/2026 17:16",
       "last_char": "04/22/2026 18:08",
       "stats": {
         "uid": "TxqQ4g4qqKs+G5yFUTFmyGYb",
@@ -1955,11 +1955,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 36.0,
-        "blocksTravelled": 27174,
+        "blocksTravelled": 27190,
         "blocksBroken": 200,
         "blocksPlaced": 209,
         "deepestY": 108,
-        "lastSeen": 1783099202,
+        "lastSeen": 1783099322,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2086,11 +2086,11 @@
           "sheep-mouflon-adult-male": 1
         },
         "playtimeHours": 13.2,
-        "blocksTravelled": 67969,
+        "blocksTravelled": 68175,
         "blocksBroken": 3792,
         "blocksPlaced": 1240,
         "deepestY": 23,
-        "lastSeen": 1783099202,
+        "lastSeen": 1783099322,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2198,8 +2198,8 @@
           },
           {
             "slot": "bag-4",
-            "code": "butchering:butcherybag-standard",
-            "name": "Hide Butchering Bag"
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           }
         ],
         "skin": {
@@ -2234,12 +2234,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 34.6,
-        "blocksTravelled": 55855,
-        "blocksBroken": 3214,
-        "blocksPlaced": 2417,
+        "playtimeHours": 34.7,
+        "blocksTravelled": 56027,
+        "blocksBroken": 3215,
+        "blocksPlaced": 2420,
         "deepestY": 24,
-        "lastSeen": 1783099202,
+        "lastSeen": 1783099322,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
