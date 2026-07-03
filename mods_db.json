@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-03T16:20:43Z",
+  "updated": "2026-07-03T21:00:41Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -783,6 +783,15 @@
       "section": "optional",
       "server_state": "no",
       "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "",
+      "link": "https://mods.vintagestory.at/stonequarystandalonerepack",
+      "category": "Other",
+      "section": "1.22",
+      "server_state": "no",
+      "proposed": true,
       "note": ""
     }
   ]
