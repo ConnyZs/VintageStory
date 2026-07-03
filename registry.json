@@ -1,5 +1,5 @@
 {
-  "generated": "20260703-203638",
+  "generated": "20260703-203838",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1834,12 +1834,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 29.2,
-        "blocksTravelled": 67869,
-        "blocksBroken": 3671,
-        "blocksPlaced": 154,
+        "playtimeHours": 29.3,
+        "blocksTravelled": 68072,
+        "blocksBroken": 3672,
+        "blocksPlaced": 155,
         "deepestY": 40,
-        "lastSeen": 1783103766,
+        "lastSeen": 1783103887,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1971,12 +1971,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 36.9,
+        "playtimeHours": 37.0,
         "blocksTravelled": 28566,
         "blocksBroken": 205,
         "blocksPlaced": 216,
         "deepestY": 105,
-        "lastSeen": 1783103766,
+        "lastSeen": 1783103887,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2102,12 +2102,12 @@
           "bear-brown-adult-female": 1,
           "sheep-mouflon-adult-male": 1
         },
-        "playtimeHours": 14.4,
-        "blocksTravelled": 73665,
+        "playtimeHours": 14.5,
+        "blocksTravelled": 73764,
         "blocksBroken": 4497,
         "blocksPlaced": 1298,
         "deepestY": 23,
-        "lastSeen": 1783103766,
+        "lastSeen": 1783103887,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2252,11 +2252,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 35.9,
-        "blocksTravelled": 61201,
-        "blocksBroken": 3743,
-        "blocksPlaced": 2451,
+        "blocksTravelled": 61282,
+        "blocksBroken": 3787,
+        "blocksPlaced": 2453,
         "deepestY": 24,
-        "lastSeen": 1783103766,
+        "lastSeen": 1783103887,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
