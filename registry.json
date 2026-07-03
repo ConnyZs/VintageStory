@@ -1,5 +1,5 @@
 {
-  "generated": "20260703-205039",
+  "generated": "20260703-205239",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1826,7 +1826,7 @@
         "name": "Raschuetzer",
         "class": "tinker",
         "deaths": 6,
-        "mobKills": 32,
+        "mobKills": 34,
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {
@@ -1835,11 +1835,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 29.5,
-        "blocksTravelled": 70844,
-        "blocksBroken": 3674,
+        "blocksTravelled": 71163,
+        "blocksBroken": 3688,
         "blocksPlaced": 155,
         "deepestY": 40,
-        "lastSeen": 1783104607,
+        "lastSeen": 1783104728,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -1976,7 +1976,7 @@
         "blocksBroken": 205,
         "blocksPlaced": 216,
         "deepestY": 105,
-        "lastSeen": 1783104607,
+        "lastSeen": 1783104648,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2103,11 +2103,11 @@
           "sheep-mouflon-adult-male": 1
         },
         "playtimeHours": 14.7,
-        "blocksTravelled": 74603,
-        "blocksBroken": 4505,
+        "blocksTravelled": 74716,
+        "blocksBroken": 4534,
         "blocksPlaced": 1307,
         "deepestY": 23,
-        "lastSeen": 1783104607,
+        "lastSeen": 1783104728,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2251,12 +2251,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 36.1,
-        "blocksTravelled": 62847,
-        "blocksBroken": 3868,
-        "blocksPlaced": 2457,
+        "playtimeHours": 36.2,
+        "blocksTravelled": 63086,
+        "blocksBroken": 3875,
+        "blocksPlaced": 2458,
         "deepestY": 24,
-        "lastSeen": 1783104607,
+        "lastSeen": 1783104728,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
