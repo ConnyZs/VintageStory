@@ -1,5 +1,5 @@
 {
-  "generated": "20260703-214842",
+  "generated": "20260703-215042",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2104,11 +2104,11 @@
           "pig-eurasian-adult-male": 1
         },
         "playtimeHours": 15.6,
-        "blocksTravelled": 78785,
+        "blocksTravelled": 78788,
         "blocksBroken": 4742,
-        "blocksPlaced": 1383,
+        "blocksPlaced": 1384,
         "deepestY": 23,
-        "lastSeen": 1783108090,
+        "lastSeen": 1783108210,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2253,11 +2253,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 37.1,
-        "blocksTravelled": 67841,
+        "blocksTravelled": 68014,
         "blocksBroken": 4014,
         "blocksPlaced": 2520,
         "deepestY": 24,
-        "lastSeen": 1783108090,
+        "lastSeen": 1783108210,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
