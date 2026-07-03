@@ -1,5 +1,5 @@
 {
-  "generated": "20260703-205239",
+  "generated": "20260703-205439",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1826,7 +1826,7 @@
         "name": "Raschuetzer",
         "class": "tinker",
         "deaths": 6,
-        "mobKills": 34,
+        "mobKills": 37,
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {
@@ -1835,11 +1835,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 29.5,
-        "blocksTravelled": 71163,
-        "blocksBroken": 3688,
+        "blocksTravelled": 71201,
+        "blocksBroken": 3774,
         "blocksPlaced": 155,
         "deepestY": 40,
-        "lastSeen": 1783104728,
+        "lastSeen": 1783104848,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2103,11 +2103,11 @@
           "sheep-mouflon-adult-male": 1
         },
         "playtimeHours": 14.7,
-        "blocksTravelled": 74716,
-        "blocksBroken": 4534,
-        "blocksPlaced": 1307,
+        "blocksTravelled": 75132,
+        "blocksBroken": 4539,
+        "blocksPlaced": 1308,
         "deepestY": 23,
-        "lastSeen": 1783104728,
+        "lastSeen": 1783104848,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2252,11 +2252,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 36.2,
-        "blocksTravelled": 63086,
-        "blocksBroken": 3875,
-        "blocksPlaced": 2458,
+        "blocksTravelled": 63591,
+        "blocksBroken": 3911,
+        "blocksPlaced": 2461,
         "deepestY": 24,
-        "lastSeen": 1783104728,
+        "lastSeen": 1783104848,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
