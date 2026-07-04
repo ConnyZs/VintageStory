@@ -1,5 +1,5 @@
 {
-  "generated": "20260704-021258",
+  "generated": "20260704-021849",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -39,7 +39,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 109,
+  "count": 110,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1432,6 +1432,22 @@
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": false
+    },
+    {
+      "name": "Stone Quarry Standalone Repack",
+      "modid": "stonequarystandalonerepack",
+      "section": "1.22",
+      "category": "Other",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/stonequarystandalonerepack",
+      "server_state": "no",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": null,
+      "build_version": "3.6.3",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": true
     },
     {
       "name": "smithingplus",
