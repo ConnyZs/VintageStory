@@ -93,6 +93,7 @@ Labeled Trunks,,Storage,1.22,yes,,labeledtrunk,available,1.1.11
 Weapon Pack Alpha (quenchable),,Misc.,optional,,"custom 1.9.0 build — quenching, tempering and sharpening added",weaponpackalphaunoff,available,1.9.0
 Flowers & Mushrooms Cultivation,,Tweak,1.22,yes,custom mod — cultivate alchemy flowers and mushrooms in garden beds,floramycology,available,1.0.1
 All Helve Workable,,Tweak,1.22,yes,custom build — makes all anvil recipes fully workable by the helve hammer (client+server),allhelveworkable,available,1.0.3
+Window Storage Library,https://mods.vintagestory.at/show/mod/42554,Other,1.22,yes,,windowstoragelib,available,1.2.6
 apegrapes,,Other,1.22,yes,,apegrapes,available,1.4.0
 attributerenderinglibrary,,Other,1.22,yes,,attributerenderinglibrary,available,3.1.5
 betterarrows,,Other,1.22,yes,,betterarrows,available,1.0.1
@@ -108,4 +109,3 @@ scaffolding,,Other,1.22,yes,,scaffolding,available,1.3.1
 spinningwheel,,Other,1.22,yes,,spinningwheel,available,1.2.12
 tstools,,Other,1.22,yes,,tstools,available,3.1.2
 vsimgui,,Other,1.22,yes,,vsimgui,available,1.2.7
-windowstoragelib,,Other,1.22,yes,,windowstoragelib,available,1.2.6

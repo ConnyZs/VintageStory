@@ -1,5 +1,5 @@
 {
-  "generated": "20260706-195604",
+  "generated": "20260706-200048",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -212,7 +212,7 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "4.3.1",
-      "build_version": "4.3.1",
+      "build_version": "4.3.2",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": false
@@ -356,9 +356,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "3.3.3",
-      "build_version": "3.3.3",
+      "build_version": "3.4.2",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -1092,9 +1092,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.6.2",
-      "build_version": "1.6.2",
+      "build_version": "1.6.3",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -1558,6 +1558,23 @@
       "custom": true
     },
     {
+      "name": "Window Storage Library",
+      "modid": "windowstoragelib",
+      "section": "1.22",
+      "category": "Other",
+      "on_server": true,
+      "link": "https://mods.vintagestory.at/show/mod/42554",
+      "server_state": "yes",
+      "avail": "available",
+      "note": "",
+      "version": "1.2.6",
+      "build_version": "1.2.7",
+      "build_branch": "1.22",
+      "update_pending": true,
+      "proposed": false,
+      "untracked": true
+    },
+    {
       "name": "apegrapes",
       "modid": "apegrapes",
       "section": "1.22",
@@ -1807,23 +1824,6 @@
       "note": "",
       "version": "1.2.7",
       "build_version": "1.2.7",
-      "build_branch": "1.22",
-      "update_pending": false,
-      "proposed": false,
-      "untracked": true
-    },
-    {
-      "name": "windowstoragelib",
-      "modid": "windowstoragelib",
-      "section": "1.22",
-      "category": "Other",
-      "on_server": true,
-      "link": null,
-      "server_state": "yes",
-      "avail": "available",
-      "note": "",
-      "version": "1.2.6",
-      "build_version": "1.2.6",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": false,
