@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-07T14:26:20Z",
+  "updated": "2026-07-07T14:26:22Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -797,6 +797,15 @@
     {
       "name": "",
       "link": "https://mods.vintagestory.at/freelook",
+      "category": "Other",
+      "section": "1.22",
+      "server_state": "no",
+      "proposed": true,
+      "note": ""
+    },
+    {
+      "name": "",
+      "link": "https://mods.vintagestory.at/crawlanddive",
       "category": "Other",
       "section": "1.22",
       "server_state": "no",
