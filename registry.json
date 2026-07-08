@@ -1,5 +1,5 @@
 {
-  "generated": "20260708-174705",
+  "generated": "20260708-174958",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -41,7 +41,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 121,
+  "count": 120,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1456,16 +1456,16 @@
       "modid": "freelook",
       "section": "1.22",
       "category": "Other",
-      "on_server": false,
+      "on_server": true,
       "link": "https://mods.vintagestory.at/freelook",
-      "server_state": "no",
+      "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "1.0.5",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Salty\u00b4s Movement: Crawl & Dive",
@@ -1504,16 +1504,16 @@
       "modid": "clearview",
       "section": "1.22",
       "category": "QoL",
-      "on_server": false,
+      "on_server": true,
       "link": "https://mods.vintagestory.at/clearview",
-      "server_state": "no",
+      "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "0.1.1",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Temporal Symphony - Temporal Warden",
@@ -1582,7 +1582,7 @@
     {
       "name": "Stick Step Sounds",
       "modid": "stickstepsounds",
-      "section": "1.22",
+      "section": "optional",
       "category": "Other",
       "on_server": false,
       "link": "https://mods.vintagestory.at/stickstepsounds",
@@ -1593,7 +1593,7 @@
       "build_version": "1.0.0",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Salty\u00b4s TerraTag",
@@ -1607,22 +1607,6 @@
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "0.5.0",
-      "build_branch": "1.22",
-      "update_pending": false,
-      "proposed": true
-    },
-    {
-      "name": "Salty\u00b4s Catch Livestock",
-      "modid": "catchlivestock",
-      "section": "1.22",
-      "category": "QoL",
-      "on_server": false,
-      "link": "https://mods.vintagestory.at/catchlivestock",
-      "server_state": "no",
-      "avail": "available",
-      "note": "available for 1.22 (installs on update)",
-      "version": null,
-      "build_version": "0.2.4",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": true
