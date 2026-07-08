@@ -1,5 +1,5 @@
 {
-  "generated": "20260708-211719",
+  "generated": "20260708-211919",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2030,11 +2030,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 34.7,
-        "blocksTravelled": 87737,
+        "blocksTravelled": 87943,
         "blocksBroken": 4365,
         "blocksPlaced": 250,
         "deepestY": 28,
-        "lastSeen": 1783538158,
+        "lastSeen": 1783538280,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2167,12 +2167,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 42.4,
-        "blocksTravelled": 37367,
-        "blocksBroken": 880,
-        "blocksPlaced": 641,
+        "playtimeHours": 42.5,
+        "blocksTravelled": 37397,
+        "blocksBroken": 900,
+        "blocksPlaced": 649,
         "deepestY": 105,
-        "lastSeen": 1783538158,
+        "lastSeen": 1783538280,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2301,11 +2301,11 @@
           "pig-eurasian-adult-female": 1
         },
         "playtimeHours": 21.2,
-        "blocksTravelled": 103698,
-        "blocksBroken": 7068,
-        "blocksPlaced": 1608,
+        "blocksTravelled": 103779,
+        "blocksBroken": 7196,
+        "blocksPlaced": 1610,
         "deepestY": 23,
-        "lastSeen": 1783538158,
+        "lastSeen": 1783538280,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2450,11 +2450,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 81.4,
-        "blocksTravelled": 86543,
-        "blocksBroken": 5982,
-        "blocksPlaced": 3309,
+        "blocksTravelled": 86604,
+        "blocksBroken": 5990,
+        "blocksPlaced": 3311,
         "deepestY": 24,
-        "lastSeen": 1783538158,
+        "lastSeen": 1783538280,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2661,12 +2661,12 @@
           "bear-brown-adult-female": 1,
           "shiver-corrupt": 1
         },
-        "playtimeHours": 5.0,
-        "blocksTravelled": 9360,
+        "playtimeHours": 5.1,
+        "blocksTravelled": 9366,
         "blocksBroken": 139,
         "blocksPlaced": 27,
         "deepestY": 105,
-        "lastSeen": 1783538158,
+        "lastSeen": 1783538280,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
