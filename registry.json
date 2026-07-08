@@ -1,5 +1,5 @@
 {
-  "generated": "20260708-175531",
+  "generated": "20260708-175606",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1550,7 +1550,7 @@
     {
       "name": "Salty\u00b4s Immersive: Foliage",
       "modid": "immersivefoliage",
-      "section": "1.22",
+      "section": "optional",
       "category": "QoL",
       "on_server": false,
       "link": "https://mods.vintagestory.at/immersivefoliage",
@@ -1561,7 +1561,7 @@
       "build_version": "0.1.1",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Salty\u00b4s Workshop: Scythe Fix",
