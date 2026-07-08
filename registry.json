@@ -1,5 +1,5 @@
 {
-  "generated": "20260708-175606",
+  "generated": "20260708-175617",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1488,16 +1488,16 @@
       "modid": "immersivelanterns",
       "section": "1.22",
       "category": "Cosmetics",
-      "on_server": false,
+      "on_server": true,
       "link": "https://mods.vintagestory.at/immersivelanterns",
-      "server_state": "no",
+      "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "0.4.1",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Salty\u00b4s Clear View",
