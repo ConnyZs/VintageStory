@@ -1,5 +1,5 @@
 {
-  "generated": "20260708-191111",
+  "generated": "20260708-191311",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2004,7 +2004,7 @@
         "name": "Raschuetzer",
         "class": "tinker",
         "deaths": 6,
-        "mobKills": 45,
+        "mobKills": 47,
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {
@@ -2013,11 +2013,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 32.7,
-        "blocksTravelled": 83091,
+        "blocksTravelled": 83143,
         "blocksBroken": 4354,
         "blocksPlaced": 236,
         "deepestY": 28,
-        "lastSeen": 1783530653,
+        "lastSeen": 1783530739,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2155,7 +2155,7 @@
         "blocksBroken": 265,
         "blocksPlaced": 345,
         "deepestY": 105,
-        "lastSeen": 1783530644,
+        "lastSeen": 1783530780,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
