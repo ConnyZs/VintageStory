@@ -1,5 +1,5 @@
 {
-  "generated": "20260708-225925",
+  "generated": "20260708-230125",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2168,11 +2168,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 44.2,
-        "blocksTravelled": 39443,
+        "blocksTravelled": 39568,
         "blocksBroken": 908,
         "blocksPlaced": 661,
         "deepestY": 105,
-        "lastSeen": 1783544321,
+        "lastSeen": 1783544403,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2291,7 +2291,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 19,
-        "mobKills": 208,
+        "mobKills": 209,
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {
@@ -2301,11 +2301,11 @@
           "pig-eurasian-adult-female": 1
         },
         "playtimeHours": 22.9,
-        "blocksTravelled": 114099,
+        "blocksTravelled": 114284,
         "blocksBroken": 7516,
         "blocksPlaced": 1701,
         "deepestY": 23,
-        "lastSeen": 1783544321,
+        "lastSeen": 1783544403,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2450,11 +2450,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 83.1,
-        "blocksTravelled": 91028,
+        "blocksTravelled": 91118,
         "blocksBroken": 6619,
         "blocksPlaced": 3858,
         "deepestY": 24,
-        "lastSeen": 1783544321,
+        "lastSeen": 1783544403,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
