@@ -1,5 +1,5 @@
 {
-  "generated": "20260708-190911",
+  "generated": "20260708-191111",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2004,7 +2004,7 @@
         "name": "Raschuetzer",
         "class": "tinker",
         "deaths": 6,
-        "mobKills": 44,
+        "mobKills": 45,
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {
@@ -2012,12 +2012,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 32.6,
-        "blocksTravelled": 82993,
+        "playtimeHours": 32.7,
+        "blocksTravelled": 83091,
         "blocksBroken": 4354,
         "blocksPlaced": 236,
         "deepestY": 28,
-        "lastSeen": 1783530549,
+        "lastSeen": 1783530653,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2150,12 +2150,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 40.4,
-        "blocksTravelled": 33705,
+        "playtimeHours": 40.5,
+        "blocksTravelled": 33804,
         "blocksBroken": 265,
         "blocksPlaced": 345,
         "deepestY": 105,
-        "lastSeen": 1783530549,
+        "lastSeen": 1783530644,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2283,12 +2283,12 @@
           "pig-eurasian-adult-male": 1,
           "pig-eurasian-adult-female": 1
         },
-        "playtimeHours": 19.2,
-        "blocksTravelled": 94138,
+        "playtimeHours": 19.3,
+        "blocksTravelled": 94216,
         "blocksBroken": 6946,
         "blocksPlaced": 1524,
         "deepestY": 23,
-        "lastSeen": 1783530549,
+        "lastSeen": 1783530651,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
