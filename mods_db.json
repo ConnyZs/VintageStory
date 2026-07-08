@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-08T15:51:47Z",
+  "updated": "2026-07-08T15:51:54Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -880,8 +880,8 @@
       "link": "https://mods.vintagestory.at/terratag",
       "category": "Other",
       "section": "1.22",
-      "server_state": "no",
-      "proposed": true,
+      "server_state": "yes",
+      "proposed": false,
       "note": ""
     }
   ]
