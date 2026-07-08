@@ -883,24 +883,6 @@
       "server_state": "yes",
       "proposed": false,
       "note": ""
-    },
-    {
-      "name": "",
-      "link": "https://mods.vintagestory.at/show/mod/30235",
-      "category": "Other",
-      "section": "1.22",
-      "server_state": "no",
-      "proposed": false,
-      "note": ""
-    },
-    {
-      "name": "",
-      "link": "https://mods.vintagestory.at/show/mod/58390",
-      "category": "Other",
-      "section": "1.22",
-      "server_state": "yes",
-      "proposed": false,
-      "note": ""
     }
   ]
 }

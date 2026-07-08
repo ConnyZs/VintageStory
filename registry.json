@@ -1,5 +1,5 @@
 {
-  "generated": "20260708-190511",
+  "generated": "20260708-190554",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -41,7 +41,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 122,
+  "count": 120,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1612,38 +1612,6 @@
       "proposed": false
     },
     {
-      "name": "Salty\u00b4s Immersive: Lanterns",
-      "modid": "immersivelanterns",
-      "section": "1.22",
-      "category": "Cosmetics",
-      "on_server": false,
-      "link": "https://mods.vintagestory.at/show/mod/30235",
-      "server_state": "no",
-      "avail": "available",
-      "note": "available for 1.22 (installs on update)",
-      "version": "0.4.1",
-      "build_version": "0.4.1",
-      "build_branch": "1.22",
-      "update_pending": false,
-      "proposed": false
-    },
-    {
-      "name": "Salty\u00b4s Immersive: Light",
-      "modid": "immersivelight",
-      "section": "1.22",
-      "category": "Immersion",
-      "on_server": true,
-      "link": "https://mods.vintagestory.at/show/mod/58390",
-      "server_state": "yes",
-      "avail": "available",
-      "note": "available for 1.22 (installs on update)",
-      "version": "0.1.0",
-      "build_version": "0.1.0",
-      "build_branch": "1.22",
-      "update_pending": false,
-      "proposed": false
-    },
-    {
       "name": "smithingplus",
       "modid": "smithingplus",
       "section": "optional",
@@ -2183,11 +2151,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 40.4,
-        "blocksTravelled": 33422,
+        "blocksTravelled": 33521,
         "blocksBroken": 265,
         "blocksPlaced": 345,
         "deepestY": 105,
-        "lastSeen": 1783530257,
+        "lastSeen": 1783530354,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2316,11 +2284,11 @@
           "pig-eurasian-adult-female": 1
         },
         "playtimeHours": 19.2,
-        "blocksTravelled": 94022,
+        "blocksTravelled": 94033,
         "blocksBroken": 6946,
         "blocksPlaced": 1524,
         "deepestY": 23,
-        "lastSeen": 1783530246,
+        "lastSeen": 1783530354,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
