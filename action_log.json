@@ -1,6 +1,12 @@
 {
   "actions": [
     {
+      "ts": "2026-07-08T16:56:15Z",
+      "label": "Un-approved",
+      "link": "https://mods.vintagestory.at/show/mod/30235",
+      "name": "https://mods.vintagestory.at/show/mod/30235"
+    },
+    {
       "ts": "2026-07-08T16:56:14Z",
       "label": "Approved for server",
       "link": "https://mods.vintagestory.at/show/mod/30235",
