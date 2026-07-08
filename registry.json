@@ -1,5 +1,5 @@
 {
-  "generated": "20260708-211919",
+  "generated": "20260708-212119",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2030,11 +2030,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 34.7,
-        "blocksTravelled": 87943,
+        "blocksTravelled": 88039,
         "blocksBroken": 4365,
         "blocksPlaced": 250,
         "deepestY": 28,
-        "lastSeen": 1783538280,
+        "lastSeen": 1783538398,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2168,11 +2168,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 42.5,
-        "blocksTravelled": 37397,
-        "blocksBroken": 900,
-        "blocksPlaced": 649,
+        "blocksTravelled": 37434,
+        "blocksBroken": 901,
+        "blocksPlaced": 650,
         "deepestY": 105,
-        "lastSeen": 1783538280,
+        "lastSeen": 1783538398,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2300,12 +2300,12 @@
           "pig-eurasian-adult-male": 1,
           "pig-eurasian-adult-female": 1
         },
-        "playtimeHours": 21.2,
-        "blocksTravelled": 103779,
-        "blocksBroken": 7196,
+        "playtimeHours": 21.3,
+        "blocksTravelled": 103829,
+        "blocksBroken": 7327,
         "blocksPlaced": 1610,
         "deepestY": 23,
-        "lastSeen": 1783538280,
+        "lastSeen": 1783538398,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2449,12 +2449,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 81.4,
-        "blocksTravelled": 86604,
-        "blocksBroken": 5990,
-        "blocksPlaced": 3311,
+        "playtimeHours": 81.5,
+        "blocksTravelled": 86676,
+        "blocksBroken": 5996,
+        "blocksPlaced": 3317,
         "deepestY": 24,
-        "lastSeen": 1783538280,
+        "lastSeen": 1783538398,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2662,11 +2662,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 5.1,
-        "blocksTravelled": 9366,
+        "blocksTravelled": 9367,
         "blocksBroken": 139,
         "blocksPlaced": 27,
         "deepestY": 105,
-        "lastSeen": 1783538280,
+        "lastSeen": 1783538398,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
