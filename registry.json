@@ -1,5 +1,5 @@
 {
-  "generated": "20260708-204517",
+  "generated": "20260708-204717",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2029,12 +2029,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 34.1,
-        "blocksTravelled": 86771,
+        "playtimeHours": 34.2,
+        "blocksTravelled": 86858,
         "blocksBroken": 4365,
         "blocksPlaced": 250,
         "deepestY": 28,
-        "lastSeen": 1783536237,
+        "lastSeen": 1783536357,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2301,11 +2301,11 @@
           "pig-eurasian-adult-female": 1
         },
         "playtimeHours": 20.7,
-        "blocksTravelled": 101576,
-        "blocksBroken": 7007,
+        "blocksTravelled": 101675,
+        "blocksBroken": 7029,
         "blocksPlaced": 1586,
         "deepestY": 23,
-        "lastSeen": 1783536237,
+        "lastSeen": 1783536357,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2450,11 +2450,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 80.9,
-        "blocksTravelled": 85320,
+        "blocksTravelled": 85397,
         "blocksBroken": 5956,
         "blocksPlaced": 3266,
         "deepestY": 24,
-        "lastSeen": 1783536237,
+        "lastSeen": 1783536357,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2464,7 +2464,8 @@
           "Jade amulet",
           "Sturdy belt",
           "Large silver bracelets",
-          "Fortune teller vest"
+          "Fortune teller vest",
+          "Tailored gamboised leg armor"
         ],
         "gearDetail": [
           {
@@ -2517,6 +2518,11 @@
             "code": "game:clothes-upperbodyover-fortuneteller",
             "name": "Fortune teller vest",
             "icon": "character/icons/upperbodyover-fortuneteller.png"
+          },
+          {
+            "slot": "armorlegs",
+            "code": "game:armor-legs-tailored-plain-linen",
+            "name": "Tailored gamboised leg armor"
           },
           {
             "slot": "bag-1",
@@ -2662,11 +2668,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 4.5,
-        "blocksTravelled": 8651,
+        "blocksTravelled": 8666,
         "blocksBroken": 139,
         "blocksPlaced": 27,
         "deepestY": 105,
-        "lastSeen": 1783536237,
+        "lastSeen": 1783536357,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
@@ -2675,7 +2681,7 @@
           "Tailor belt",
           "Tailor needle puff",
           "Tailor jacket",
-          "Tailored gamboised helmet"
+          "Gamboised helmet"
         ],
         "gearDetail": [
           {
@@ -2722,8 +2728,8 @@
           },
           {
             "slot": "armorhead",
-            "code": "game:armor-head-tailored-plain-linen",
-            "name": "Tailored gamboised helmet"
+            "code": "game:armor-head-sewn-linen",
+            "name": "Gamboised helmet"
           },
           {
             "slot": "bag-1",
