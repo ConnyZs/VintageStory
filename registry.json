@@ -1,5 +1,5 @@
 {
-  "generated": "20260708-185110",
+  "generated": "20260708-185310",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1997,7 +1997,7 @@
       "name": "Raschuetzer",
       "role": "admin",
       "first_join": "04/22/2026 17:47",
-      "last_join": "07/08/2026 16:46",
+      "last_join": "07/08/2026 16:49",
       "last_char": "04/29/2026 21:30",
       "stats": {
         "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
@@ -2136,14 +2136,14 @@
       "name": "Eghetti",
       "role": "admin",
       "first_join": "04/22/2026 18:03",
-      "last_join": "07/08/2026 16:40",
+      "last_join": "07/08/2026 16:51",
       "last_char": "04/22/2026 18:08",
       "stats": {
         "uid": "TxqQ4g4qqKs+G5yFUTFmyGYb",
         "name": "Eghetti",
         "class": "smith",
         "deaths": 2,
-        "mobKills": 39,
+        "mobKills": 40,
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {
@@ -2151,11 +2151,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 40.3,
-        "blocksTravelled": 33257,
+        "blocksTravelled": 33363,
         "blocksBroken": 265,
         "blocksPlaced": 345,
         "deepestY": 105,
-        "lastSeen": 1783528946,
+        "lastSeen": 1783529580,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
