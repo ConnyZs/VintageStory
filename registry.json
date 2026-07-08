@@ -1,5 +1,5 @@
 {
-  "generated": "20260708-204717",
+  "generated": "20260708-204917",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2030,11 +2030,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 34.2,
-        "blocksTravelled": 86858,
+        "blocksTravelled": 86950,
         "blocksBroken": 4365,
         "blocksPlaced": 250,
         "deepestY": 28,
-        "lastSeen": 1783536357,
+        "lastSeen": 1783536477,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2301,11 +2301,11 @@
           "pig-eurasian-adult-female": 1
         },
         "playtimeHours": 20.7,
-        "blocksTravelled": 101675,
-        "blocksBroken": 7029,
-        "blocksPlaced": 1586,
+        "blocksTravelled": 101785,
+        "blocksBroken": 7037,
+        "blocksPlaced": 1597,
         "deepestY": 23,
-        "lastSeen": 1783536357,
+        "lastSeen": 1783536477,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2450,11 +2450,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 80.9,
-        "blocksTravelled": 85397,
-        "blocksBroken": 5956,
-        "blocksPlaced": 3266,
+        "blocksTravelled": 85505,
+        "blocksBroken": 5969,
+        "blocksPlaced": 3285,
         "deepestY": 24,
-        "lastSeen": 1783536357,
+        "lastSeen": 1783536477,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2667,12 +2667,12 @@
           "bear-brown-adult-female": 1,
           "shiver-corrupt": 1
         },
-        "playtimeHours": 4.5,
-        "blocksTravelled": 8666,
+        "playtimeHours": 4.6,
+        "blocksTravelled": 8671,
         "blocksBroken": 139,
         "blocksPlaced": 27,
         "deepestY": 105,
-        "lastSeen": 1783536357,
+        "lastSeen": 1783536477,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
@@ -2681,7 +2681,7 @@
           "Tailor belt",
           "Tailor needle puff",
           "Tailor jacket",
-          "Gamboised helmet"
+          "Tailored gamboised helmet"
         ],
         "gearDetail": [
           {
@@ -2728,8 +2728,8 @@
           },
           {
             "slot": "armorhead",
-            "code": "game:armor-head-sewn-linen",
-            "name": "Gamboised helmet"
+            "code": "game:armor-head-tailored-plain-linen",
+            "name": "Tailored gamboised helmet"
           },
           {
             "slot": "bag-1",
