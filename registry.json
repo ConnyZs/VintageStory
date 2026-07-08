@@ -1,5 +1,5 @@
 {
-  "generated": "20260708-221522",
+  "generated": "20260708-221723",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2021,7 +2021,7 @@
         "name": "Raschuetzer",
         "class": "tinker",
         "deaths": 6,
-        "mobKills": 48,
+        "mobKills": 50,
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {
@@ -2030,11 +2030,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 35.6,
-        "blocksTravelled": 90275,
-        "blocksBroken": 4371,
+        "blocksTravelled": 90305,
+        "blocksBroken": 4372,
         "blocksPlaced": 260,
         "deepestY": 28,
-        "lastSeen": 1783541641,
+        "lastSeen": 1783541761,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2168,11 +2168,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 43.4,
-        "blocksTravelled": 38584,
+        "blocksTravelled": 38599,
         "blocksBroken": 902,
         "blocksPlaced": 655,
         "deepestY": 105,
-        "lastSeen": 1783541641,
+        "lastSeen": 1783541761,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2301,11 +2301,11 @@
           "pig-eurasian-adult-female": 1
         },
         "playtimeHours": 22.2,
-        "blocksTravelled": 109057,
-        "blocksBroken": 7452,
-        "blocksPlaced": 1676,
+        "blocksTravelled": 109194,
+        "blocksBroken": 7453,
+        "blocksPlaced": 1680,
         "deepestY": 23,
-        "lastSeen": 1783541641,
+        "lastSeen": 1783541761,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2395,6 +2395,26 @@
             "slot": "armorbody",
             "code": "game:armor-body-hide-bear-black",
             "name": "Black bear hide body armor"
+          },
+          {
+            "slot": "bag-1",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-3",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           }
         ],
         "skin": {
@@ -2430,11 +2450,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 82.4,
-        "blocksTravelled": 89104,
-        "blocksBroken": 6410,
-        "blocksPlaced": 3520,
+        "blocksTravelled": 89142,
+        "blocksBroken": 6446,
+        "blocksPlaced": 3524,
         "deepestY": 24,
-        "lastSeen": 1783541641,
+        "lastSeen": 1783541761,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
