@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-08T14:35:59Z",
+  "updated": "2026-07-08T14:36:03Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -860,6 +860,15 @@
     {
       "name": "",
       "link": "https://mods.vintagestory.at/fixscythe",
+      "category": "Other",
+      "section": "1.22",
+      "server_state": "no",
+      "proposed": true,
+      "note": ""
+    },
+    {
+      "name": "",
+      "link": "https://mods.vintagestory.at/stickstepsounds",
       "category": "Other",
       "section": "1.22",
       "server_state": "no",
