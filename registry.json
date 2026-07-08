@@ -1,5 +1,5 @@
 {
-  "generated": "20260708-215521",
+  "generated": "20260708-215721",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2029,12 +2029,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 35.2,
-        "blocksTravelled": 89539,
+        "playtimeHours": 35.3,
+        "blocksTravelled": 89611,
         "blocksBroken": 4371,
         "blocksPlaced": 258,
         "deepestY": 28,
-        "lastSeen": 1783540440,
+        "lastSeen": 1783540560,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2168,11 +2168,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 43.1,
-        "blocksTravelled": 38043,
+        "blocksTravelled": 38061,
         "blocksBroken": 902,
         "blocksPlaced": 655,
         "deepestY": 105,
-        "lastSeen": 1783540440,
+        "lastSeen": 1783540560,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2291,7 +2291,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 19,
-        "mobKills": 203,
+        "mobKills": 204,
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {
@@ -2300,12 +2300,12 @@
           "pig-eurasian-adult-male": 1,
           "pig-eurasian-adult-female": 1
         },
-        "playtimeHours": 21.8,
-        "blocksTravelled": 107557,
+        "playtimeHours": 21.9,
+        "blocksTravelled": 107742,
         "blocksBroken": 7435,
         "blocksPlaced": 1655,
         "deepestY": 23,
-        "lastSeen": 1783540440,
+        "lastSeen": 1783540560,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2407,6 +2407,11 @@
             "name": "Leather backpack"
           },
           {
+            "slot": "bag-3",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
             "slot": "bag-4",
             "code": "butchering:butcherybag-standard",
             "name": "Hide Butchering Bag"
@@ -2444,12 +2449,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 82.0,
-        "blocksTravelled": 87944,
-        "blocksBroken": 6261,
-        "blocksPlaced": 3421,
+        "playtimeHours": 82.1,
+        "blocksTravelled": 87983,
+        "blocksBroken": 6355,
+        "blocksPlaced": 3422,
         "deepestY": 24,
-        "lastSeen": 1783540440,
+        "lastSeen": 1783540560,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2661,7 +2666,7 @@
         "blocksBroken": 139,
         "blocksPlaced": 27,
         "deepestY": 105,
-        "lastSeen": 1783540440,
+        "lastSeen": 1783540560,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
