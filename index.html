@@ -863,7 +863,7 @@ async function renderCrew(){
     const cls=s.class?`<span class="classbadge" title="character class">${esc(s.class)}</span>`:"";
     const grid=has?`<div class="statgrid">`
         +tile("deaths",s.deaths)+tile("mobs slain",s.mobKills)+tile("PvP",s.playerKills)
-        +tile("meals eaten",s.mealsEaten)
+        +tile("meals eaten",s.mealsEaten)+tile("calories",num(s.caloriesConsumed))
         +tile("playtime",fmtPlay(s.playtimeHours))
         +tile("travelled",num(s.blocksTravelled))
         +tile("broken",num(s.blocksBroken))+tile("placed",num(s.blocksPlaced))
@@ -876,6 +876,12 @@ async function renderCrew(){
       const sorted=Object.entries(dc).sort((a,b)=>b[1]-a[1]);
       return`<div class="gearrow"><span class="gk">Died to</span><div class="gearchips">${sorted.map(([k,v])=>`<span class="gchip2">${esc(k)} ×${v}</span>`).join('')}</div></div>`;
     })();
+    const foodBreakdown=(()=>{
+      const fc=s.foodCatCounts;
+      if(!fc||!Object.keys(fc).length)return'';
+      const sorted=Object.entries(fc).sort((a,b)=>b[1]-a[1]);
+      return`<div class="gearrow"><span class="gk">Food</span><div class="gearchips">${sorted.map(([k,v])=>`<span class="gchip2">${esc(k.toLowerCase())} ×${v}</span>`).join('')}</div></div>`;
+    })();
     const cinfo=(CHAR_MAN&&CHAR_MAN.players&&CHAR_MAN.players[m.name])||null;
     const gear = (cinfo&&cinfo.frames) ? charDoll(m.name,s.gearDetail,cinfo)
                : (s.gearDetail&&s.gearDetail.length) ? paperDoll(s.gearDetail)
@@ -883,7 +889,7 @@ async function renderCrew(){
                ? `<div class="gearrow"><span class="gk">Wearing</span><div class="gearchips">${s.gear.map(g=>`<span class="gchip2">${esc(g)}</span>`).join("")}</div></div>`:"";
     const meta=`<div class="cmeta">${esc(m.role||"player")} · joined ${esc((m.first_join||"").split(" ")[0])} · seen ${ago(m.last_join)}${active!=null?` · ${active}d on server`:""}</div>`;
     html+=`<div class="member${(cinfo&&cinfo.frames)?" has-char":""}"><div class="chead"><h3>${esc(m.name||"Unknown")}</h3>${cls}</div>
-      ${meta}${grid}${deathBreakdown}${gear}</div>`;
+      ${meta}${grid}${deathBreakdown}${foodBreakdown}${gear}</div>`;
   });
   box.innerHTML=html+'</div>';
   initCharViews();
