@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-08T16:56:15Z",
+  "generated": "20260708-185846",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -10,14 +10,14 @@
     "server_count": 96,
     "full_count": 100,
     "server_size": 140817126,
-    "full_size": 141708202,
+    "full_size": 141708231,
     "client_only": [
       "Extra Info",
       "Improved Handbook Recipes (Fork)",
       "Natural Foliage",
       "Status HUD"
     ],
-    "generated": "20260708-181345"
+    "generated": "20260708-185821"
   },
   "admin_url": "http://127.0.0.1:3042",
   "categories": [
@@ -41,7 +41,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 120,
+  "count": 122,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -213,7 +213,7 @@
       "server_state": "no",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "4.3.1",
+      "version": "4.3.2",
       "build_version": "4.3.2",
       "build_branch": "1.22",
       "update_pending": false,
@@ -1612,6 +1612,38 @@
       "proposed": false
     },
     {
+      "name": "Salty\u00b4s Immersive: Lanterns",
+      "modid": "immersivelanterns",
+      "section": "1.22",
+      "category": "Cosmetics",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/show/mod/30235",
+      "server_state": "no",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": "0.4.1",
+      "build_version": "0.4.1",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": false
+    },
+    {
+      "name": "Salty\u00b4s Immersive: Light",
+      "modid": "immersivelight",
+      "section": "1.22",
+      "category": "Immersion",
+      "on_server": true,
+      "link": "https://mods.vintagestory.at/show/mod/58390",
+      "server_state": "yes",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": "0.1.0",
+      "build_version": "0.1.0",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": false
+    },
+    {
       "name": "smithingplus",
       "modid": "smithingplus",
       "section": "optional",
@@ -2150,12 +2182,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 40.3,
-        "blocksTravelled": 33403,
+        "playtimeHours": 40.4,
+        "blocksTravelled": 33422,
         "blocksBroken": 265,
         "blocksPlaced": 345,
         "deepestY": 105,
-        "lastSeen": 1783529681,
+        "lastSeen": 1783529716,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",

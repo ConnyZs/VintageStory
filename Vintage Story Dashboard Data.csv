@@ -9,7 +9,7 @@ Player Corpse,https://mods.vintagestory.at/playercorpse,Utility,1.21,yes,no 1.22
 Coriaender Shaders,https://mods.vintagestory.at/coriaendershaders,Graphics,optional,no,available for 1.22 (installs on update),coriaendershaders,available,
 All Classes,https://mods.vintagestory.at/allclasses,Cosmetics,1.22,yes,available for 1.22 (installs on update),allclasses,available,2.3.0
 Quivers And Sheaths,https://mods.vintagestory.at/quiversandsheaths,Weapons,1.21,no,no 1.22 build yet — 1.21 build likely works (installs),quiversandsheaths,likely,
-Status Hud Continued,https://mods.vintagestory.at/statushudcont,Utility,optional,no,available for 1.22 (installs on update),statushudcont,available,4.3.1
+Status Hud Continued,https://mods.vintagestory.at/statushudcont,Utility,optional,no,available for 1.22 (installs on update),statushudcont,available,4.3.2
 Animal cages,https://mods.vintagestory.at/animalcages,Utility,1.22,yes,available for 1.22 (installs on update),animalcages,available,5.0.0
 Real Grapes,https://mods.vintagestory.at/realgrapes,Worldgen,1.21,no,available for 1.22 (installs on update),realgrapes,available,1.4.0
 Auto Map Markers,https://mods.vintagestory.at/automapmarkers,QoL,1.22,yes,available for 1.22 (installs on update),automapmarkers,available,5.0.3
@@ -97,6 +97,8 @@ Salty´s Immersive: Foliage,https://mods.vintagestory.at/immersivefoliage,QoL,op
 Salty´s Workshop: Scythe Fix,https://mods.vintagestory.at/fixscythe,QoL,1.22,yes,available for 1.22 (installs on update),fixscythe,available,0.2.1
 Stick Step Sounds,https://mods.vintagestory.at/stickstepsounds,Other,optional,no,available for 1.22 (installs on update),stickstepsounds,available,
 Salty´s TerraTag,https://mods.vintagestory.at/terratag,Utility,1.22,yes,available for 1.22 (installs on update),terratag,available,0.5.0
+Salty´s Immersive: Lanterns,https://mods.vintagestory.at/show/mod/30235,Cosmetics,1.22,no,available for 1.22 (installs on update),immersivelanterns,available,0.4.1
+Salty´s Immersive: Light,https://mods.vintagestory.at/show/mod/58390,Immersion,1.22,yes,available for 1.22 (installs on update),immersivelight,available,0.1.0
 smithingplus,,Misc.,optional,,,smithingplus,available,1.8.7
 Windmill Sail Fix,,Misc.,optional,,,windmillsailfix,available,2.0.2
 Labeled Trunks,,Storage,1.22,yes,,labeledtrunk,available,1.1.11

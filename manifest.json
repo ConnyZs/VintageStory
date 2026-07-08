@@ -1,6 +1,6 @@
 {
   "game_version": "1.22.3",
-  "generated": "20260708-181254",
+  "generated": "20260708-185731",
   "count": 96,
   "mods": [
     {
@@ -897,13 +897,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/improvedhandbookrecipesfork-1222.0.2.zip"
     },
     {
-      "filename": "statushudcont_4.3.1.zip",
-      "sha256": "ded7cb4b79d3fede4d5156c79f8f611041be7a2b851bc7b2ccb9dc5906184bd6",
-      "size": 224626,
+      "filename": "statushudcont_4.3.2.zip",
+      "sha256": "172272f093caadfd23c8fa167a663f6cbac6c9c07383e6664629f06d98d2b3b1",
+      "size": 224655,
       "modid": "statushudcont",
-      "version": "4.3.1",
+      "version": "4.3.2",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/statushudcont_4.3.1.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/statushudcont_4.3.2.zip"
     }
   ]
 }

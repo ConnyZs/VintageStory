@@ -4,12 +4,12 @@
   "server_count": 96,
   "full_count": 100,
   "server_size": 140817126,
-  "full_size": 141708202,
+  "full_size": 141708231,
   "client_only": [
     "Extra Info",
     "Improved Handbook Recipes (Fork)",
     "Natural Foliage",
     "Status HUD"
   ],
-  "generated": "20260708-181345"
+  "generated": "20260708-185821"
 }
