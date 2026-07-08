@@ -1,5 +1,5 @@
 {
-  "generated": "20260708-175223",
+  "generated": "20260708-175509",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1440,16 +1440,16 @@
       "modid": "stonequarystandalonerepack",
       "section": "1.22",
       "category": "Other",
-      "on_server": false,
+      "on_server": true,
       "link": "https://mods.vintagestory.at/stonequarystandalonerepack",
-      "server_state": "no",
+      "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "3.6.3",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Salty's Free Look",
