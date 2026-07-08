@@ -1,5 +1,5 @@
 {
-  "generated": "20260708-202516",
+  "generated": "20260708-202716",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2030,11 +2030,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 33.8,
-        "blocksTravelled": 86236,
+        "blocksTravelled": 86247,
         "blocksBroken": 4360,
         "blocksPlaced": 244,
         "deepestY": 28,
-        "lastSeen": 1783535036,
+        "lastSeen": 1783535156,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2168,11 +2168,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 41.6,
-        "blocksTravelled": 36532,
-        "blocksBroken": 817,
-        "blocksPlaced": 595,
+        "blocksTravelled": 36668,
+        "blocksBroken": 822,
+        "blocksPlaced": 621,
         "deepestY": 105,
-        "lastSeen": 1783535036,
+        "lastSeen": 1783535145,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2291,7 +2291,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 19,
-        "mobKills": 186,
+        "mobKills": 187,
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {
@@ -2300,12 +2300,12 @@
           "pig-eurasian-adult-male": 1,
           "pig-eurasian-adult-female": 1
         },
-        "playtimeHours": 20.3,
-        "blocksTravelled": 101143,
-        "blocksBroken": 7004,
-        "blocksPlaced": 1576,
+        "playtimeHours": 20.4,
+        "blocksTravelled": 101415,
+        "blocksBroken": 7007,
+        "blocksPlaced": 1586,
         "deepestY": 23,
-        "lastSeen": 1783535036,
+        "lastSeen": 1783535156,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2443,18 +2443,18 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 45,
+        "mobKills": 46,
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 80.5,
-        "blocksTravelled": 83898,
-        "blocksBroken": 5607,
+        "playtimeHours": 80.6,
+        "blocksTravelled": 84133,
+        "blocksBroken": 5608,
         "blocksPlaced": 3173,
         "deepestY": 24,
-        "lastSeen": 1783535036,
+        "lastSeen": 1783535156,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
