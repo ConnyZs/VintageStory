@@ -217,6 +217,8 @@
   .prow .pn .meta2{color:var(--ink-faint);font-size:.8rem;font-family:"Spectral SC",serif}
   .prow.approved .pn a{color:var(--verd)}
   .prow.approved .meta2{color:var(--verd);opacity:.8}
+  .prow .pcs{order:4;font-size:.72rem;padding:3px 7px;letter-spacing:.02em}
+  .rm.pcs:hover{border-color:var(--copper);color:var(--copper);background:rgba(212,149,74,.1)}
   .rm{background:none;border:1px solid var(--line-strong);color:var(--ink-dim);border-radius:4px;
     cursor:pointer;padding:3px 6px;line-height:0;transition:.2s;display:inline-flex;align-items:center}
   .rm:hover{border-color:var(--rust);color:var(--rust)}
@@ -962,6 +964,19 @@ function drawGallery(){
 
 /* ---------- admin: approve proposals (only with ?key=) ---------- */
 function _adminUrl(){return (REG.admin_url||"").replace(/\/$/,"");}
+function _pollRegistryAfterAction(startGen){
+  let _p=setInterval(async()=>{
+    try{
+      const reg=await (await fetch("registry.json?_="+Date.now())).json();
+      if(reg.generated!==startGen){
+        clearInterval(_p);
+        REG=reg; DATA=reg.mods||[];
+        render(); buildTally(); renderApprovals();
+      }
+    }catch(e){}
+  },5000);
+  setTimeout(()=>clearInterval(_p),90000);
+}
 async function _adminPost(payload){
   const url=_adminUrl();
   if(!url) return;
@@ -1181,6 +1196,7 @@ async function renderApprovals(){
     rows+=`<div class="prow${m.approved?" approved":""}">
       <input type="checkbox" data-link="${esc(m.link)}" ${m.approved?"checked":""}>
       <button class="rm prm" data-link="${esc(m.link)}" title="Reject this proposal (removes it from the list)"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg></button>
+      <button class="rm pcs" data-link="${esc(m.link)}" title="List as client-side only — visible in the ledger, not auto-installed on server or client">client</button>
       <div class="pn"><a href="${esc(m.link)}" target="_blank" rel="noopener">${esc(m.name)} ↗</a>
         <div class="meta2">${esc(m.section)} · ${meta}${m.approved?" · approved":""}</div></div></div>`;
   });
@@ -1188,22 +1204,39 @@ async function renderApprovals(){
     <div class="sub2">Tick to approve (installs next deploy) · untick to un-approve · 🗑 to reject.</div>${rows}</div>`;
   box.querySelectorAll(".prm").forEach(b=>b.addEventListener("click",async()=>{
     const link=b.dataset.link; b.disabled=true;
+    const sg=REG.generated;
     try{
       await _adminPost({action:"clearrow",link});
       try{let d=JSON.parse(localStorage.getItem(pendingKey())||"[]");d=d.filter(x=>linkKey(x.link)!==linkKey(link));localStorage.setItem(pendingKey(),JSON.stringify(d));}catch(_){}
       DATA=DATA.filter(x=>x.link!==link); REG.mods=(REG.mods||[]).filter(x=>x.link!==link);
       renderApprovals(); render(); buildTally();
       showToast("Proposal rejected — removed from the list.",true);
+      _pollRegistryAfterAction(sg);
+    }catch(e){b.disabled=false;showToast("Failed — try again.",false);}
+  }));
+  box.querySelectorAll(".pcs").forEach(b=>b.addEventListener("click",async()=>{
+    const link=b.dataset.link; b.disabled=true;
+    const sg=REG.generated;
+    try{
+      await _adminPost({action:"approve-client",link});
+      DATA=DATA.filter(x=>x.link!==link); REG.mods=(REG.mods||[]).filter(x=>x.link!==link);
+      renderApprovals(); render(); buildTally();
+      showToast("Listed as client-side — visible in the ledger, not auto-installed.",true);
+      _pollRegistryAfterAction(sg);
     }catch(e){b.disabled=false;showToast("Failed — try again.",false);}
   }));
   box.querySelectorAll('input[type=checkbox]').forEach(cb=>cb.addEventListener("change",async()=>{
     const action=cb.checked?"approve":"unapprove", link=cb.dataset.link;
     cb.disabled=true;
+    const sg=REG.generated;
     try{
       await _adminPost({action,link});
       const p=PROPOSALS.find(x=>x.link===link); if(p)p.approved=cb.checked;
+      const rm=(REG.mods||[]).find(x=>x.link===link);
+      if(rm){rm.on_server=cb.checked; if(cb.checked)rm.server_state="yes";}
       deployBadge();
       showToast(cb.checked?"Approved — counts toward the deploy; click ⚡ Deploy now to install.":"Un-approved — back to a proposal.",true);
+      _pollRegistryAfterAction(sg);
     }catch(e){cb.checked=!cb.checked;showToast("Failed — try again.",false);}
     finally{cb.disabled=false;}
   }));
