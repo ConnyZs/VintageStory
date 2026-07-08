@@ -1,5 +1,5 @@
 {
-  "generated": "20260708-192112",
+  "generated": "20260708-192312",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1997,7 +1997,7 @@
       "name": "Raschuetzer",
       "role": "admin",
       "first_join": "04/22/2026 17:47",
-      "last_join": "07/08/2026 17:14",
+      "last_join": "07/08/2026 17:18",
       "last_char": "04/29/2026 21:30",
       "stats": {
         "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
@@ -2012,12 +2012,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 32.7,
-        "blocksTravelled": 83193,
+        "playtimeHours": 32.8,
+        "blocksTravelled": 83195,
         "blocksBroken": 4354,
         "blocksPlaced": 236,
         "deepestY": 28,
-        "lastSeen": 1783531193,
+        "lastSeen": 1783531333,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2136,7 +2136,7 @@
       "name": "Eghetti",
       "role": "admin",
       "first_join": "04/22/2026 18:03",
-      "last_join": "07/08/2026 17:12",
+      "last_join": "07/08/2026 17:19",
       "last_char": "04/22/2026 18:08",
       "stats": {
         "uid": "TxqQ4g4qqKs+G5yFUTFmyGYb",
@@ -2150,12 +2150,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 40.5,
-        "blocksTravelled": 33993,
+        "playtimeHours": 40.6,
+        "blocksTravelled": 34006,
         "blocksBroken": 265,
         "blocksPlaced": 345,
         "deepestY": 105,
-        "lastSeen": 1783531202,
+        "lastSeen": 1783531333,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2267,7 +2267,7 @@
       "name": "AddyBuschu",
       "role": "suplayer",
       "first_join": "04/22/2026 17:55",
-      "last_join": "07/08/2026 17:14",
+      "last_join": "07/08/2026 17:20",
       "last_char": "04/25/2026 15:34",
       "stats": {
         "uid": "MT3maN90oN2gwGyklJR20Gu1",
@@ -2284,11 +2284,11 @@
           "pig-eurasian-adult-female": 1
         },
         "playtimeHours": 19.3,
-        "blocksTravelled": 94448,
+        "blocksTravelled": 94531,
         "blocksBroken": 6949,
         "blocksPlaced": 1527,
         "deepestY": 23,
-        "lastSeen": 1783531255,
+        "lastSeen": 1783531333,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2419,7 +2419,7 @@
       "name": "Moritz",
       "role": "admin",
       "first_join": "04/22/2026 18:03",
-      "last_join": "07/05/2026 20:34",
+      "last_join": "07/08/2026 17:20",
       "last_char": "04/22/2026 18:05",
       "stats": {
         "uid": "bKc3JB7NGywTi9YbzXu/Qogt",
@@ -2433,11 +2433,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 79.5,
-        "blocksTravelled": 80609,
+        "blocksTravelled": 80620,
         "blocksBroken": 5212,
         "blocksPlaced": 2905,
         "deepestY": 24,
-        "lastSeen": 1783531251,
+        "lastSeen": 1783531350,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
