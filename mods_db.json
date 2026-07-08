@@ -24,7 +24,7 @@
       "name": "Salty\u00b4s Bird\u00b4s Eye",
       "link": "https://mods.vintagestory.at/birdseye",
       "category": "QoL",
-      "section": "optional",
+      "section": "1.22",
       "server_state": "no",
       "proposed": false,
       "note": ""
@@ -771,7 +771,7 @@
       "name": "Extra Info",
       "link": "https://mods.vintagestory.at/extrainfo",
       "category": "QoL",
-      "section": "optional",
+      "section": "1.22",
       "server_state": "no",
       "proposed": false,
       "note": ""
@@ -780,7 +780,7 @@
       "name": "Improved Handbook Recipes (Fork)",
       "link": "https://mods.vintagestory.at/improvedhandbookrecipesfork",
       "category": "QoL",
-      "section": "optional",
+      "section": "1.22",
       "server_state": "no",
       "proposed": false,
       "note": ""

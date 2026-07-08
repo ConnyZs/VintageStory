@@ -479,7 +479,7 @@
     <div class="chips" id="chips">
       <span class="chip on" data-f="all">All</span>
       <span class="chip" data-f="server">On server</span>
-      <span class="chip" data-f="optional">Client side</span>
+      <span class="chip" data-f="optional">Optional</span>
       <span class="chip" data-f="installable">Updated</span>
       <span class="chip" data-f="outdated">Outdated</span>
       <span class="chip" data-f="custom">Custom</span>
@@ -574,7 +574,7 @@ function passes(m){
   // dashboard proposals live in the Admin · proposals box, not the main list, until they're
   // actually installed (then promote() clears the proposed flag and they appear here).
   if((m.proposed||m.avail==="pending")&&!m.version)return false;
-  if(filter==="server"&&!m.on_server)return false;
+  if(filter==="server"&&m.section==="optional")return false;
   if(filter==="optional"&&m.section!=="optional")return false;
   if(filter==="installable"&&!(m.avail==="available"||m.avail==="likely"))return false;
   if(filter==="outdated"&&!(m.avail==="outdated"||m.avail==="no-build"))return false;
@@ -612,11 +612,12 @@ function modRow(m){
   const onsrv=st==="yes"||st==="disabled"||(m.version&&m.section!=="optional")||(m.on_server&&st!=="remove"&&st!=="no");
   const srvTag = st==="remove"?`<span class="tag-srv rem">removing…</span>`
                : st==="disabled"?`<span class="tag-srv off">disabled</span>`
+               : m.client_only?`<span class="tag-srv">client side</span>`
                : onsrv?`<span class="tag-srv">on server</span>`
                : m.section==="optional"?`<span class="tag-srv">client side</span>`
                : `<span class="tag-srv off">not on server</span>`;   // candidate / not installed → no server controls
   const isOutdated = m.avail==="outdated" || m.avail==="no-build";
-  const isClient = m.section==="optional";
+  const isClient = m.section==="optional" || !!m.client_only;
   // a mod can be put on the server if it has a usable build (1.22/1.21) and isn't client-only
   const installable=(m.avail==="available"||m.avail==="likely")&&!isClient;
   // checked = active. client-side mods are enabled by default unless explicitly disabled.
