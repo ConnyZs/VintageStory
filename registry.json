@@ -1,5 +1,5 @@
 {
-  "generated": "20260708-175221",
+  "generated": "20260708-175223",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1568,16 +1568,16 @@
       "modid": "fixscythe",
       "section": "1.22",
       "category": "QoL",
-      "on_server": false,
+      "on_server": true,
       "link": "https://mods.vintagestory.at/fixscythe",
-      "server_state": "no",
+      "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "0.2.1",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Stick Step Sounds",
