@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-08T15:27:57Z",
+  "updated": "2026-07-08T15:28:15Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -826,8 +826,8 @@
       "link": "https://mods.vintagestory.at/clearview",
       "category": "Other",
       "section": "1.22",
-      "server_state": "no",
-      "proposed": true,
+      "server_state": "yes",
+      "proposed": false,
       "note": ""
     },
     {
