@@ -1,5 +1,5 @@
 {
-  "generated": "20260708-230926",
+  "generated": "20260708-230954",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -78,7 +78,7 @@
     {
       "name": "Salty\u00b4s Bird\u00b4s Eye",
       "modid": "birdseye",
-      "section": "optional",
+      "section": "1.22",
       "category": "QoL",
       "on_server": false,
       "link": "https://mods.vintagestory.at/birdseye",
@@ -678,9 +678,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.2.15",
-      "build_version": "1.2.15",
+      "build_version": "1.2.16",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -1406,7 +1406,7 @@
     {
       "name": "Extra Info",
       "modid": "extrainfo",
-      "section": "optional",
+      "section": "1.22",
       "category": "Utility",
       "on_server": false,
       "link": "https://mods.vintagestory.at/extrainfo",
@@ -1422,7 +1422,7 @@
     {
       "name": "Improved Handbook Recipe Helper",
       "modid": "improvedhandbookrecipesfork",
-      "section": "optional",
+      "section": "1.22",
       "category": "Utility",
       "on_server": false,
       "link": "https://mods.vintagestory.at/improvedhandbookrecipesfork",
@@ -1614,12 +1614,12 @@
     {
       "name": "smithingplus",
       "modid": "smithingplus",
-      "section": "optional",
+      "section": "1.22",
       "category": "Misc.",
-      "on_server": false,
+      "on_server": true,
       "link": null,
       "repo_link": "https://github.com/ConnyZs/SmithingPlus-1.22",
-      "server_state": "",
+      "server_state": "yes",
       "avail": "available",
       "note": "",
       "version": "1.8.7",
@@ -1627,12 +1627,13 @@
       "build_branch": null,
       "update_pending": false,
       "proposed": false,
-      "custom": true
+      "custom": true,
+      "client_only": false
     },
     {
       "name": "Windmill Sail Fix",
       "modid": "windmillsailfix",
-      "section": "optional",
+      "section": "1.22",
       "category": "Misc.",
       "on_server": false,
       "link": null,
@@ -1645,7 +1646,8 @@
       "build_branch": null,
       "update_pending": false,
       "proposed": false,
-      "custom": true
+      "custom": true,
+      "client_only": true
     },
     {
       "name": "Labeled Trunks",
@@ -1663,17 +1665,18 @@
       "build_branch": null,
       "update_pending": false,
       "proposed": false,
-      "custom": true
+      "custom": true,
+      "client_only": false
     },
     {
       "name": "Weapon Pack Alpha (quenchable)",
       "modid": "weaponpackalphaunoff",
-      "section": "optional",
+      "section": "1.22",
       "category": "Misc.",
-      "on_server": false,
+      "on_server": true,
       "link": null,
       "repo_link": "https://github.com/ConnyZs/WeaponPack-v1.22-SmithingPlus-Compatibility",
-      "server_state": "",
+      "server_state": "yes",
       "avail": "available",
       "note": "custom 1.9.0 build \u2014 quenching, tempering and sharpening added",
       "version": "1.9.0",
@@ -1681,7 +1684,8 @@
       "build_branch": null,
       "update_pending": false,
       "proposed": false,
-      "custom": true
+      "custom": true,
+      "client_only": false
     },
     {
       "name": "Flowers & Mushrooms Cultivation",
@@ -1699,7 +1703,8 @@
       "build_branch": null,
       "update_pending": false,
       "proposed": false,
-      "custom": true
+      "custom": true,
+      "client_only": false
     },
     {
       "name": "All Helve Workable",
@@ -1717,7 +1722,8 @@
       "build_branch": null,
       "update_pending": false,
       "proposed": false,
-      "custom": true
+      "custom": true,
+      "client_only": false
     },
     {
       "name": "apegrapes",
