@@ -1,5 +1,5 @@
 {
-  "generated": "20260708-184109",
+  "generated": "20260708-184309",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2136,14 +2136,14 @@
       "name": "Eghetti",
       "role": "admin",
       "first_join": "04/22/2026 18:03",
-      "last_join": "07/03/2026 21:02",
+      "last_join": "07/08/2026 16:40",
       "last_char": "04/22/2026 18:08",
       "stats": {
         "uid": "TxqQ4g4qqKs+G5yFUTFmyGYb",
         "name": "Eghetti",
         "class": "smith",
         "deaths": 2,
-        "mobKills": 37,
+        "mobKills": 39,
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {
@@ -2151,11 +2151,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 40.3,
-        "blocksTravelled": 33164,
+        "blocksTravelled": 33257,
         "blocksBroken": 265,
         "blocksPlaced": 345,
         "deepestY": 105,
-        "lastSeen": 1783528854,
+        "lastSeen": 1783528946,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
