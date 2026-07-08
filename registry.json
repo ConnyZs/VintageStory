@@ -1,5 +1,5 @@
 {
-  "generated": "20260708-221723",
+  "generated": "20260708-221923",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2029,12 +2029,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 35.6,
-        "blocksTravelled": 90305,
-        "blocksBroken": 4372,
-        "blocksPlaced": 260,
+        "playtimeHours": 35.7,
+        "blocksTravelled": 90352,
+        "blocksBroken": 4374,
+        "blocksPlaced": 282,
         "deepestY": 28,
-        "lastSeen": 1783541761,
+        "lastSeen": 1783541903,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2167,12 +2167,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 43.4,
-        "blocksTravelled": 38599,
+        "playtimeHours": 43.5,
+        "blocksTravelled": 38648,
         "blocksBroken": 902,
         "blocksPlaced": 655,
         "deepestY": 105,
-        "lastSeen": 1783541761,
+        "lastSeen": 1783541903,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2301,11 +2301,11 @@
           "pig-eurasian-adult-female": 1
         },
         "playtimeHours": 22.2,
-        "blocksTravelled": 109194,
-        "blocksBroken": 7453,
+        "blocksTravelled": 109437,
+        "blocksBroken": 7458,
         "blocksPlaced": 1680,
         "deepestY": 23,
-        "lastSeen": 1783541761,
+        "lastSeen": 1783541903,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2449,12 +2449,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 82.4,
-        "blocksTravelled": 89142,
-        "blocksBroken": 6446,
-        "blocksPlaced": 3524,
+        "playtimeHours": 82.5,
+        "blocksTravelled": 89234,
+        "blocksBroken": 6478,
+        "blocksPlaced": 3547,
         "deepestY": 24,
-        "lastSeen": 1783541761,
+        "lastSeen": 1783541903,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
