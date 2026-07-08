@@ -1,5 +1,5 @@
 {
-  "generated": "20260709-003732",
+  "generated": "20260709-004132",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2030,6 +2030,8 @@
         "mobKills": 50,
         "playerKills": 0,
         "mealsEaten": 0,
+        "caloriesConsumed": 0,
+        "foodCatCounts": {},
         "deathCauses": {
           "wolf-eurasian-adult-male": 1,
           "internal": 1,
@@ -2040,7 +2042,7 @@
         "blocksBroken": 4382,
         "blocksPlaced": 289,
         "deepestY": 28,
-        "lastSeen": 1783547826,
+        "lastSeen": 1783550453,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2169,6 +2171,8 @@
         "mobKills": 44,
         "playerKills": 0,
         "mealsEaten": 0,
+        "caloriesConsumed": 0,
+        "foodCatCounts": {},
         "deathCauses": {
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
@@ -2300,6 +2304,8 @@
         "mobKills": 214,
         "playerKills": 0,
         "mealsEaten": 0,
+        "caloriesConsumed": 0,
+        "foodCatCounts": {},
         "deathCauses": {
           "bear-brown-adult-female": 1,
           "sheep-mouflon-adult-male": 1,
@@ -2452,6 +2458,8 @@
         "mobKills": 54,
         "playerKills": 0,
         "mealsEaten": 0,
+        "caloriesConsumed": 0,
+        "foodCatCounts": {},
         "deathCauses": {
           "shiver-corrupt": 1
         },
@@ -2574,6 +2582,8 @@
         "mobKills": 2,
         "playerKills": 0,
         "mealsEaten": 0,
+        "caloriesConsumed": 0,
+        "foodCatCounts": {},
         "deathCauses": {},
         "playtimeHours": 1.8,
         "blocksTravelled": 10635,
@@ -2663,6 +2673,8 @@
         "mobKills": 0,
         "playerKills": 0,
         "mealsEaten": 0,
+        "caloriesConsumed": 0,
+        "foodCatCounts": {},
         "deathCauses": {
           "bear-brown-adult-female": 1,
           "shiver-corrupt": 1
