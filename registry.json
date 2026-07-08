@@ -1,5 +1,5 @@
 {
-  "generated": "20260708-193713",
+  "generated": "20260708-193829",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1486,11 +1486,11 @@
     {
       "name": "Salty\u00b4s Immersive: Lanterns",
       "modid": "immersivelanterns",
-      "section": "1.22",
+      "section": "optional",
       "category": "Cosmetics",
-      "on_server": true,
+      "on_server": false,
       "link": "https://mods.vintagestory.at/immersivelanterns",
-      "server_state": "yes",
+      "server_state": "no",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "0.4.1",
@@ -1534,11 +1534,11 @@
     {
       "name": "Salty\u00b4s Immersive: Light",
       "modid": "immersivelight",
-      "section": "1.22",
+      "section": "optional",
       "category": "Immersion",
-      "on_server": true,
+      "on_server": false,
       "link": "https://mods.vintagestory.at/immersivelight",
-      "server_state": "yes",
+      "server_state": "no",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "0.1.0",
@@ -2013,11 +2013,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 33.0,
-        "blocksTravelled": 83698,
+        "blocksTravelled": 83725,
         "blocksBroken": 4359,
         "blocksPlaced": 240,
         "deepestY": 28,
-        "lastSeen": 1783532154,
+        "lastSeen": 1783532274,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2151,11 +2151,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 40.8,
-        "blocksTravelled": 34677,
+        "blocksTravelled": 34685,
         "blocksBroken": 265,
         "blocksPlaced": 345,
         "deepestY": 105,
-        "lastSeen": 1783532119,
+        "lastSeen": 1783532274,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2283,12 +2283,12 @@
           "pig-eurasian-adult-male": 1,
           "pig-eurasian-adult-female": 1
         },
-        "playtimeHours": 19.5,
-        "blocksTravelled": 95390,
+        "playtimeHours": 19.6,
+        "blocksTravelled": 95612,
         "blocksBroken": 6965,
         "blocksPlaced": 1543,
         "deepestY": 23,
-        "lastSeen": 1783532154,
+        "lastSeen": 1783532274,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2432,12 +2432,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 79.7,
-        "blocksTravelled": 81508,
-        "blocksBroken": 5227,
-        "blocksPlaced": 2940,
+        "playtimeHours": 79.8,
+        "blocksTravelled": 81569,
+        "blocksBroken": 5259,
+        "blocksPlaced": 2944,
         "deepestY": 24,
-        "lastSeen": 1783532154,
+        "lastSeen": 1783532274,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",

@@ -816,8 +816,8 @@
       "name": "",
       "link": "https://mods.vintagestory.at/immersivelanterns",
       "category": "Other",
-      "section": "1.22",
-      "server_state": "yes",
+      "section": "optional",
+      "server_state": "no",
       "proposed": false,
       "note": ""
     },
@@ -843,8 +843,8 @@
       "name": "",
       "link": "https://mods.vintagestory.at/immersivelight",
       "category": "Other",
-      "section": "1.22",
-      "server_state": "yes",
+      "section": "optional",
+      "server_state": "no",
       "proposed": false,
       "note": ""
     },
