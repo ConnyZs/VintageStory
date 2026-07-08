@@ -1,5 +1,5 @@
 {
-  "generated": "20260708-205117",
+  "generated": "20260708-205317",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2029,12 +2029,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 34.2,
-        "blocksTravelled": 87023,
+        "playtimeHours": 34.3,
+        "blocksTravelled": 87140,
         "blocksBroken": 4365,
         "blocksPlaced": 250,
         "deepestY": 28,
-        "lastSeen": 1783536597,
+        "lastSeen": 1783536770,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2301,11 +2301,11 @@
           "pig-eurasian-adult-female": 1
         },
         "playtimeHours": 20.8,
-        "blocksTravelled": 101917,
+        "blocksTravelled": 102079,
         "blocksBroken": 7040,
         "blocksPlaced": 1597,
         "deepestY": 23,
-        "lastSeen": 1783536597,
+        "lastSeen": 1783536770,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2450,11 +2450,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 81.0,
-        "blocksTravelled": 85569,
+        "blocksTravelled": 85713,
         "blocksBroken": 5969,
-        "blocksPlaced": 3286,
+        "blocksPlaced": 3287,
         "deepestY": 24,
-        "lastSeen": 1783536597,
+        "lastSeen": 1783536770,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2464,8 +2464,7 @@
           "Jade amulet",
           "Sturdy belt",
           "Large silver bracelets",
-          "Fortune teller vest",
-          "Tailored gamboised leg armor"
+          "Fortune teller vest"
         ],
         "gearDetail": [
           {
@@ -2518,11 +2517,6 @@
             "code": "game:clothes-upperbodyover-fortuneteller",
             "name": "Fortune teller vest",
             "icon": "character/icons/upperbodyover-fortuneteller.png"
-          },
-          {
-            "slot": "armorlegs",
-            "code": "game:armor-legs-tailored-plain-linen",
-            "name": "Tailored gamboised leg armor"
           },
           {
             "slot": "bag-1",
@@ -2667,12 +2661,12 @@
           "bear-brown-adult-female": 1,
           "shiver-corrupt": 1
         },
-        "playtimeHours": 4.6,
-        "blocksTravelled": 8673,
+        "playtimeHours": 4.7,
+        "blocksTravelled": 8676,
         "blocksBroken": 139,
         "blocksPlaced": 27,
         "deepestY": 105,
-        "lastSeen": 1783536597,
+        "lastSeen": 1783536770,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
