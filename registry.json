@@ -1,5 +1,5 @@
 {
-  "generated": "20260708-221322",
+  "generated": "20260708-221522",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2030,11 +2030,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 35.6,
-        "blocksTravelled": 90121,
+        "blocksTravelled": 90275,
         "blocksBroken": 4371,
         "blocksPlaced": 260,
         "deepestY": 28,
-        "lastSeen": 1783541601,
+        "lastSeen": 1783541641,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2168,11 +2168,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 43.4,
-        "blocksTravelled": 38572,
+        "blocksTravelled": 38584,
         "blocksBroken": 902,
         "blocksPlaced": 655,
         "deepestY": 105,
-        "lastSeen": 1783541601,
+        "lastSeen": 1783541641,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2301,11 +2301,11 @@
           "pig-eurasian-adult-female": 1
         },
         "playtimeHours": 22.2,
-        "blocksTravelled": 109025,
-        "blocksBroken": 7443,
-        "blocksPlaced": 1671,
+        "blocksTravelled": 109057,
+        "blocksBroken": 7452,
+        "blocksPlaced": 1676,
         "deepestY": 23,
-        "lastSeen": 1783541601,
+        "lastSeen": 1783541641,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2395,16 +2395,6 @@
             "slot": "armorbody",
             "code": "game:armor-body-hide-bear-black",
             "name": "Black bear hide body armor"
-          },
-          {
-            "slot": "bag-3",
-            "code": "game:skep-reed-populated-east",
-            "name": "Populated reed skep"
-          },
-          {
-            "slot": "bag-4",
-            "code": "game:skep-reed-populated-east",
-            "name": "Populated reed skep"
           }
         ],
         "skin": {
@@ -2440,11 +2430,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 82.4,
-        "blocksTravelled": 89095,
+        "blocksTravelled": 89104,
         "blocksBroken": 6410,
-        "blocksPlaced": 3516,
+        "blocksPlaced": 3520,
         "deepestY": 24,
-        "lastSeen": 1783541601,
+        "lastSeen": 1783541641,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2652,11 +2642,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 6.0,
-        "blocksTravelled": 10454,
+        "blocksTravelled": 10486,
         "blocksBroken": 140,
         "blocksPlaced": 31,
         "deepestY": 105,
-        "lastSeen": 1783541601,
+        "lastSeen": 1783541653,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
