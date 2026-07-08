@@ -1,5 +1,5 @@
 {
-  "generated": "20260708-193112",
+  "generated": "20260708-193312",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2013,11 +2013,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 32.9,
-        "blocksTravelled": 83377,
-        "blocksBroken": 4354,
-        "blocksPlaced": 236,
+        "blocksTravelled": 83536,
+        "blocksBroken": 4358,
+        "blocksPlaced": 240,
         "deepestY": 28,
-        "lastSeen": 1783531793,
+        "lastSeen": 1783531938,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2136,14 +2136,14 @@
       "name": "Eghetti",
       "role": "admin",
       "first_join": "04/22/2026 18:03",
-      "last_join": "07/08/2026 17:19",
+      "last_join": "07/08/2026 17:28",
       "last_char": "04/22/2026 18:08",
       "stats": {
         "uid": "TxqQ4g4qqKs+G5yFUTFmyGYb",
         "name": "Eghetti",
         "class": "smith",
         "deaths": 2,
-        "mobKills": 41,
+        "mobKills": 43,
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {
@@ -2151,11 +2151,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 40.7,
-        "blocksTravelled": 34359,
+        "blocksTravelled": 34668,
         "blocksBroken": 265,
         "blocksPlaced": 345,
         "deepestY": 105,
-        "lastSeen": 1783531793,
+        "lastSeen": 1783531938,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2283,12 +2283,12 @@
           "pig-eurasian-adult-male": 1,
           "pig-eurasian-adult-female": 1
         },
-        "playtimeHours": 19.4,
-        "blocksTravelled": 94917,
+        "playtimeHours": 19.5,
+        "blocksTravelled": 95014,
         "blocksBroken": 6949,
         "blocksPlaced": 1527,
         "deepestY": 23,
-        "lastSeen": 1783531793,
+        "lastSeen": 1783531938,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2432,12 +2432,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 79.6,
-        "blocksTravelled": 81133,
+        "playtimeHours": 79.7,
+        "blocksTravelled": 81388,
         "blocksBroken": 5213,
         "blocksPlaced": 2906,
         "deepestY": 24,
-        "lastSeen": 1783531793,
+        "lastSeen": 1783531938,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
