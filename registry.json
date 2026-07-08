@@ -1,5 +1,5 @@
 {
-  "generated": "20260708-213320",
+  "generated": "20260708-213520",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2029,12 +2029,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 34.9,
+        "playtimeHours": 35.0,
         "blocksTravelled": 88497,
         "blocksBroken": 4369,
         "blocksPlaced": 256,
         "deepestY": 28,
-        "lastSeen": 1783539185,
+        "lastSeen": 1783539239,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2168,11 +2168,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 42.7,
-        "blocksTravelled": 37894,
+        "blocksTravelled": 37912,
         "blocksBroken": 902,
         "blocksPlaced": 655,
         "deepestY": 105,
-        "lastSeen": 1783539185,
+        "lastSeen": 1783539239,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2301,11 +2301,11 @@
           "pig-eurasian-adult-female": 1
         },
         "playtimeHours": 21.5,
-        "blocksTravelled": 105080,
-        "blocksBroken": 7402,
+        "blocksTravelled": 105176,
+        "blocksBroken": 7422,
         "blocksPlaced": 1614,
         "deepestY": 23,
-        "lastSeen": 1783539185,
+        "lastSeen": 1783539239,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2450,11 +2450,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 81.7,
-        "blocksTravelled": 87322,
-        "blocksBroken": 6142,
-        "blocksPlaced": 3377,
+        "blocksTravelled": 87355,
+        "blocksBroken": 6155,
+        "blocksPlaced": 3381,
         "deepestY": 24,
-        "lastSeen": 1783539185,
+        "lastSeen": 1783539239,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2666,7 +2666,7 @@
         "blocksBroken": 139,
         "blocksPlaced": 27,
         "deepestY": 105,
-        "lastSeen": 1783539185,
+        "lastSeen": 1783539239,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
