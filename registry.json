@@ -1,5 +1,5 @@
 {
-  "generated": "20260708-175509",
+  "generated": "20260708-175530",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1520,16 +1520,16 @@
       "modid": "temporalwarden",
       "section": "1.22",
       "category": "Symphony",
-      "on_server": false,
+      "on_server": true,
       "link": "https://mods.vintagestory.at/temporalwarden",
-      "server_state": "no",
+      "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "0.1.1",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Salty\u00b4s Immersive: Light",
