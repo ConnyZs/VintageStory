@@ -463,7 +463,6 @@
   <div id="restartNotice" hidden></div>
   <div id="clientUpdateNotice" hidden></div>
   <section id="approvals"></section>
-  <section id="actionLog" hidden></section>
   <div class="tally" id="tally"></div>
 
   <nav class="tabs">
@@ -551,8 +550,8 @@ fetch("registry.json?_="+Date.now()).then(r=>r.json()).then(reg=>{
   renderModset();
   buildTally();
   render();
-  renderApprovals(); renderActionLog();
-  if(ADMIN_KEY) setInterval(()=>{renderApprovals();renderActionLog();}, 30000);
+  renderApprovals();
+  if(ADMIN_KEY) setInterval(()=>{renderApprovals();}, 30000);
 }).catch(e=>{
   document.getElementById("main").innerHTML='<div class="empty">Could not load registry.json — has the updater published it yet?</div>';
 });
@@ -973,25 +972,11 @@ function _pollRegistryAfterAction(startGen){
       if(reg.generated!==startGen){
         clearInterval(_p);
         REG=reg; DATA=reg.mods||[];
-        render(); buildTally(); renderApprovals(); renderActionLog();
+        render(); buildTally(); renderApprovals();
       }
     }catch(e){}
   },3000);
   setTimeout(()=>clearInterval(_p),120000);
-}
-async function renderActionLog(){
-  const box=document.getElementById("actionLog");
-  if(!box||!ADMIN_KEY) return;
-  try{
-    const log=await (await fetch("action_log.json?_="+Date.now())).json();
-    const acts=(log.actions||[]).slice(0,20);
-    if(!acts.length){box.hidden=true;return;}
-    const fmt2=s=>{try{const d=new Date(s);const p=n=>String(n).padStart(2,'0');return`${p(d.getDate())}.${p(d.getMonth()+1)} ${p(d.getHours())}:${p(d.getMinutes())}`;}catch(e){return s;}};
-    box.hidden=false;
-    box.innerHTML=`<div class="apanel"><h2>Recent admin actions</h2><div class="sub2">Last ${acts.length} proposal decisions</div>`
-      +acts.map(a=>`<div class="prow" style="gap:10px;padding:6px 0"><span style="color:var(--ink-dim);font-size:.75rem;font-family:'Spectral SC',serif;min-width:72px">${fmt2(a.ts)}</span><span style="font-size:.82rem;color:var(--copper-glow);min-width:130px">${esc(a.label||a.action)}</span><a href="${esc(a.link||'')}" target="_blank" rel="noopener" style="font-size:.85rem;color:var(--ink)">${esc(a.name||a.link)}</a></div>`).join("")
-      +`</div>`;
-  }catch(e){box.hidden=true;}
 }
 async function _adminPost(payload){
   const url=_adminUrl();
