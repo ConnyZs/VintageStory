@@ -1,5 +1,5 @@
 {
-  "generated": "20260708-195914",
+  "generated": "20260708-200049",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -41,7 +41,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 120,
+  "count": 121,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1941,6 +1941,23 @@
       "untracked": true
     },
     {
+      "name": "stonequarryrepckfipil",
+      "modid": "stonequarryrepckfipil",
+      "section": "1.22",
+      "category": "Other",
+      "on_server": true,
+      "link": null,
+      "server_state": "yes",
+      "avail": "available",
+      "note": "",
+      "version": "3.6.3",
+      "build_version": "3.6.3",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": false,
+      "untracked": true
+    },
+    {
       "name": "tstools",
       "modid": "tstools",
       "section": "1.22",
@@ -1975,7 +1992,7 @@
       "untracked": true
     },
     {
-      "name": "Window Storage Library",
+      "name": "windowstoragelib",
       "modid": "windowstoragelib",
       "section": "1.22",
       "category": "Other",
@@ -2013,11 +2030,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 33.4,
-        "blocksTravelled": 84408,
+        "blocksTravelled": 84411,
         "blocksBroken": 4360,
         "blocksPlaced": 242,
         "deepestY": 28,
-        "lastSeen": 1783533475,
+        "lastSeen": 1783533595,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2150,12 +2167,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 41.1,
-        "blocksTravelled": 35518,
-        "blocksBroken": 555,
-        "blocksPlaced": 400,
+        "playtimeHours": 41.2,
+        "blocksTravelled": 35530,
+        "blocksBroken": 587,
+        "blocksPlaced": 413,
         "deepestY": 105,
-        "lastSeen": 1783533475,
+        "lastSeen": 1783533595,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2274,7 +2291,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 19,
-        "mobKills": 181,
+        "mobKills": 182,
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {
@@ -2284,11 +2301,11 @@
           "pig-eurasian-adult-female": 1
         },
         "playtimeHours": 19.9,
-        "blocksTravelled": 97010,
-        "blocksBroken": 6986,
+        "blocksTravelled": 97477,
+        "blocksBroken": 6989,
         "blocksPlaced": 1566,
         "deepestY": 23,
-        "lastSeen": 1783533475,
+        "lastSeen": 1783533595,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2396,8 +2413,8 @@
           },
           {
             "slot": "bag-4",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "code": "butchering:butcherybag-standard",
+            "name": "Hide Butchering Bag"
           }
         ],
         "skin": {
@@ -2433,11 +2450,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 80.1,
-        "blocksTravelled": 82436,
-        "blocksBroken": 5410,
-        "blocksPlaced": 3071,
+        "blocksTravelled": 82519,
+        "blocksBroken": 5414,
+        "blocksPlaced": 3073,
         "deepestY": 24,
-        "lastSeen": 1783533475,
+        "lastSeen": 1783533595,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
