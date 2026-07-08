@@ -1,5 +1,5 @@
 {
-  "generated": "20260708-205718",
+  "generated": "20260708-205918",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2029,12 +2029,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 34.3,
-        "blocksTravelled": 87248,
+        "playtimeHours": 34.4,
+        "blocksTravelled": 87269,
         "blocksBroken": 4365,
         "blocksPlaced": 250,
         "deepestY": 28,
-        "lastSeen": 1783536957,
+        "lastSeen": 1783537077,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2153,7 +2153,7 @@
       "name": "Eghetti",
       "role": "admin",
       "first_join": "04/22/2026 18:03",
-      "last_join": "07/08/2026 17:37",
+      "last_join": "07/08/2026 18:57",
       "last_char": "04/22/2026 18:08",
       "stats": {
         "uid": "TxqQ4g4qqKs+G5yFUTFmyGYb",
@@ -2167,12 +2167,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 41.6,
-        "blocksTravelled": 36668,
+        "playtimeHours": 42.1,
+        "blocksTravelled": 36669,
         "blocksBroken": 822,
         "blocksPlaced": 621,
         "deepestY": 105,
-        "lastSeen": 1783535145,
+        "lastSeen": 1783537089,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2291,7 +2291,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 19,
-        "mobKills": 187,
+        "mobKills": 195,
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {
@@ -2301,11 +2301,11 @@
           "pig-eurasian-adult-female": 1
         },
         "playtimeHours": 20.9,
-        "blocksTravelled": 102269,
-        "blocksBroken": 7042,
-        "blocksPlaced": 1597,
+        "blocksTravelled": 102349,
+        "blocksBroken": 7044,
+        "blocksPlaced": 1598,
         "deepestY": 23,
-        "lastSeen": 1783536957,
+        "lastSeen": 1783537077,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2450,11 +2450,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 81.1,
-        "blocksTravelled": 85817,
+        "blocksTravelled": 85939,
         "blocksBroken": 5969,
         "blocksPlaced": 3287,
         "deepestY": 24,
-        "lastSeen": 1783536957,
+        "lastSeen": 1783537077,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2662,11 +2662,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 4.7,
-        "blocksTravelled": 8691,
+        "blocksTravelled": 8695,
         "blocksBroken": 139,
         "blocksPlaced": 27,
         "deepestY": 105,
-        "lastSeen": 1783536957,
+        "lastSeen": 1783537077,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
