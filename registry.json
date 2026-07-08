@@ -1,5 +1,5 @@
 {
-  "generated": "20260708-210518",
+  "generated": "20260708-210718",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2030,11 +2030,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 34.5,
-        "blocksTravelled": 87402,
+        "blocksTravelled": 87413,
         "blocksBroken": 4365,
         "blocksPlaced": 250,
         "deepestY": 28,
-        "lastSeen": 1783537438,
+        "lastSeen": 1783537558,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2167,12 +2167,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 42.2,
-        "blocksTravelled": 37175,
+        "playtimeHours": 42.3,
+        "blocksTravelled": 37200,
         "blocksBroken": 822,
         "blocksPlaced": 621,
         "deepestY": 105,
-        "lastSeen": 1783537438,
+        "lastSeen": 1783537558,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2301,11 +2301,11 @@
           "pig-eurasian-adult-female": 1
         },
         "playtimeHours": 21.0,
-        "blocksTravelled": 102699,
-        "blocksBroken": 7045,
+        "blocksTravelled": 102780,
+        "blocksBroken": 7046,
         "blocksPlaced": 1602,
         "deepestY": 23,
-        "lastSeen": 1783537438,
+        "lastSeen": 1783537558,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2450,11 +2450,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 81.2,
-        "blocksTravelled": 86138,
+        "blocksTravelled": 86198,
         "blocksBroken": 5977,
         "blocksPlaced": 3294,
         "deepestY": 24,
-        "lastSeen": 1783537438,
+        "lastSeen": 1783537558,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2661,12 +2661,12 @@
           "bear-brown-adult-female": 1,
           "shiver-corrupt": 1
         },
-        "playtimeHours": 4.8,
-        "blocksTravelled": 8815,
+        "playtimeHours": 4.9,
+        "blocksTravelled": 8843,
         "blocksBroken": 139,
         "blocksPlaced": 27,
         "deepestY": 105,
-        "lastSeen": 1783537438,
+        "lastSeen": 1783537558,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
