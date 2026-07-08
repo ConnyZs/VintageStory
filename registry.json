@@ -1,5 +1,5 @@
 {
-  "generated": "20260709-004332",
+  "generated": "20260709-004532",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2020,7 +2020,7 @@
       "name": "Raschuetzer",
       "role": "admin",
       "first_join": "04/22/2026 17:47",
-      "last_join": "07/08/2026 22:35",
+      "last_join": "07/08/2026 22:40",
       "last_char": "04/29/2026 21:30",
       "stats": {
         "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
@@ -2038,11 +2038,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 36.6,
-        "blocksTravelled": 93724,
-        "blocksBroken": 4382,
+        "blocksTravelled": 93963,
+        "blocksBroken": 4425,
         "blocksPlaced": 289,
         "deepestY": 28,
-        "lastSeen": 1783550536,
+        "lastSeen": 1783550662,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
