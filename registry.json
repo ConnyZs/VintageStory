@@ -1,5 +1,5 @@
 {
-  "generated": "20260708-215721",
+  "generated": "20260708-215921",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2030,11 +2030,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 35.3,
-        "blocksTravelled": 89611,
+        "blocksTravelled": 89690,
         "blocksBroken": 4371,
         "blocksPlaced": 258,
         "deepestY": 28,
-        "lastSeen": 1783540560,
+        "lastSeen": 1783540695,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2168,11 +2168,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 43.1,
-        "blocksTravelled": 38061,
+        "blocksTravelled": 38097,
         "blocksBroken": 902,
         "blocksPlaced": 655,
         "deepestY": 105,
-        "lastSeen": 1783540560,
+        "lastSeen": 1783540695,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2291,7 +2291,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 19,
-        "mobKills": 204,
+        "mobKills": 205,
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {
@@ -2301,11 +2301,11 @@
           "pig-eurasian-adult-female": 1
         },
         "playtimeHours": 21.9,
-        "blocksTravelled": 107742,
+        "blocksTravelled": 107962,
         "blocksBroken": 7435,
         "blocksPlaced": 1655,
         "deepestY": 23,
-        "lastSeen": 1783540560,
+        "lastSeen": 1783540695,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2450,11 +2450,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 82.1,
-        "blocksTravelled": 87983,
-        "blocksBroken": 6355,
+        "blocksTravelled": 88262,
+        "blocksBroken": 6372,
         "blocksPlaced": 3422,
         "deepestY": 24,
-        "lastSeen": 1783540560,
+        "lastSeen": 1783540695,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2662,11 +2662,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 5.7,
-        "blocksTravelled": 9808,
+        "blocksTravelled": 9811,
         "blocksBroken": 139,
         "blocksPlaced": 27,
         "deepestY": 105,
-        "lastSeen": 1783540560,
+        "lastSeen": 1783540695,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
