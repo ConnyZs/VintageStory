@@ -1,5 +1,5 @@
 {
-  "generated": "20260708-233328",
+  "generated": "20260708-233528",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2020,7 +2020,7 @@
       "name": "Raschuetzer",
       "role": "admin",
       "first_join": "04/22/2026 17:47",
-      "last_join": "07/08/2026 20:02",
+      "last_join": "07/08/2026 21:33",
       "last_char": "04/29/2026 21:30",
       "stats": {
         "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
@@ -2036,11 +2036,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 36.2,
-        "blocksTravelled": 92095,
+        "blocksTravelled": 92154,
         "blocksBroken": 4379,
         "blocksPlaced": 288,
         "deepestY": 28,
-        "lastSeen": 1783546397,
+        "lastSeen": 1783546445,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2174,11 +2174,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 44.7,
-        "blocksTravelled": 40815,
+        "blocksTravelled": 40832,
         "blocksBroken": 914,
         "blocksPlaced": 661,
         "deepestY": 105,
-        "lastSeen": 1783546324,
+        "lastSeen": 1783546445,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2307,11 +2307,11 @@
           "pig-eurasian-adult-female": 1
         },
         "playtimeHours": 23.5,
-        "blocksTravelled": 117989,
+        "blocksTravelled": 118019,
         "blocksBroken": 8132,
-        "blocksPlaced": 1741,
+        "blocksPlaced": 1742,
         "deepestY": 23,
-        "lastSeen": 1783546324,
+        "lastSeen": 1783546445,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2456,11 +2456,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 83.7,
-        "blocksTravelled": 93562,
+        "blocksTravelled": 93581,
         "blocksBroken": 6805,
-        "blocksPlaced": 4317,
+        "blocksPlaced": 4318,
         "deepestY": 24,
-        "lastSeen": 1783546324,
+        "lastSeen": 1783546445,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
