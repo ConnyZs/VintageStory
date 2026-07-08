@@ -1,5 +1,5 @@
 {
-  "generated": "20260708-225725",
+  "generated": "20260708-225925",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2167,12 +2167,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 44.1,
-        "blocksTravelled": 39394,
-        "blocksBroken": 907,
-        "blocksPlaced": 660,
+        "playtimeHours": 44.2,
+        "blocksTravelled": 39443,
+        "blocksBroken": 908,
+        "blocksPlaced": 661,
         "deepestY": 105,
-        "lastSeen": 1783544163,
+        "lastSeen": 1783544321,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2291,7 +2291,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 19,
-        "mobKills": 205,
+        "mobKills": 208,
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {
@@ -2301,11 +2301,11 @@
           "pig-eurasian-adult-female": 1
         },
         "playtimeHours": 22.9,
-        "blocksTravelled": 113876,
+        "blocksTravelled": 114099,
         "blocksBroken": 7516,
         "blocksPlaced": 1701,
         "deepestY": 23,
-        "lastSeen": 1783544163,
+        "lastSeen": 1783544321,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2443,18 +2443,18 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 51,
+        "mobKills": 52,
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {
           "shiver-corrupt": 1
         },
         "playtimeHours": 83.1,
-        "blocksTravelled": 90773,
-        "blocksBroken": 6618,
-        "blocksPlaced": 3828,
+        "blocksTravelled": 91028,
+        "blocksBroken": 6619,
+        "blocksPlaced": 3858,
         "deepestY": 24,
-        "lastSeen": 1783544163,
+        "lastSeen": 1783544321,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
