@@ -1,8 +1,8 @@
 {
-  "generated": "20260708-185846",
+  "generated": "20260708-190511",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
-  "restart_needed": "20260708-185847",
+  "restart_needed": null,
   "last_deploy_ts": "20260708-185847",
   "modset": {
     "server_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset.zip",
@@ -2187,7 +2187,7 @@
         "blocksBroken": 265,
         "blocksPlaced": 345,
         "deepestY": 105,
-        "lastSeen": 1783529716,
+        "lastSeen": 1783530257,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2299,7 +2299,7 @@
       "name": "AddyBuschu",
       "role": "suplayer",
       "first_join": "04/22/2026 17:55",
-      "last_join": "07/03/2026 19:49",
+      "last_join": "07/08/2026 17:03",
       "last_char": "04/25/2026 15:34",
       "stats": {
         "uid": "MT3maN90oN2gwGyklJR20Gu1",
@@ -2320,7 +2320,7 @@
         "blocksBroken": 6946,
         "blocksPlaced": 1524,
         "deepestY": 23,
-        "lastSeen": 1783120872,
+        "lastSeen": 1783530246,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
