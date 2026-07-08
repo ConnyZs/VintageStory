@@ -1,5 +1,5 @@
 {
-  "generated": "20260708-195114",
+  "generated": "20260708-195314",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2012,12 +2012,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 33.2,
-        "blocksTravelled": 84368,
+        "playtimeHours": 33.3,
+        "blocksTravelled": 84370,
         "blocksBroken": 4359,
         "blocksPlaced": 241,
         "deepestY": 28,
-        "lastSeen": 1783532994,
+        "lastSeen": 1783533146,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2150,12 +2150,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 41.0,
-        "blocksTravelled": 35301,
-        "blocksBroken": 437,
-        "blocksPlaced": 346,
+        "playtimeHours": 41.1,
+        "blocksTravelled": 35347,
+        "blocksBroken": 481,
+        "blocksPlaced": 358,
         "deepestY": 105,
-        "lastSeen": 1783532994,
+        "lastSeen": 1783533146,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2284,11 +2284,11 @@
           "pig-eurasian-adult-female": 1
         },
         "playtimeHours": 19.8,
-        "blocksTravelled": 96157,
-        "blocksBroken": 6969,
-        "blocksPlaced": 1552,
+        "blocksTravelled": 96245,
+        "blocksBroken": 6971,
+        "blocksPlaced": 1555,
         "deepestY": 23,
-        "lastSeen": 1783532994,
+        "lastSeen": 1783533146,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2433,11 +2433,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 80.0,
-        "blocksTravelled": 82240,
-        "blocksBroken": 5300,
-        "blocksPlaced": 2975,
+        "blocksTravelled": 82273,
+        "blocksBroken": 5313,
+        "blocksPlaced": 3010,
         "deepestY": 24,
-        "lastSeen": 1783532994,
+        "lastSeen": 1783533146,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
