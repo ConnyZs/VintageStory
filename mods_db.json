@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-08T15:55:39Z",
+  "updated": "2026-07-08T15:55:50Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -817,8 +817,8 @@
       "link": "https://mods.vintagestory.at/immersivelanterns",
       "category": "Other",
       "section": "1.22",
-      "server_state": "no",
-      "proposed": true,
+      "server_state": "yes",
+      "proposed": false,
       "note": ""
     },
     {
