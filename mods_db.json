@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-08T15:55:04Z",
+  "updated": "2026-07-08T15:55:39Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -852,9 +852,9 @@
       "name": "",
       "link": "https://mods.vintagestory.at/immersivefoliage",
       "category": "Other",
-      "section": "1.22",
+      "section": "optional",
       "server_state": "no",
-      "proposed": true,
+      "proposed": false,
       "note": ""
     },
     {
