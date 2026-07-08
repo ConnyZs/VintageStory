@@ -1,5 +1,5 @@
 {
-  "generated": "20260708-235129",
+  "generated": "20260708-235329",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2036,11 +2036,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 36.5,
-        "blocksTravelled": 93368,
-        "blocksBroken": 4380,
+        "blocksTravelled": 93421,
+        "blocksBroken": 4382,
         "blocksPlaced": 289,
         "deepestY": 28,
-        "lastSeen": 1783547405,
+        "lastSeen": 1783547525,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2174,11 +2174,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 45.0,
-        "blocksTravelled": 42108,
+        "blocksTravelled": 42392,
         "blocksBroken": 914,
         "blocksPlaced": 661,
         "deepestY": 105,
-        "lastSeen": 1783547405,
+        "lastSeen": 1783547525,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2306,12 +2306,12 @@
           "pig-eurasian-adult-male": 1,
           "pig-eurasian-adult-female": 1
         },
-        "playtimeHours": 23.7,
-        "blocksTravelled": 119300,
+        "playtimeHours": 23.8,
+        "blocksTravelled": 119421,
         "blocksBroken": 8146,
         "blocksPlaced": 1760,
         "deepestY": 23,
-        "lastSeen": 1783547405,
+        "lastSeen": 1783547525,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2419,8 +2419,8 @@
           },
           {
             "slot": "bag-4",
-            "code": "butchering:butcherybag-standard",
-            "name": "Hide Butchering Bag"
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           }
         ],
         "skin": {
@@ -2456,11 +2456,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 84.0,
-        "blocksTravelled": 94769,
+        "blocksTravelled": 94828,
         "blocksBroken": 6850,
         "blocksPlaced": 4344,
         "deepestY": 24,
-        "lastSeen": 1783547405,
+        "lastSeen": 1783547525,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
