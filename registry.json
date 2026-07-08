@@ -1,5 +1,5 @@
 {
-  "generated": "20260708-203116",
+  "generated": "20260708-203316",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2030,11 +2030,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 33.9,
-        "blocksTravelled": 86334,
-        "blocksBroken": 4360,
+        "blocksTravelled": 86402,
+        "blocksBroken": 4362,
         "blocksPlaced": 244,
         "deepestY": 28,
-        "lastSeen": 1783535396,
+        "lastSeen": 1783535562,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2300,12 +2300,12 @@
           "pig-eurasian-adult-male": 1,
           "pig-eurasian-adult-female": 1
         },
-        "playtimeHours": 20.4,
-        "blocksTravelled": 101420,
+        "playtimeHours": 20.5,
+        "blocksTravelled": 101422,
         "blocksBroken": 7007,
         "blocksPlaced": 1586,
         "deepestY": 23,
-        "lastSeen": 1783535396,
+        "lastSeen": 1783535562,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2449,12 +2449,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 80.6,
-        "blocksTravelled": 84615,
-        "blocksBroken": 5820,
-        "blocksPlaced": 3175,
+        "playtimeHours": 80.7,
+        "blocksTravelled": 85019,
+        "blocksBroken": 5825,
+        "blocksPlaced": 3180,
         "deepestY": 24,
-        "lastSeen": 1783535396,
+        "lastSeen": 1783535562,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2666,7 +2666,7 @@
         "blocksBroken": 139,
         "blocksPlaced": 27,
         "deepestY": 105,
-        "lastSeen": 1782860121,
+        "lastSeen": 1783535561,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
@@ -2724,26 +2724,6 @@
             "slot": "armorhead",
             "code": "game:armor-head-tailored-plain-linen",
             "name": "Tailored gamboised helmet"
-          },
-          {
-            "slot": "bag-1",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-2",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-3",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-4",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
           }
         ],
         "skin": {
