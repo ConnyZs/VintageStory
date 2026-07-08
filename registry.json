@@ -1,5 +1,5 @@
 {
-  "generated": "20260708-201115",
+  "generated": "20260708-201315",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2030,11 +2030,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 33.6,
-        "blocksTravelled": 84807,
+        "blocksTravelled": 84855,
         "blocksBroken": 4360,
         "blocksPlaced": 244,
         "deepestY": 28,
-        "lastSeen": 1783534195,
+        "lastSeen": 1783534354,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2167,12 +2167,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 41.3,
-        "blocksTravelled": 36027,
-        "blocksBroken": 637,
-        "blocksPlaced": 461,
+        "playtimeHours": 41.4,
+        "blocksTravelled": 36094,
+        "blocksBroken": 645,
+        "blocksPlaced": 465,
         "deepestY": 105,
-        "lastSeen": 1783534195,
+        "lastSeen": 1783534354,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2284,14 +2284,14 @@
       "name": "AddyBuschu",
       "role": "suplayer",
       "first_join": "04/22/2026 17:55",
-      "last_join": "07/08/2026 17:20",
+      "last_join": "07/08/2026 18:08",
       "last_char": "04/25/2026 15:34",
       "stats": {
         "uid": "MT3maN90oN2gwGyklJR20Gu1",
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 19,
-        "mobKills": 183,
+        "mobKills": 185,
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {
@@ -2301,11 +2301,11 @@
           "pig-eurasian-adult-female": 1
         },
         "playtimeHours": 20.1,
-        "blocksTravelled": 98967,
+        "blocksTravelled": 99598,
         "blocksBroken": 6995,
         "blocksPlaced": 1566,
         "deepestY": 23,
-        "lastSeen": 1783534195,
+        "lastSeen": 1783534354,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2449,12 +2449,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 80.3,
-        "blocksTravelled": 83129,
-        "blocksBroken": 5492,
-        "blocksPlaced": 3092,
+        "playtimeHours": 80.4,
+        "blocksTravelled": 83252,
+        "blocksBroken": 5504,
+        "blocksPlaced": 3095,
         "deepestY": 24,
-        "lastSeen": 1783534195,
+        "lastSeen": 1783534354,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
