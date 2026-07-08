@@ -1,5 +1,5 @@
 {
-  "generated": "20260709-004132",
+  "generated": "20260709-004332",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2038,11 +2038,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 36.6,
-        "blocksTravelled": 93605,
+        "blocksTravelled": 93724,
         "blocksBroken": 4382,
         "blocksPlaced": 289,
         "deepestY": 28,
-        "lastSeen": 1783550453,
+        "lastSeen": 1783550536,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
