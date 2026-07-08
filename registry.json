@@ -1,5 +1,5 @@
 {
-  "generated": "20260708-213520",
+  "generated": "20260708-213720",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2030,11 +2030,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 35.0,
-        "blocksTravelled": 88497,
+        "blocksTravelled": 88586,
         "blocksBroken": 4369,
         "blocksPlaced": 256,
         "deepestY": 28,
-        "lastSeen": 1783539239,
+        "lastSeen": 1783539359,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2167,12 +2167,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 42.7,
-        "blocksTravelled": 37912,
+        "playtimeHours": 42.8,
+        "blocksTravelled": 37945,
         "blocksBroken": 902,
         "blocksPlaced": 655,
         "deepestY": 105,
-        "lastSeen": 1783539239,
+        "lastSeen": 1783539359,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2301,11 +2301,11 @@
           "pig-eurasian-adult-female": 1
         },
         "playtimeHours": 21.5,
-        "blocksTravelled": 105176,
-        "blocksBroken": 7422,
-        "blocksPlaced": 1614,
+        "blocksTravelled": 105320,
+        "blocksBroken": 7423,
+        "blocksPlaced": 1626,
         "deepestY": 23,
-        "lastSeen": 1783539239,
+        "lastSeen": 1783539359,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2443,18 +2443,18 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 46,
+        "mobKills": 51,
         "playerKills": 0,
         "mealsEaten": 0,
         "deathCauses": {
           "shiver-corrupt": 1
         },
         "playtimeHours": 81.7,
-        "blocksTravelled": 87355,
-        "blocksBroken": 6155,
-        "blocksPlaced": 3381,
+        "blocksTravelled": 87400,
+        "blocksBroken": 6178,
+        "blocksPlaced": 3383,
         "deepestY": 24,
-        "lastSeen": 1783539239,
+        "lastSeen": 1783539359,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2661,12 +2661,12 @@
           "bear-brown-adult-female": 1,
           "shiver-corrupt": 1
         },
-        "playtimeHours": 5.3,
+        "playtimeHours": 5.4,
         "blocksTravelled": 9574,
         "blocksBroken": 139,
         "blocksPlaced": 27,
         "deepestY": 105,
-        "lastSeen": 1783539239,
+        "lastSeen": 1783539359,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
