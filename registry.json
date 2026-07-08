@@ -1,5 +1,5 @@
 {
-  "generated": "20260708-211319",
+  "generated": "20260708-211519",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2034,7 +2034,7 @@
         "blocksBroken": 4365,
         "blocksPlaced": 250,
         "deepestY": 28,
-        "lastSeen": 1783537978,
+        "lastSeen": 1783538038,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2168,11 +2168,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 42.4,
-        "blocksTravelled": 37326,
-        "blocksBroken": 831,
-        "blocksPlaced": 630,
+        "blocksTravelled": 37345,
+        "blocksBroken": 848,
+        "blocksPlaced": 632,
         "deepestY": 105,
-        "lastSeen": 1783537978,
+        "lastSeen": 1783538038,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2301,11 +2301,11 @@
           "pig-eurasian-adult-female": 1
         },
         "playtimeHours": 21.2,
-        "blocksTravelled": 103364,
-        "blocksBroken": 7065,
+        "blocksTravelled": 103511,
+        "blocksBroken": 7066,
         "blocksPlaced": 1605,
         "deepestY": 23,
-        "lastSeen": 1783537978,
+        "lastSeen": 1783538038,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2450,11 +2450,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 81.4,
-        "blocksTravelled": 86428,
+        "blocksTravelled": 86440,
         "blocksBroken": 5980,
         "blocksPlaced": 3297,
         "deepestY": 24,
-        "lastSeen": 1783537978,
+        "lastSeen": 1783538038,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2662,11 +2662,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 5.0,
-        "blocksTravelled": 9112,
+        "blocksTravelled": 9298,
         "blocksBroken": 139,
         "blocksPlaced": 27,
         "deepestY": 105,
-        "lastSeen": 1783537978,
+        "lastSeen": 1783538038,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
