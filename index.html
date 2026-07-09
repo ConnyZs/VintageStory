@@ -878,10 +878,18 @@ async function renderCrew(){
       return`<div class="gearrow"><span class="gk">Died to</span><div class="gearchips">${sorted.map(([k,v])=>`<span class="gchip2">${esc(k)} ×${v}</span>`).join('')}</div></div>`;
     })();
     const foodBreakdown=(()=>{
-      const fc=s.foodCatCounts;
-      if(!fc||!Object.keys(fc).length)return'';
-      const sorted=Object.entries(fc).sort((a,b)=>b[1]-a[1]);
-      return`<div class="gearrow"><span class="gk">Food</span><div class="gearchips">${sorted.map(([k,v])=>`<span class="gchip2">${esc(k.toLowerCase())} ×${v}</span>`).join('')}</div></div>`;
+      const mn=s.mealsByName, fc=s.foodCatCounts;
+      if((!mn||!Object.keys(mn).length)&&(!fc||!Object.keys(fc).length))return'';
+      let out='';
+      if(mn&&Object.keys(mn).length){
+        const sorted=Object.entries(mn).sort((a,b)=>b[1]-a[1]);
+        out+=`<div class="gearrow"><span class="gk">Meals</span><div class="gearchips">${sorted.map(([k,v])=>`<span class="gchip2">${esc(k)} ×${v}</span>`).join('')}</div></div>`;
+      }
+      if(fc&&Object.keys(fc).length){
+        const sorted=Object.entries(fc).sort((a,b)=>b[1]-a[1]);
+        out+=`<div class="gearrow"><span class="gk">Nutrition</span><div class="gearchips">${sorted.map(([k,v])=>`<span class="gchip2">${esc(k.toLowerCase())} ×${v}</span>`).join('')}</div></div>`;
+      }
+      return out;
     })();
     const cinfo=(CHAR_MAN&&CHAR_MAN.players&&CHAR_MAN.players[m.name])||null;
     const gear = (cinfo&&cinfo.frames) ? charDoll(m.name,s.gearDetail,cinfo)
