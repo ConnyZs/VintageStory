@@ -1,5 +1,5 @@
 {
-  "generated": "20260709-102207",
+  "generated": "20260709-102407",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2464,11 +2464,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 84.7,
-        "blocksTravelled": 97622,
-        "blocksBroken": 6902,
-        "blocksPlaced": 4468,
+        "blocksTravelled": 97712,
+        "blocksBroken": 6917,
+        "blocksPlaced": 4474,
         "deepestY": 24,
-        "lastSeen": 1783585231,
+        "lastSeen": 1783585381,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
