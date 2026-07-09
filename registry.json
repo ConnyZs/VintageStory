@@ -1,5 +1,5 @@
 {
-  "generated": "20260710-004109",
+  "generated": "20260710-005110",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2028,7 +2028,6 @@
         "class": "tinker",
         "deaths": 6,
         "mobKills": 50,
-        "playerKills": 0,
         "mealsEaten": 0,
         "caloriesConsumed": 0,
         "lastMeal": null,
@@ -2171,7 +2170,6 @@
         "class": "smith",
         "deaths": 2,
         "mobKills": 44,
-        "playerKills": 0,
         "mealsEaten": 2,
         "caloriesConsumed": 1498,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
@@ -2311,7 +2309,6 @@
         "class": "homesteader",
         "deaths": 19,
         "mobKills": 214,
-        "playerKills": 0,
         "mealsEaten": 0,
         "caloriesConsumed": 0,
         "lastMeal": null,
@@ -2467,7 +2464,6 @@
         "class": "mason",
         "deaths": 1,
         "mobKills": 54,
-        "playerKills": 0,
         "mealsEaten": 0,
         "caloriesConsumed": 0,
         "lastMeal": null,
@@ -2593,7 +2589,6 @@
         "class": "miner",
         "deaths": 6,
         "mobKills": 2,
-        "playerKills": 0,
         "mealsEaten": 0,
         "caloriesConsumed": 0,
         "lastMeal": null,
@@ -2686,7 +2681,6 @@
         "class": "tailor",
         "deaths": 2,
         "mobKills": 0,
-        "playerKills": 0,
         "mealsEaten": 0,
         "caloriesConsumed": 0,
         "lastMeal": null,
@@ -2796,5 +2790,6 @@
         }
       }
     }
-  ]
+  ],
+  "lastAccident": null
 }
