@@ -587,6 +587,7 @@ fetch("registry.json?_="+Date.now()).then(r=>r.json()).then(reg=>{
   setupAdminButtons();
   renderModset();
   buildTally();
+  renderAccidentBanner();
   render();
   renderApprovals();
   if(ADMIN_KEY) setInterval(()=>{renderApprovals();}, 30000);
