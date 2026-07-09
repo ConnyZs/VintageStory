@@ -856,7 +856,8 @@ async function renderCrew(){
   const num=v=>v==null?null:Number(v).toLocaleString();
   const tile=(label,val)=>val==null||val===""?"":`<div class="stat"><div class="sv">${esc(String(val))}</div><div class="sl">${esc(label)}</div></div>`;
   let html='<div class="crew">';
-  crew.sort((a,b)=>new Date(b.last_join)-new Date(a.last_join)).forEach(m=>{
+  const effectiveSeen=m=>{const s=m.stats||{};const a=m.last_join?new Date(m.last_join):null;const b=s.lastSeen?new Date(s.lastSeen*1000):null;return(!a&&!b)?null:!a?b:!b?a:b>a?b:a;};
+  crew.sort((a,b)=>(effectiveSeen(b)||0)-(effectiveSeen(a)||0)).forEach(m=>{
     const s=m.stats||{};
     const active=daysBetween(m.first_join,m.last_join);
     const has=s.class!=null||s.deaths!=null||s.blocksTravelled!=null;
@@ -887,7 +888,7 @@ async function renderCrew(){
                : (s.gearDetail&&s.gearDetail.length) ? paperDoll(s.gearDetail)
                : (s.gear&&s.gear.length)
                ? `<div class="gearrow"><span class="gk">Wearing</span><div class="gearchips">${s.gear.map(g=>`<span class="gchip2">${esc(g)}</span>`).join("")}</div></div>`:"";
-    const meta=`<div class="cmeta">${esc(m.role||"player")} · joined ${esc((m.first_join||"").split(" ")[0])} · seen ${ago(m.last_join)}${active!=null?` · ${active}d on server`:""}</div>`;
+    const meta=`<div class="cmeta">${esc(m.role||"player")} · joined ${esc((m.first_join||"").split(" ")[0])} · seen ${ago(effectiveSeen(m))}${active!=null?` · ${active}d on server`:""}</div>`;
     html+=`<div class="member${(cinfo&&cinfo.frames)?" has-char":""}"><div class="chead"><h3>${esc(m.name||"Unknown")}</h3>${cls}</div>
       ${meta}${grid}${deathBreakdown}${foodBreakdown}${gear}</div>`;
   });
