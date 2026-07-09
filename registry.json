@@ -1,5 +1,5 @@
 {
-  "generated": "20260709-232904",
+  "generated": "20260709-233705",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2161,7 +2161,7 @@
       "name": "Eghetti",
       "role": "admin",
       "first_join": "04/22/2026 18:03",
-      "last_join": "07/08/2026 18:57",
+      "last_join": "07/09/2026 21:28",
       "last_char": "04/22/2026 18:08",
       "stats": {
         "uid": "TxqQ4g4qqKs+G5yFUTFmyGYb",
@@ -2170,19 +2170,22 @@
         "deaths": 2,
         "mobKills": 44,
         "playerKills": 0,
-        "mealsEaten": 0,
-        "caloriesConsumed": 0,
-        "foodCatCounts": {},
+        "mealsEaten": 6,
+        "caloriesConsumed": 808,
+        "foodCatCounts": {
+          "Protein": 4,
+          "Vegetable": 4
+        },
         "deathCauses": {
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 45.1,
-        "blocksTravelled": 42545,
+        "playtimeHours": 45.2,
+        "blocksTravelled": 42547,
         "blocksBroken": 914,
         "blocksPlaced": 661,
         "deepestY": 105,
-        "lastSeen": 1783632532,
+        "lastSeen": 1783632882,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
