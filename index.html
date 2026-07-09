@@ -239,6 +239,13 @@
     padding:3px 9px;border-radius:11px;border:1px solid currentColor;line-height:1.3;white-space:pre-line}
   .dp.add{color:var(--verd)} .dp.upd{color:var(--copper-glow,#d98a4b)} .dp.del{color:var(--rust)}
   .dp.none{color:var(--ink-faint);border-color:var(--line);font-weight:400;font-style:italic}
+  /* days-without-accidents banner */
+  .acc-banner{display:flex;align-items:baseline;gap:12px;padding:14px 20px;
+    border:1px solid var(--line);border-left:3px solid var(--copper);
+    background:var(--surface);border-radius:6px;margin:24px 0 0;
+    opacity:0;animation:rise .6s .2s forwards}
+  .acc-num{font-family:"Cinzel",serif;font-size:2.4rem;color:var(--copper-glow);line-height:1;letter-spacing:.02em}
+  .acc-label{font-family:"Spectral SC",serif;font-size:.82rem;letter-spacing:.07em;color:var(--ink-dim);text-transform:uppercase}
   /* tabs */
   .tabs{display:flex;gap:2px;margin:34px 0 0;border-bottom:1px solid var(--line-strong);
     opacity:0;animation:rise .8s .4s forwards}
@@ -464,6 +471,7 @@
   <div id="clientUpdateNotice" hidden></div>
   <section id="approvals"></section>
   <div class="tally" id="tally"></div>
+  <div id="accidentBanner" class="acc-banner" hidden></div>
 
   <nav class="tabs">
     <button class="tab on" data-tab="mods">Mods</button>
@@ -863,7 +871,7 @@ async function renderCrew(){
     const has=s.class!=null||s.deaths!=null||s.blocksTravelled!=null;
     const cls=s.class?`<span class="classbadge" title="character class">${esc(s.class)}</span>`:"";
     const grid=has?`<div class="statgrid">`
-        +tile("deaths",s.deaths)+tile("mobs slain",s.mobKills)+tile("PvP",s.playerKills)
+        +tile("deaths",s.deaths)+tile("mobs slain",s.mobKills)
         +tile("meals eaten",s.mealsEaten)+tile("calories",num(s.caloriesConsumed))
         +tile("playtime",fmtPlay(s.playtimeHours))
         +tile("travelled",num(s.blocksTravelled))
@@ -908,6 +916,16 @@ function ytId(u){const m=(u||"").match(/(?:youtu\.be\/|youtube\.com\/(?:watch\?v
 // "Download current modset" — zips ride on a GitHub release; checkbox switches to the
 // build that also bundles the client-only cosmetics.
 function fmtMB(b){return (b/1048576).toFixed(b<10485760?1:0)+" MB";}
+function renderAccidentBanner(){
+  const el=document.getElementById("accidentBanner");
+  if(!el)return;
+  const la=REG.lastAccident;
+  if(!la||!la.timestamp){el.hidden=true;return;}
+  const days=Math.floor((Date.now()/1000-la.timestamp)/86400);
+  el.hidden=false;
+  el.innerHTML=`<span class="acc-num">${days}</span><span class="acc-label">day${days!==1?'s':''} without accidents</span>`;
+}
+
 function renderModset(){
   const box=document.getElementById("modset"), ms=REG.modset;
   if(!ms||!ms.server_url){box.innerHTML="";return;}
@@ -1174,7 +1192,7 @@ async function reloadRegistry(){
     REG=reg; DATA=reg.mods||[]; loadPending(); applyPendingStates();
     document.getElementById("stamp").textContent="updated "+fmt(reg.generated);
     document.getElementById("foot").textContent=reg.count+" mods catalogued";
-    renderModset(); buildTally(); render(); renderApprovals(); renderEngineNotice(); renderRestartNotice();
+    renderModset(); buildTally(); renderAccidentBanner(); render(); renderApprovals(); renderEngineNotice(); renderRestartNotice();
   }catch(e){}
 }
 
