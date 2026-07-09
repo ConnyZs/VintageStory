@@ -1,5 +1,5 @@
 {
-  "generated": "20260709-235706",
+  "generated": "20260710-000107",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -2031,6 +2031,8 @@
         "playerKills": 0,
         "mealsEaten": 0,
         "caloriesConsumed": 0,
+        "lastMeal": null,
+        "mealsByName": {},
         "foodCatCounts": {},
         "deathCauses": {
           "wolf-eurasian-adult-male": 1,
@@ -2170,12 +2172,11 @@
         "deaths": 2,
         "mobKills": 44,
         "playerKills": 0,
-        "mealsEaten": 6,
-        "caloriesConsumed": 808,
-        "foodCatCounts": {
-          "Protein": 4,
-          "Vegetable": 4
-        },
+        "mealsEaten": 0,
+        "caloriesConsumed": 0,
+        "lastMeal": null,
+        "mealsByName": {},
+        "foodCatCounts": {},
         "deathCauses": {
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
@@ -2185,7 +2186,7 @@
         "blocksBroken": 914,
         "blocksPlaced": 661,
         "deepestY": 105,
-        "lastSeen": 1783632882,
+        "lastSeen": 1783634466,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2308,6 +2309,8 @@
         "playerKills": 0,
         "mealsEaten": 0,
         "caloriesConsumed": 0,
+        "lastMeal": null,
+        "mealsByName": {},
         "foodCatCounts": {},
         "deathCauses": {
           "bear-brown-adult-female": 1,
@@ -2462,6 +2465,8 @@
         "playerKills": 0,
         "mealsEaten": 0,
         "caloriesConsumed": 0,
+        "lastMeal": null,
+        "mealsByName": {},
         "foodCatCounts": {},
         "deathCauses": {
           "shiver-corrupt": 1
@@ -2586,6 +2591,8 @@
         "playerKills": 0,
         "mealsEaten": 0,
         "caloriesConsumed": 0,
+        "lastMeal": null,
+        "mealsByName": {},
         "foodCatCounts": {},
         "deathCauses": {},
         "playtimeHours": 1.8,
@@ -2677,6 +2684,8 @@
         "playerKills": 0,
         "mealsEaten": 0,
         "caloriesConsumed": 0,
+        "lastMeal": null,
+        "mealsByName": {},
         "foodCatCounts": {},
         "deathCauses": {
           "bear-brown-adult-female": 1,
