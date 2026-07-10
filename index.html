@@ -896,7 +896,7 @@ async function renderCrew(){
     const has=s.class!=null||s.deaths!=null||s.blocksTravelled!=null;
     const cls=s.class?`<span class="classbadge" title="character class">${esc(s.class)}</span>`:"";
     const grid=has?`<div class="statgrid">`
-        +tile("deaths",s.deaths)+tile("mobs slain",s.mobKills)
+        +tile("deaths",Object.values(s.deathCauses||{}).reduce((a,b)=>a+b,0))+tile("mobs slain",s.mobKills)
         +tile("meals eaten",s.mealsEaten)+tile("calories",num(s.caloriesConsumed))
         +tile("playtime",fmtPlay(s.playtimeHours))
         +tile("travelled",num(s.blocksTravelled))
@@ -952,9 +952,11 @@ function renderAccidentBanner(){
   // total deaths — forward tiers: more deaths = wither
   let total=0; const causeMap={};
   const byDeath=[...crew].map(m=>{
-    const s=m.stats||{}; total+=(s.deaths||0);
+    const s=m.stats||{};
+    const td=Object.values(s.deathCauses||{}).reduce((a,b)=>a+b,0);
+    total+=td;
     if(s.deathCauses)Object.entries(s.deathCauses).forEach(([k,v])=>causeMap[k]=(causeMap[k]||0)+v);
-    return{name:m.name,d:s.deaths||0};
+    return{name:m.name,d:td};
   }).filter(x=>x.d).sort((a,b)=>b.d-a.d);
   const deathTier=total<10?'t0':total<25?'t1':total<50?'t2':total<100?'t3':'t4';
   const topCause=Object.entries(causeMap).sort((a,b)=>b[1]-a[1])[0];
