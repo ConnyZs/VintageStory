@@ -876,6 +876,69 @@
       "note": ""
     },
     {
+      "name": "Better Crates",
+      "link": "https://mods.vintagestory.at/bettercrates",
+      "category": "Storage",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Attribute Rendering Library",
+      "link": "https://mods.vintagestory.at/attributerenderinglibrary",
+      "category": "Library",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Electrical Progressive: Core",
+      "link": "https://mods.vintagestory.at/electricalprogressivecore",
+      "category": "Technology",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Expanded Matter",
+      "link": "https://mods.vintagestory.at/em",
+      "category": "Technology",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "JSON Patches Lib",
+      "link": "https://mods.vintagestory.at/jsonpatcheslib",
+      "category": "Library",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Molds",
+      "link": "https://mods.vintagestory.at/molds",
+      "category": "Crafting",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Window Storage Lib",
+      "link": "https://mods.vintagestory.at/windowstoragelib",
+      "category": "Library",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": ""
+    },
+    {
       "name": "",
       "link": "https://mods.vintagestory.at/terratag",
       "category": "Other",
