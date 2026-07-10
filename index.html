@@ -239,41 +239,35 @@
     padding:3px 9px;border-radius:11px;border:1px solid currentColor;line-height:1.3;white-space:pre-line}
   .dp.add{color:var(--verd)} .dp.upd{color:var(--copper-glow,#d98a4b)} .dp.del{color:var(--rust)}
   .dp.none{color:var(--ink-faint);border-color:var(--line);font-weight:400;font-style:italic}
-  /* days-without-accidents banner */
-  .acc-banner{display:flex;align-items:center;justify-content:center;gap:12px;padding:14px 20px;
-    border:1px solid var(--line);border-left:3px solid var(--copper);
-    background:var(--surface);border-radius:6px;margin:24px 0 0;
-    transition:border-left-color .4s}
+  /* days-without-accidents + deaths combined panel */
+  .acc-banner{border:1px solid var(--line);background:var(--surface);border-radius:6px;margin:24px 0 0;overflow:hidden}
+  .acc-main{display:flex;align-items:center;padding:18px 28px;gap:0}
+  .acc-side{display:flex;flex-direction:column;align-items:center;gap:5px;flex:1}
+  .acc-divider{width:1px;background:var(--line);align-self:stretch;margin:0 24px;flex-shrink:0}
   .acc-num{font-family:"Cinzel",serif;font-size:2.4rem;line-height:1;letter-spacing:.02em}
-  .acc-label{font-family:"Spectral SC",serif;font-size:1rem;font-weight:700;letter-spacing:.07em;color:var(--ink-dim);text-transform:uppercase}
-  /* tier 0 — pristine, luminous; fresh engraving still warm from the chisel */
-  .acc-banner.t0{border-left-color:#f0cc7a}
+  .acc-label{font-family:"Spectral SC",serif;font-size:1rem;font-weight:700;letter-spacing:.07em;color:var(--ink-dim);text-transform:uppercase;text-align:center}
+  .acc-sub{font-family:"Spectral SC",serif;font-size:.74rem;letter-spacing:.04em;color:var(--ink-faint);text-align:center}
+  .acc-footer{border-top:1px solid var(--line);padding:7px 28px;text-align:center;
+    font-family:"Spectral SC",serif;font-size:.78rem;letter-spacing:.04em;color:var(--ink-dim);font-style:italic}
+  /* t0 — gold, pristine (50+ accident-free days · 0 deaths) */
   .acc-num.t0{color:#f0cc7a;
     text-shadow:0 0 16px rgba(240,200,100,.75),0 0 34px rgba(210,160,55,.45),0 2px 6px rgba(0,0,0,.55);
     animation:acc-pulse 2.6s ease-in-out infinite}
   @keyframes acc-pulse{
     0%,100%{text-shadow:0 0 16px rgba(240,200,100,.75),0 0 34px rgba(210,160,55,.45),0 2px 6px rgba(0,0,0,.55)}
     50%{text-shadow:0 0 26px rgba(240,200,100,.95),0 0 52px rgba(210,160,55,.65),0 2px 6px rgba(0,0,0,.55)}}
-  /* tier 1 — clean copper; the record holds */
-  .acc-banner.t1{border-left-color:var(--copper-glow)}
-  .acc-num.t1{color:var(--copper-glow);
-    text-shadow:0 0 10px rgba(210,150,70,.4),0 2px 5px rgba(0,0,0,.5)}
-  /* tier 2 — worn amber; ten days of weather */
-  .acc-banner.t2{border-left-color:#c07d38}
-  .acc-num.t2{color:#c07d38;
-    text-shadow:0 1px 3px rgba(0,0,0,.65),0 0 8px rgba(170,100,35,.22),2px 2px 4px rgba(0,0,0,.35)}
-  /* tier 3 — rough rust; a quarter-century of grime */
-  .acc-banner.t3{border-left-color:#8a4f22}
+  /* t1 — clean copper */
+  .acc-num.t1{color:var(--copper-glow);text-shadow:0 0 10px rgba(210,150,70,.4),0 2px 5px rgba(0,0,0,.5)}
+  /* t2 — worn amber */
+  .acc-num.t2{color:#c07d38;text-shadow:0 1px 3px rgba(0,0,0,.65),0 0 8px rgba(170,100,35,.22),2px 2px 4px rgba(0,0,0,.35)}
+  /* t3 — rough rust */
   .acc-num.t3{color:#9a5525;letter-spacing:.03em;
-    text-shadow:1px 1px 0 rgba(0,0,0,.78),-1px 0 0 rgba(55,18,3,.4),
-      0 3px 7px rgba(0,0,0,.62),2px -1px 3px rgba(0,0,0,.3);
+    text-shadow:1px 1px 0 rgba(0,0,0,.78),-1px 0 0 rgba(55,18,3,.4),0 3px 7px rgba(0,0,0,.62),2px -1px 3px rgba(0,0,0,.3);
     filter:contrast(1.08) brightness(.9)}
-  /* tier 4 — 50+ days; weathered monument, scarred but standing */
-  .acc-banner.t4{border-left-color:#6b3515}
+  /* t4 — cracked monument (0 accident-free days · 60+ deaths) */
   .acc-num.t4{color:#7c3d18;letter-spacing:.04em;
-    text-shadow:1px 1px 0 rgba(0,0,0,.92),-1px -1px 0 rgba(38,10,2,.7),
-      2px -2px 0 rgba(0,0,0,.5),-2px 2px 0 rgba(28,7,1,.4),
-      3px 1px 0 rgba(0,0,0,.32),-3px -1px 0 rgba(18,4,0,.28),
+    text-shadow:1px 1px 0 rgba(0,0,0,.92),-1px -1px 0 rgba(38,10,2,.7),2px -2px 0 rgba(0,0,0,.5),
+      -2px 2px 0 rgba(28,7,1,.4),3px 1px 0 rgba(0,0,0,.32),-3px -1px 0 rgba(18,4,0,.28),
       0 6px 12px rgba(0,0,0,.72),0 0 22px rgba(55,18,3,.08);
     filter:contrast(1.14) brightness(.86) saturate(.7)}
   /* tabs */
