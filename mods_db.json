@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-08T16:56:14Z",
+  "updated": "2026-07-10T00:00:00Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -13,7 +13,7 @@
     },
     {
       "name": "Papiers Peints",
-      "link": "https://mods.vintagestory.at/show/mod/40762XXX",
+      "link": "https://mods.vintagestory.at/show/mod/40762",
       "category": "Cosmetics",
       "section": "1.21",
       "server_state": "yes",
@@ -21,7 +21,7 @@
       "note": ""
     },
     {
-      "name": "Salty\u00b4s Bird\u00b4s Eye",
+      "name": "Salty´s Bird´s Eye",
       "link": "https://mods.vintagestory.at/birdseye",
       "category": "QoL",
       "section": "1.22",
@@ -61,9 +61,10 @@
       "link": "https://mods.vintagestory.at/playercorpse",
       "category": "Utility",
       "section": "1.21",
-      "server_state": "yes",
+      "server_state": "no",
       "proposed": false,
-      "note": ""
+      "note": "",
+      "forced_outdated": true
     },
     {
       "name": "Coriaender Shaders",
@@ -90,7 +91,8 @@
       "section": "1.21",
       "server_state": "no",
       "proposed": false,
-      "note": ""
+      "note": "",
+      "forced_outdated": true
     },
     {
       "name": "Status Hud Continued",
@@ -165,15 +167,6 @@
       "note": ""
     },
     {
-      "name": "Stone Quarry",
-      "link": "https://mods.vintagestory.at/stonequarry",
-      "category": "Utility",
-      "section": "1.21",
-      "server_state": "no",
-      "proposed": false,
-      "note": ""
-    },
-    {
       "name": "BetterEr Prospecting",
       "link": "https://mods.vintagestory.at/bettererprospecting",
       "category": "QoL",
@@ -189,7 +182,8 @@
       "section": "1.21",
       "server_state": "no",
       "proposed": false,
-      "note": ""
+      "note": "",
+      "forced_outdated": true
     },
     {
       "name": "BetterRuins",
@@ -207,7 +201,8 @@
       "section": "1.21",
       "server_state": "no",
       "proposed": false,
-      "note": ""
+      "note": "",
+      "forced_outdated": true
     },
     {
       "name": "Blood Trail",
@@ -223,9 +218,10 @@
       "link": "https://mods.vintagestory.at/bola",
       "category": "Weapons",
       "section": "1.22",
-      "server_state": "yes",
+      "server_state": "no",
       "proposed": false,
-      "note": ""
+      "note": "",
+      "forced_outdated": true
     },
     {
       "name": "Bricklayers",
@@ -243,7 +239,8 @@
       "section": "1.21",
       "server_state": "no",
       "proposed": false,
-      "note": ""
+      "note": "",
+      "forced_outdated": true
     },
     {
       "name": "Butchering",
@@ -259,9 +256,10 @@
       "link": "https://mods.vintagestory.at/show/mod/463",
       "category": "Technology",
       "section": "1.21",
-      "server_state": "yes",
+      "server_state": "no",
       "proposed": false,
-      "note": ""
+      "note": "",
+      "forced_outdated": true
     },
     {
       "name": "Buzzwords",
@@ -378,7 +376,8 @@
       "section": "1.21",
       "server_state": "no",
       "proposed": false,
-      "note": ""
+      "note": "",
+      "forced_outdated": true
     },
     {
       "name": "Footprints",
@@ -396,7 +395,8 @@
       "section": "1.21",
       "server_state": "no",
       "proposed": false,
-      "note": ""
+      "note": "",
+      "forced_outdated": true
     },
     {
       "name": "Forgotten Armory: Gothic style",
@@ -615,7 +615,7 @@
       "note": ""
     },
     {
-      "name": "Cartwright\u00b4s Caravan",
+      "name": "Cartwright´s Caravan",
       "link": "https://mods.vintagestory.at/cartwrightscaravan",
       "category": "Storage",
       "section": "1.22",
@@ -732,7 +732,7 @@
       "note": ""
     },
     {
-      "name": "Salty\u00b4s TrashBinned",
+      "name": "Salty´s TrashBinned",
       "link": "https://mods.vintagestory.at/trashbinned",
       "category": "QoL",
       "section": "1.22",
