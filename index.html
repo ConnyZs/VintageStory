@@ -945,11 +945,33 @@ function renderAccidentBanner(){
   const el=document.getElementById("accidentBanner");
   if(!el)return;
   const la=REG.lastAccident;
+  const crew=REG.crew||[];
+  // days without accidents — inverse tiers: more days = gold, 0 days = wither
   const days=la&&la.timestamp?Math.floor((Date.now()/1000-la.timestamp)/86400):0;
-  const tier=days===0?'t0':days<10?'t1':days<25?'t2':days<50?'t3':'t4';
+  const accTier=days>=50?'t0':days>=25?'t1':days>=10?'t2':days>=1?'t3':'t4';
+  // total deaths — forward tiers: more deaths = wither
+  let total=0; const causeMap={};
+  const byDeath=[...crew].map(m=>{
+    const s=m.stats||{}; total+=(s.deaths||0);
+    if(s.deathCauses)Object.entries(s.deathCauses).forEach(([k,v])=>causeMap[k]=(causeMap[k]||0)+v);
+    return{name:m.name,d:s.deaths||0};
+  }).filter(x=>x.d).sort((a,b)=>b.d-a.d);
+  const deathTier=total<10?'t0':total<25?'t1':total<50?'t2':total<100?'t3':'t4';
+  const topCause=Object.entries(causeMap).sort((a,b)=>b[1]-a[1])[0];
+  const deathSub=[
+    byDeath.length?`${esc(byDeath[0].name)} leads (${byDeath[0].d})`:null,
+    topCause?`top: ${esc(topCause[0])}`:null
+  ].filter(Boolean).join(' &middot; ');
+  const footer=la?`Last death: <b>${esc(la.playerName)}</b> &middot; ${esc(la.cause)}`:'';
   el.hidden=false;
-  el.className='acc-banner '+tier;
-  el.innerHTML=`<span class="acc-num ${tier}">${days}</span><span class="acc-label">day${days!==1?'s':''} without accidents</span>`;
+  el.className='acc-banner';
+  el.innerHTML=
+    `<div class="acc-main">`+
+      `<div class="acc-side"><span class="acc-num ${accTier}">${days}</span><span class="acc-label">day${days!==1?'s':''} without accidents</span></div>`+
+      `<div class="acc-divider"></div>`+
+      `<div class="acc-side"><span class="acc-num ${deathTier}">${total}</span><span class="acc-label">total deaths</span>${deathSub?`<span class="acc-sub">${deathSub}</span>`:''}</div>`+
+    `</div>`+
+    (footer?`<div class="acc-footer">${footer}</div>`:'');
 }
 
 function renderModset(){
