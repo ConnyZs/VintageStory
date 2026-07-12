@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-12T13:45:28Z",
+  "updated": "2026-07-12T13:48:16Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1052,6 +1052,15 @@
       "category": "Other",
       "section": "1.22",
       "server_state": "no",
+      "proposed": true,
+      "note": ""
+    },
+    {
+      "name": "Stay Visible Test",
+      "link": "https://mods.vintagestory.at/__test_stay_visible__",
+      "category": "Other",
+      "section": "1.22",
+      "server_state": "yes",
       "proposed": true,
       "note": ""
     }
