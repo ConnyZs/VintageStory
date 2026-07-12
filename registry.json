@@ -1,5 +1,5 @@
 {
-  "generated": "20260713-003203",
+  "generated": "20260713-004341",
   "game_version": "1.22.3",
   "check_ts": "20260712-223723",
   "latest_engine": "1.22.3",
@@ -18,7 +18,7 @@
       "Natural Foliage",
       "Status HUD"
     ],
-    "generated": "20260713-003132"
+    "generated": "20260713-004311"
   },
   "admin_url": "http://127.0.0.1:3042",
   "categories": [
@@ -1922,16 +1922,16 @@
       "modid": "stepupadvanced",
       "section": "optional",
       "category": "Utility",
-      "on_server": true,
+      "on_server": false,
       "link": "https://mods.vintagestory.at/stepupadvanced",
-      "server_state": "yes",
+      "server_state": "no",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "1.4.0",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "smithingplus",
