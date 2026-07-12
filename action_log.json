@@ -1,6 +1,12 @@
 {
   "actions": [
     {
+      "ts": "2026-07-12T13:11:15Z",
+      "label": "Approved for server",
+      "link": "https://mods.vintagestory.at/stepupcontinued",
+      "name": "https://mods.vintagestory.at/stepupcontinued"
+    },
+    {
       "ts": "2026-07-12T13:11:14Z",
       "label": "Un-approved",
       "link": "https://mods.vintagestory.at/stepupcontinued",
