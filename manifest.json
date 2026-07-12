@@ -1,17 +1,8 @@
 {
   "game_version": "1.22.3",
-  "generated": "20260713-001100",
-  "count": 94,
+  "generated": "20260713-001850",
+  "count": 98,
   "mods": [
-    {
-      "filename": "windmillsailfix.zip",
-      "sha256": "265947d48b78820a7f5dc1520046ac1150c7e956098be9ed8ef67078af6c4c8a",
-      "size": 7138,
-      "modid": "windmillsailfix",
-      "version": "2.0.2",
-      "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/windmillsailfix.zip"
-    },
     {
       "filename": "ACulinaryArtillery 2.0.0-dev.21.zip",
       "sha256": "2bdd6c86632c24df7f1306ed367fce6a383b2c139a3e9acaf268a886fd0037be",
@@ -254,6 +245,24 @@
       "version": "1.0.5",
       "name": null,
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/FreeLook_1.0.5.zip"
+    },
+    {
+      "filename": "Immersive Light_0.1.0.zip",
+      "sha256": "9592d1d5afd8905e13530a8902d804e67ecda1a504336345c2afb9c040dda18a",
+      "size": 300156,
+      "modid": "immersivelight",
+      "version": "0.1.0",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/Immersive%20Light_0.1.0.zip"
+    },
+    {
+      "filename": "ImmersiveLanterns_0.4.1.zip",
+      "sha256": "578bbc8b349b11b1e8b3f6d13e0dc380052425e3ef0b2e6c0935839e24340f0a",
+      "size": 728007,
+      "modid": "immersivelanterns",
+      "version": "0.4.1",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/ImmersiveLanterns_0.4.1.zip"
     },
     {
       "filename": "KsCartographyTable_v2.0.4.zip",
@@ -589,6 +598,15 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/coinage-2.2.1.zip"
     },
     {
+      "filename": "configlib_1.12.0.zip",
+      "sha256": "7376d892ee4b9dc8d435e4b4b32e964773e770d5f6ec01f2c913ef49b729d9fc",
+      "size": 198885,
+      "modid": "configlib",
+      "version": "1.12.0",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/configlib_1.12.0.zip"
+    },
+    {
       "filename": "electricalprogressivebasics_3.3.1.zip",
       "sha256": "b0904e4c80871b8af26fc8559309e218fb13dfbe313a0a0ac9c8842dd20eb13e",
       "size": 1437296,
@@ -848,6 +866,24 @@
       "version": "1.6.3",
       "name": null,
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/vsroofing_1.6.3.zip"
+    },
+    {
+      "filename": "windmillsailfix.zip",
+      "sha256": "265947d48b78820a7f5dc1520046ac1150c7e956098be9ed8ef67078af6c4c8a",
+      "size": 7138,
+      "modid": "windmillsailfix",
+      "version": "2.0.2",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/windmillsailfix.zip"
+    },
+    {
+      "filename": "windmillsailfix.zip",
+      "sha256": "265947d48b78820a7f5dc1520046ac1150c7e956098be9ed8ef67078af6c4c8a",
+      "size": 7138,
+      "modid": "windmillsailfix",
+      "version": "2.0.2",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/windmillsailfix.zip"
     }
   ],
   "optional": [
@@ -886,6 +922,16 @@
       "version": "4.3.2",
       "name": null,
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/statushudcont_4.3.2.zip"
+    }
+  ],
+  "client_configs": [
+    {
+      "modid": "stepupadvanced",
+      "filename": "StepUpAdvanced_BlockBlacklist.json",
+      "target": "ModConfig/StepUpAdvanced_BlockBlacklist.json",
+      "sha256": "a2857ab077fcd66b6ecd028aa2c26fee9aa06dc444569e9894f33d017a395386",
+      "size": 4809,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/client-configs/stepupadvanced/StepUpAdvanced_BlockBlacklist.json"
     }
   ]
 }

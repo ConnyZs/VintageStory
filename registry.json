@@ -1,5 +1,5 @@
 {
-  "generated": "20260713-001219",
+  "generated": "20260713-002011",
   "game_version": "1.22.3",
   "check_ts": "20260712-223723",
   "latest_engine": "1.22.3",
@@ -8,17 +8,17 @@
   "modset": {
     "server_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset.zip",
     "full_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset-full.zip",
-    "server_count": 94,
-    "full_count": 98,
-    "server_size": 140164696,
-    "full_size": 141055801,
+    "server_count": 97,
+    "full_count": 101,
+    "server_size": 141392116,
+    "full_size": 142283221,
     "client_only": [
       "Extra Info",
       "Improved Handbook Recipes (Fork)",
       "Natural Foliage",
       "Status HUD"
     ],
-    "generated": "20260713-001150"
+    "generated": "20260713-001941"
   },
   "admin_url": "http://127.0.0.1:3042",
   "categories": [
@@ -1479,7 +1479,7 @@
       "server_state": "no",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "0.4.1",
       "build_version": "0.4.1",
       "build_branch": "1.22",
       "update_pending": false,
@@ -1527,7 +1527,7 @@
       "server_state": "no",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "0.1.0",
       "build_version": "0.1.0",
       "build_branch": "1.22",
       "update_pending": false,

@@ -51,6 +51,8 @@ for (const m of (d.mods||[]))
   rows.push(['req', m.modid||'', m.filename||'', m.sha256||'', (m.url||'').replace(/ /g,'%20'), m.name||''].join('\t'));
 for (const m of (d.optional||[]))
   rows.push(['opt', m.modid||'', m.filename||'', m.sha256||'', (m.url||'').replace(/ /g,'%20'), m.name||''].join('\t'));
+for (const m of (d.client_configs||[]))
+  rows.push(['cfg', m.modid||'', m.filename||'', m.sha256||'', (m.url||'').replace(/ /g,'%20'), ''].join('\t'));
 rows.join('\n');
 JS
 )
@@ -109,9 +111,21 @@ JS
 fi
 
 # ── plan ─────────────────────────────────────────────────────────────────────
-typeset -a to_dl to_rm skipped problems
+typeset -a to_dl to_rm skipped problems to_dl_cfg
 typeset -A want_files use_modids
-typeset -i ok_ct=0
+typeset -i ok_ct=0 cfg_ok_ct=0
+
+consider_cfg() {
+  local modid="$1" fname="$2" sha="$3" url="$4"
+  (( ! ${+use_modids[$modid]} )) && return
+  local target="$DATA_DIR/ModConfig/$fname"
+  if [[ -f "$target" ]]; then
+    if [[ -z "$sha" || "$(shasum -a 256 "$target" | cut -d' ' -f1)" = "$sha" ]]; then
+      (( cfg_ok_ct++ )); return
+    fi
+  fi
+  to_dl_cfg+=("$fname|$sha|$url")
+}
 
 consider() {
   local type="$1" modid="$2" fname="$3" sha="$4" url="$5" name="$6"
@@ -137,7 +151,11 @@ consider() {
 
 while IFS=$'\t' read -r type modid fname sha url name; do
   [[ "$type" = "HDR" ]] && continue
-  consider "$type" "$modid" "$fname" "$sha" "$url" "$name"
+  if [[ "$type" = "cfg" ]]; then
+    consider_cfg "$modid" "$fname" "$sha" "$url"
+  else
+    consider "$type" "$modid" "$fname" "$sha" "$url" "$name"
+  fi
 done <<< "$ALL_ROWS"
 
 # ModsByServer cleanup
@@ -174,8 +192,15 @@ if (( ${#problems} > 0 )); then
   print "Manual (no URL): ${#problems}"
   for p in "${problems[@]}"; do print "    ! $p"; done
 fi
+if (( ${#to_dl_cfg} > 0 )); then
+  print "Config files to update: ${#to_dl_cfg}"
+  for entry in "${to_dl_cfg[@]}"; do
+    local fn; IFS='|' read -r fn _ _ <<< "$entry"
+    print "    ~ $fn"
+  done
+fi
 
-if (( ${#to_dl} == 0 && ${#to_rm} == 0 && ${#mbs_rm} == 0 )); then
+if (( ${#to_dl} == 0 && ${#to_rm} == 0 && ${#mbs_rm} == 0 && ${#to_dl_cfg} == 0 )); then
   print "\nAlready in sync. Nothing to do."
   read -r "?Press Enter to close..."; exit 0
 fi
@@ -217,6 +242,24 @@ done
 # ── clean ModsByServer ────────────────────────────────────────────────────────
 for r in "${mbs_rm[@]:-}"; do
   [[ -f "$MBS/$r" ]] && { rm -f "$MBS/$r"; print "  cleaned ModsByServer/$r"; }
+done
+
+# ── download config files ────────────────────────────────────────────────────
+typeset CFGDIR="$DATA_DIR/ModConfig"
+[[ -d "$CFGDIR" ]] || mkdir -p "$CFGDIR"
+for entry in "${to_dl_cfg[@]:-}"; do
+  local fn sha url; IFS='|' read -r fn sha url <<< "$entry"
+  local tmp="$TMP/$fn.tmp"
+  print "  downloading config $fn ..."
+  if curl -fsSL "$url" -o "$tmp" 2>/dev/null; then
+    if [[ -n "$sha" && "$(shasum -a 256 "$tmp" | cut -d' ' -f1)" != "$sha" ]]; then
+      rm -f "$tmp"; print "    ! checksum mismatch for $fn — discarded, NOT installed."
+    else
+      mv -f "$tmp" "$CFGDIR/$fn"; print "    ok $fn"
+    fi
+  else
+    rm -f "$tmp"; print "    ! download failed for $fn"
+  fi
 done
 
 # ── clear VS cache ────────────────────────────────────────────────────────────

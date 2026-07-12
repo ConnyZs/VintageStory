@@ -12,7 +12,9 @@ exit /b
   Uses only built-in PowerShell (HTTP, JSON, SHA-256, zip). Pre-installed on Win 10/11.
 
   Safety (same as the Python version):
-   * Touches ONLY your Vintage Story Mods folder. Nothing else.
+   * Touches your Vintage Story Mods folder, and ModConfig only for pre-built config
+     files tied to an optional mod you already have (e.g. StepUp Advanced's block
+     blacklist) — same checksum-verify-then-write safety as mods, never anything else.
    * Shows the plan first and asks before changing anything (or pass -Apply to skip the prompt).
    * Backs up your whole Mods folder to a timestamped .zip before any change.
    * Verifies SHA-256 of every download; a bad download is discarded, never installed.
@@ -145,6 +147,15 @@ function Consider($m, [bool]$optional) {
 foreach ($m in $man.mods)     { Consider $m $false }
 foreach ($m in $man.optional) { Consider $m $true }
 
+# ---- client config files (only for mods you already have) ----
+$toGetConfigs=@()
+foreach ($c in $man.client_configs) {
+  if (-not $useModids.ContainsKey($c.modid)) { continue }
+  $target = Join-Path (Join-Path (Split-Path $modsDir -Parent) "ModConfig") $c.filename
+  if ((Test-Path -LiteralPath $target) -and (Fast-Skip $target $c.sha256 ([long]($c.size)))) { continue }
+  $toGetConfigs += $c
+}
+
 # ModsByServer cleanup: redundant server-pushed copies of mods we now have
 $mbs = Join-Path (Split-Path $modsDir -Parent) "ModsByServer"
 $mbsRemove=@()
@@ -163,8 +174,9 @@ if ($toRemove.Count) { Write-Host ("To replace (old versions): {0}" -f $toRemove
 if ($mbsRemove.Count) { Write-Host ("ModsByServer to clean: {0}" -f $mbsRemove.Count); $mbsRemove | ForEach-Object { Write-Host "    - ModsByServer\$_" } }
 if ($skipped.Count) { Write-Host ("Optional left alone: {0}" -f $skipped.Count); $skipped | ForEach-Object { Write-Host "    . $_" } }
 if ($problems.Count) { Write-Host ("Manual (no URL): {0}" -f $problems.Count) -ForegroundColor Yellow; $problems | ForEach-Object { Write-Host "    ! $_" } }
+if ($toGetConfigs.Count) { Write-Host ("Config files to update: {0}" -f $toGetConfigs.Count); $toGetConfigs | ForEach-Object { Write-Host ("    ~ {0}" -f $_.filename) } }
 
-if (($toGet.Count -eq 0) -and ($toRemove.Count -eq 0) -and ($mbsRemove.Count -eq 0)) {
+if (($toGet.Count -eq 0) -and ($toRemove.Count -eq 0) -and ($mbsRemove.Count -eq 0) -and ($toGetConfigs.Count -eq 0)) {
   Write-Host "`nAlready in sync. Nothing to do." -ForegroundColor Green; exit 0
 }
 if (-not $Apply) {
@@ -204,6 +216,26 @@ foreach ($r in $toRemove) {
 foreach ($r in $mbsRemove) {
   $rp = Join-Path $mbs $r
   if (Test-Path -LiteralPath $rp) { Remove-Item -LiteralPath $rp -Force; Write-Host "  cleaned ModsByServer\$r" }
+}
+foreach ($c in $toGetConfigs) {
+  $cfgDir = Join-Path (Split-Path $modsDir -Parent) "ModConfig"
+  if (-not (Test-Path -LiteralPath $cfgDir)) { New-Item -ItemType Directory -Path $cfgDir -Force | Out-Null }
+  $target = Join-Path $cfgDir $c.filename
+  $tmp = Join-Path $cfgDir ("." + [System.Guid]::NewGuid().ToString() + ".tmp")
+  try {
+    Write-Host "  downloading config $($c.filename) ..."
+    Invoke-WebRequest -Uri ($c.url -replace ' ','%20') -OutFile $tmp -TimeoutSec 60
+    if ($c.sha256 -and ((Get-Sha $tmp) -ne $c.sha256.ToLower())) {
+      Remove-Item -LiteralPath $tmp -Force
+      Write-Host "    ! checksum mismatch for $($c.filename) - discarded, NOT installed." -ForegroundColor Red
+      continue
+    }
+    Move-Item -LiteralPath $tmp -Destination $target -Force
+    Write-Host "    ok $($c.filename)"
+  } catch {
+    if (Test-Path -LiteralPath $tmp) { Remove-Item -LiteralPath $tmp -Force }
+    Write-Host "    ! failed $($c.filename) : $_" -ForegroundColor Red
+  }
 }
 # clear VS texture atlas cache so mod changes take effect without stale-atlas artefacts
 $dataParent = Split-Path $modsDir -Parent
