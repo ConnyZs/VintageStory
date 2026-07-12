@@ -567,14 +567,11 @@ fetch("registry.json?_="+Date.now()).then(r=>r.json()).then(reg=>{
   document.getElementById("dashVer").textContent="Ledger v"+(reg.game_version||"?");
   document.getElementById("stamp").textContent="updated "+fmt(reg.generated);
   document.getElementById("foot").textContent=reg.count+" mods catalogued";
+  // check_ts is written server-side ONLY by a real ModDB check (vsupdate.py registry) —
+  // never guessed client-side and never borrowed from `generated`, which also gets bumped
+  // by unrelated things (proposal approvals, the 2-min crew-stats sync).
   const _cts=document.getElementById("checkTs");
-  if(_cts){
-    const _regRaw=reg.generated||"";
-    const _localRaw=localStorage.getItem("vs_last_check_raw")||"";
-    const _localFmt=localStorage.getItem("vs_last_check_ts")||"";
-    const _s=(_localRaw && _localFmt && _localRaw>_regRaw)?_localFmt:fmt(_regRaw);
-    _cts.textContent=_s?"last checked "+_s:"";
-  }
+  if(_cts) _cts.textContent=reg.check_ts?"last checked "+fmt(reg.check_ts):"";
   const dl=document.getElementById("cats");
   (reg.categories||[]).forEach(c=>{const o=document.createElement("option");o.value=c;dl.appendChild(o);});
   initForm();
