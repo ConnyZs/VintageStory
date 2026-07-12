@@ -1,5 +1,5 @@
 {
-  "generated": "20260712-222116",
+  "generated": "20260712-222938",
   "game_version": "1.22.3",
   "check_ts": "20260712-200051",
   "latest_engine": "1.22.3",
@@ -43,7 +43,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 122,
+  "count": 123,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1897,6 +1897,22 @@
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "1.1.1",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": true
+    },
+    {
+      "name": "K's Cartography Table",
+      "modid": "kscartographytable",
+      "section": "1.22",
+      "category": "Utility",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/kscartographytable",
+      "server_state": "no",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": null,
+      "build_version": "2.0.4",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": true
