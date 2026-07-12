@@ -1,5 +1,5 @@
 {
-  "generated": "20260712-151953",
+  "generated": "2026-07-12T13:20:07Z",
   "game_version": "1.22.3",
   "check_ts": "20260711-200050",
   "latest_engine": "1.22.3",
@@ -1922,16 +1922,16 @@
       "modid": "__test_single_push__",
       "section": "1.22",
       "category": "Other",
-      "on_server": false,
+      "on_server": true,
       "link": "https://mods.vintagestory.at/__test_single_push__",
-      "server_state": "no",
+      "server_state": "yes",
       "avail": "not-found",
       "note": "not on ModDB / link unresolved",
       "version": null,
       "build_version": null,
       "build_branch": null,
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "smithingplus",

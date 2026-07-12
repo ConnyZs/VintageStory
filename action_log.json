@@ -1,6 +1,12 @@
 {
   "actions": [
     {
+      "ts": "2026-07-12T13:20:07Z",
+      "label": "Approved for server",
+      "link": "https://mods.vintagestory.at/__test_single_push__",
+      "name": "Single Push Test"
+    },
+    {
       "ts": "2026-07-12T13:14:27Z",
       "label": "Approved for server",
       "link": "https://mods.vintagestory.at/__test_checkbox_reset__",
