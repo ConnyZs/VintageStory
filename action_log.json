@@ -1,6 +1,42 @@
 {
   "actions": [
     {
+      "ts": "2026-07-12T13:50:08Z",
+      "label": "Listed as client-side",
+      "link": "https://mods.vintagestory.at/__test_local_only_e2e__",
+      "name": "Local Only E2E Test"
+    },
+    {
+      "ts": "2026-07-12T13:50:05Z",
+      "label": "Rejected",
+      "link": "https://mods.vintagestory.at/__test_local_only_e2e__",
+      "name": "Local Only E2E Test"
+    },
+    {
+      "ts": "2026-07-12T13:50:01Z",
+      "label": "Un-approved",
+      "link": "https://mods.vintagestory.at/__test_local_only_e2e__",
+      "name": "Local Only E2E Test"
+    },
+    {
+      "ts": "2026-07-12T13:49:58Z",
+      "label": "Approved for server",
+      "link": "https://mods.vintagestory.at/__test_local_only_e2e__",
+      "name": "Local Only E2E Test"
+    },
+    {
+      "ts": "2026-07-12T13:49:04Z",
+      "label": "Rejected",
+      "link": "https://mods.vintagestory.at/__test_stay_visible__",
+      "name": "Stay Visible Test"
+    },
+    {
+      "ts": "2026-07-12T13:48:55Z",
+      "label": "Un-approved",
+      "link": "https://mods.vintagestory.at/__test_stay_visible__",
+      "name": "Stay Visible Test"
+    },
+    {
       "ts": "2026-07-12T13:48:16Z",
       "label": "Approved for server",
       "link": "https://mods.vintagestory.at/__test_stay_visible__",
@@ -263,42 +299,6 @@
       "label": "Un-approved",
       "link": "https://mods.vintagestory.at/smex",
       "name": "Steelmaking Expanded"
-    },
-    {
-      "ts": "2026-07-12T01:10:39Z",
-      "label": "Approved for server",
-      "link": "https://mods.vintagestory.at/smex",
-      "name": "Steelmaking Expanded"
-    },
-    {
-      "ts": "2026-07-12T01:10:37Z",
-      "label": "Un-approved",
-      "link": "https://mods.vintagestory.at/kevinsfurniture",
-      "name": "Kevins Furniture"
-    },
-    {
-      "ts": "2026-07-12T01:10:36Z",
-      "label": "Approved for server",
-      "link": "https://mods.vintagestory.at/kevinsfurniture",
-      "name": "Kevins Furniture"
-    },
-    {
-      "ts": "2026-07-12T01:10:35Z",
-      "label": "Un-approved",
-      "link": "https://mods.vintagestory.at/ithaniaexpandedfishing",
-      "name": "Ithania Expanded Fishing"
-    },
-    {
-      "ts": "2026-07-12T01:10:33Z",
-      "label": "Approved for server",
-      "link": "https://mods.vintagestory.at/ithaniaexpandedfishing",
-      "name": "Ithania Expanded Fishing"
-    },
-    {
-      "ts": "2026-07-12T00:54:56Z",
-      "label": "Un-approved",
-      "link": "https://mods.vintagestory.at/show/mod/24021",
-      "name": "Good Hunting"
     }
   ]
 }
