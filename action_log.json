@@ -1,6 +1,12 @@
 {
   "actions": [
     {
+      "ts": "2026-07-12T13:14:27Z",
+      "label": "Approved for server",
+      "link": "https://mods.vintagestory.at/__test_checkbox_reset__",
+      "name": "Checkbox Reset Test"
+    },
+    {
       "ts": "2026-07-12T13:11:17Z",
       "label": "Rejected",
       "link": "https://mods.vintagestory.at/stepupcontinued",

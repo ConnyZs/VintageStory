@@ -1,5 +1,5 @@
 {
-  "generated": "20260712-151248",
+  "generated": "2026-07-12T13:14:27Z",
   "game_version": "1.22.3",
   "check_ts": "20260711-200050",
   "latest_engine": "1.22.3",
@@ -136,7 +136,7 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "2.0.34",
-      "build_version": "2.1.1",
+      "build_version": "2.1.11",
       "build_branch": "1.22",
       "update_pending": true,
       "proposed": false
@@ -520,7 +520,7 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "0.6.18",
-      "build_version": "0.6.19",
+      "build_version": "0.6.20",
       "build_branch": "1.22",
       "update_pending": true,
       "proposed": false
@@ -1900,6 +1900,22 @@
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": true
+    },
+    {
+      "name": "Checkbox Reset Test",
+      "modid": "__test_checkbox_reset__",
+      "section": "1.22",
+      "category": "Other",
+      "on_server": true,
+      "link": "https://mods.vintagestory.at/__test_checkbox_reset__",
+      "server_state": "yes",
+      "avail": "not-found",
+      "note": "not on ModDB / link unresolved",
+      "version": null,
+      "build_version": null,
+      "build_branch": null,
+      "update_pending": false,
+      "proposed": false
     },
     {
       "name": "smithingplus",
