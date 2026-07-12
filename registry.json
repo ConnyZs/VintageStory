@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-12T01:10:37Z",
+  "generated": "2026-07-12T01:10:39Z",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1361,16 +1361,16 @@
       "modid": "smex",
       "section": "1.22",
       "category": "Technology",
-      "on_server": false,
+      "on_server": true,
       "link": "https://mods.vintagestory.at/smex",
-      "server_state": "no",
+      "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "0.9.4",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Amphorae",
