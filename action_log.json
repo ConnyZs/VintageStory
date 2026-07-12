@@ -1,6 +1,12 @@
 {
   "actions": [
     {
+      "ts": "2026-07-12T20:34:04Z",
+      "label": "Proposed",
+      "link": "https://mods.vintagestory.at/__test_fast_submit__",
+      "name": "Fast Submit Test"
+    },
+    {
       "ts": "2026-07-12T15:17:41Z",
       "label": "Un-approved",
       "link": "https://mods.vintagestory.at/show/mod/1373",
@@ -293,12 +299,6 @@
       "label": "Rejected",
       "link": "https://mods.vintagestory.at/stepupcontinued",
       "name": "https://mods.vintagestory.at/stepupcontinued"
-    },
-    {
-      "ts": "2026-07-12T13:10:23Z",
-      "label": "Rejected",
-      "link": "https://mods.vintagestory.at/stepupcontinued",
-      "name": "StepUp  (continued)"
     }
   ]
 }

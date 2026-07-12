@@ -1302,7 +1302,10 @@ async function renderApprovals(){
   let rows="";
   pend.sort((a,b)=>a.name.localeCompare(b.name)).forEach(m=>{
     const reg=byLink[m.link];
-    const meta=reg?`${reg.build_version?"v"+esc(reg.build_version):""}${reg.build_branch==="1.21"?" · ⚠ 1.21 build (older)":""}`
+    // avail:"pending" = a freshly fast-submitted proposal — real ModDB data (build_version
+    // etc.) only gets filled in by the next real check/deploy, same placeholder either way.
+    const meta=(reg&&reg.avail!=="pending")
+                  ?`${reg.build_version?"v"+esc(reg.build_version):""}${reg.build_branch==="1.21"?" · ⚠ 1.21 build (older)":""}`
                   :"version checks on next sync";
     rows+=`<div class="prow${m.approved?" approved":""}">
       <input type="checkbox" data-link="${esc(m.link)}" ${m.approved?"checked":""}>

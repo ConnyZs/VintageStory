@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-12T20:29:08Z",
+  "updated": "2026-07-12T20:34:04Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1063,6 +1063,15 @@
       "server_state": "no",
       "proposed": true,
       "note": "added via dashboard"
+    },
+    {
+      "name": "Fast Submit Test",
+      "link": "https://mods.vintagestory.at/__test_fast_submit__",
+      "category": "Utility",
+      "section": "1.22",
+      "server_state": "no",
+      "proposed": true,
+      "note": ""
     }
   ]
 }
