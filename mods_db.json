@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-12T00:54:55Z",
+  "updated": "2026-07-12T01:10:32Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1060,8 +1060,8 @@
       "link": "https://mods.vintagestory.at/ithaniaexpandedfishing",
       "category": "Other",
       "section": "1.22",
-      "server_state": "no",
-      "proposed": true,
+      "server_state": "yes",
+      "proposed": false,
       "note": ""
     }
   ]
