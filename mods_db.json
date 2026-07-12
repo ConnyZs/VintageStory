@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-12T01:10:47Z",
+  "updated": "2026-07-12T01:43:25Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1034,7 +1034,7 @@
       "category": "Other",
       "section": "1.22",
       "server_state": "no",
-      "proposed": false,
+      "proposed": true,
       "note": ""
     },
     {
