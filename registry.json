@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-12T13:39:17Z",
+  "generated": "20260712-154049",
   "game_version": "1.22.3",
   "check_ts": "20260712-153543",
   "latest_engine": "1.22.3",
@@ -2014,6 +2014,22 @@
       "proposed": false,
       "custom": true,
       "client_only": false
+    },
+    {
+      "name": "Local Only E2E Test",
+      "modid": "__test_local_only_e2e__",
+      "section": "1.22",
+      "category": "Other",
+      "on_server": true,
+      "link": "https://mods.vintagestory.at/__test_local_only_e2e__",
+      "server_state": "yes",
+      "avail": "not-found",
+      "note": "",
+      "version": null,
+      "build_version": null,
+      "build_branch": null,
+      "update_pending": false,
+      "proposed": false
     }
   ],
   "crew": [
@@ -2691,7 +2707,7 @@
           "bear-brown-adult-female": 1,
           "shiver-corrupt": 1
         },
-        "playtimeHours": 6,
+        "playtimeHours": 6.0,
         "blocksTravelled": 10486,
         "blocksBroken": 140,
         "blocksPlaced": 31,

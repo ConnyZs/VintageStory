@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-12T13:39:17Z",
+  "updated": "2026-07-12T13:40:48Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1053,6 +1053,15 @@
       "section": "1.22",
       "server_state": "no",
       "proposed": true,
+      "note": ""
+    },
+    {
+      "name": "Local Only E2E Test",
+      "link": "https://mods.vintagestory.at/__test_local_only_e2e__",
+      "category": "Other",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
       "note": ""
     }
   ]
