@@ -1,9 +1,9 @@
 {
-  "generated": "20260713-004341",
+  "generated": "20260713-004927",
   "game_version": "1.22.3",
   "check_ts": "20260712-223723",
   "latest_engine": "1.22.3",
-  "restart_needed": "20260713-001223",
+  "restart_needed": null,
   "last_deploy_ts": "20260713-003514",
   "modset": {
     "server_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset.zip",
@@ -2071,12 +2071,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 36.6,
-        "blocksTravelled": 93963,
+        "playtimeHours": 36.7,
+        "blocksTravelled": 93997,
         "blocksBroken": 4425,
         "blocksPlaced": 289,
         "deepestY": 28,
-        "lastSeen": 1783550662,
+        "lastSeen": 1783896541,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
