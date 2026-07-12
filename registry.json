@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-12T22:06:25Z",
+  "generated": "2026-07-12T22:07:43Z",
   "game_version": "1.22.3",
   "check_ts": "20260712-223723",
   "latest_engine": "1.22.3",
@@ -1842,9 +1842,9 @@
       "modid": "fitnshard",
       "section": "1.22",
       "category": "Crafting",
-      "on_server": false,
+      "on_server": true,
       "link": "https://mods.vintagestory.at/fitnshard",
-      "server_state": "no",
+      "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": null,
