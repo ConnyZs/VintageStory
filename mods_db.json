@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-12T20:36:20Z",
+  "updated": "2026-07-12T20:38:06Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -21,7 +21,7 @@
       "note": ""
     },
     {
-      "name": "Salty´s Bird´s Eye",
+      "name": "Salty\u00b4s Bird\u00b4s Eye",
       "link": "https://mods.vintagestory.at/birdseye",
       "category": "QoL",
       "section": "1.22",
@@ -615,7 +615,7 @@
       "note": ""
     },
     {
-      "name": "Cartwright´s Caravan",
+      "name": "Cartwright\u00b4s Caravan",
       "link": "https://mods.vintagestory.at/cartwrightscaravan",
       "category": "Storage",
       "section": "1.22",
@@ -732,7 +732,7 @@
       "note": ""
     },
     {
-      "name": "Salty´s TrashBinned",
+      "name": "Salty\u00b4s TrashBinned",
       "link": "https://mods.vintagestory.at/trashbinned",
       "category": "QoL",
       "section": "1.22",
@@ -1063,6 +1063,15 @@
       "server_state": "no",
       "proposed": true,
       "note": "added via dashboard"
+    },
+    {
+      "name": "StepUp Advanced",
+      "link": "https://mods.vintagestory.at/stepupadvanced",
+      "category": "QoL",
+      "section": "optional",
+      "server_state": "no",
+      "proposed": true,
+      "note": ""
     }
   ]
 }

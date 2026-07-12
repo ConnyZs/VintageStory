@@ -1,5 +1,5 @@
 {
-  "generated": "20260712-223723",
+  "generated": "20260712-223917",
   "game_version": "1.22.3",
   "check_ts": "20260712-223723",
   "latest_engine": "1.22.3",
@@ -2030,6 +2030,22 @@
       "proposed": false,
       "custom": true,
       "client_only": false
+    },
+    {
+      "name": "StepUp Advanced",
+      "modid": null,
+      "section": "optional",
+      "category": "QoL",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/stepupadvanced",
+      "server_state": "no",
+      "avail": "pending",
+      "note": "",
+      "version": null,
+      "build_version": null,
+      "build_branch": null,
+      "update_pending": false,
+      "proposed": true
     }
   ],
   "crew": [
