@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-12T01:10:44Z",
+  "updated": "2026-07-12T01:10:45Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -988,7 +988,7 @@
       "link": "https://mods.vintagestory.at/materialneeds",
       "category": "Other",
       "section": "1.22",
-      "server_state": "yes",
+      "server_state": "no",
       "proposed": false,
       "note": ""
     },
