@@ -1,5 +1,5 @@
 {
-  "generated": "20260712-025434",
+  "generated": "2026-07-12T00:54:40Z",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1793,9 +1793,9 @@
       "modid": "extendedcreation",
       "section": "1.22",
       "category": "Cosmetics",
-      "on_server": true,
+      "on_server": false,
       "link": "https://mods.vintagestory.at/show/mod/21198",
-      "server_state": "yes",
+      "server_state": "no",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": null,
