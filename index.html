@@ -588,6 +588,9 @@ fetch("registry.json?_="+Date.now()).then(r=>r.json()).then(reg=>{
 
 function fmt(s){if(!s)return"";const m=s.match(/(\d{4})(\d{2})(\d{2})-(\d{2})(\d{2})/);
   return m?`${m[3]}.${m[2]}.${m[1]} ${m[4]}:${m[5]}`:s;}
+// parse a "YYYYMMDD-HHMMSS" server stamp (registry.json's generated/check_ts format) to epoch ms
+function stampMs(s){const m=(s||"").match(/(\d{4})(\d{2})(\d{2})-(\d{2})(\d{2})(\d{2})/);
+  return m?new Date(+m[1],+m[2]-1,+m[3],+m[4],+m[5],+m[6]).getTime():null;}
 
 function buildTally(){
   const on=DATA.filter(m=>m.on_server).length;
@@ -1093,34 +1096,43 @@ function renderEngineNotice(){
   };
 }
 
+const CHECK_COOLDOWN_MS=300000;   // must match bot.py's CHECK_COOLDOWN_S — 1 real check per 5 min
 function setupAdminButtons(){
-  // "Check for updates" — admin triggers bot to rebuild registry; non-admin just refreshes the page.
+  // "Check for updates" — open to everyone (bot.py no longer requires the admin key for this;
+  // it's read-only). Triggers the same real check as /updates and !check on Discord: a server
+  // scan + ModDB resolve, then a registry rebuild that writes the honest check_ts we display.
   const cb=document.getElementById("checkBtn");
   if(cb){
     cb.addEventListener("click",async()=>{
       if(cb.disabled) return;
-      cb.disabled=true; cb.textContent="Checking…";
-      const startGen=REG.generated;
       const cts=document.getElementById("checkTs");
-      const setTs=()=>{const d=new Date();const p=n=>String(n).padStart(2,'0');const s=`${p(d.getDate())}.${p(d.getMonth()+1)}.${d.getFullYear()} ${p(d.getHours())}:${p(d.getMinutes())}`;const raw=`${d.getFullYear()}${p(d.getMonth()+1)}${p(d.getDate())}-${p(d.getHours())}${p(d.getMinutes())}${p(d.getSeconds())}`;localStorage.setItem("vs_last_check_ts",s);localStorage.setItem("vs_last_check_raw",raw);if(cts)cts.textContent="last checked "+s;}
-      if(ADMIN_KEY){
-        try{ await _adminPost({action:"check"}); setTs(); }
-        catch(e){ cb.textContent="Check for updates"; cb.disabled=false; return; }
+      const lastMs=stampMs(REG.check_ts);
+      if(lastMs!==null){
+        const remain=CHECK_COOLDOWN_MS-(Date.now()-lastMs);
+        if(remain>0){
+          showToast(`Already checked recently — try again in ${Math.max(1,Math.ceil(remain/60000))} min.`,false);
+          return;
+        }
       }
+      cb.disabled=true; cb.textContent="Checking…";
+      const startCheckTs=REG.check_ts;
+      try{ await _adminPost({action:"check"}); }
+      catch(e){ cb.textContent="Check for updates"; cb.disabled=false; showToast("Failed to reach the update service — try again.",false); return; }
       const poll=setInterval(async()=>{
         try{
           const reg=await (await fetch("registry.json?_="+Date.now())).json();
-          if(reg.generated !== startGen){
+          if(reg.check_ts && reg.check_ts!==startCheckTs){
             clearInterval(poll);
             REG=reg; DATA=reg.mods||[];
             render(); buildTally(); renderApprovals(); renderEngineNotice(); renderRestartNotice();
             cb.textContent="Check for updates"; cb.disabled=false;
-            setTs();
+            if(cts) cts.textContent="last checked "+fmt(reg.check_ts);
             showToast("Updated — mod states refreshed.",true);
           }
         }catch(e){}
       },8000);
-      setTimeout(()=>{ clearInterval(poll); if(cb.disabled){cb.textContent="Check for updates";cb.disabled=false;} },180000);
+      setTimeout(()=>{ if(cb.disabled){ clearInterval(poll); cb.textContent="Check for updates"; cb.disabled=false;
+        showToast("No response yet — the check may still be running server-side; reload in a bit.",false); } },300000);
     });
   }
   renderEngineNotice(); renderRestartNotice(); renderClientUpdateNotice(REG.last_deploy_ts);
@@ -1239,6 +1251,8 @@ async function reloadRegistry(){
     REG=reg; DATA=reg.mods||[]; loadPending(); applyPendingStates();
     document.getElementById("stamp").textContent="updated "+fmt(reg.generated);
     document.getElementById("foot").textContent=reg.count+" mods catalogued";
+    const _cts2=document.getElementById("checkTs");
+    if(_cts2) _cts2.textContent=reg.check_ts?"last checked "+fmt(reg.check_ts):"";
     renderModset(); buildTally(); renderAccidentBanner(); render(); renderApprovals(); renderEngineNotice(); renderRestartNotice();
   }catch(e){}
 }
