@@ -558,7 +558,23 @@ const AVAIL_LABEL={available:"Updated",likely:"Likely works",outdated:"Outdated"
 let DATA=[], REG={}, filter="all", query="", PROPOSALS=[];
 const ADMIN_KEY=new URLSearchParams(location.search).get("key");   // ?key=… → approval mode
 
-fetch("registry.json?_="+Date.now()).then(r=>r.json()).then(reg=>{
+// Admin sees the LIVE local state straight off the bot's disk (GET admin_url + "/registry") —
+// includes proposal ticks etc. that haven't been published yet, since those are now local-only
+// until a real publish (Deploy now / Check for updates / the 8pm auto-check). Only reachable
+// from the bot's own machine (127.0.0.1), so it silently falls back to the public, published
+// GitHub Pages copy for everyone else (or if the admin isn't on that machine).
+async function fetchRegistry(adminUrl){
+  if(ADMIN_KEY && adminUrl){
+    try{ return await (await fetch(adminUrl.replace(/\/$/,"")+"/registry")).json(); }
+    catch(e){ /* bot unreachable from here — fall through to the published copy */ }
+  }
+  return await (await fetch("registry.json?_="+Date.now())).json();
+}
+
+fetchRegistry(null).then(async reg=>{
+  if(ADMIN_KEY && reg.admin_url){
+    try{ reg = await fetchRegistry(reg.admin_url); }catch(e){}
+  }
   REG=reg; DATA=reg.mods||[];
   // restore locally-pending submissions (added since last sync) until they appear for real
   loadPending();
@@ -1051,7 +1067,7 @@ function _adminUrl(){return (REG.admin_url||"").replace(/\/$/,"");}
 function _pollRegistryAfterAction(startGen){
   let _p=setInterval(async()=>{
     try{
-      const reg=await (await fetch("registry.json?_="+Date.now())).json();
+      const reg=await fetchRegistry(REG.admin_url);
       if(reg.generated!==startGen){
         clearInterval(_p);
         REG=reg; DATA=reg.mods||[];
