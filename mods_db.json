@@ -979,8 +979,8 @@
       "link": "https://mods.vintagestory.at/kevinsfurniture",
       "category": "Other",
       "section": "1.22",
-      "server_state": "no",
-      "proposed": true,
+      "server_state": "yes",
+      "proposed": false,
       "note": ""
     },
     {
