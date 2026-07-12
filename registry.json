@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-12T22:07:43Z",
+  "generated": "20260713-001219",
   "game_version": "1.22.3",
   "check_ts": "20260712-223723",
   "latest_engine": "1.22.3",
@@ -8,17 +8,17 @@
   "modset": {
     "server_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset.zip",
     "full_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset-full.zip",
-    "server_count": 96,
-    "full_count": 100,
-    "server_size": 140817126,
-    "full_size": 141708231,
+    "server_count": 94,
+    "full_count": 98,
+    "server_size": 140164696,
+    "full_size": 141055801,
     "client_only": [
       "Extra Info",
       "Improved Handbook Recipes (Fork)",
       "Natural Foliage",
       "Status HUD"
     ],
-    "generated": "20260708-185821"
+    "generated": "20260713-001150"
   },
   "admin_url": "http://127.0.0.1:3042",
   "categories": [
@@ -43,7 +43,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 123,
+  "count": 124,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -135,10 +135,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "2.0.34",
+      "version": "2.1.11",
       "build_version": "2.1.11",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -151,7 +151,7 @@
       "server_state": "no",
       "avail": "outdated",
       "note": "outdated \u2014 marked incompatible with current server setup; monitoring for updates",
-      "version": "1.12.0",
+      "version": null,
       "build_version": "1.12.0",
       "build_branch": "1.21",
       "update_pending": false,
@@ -423,7 +423,7 @@
       "server_state": "no",
       "avail": "outdated",
       "note": "outdated \u2014 marked incompatible with current server setup; monitoring for updates",
-      "version": "1.4.1",
+      "version": null,
       "build_version": "1.4.1",
       "build_branch": "1.22",
       "update_pending": false,
@@ -487,7 +487,7 @@
       "server_state": "no",
       "avail": "outdated",
       "note": "outdated \u2014 marked incompatible with current server setup; monitoring for updates",
-      "version": "2.0.7",
+      "version": null,
       "build_version": "2.0.7",
       "build_branch": "1.21",
       "update_pending": false,
@@ -519,10 +519,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "0.6.18",
+      "version": "0.6.20",
       "build_version": "0.6.20",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -567,10 +567,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "2.2.0",
+      "version": "2.2.1",
       "build_version": "2.2.1",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -663,10 +663,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.2.15",
+      "version": "1.2.17",
       "build_version": "1.2.17",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -887,10 +887,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.1.4",
+      "version": "1.2.0",
       "build_version": "1.2.0",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -967,10 +967,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "2.1.5",
+      "version": "2.1.6",
       "build_version": "2.1.6",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -1479,7 +1479,7 @@
       "server_state": "no",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "0.4.1",
+      "version": null,
       "build_version": "0.4.1",
       "build_branch": "1.22",
       "update_pending": false,
@@ -1527,7 +1527,7 @@
       "server_state": "no",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "0.1.0",
+      "version": null,
       "build_version": "0.1.0",
       "build_branch": "1.22",
       "update_pending": false,
@@ -1719,11 +1719,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "2.4.8",
       "build_version": "2.4.8",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "From Golden Combs",
@@ -1847,11 +1847,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "0.7.2",
       "build_version": "0.7.2",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Table Expansion",
@@ -1911,8 +1911,24 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "2.0.4",
       "build_version": "2.0.4",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": false
+    },
+    {
+      "name": "StepUp Advanced",
+      "modid": "stepupadvanced",
+      "section": "optional",
+      "category": "Utility",
+      "on_server": true,
+      "link": "https://mods.vintagestory.at/stepupadvanced",
+      "server_state": "yes",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": null,
+      "build_version": "1.4.0",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": true
@@ -2030,22 +2046,6 @@
       "proposed": false,
       "custom": true,
       "client_only": false
-    },
-    {
-      "name": "StepUp Advanced",
-      "modid": null,
-      "section": "optional",
-      "category": "QoL",
-      "on_server": true,
-      "link": "https://mods.vintagestory.at/stepupadvanced",
-      "server_state": "yes",
-      "avail": "pending",
-      "note": "",
-      "version": null,
-      "build_version": null,
-      "build_branch": null,
-      "update_pending": false,
-      "proposed": true
     }
   ],
   "crew": [
