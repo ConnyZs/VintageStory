@@ -1318,6 +1318,7 @@ async function renderApprovals(){
     // optimistic: reflect the new state immediately, don't wait on the round trip to feel responsive
     if(p)p.approved=checked;
     if(rm){rm.on_server=checked; rm.server_state=checked?"yes":"no";}
+    if(link)savePendingState(link,checked?"yes":"no");
     if(row)row.classList.toggle("approved",checked);
     deployBadge();
     showToast(checked?"Approved — counts toward the deploy; click ⚡ Deploy now to install.":"Un-approved — back to a proposal.",true);
@@ -1329,6 +1330,7 @@ async function renderApprovals(){
       cb.checked=!checked;
       if(p)p.approved=prev.approved;
       if(rm){rm.on_server=prev.onServer; rm.server_state=prev.state;}
+      if(link)savePendingState(link,prev.state);
       if(row)row.classList.toggle("approved",!!prev.approved);
       deployBadge();
       showToast("Failed — try again.",false);
