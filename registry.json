@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-12T00:54:48Z",
+  "generated": "2026-07-12T00:54:50Z",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1729,9 +1729,9 @@
       "modid": "fromgoldencombs",
       "section": "1.22",
       "category": "Food",
-      "on_server": true,
+      "on_server": false,
       "link": "https://mods.vintagestory.at/show/mod/1373",
-      "server_state": "yes",
+      "server_state": "no",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": null,
