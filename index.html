@@ -1136,7 +1136,7 @@ function setupAdminButtons(){
       catch(e){ cb.textContent="Check for updates"; cb.disabled=false; showToast("Failed to reach the update service — try again.",false); return; }
       const poll=setInterval(async()=>{
         try{
-          const reg=await (await fetch("registry.json?_="+Date.now())).json();
+          const reg=await fetchRegistry(REG.admin_url);
           if(reg.check_ts && reg.check_ts!==startCheckTs){
             clearInterval(poll);
             REG=reg; DATA=reg.mods||[];
@@ -1219,7 +1219,7 @@ function _startDeployPoll(db,startDts,t0){
     const mins=(Date.now()-t0)/60000;
     if(msg && mins>1.4) msg.textContent="validating + pushing to the server…";
     let reg=null;
-    try{ reg=await (await fetch("registry.json?_="+Date.now())).json(); }catch(e){}
+    try{ reg=await fetchRegistry(REG.admin_url); }catch(e){}
     const newDts=reg&&reg.last_deploy_ts;
     if(newDts && newDts!==startDts){
       clearInterval(deployPoll);
@@ -1263,7 +1263,7 @@ function resumeDeployIfNeeded(){
 // re-pull registry.json + re-render so just-installed proposals graduate into the mod list
 async function reloadRegistry(){
   try{
-    const reg=await (await fetch("registry.json?_="+Date.now())).json();
+    const reg=await fetchRegistry(REG.admin_url);
     REG=reg; DATA=reg.mods||[]; loadPending(); applyPendingStates();
     document.getElementById("stamp").textContent="updated "+fmt(reg.generated);
     document.getElementById("foot").textContent=reg.count+" mods catalogued";
