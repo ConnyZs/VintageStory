@@ -1,6 +1,48 @@
 {
   "actions": [
     {
+      "ts": "2026-07-12T13:42:10Z",
+      "label": "Listed as client-side",
+      "link": "https://mods.vintagestory.at/__test_local_only_e2e__",
+      "name": "Local Only E2E Test"
+    },
+    {
+      "ts": "2026-07-12T13:42:06Z",
+      "label": "Rejected",
+      "link": "https://mods.vintagestory.at/__test_local_only_e2e__",
+      "name": "Local Only E2E Test"
+    },
+    {
+      "ts": "2026-07-12T13:42:02Z",
+      "label": "Un-approved",
+      "link": "https://mods.vintagestory.at/__test_local_only_e2e__",
+      "name": "Local Only E2E Test"
+    },
+    {
+      "ts": "2026-07-12T13:41:59Z",
+      "label": "Approved for server",
+      "link": "https://mods.vintagestory.at/__test_local_only_e2e__",
+      "name": "Local Only E2E Test"
+    },
+    {
+      "ts": "2026-07-12T13:40:59Z",
+      "label": "Listed as client-side",
+      "link": "https://mods.vintagestory.at/__test_local_only_e2e__",
+      "name": "Local Only E2E Test"
+    },
+    {
+      "ts": "2026-07-12T13:40:55Z",
+      "label": "Rejected",
+      "link": "https://mods.vintagestory.at/__test_local_only_e2e__",
+      "name": "Local Only E2E Test"
+    },
+    {
+      "ts": "2026-07-12T13:40:52Z",
+      "label": "Un-approved",
+      "link": "https://mods.vintagestory.at/__test_local_only_e2e__",
+      "name": "Local Only E2E Test"
+    },
+    {
       "ts": "2026-07-12T13:40:48Z",
       "label": "Approved for server",
       "link": "https://mods.vintagestory.at/__test_local_only_e2e__",
@@ -257,48 +299,6 @@
       "label": "Un-approved",
       "link": "https://mods.vintagestory.at/show/mod/1373",
       "name": "From Golden Combs"
-    },
-    {
-      "ts": "2026-07-12T00:54:48Z",
-      "label": "Approved for server",
-      "link": "https://mods.vintagestory.at/show/mod/1373",
-      "name": "From Golden Combs"
-    },
-    {
-      "ts": "2026-07-12T00:54:44Z",
-      "label": "Un-approved",
-      "link": "https://mods.vintagestory.at/fitnshard",
-      "name": "Fitting & Sharding"
-    },
-    {
-      "ts": "2026-07-12T00:54:41Z",
-      "label": "Approved for server",
-      "link": "https://mods.vintagestory.at/fitnshard",
-      "name": "Fitting & Sharding"
-    },
-    {
-      "ts": "2026-07-12T00:54:40Z",
-      "label": "Un-approved",
-      "link": "https://mods.vintagestory.at/show/mod/21198",
-      "name": "Extended creation"
-    },
-    {
-      "ts": "2026-07-12T00:54:24Z",
-      "label": "Approved for server",
-      "link": "https://mods.vintagestory.at/show/mod/21198",
-      "name": "Extended creation"
-    },
-    {
-      "ts": "2026-07-12T00:54:18Z",
-      "label": "Approved for server",
-      "link": "https://mods.vintagestory.at/show/mod/21198",
-      "name": "Extended creation"
-    },
-    {
-      "ts": "2026-07-08T16:56:15Z",
-      "label": "Un-approved",
-      "link": "https://mods.vintagestory.at/show/mod/30235",
-      "name": "https://mods.vintagestory.at/show/mod/30235"
     }
   ]
 }

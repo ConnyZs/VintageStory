@@ -1,7 +1,7 @@
 {
-  "generated": "20260712-154049",
+  "generated": "20260712-154312",
   "game_version": "1.22.3",
-  "check_ts": "20260712-153543",
+  "check_ts": "20260712-154312",
   "latest_engine": "1.22.3",
   "restart_needed": null,
   "last_deploy_ts": "20260708-185847",
@@ -43,7 +43,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 123,
+  "count": 122,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -2014,22 +2014,6 @@
       "proposed": false,
       "custom": true,
       "client_only": false
-    },
-    {
-      "name": "Local Only E2E Test",
-      "modid": "__test_local_only_e2e__",
-      "section": "1.22",
-      "category": "Other",
-      "on_server": true,
-      "link": "https://mods.vintagestory.at/__test_local_only_e2e__",
-      "server_state": "yes",
-      "avail": "not-found",
-      "note": "",
-      "version": null,
-      "build_version": null,
-      "build_branch": null,
-      "update_pending": false,
-      "proposed": false
     }
   ],
   "crew": [
