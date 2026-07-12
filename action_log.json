@@ -1,6 +1,12 @@
 {
   "actions": [
     {
+      "ts": "2026-07-12T01:10:43Z",
+      "label": "Approved for server",
+      "link": "https://mods.vintagestory.at/materialneeds",
+      "name": "Material Needs"
+    },
+    {
       "ts": "2026-07-12T01:10:41Z",
       "label": "Un-approved",
       "link": "https://mods.vintagestory.at/smex",
