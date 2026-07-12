@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-12T00:54:40Z",
+  "generated": "2026-07-12T00:54:41Z",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1857,16 +1857,16 @@
       "modid": "fitnshard",
       "section": "1.22",
       "category": "Crafting",
-      "on_server": false,
+      "on_server": true,
       "link": "https://mods.vintagestory.at/fitnshard",
-      "server_state": "no",
+      "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "0.7.2",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Table Expansion",
