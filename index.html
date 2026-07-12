@@ -1310,19 +1310,29 @@ async function renderApprovals(){
     }catch(e){b.disabled=false;showToast("Failed — try again.",false);}
   }));
   box.querySelectorAll('input[type=checkbox]').forEach(cb=>cb.addEventListener("change",async()=>{
-    const action=cb.checked?"approve":"unapprove", link=cb.dataset.link;
-    cb.disabled=true;
+    const checked=cb.checked, action=checked?"approve":"unapprove", link=cb.dataset.link;
+    const row=cb.closest(".prow");
+    const p=PROPOSALS.find(x=>x.link===link);
+    const rm=(REG.mods||[]).find(x=>x.link===link);
+    const prev={approved:p&&p.approved, onServer:rm&&rm.on_server, state:rm&&rm.server_state};
+    // optimistic: reflect the new state immediately, don't wait on the round trip to feel responsive
+    if(p)p.approved=checked;
+    if(rm){rm.on_server=checked; rm.server_state=checked?"yes":"no";}
+    if(row)row.classList.toggle("approved",checked);
+    deployBadge();
+    showToast(checked?"Approved — counts toward the deploy; click ⚡ Deploy now to install.":"Un-approved — back to a proposal.",true);
     const sg=REG.generated;
     try{
       await _adminPost({action,link});
-      const p=PROPOSALS.find(x=>x.link===link); if(p)p.approved=cb.checked;
-      const rm=(REG.mods||[]).find(x=>x.link===link);
-      if(rm){rm.on_server=cb.checked; if(cb.checked)rm.server_state="yes";}
-      deployBadge();
-      showToast(cb.checked?"Approved — counts toward the deploy; click ⚡ Deploy now to install.":"Un-approved — back to a proposal.",true);
       _pollRegistryAfterAction(sg);
-    }catch(e){cb.checked=!cb.checked;showToast("Failed — try again.",false);}
-    finally{cb.disabled=false;}
+    }catch(e){
+      cb.checked=!checked;
+      if(p)p.approved=prev.approved;
+      if(rm){rm.on_server=prev.onServer; rm.server_state=prev.state;}
+      if(row)row.classList.toggle("approved",!!prev.approved);
+      deployBadge();
+      showToast("Failed — try again.",false);
+    }
   }));
   deployBadge();
 }
