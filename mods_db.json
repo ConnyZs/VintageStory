@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-12T00:52:03Z",
+  "updated": "2026-07-12T00:52:04Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1004,6 +1004,15 @@
     {
       "name": "",
       "link": "https://mods.vintagestory.at/show/mod/44074",
+      "category": "Other",
+      "section": "1.22",
+      "server_state": "no",
+      "proposed": true,
+      "note": ""
+    },
+    {
+      "name": "",
+      "link": "https://mods.vintagestory.at/moreflooringpatterns",
       "category": "Other",
       "section": "1.22",
       "server_state": "no",
