@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-12T20:34:04Z",
+  "generated": "20260712-223723",
   "game_version": "1.22.3",
-  "check_ts": "20260712-200051",
+  "check_ts": "20260712-223723",
   "latest_engine": "1.22.3",
   "restart_needed": null,
   "last_deploy_ts": "20260708-185847",
@@ -2030,22 +2030,6 @@
       "proposed": false,
       "custom": true,
       "client_only": false
-    },
-    {
-      "name": "Fast Submit Test",
-      "modid": null,
-      "section": "1.22",
-      "category": "Utility",
-      "on_server": false,
-      "link": "https://mods.vintagestory.at/__test_fast_submit__",
-      "server_state": "no",
-      "avail": "pending",
-      "note": "",
-      "version": null,
-      "build_version": null,
-      "build_branch": null,
-      "update_pending": false,
-      "proposed": true
     }
   ],
   "crew": [

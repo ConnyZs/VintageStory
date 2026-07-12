@@ -1,6 +1,42 @@
 {
   "actions": [
     {
+      "ts": "2026-07-12T20:36:20Z",
+      "label": "Listed as client-side",
+      "link": "https://mods.vintagestory.at/__test_local_only_e2e__",
+      "name": "Local Only E2E Test"
+    },
+    {
+      "ts": "2026-07-12T20:36:16Z",
+      "label": "Rejected",
+      "link": "https://mods.vintagestory.at/__test_local_only_e2e__",
+      "name": "Local Only E2E Test"
+    },
+    {
+      "ts": "2026-07-12T20:36:13Z",
+      "label": "Un-approved",
+      "link": "https://mods.vintagestory.at/__test_local_only_e2e__",
+      "name": "Local Only E2E Test"
+    },
+    {
+      "ts": "2026-07-12T20:36:09Z",
+      "label": "Approved for server",
+      "link": "https://mods.vintagestory.at/__test_local_only_e2e__",
+      "name": "Local Only E2E Test"
+    },
+    {
+      "ts": "2026-07-12T20:36:07Z",
+      "label": "Proposed",
+      "link": "https://mods.vintagestory.at/__test_local_only_e2e__",
+      "name": "Local Only E2E Test"
+    },
+    {
+      "ts": "2026-07-12T20:35:28Z",
+      "label": "Rejected",
+      "link": "https://mods.vintagestory.at/__test_fast_submit__",
+      "name": "Fast Submit Test"
+    },
+    {
       "ts": "2026-07-12T20:34:04Z",
       "label": "Proposed",
       "link": "https://mods.vintagestory.at/__test_fast_submit__",
@@ -263,42 +299,6 @@
       "label": "Approved for server",
       "link": "https://mods.vintagestory.at/__test_single_push__",
       "name": "Single Push Test"
-    },
-    {
-      "ts": "2026-07-12T13:14:27Z",
-      "label": "Approved for server",
-      "link": "https://mods.vintagestory.at/__test_checkbox_reset__",
-      "name": "Checkbox Reset Test"
-    },
-    {
-      "ts": "2026-07-12T13:11:17Z",
-      "label": "Rejected",
-      "link": "https://mods.vintagestory.at/stepupcontinued",
-      "name": "https://mods.vintagestory.at/stepupcontinued"
-    },
-    {
-      "ts": "2026-07-12T13:11:15Z",
-      "label": "Approved for server",
-      "link": "https://mods.vintagestory.at/stepupcontinued",
-      "name": "https://mods.vintagestory.at/stepupcontinued"
-    },
-    {
-      "ts": "2026-07-12T13:11:14Z",
-      "label": "Un-approved",
-      "link": "https://mods.vintagestory.at/stepupcontinued",
-      "name": "https://mods.vintagestory.at/stepupcontinued"
-    },
-    {
-      "ts": "2026-07-12T13:11:03Z",
-      "label": "Approved for server",
-      "link": "https://mods.vintagestory.at/stepupcontinued",
-      "name": "https://mods.vintagestory.at/stepupcontinued"
-    },
-    {
-      "ts": "2026-07-12T13:10:33Z",
-      "label": "Rejected",
-      "link": "https://mods.vintagestory.at/stepupcontinued",
-      "name": "https://mods.vintagestory.at/stepupcontinued"
     }
   ]
 }
