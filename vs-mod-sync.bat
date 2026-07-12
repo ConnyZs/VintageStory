@@ -12,9 +12,10 @@ exit /b
   Uses only built-in PowerShell (HTTP, JSON, SHA-256, zip). Pre-installed on Win 10/11.
 
   Safety (same as the Python version):
-   * Touches your Vintage Story Mods folder, and ModConfig only for pre-built config
-     files tied to an optional mod you already have (e.g. StepUp Advanced's block
-     blacklist) — same checksum-verify-then-write safety as mods, never anything else.
+   * Touches your Vintage Story Mods folder, and ModConfig for a small set of
+     pre-built config files (e.g. StepUp Advanced's block blacklist) — synced
+     regardless of whether you have the matching mod yet, so it's ready the moment
+     you add it. Same checksum-verify-then-write safety as mods, never anything else.
    * Shows the plan first and asks before changing anything (or pass -Apply to skip the prompt).
    * Backs up your whole Mods folder to a timestamped .zip before any change.
    * Verifies SHA-256 of every download; a bad download is discarded, never installed.
@@ -147,10 +148,10 @@ function Consider($m, [bool]$optional) {
 foreach ($m in $man.mods)     { Consider $m $false }
 foreach ($m in $man.optional) { Consider $m $true }
 
-# ---- client config files (only for mods you already have) ----
+# ---- client config files (always synced, so they're ready before you even install
+#      the mod they belong to - no need to re-run this after adding it later) ----
 $toGetConfigs=@()
 foreach ($c in $man.client_configs) {
-  if (-not $useModids.ContainsKey($c.modid)) { continue }
   $target = Join-Path (Join-Path (Split-Path $modsDir -Parent) "ModConfig") $c.filename
   if ((Test-Path -LiteralPath $target) -and (Fast-Skip $target $c.sha256 ([long]($c.size)))) { continue }
   $toGetConfigs += $c

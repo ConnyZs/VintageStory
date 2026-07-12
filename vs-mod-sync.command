@@ -116,8 +116,9 @@ typeset -A want_files use_modids
 typeset -i ok_ct=0 cfg_ok_ct=0
 
 consider_cfg() {
+  # always synced, regardless of whether the matching mod is installed yet — so
+  # the config is ready the moment you add the mod, no need to re-run this script
   local modid="$1" fname="$2" sha="$3" url="$4"
-  (( ! ${+use_modids[$modid]} )) && return
   local target="$DATA_DIR/ModConfig/$fname"
   if [[ -f "$target" ]]; then
     if [[ -z "$sha" || "$(shasum -a 256 "$target" | cut -d' ' -f1)" = "$sha" ]]; then
