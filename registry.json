@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-12T00:54:44Z",
+  "generated": "2026-07-12T00:54:48Z",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1729,16 +1729,16 @@
       "modid": "fromgoldencombs",
       "section": "1.22",
       "category": "Food",
-      "on_server": false,
+      "on_server": true,
       "link": "https://mods.vintagestory.at/show/mod/1373",
-      "server_state": "no",
+      "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "2.0.8",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "StepUp  (continued)",
