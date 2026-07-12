@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-12T01:10:34Z",
+  "updated": "2026-07-12T01:10:38Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -754,8 +754,8 @@
       "link": "https://mods.vintagestory.at/smex",
       "category": "Technology",
       "section": "1.22",
-      "server_state": "no",
-      "proposed": true,
+      "server_state": "yes",
+      "proposed": false,
       "note": ""
     },
     {
