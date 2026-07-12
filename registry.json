@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-12T13:53:34Z",
+  "generated": "2026-07-12T13:55:03Z",
   "game_version": "1.22.3",
   "check_ts": "20260712-155112",
   "latest_engine": "1.22.3",
@@ -1730,16 +1730,16 @@
       "modid": "fromgoldencombs",
       "section": "1.22",
       "category": "Food",
-      "on_server": true,
+      "on_server": false,
       "link": "https://mods.vintagestory.at/show/mod/1373",
-      "server_state": "yes",
+      "server_state": "no",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "2.0.8",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": false
+      "proposed": true
     },
     {
       "name": "Kevins Furniture",
