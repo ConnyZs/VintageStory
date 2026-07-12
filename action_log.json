@@ -1,6 +1,30 @@
 {
   "actions": [
     {
+      "ts": "2026-07-12T13:38:38Z",
+      "label": "Rejected",
+      "link": "https://mods.vintagestory.at/__test_local_only_e2e__",
+      "name": "Local Only E2E Test"
+    },
+    {
+      "ts": "2026-07-12T13:38:34Z",
+      "label": "Un-approved",
+      "link": "https://mods.vintagestory.at/__test_local_only_e2e__",
+      "name": "Local Only E2E Test"
+    },
+    {
+      "ts": "2026-07-12T13:38:30Z",
+      "label": "Approved for server",
+      "link": "https://mods.vintagestory.at/__test_local_only_e2e__",
+      "name": "Local Only E2E Test"
+    },
+    {
+      "ts": "2026-07-12T13:37:42Z",
+      "label": "Listed as client-side",
+      "link": "https://mods.vintagestory.at/__test_client_btn__",
+      "name": "Client Button Test"
+    },
+    {
       "ts": "2026-07-12T13:34:18Z",
       "label": "Rejected",
       "link": "https://mods.vintagestory.at/__test_local_only__",
