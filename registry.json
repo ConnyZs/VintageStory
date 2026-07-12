@@ -1,5 +1,5 @@
 {
-  "generated": "20260712-153849",
+  "generated": "2026-07-12T13:39:17Z",
   "game_version": "1.22.3",
   "check_ts": "20260712-153543",
   "latest_engine": "1.22.3",
@@ -1902,22 +1902,6 @@
       "proposed": true
     },
     {
-      "name": "Checkbox Reset Test",
-      "modid": "__test_checkbox_reset__",
-      "section": "1.22",
-      "category": "Other",
-      "on_server": true,
-      "link": "https://mods.vintagestory.at/__test_checkbox_reset__",
-      "server_state": "yes",
-      "avail": "not-found",
-      "note": "not on ModDB / link unresolved",
-      "version": null,
-      "build_version": null,
-      "build_branch": null,
-      "update_pending": false,
-      "proposed": false
-    },
-    {
       "name": "smithingplus",
       "modid": "smithingplus",
       "section": "1.22",
@@ -2707,7 +2691,7 @@
           "bear-brown-adult-female": 1,
           "shiver-corrupt": 1
         },
-        "playtimeHours": 6.0,
+        "playtimeHours": 6,
         "blocksTravelled": 10486,
         "blocksBroken": 140,
         "blocksPlaced": 31,
