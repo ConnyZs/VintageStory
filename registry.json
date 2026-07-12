@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-12T22:05:18Z",
+  "generated": "2026-07-12T22:06:25Z",
   "game_version": "1.22.3",
   "check_ts": "20260712-223723",
   "latest_engine": "1.22.3",
@@ -1714,9 +1714,9 @@
       "modid": "vanity",
       "section": "1.22",
       "category": "Cosmetics",
-      "on_server": false,
+      "on_server": true,
       "link": "https://mods.vintagestory.at/vanity",
-      "server_state": "no",
+      "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": null,

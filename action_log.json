@@ -1,6 +1,12 @@
 {
   "actions": [
     {
+      "ts": "2026-07-12T22:06:25Z",
+      "label": "Approved for server",
+      "link": "https://mods.vintagestory.at/vanity",
+      "name": "Vanity"
+    },
+    {
       "ts": "2026-07-12T22:05:18Z",
       "label": "Approved for server",
       "link": "https://mods.vintagestory.at/kscartographytable",
@@ -291,12 +297,6 @@
     {
       "ts": "2026-07-12T13:39:10Z",
       "label": "Un-approved",
-      "link": "https://mods.vintagestory.at/__test_local_only_e2e__",
-      "name": "Local Only E2E Test"
-    },
-    {
-      "ts": "2026-07-12T13:39:06Z",
-      "label": "Approved for server",
       "link": "https://mods.vintagestory.at/__test_local_only_e2e__",
       "name": "Local Only E2E Test"
     }
