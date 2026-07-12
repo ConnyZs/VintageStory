@@ -1,6 +1,12 @@
 {
   "actions": [
     {
+      "ts": "2026-07-12T00:54:56Z",
+      "label": "Un-approved",
+      "link": "https://mods.vintagestory.at/show/mod/24021",
+      "name": "Good Hunting"
+    },
+    {
       "ts": "2026-07-12T00:54:55Z",
       "label": "Approved for server",
       "link": "https://mods.vintagestory.at/show/mod/24021",
