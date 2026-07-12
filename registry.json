@@ -1,5 +1,5 @@
 {
-  "generated": "20260712-024233",
+  "generated": "20260712-024442",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -41,7 +41,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 110,
+  "count": 111,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1706,6 +1706,22 @@
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": false
+    },
+    {
+      "name": "Vanity",
+      "modid": "vanity",
+      "section": "1.22",
+      "category": "Cosmetics",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/vanity",
+      "server_state": "no",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": null,
+      "build_version": "2.4.8",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": true
     },
     {
       "name": "smithingplus",
