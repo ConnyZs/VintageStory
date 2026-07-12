@@ -1,5 +1,5 @@
 {
-  "generated": "20260712-024511",
+  "generated": "20260712-024540",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -41,7 +41,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 112,
+  "count": 113,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1735,6 +1735,22 @@
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "2.0.8",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": true
+    },
+    {
+      "name": "StepUp  (continued)",
+      "modid": "stepupcontinued",
+      "section": "1.22",
+      "category": "QoL",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/stepupcontinued",
+      "server_state": "no",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": null,
+      "build_version": "0.0.2",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": true
