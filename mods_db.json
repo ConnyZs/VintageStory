@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-12T22:10:36Z",
+  "updated": "2026-07-12T22:42:13Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1069,8 +1069,8 @@
       "link": "https://mods.vintagestory.at/stepupadvanced",
       "category": "QoL",
       "section": "optional",
-      "server_state": "yes",
-      "proposed": true,
+      "server_state": "no",
+      "proposed": false,
       "note": ""
     }
   ]
