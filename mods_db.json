@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-12T00:52:10Z",
+  "updated": "2026-07-12T00:52:11Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1049,6 +1049,15 @@
     {
       "name": "",
       "link": "https://mods.vintagestory.at/upholstery",
+      "category": "Other",
+      "section": "1.22",
+      "server_state": "no",
+      "proposed": true,
+      "note": ""
+    },
+    {
+      "name": "",
+      "link": "https://mods.vintagestory.at/ithaniaexpandedfishing",
       "category": "Other",
       "section": "1.22",
       "server_state": "no",
