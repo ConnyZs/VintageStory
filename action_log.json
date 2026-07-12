@@ -1,6 +1,18 @@
 {
   "actions": [
     {
+      "ts": "2026-07-12T13:53:34Z",
+      "label": "Un-approved",
+      "link": "https://mods.vintagestory.at/fitnshard",
+      "name": "Fitting & Sharding"
+    },
+    {
+      "ts": "2026-07-12T13:53:32Z",
+      "label": "Approved for server",
+      "link": "https://mods.vintagestory.at/fitnshard",
+      "name": "Fitting & Sharding"
+    },
+    {
       "ts": "2026-07-12T13:51:35Z",
       "label": "Listed as client-side",
       "link": "https://mods.vintagestory.at/__test_local_only_e2e__",
@@ -287,18 +299,6 @@
       "label": "Un-approved",
       "link": "https://mods.vintagestory.at/kevinsfurniture",
       "name": "Kevins Furniture"
-    },
-    {
-      "ts": "2026-07-12T01:10:48Z",
-      "label": "Approved for server",
-      "link": "https://mods.vintagestory.at/kevinsfurniture",
-      "name": "Kevins Furniture"
-    },
-    {
-      "ts": "2026-07-12T01:10:47Z",
-      "label": "Un-approved",
-      "link": "https://mods.vintagestory.at/materialneeds",
-      "name": "Material Needs"
     }
   ]
 }
