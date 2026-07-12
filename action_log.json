@@ -1,6 +1,18 @@
 {
   "actions": [
     {
+      "ts": "2026-07-12T00:54:53Z",
+      "label": "Un-approved",
+      "link": "https://mods.vintagestory.at/fitnshard",
+      "name": "Fitting & Sharding"
+    },
+    {
+      "ts": "2026-07-12T00:54:53Z",
+      "label": "Approved for server",
+      "link": "https://mods.vintagestory.at/fitnshard",
+      "name": "Fitting & Sharding"
+    },
+    {
       "ts": "2026-07-12T00:54:52Z",
       "label": "Un-approved",
       "link": "https://mods.vintagestory.at/fitnshard",
