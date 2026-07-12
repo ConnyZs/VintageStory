@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-12T01:10:36Z",
+  "generated": "2026-07-12T01:10:37Z",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1761,9 +1761,9 @@
       "modid": "kevinsfurniture",
       "section": "1.22",
       "category": "Furniture",
-      "on_server": true,
+      "on_server": false,
       "link": "https://mods.vintagestory.at/kevinsfurniture",
-      "server_state": "yes",
+      "server_state": "no",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": null,
