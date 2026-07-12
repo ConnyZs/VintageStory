@@ -1,5 +1,5 @@
 {
-  "generated": "20260712-030635",
+  "generated": "2026-07-12T01:10:33Z",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -1905,16 +1905,16 @@
       "modid": "ithaniaexpandedfishing",
       "section": "1.22",
       "category": "Crafting",
-      "on_server": false,
+      "on_server": true,
       "link": "https://mods.vintagestory.at/ithaniaexpandedfishing",
-      "server_state": "no",
+      "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "1.1.1",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "smithingplus",
