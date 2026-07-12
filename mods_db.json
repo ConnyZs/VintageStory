@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-12T13:14:26Z",
+  "updated": "2026-07-12T13:19:23Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1062,6 +1062,15 @@
       "section": "1.22",
       "server_state": "yes",
       "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Single Push Test",
+      "link": "https://mods.vintagestory.at/__test_single_push__",
+      "category": "Other",
+      "section": "1.22",
+      "server_state": "no",
+      "proposed": true,
       "note": ""
     }
   ]
