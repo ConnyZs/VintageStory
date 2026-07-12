@@ -1,5 +1,5 @@
 {
-  "generated": "20260712-024540",
+  "generated": "20260712-024609",
   "game_version": "1.22.3",
   "latest_engine": "1.22.3",
   "restart_needed": null,
@@ -25,6 +25,7 @@
     "Crafting",
     "Creatures",
     "Food",
+    "Furniture",
     "Graphics",
     "Immersion",
     "Library",
@@ -41,7 +42,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 113,
+  "count": 114,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1751,6 +1752,22 @@
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "0.0.2",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": true
+    },
+    {
+      "name": "Kevins Furniture",
+      "modid": "kevinsfurniture",
+      "section": "1.22",
+      "category": "Furniture",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/kevinsfurniture",
+      "server_state": "no",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": null,
+      "build_version": "1.9.0",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": true
