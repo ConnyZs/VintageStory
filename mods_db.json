@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-13T18:22:37Z",
+  "updated": "2026-07-13T18:24:15Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1002,6 +1002,78 @@
       "section": "optional",
       "server_state": "no",
       "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Combat Overhaul Fork",
+      "link": "https://mods.vintagestory.at/combatoverhaulforked",
+      "category": "Weapons",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": true,
+      "note": ""
+    },
+    {
+      "name": "Armory Fork",
+      "link": "https://mods.vintagestory.at/armoryfork",
+      "category": "Weapons",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": true,
+      "note": ""
+    },
+    {
+      "name": "Combat Overhaul Reanimated Fork",
+      "link": "https://mods.vintagestory.at/combatreanimatedfork",
+      "category": "Weapons",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": true,
+      "note": ""
+    },
+    {
+      "name": "Crossbows Fork",
+      "link": "https://mods.vintagestory.at/crossbowsfork",
+      "category": "Weapons",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": true,
+      "note": ""
+    },
+    {
+      "name": "Firearms fork",
+      "link": "https://mods.vintagestory.at/firearmsfork",
+      "category": "Weapons",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": true,
+      "note": ""
+    },
+    {
+      "name": "Player Corpse (Azu Modded)",
+      "link": "https://mods.vintagestory.at/playercorpseforkedazu",
+      "category": "Utility",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": true,
+      "note": ""
+    },
+    {
+      "name": "Quivers and Sheaths Fork",
+      "link": "https://mods.vintagestory.at/quiversfork",
+      "category": "Weapons",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": true,
+      "note": ""
+    },
+    {
+      "name": "Overhaul lib legacy compatibility",
+      "link": "https://mods.vintagestory.at/overhaulliblegacycompat",
+      "category": "Utility",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": true,
       "note": ""
     }
   ]
