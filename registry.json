@@ -1,5 +1,5 @@
 {
-  "generated": "20260713-205002",
+  "generated": "20260713-210003",
   "game_version": "1.22.3",
   "check_ts": "20260713-200052",
   "latest_engine": "1.22.3",
@@ -1646,22 +1646,6 @@
       "proposed": true
     },
     {
-      "name": "Material Needs",
-      "modid": "materialneeds",
-      "section": "1.22",
-      "category": "Cosmetics",
-      "on_server": false,
-      "link": "https://mods.vintagestory.at/materialneeds",
-      "server_state": "no",
-      "avail": "available",
-      "note": "available for 1.22 (installs on update)",
-      "version": null,
-      "build_version": "1.1.16",
-      "build_branch": "1.22",
-      "update_pending": false,
-      "proposed": true
-    },
-    {
       "name": "Extended creation",
       "modid": "extendedcreation",
       "section": "1.22",
@@ -1689,22 +1673,6 @@
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "1.1.0",
-      "build_branch": "1.22",
-      "update_pending": false,
-      "proposed": true
-    },
-    {
-      "name": "Good Hunting",
-      "modid": "goodhunting",
-      "section": "1.22",
-      "category": "Food",
-      "on_server": false,
-      "link": "https://mods.vintagestory.at/show/mod/24021",
-      "server_state": "no",
-      "avail": "available",
-      "note": "available for 1.22 (installs on update)",
-      "version": null,
-      "build_version": "1.4.2",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": true
@@ -1762,9 +1730,9 @@
       "modid": "ithaniaexpandedfishing",
       "section": "1.22",
       "category": "Crafting",
-      "on_server": false,
+      "on_server": true,
       "link": "https://mods.vintagestory.at/ithaniaexpandedfishing",
-      "server_state": "no",
+      "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": null,
@@ -2489,7 +2457,7 @@
       "name": "Moritz",
       "role": "admin",
       "first_join": "04/22/2026 18:03",
-      "last_join": "07/09/2026 08:01",
+      "last_join": "07/13/2026 18:58",
       "last_char": "04/22/2026 18:05",
       "stats": {
         "uid": "bKc3JB7NGywTi9YbzXu/Qogt",
@@ -2506,11 +2474,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 84.9,
-        "blocksTravelled": 98066,
+        "blocksTravelled": 98086,
         "blocksBroken": 6941,
         "blocksPlaced": 4498,
         "deepestY": 24,
-        "lastSeen": 1783968488,
+        "lastSeen": 1783969191,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2573,6 +2541,26 @@
             "code": "game:clothes-upperbodyover-fortuneteller",
             "name": "Fortune teller vest",
             "icon": "character/icons/upperbodyover-fortuneteller.png"
+          },
+          {
+            "slot": "bag-1",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-3",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           }
         ],
         "skin": {
