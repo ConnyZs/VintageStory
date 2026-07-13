@@ -1,5 +1,5 @@
 {
-  "generated": "20260713-210203",
+  "generated": "20260713-210403",
   "game_version": "1.22.3",
   "check_ts": "20260713-200052",
   "latest_engine": "1.22.3",
@@ -1618,9 +1618,9 @@
       "modid": "fromgoldencombs",
       "section": "1.22",
       "category": "Food",
-      "on_server": false,
+      "on_server": true,
       "link": "https://mods.vintagestory.at/show/mod/1373",
-      "server_state": "no",
+      "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": null,
@@ -2474,11 +2474,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 84.9,
-        "blocksTravelled": 98117,
+        "blocksTravelled": 98155,
         "blocksBroken": 6941,
         "blocksPlaced": 4498,
         "deepestY": 24,
-        "lastSeen": 1783969293,
+        "lastSeen": 1783969413,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
