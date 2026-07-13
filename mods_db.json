@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-12T22:42:13Z",
+  "updated": "2026-07-13T18:22:37Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -57,16 +57,6 @@
       "note": ""
     },
     {
-      "name": "Player Corpse",
-      "link": "https://mods.vintagestory.at/playercorpse",
-      "category": "Utility",
-      "section": "1.21",
-      "server_state": "no",
-      "proposed": false,
-      "note": "",
-      "forced_outdated": true
-    },
-    {
       "name": "Coriaender Shaders",
       "link": "https://mods.vintagestory.at/coriaendershaders",
       "category": "Graphics",
@@ -83,16 +73,6 @@
       "server_state": "yes",
       "proposed": false,
       "note": ""
-    },
-    {
-      "name": "Quivers And Sheaths",
-      "link": "https://mods.vintagestory.at/quiversandsheaths",
-      "category": "Weapons",
-      "section": "1.21",
-      "server_state": "no",
-      "proposed": false,
-      "note": "",
-      "forced_outdated": true
     },
     {
       "name": "Status Hud Continued",
@@ -195,16 +175,6 @@
       "note": ""
     },
     {
-      "name": "Firearms",
-      "link": "https://mods.vintagestory.at/firearms",
-      "category": "Weapons",
-      "section": "1.21",
-      "server_state": "no",
-      "proposed": false,
-      "note": "",
-      "forced_outdated": true
-    },
-    {
       "name": "Blood Trail",
       "link": "https://mods.vintagestory.at/bloodtrail",
       "category": "Other",
@@ -231,16 +201,6 @@
       "server_state": "yes",
       "proposed": false,
       "note": ""
-    },
-    {
-      "name": "Crossbows",
-      "link": "https://mods.vintagestory.at/crossbows",
-      "category": "Weapons",
-      "section": "1.21",
-      "server_state": "no",
-      "proposed": false,
-      "note": "",
-      "forced_outdated": true
     },
     {
       "name": "Butchering",
@@ -370,16 +330,6 @@
       "note": ""
     },
     {
-      "name": "Combat Overhaul",
-      "link": "https://mods.vintagestory.at/combatoverhaul",
-      "category": "Weapons",
-      "section": "1.21",
-      "server_state": "no",
-      "proposed": false,
-      "note": "",
-      "forced_outdated": true
-    },
-    {
       "name": "Footprints",
       "link": "https://mods.vintagestory.at/footprints",
       "category": "Other",
@@ -389,30 +339,11 @@
       "note": ""
     },
     {
-      "name": "Combat Overhaul: Armory",
-      "link": "https://mods.vintagestory.at/armory",
-      "category": "Weapons",
-      "section": "1.21",
-      "server_state": "no",
-      "proposed": false,
-      "note": "",
-      "forced_outdated": true
-    },
-    {
       "name": "Forgotten Armory: Gothic style",
       "link": "https://mods.vintagestory.at/show/mod/25580",
       "category": "Cosmetics",
       "section": "1.22",
       "server_state": "yes",
-      "proposed": false,
-      "note": ""
-    },
-    {
-      "name": "Combat Overhaul: Reanimated",
-      "link": "https://mods.vintagestory.at/combatoverhaulreanimated",
-      "category": "Weapons",
-      "section": "1.21",
-      "server_state": "no",
       "proposed": false,
       "note": ""
     },

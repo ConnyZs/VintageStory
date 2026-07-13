@@ -1,5 +1,5 @@
 {
-  "generated": "20260713-202200",
+  "generated": "2026-07-13T18:22:37Z",
   "game_version": "1.22.3",
   "check_ts": "20260713-200052",
   "latest_engine": "1.22.3",
@@ -142,22 +142,6 @@
       "proposed": false
     },
     {
-      "name": "Player Corpse",
-      "modid": "playercorpse",
-      "section": "1.21",
-      "category": "Utility",
-      "on_server": false,
-      "link": "https://mods.vintagestory.at/playercorpse",
-      "server_state": "no",
-      "avail": "outdated",
-      "note": "outdated \u2014 marked incompatible with current server setup; monitoring for updates",
-      "version": null,
-      "build_version": "1.12.0",
-      "build_branch": "1.21",
-      "update_pending": false,
-      "proposed": false
-    },
-    {
       "name": "Coriaender Shaders",
       "modid": "coriaendershaders",
       "section": "optional",
@@ -186,22 +170,6 @@
       "version": "2.3.0",
       "build_version": "2.3.0",
       "build_branch": "1.22",
-      "update_pending": false,
-      "proposed": false
-    },
-    {
-      "name": "Quivers And Sheaths",
-      "modid": "quiversandsheaths",
-      "section": "1.21",
-      "category": "Weapons",
-      "on_server": false,
-      "link": "https://mods.vintagestory.at/quiversandsheaths",
-      "server_state": "no",
-      "avail": "outdated",
-      "note": "outdated \u2014 marked incompatible with current server setup; monitoring for updates",
-      "version": null,
-      "build_version": "0.8.7",
-      "build_branch": "1.21",
       "update_pending": false,
       "proposed": false
     },
@@ -382,22 +350,6 @@
       "proposed": false
     },
     {
-      "name": "Firearms",
-      "modid": "maltiezfirearms",
-      "section": "1.21",
-      "category": "Weapons",
-      "on_server": false,
-      "link": "https://mods.vintagestory.at/firearms",
-      "server_state": "no",
-      "avail": "outdated",
-      "note": "outdated \u2014 marked incompatible with current server setup; monitoring for updates",
-      "version": null,
-      "build_version": "1.8.1",
-      "build_branch": "1.21",
-      "update_pending": false,
-      "proposed": false
-    },
-    {
       "name": "Blood Trail",
       "modid": "bloodtrail",
       "section": "1.22",
@@ -442,22 +394,6 @@
       "version": "3.2.2",
       "build_version": "3.2.2",
       "build_branch": "1.22",
-      "update_pending": false,
-      "proposed": false
-    },
-    {
-      "name": "Crossbows",
-      "modid": "maltiezcrossbows",
-      "section": "1.21",
-      "category": "Weapons",
-      "on_server": false,
-      "link": "https://mods.vintagestory.at/crossbows",
-      "server_state": "no",
-      "avail": "outdated",
-      "note": "outdated \u2014 marked incompatible with current server setup; monitoring for updates",
-      "version": null,
-      "build_version": "1.8.2",
-      "build_branch": "1.21",
       "update_pending": false,
       "proposed": false
     },
@@ -686,22 +622,6 @@
       "proposed": false
     },
     {
-      "name": "Combat Overhaul",
-      "modid": "combatoverhaul",
-      "section": "1.21",
-      "category": "Weapons",
-      "on_server": false,
-      "link": "https://mods.vintagestory.at/combatoverhaul",
-      "server_state": "no",
-      "avail": "outdated",
-      "note": "outdated \u2014 marked incompatible with current server setup; monitoring for updates",
-      "version": null,
-      "build_version": "0.16.16",
-      "build_branch": "1.21",
-      "update_pending": false,
-      "proposed": false
-    },
-    {
       "name": "Footprints",
       "modid": "footprints",
       "section": "1.22",
@@ -718,22 +638,6 @@
       "proposed": false
     },
     {
-      "name": "Combat Overhaul: Armory",
-      "modid": "armory",
-      "section": "1.21",
-      "category": "Weapons",
-      "on_server": false,
-      "link": "https://mods.vintagestory.at/armory",
-      "server_state": "no",
-      "avail": "outdated",
-      "note": "outdated \u2014 marked incompatible with current server setup; monitoring for updates",
-      "version": null,
-      "build_version": "1.10.2",
-      "build_branch": "1.21",
-      "update_pending": false,
-      "proposed": false
-    },
-    {
       "name": "Forgotten Armory: Gothic style",
       "modid": "fagothic",
       "section": "1.22",
@@ -746,22 +650,6 @@
       "version": "1.3.4",
       "build_version": "1.3.4",
       "build_branch": "1.22",
-      "update_pending": false,
-      "proposed": false
-    },
-    {
-      "name": "Combat Overhaul: Reanimated",
-      "modid": "combat-overhaul-reanimated",
-      "section": "1.21",
-      "category": "Weapons",
-      "on_server": false,
-      "link": "https://mods.vintagestory.at/combatoverhaulreanimated",
-      "server_state": "no",
-      "avail": "outdated",
-      "note": "outdated \u2014 no 1.22 or 1.21 build, won't be installed",
-      "version": null,
-      "build_version": null,
-      "build_branch": null,
       "update_pending": false,
       "proposed": false
     },
