@@ -1,6 +1,24 @@
 {
   "actions": [
     {
+      "ts": "2026-07-13T18:37:28Z",
+      "label": "Approved for server",
+      "link": "https://mods.vintagestory.at/upholstery",
+      "name": "Upholstery"
+    },
+    {
+      "ts": "2026-07-13T18:36:58Z",
+      "label": "Approved for server",
+      "link": "https://mods.vintagestory.at/tableexpansion",
+      "name": "Table Expansion"
+    },
+    {
+      "ts": "2026-07-13T18:36:46Z",
+      "label": "Approved for server",
+      "link": "https://mods.vintagestory.at/moreflooringpatterns",
+      "name": "More Flooring Patterns"
+    },
+    {
       "ts": "2026-07-13T18:35:01Z",
       "label": "Approved for server",
       "link": "https://mods.vintagestory.at/kevinsfurniture",
@@ -281,24 +299,6 @@
       "label": "Un-approved",
       "link": "https://mods.vintagestory.at/show/mod/1373",
       "name": "From Golden Combs"
-    },
-    {
-      "ts": "2026-07-12T13:53:34Z",
-      "label": "Un-approved",
-      "link": "https://mods.vintagestory.at/fitnshard",
-      "name": "Fitting & Sharding"
-    },
-    {
-      "ts": "2026-07-12T13:53:32Z",
-      "label": "Approved for server",
-      "link": "https://mods.vintagestory.at/fitnshard",
-      "name": "Fitting & Sharding"
-    },
-    {
-      "ts": "2026-07-12T13:51:35Z",
-      "label": "Listed as client-side",
-      "link": "https://mods.vintagestory.at/__test_local_only_e2e__",
-      "name": "Local Only E2E Test"
     }
   ]
 }
