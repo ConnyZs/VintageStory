@@ -1,5 +1,5 @@
 {
-  "generated": "20260713-204002",
+  "generated": "2026-07-13T18:43:30Z",
   "game_version": "1.22.3",
   "check_ts": "20260713-200052",
   "latest_engine": "1.22.3",
@@ -1673,22 +1673,6 @@
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "1.2.5",
-      "build_branch": "1.22",
-      "update_pending": false,
-      "proposed": true
-    },
-    {
-      "name": "xSkills Fork",
-      "modid": "xskillsfork",
-      "section": "1.22",
-      "category": "QoL",
-      "on_server": false,
-      "link": "https://mods.vintagestory.at/show/mod/44074",
-      "server_state": "no",
-      "avail": "available",
-      "note": "available for 1.22 (installs on update)",
-      "version": null,
-      "build_version": "1.0.76",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": true
