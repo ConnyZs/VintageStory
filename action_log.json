@@ -1,6 +1,18 @@
 {
   "actions": [
     {
+      "ts": "2026-07-14T21:49:37Z",
+      "label": "Approved for server",
+      "link": "https://mods.vintagestory.at/animationslib",
+      "name": "Animations lib"
+    },
+    {
+      "ts": "2026-07-14T21:49:36Z",
+      "label": "Proposed",
+      "link": "https://mods.vintagestory.at/animationslib",
+      "name": "Animations lib"
+    },
+    {
       "ts": "2026-07-13T19:03:14Z",
       "label": "Approved for server",
       "link": "https://mods.vintagestory.at/show/mod/1373",
@@ -285,18 +297,6 @@
     {
       "ts": "2026-07-12T20:36:13Z",
       "label": "Un-approved",
-      "link": "https://mods.vintagestory.at/__test_local_only_e2e__",
-      "name": "Local Only E2E Test"
-    },
-    {
-      "ts": "2026-07-12T20:36:09Z",
-      "label": "Approved for server",
-      "link": "https://mods.vintagestory.at/__test_local_only_e2e__",
-      "name": "Local Only E2E Test"
-    },
-    {
-      "ts": "2026-07-12T20:36:07Z",
-      "label": "Proposed",
       "link": "https://mods.vintagestory.at/__test_local_only_e2e__",
       "name": "Local Only E2E Test"
     }

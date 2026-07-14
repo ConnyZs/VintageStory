@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-14T21:32:36Z",
+  "updated": "2026-07-14T21:49:37Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1044,6 +1044,15 @@
       "name": "Overhaul lib legacy compatibility",
       "link": "https://mods.vintagestory.at/overhaulliblegacycompat",
       "category": "Utility",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": true,
+      "note": ""
+    },
+    {
+      "name": "Animations lib",
+      "link": "https://mods.vintagestory.at/animationslib",
+      "category": "Weapons",
       "section": "1.22",
       "server_state": "yes",
       "proposed": true,
