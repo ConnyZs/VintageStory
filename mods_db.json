@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-14T21:19:47Z",
+  "updated": "2026-07-14T21:32:36Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -180,7 +180,7 @@
       "category": "Other",
       "section": "1.22",
       "server_state": "yes",
-      "proposed": false,
+      "proposed": true,
       "note": ""
     },
     {
@@ -335,7 +335,7 @@
       "category": "Other",
       "section": "1.22",
       "server_state": "yes",
-      "proposed": false,
+      "proposed": true,
       "note": ""
     },
     {
@@ -893,7 +893,7 @@
       "category": "Other",
       "section": "1.22",
       "server_state": "yes",
-      "proposed": false,
+      "proposed": true,
       "note": ""
     },
     {
@@ -902,7 +902,7 @@
       "category": "Other",
       "section": "1.22",
       "server_state": "yes",
-      "proposed": false,
+      "proposed": true,
       "note": ""
     },
     {
@@ -911,7 +911,7 @@
       "category": "Other",
       "section": "1.22",
       "server_state": "yes",
-      "proposed": false,
+      "proposed": true,
       "note": ""
     },
     {
@@ -920,7 +920,7 @@
       "category": "Other",
       "section": "1.22",
       "server_state": "yes",
-      "proposed": false,
+      "proposed": true,
       "note": ""
     },
     {
@@ -938,7 +938,7 @@
       "category": "Other",
       "section": "1.22",
       "server_state": "yes",
-      "proposed": false,
+      "proposed": true,
       "note": ""
     },
     {
@@ -947,7 +947,7 @@
       "category": "Other",
       "section": "1.22",
       "server_state": "yes",
-      "proposed": false,
+      "proposed": true,
       "note": ""
     },
     {
@@ -956,7 +956,7 @@
       "category": "Other",
       "section": "1.22",
       "server_state": "yes",
-      "proposed": false,
+      "proposed": true,
       "note": ""
     },
     {
@@ -983,7 +983,7 @@
       "category": "Weapons",
       "section": "1.22",
       "server_state": "yes",
-      "proposed": false,
+      "proposed": true,
       "note": ""
     },
     {
@@ -992,7 +992,7 @@
       "category": "Weapons",
       "section": "1.22",
       "server_state": "yes",
-      "proposed": false,
+      "proposed": true,
       "note": ""
     },
     {
@@ -1001,7 +1001,7 @@
       "category": "Weapons",
       "section": "1.22",
       "server_state": "yes",
-      "proposed": false,
+      "proposed": true,
       "note": ""
     },
     {
@@ -1010,7 +1010,7 @@
       "category": "Weapons",
       "section": "1.22",
       "server_state": "yes",
-      "proposed": false,
+      "proposed": true,
       "note": ""
     },
     {
@@ -1019,7 +1019,7 @@
       "category": "Weapons",
       "section": "1.22",
       "server_state": "yes",
-      "proposed": false,
+      "proposed": true,
       "note": ""
     },
     {
@@ -1028,7 +1028,7 @@
       "category": "Utility",
       "section": "1.22",
       "server_state": "yes",
-      "proposed": false,
+      "proposed": true,
       "note": ""
     },
     {
@@ -1037,7 +1037,7 @@
       "category": "Weapons",
       "section": "1.22",
       "server_state": "yes",
-      "proposed": false,
+      "proposed": true,
       "note": ""
     },
     {
@@ -1046,7 +1046,7 @@
       "category": "Utility",
       "section": "1.22",
       "server_state": "yes",
-      "proposed": false,
+      "proposed": true,
       "note": ""
     }
   ]
