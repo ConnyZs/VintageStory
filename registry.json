@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-194423",
+  "generated": "20260715-194623",
   "game_version": "1.22.3",
   "check_ts": "20260715-151611",
   "latest_engine": "1.22.3",
@@ -2045,7 +2045,7 @@
         "name": "Raschuetzer",
         "class": "tinker",
         "deaths": 6,
-        "mobKills": 51,
+        "mobKills": 52,
         "mealsEaten": 1,
         "caloriesConsumed": 80,
         "lastMeal": "Pear",
@@ -2060,12 +2060,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 40.1,
-        "blocksTravelled": 97057,
+        "playtimeHours": 40.2,
+        "blocksTravelled": 97140,
         "blocksBroken": 4425,
         "blocksPlaced": 289,
         "deepestY": 28,
-        "lastSeen": 1784137417,
+        "lastSeen": 1784137581,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2562,12 +2562,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 101.4,
-        "blocksTravelled": 101849,
+        "playtimeHours": 101.5,
+        "blocksTravelled": 101857,
         "blocksBroken": 6967,
-        "blocksPlaced": 4528,
+        "blocksPlaced": 4530,
         "deepestY": 24,
-        "lastSeen": 1784137417,
+        "lastSeen": 1784137581,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2820,7 +2820,7 @@
         "uid": "1VGBHqraGibxC1fHS6a4PjOF",
         "name": "Morsel",
         "class": "tailor",
-        "deaths": 3,
+        "deaths": 4,
         "mobKills": 1,
         "mealsEaten": 1,
         "caloriesConsumed": 1050,
@@ -2835,14 +2835,15 @@
         "deathCauses": {
           "bear-brown-adult-female": 1,
           "shiver-corrupt": 1,
-          "shiver-deepsplit": 1
+          "shiver-deepsplit": 1,
+          "shiver-nightmare": 1
         },
         "playtimeHours": 6.3,
-        "blocksTravelled": 10996,
-        "blocksBroken": 141,
-        "blocksPlaced": 31,
+        "blocksTravelled": 11132,
+        "blocksBroken": 144,
+        "blocksPlaced": 33,
         "deepestY": 105,
-        "lastSeen": 1784137417,
+        "lastSeen": 1784137581,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
@@ -2978,10 +2979,10 @@
   ],
   "lastAccident": {
     "playerName": "Morsel",
-    "timestamp": 1784137395,
-    "cause": "shiver-deepsplit",
-    "x": 518812,
+    "timestamp": 1784137471,
+    "cause": "shiver-nightmare",
+    "x": 518789,
     "y": 113,
-    "z": 511271
+    "z": 511280
   }
 }
