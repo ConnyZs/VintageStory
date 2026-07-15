@@ -1,5 +1,5 @@
 {
-  "generated": "20260716-000439",
+  "generated": "20260716-000639",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2758,11 +2758,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 105.8,
-        "blocksTravelled": 116046,
-        "blocksBroken": 7390,
-        "blocksPlaced": 4929,
+        "blocksTravelled": 116150,
+        "blocksBroken": 7439,
+        "blocksPlaced": 4960,
         "deepestY": 24,
-        "lastSeen": 1784153028,
+        "lastSeen": 1784153148,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -3042,11 +3042,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 10.6,
-        "blocksTravelled": 18670,
-        "blocksBroken": 470,
-        "blocksPlaced": 277,
+        "blocksTravelled": 18684,
+        "blocksBroken": 509,
+        "blocksPlaced": 292,
         "deepestY": 100,
-        "lastSeen": 1784153028,
+        "lastSeen": 1784153148,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
