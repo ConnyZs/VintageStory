@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-224234",
+  "generated": "20260715-224434",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2068,11 +2068,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 42.3,
-        "blocksTravelled": 106960,
+        "blocksTravelled": 107032,
         "blocksBroken": 4460,
         "blocksPlaced": 306,
         "deepestY": 28,
-        "lastSeen": 1784148105,
+        "lastSeen": 1784148225,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2297,11 +2297,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 48.1,
-        "blocksTravelled": 51699,
+        "blocksTravelled": 51758,
         "blocksBroken": 1209,
         "blocksPlaced": 896,
         "deepestY": 105,
-        "lastSeen": 1784148105,
+        "lastSeen": 1784148225,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2471,7 +2471,7 @@
       "name": "AddyBuschu",
       "role": "suplayer",
       "first_join": "04/22/2026 17:55",
-      "last_join": "07/15/2026 20:19",
+      "last_join": "07/15/2026 20:42",
       "last_char": "04/25/2026 15:34",
       "stats": {
         "uid": "MT3maN90oN2gwGyklJR20Gu1",
@@ -2479,18 +2479,20 @@
         "class": "homesteader",
         "deaths": 19,
         "mobKills": 215,
-        "mealsEaten": 7,
-        "caloriesConsumed": 1881,
-        "lastMeal": "Earthy orange ceramic bowl of meat stew",
+        "mealsEaten": 9,
+        "caloriesConsumed": 2041,
+        "lastMeal": "Blueberry",
         "mealsByName": {
           "Meat pie": 3,
           "Smoked Plain Bushmeat": 3,
-          "Earthy orange ceramic bowl of meat stew": 1
+          "Earthy orange ceramic bowl of meat stew": 1,
+          "Blueberry": 2
         },
         "foodCatCounts": {
           "Grain": 3,
           "Protein": 7,
-          "Vegetable": 4
+          "Vegetable": 4,
+          "Fruit": 2
         },
         "deathCauses": {
           "bear-brown-adult-female": 1,
@@ -2498,12 +2500,12 @@
           "pig-eurasian-adult-male": 1,
           "pig-eurasian-adult-female": 1
         },
-        "playtimeHours": 24.1,
-        "blocksTravelled": 121464,
+        "playtimeHours": 24.2,
+        "blocksTravelled": 121729,
         "blocksBroken": 8165,
         "blocksPlaced": 1768,
         "deepestY": 23,
-        "lastSeen": 1784148064,
+        "lastSeen": 1784148225,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2740,11 +2742,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 104.4,
-        "blocksTravelled": 110251,
+        "blocksTravelled": 110487,
         "blocksBroken": 7298,
-        "blocksPlaced": 4845,
+        "blocksPlaced": 4846,
         "deepestY": 24,
-        "lastSeen": 1784148105,
+        "lastSeen": 1784148225,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -3018,11 +3020,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 9.2,
-        "blocksTravelled": 16078,
+        "blocksTravelled": 16127,
         "blocksBroken": 253,
         "blocksPlaced": 115,
         "deepestY": 105,
-        "lastSeen": 1784148105,
+        "lastSeen": 1784148225,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
