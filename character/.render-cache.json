@@ -28,7 +28,7 @@
   }
  },
  "Eghetti": {
-  "hash": "f8d26be7397ecec10dbab581caaf69e7a47e3f88",
+  "hash": "17b0277b64ced90da395224aaa75506f8509711f",
   "info": {
    "class": "smith",
    "items": [
@@ -37,6 +37,7 @@
     "beard",
     "facialexpression",
     "Raccoon tail hat",
+    "Blacksmith apron",
     "Workmans pants",
     "Soldier boots",
     "Heavy leather gloves",
@@ -47,7 +48,7 @@
     "Fur coat"
    ],
    "frames": 16,
-   "v": 1784148893
+   "v": 1784150335
   }
  },
  "Moritz": {
@@ -122,7 +123,7 @@
   }
  },
  "Morsel": {
-  "hash": "abe2d1db0c27bc87cf5ab7b78d22dfff55af8f76",
+  "hash": "00b64844c9caf77eba49734a0d087568eb4cfd0e",
   "info": {
    "class": "tailor",
    "items": [
@@ -133,12 +134,15 @@
     "facialexpression",
     "Tailor blouse",
     "Tailor blouse",
+    "Tailor trousers",
     "Tailor shoes",
     "Tailor gloves",
-    "Tailor belt"
+    "Tailor belt",
+    "Tailor needle puff",
+    "Tailor jacket"
    ],
    "frames": 16,
-   "v": 1784149973
+   "v": 1784150353
   }
  }
 }

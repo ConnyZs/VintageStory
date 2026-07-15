@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-231636",
+  "generated": "20260715-231836",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2046,8 +2046,8 @@
         "class": "tinker",
         "deaths": 6,
         "mobKills": 73,
-        "mealsEaten": 28,
-        "caloriesConsumed": 11044,
+        "mealsEaten": 29,
+        "caloriesConsumed": 11200,
         "lastMeal": "Pear pie (charred)",
         "mealsByName": {
           "Pear": 3,
@@ -2059,26 +2059,26 @@
           "Syrup-covered muffin": 1,
           "Leather-bound Oak Tankard": 3,
           "Cooked dumplings": 1,
-          "Pear pie (charred)": 2
+          "Pear pie (charred)": 3
         },
         "foodCatCounts": {
-          "Fruit": 14,
-          "Grain": 10,
+          "Fruit": 15,
+          "Grain": 11,
           "Protein": 14,
           "Vegetable": 8,
-          "Dairy": 6
+          "Dairy": 7
         },
         "deathCauses": {
           "wolf-eurasian-adult-male": 1,
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 42.8,
-        "blocksTravelled": 109531,
+        "playtimeHours": 42.9,
+        "blocksTravelled": 109562,
         "blocksBroken": 4481,
         "blocksPlaced": 336,
         "deepestY": 28,
-        "lastSeen": 1784150146,
+        "lastSeen": 1784150269,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2306,20 +2306,22 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 48.7,
-        "blocksTravelled": 53921,
+        "blocksTravelled": 54042,
         "blocksBroken": 1210,
         "blocksPlaced": 897,
         "deepestY": 105,
-        "lastSeen": 1784150146,
+        "lastSeen": 1784150269,
         "gear": [
           "Raccoon tail hat",
+          "Blacksmith apron",
           "Workmans pants",
           "Soldier boots",
           "Heavy leather gloves",
           "Simple cross",
           "Miner belt",
           "Leather bracers",
-          "Fur coat"
+          "Fur coat",
+          "Tailored gambeson body armor"
         ],
         "gearDetail": [
           {
@@ -2327,6 +2329,12 @@
             "code": "game:clothes-head-furhattail-raccoon-common",
             "name": "Raccoon tail hat",
             "icon": "character/icons/head-furhattail-raccoon-common.png"
+          },
+          {
+            "slot": "shoulder",
+            "code": "game:clothes-shoulder-blacksmith-apron",
+            "name": "Blacksmith apron",
+            "icon": "character/icons/shoulder-blacksmith-apron.png"
           },
           {
             "slot": "lowerbody",
@@ -2370,10 +2378,21 @@
             "icon": "character/icons/upperbodyover-fur-coat.png"
           },
           {
+            "slot": "armorbody",
+            "code": "game:armor-body-tailored-pink-linen",
+            "name": "Tailored gambeson body armor"
+          },
+          {
             "slot": "bag-1",
             "code": "game:clothes-head-furhattail-raccoon-common",
             "name": "Raccoon tail hat",
             "icon": "character/icons/head-furhattail-raccoon-common.png"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:clothes-shoulder-blacksmith-apron",
+            "name": "Blacksmith apron",
+            "icon": "character/icons/shoulder-blacksmith-apron.png"
           },
           {
             "slot": "bag-4",
@@ -2415,6 +2434,11 @@
             "code": "game:clothes-upperbodyover-fur-coat",
             "name": "Fur coat",
             "icon": "character/icons/upperbodyover-fur-coat.png"
+          },
+          {
+            "slot": "bag-14",
+            "code": "game:armor-body-tailored-pink-linen",
+            "name": "Tailored gambeson body armor"
           },
           {
             "slot": "bag-57",
@@ -2464,9 +2488,9 @@
         "class": "homesteader",
         "deaths": 21,
         "mobKills": 220,
-        "mealsEaten": 19,
-        "caloriesConsumed": 6007,
-        "lastMeal": "Meat pie",
+        "mealsEaten": 22,
+        "caloriesConsumed": 6187,
+        "lastMeal": "Cranberry",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2475,13 +2499,14 @@
           "Pear pie (charred)": 1,
           "Rye bread": 1,
           "Leather-bound Oak Tankard": 1,
-          "Syrup-covered muffin": 1
+          "Syrup-covered muffin": 1,
+          "Cranberry": 3
         },
         "foodCatCounts": {
           "Grain": 9,
           "Protein": 11,
           "Vegetable": 6,
-          "Fruit": 8,
+          "Fruit": 11,
           "Dairy": 4
         },
         "deathCauses": {
@@ -2493,11 +2518,11 @@
           "wolf-eurasian-adult-male": 1
         },
         "playtimeHours": 24.7,
-        "blocksTravelled": 123578,
+        "blocksTravelled": 123673,
         "blocksBroken": 8169,
-        "blocksPlaced": 1778,
+        "blocksPlaced": 1780,
         "deepestY": 23,
-        "lastSeen": 1784150146,
+        "lastSeen": 1784150269,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2727,11 +2752,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 105.0,
-        "blocksTravelled": 112822,
-        "blocksBroken": 7313,
-        "blocksPlaced": 4864,
+        "blocksTravelled": 112977,
+        "blocksBroken": 7322,
+        "blocksPlaced": 4872,
         "deepestY": 24,
-        "lastSeen": 1784150146,
+        "lastSeen": 1784150269,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -3011,16 +3036,19 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 9.8,
-        "blocksTravelled": 17498,
+        "blocksTravelled": 17658,
         "blocksBroken": 259,
         "blocksPlaced": 172,
         "deepestY": 105,
-        "lastSeen": 1784150146,
+        "lastSeen": 1784150269,
         "gear": [
           "Tailor blouse",
+          "Tailor trousers",
           "Tailor shoes",
           "Tailor gloves",
           "Tailor belt",
+          "Tailor needle puff",
+          "Tailor jacket",
           "Tailored gamboised helmet",
           "Tailored gamboised leg armor"
         ],
@@ -3030,6 +3058,12 @@
             "code": "game:clothes-upperbody-tailor-blouse",
             "name": "Tailor blouse",
             "icon": "character/icons/upperbody-tailor-blouse.png"
+          },
+          {
+            "slot": "lowerbody",
+            "code": "game:clothes-lowerbody-tailor-trousers",
+            "name": "Tailor trousers",
+            "icon": "character/icons/lowerbody-tailor-trousers.png"
           },
           {
             "slot": "foot",
@@ -3050,6 +3084,18 @@
             "icon": "character/icons/waist-tailor-belt.png"
           },
           {
+            "slot": "arm",
+            "code": "game:clothes-arm-tailor-needlepuff",
+            "name": "Tailor needle puff",
+            "icon": "character/icons/arm-tailor-needlepuff.png"
+          },
+          {
+            "slot": "upperbodyover",
+            "code": "game:clothes-upperbodyover-tailor-jacket",
+            "name": "Tailor jacket",
+            "icon": "character/icons/upperbodyover-tailor-jacket.png"
+          },
+          {
             "slot": "armorhead",
             "code": "game:armor-head-tailored-plain-linen",
             "name": "Tailored gamboised helmet"
@@ -3064,6 +3110,12 @@
             "code": "game:clothes-upperbody-tailor-blouse",
             "name": "Tailor blouse",
             "icon": "character/icons/upperbody-tailor-blouse.png"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:clothes-lowerbody-tailor-trousers",
+            "name": "Tailor trousers",
+            "icon": "character/icons/lowerbody-tailor-trousers.png"
           },
           {
             "slot": "bag-5",
@@ -3082,6 +3134,18 @@
             "code": "game:clothes-waist-tailor-belt",
             "name": "Tailor belt",
             "icon": "character/icons/waist-tailor-belt.png"
+          },
+          {
+            "slot": "bag-11",
+            "code": "game:clothes-arm-tailor-needlepuff",
+            "name": "Tailor needle puff",
+            "icon": "character/icons/arm-tailor-needlepuff.png"
+          },
+          {
+            "slot": "bag-12",
+            "code": "game:clothes-upperbodyover-tailor-jacket",
+            "name": "Tailor jacket",
+            "icon": "character/icons/upperbodyover-tailor-jacket.png"
           },
           {
             "slot": "bag-13",

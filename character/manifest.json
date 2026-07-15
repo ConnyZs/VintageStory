@@ -35,6 +35,7 @@
     "beard",
     "facialexpression",
     "Raccoon tail hat",
+    "Blacksmith apron",
     "Workmans pants",
     "Soldier boots",
     "Heavy leather gloves",
@@ -45,7 +46,7 @@
     "Fur coat"
    ],
    "frames": 16,
-   "v": 1784148893
+   "v": 1784150335
   },
   "AddyBuschu": {
    "class": "homesteader",
@@ -119,12 +120,15 @@
     "facialexpression",
     "Tailor blouse",
     "Tailor blouse",
+    "Tailor trousers",
     "Tailor shoes",
     "Tailor gloves",
-    "Tailor belt"
+    "Tailor belt",
+    "Tailor needle puff",
+    "Tailor jacket"
    ],
    "frames": 16,
-   "v": 1784149973
+   "v": 1784150353
   }
  }
 }
