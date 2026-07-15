@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-203426",
+  "generated": "20260715-203626",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2260,19 +2260,19 @@
         "class": "smith",
         "deaths": 2,
         "mobKills": 48,
-        "mealsEaten": 5,
-        "caloriesConsumed": 3138,
-        "lastMeal": "Pear",
+        "mealsEaten": 7,
+        "caloriesConsumed": 4258,
+        "lastMeal": "Meat pie",
         "mealsByName": {
           "Earthy orange ceramic bowl of meat stew": 2,
-          "Meat pie": 1,
+          "Meat pie": 3,
           "Earthy orange ceramic bowl of soup": 1,
           "Pear": 1
         },
         "foodCatCounts": {
-          "Protein": 4,
-          "Vegetable": 4,
-          "Grain": 2,
+          "Protein": 6,
+          "Vegetable": 6,
+          "Grain": 4,
           "Fruit": 1
         },
         "deathCauses": {
@@ -2280,11 +2280,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 46.0,
-        "blocksTravelled": 45469,
+        "blocksTravelled": 45818,
         "blocksBroken": 1049,
-        "blocksPlaced": 717,
+        "blocksPlaced": 718,
         "deepestY": 105,
-        "lastSeen": 1784140419,
+        "lastSeen": 1784140539,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2638,11 +2638,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 102.3,
-        "blocksTravelled": 102512,
+        "blocksTravelled": 102577,
         "blocksBroken": 6967,
         "blocksPlaced": 4539,
         "deepestY": 24,
-        "lastSeen": 1784140419,
+        "lastSeen": 1784140539,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2915,12 +2915,12 @@
           "shiver-deepsplit": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 7.1,
-        "blocksTravelled": 13324,
+        "playtimeHours": 7.2,
+        "blocksTravelled": 13358,
         "blocksBroken": 211,
         "blocksPlaced": 64,
         "deepestY": 105,
-        "lastSeen": 1784140419,
+        "lastSeen": 1784140544,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
