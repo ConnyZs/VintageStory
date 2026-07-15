@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-211228",
+  "generated": "20260715-211428",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2067,11 +2067,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 40.8,
-        "blocksTravelled": 98997,
-        "blocksBroken": 4427,
-        "blocksPlaced": 294,
+        "blocksTravelled": 99261,
+        "blocksBroken": 4431,
+        "blocksPlaced": 297,
         "deepestY": 28,
-        "lastSeen": 1784142714,
+        "lastSeen": 1784142821,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2262,17 +2262,17 @@
         "class": "smith",
         "deaths": 2,
         "mobKills": 49,
-        "mealsEaten": 11,
-        "caloriesConsumed": 5549,
+        "mealsEaten": 13,
+        "caloriesConsumed": 6177,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
-          "Earthy orange ceramic bowl of meat stew": 6,
+          "Earthy orange ceramic bowl of meat stew": 8,
           "Meat pie": 3,
           "Earthy orange ceramic bowl of soup": 1,
           "Pear": 1
         },
         "foodCatCounts": {
-          "Protein": 10,
+          "Protein": 12,
           "Vegetable": 7,
           "Grain": 4,
           "Fruit": 1
@@ -2282,11 +2282,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 46.6,
-        "blocksTravelled": 47435,
+        "blocksTravelled": 47644,
         "blocksBroken": 1145,
         "blocksPlaced": 845,
         "deepestY": 105,
-        "lastSeen": 1784142714,
+        "lastSeen": 1784142821,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2619,8 +2619,8 @@
         "class": "mason",
         "deaths": 1,
         "mobKills": 54,
-        "mealsEaten": 22,
-        "caloriesConsumed": 5200,
+        "mealsEaten": 23,
+        "caloriesConsumed": 5355,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Cranberry": 5,
@@ -2628,12 +2628,12 @@
           "Cranberry pie": 7,
           "Earthy orange ceramic bowl of soup": 1,
           "Wooden bucket": 1,
-          "Earthy orange ceramic bowl of meat stew": 7
+          "Earthy orange ceramic bowl of meat stew": 8
         },
         "foodCatCounts": {
           "Fruit": 12,
           "Grain": 9,
-          "Protein": 9,
+          "Protein": 10,
           "Vegetable": 2,
           "Dairy": 1
         },
@@ -2641,11 +2641,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 102.9,
-        "blocksTravelled": 103219,
+        "blocksTravelled": 103257,
         "blocksBroken": 6967,
-        "blocksPlaced": 4544,
+        "blocksPlaced": 4545,
         "deepestY": 24,
-        "lastSeen": 1784142714,
+        "lastSeen": 1784142821,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2900,15 +2900,15 @@
         "class": "tailor",
         "deaths": 4,
         "mobKills": 4,
-        "mealsEaten": 12,
-        "caloriesConsumed": 6254,
+        "mealsEaten": 13,
+        "caloriesConsumed": 6429,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
-          "Earthy orange ceramic bowl of meat stew": 4,
+          "Earthy orange ceramic bowl of meat stew": 5,
           "Meat pie": 8
         },
         "foodCatCounts": {
-          "Protein": 12,
+          "Protein": 13,
           "Vegetable": 10,
           "Grain": 8
         },
@@ -2919,11 +2919,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 7.7,
-        "blocksTravelled": 14163,
-        "blocksBroken": 216,
+        "blocksTravelled": 14180,
+        "blocksBroken": 221,
         "blocksPlaced": 69,
         "deepestY": 105,
-        "lastSeen": 1784142714,
+        "lastSeen": 1784142821,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
