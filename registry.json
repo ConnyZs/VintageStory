@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-222833",
+  "generated": "20260715-223033",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2067,12 +2067,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 42.0,
-        "blocksTravelled": 106352,
+        "playtimeHours": 42.1,
+        "blocksTravelled": 106525,
         "blocksBroken": 4460,
         "blocksPlaced": 306,
         "deepestY": 28,
-        "lastSeen": 1784147264,
+        "lastSeen": 1784147384,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2283,11 +2283,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 47.9,
-        "blocksTravelled": 51018,
+        "blocksTravelled": 51040,
         "blocksBroken": 1206,
         "blocksPlaced": 895,
         "deepestY": 105,
-        "lastSeen": 1784147264,
+        "lastSeen": 1784147384,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2482,12 +2482,12 @@
           "pig-eurasian-adult-male": 1,
           "pig-eurasian-adult-female": 1
         },
-        "playtimeHours": 23.9,
-        "blocksTravelled": 120051,
-        "blocksBroken": 8161,
+        "playtimeHours": 24.0,
+        "blocksTravelled": 120174,
+        "blocksBroken": 8163,
         "blocksPlaced": 1763,
         "deepestY": 23,
-        "lastSeen": 1784147264,
+        "lastSeen": 1784147384,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2700,35 +2700,35 @@
         "class": "mason",
         "deaths": 1,
         "mobKills": 56,
-        "mealsEaten": 38,
-        "caloriesConsumed": 9339,
-        "lastMeal": "Pear",
+        "mealsEaten": 40,
+        "caloriesConsumed": 10073,
+        "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Cranberry": 5,
           "Meat pie": 1,
           "Cranberry pie": 7,
           "Earthy orange ceramic bowl of soup": 1,
           "Wooden bucket": 1,
-          "Earthy orange ceramic bowl of meat stew": 20,
+          "Earthy orange ceramic bowl of meat stew": 22,
           "Chopped cabbage": 1,
           "Pear": 2
         },
         "foodCatCounts": {
           "Fruit": 14,
           "Grain": 9,
-          "Protein": 22,
-          "Vegetable": 10,
+          "Protein": 24,
+          "Vegetable": 12,
           "Dairy": 1
         },
         "deathCauses": {
           "shiver-corrupt": 1
         },
         "playtimeHours": 104.2,
-        "blocksTravelled": 108899,
+        "blocksTravelled": 109032,
         "blocksBroken": 7282,
         "blocksPlaced": 4831,
         "deepestY": 24,
-        "lastSeen": 1784147264,
+        "lastSeen": 1784147384,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -3002,11 +3002,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 9.0,
-        "blocksTravelled": 15441,
+        "blocksTravelled": 15481,
         "blocksBroken": 253,
         "blocksPlaced": 113,
         "deepestY": 105,
-        "lastSeen": 1784147285,
+        "lastSeen": 1784147384,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
