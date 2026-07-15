@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-193622",
+  "generated": "20260715-193822",
   "game_version": "1.22.3",
   "check_ts": "20260715-151611",
   "latest_engine": "1.22.3",
@@ -2046,22 +2046,26 @@
         "class": "tinker",
         "deaths": 6,
         "mobKills": 50,
-        "mealsEaten": 0,
-        "caloriesConsumed": 0,
-        "lastMeal": null,
-        "mealsByName": {},
-        "foodCatCounts": {},
+        "mealsEaten": 1,
+        "caloriesConsumed": 80,
+        "lastMeal": "Pear",
+        "mealsByName": {
+          "Pear": 1
+        },
+        "foodCatCounts": {
+          "Fruit": 1
+        },
         "deathCauses": {
           "wolf-eurasian-adult-male": 1,
           "internal": 1,
           "shiver-corrupt": 3
         },
         "playtimeHours": 40.0,
-        "blocksTravelled": 95964,
+        "blocksTravelled": 96221,
         "blocksBroken": 4425,
         "blocksPlaced": 289,
         "deepestY": 28,
-        "lastSeen": 1784136977,
+        "lastSeen": 1784137057,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2559,11 +2563,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 101.3,
-        "blocksTravelled": 101702,
+        "blocksTravelled": 101736,
         "blocksBroken": 6967,
         "blocksPlaced": 4528,
         "deepestY": 24,
-        "lastSeen": 1784136977,
+        "lastSeen": 1784137057,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2828,11 +2832,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 6.2,
-        "blocksTravelled": 10741,
+        "blocksTravelled": 10838,
         "blocksBroken": 140,
         "blocksPlaced": 31,
         "deepestY": 105,
-        "lastSeen": 1784136977,
+        "lastSeen": 1784137057,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
