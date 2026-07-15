@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-194023",
+  "generated": "20260715-194223",
   "game_version": "1.22.3",
   "check_ts": "20260715-151611",
   "latest_engine": "1.22.3",
@@ -2061,11 +2061,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 40.1,
-        "blocksTravelled": 96440,
+        "blocksTravelled": 97001,
         "blocksBroken": 4425,
         "blocksPlaced": 289,
         "deepestY": 28,
-        "lastSeen": 1784137177,
+        "lastSeen": 1784137297,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2563,11 +2563,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 101.4,
-        "blocksTravelled": 101737,
+        "blocksTravelled": 101801,
         "blocksBroken": 6967,
         "blocksPlaced": 4528,
         "deepestY": 24,
-        "lastSeen": 1784137177,
+        "lastSeen": 1784137297,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2821,22 +2821,27 @@
         "name": "Morsel",
         "class": "tailor",
         "deaths": 2,
-        "mobKills": 0,
-        "mealsEaten": 0,
-        "caloriesConsumed": 0,
-        "lastMeal": null,
-        "mealsByName": {},
-        "foodCatCounts": {},
+        "mobKills": 1,
+        "mealsEaten": 1,
+        "caloriesConsumed": 1050,
+        "lastMeal": "Earthy orange ceramic bowl of meat stew",
+        "mealsByName": {
+          "Earthy orange ceramic bowl of meat stew": 1
+        },
+        "foodCatCounts": {
+          "Protein": 1,
+          "Vegetable": 1
+        },
         "deathCauses": {
           "bear-brown-adult-female": 1,
           "shiver-corrupt": 1
         },
-        "playtimeHours": 6.2,
-        "blocksTravelled": 10873,
+        "playtimeHours": 6.3,
+        "blocksTravelled": 10886,
         "blocksBroken": 140,
         "blocksPlaced": 31,
         "deepestY": 105,
-        "lastSeen": 1784137177,
+        "lastSeen": 1784137297,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
@@ -2845,7 +2850,8 @@
           "Tailor belt",
           "Tailor needle puff",
           "Tailor jacket",
-          "Tailored gamboised helmet"
+          "Tailored gamboised helmet",
+          "Tailored gamboised leg armor"
         ],
         "gearDetail": [
           {
@@ -2896,6 +2902,11 @@
             "name": "Tailored gamboised helmet"
           },
           {
+            "slot": "armorlegs",
+            "code": "game:armor-legs-tailored-plain-linen",
+            "name": "Tailored gamboised leg armor"
+          },
+          {
             "slot": "bag-3",
             "code": "game:clothes-upperbody-tailor-blouse",
             "name": "Tailor blouse",
@@ -2941,6 +2952,11 @@
             "slot": "bag-13",
             "code": "game:armor-head-tailored-plain-linen",
             "name": "Tailored gamboised helmet"
+          },
+          {
+            "slot": "bag-15",
+            "code": "game:armor-legs-tailored-plain-linen",
+            "name": "Tailored gamboised leg armor"
           },
           {
             "slot": "bag-57",
