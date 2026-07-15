@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-213230",
+  "generated": "20260715-213430",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2068,11 +2068,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 41.1,
-        "blocksTravelled": 103317,
-        "blocksBroken": 4456,
+        "blocksTravelled": 103593,
+        "blocksBroken": 4457,
         "blocksPlaced": 304,
         "deepestY": 28,
-        "lastSeen": 1784143923,
+        "lastSeen": 1784144022,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2282,12 +2282,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 46.9,
-        "blocksTravelled": 48125,
-        "blocksBroken": 1150,
-        "blocksPlaced": 846,
+        "playtimeHours": 47.0,
+        "blocksTravelled": 48368,
+        "blocksBroken": 1152,
+        "blocksPlaced": 849,
         "deepestY": 105,
-        "lastSeen": 1784143923,
+        "lastSeen": 1784144022,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2620,8 +2620,8 @@
         "class": "mason",
         "deaths": 1,
         "mobKills": 54,
-        "mealsEaten": 27,
-        "caloriesConsumed": 6264,
+        "mealsEaten": 29,
+        "caloriesConsumed": 6481,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Cranberry": 5,
@@ -2629,25 +2629,25 @@
           "Cranberry pie": 7,
           "Earthy orange ceramic bowl of soup": 1,
           "Wooden bucket": 1,
-          "Earthy orange ceramic bowl of meat stew": 11,
+          "Earthy orange ceramic bowl of meat stew": 13,
           "Chopped cabbage": 1
         },
         "foodCatCounts": {
           "Fruit": 12,
           "Grain": 9,
-          "Protein": 13,
-          "Vegetable": 3,
+          "Protein": 15,
+          "Vegetable": 4,
           "Dairy": 1
         },
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 103.2,
-        "blocksTravelled": 103635,
+        "playtimeHours": 103.3,
+        "blocksTravelled": 103683,
         "blocksBroken": 6967,
         "blocksPlaced": 4550,
         "deepestY": 24,
-        "lastSeen": 1784143923,
+        "lastSeen": 1784144022,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2925,7 +2925,7 @@
         "blocksBroken": 221,
         "blocksPlaced": 70,
         "deepestY": 105,
-        "lastSeen": 1784143923,
+        "lastSeen": 1784144022,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
