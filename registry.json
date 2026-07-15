@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-230435",
+  "generated": "20260715-230635",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2045,7 +2045,7 @@
         "name": "Raschuetzer",
         "class": "tinker",
         "deaths": 6,
-        "mobKills": 71,
+        "mobKills": 72,
         "mealsEaten": 24,
         "caloriesConsumed": 9950,
         "lastMeal": "Cooked dumplings",
@@ -2072,12 +2072,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 42.6,
-        "blocksTravelled": 108984,
+        "playtimeHours": 42.7,
+        "blocksTravelled": 109015,
         "blocksBroken": 4481,
         "blocksPlaced": 332,
         "deepestY": 28,
-        "lastSeen": 1784149426,
+        "lastSeen": 1784149546,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2304,11 +2304,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 48.5,
-        "blocksTravelled": 53233,
+        "blocksTravelled": 53291,
         "blocksBroken": 1210,
         "blocksPlaced": 896,
         "deepestY": 105,
-        "lastSeen": 1784149426,
+        "lastSeen": 1784149546,
         "gear": [
           "Raccoon tail hat",
           "Workmans pants",
@@ -2461,7 +2461,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 19,
-        "mobKills": 215,
+        "mobKills": 216,
         "mealsEaten": 16,
         "caloriesConsumed": 4149,
         "lastMeal": "Syrup-covered muffin",
@@ -2489,11 +2489,11 @@
           "pig-eurasian-adult-female": 1
         },
         "playtimeHours": 24.5,
-        "blocksTravelled": 123046,
+        "blocksTravelled": 123061,
         "blocksBroken": 8169,
         "blocksPlaced": 1776,
         "deepestY": 23,
-        "lastSeen": 1784149426,
+        "lastSeen": 1784149546,
         "gear": [
           "Jester cowl",
           "Tattered crimson tunic",
@@ -2644,10 +2644,10 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 57,
-        "mealsEaten": 47,
-        "caloriesConsumed": 11932,
-        "lastMeal": "Earthy orange ceramic bowl of meat stew",
+        "mobKills": 58,
+        "mealsEaten": 48,
+        "caloriesConsumed": 12012,
+        "lastMeal": "Pear",
         "mealsByName": {
           "Cranberry": 5,
           "Meat pie": 1,
@@ -2656,13 +2656,13 @@
           "Wooden bucket": 1,
           "Earthy orange ceramic bowl of meat stew": 24,
           "Chopped cabbage": 1,
-          "Pear": 3,
+          "Pear": 4,
           "Rye bread": 1,
           "Leather-bound Oak Tankard": 2,
           "Syrup-covered muffin": 1
         },
         "foodCatCounts": {
-          "Fruit": 18,
+          "Fruit": 19,
           "Grain": 11,
           "Protein": 27,
           "Vegetable": 14,
@@ -2672,11 +2672,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 104.8,
-        "blocksTravelled": 112225,
-        "blocksBroken": 7301,
-        "blocksPlaced": 4858,
+        "blocksTravelled": 112252,
+        "blocksBroken": 7303,
+        "blocksPlaced": 4860,
         "deepestY": 24,
-        "lastSeen": 1784149426,
+        "lastSeen": 1784149546,
         "gear": [
           "Linen tunic",
           "Workmans pants",
@@ -2910,7 +2910,7 @@
         "name": "Morsel",
         "class": "tailor",
         "deaths": 4,
-        "mobKills": 7,
+        "mobKills": 9,
         "mealsEaten": 21,
         "caloriesConsumed": 10161,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
@@ -2935,25 +2935,17 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 9.6,
-        "blocksTravelled": 17093,
-        "blocksBroken": 256,
-        "blocksPlaced": 170,
+        "blocksTravelled": 17153,
+        "blocksBroken": 259,
+        "blocksPlaced": 172,
         "deepestY": 105,
-        "lastSeen": 1784149426,
+        "lastSeen": 1784149546,
         "gear": [
-          "Tailor blouse",
           "Tailor trousers",
           "Tailor shoes",
-          "Tailor gloves",
-          "Tailor jacket"
+          "Tailor gloves"
         ],
         "gearDetail": [
-          {
-            "slot": "upperbody",
-            "code": "game:clothes-upperbody-tailor-blouse",
-            "name": "Tailor blouse",
-            "icon": "character/icons/upperbody-tailor-blouse.png"
-          },
           {
             "slot": "lowerbody",
             "code": "game:clothes-lowerbody-tailor-trousers",
@@ -2973,18 +2965,6 @@
             "icon": "character/icons/hand-tailor-gloves.png"
           },
           {
-            "slot": "upperbodyover",
-            "code": "game:clothes-upperbodyover-tailor-jacket",
-            "name": "Tailor jacket",
-            "icon": "character/icons/upperbodyover-tailor-jacket.png"
-          },
-          {
-            "slot": "bag-3",
-            "code": "game:clothes-upperbody-tailor-blouse",
-            "name": "Tailor blouse",
-            "icon": "character/icons/upperbody-tailor-blouse.png"
-          },
-          {
             "slot": "bag-4",
             "code": "game:clothes-lowerbody-tailor-trousers",
             "name": "Tailor trousers",
@@ -3001,12 +2981,6 @@
             "code": "game:clothes-hand-tailor-gloves",
             "name": "Tailor gloves",
             "icon": "character/icons/hand-tailor-gloves.png"
-          },
-          {
-            "slot": "bag-12",
-            "code": "game:clothes-upperbodyover-tailor-jacket",
-            "name": "Tailor jacket",
-            "icon": "character/icons/upperbodyover-tailor-jacket.png"
           },
           {
             "slot": "bag-57",

@@ -119,7 +119,7 @@
   }
  },
  "Morsel": {
-  "hash": "e905f314ab1b7ff58519658194e6ec2e121eaaec",
+  "hash": "2993a5a7f831ab993e0d72d3fe8ffe01dd77ec1e",
   "info": {
    "class": "tailor",
    "items": [
@@ -128,15 +128,12 @@
     "mustache",
     "beard",
     "facialexpression",
-    "Tailor blouse",
-    "Tailor blouse",
     "Tailor trousers",
     "Tailor shoes",
-    "Tailor gloves",
-    "Tailor jacket"
+    "Tailor gloves"
    ],
    "frames": 16,
-   "v": 1784149373
+   "v": 1784149612
   }
  }
 }

@@ -114,15 +114,12 @@
     "mustache",
     "beard",
     "facialexpression",
-    "Tailor blouse",
-    "Tailor blouse",
     "Tailor trousers",
     "Tailor shoes",
-    "Tailor gloves",
-    "Tailor jacket"
+    "Tailor gloves"
    ],
    "frames": 16,
-   "v": 1784149373
+   "v": 1784149612
   }
  }
 }
