@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-233037",
+  "generated": "20260715-233237",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2074,11 +2074,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 43.1,
-        "blocksTravelled": 110398,
+        "blocksTravelled": 110451,
         "blocksBroken": 4481,
         "blocksPlaced": 336,
         "deepestY": 28,
-        "lastSeen": 1784150987,
+        "lastSeen": 1784151107,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2519,12 +2519,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 1
         },
-        "playtimeHours": 24.9,
-        "blocksTravelled": 125221,
+        "playtimeHours": 25.0,
+        "blocksTravelled": 125308,
         "blocksBroken": 8213,
         "blocksPlaced": 1781,
         "deepestY": 23,
-        "lastSeen": 1784150987,
+        "lastSeen": 1784151107,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2695,8 +2695,8 @@
           },
           {
             "slot": "bag-60",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "code": "butchering:butcherybag-standard",
+            "name": "Hide Butchering Bag"
           }
         ],
         "skin": {
@@ -2755,11 +2755,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 105.2,
-        "blocksTravelled": 113682,
+        "blocksTravelled": 113728,
         "blocksBroken": 7330,
         "blocksPlaced": 4882,
         "deepestY": 24,
-        "lastSeen": 1784150987,
+        "lastSeen": 1784151107,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -3039,11 +3039,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 10.0,
-        "blocksTravelled": 17846,
+        "blocksTravelled": 18114,
         "blocksBroken": 278,
         "blocksPlaced": 172,
         "deepestY": 105,
-        "lastSeen": 1784150987,
+        "lastSeen": 1784151107,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
