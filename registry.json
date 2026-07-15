@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-221632",
+  "generated": "20260715-221832",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2067,12 +2067,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 41.8,
-        "blocksTravelled": 105540,
+        "playtimeHours": 41.9,
+        "blocksTravelled": 105585,
         "blocksBroken": 4460,
         "blocksPlaced": 306,
         "deepestY": 28,
-        "lastSeen": 1784146544,
+        "lastSeen": 1784146664,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2283,11 +2283,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 47.7,
-        "blocksTravelled": 50233,
+        "blocksTravelled": 50440,
         "blocksBroken": 1206,
         "blocksPlaced": 895,
         "deepestY": 105,
-        "lastSeen": 1784146544,
+        "lastSeen": 1784146664,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2481,7 +2481,7 @@
         "blocksBroken": 8146,
         "blocksPlaced": 1760,
         "deepestY": 23,
-        "lastSeen": 1783547629,
+        "lastSeen": 1784146601,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2571,26 +2571,6 @@
             "slot": "armorbody",
             "code": "game:armor-body-hide-bear-black",
             "name": "Black bear hide body armor"
-          },
-          {
-            "slot": "bag-1",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-2",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-3",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-4",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
           }
         ],
         "skin": {
@@ -2643,11 +2623,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 104.0,
-        "blocksTravelled": 106392,
-        "blocksBroken": 7267,
-        "blocksPlaced": 4764,
+        "blocksTravelled": 106579,
+        "blocksBroken": 7273,
+        "blocksPlaced": 4823,
         "deepestY": 24,
-        "lastSeen": 1784146544,
+        "lastSeen": 1784146664,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
