@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-154323",
+  "generated": "20260715-155902",
   "game_version": "1.22.3",
   "check_ts": "20260715-151611",
   "latest_engine": "1.22.3",
@@ -8,10 +8,10 @@
   "modset": {
     "server_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset.zip",
     "full_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset-full.zip",
-    "server_count": 109,
-    "full_count": 114,
-    "server_size": 165649595,
-    "full_size": 166643689,
+    "server_count": 110,
+    "full_count": 115,
+    "server_size": 165764926,
+    "full_size": 166759020,
     "client_only": [
       "Extra Info",
       "Improved Handbook Recipes (Fork)",
@@ -19,7 +19,7 @@
       "Status HUD",
       "StepUp Advanced"
     ],
-    "generated": "20260715-154256"
+    "generated": "20260715-155836"
   },
   "admin_url": "http://127.0.0.1:3042",
   "categories": [
@@ -1910,13 +1910,13 @@
       "on_server": true,
       "link": "https://mods.vintagestory.at/animationslib",
       "server_state": "yes",
-      "avail": "not-found",
-      "note": "not on ModDB / link unresolved",
-      "version": null,
-      "build_version": null,
-      "build_branch": null,
+      "avail": "available",
+      "note": "available for 1.22 (Draft on ModDB \u2014 pinned download, installs on update)",
+      "version": "0.0.2",
+      "build_version": "0.0.2",
+      "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "smithingplus",

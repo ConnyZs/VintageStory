@@ -1,7 +1,7 @@
 {
   "game_version": "1.22.3",
-  "generated": "20260715-154152",
-  "count": 109,
+  "generated": "20260715-155736",
+  "count": 110,
   "mods": [
     {
       "filename": "windmillsailfix.zip",
@@ -542,6 +542,15 @@
       "version": "5.0.0",
       "name": null,
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/animalcages_v5.0.0.zip"
+    },
+    {
+      "filename": "animationslib_0.0.2.zip",
+      "sha256": "fd12159ff86bed1cbb5ac9aad6db656a2ed7c236013799b40f4a6847592c7a54",
+      "size": 115209,
+      "modid": "animationslib",
+      "version": "0.0.2",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/animationslib_0.0.2.zip"
     },
     {
       "filename": "apegrapes-v1.22.0-1.4.0.zip",
