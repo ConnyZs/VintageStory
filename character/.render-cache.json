@@ -122,7 +122,7 @@
   }
  },
  "Morsel": {
-  "hash": "48104a81abd5b6c58e57792d720eb55954cb6831",
+  "hash": "abe2d1db0c27bc87cf5ab7b78d22dfff55af8f76",
   "info": {
    "class": "tailor",
    "items": [
@@ -138,7 +138,7 @@
     "Tailor belt"
    ],
    "frames": 16,
-   "v": 1784149874
+   "v": 1784149973
   }
  }
 }
