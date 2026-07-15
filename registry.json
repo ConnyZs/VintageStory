@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-194223",
+  "generated": "20260715-194423",
   "game_version": "1.22.3",
   "check_ts": "20260715-151611",
   "latest_engine": "1.22.3",
@@ -2045,7 +2045,7 @@
         "name": "Raschuetzer",
         "class": "tinker",
         "deaths": 6,
-        "mobKills": 50,
+        "mobKills": 51,
         "mealsEaten": 1,
         "caloriesConsumed": 80,
         "lastMeal": "Pear",
@@ -2061,11 +2061,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 40.1,
-        "blocksTravelled": 97001,
+        "blocksTravelled": 97057,
         "blocksBroken": 4425,
         "blocksPlaced": 289,
         "deepestY": 28,
-        "lastSeen": 1784137297,
+        "lastSeen": 1784137417,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2563,11 +2563,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 101.4,
-        "blocksTravelled": 101801,
+        "blocksTravelled": 101849,
         "blocksBroken": 6967,
         "blocksPlaced": 4528,
         "deepestY": 24,
-        "lastSeen": 1784137297,
+        "lastSeen": 1784137417,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2820,7 +2820,7 @@
         "uid": "1VGBHqraGibxC1fHS6a4PjOF",
         "name": "Morsel",
         "class": "tailor",
-        "deaths": 2,
+        "deaths": 3,
         "mobKills": 1,
         "mealsEaten": 1,
         "caloriesConsumed": 1050,
@@ -2834,14 +2834,15 @@
         },
         "deathCauses": {
           "bear-brown-adult-female": 1,
-          "shiver-corrupt": 1
+          "shiver-corrupt": 1,
+          "shiver-deepsplit": 1
         },
         "playtimeHours": 6.3,
-        "blocksTravelled": 10886,
-        "blocksBroken": 140,
+        "blocksTravelled": 10996,
+        "blocksBroken": 141,
         "blocksPlaced": 31,
         "deepestY": 105,
-        "lastSeen": 1784137297,
+        "lastSeen": 1784137417,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
@@ -2957,26 +2958,6 @@
             "slot": "bag-15",
             "code": "game:armor-legs-tailored-plain-linen",
             "name": "Tailored gamboised leg armor"
-          },
-          {
-            "slot": "bag-57",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-58",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-59",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-60",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
           }
         ],
         "skin": {
@@ -2995,5 +2976,12 @@
       }
     }
   ],
-  "lastAccident": null
+  "lastAccident": {
+    "playerName": "Morsel",
+    "timestamp": 1784137395,
+    "cause": "shiver-deepsplit",
+    "x": 518812,
+    "y": 113,
+    "z": 511271
+  }
 }
