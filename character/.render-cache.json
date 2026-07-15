@@ -74,7 +74,7 @@
   }
  },
  "AddyBuschu": {
-  "hash": "6b0c4f64370ad28af4dddacc73f4dd01c61c8042",
+  "hash": "fca70cfc185fd24f91c8a5db44a1461ed2264d12",
   "info": {
    "class": "homesteader",
    "items": [
@@ -83,10 +83,17 @@
     "mustache",
     "beard",
     "facialexpression",
-    "Acorn amulet"
+    "Jester cowl",
+    "Tattered crimson tunic",
+    "Nomad trousers",
+    "Wool lined knee-high boots",
+    "Survivor gloves",
+    "Acorn amulet",
+    "Traveler's earthrobe",
+    "Traveler's earthrobe"
    ],
    "frames": 16,
-   "v": 1784148669
+   "v": 1784148775
   }
  },
  "Barberschascher": {

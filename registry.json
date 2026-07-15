@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-225034",
+  "generated": "20260715-225234",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2070,11 +2070,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 42.4,
-        "blocksTravelled": 107679,
+        "blocksTravelled": 108001,
         "blocksBroken": 4460,
         "blocksPlaced": 306,
         "deepestY": 28,
-        "lastSeen": 1784148585,
+        "lastSeen": 1784148705,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2298,12 +2298,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 48.2,
-        "blocksTravelled": 52282,
+        "playtimeHours": 48.3,
+        "blocksTravelled": 52436,
         "blocksBroken": 1209,
         "blocksPlaced": 896,
         "deepestY": 105,
-        "lastSeen": 1784148585,
+        "lastSeen": 1784148705,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2492,24 +2492,100 @@
           "pig-eurasian-adult-female": 1
         },
         "playtimeHours": 24.3,
-        "blocksTravelled": 122416,
-        "blocksBroken": 8166,
+        "blocksTravelled": 122469,
+        "blocksBroken": 8167,
         "blocksPlaced": 1773,
         "deepestY": 23,
-        "lastSeen": 1784148585,
+        "lastSeen": 1784148705,
         "gear": [
-          "Acorn amulet"
+          "Jester cowl",
+          "Tattered crimson tunic",
+          "Nomad trousers",
+          "Wool lined knee-high boots",
+          "Survivor gloves",
+          "Acorn amulet",
+          "Traveler's earthrobe"
         ],
         "gearDetail": [
+          {
+            "slot": "head",
+            "code": "game:clothes-head-jester",
+            "name": "Jester cowl"
+          },
+          {
+            "slot": "upperbody",
+            "code": "game:clothes-upperbody-tattered-crimson-tunic",
+            "name": "Tattered crimson tunic",
+            "icon": "character/icons/upperbody-tattered-crimson-tunic.png"
+          },
+          {
+            "slot": "lowerbody",
+            "code": "game:clothes-lowerbody-nomad-trousers",
+            "name": "Nomad trousers",
+            "icon": "character/icons/lowerbody-nomad-trousers.png"
+          },
+          {
+            "slot": "foot",
+            "code": "game:clothes-foot-wool-lined-knee-high-boots",
+            "name": "Wool lined knee-high boots",
+            "icon": "character/icons/foot-wool-lined-knee-high-boots.png"
+          },
+          {
+            "slot": "hand",
+            "code": "game:clothes-hand-survivor",
+            "name": "Survivor gloves",
+            "icon": "character/icons/hand-survivor.png"
+          },
           {
             "slot": "neck",
             "code": "game:clothes-neck-acorn-amulet",
             "name": "Acorn amulet"
           },
           {
+            "slot": "upperbodyover",
+            "code": "game:clothes-upperbodyover-travelers-earthrobe",
+            "name": "Traveler's earthrobe",
+            "icon": "character/icons/upperbodyover-travelers-earthrobe.png"
+          },
+          {
+            "slot": "bag-1",
+            "code": "game:clothes-head-jester",
+            "name": "Jester cowl"
+          },
+          {
+            "slot": "bag-3",
+            "code": "game:clothes-upperbody-tattered-crimson-tunic",
+            "name": "Tattered crimson tunic",
+            "icon": "character/icons/upperbody-tattered-crimson-tunic.png"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:clothes-lowerbody-nomad-trousers",
+            "name": "Nomad trousers",
+            "icon": "character/icons/lowerbody-nomad-trousers.png"
+          },
+          {
+            "slot": "bag-5",
+            "code": "game:clothes-foot-wool-lined-knee-high-boots",
+            "name": "Wool lined knee-high boots",
+            "icon": "character/icons/foot-wool-lined-knee-high-boots.png"
+          },
+          {
+            "slot": "bag-6",
+            "code": "game:clothes-hand-survivor",
+            "name": "Survivor gloves",
+            "icon": "character/icons/hand-survivor.png"
+          },
+          {
             "slot": "bag-7",
             "code": "game:clothes-neck-acorn-amulet",
             "name": "Acorn amulet"
+          },
+          {
+            "slot": "bag-12",
+            "code": "game:clothes-upperbodyover-travelers-earthrobe",
+            "name": "Traveler's earthrobe",
+            "icon": "character/icons/upperbodyover-travelers-earthrobe.png"
           },
           {
             "slot": "bag-57",
@@ -2582,12 +2658,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 104.5,
-        "blocksTravelled": 111023,
+        "playtimeHours": 104.6,
+        "blocksTravelled": 111210,
         "blocksBroken": 7298,
-        "blocksPlaced": 4851,
+        "blocksPlaced": 4852,
         "deepestY": 24,
-        "lastSeen": 1784148585,
+        "lastSeen": 1784148705,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2860,12 +2936,12 @@
           "shiver-deepsplit": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 9.3,
-        "blocksTravelled": 16347,
+        "playtimeHours": 9.4,
+        "blocksTravelled": 16380,
         "blocksBroken": 253,
-        "blocksPlaced": 129,
+        "blocksPlaced": 147,
         "deepestY": 105,
-        "lastSeen": 1784148585,
+        "lastSeen": 1784148705,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
