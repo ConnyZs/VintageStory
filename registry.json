@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-153354",
+  "generated": "20260715-154323",
   "game_version": "1.22.3",
   "check_ts": "20260715-151611",
   "latest_engine": "1.22.3",
@@ -8,17 +8,18 @@
   "modset": {
     "server_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset.zip",
     "full_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset-full.zip",
-    "server_count": 97,
-    "full_count": 101,
-    "server_size": 141392116,
-    "full_size": 142283221,
+    "server_count": 109,
+    "full_count": 114,
+    "server_size": 165649595,
+    "full_size": 166643689,
     "client_only": [
       "Extra Info",
       "Improved Handbook Recipes (Fork)",
       "Natural Foliage",
-      "Status HUD"
+      "Status HUD",
+      "StepUp Advanced"
     ],
-    "generated": "20260713-004311"
+    "generated": "20260715-154256"
   },
   "admin_url": "http://127.0.0.1:3042",
   "categories": [
@@ -359,10 +360,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.2.4",
+      "version": "1.2.5",
       "build_version": "1.2.5",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -631,10 +632,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.2.4",
+      "version": "1.2.5",
       "build_version": "1.2.5",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -919,10 +920,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "4.0.0-pre.2",
+      "version": "4.0.0",
       "build_version": "4.0.0",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -1623,11 +1624,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "2.0.8",
       "build_version": "2.0.8",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Kevins Furniture",
@@ -1639,11 +1640,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "1.9.0",
       "build_version": "1.9.0",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Extended creation",
@@ -1655,11 +1656,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "1.2.5",
       "build_version": "1.2.5",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "More Flooring Patterns",
@@ -1671,11 +1672,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "1.1.0",
       "build_version": "1.1.0",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Fitting & Sharding",
@@ -1703,11 +1704,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "1.0.3",
       "build_version": "1.0.3",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Upholstery",
@@ -1719,11 +1720,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "1.2.0",
       "build_version": "1.2.0",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Ithania Expanded Fishing",
@@ -1735,11 +1736,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "1.1.1",
       "build_version": "1.1.1",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "K's Cartography Table",
@@ -1783,11 +1784,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "0.18.3",
       "build_version": "0.18.3",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Armory Fork",
@@ -1799,11 +1800,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "1.11.0",
       "build_version": "1.11.0",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Combat Overhaul Reanimated Fork",
@@ -1815,11 +1816,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "1.0.1",
       "build_version": "1.0.1",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Crossbows Fork",
@@ -1831,11 +1832,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "1.10.0",
       "build_version": "1.10.0",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Firearms fork",
@@ -1847,11 +1848,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "1.10.1",
       "build_version": "1.10.1",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Player Corpse (Azu Modded)",
@@ -1863,11 +1864,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "1.14.0",
       "build_version": "1.14.0",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Quivers and Sheaths Fork",
@@ -1879,11 +1880,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "0.9.29",
       "build_version": "0.9.29",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Overhaul lib legacy compatibility",
@@ -1895,11 +1896,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "1.2.4",
       "build_version": "1.2.4",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Animations lib",
