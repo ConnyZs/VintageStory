@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-214430",
+  "generated": "20260715-214630",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2068,11 +2068,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 41.3,
-        "blocksTravelled": 103756,
+        "blocksTravelled": 103779,
         "blocksBroken": 4457,
         "blocksPlaced": 304,
         "deepestY": 28,
-        "lastSeen": 1784144622,
+        "lastSeen": 1784144742,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2282,12 +2282,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 47.1,
-        "blocksTravelled": 48770,
-        "blocksBroken": 1166,
-        "blocksPlaced": 864,
+        "playtimeHours": 47.2,
+        "blocksTravelled": 48780,
+        "blocksBroken": 1168,
+        "blocksPlaced": 866,
         "deepestY": 105,
-        "lastSeen": 1784144622,
+        "lastSeen": 1784144742,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2642,12 +2642,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 103.4,
-        "blocksTravelled": 103898,
+        "playtimeHours": 103.5,
+        "blocksTravelled": 103986,
         "blocksBroken": 6967,
         "blocksPlaced": 4554,
         "deepestY": 24,
-        "lastSeen": 1784144622,
+        "lastSeen": 1784144742,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2920,12 +2920,12 @@
           "shiver-deepsplit": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 8.2,
-        "blocksTravelled": 14588,
-        "blocksBroken": 223,
-        "blocksPlaced": 72,
+        "playtimeHours": 8.3,
+        "blocksTravelled": 14631,
+        "blocksBroken": 226,
+        "blocksPlaced": 76,
         "deepestY": 105,
-        "lastSeen": 1784144622,
+        "lastSeen": 1784144742,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
