@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-195223",
+  "generated": "20260715-195423",
   "game_version": "1.22.3",
   "check_ts": "20260715-151611",
   "latest_engine": "1.22.3",
@@ -2061,11 +2061,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 40.3,
-        "blocksTravelled": 97269,
+        "blocksTravelled": 97302,
         "blocksBroken": 4425,
         "blocksPlaced": 289,
         "deepestY": 28,
-        "lastSeen": 1784137897,
+        "lastSeen": 1784138017,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2275,7 +2275,7 @@
         "blocksBroken": 914,
         "blocksPlaced": 661,
         "deepestY": 105,
-        "lastSeen": 1783634948,
+        "lastSeen": 1784138062,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2346,26 +2346,6 @@
             "slot": "armorbody",
             "code": "game:armor-body-tailored-pink-linen",
             "name": "Tailored gambeson body armor"
-          },
-          {
-            "slot": "bag-1",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-2",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-3",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-4",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
           }
         ],
         "skin": {
@@ -2550,17 +2530,17 @@
         "class": "mason",
         "deaths": 1,
         "mobKills": 54,
-        "mealsEaten": 8,
-        "caloriesConsumed": 1528,
+        "mealsEaten": 9,
+        "caloriesConsumed": 1554,
         "lastMeal": "Cranberry pie",
         "mealsByName": {
           "Cranberry": 5,
           "Meat pie": 1,
-          "Cranberry pie": 2
+          "Cranberry pie": 3
         },
         "foodCatCounts": {
-          "Fruit": 7,
-          "Grain": 3,
+          "Fruit": 8,
+          "Grain": 4,
           "Protein": 1,
           "Vegetable": 1
         },
@@ -2568,11 +2548,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 101.6,
-        "blocksTravelled": 101973,
+        "blocksTravelled": 101983,
         "blocksBroken": 6967,
         "blocksPlaced": 4531,
         "deepestY": 24,
-        "lastSeen": 1784137897,
+        "lastSeen": 1784138017,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2845,12 +2825,12 @@
           "shiver-deepsplit": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 6.4,
+        "playtimeHours": 6.5,
         "blocksTravelled": 11172,
         "blocksBroken": 144,
         "blocksPlaced": 33,
         "deepestY": 105,
-        "lastSeen": 1784137897,
+        "lastSeen": 1784138017,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
