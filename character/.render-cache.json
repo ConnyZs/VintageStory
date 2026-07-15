@@ -73,7 +73,7 @@
   }
  },
  "AddyBuschu": {
-  "hash": "f476298a5e0284b00034424a9734cc6623eee262",
+  "hash": "0d32d3f0817fdc3a7a70f7700cf67a83df1b9d72",
   "info": {
    "class": "homesteader",
    "items": [
@@ -82,18 +82,14 @@
     "mustache",
     "beard",
     "facialexpression",
-    "Jester cowl",
-    "Tattered crimson tunic",
     "Nomad trousers",
     "Wool lined knee-high boots",
     "Survivor gloves",
     "Acorn amulet",
-    "Leather bracers",
-    "Traveler's earthrobe",
-    "Traveler's earthrobe"
+    "Leather bracers"
    ],
    "frames": 16,
-   "v": 1784149255
+   "v": 1784149733
   }
  },
  "Barberschascher": {
@@ -119,7 +115,7 @@
   }
  },
  "Morsel": {
-  "hash": "2993a5a7f831ab993e0d72d3fe8ffe01dd77ec1e",
+  "hash": "453d4d873dcea6dc5cdb3687b2f65bb64da319ee",
   "info": {
    "class": "tailor",
    "items": [
@@ -128,12 +124,11 @@
     "mustache",
     "beard",
     "facialexpression",
-    "Tailor trousers",
     "Tailor shoes",
     "Tailor gloves"
    ],
    "frames": 16,
-   "v": 1784149612
+   "v": 1784149749
   }
  }
 }

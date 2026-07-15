@@ -55,18 +55,14 @@
     "mustache",
     "beard",
     "facialexpression",
-    "Jester cowl",
-    "Tattered crimson tunic",
     "Nomad trousers",
     "Wool lined knee-high boots",
     "Survivor gloves",
     "Acorn amulet",
-    "Leather bracers",
-    "Traveler's earthrobe",
-    "Traveler's earthrobe"
+    "Leather bracers"
    ],
    "frames": 16,
-   "v": 1784149255
+   "v": 1784149733
   },
   "Moritz": {
    "class": "mason",
@@ -114,12 +110,11 @@
     "mustache",
     "beard",
     "facialexpression",
-    "Tailor trousers",
     "Tailor shoes",
     "Tailor gloves"
    ],
    "frames": 16,
-   "v": 1784149612
+   "v": 1784149749
   }
  }
 }

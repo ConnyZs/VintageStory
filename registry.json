@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-230635",
+  "generated": "20260715-230835",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2073,11 +2073,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 42.7,
-        "blocksTravelled": 109015,
+        "blocksTravelled": 109074,
         "blocksBroken": 4481,
         "blocksPlaced": 332,
         "deepestY": 28,
-        "lastSeen": 1784149546,
+        "lastSeen": 1784149666,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2280,35 +2280,36 @@
         "name": "Eghetti",
         "class": "smith",
         "deaths": 2,
-        "mobKills": 49,
-        "mealsEaten": 24,
-        "caloriesConsumed": 11021,
-        "lastMeal": "Earthy orange ceramic bowl of meat stew",
+        "mobKills": 50,
+        "mealsEaten": 25,
+        "caloriesConsumed": 11336,
+        "lastMeal": "Rye bread",
         "mealsByName": {
           "Earthy orange ceramic bowl of meat stew": 16,
           "Meat pie": 3,
           "Earthy orange ceramic bowl of soup": 1,
           "Pear": 1,
           "Cooked redmeat nuggets": 2,
-          "Leather-bound Oak Tankard": 1
+          "Leather-bound Oak Tankard": 1,
+          "Rye bread": 1
         },
         "foodCatCounts": {
           "Protein": 22,
           "Vegetable": 14,
-          "Grain": 5,
+          "Grain": 6,
           "Fruit": 2,
-          "Dairy": 1
+          "Dairy": 2
         },
         "deathCauses": {
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
         "playtimeHours": 48.5,
-        "blocksTravelled": 53291,
+        "blocksTravelled": 53329,
         "blocksBroken": 1210,
         "blocksPlaced": 896,
         "deepestY": 105,
-        "lastSeen": 1784149546,
+        "lastSeen": 1784149666,
         "gear": [
           "Raccoon tail hat",
           "Workmans pants",
@@ -2488,34 +2489,20 @@
           "pig-eurasian-adult-male": 1,
           "pig-eurasian-adult-female": 1
         },
-        "playtimeHours": 24.5,
-        "blocksTravelled": 123061,
+        "playtimeHours": 24.6,
+        "blocksTravelled": 123071,
         "blocksBroken": 8169,
         "blocksPlaced": 1776,
         "deepestY": 23,
-        "lastSeen": 1784149546,
+        "lastSeen": 1784149666,
         "gear": [
-          "Jester cowl",
-          "Tattered crimson tunic",
           "Nomad trousers",
           "Wool lined knee-high boots",
           "Survivor gloves",
           "Acorn amulet",
-          "Leather bracers",
-          "Traveler's earthrobe"
+          "Leather bracers"
         ],
         "gearDetail": [
-          {
-            "slot": "head",
-            "code": "game:clothes-head-jester",
-            "name": "Jester cowl"
-          },
-          {
-            "slot": "upperbody",
-            "code": "game:clothes-upperbody-tattered-crimson-tunic",
-            "name": "Tattered crimson tunic",
-            "icon": "character/icons/upperbody-tattered-crimson-tunic.png"
-          },
           {
             "slot": "lowerbody",
             "code": "game:clothes-lowerbody-nomad-trousers",
@@ -2546,23 +2533,6 @@
             "icon": "character/icons/arm-leather-bracers.png"
           },
           {
-            "slot": "upperbodyover",
-            "code": "game:clothes-upperbodyover-travelers-earthrobe",
-            "name": "Traveler's earthrobe",
-            "icon": "character/icons/upperbodyover-travelers-earthrobe.png"
-          },
-          {
-            "slot": "bag-1",
-            "code": "game:clothes-head-jester",
-            "name": "Jester cowl"
-          },
-          {
-            "slot": "bag-3",
-            "code": "game:clothes-upperbody-tattered-crimson-tunic",
-            "name": "Tattered crimson tunic",
-            "icon": "character/icons/upperbody-tattered-crimson-tunic.png"
-          },
-          {
             "slot": "bag-4",
             "code": "game:clothes-lowerbody-nomad-trousers",
             "name": "Nomad trousers",
@@ -2590,12 +2560,6 @@
             "code": "game:clothes-arm-leather-bracers",
             "name": "Leather bracers",
             "icon": "character/icons/arm-leather-bracers.png"
-          },
-          {
-            "slot": "bag-12",
-            "code": "game:clothes-upperbodyover-travelers-earthrobe",
-            "name": "Traveler's earthrobe",
-            "icon": "character/icons/upperbodyover-travelers-earthrobe.png"
           },
           {
             "slot": "bag-57",
@@ -2644,7 +2608,7 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 58,
+        "mobKills": 61,
         "mealsEaten": 48,
         "caloriesConsumed": 12012,
         "lastMeal": "Pear",
@@ -2672,11 +2636,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 104.8,
-        "blocksTravelled": 112252,
+        "blocksTravelled": 112318,
         "blocksBroken": 7303,
         "blocksPlaced": 4860,
         "deepestY": 24,
-        "lastSeen": 1784149546,
+        "lastSeen": 1784149666,
         "gear": [
           "Linen tunic",
           "Workmans pants",
@@ -2935,23 +2899,16 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 9.6,
-        "blocksTravelled": 17153,
+        "blocksTravelled": 17189,
         "blocksBroken": 259,
         "blocksPlaced": 172,
         "deepestY": 105,
-        "lastSeen": 1784149546,
+        "lastSeen": 1784149666,
         "gear": [
-          "Tailor trousers",
           "Tailor shoes",
           "Tailor gloves"
         ],
         "gearDetail": [
-          {
-            "slot": "lowerbody",
-            "code": "game:clothes-lowerbody-tailor-trousers",
-            "name": "Tailor trousers",
-            "icon": "character/icons/lowerbody-tailor-trousers.png"
-          },
           {
             "slot": "foot",
             "code": "game:clothes-foot-tailor-shoes",
@@ -2963,12 +2920,6 @@
             "code": "game:clothes-hand-tailor-gloves",
             "name": "Tailor gloves",
             "icon": "character/icons/hand-tailor-gloves.png"
-          },
-          {
-            "slot": "bag-4",
-            "code": "game:clothes-lowerbody-tailor-trousers",
-            "name": "Tailor trousers",
-            "icon": "character/icons/lowerbody-tailor-trousers.png"
           },
           {
             "slot": "bag-5",
