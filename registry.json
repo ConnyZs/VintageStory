@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-232836",
+  "generated": "20260715-233037",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2073,12 +2073,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 43.0,
-        "blocksTravelled": 110313,
+        "playtimeHours": 43.1,
+        "blocksTravelled": 110398,
         "blocksBroken": 4481,
         "blocksPlaced": 336,
         "deepestY": 28,
-        "lastSeen": 1784150873,
+        "lastSeen": 1784150987,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2487,10 +2487,10 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 21,
-        "mobKills": 221,
-        "mealsEaten": 32,
-        "caloriesConsumed": 6987,
-        "lastMeal": "Blackcurrant",
+        "mobKills": 230,
+        "mealsEaten": 34,
+        "caloriesConsumed": 8225,
+        "lastMeal": "Pear pie",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2501,14 +2501,15 @@
           "Leather-bound Oak Tankard": 1,
           "Syrup-covered muffin": 1,
           "Cranberry": 3,
-          "Blackcurrant": 10
+          "Blackcurrant": 10,
+          "Pear pie": 2
         },
         "foodCatCounts": {
-          "Grain": 9,
+          "Grain": 11,
           "Protein": 11,
           "Vegetable": 6,
-          "Fruit": 21,
-          "Dairy": 4
+          "Fruit": 23,
+          "Dairy": 6
         },
         "deathCauses": {
           "bear-brown-adult-female": 1,
@@ -2519,11 +2520,11 @@
           "wolf-eurasian-adult-male": 1
         },
         "playtimeHours": 24.9,
-        "blocksTravelled": 124863,
+        "blocksTravelled": 125221,
         "blocksBroken": 8213,
-        "blocksPlaced": 1780,
+        "blocksPlaced": 1781,
         "deepestY": 23,
-        "lastSeen": 1784150873,
+        "lastSeen": 1784150987,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2754,11 +2755,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 105.2,
-        "blocksTravelled": 113606,
-        "blocksBroken": 7328,
-        "blocksPlaced": 4880,
+        "blocksTravelled": 113682,
+        "blocksBroken": 7330,
+        "blocksPlaced": 4882,
         "deepestY": 24,
-        "lastSeen": 1784150873,
+        "lastSeen": 1784150987,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -3013,23 +3014,23 @@
         "class": "tailor",
         "deaths": 4,
         "mobKills": 9,
-        "mealsEaten": 24,
-        "caloriesConsumed": 10842,
-        "lastMeal": "Earthy orange ceramic bowl of meat stew",
+        "mealsEaten": 27,
+        "caloriesConsumed": 12326,
+        "lastMeal": "Pear pie (charred)",
         "mealsByName": {
           "Earthy orange ceramic bowl of meat stew": 11,
           "Meat pie": 8,
           "Leather-bound Oak Tankard": 1,
-          "Pear pie (charred)": 1,
+          "Pear pie (charred)": 4,
           "Rye bread": 2,
           "Cranberry": 1
         },
         "foodCatCounts": {
           "Protein": 19,
           "Vegetable": 12,
-          "Grain": 14,
-          "Fruit": 3,
-          "Dairy": 6
+          "Grain": 17,
+          "Fruit": 6,
+          "Dairy": 9
         },
         "deathCauses": {
           "bear-brown-adult-female": 1,
@@ -3038,11 +3039,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 10.0,
-        "blocksTravelled": 17749,
+        "blocksTravelled": 17846,
         "blocksBroken": 278,
         "blocksPlaced": 172,
         "deepestY": 105,
-        "lastSeen": 1784150873,
+        "lastSeen": 1784150987,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
