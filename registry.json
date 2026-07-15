@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-234237",
+  "generated": "20260715-234437",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2045,7 +2045,7 @@
         "name": "Raschuetzer",
         "class": "tinker",
         "deaths": 6,
-        "mobKills": 73,
+        "mobKills": 75,
         "mealsEaten": 31,
         "caloriesConsumed": 12684,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
@@ -2074,11 +2074,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 43.3,
-        "blocksTravelled": 110798,
+        "blocksTravelled": 110960,
         "blocksBroken": 4481,
         "blocksPlaced": 336,
         "deepestY": 28,
-        "lastSeen": 1784151707,
+        "lastSeen": 1784151827,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2488,8 +2488,8 @@
         "class": "homesteader",
         "deaths": 21,
         "mobKills": 232,
-        "mealsEaten": 34,
-        "caloriesConsumed": 8225,
+        "mealsEaten": 36,
+        "caloriesConsumed": 8881,
         "lastMeal": "Pear pie",
         "mealsByName": {
           "Meat pie": 5,
@@ -2502,14 +2502,14 @@
           "Syrup-covered muffin": 1,
           "Cranberry": 3,
           "Blackcurrant": 10,
-          "Pear pie": 2
+          "Pear pie": 4
         },
         "foodCatCounts": {
-          "Grain": 11,
+          "Grain": 13,
           "Protein": 11,
           "Vegetable": 6,
-          "Fruit": 23,
-          "Dairy": 6
+          "Fruit": 25,
+          "Dairy": 8
         },
         "deathCauses": {
           "bear-brown-adult-female": 1,
@@ -2519,12 +2519,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 1
         },
-        "playtimeHours": 25.1,
-        "blocksTravelled": 125885,
+        "playtimeHours": 25.2,
+        "blocksTravelled": 125952,
         "blocksBroken": 8215,
         "blocksPlaced": 1791,
         "deepestY": 23,
-        "lastSeen": 1784151707,
+        "lastSeen": 1784151827,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2756,11 +2756,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 105.4,
-        "blocksTravelled": 113982,
-        "blocksBroken": 7333,
-        "blocksPlaced": 4884,
+        "blocksTravelled": 114043,
+        "blocksBroken": 7347,
+        "blocksPlaced": 4888,
         "deepestY": 24,
-        "lastSeen": 1784151707,
+        "lastSeen": 1784151827,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -3040,11 +3040,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 10.2,
-        "blocksTravelled": 18248,
-        "blocksBroken": 334,
-        "blocksPlaced": 194,
+        "blocksTravelled": 18270,
+        "blocksBroken": 343,
+        "blocksPlaced": 205,
         "deepestY": 105,
-        "lastSeen": 1784151707,
+        "lastSeen": 1784151827,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
