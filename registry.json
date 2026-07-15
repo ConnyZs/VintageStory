@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-231836",
+  "generated": "20260715-232036",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2074,11 +2074,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 42.9,
-        "blocksTravelled": 109562,
+        "blocksTravelled": 109918,
         "blocksBroken": 4481,
         "blocksPlaced": 336,
         "deepestY": 28,
-        "lastSeen": 1784150269,
+        "lastSeen": 1784150386,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2306,11 +2306,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 48.7,
-        "blocksTravelled": 54042,
+        "blocksTravelled": 54156,
         "blocksBroken": 1210,
         "blocksPlaced": 897,
         "deepestY": 105,
-        "lastSeen": 1784150269,
+        "lastSeen": 1784150377,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2487,7 +2487,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 21,
-        "mobKills": 220,
+        "mobKills": 221,
         "mealsEaten": 22,
         "caloriesConsumed": 6187,
         "lastMeal": "Cranberry",
@@ -2517,12 +2517,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 1
         },
-        "playtimeHours": 24.7,
-        "blocksTravelled": 123673,
+        "playtimeHours": 24.8,
+        "blocksTravelled": 124032,
         "blocksBroken": 8169,
         "blocksPlaced": 1780,
         "deepestY": 23,
-        "lastSeen": 1784150269,
+        "lastSeen": 1784150386,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2723,12 +2723,12 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 65,
-        "mealsEaten": 51,
-        "caloriesConsumed": 13640,
-        "lastMeal": "Earthy orange ceramic bowl of meat stew",
+        "mobKills": 66,
+        "mealsEaten": 65,
+        "caloriesConsumed": 14500,
+        "lastMeal": "Redcurrant",
         "mealsByName": {
-          "Cranberry": 5,
+          "Cranberry": 18,
           "Meat pie": 1,
           "Cranberry pie": 7,
           "Earthy orange ceramic bowl of soup": 1,
@@ -2739,10 +2739,11 @@
           "Rye bread": 1,
           "Leather-bound Oak Tankard": 2,
           "Syrup-covered muffin": 2,
-          "Syrup-covered fruit bread": 1
+          "Syrup-covered fruit bread": 1,
+          "Redcurrant": 1
         },
         "foodCatCounts": {
-          "Fruit": 21,
+          "Fruit": 35,
           "Grain": 14,
           "Protein": 29,
           "Vegetable": 14,
@@ -2752,11 +2753,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 105.0,
-        "blocksTravelled": 112977,
+        "blocksTravelled": 113067,
         "blocksBroken": 7322,
-        "blocksPlaced": 4872,
+        "blocksPlaced": 4874,
         "deepestY": 24,
-        "lastSeen": 1784150269,
+        "lastSeen": 1784150386,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -3036,11 +3037,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 9.8,
-        "blocksTravelled": 17658,
-        "blocksBroken": 259,
+        "blocksTravelled": 17722,
+        "blocksBroken": 266,
         "blocksPlaced": 172,
         "deepestY": 105,
-        "lastSeen": 1784150269,
+        "lastSeen": 1784150386,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
