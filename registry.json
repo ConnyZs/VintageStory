@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-230035",
+  "generated": "20260715-230235",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2072,11 +2072,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 42.6,
-        "blocksTravelled": 108853,
-        "blocksBroken": 4460,
-        "blocksPlaced": 313,
+        "blocksTravelled": 108896,
+        "blocksBroken": 4468,
+        "blocksPlaced": 330,
         "deepestY": 28,
-        "lastSeen": 1784149186,
+        "lastSeen": 1784149306,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2303,11 +2303,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 48.4,
-        "blocksTravelled": 52973,
+        "blocksTravelled": 53098,
         "blocksBroken": 1210,
         "blocksPlaced": 896,
         "deepestY": 105,
-        "lastSeen": 1784149186,
+        "lastSeen": 1784149306,
         "gear": [
           "Raccoon tail hat",
           "Workmans pants",
@@ -2486,12 +2486,12 @@
           "pig-eurasian-adult-male": 1,
           "pig-eurasian-adult-female": 1
         },
-        "playtimeHours": 24.4,
-        "blocksTravelled": 122977,
+        "playtimeHours": 24.5,
+        "blocksTravelled": 123015,
         "blocksBroken": 8168,
         "blocksPlaced": 1774,
         "deepestY": 23,
-        "lastSeen": 1784149186,
+        "lastSeen": 1784149306,
         "gear": [
           "Jester cowl",
           "Tattered crimson tunic",
@@ -2643,16 +2643,16 @@
         "class": "mason",
         "deaths": 1,
         "mobKills": 56,
-        "mealsEaten": 46,
-        "caloriesConsumed": 11759,
-        "lastMeal": "Pear",
+        "mealsEaten": 47,
+        "caloriesConsumed": 11932,
+        "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Cranberry": 5,
           "Meat pie": 1,
           "Cranberry pie": 7,
           "Earthy orange ceramic bowl of soup": 1,
           "Wooden bucket": 1,
-          "Earthy orange ceramic bowl of meat stew": 23,
+          "Earthy orange ceramic bowl of meat stew": 24,
           "Chopped cabbage": 1,
           "Pear": 3,
           "Rye bread": 1,
@@ -2662,19 +2662,19 @@
         "foodCatCounts": {
           "Fruit": 18,
           "Grain": 11,
-          "Protein": 26,
-          "Vegetable": 13,
+          "Protein": 27,
+          "Vegetable": 14,
           "Dairy": 3
         },
         "deathCauses": {
           "shiver-corrupt": 1
         },
         "playtimeHours": 104.7,
-        "blocksTravelled": 112076,
-        "blocksBroken": 7299,
-        "blocksPlaced": 4856,
+        "blocksTravelled": 112140,
+        "blocksBroken": 7300,
+        "blocksPlaced": 4857,
         "deepestY": 24,
-        "lastSeen": 1784149186,
+        "lastSeen": 1784149306,
         "gear": [
           "Linen tunic",
           "Workmans pants",
@@ -2933,17 +2933,16 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 9.5,
-        "blocksTravelled": 17018,
-        "blocksBroken": 254,
-        "blocksPlaced": 168,
+        "blocksTravelled": 17048,
+        "blocksBroken": 256,
+        "blocksPlaced": 170,
         "deepestY": 105,
-        "lastSeen": 1784149186,
+        "lastSeen": 1784149306,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
           "Tailor shoes",
           "Tailor gloves",
-          "Tailor belt",
           "Tailor jacket"
         ],
         "gearDetail": [
@@ -2970,12 +2969,6 @@
             "code": "game:clothes-hand-tailor-gloves",
             "name": "Tailor gloves",
             "icon": "character/icons/hand-tailor-gloves.png"
-          },
-          {
-            "slot": "waist",
-            "code": "game:clothes-waist-tailor-belt",
-            "name": "Tailor belt",
-            "icon": "character/icons/waist-tailor-belt.png"
           },
           {
             "slot": "upperbodyover",
@@ -3006,12 +2999,6 @@
             "code": "game:clothes-hand-tailor-gloves",
             "name": "Tailor gloves",
             "icon": "character/icons/hand-tailor-gloves.png"
-          },
-          {
-            "slot": "bag-10",
-            "code": "game:clothes-waist-tailor-belt",
-            "name": "Tailor belt",
-            "icon": "character/icons/waist-tailor-belt.png"
           },
           {
             "slot": "bag-12",

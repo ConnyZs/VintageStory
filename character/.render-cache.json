@@ -119,7 +119,7 @@
   }
  },
  "Morsel": {
-  "hash": "c81f9635faf727bfc2b606accc1e8dbabcabd120",
+  "hash": "e905f314ab1b7ff58519658194e6ec2e121eaaec",
   "info": {
    "class": "tailor",
    "items": [
@@ -133,11 +133,10 @@
     "Tailor trousers",
     "Tailor shoes",
     "Tailor gloves",
-    "Tailor belt",
     "Tailor jacket"
    ],
    "frames": 16,
-   "v": 1784149033
+   "v": 1784149373
   }
  }
 }
