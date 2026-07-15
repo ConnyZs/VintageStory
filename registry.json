@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-194823",
+  "generated": "20260715-195023",
   "game_version": "1.22.3",
   "check_ts": "20260715-151611",
   "latest_engine": "1.22.3",
@@ -2061,11 +2061,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 40.2,
-        "blocksTravelled": 97191,
+        "blocksTravelled": 97197,
         "blocksBroken": 4425,
         "blocksPlaced": 289,
         "deepestY": 28,
-        "lastSeen": 1784137661,
+        "lastSeen": 1784137777,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2550,24 +2550,29 @@
         "class": "mason",
         "deaths": 1,
         "mobKills": 54,
-        "mealsEaten": 5,
-        "caloriesConsumed": 300,
-        "lastMeal": "Cranberry",
+        "mealsEaten": 8,
+        "caloriesConsumed": 1528,
+        "lastMeal": "Cranberry pie",
         "mealsByName": {
-          "Cranberry": 5
+          "Cranberry": 5,
+          "Meat pie": 1,
+          "Cranberry pie": 2
         },
         "foodCatCounts": {
-          "Fruit": 5
+          "Fruit": 7,
+          "Grain": 3,
+          "Protein": 1,
+          "Vegetable": 1
         },
         "deathCauses": {
           "shiver-corrupt": 1
         },
         "playtimeHours": 101.5,
-        "blocksTravelled": 101862,
+        "blocksTravelled": 101915,
         "blocksBroken": 6967,
-        "blocksPlaced": 4530,
+        "blocksPlaced": 4531,
         "deepestY": 24,
-        "lastSeen": 1784137657,
+        "lastSeen": 1784137777,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2841,11 +2846,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 6.4,
-        "blocksTravelled": 11154,
+        "blocksTravelled": 11169,
         "blocksBroken": 144,
         "blocksPlaced": 33,
         "deepestY": 105,
-        "lastSeen": 1784137657,
+        "lastSeen": 1784137777,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
