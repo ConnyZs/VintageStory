@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-213029",
+  "generated": "20260715-213230",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2068,11 +2068,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 41.1,
-        "blocksTravelled": 103019,
+        "blocksTravelled": 103317,
         "blocksBroken": 4456,
-        "blocksPlaced": 303,
+        "blocksPlaced": 304,
         "deepestY": 28,
-        "lastSeen": 1784143782,
+        "lastSeen": 1784143923,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2283,11 +2283,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 46.9,
-        "blocksTravelled": 47896,
-        "blocksBroken": 1146,
+        "blocksTravelled": 48125,
+        "blocksBroken": 1150,
         "blocksPlaced": 846,
         "deepestY": 105,
-        "lastSeen": 1784143782,
+        "lastSeen": 1784143923,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2643,11 +2643,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 103.2,
-        "blocksTravelled": 103601,
+        "blocksTravelled": 103635,
         "blocksBroken": 6967,
-        "blocksPlaced": 4549,
+        "blocksPlaced": 4550,
         "deepestY": 24,
-        "lastSeen": 1784143782,
+        "lastSeen": 1784143923,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2920,12 +2920,12 @@
           "shiver-deepsplit": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 8.0,
+        "playtimeHours": 8.1,
         "blocksTravelled": 14322,
         "blocksBroken": 221,
         "blocksPlaced": 70,
         "deepestY": 105,
-        "lastSeen": 1784143782,
+        "lastSeen": 1784143923,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
