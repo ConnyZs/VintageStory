@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-220031",
+  "generated": "20260715-220231",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2046,21 +2046,21 @@
         "class": "tinker",
         "deaths": 6,
         "mobKills": 70,
-        "mealsEaten": 15,
-        "caloriesConsumed": 5415,
+        "mealsEaten": 17,
+        "caloriesConsumed": 6055,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Pear": 2,
           "Meat pie": 4,
-          "Earthy orange ceramic bowl of meat stew": 4,
+          "Earthy orange ceramic bowl of meat stew": 6,
           "Strawberry": 2,
           "Blackcurrant": 3
         },
         "foodCatCounts": {
           "Fruit": 7,
           "Grain": 4,
-          "Protein": 8,
-          "Vegetable": 6
+          "Protein": 10,
+          "Vegetable": 7
         },
         "deathCauses": {
           "wolf-eurasian-adult-male": 1,
@@ -2068,11 +2068,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 41.6,
-        "blocksTravelled": 103899,
+        "blocksTravelled": 103949,
         "blocksBroken": 4457,
         "blocksPlaced": 304,
         "deepestY": 28,
-        "lastSeen": 1784145583,
+        "lastSeen": 1784145734,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2283,11 +2283,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 47.4,
-        "blocksTravelled": 49630,
-        "blocksBroken": 1190,
-        "blocksPlaced": 884,
+        "blocksTravelled": 49670,
+        "blocksBroken": 1194,
+        "blocksPlaced": 887,
         "deepestY": 105,
-        "lastSeen": 1784145583,
+        "lastSeen": 1784145734,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2620,8 +2620,8 @@
         "class": "mason",
         "deaths": 1,
         "mobKills": 56,
-        "mealsEaten": 34,
-        "caloriesConsumed": 7321,
+        "mealsEaten": 35,
+        "caloriesConsumed": 8074,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Cranberry": 5,
@@ -2629,13 +2629,13 @@
           "Cranberry pie": 7,
           "Earthy orange ceramic bowl of soup": 1,
           "Wooden bucket": 1,
-          "Earthy orange ceramic bowl of meat stew": 18,
+          "Earthy orange ceramic bowl of meat stew": 19,
           "Chopped cabbage": 1
         },
         "foodCatCounts": {
           "Fruit": 12,
           "Grain": 9,
-          "Protein": 20,
+          "Protein": 21,
           "Vegetable": 9,
           "Dairy": 1
         },
@@ -2643,11 +2643,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 103.7,
-        "blocksTravelled": 105024,
+        "blocksTravelled": 105215,
         "blocksBroken": 7239,
         "blocksPlaced": 4695,
         "deepestY": 24,
-        "lastSeen": 1784145583,
+        "lastSeen": 1784145734,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2901,17 +2901,17 @@
         "name": "Morsel",
         "class": "tailor",
         "deaths": 4,
-        "mobKills": 5,
-        "mealsEaten": 15,
-        "caloriesConsumed": 7251,
+        "mobKills": 7,
+        "mealsEaten": 16,
+        "caloriesConsumed": 8368,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
-          "Earthy orange ceramic bowl of meat stew": 7,
+          "Earthy orange ceramic bowl of meat stew": 8,
           "Meat pie": 8
         },
         "foodCatCounts": {
-          "Protein": 15,
-          "Vegetable": 11,
+          "Protein": 16,
+          "Vegetable": 12,
           "Grain": 8
         },
         "deathCauses": {
@@ -2920,12 +2920,12 @@
           "shiver-deepsplit": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 8.5,
-        "blocksTravelled": 15205,
-        "blocksBroken": 249,
-        "blocksPlaced": 106,
+        "playtimeHours": 8.6,
+        "blocksTravelled": 15441,
+        "blocksBroken": 253,
+        "blocksPlaced": 113,
         "deepestY": 105,
-        "lastSeen": 1784145583,
+        "lastSeen": 1784145734,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
