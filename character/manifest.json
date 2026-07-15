@@ -35,7 +35,6 @@
     "beard",
     "facialexpression",
     "Raccoon tail hat",
-    "Blacksmith apron",
     "Workmans pants",
     "Soldier boots",
     "Heavy leather gloves",
@@ -46,7 +45,7 @@
     "Fur coat"
    ],
    "frames": 16,
-   "v": 1784148653
+   "v": 1784148893
   },
   "AddyBuschu": {
    "class": "homesteader",
@@ -74,7 +73,6 @@
     "hairbase",
     "mustache",
     "facialexpression",
-    "Raccoon fur trapper hat",
     "Linen tunic",
     "Workmans pants",
     "Forlorn Hope shoes",
@@ -85,7 +83,7 @@
     "Fortune teller vest"
    ],
    "frames": 16,
-   "v": 1784134481
+   "v": 1784148912
   },
   "Barberschascher": {
    "class": "miner",

@@ -28,7 +28,7 @@
   }
  },
  "Eghetti": {
-  "hash": "bde4d0844918feadeea152cd13ee515d5bee54cc",
+  "hash": "f8d26be7397ecec10dbab581caaf69e7a47e3f88",
   "info": {
    "class": "smith",
    "items": [
@@ -37,7 +37,6 @@
     "beard",
     "facialexpression",
     "Raccoon tail hat",
-    "Blacksmith apron",
     "Workmans pants",
     "Soldier boots",
     "Heavy leather gloves",
@@ -48,18 +47,17 @@
     "Fur coat"
    ],
    "frames": 16,
-   "v": 1784148653
+   "v": 1784148893
   }
  },
  "Moritz": {
-  "hash": "0af434ce5a22e9c079f16d9974734e1c93ea5b83",
+  "hash": "89e59acf7ccbabcea7e51058d73566c9ed07fbe5",
   "info": {
    "class": "mason",
    "items": [
     "hairbase",
     "mustache",
     "facialexpression",
-    "Raccoon fur trapper hat",
     "Linen tunic",
     "Workmans pants",
     "Forlorn Hope shoes",
@@ -70,7 +68,7 @@
     "Fortune teller vest"
    ],
    "frames": 16,
-   "v": 1784134481
+   "v": 1784148912
   }
  },
  "AddyBuschu": {

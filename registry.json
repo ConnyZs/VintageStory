@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-225234",
+  "generated": "20260715-225434",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2069,12 +2069,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 42.4,
-        "blocksTravelled": 108001,
+        "playtimeHours": 42.5,
+        "blocksTravelled": 108440,
         "blocksBroken": 4460,
         "blocksPlaced": 306,
         "deepestY": 28,
-        "lastSeen": 1784148705,
+        "lastSeen": 1784148825,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2299,14 +2299,13 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 48.3,
-        "blocksTravelled": 52436,
+        "blocksTravelled": 52547,
         "blocksBroken": 1209,
         "blocksPlaced": 896,
         "deepestY": 105,
-        "lastSeen": 1784148705,
+        "lastSeen": 1784148825,
         "gear": [
           "Raccoon tail hat",
-          "Blacksmith apron",
           "Workmans pants",
           "Soldier boots",
           "Heavy leather gloves",
@@ -2321,12 +2320,6 @@
             "code": "game:clothes-head-furhattail-raccoon-common",
             "name": "Raccoon tail hat",
             "icon": "character/icons/head-furhattail-raccoon-common.png"
-          },
-          {
-            "slot": "shoulder",
-            "code": "game:clothes-shoulder-blacksmith-apron",
-            "name": "Blacksmith apron",
-            "icon": "character/icons/shoulder-blacksmith-apron.png"
           },
           {
             "slot": "lowerbody",
@@ -2374,12 +2367,6 @@
             "code": "game:clothes-head-furhattail-raccoon-common",
             "name": "Raccoon tail hat",
             "icon": "character/icons/head-furhattail-raccoon-common.png"
-          },
-          {
-            "slot": "bag-2",
-            "code": "game:clothes-shoulder-blacksmith-apron",
-            "name": "Blacksmith apron",
-            "icon": "character/icons/shoulder-blacksmith-apron.png"
           },
           {
             "slot": "bag-4",
@@ -2492,11 +2479,11 @@
           "pig-eurasian-adult-female": 1
         },
         "playtimeHours": 24.3,
-        "blocksTravelled": 122469,
-        "blocksBroken": 8167,
-        "blocksPlaced": 1773,
+        "blocksTravelled": 122563,
+        "blocksBroken": 8168,
+        "blocksPlaced": 1774,
         "deepestY": 23,
-        "lastSeen": 1784148705,
+        "lastSeen": 1784148825,
         "gear": [
           "Jester cowl",
           "Tattered crimson tunic",
@@ -2659,13 +2646,12 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 104.6,
-        "blocksTravelled": 111210,
+        "blocksTravelled": 111386,
         "blocksBroken": 7298,
         "blocksPlaced": 4852,
         "deepestY": 24,
-        "lastSeen": 1784148705,
+        "lastSeen": 1784148825,
         "gear": [
-          "Raccoon fur trapper hat",
           "Linen tunic",
           "Workmans pants",
           "Forlorn Hope shoes",
@@ -2676,12 +2662,6 @@
           "Fortune teller vest"
         ],
         "gearDetail": [
-          {
-            "slot": "head",
-            "code": "game:clothes-head-furhatwide-generic-gray",
-            "name": "Raccoon fur trapper hat",
-            "icon": "character/icons/head-furhatwide-generic-gray.png"
-          },
           {
             "slot": "upperbody",
             "code": "game:clothes-upperbody-linen-tunic",
@@ -2728,12 +2708,6 @@
             "icon": "character/icons/upperbodyover-fortuneteller.png"
           },
           {
-            "slot": "bag-1",
-            "code": "game:clothes-head-furhatwide-generic-gray",
-            "name": "Raccoon fur trapper hat",
-            "icon": "character/icons/head-furhatwide-generic-gray.png"
-          },
-          {
             "slot": "bag-3",
             "code": "game:clothes-upperbody-linen-tunic",
             "name": "Linen tunic",
@@ -2777,26 +2751,6 @@
             "code": "game:clothes-upperbodyover-fortuneteller",
             "name": "Fortune teller vest",
             "icon": "character/icons/upperbodyover-fortuneteller.png"
-          },
-          {
-            "slot": "bag-57",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-58",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-59",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-60",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
           }
         ],
         "skin": {
@@ -2937,11 +2891,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 9.4,
-        "blocksTravelled": 16380,
-        "blocksBroken": 253,
-        "blocksPlaced": 147,
+        "blocksTravelled": 16576,
+        "blocksBroken": 254,
+        "blocksPlaced": 168,
         "deepestY": 105,
-        "lastSeen": 1784148705,
+        "lastSeen": 1784148825,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
