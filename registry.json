@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-210228",
+  "generated": "20260715-210428",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2046,18 +2046,19 @@
         "class": "tinker",
         "deaths": 6,
         "mobKills": 70,
-        "mealsEaten": 2,
-        "caloriesConsumed": 1114,
+        "mealsEaten": 4,
+        "caloriesConsumed": 2293,
         "lastMeal": "Meat pie",
         "mealsByName": {
           "Pear": 1,
-          "Meat pie": 1
+          "Meat pie": 2,
+          "Earthy orange ceramic bowl of meat stew": 1
         },
         "foodCatCounts": {
           "Fruit": 1,
-          "Grain": 1,
-          "Protein": 1,
-          "Vegetable": 1
+          "Grain": 2,
+          "Protein": 3,
+          "Vegetable": 2
         },
         "deathCauses": {
           "wolf-eurasian-adult-male": 1,
@@ -2065,11 +2066,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 40.6,
-        "blocksTravelled": 97788,
+        "blocksTravelled": 97984,
         "blocksBroken": 4425,
         "blocksPlaced": 293,
         "deepestY": 28,
-        "lastSeen": 1784142110,
+        "lastSeen": 1784142220,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2279,12 +2280,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 46.4,
-        "blocksTravelled": 47255,
-        "blocksBroken": 1128,
-        "blocksPlaced": 816,
+        "playtimeHours": 46.5,
+        "blocksTravelled": 47276,
+        "blocksBroken": 1130,
+        "blocksPlaced": 826,
         "deepestY": 105,
-        "lastSeen": 1784142110,
+        "lastSeen": 1784142220,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2638,12 +2639,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 102.7,
-        "blocksTravelled": 103073,
+        "playtimeHours": 102.8,
+        "blocksTravelled": 103113,
         "blocksBroken": 6967,
         "blocksPlaced": 4542,
         "deepestY": 24,
-        "lastSeen": 1784142110,
+        "lastSeen": 1784142220,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2917,11 +2918,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 7.6,
-        "blocksTravelled": 13773,
+        "blocksTravelled": 13777,
         "blocksBroken": 216,
         "blocksPlaced": 68,
         "deepestY": 105,
-        "lastSeen": 1784142110,
+        "lastSeen": 1784142220,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
