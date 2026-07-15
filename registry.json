@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-193422",
+  "generated": "20260715-193622",
   "game_version": "1.22.3",
   "check_ts": "20260715-151611",
   "latest_engine": "1.22.3",
@@ -2057,11 +2057,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 40.0,
-        "blocksTravelled": 95517,
+        "blocksTravelled": 95964,
         "blocksBroken": 4425,
         "blocksPlaced": 289,
         "deepestY": 28,
-        "lastSeen": 1784136817,
+        "lastSeen": 1784136977,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2559,11 +2559,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 101.3,
-        "blocksTravelled": 101694,
+        "blocksTravelled": 101702,
         "blocksBroken": 6967,
         "blocksPlaced": 4528,
         "deepestY": 24,
-        "lastSeen": 1784136817,
+        "lastSeen": 1784136977,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2827,12 +2827,12 @@
           "bear-brown-adult-female": 1,
           "shiver-corrupt": 1
         },
-        "playtimeHours": 6.1,
-        "blocksTravelled": 10515,
+        "playtimeHours": 6.2,
+        "blocksTravelled": 10741,
         "blocksBroken": 140,
         "blocksPlaced": 31,
         "deepestY": 105,
-        "lastSeen": 1784136817,
+        "lastSeen": 1784136977,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
