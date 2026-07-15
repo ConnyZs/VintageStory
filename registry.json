@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-192622",
+  "generated": "20260715-192822",
   "game_version": "1.22.3",
   "check_ts": "20260715-151611",
   "latest_engine": "1.22.3",
@@ -2056,12 +2056,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 39.8,
-        "blocksTravelled": 95148,
+        "playtimeHours": 39.9,
+        "blocksTravelled": 95161,
         "blocksBroken": 4425,
         "blocksPlaced": 289,
         "deepestY": 28,
-        "lastSeen": 1784136373,
+        "lastSeen": 1784136456,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2558,12 +2558,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 101.1,
-        "blocksTravelled": 101548,
+        "playtimeHours": 101.2,
+        "blocksTravelled": 101614,
         "blocksBroken": 6967,
         "blocksPlaced": 4526,
         "deepestY": 24,
-        "lastSeen": 1784136373,
+        "lastSeen": 1784136456,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2832,7 +2832,7 @@
         "blocksBroken": 140,
         "blocksPlaced": 31,
         "deepestY": 105,
-        "lastSeen": 1784136373,
+        "lastSeen": 1784136456,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
@@ -2890,6 +2890,73 @@
             "slot": "armorhead",
             "code": "game:armor-head-tailored-plain-linen",
             "name": "Tailored gamboised helmet"
+          },
+          {
+            "slot": "bag-3",
+            "code": "game:clothes-upperbody-tailor-blouse",
+            "name": "Tailor blouse",
+            "icon": "character/icons/upperbody-tailor-blouse.png"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:clothes-lowerbody-tailor-trousers",
+            "name": "Tailor trousers",
+            "icon": "character/icons/lowerbody-tailor-trousers.png"
+          },
+          {
+            "slot": "bag-5",
+            "code": "game:clothes-foot-tailor-shoes",
+            "name": "Tailor shoes",
+            "icon": "character/icons/foot-tailor-shoes.png"
+          },
+          {
+            "slot": "bag-6",
+            "code": "game:clothes-hand-tailor-gloves",
+            "name": "Tailor gloves",
+            "icon": "character/icons/hand-tailor-gloves.png"
+          },
+          {
+            "slot": "bag-10",
+            "code": "game:clothes-waist-tailor-belt",
+            "name": "Tailor belt",
+            "icon": "character/icons/waist-tailor-belt.png"
+          },
+          {
+            "slot": "bag-11",
+            "code": "game:clothes-arm-tailor-needlepuff",
+            "name": "Tailor needle puff",
+            "icon": "character/icons/arm-tailor-needlepuff.png"
+          },
+          {
+            "slot": "bag-12",
+            "code": "game:clothes-upperbodyover-tailor-jacket",
+            "name": "Tailor jacket",
+            "icon": "character/icons/upperbodyover-tailor-jacket.png"
+          },
+          {
+            "slot": "bag-13",
+            "code": "game:armor-head-tailored-plain-linen",
+            "name": "Tailored gamboised helmet"
+          },
+          {
+            "slot": "bag-57",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-58",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-59",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-60",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           }
         ],
         "skin": {
