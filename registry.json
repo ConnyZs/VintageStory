@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-215631",
+  "generated": "20260715-215831",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2068,11 +2068,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 41.5,
-        "blocksTravelled": 103803,
+        "blocksTravelled": 103883,
         "blocksBroken": 4457,
         "blocksPlaced": 304,
         "deepestY": 28,
-        "lastSeen": 1784145343,
+        "lastSeen": 1784145463,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2282,12 +2282,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 47.3,
-        "blocksTravelled": 49353,
+        "playtimeHours": 47.4,
+        "blocksTravelled": 49560,
         "blocksBroken": 1186,
         "blocksPlaced": 882,
         "deepestY": 105,
-        "lastSeen": 1784145343,
+        "lastSeen": 1784145463,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2619,7 +2619,7 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 55,
+        "mobKills": 56,
         "mealsEaten": 34,
         "caloriesConsumed": 7321,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
@@ -2642,12 +2642,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 103.6,
-        "blocksTravelled": 104844,
-        "blocksBroken": 7208,
-        "blocksPlaced": 4680,
+        "playtimeHours": 103.7,
+        "blocksTravelled": 104914,
+        "blocksBroken": 7215,
+        "blocksPlaced": 4687,
         "deepestY": 24,
-        "lastSeen": 1784145343,
+        "lastSeen": 1784145463,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2920,12 +2920,12 @@
           "shiver-deepsplit": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 8.4,
-        "blocksTravelled": 15161,
-        "blocksBroken": 243,
-        "blocksPlaced": 99,
+        "playtimeHours": 8.5,
+        "blocksTravelled": 15181,
+        "blocksBroken": 248,
+        "blocksPlaced": 104,
         "deepestY": 105,
-        "lastSeen": 1784145343,
+        "lastSeen": 1784145463,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
