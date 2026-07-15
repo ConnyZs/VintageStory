@@ -11,7 +11,7 @@
     "beard",
     "facialexpression",
     "Messenger hat",
-    "Artisans scarf",
+    "Embroidered tartar scarf",
     "Scarlet ornate linen tunic",
     "Scarlet ornate linen tunic",
     "Marketeer pants",
@@ -20,11 +20,11 @@
     "Forlorn Hope talisman",
     "Cursed gemstone",
     "Malefactor whitewood mask",
-    "Forlorn Hope belt",
-    "Squire bracers"
+    "Squire bracers",
+    "Forgotten noble robe"
    ],
    "frames": 16,
-   "v": 1784146493
+   "v": 1784147814
   },
   "Eghetti": {
    "class": "smith",

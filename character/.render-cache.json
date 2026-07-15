@@ -1,6 +1,6 @@
 {
  "Raschuetzer": {
-  "hash": "2464721eb1e8fface9b1ddc9a8caf3d2931fd092",
+  "hash": "29e9939f862d40dea85be6fa87a3b5dccc0dfe09",
   "info": {
    "class": "tinker",
    "items": [
@@ -10,7 +10,7 @@
     "beard",
     "facialexpression",
     "Messenger hat",
-    "Artisans scarf",
+    "Embroidered tartar scarf",
     "Scarlet ornate linen tunic",
     "Scarlet ornate linen tunic",
     "Marketeer pants",
@@ -19,11 +19,11 @@
     "Forlorn Hope talisman",
     "Cursed gemstone",
     "Malefactor whitewood mask",
-    "Forlorn Hope belt",
-    "Squire bracers"
+    "Squire bracers",
+    "Forgotten noble robe"
    ],
    "frames": 16,
-   "v": 1784146493
+   "v": 1784147814
   }
  },
  "Eghetti": {
