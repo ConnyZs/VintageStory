@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-223633",
+  "generated": "20260715-223834",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2068,11 +2068,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 42.2,
-        "blocksTravelled": 106892,
+        "blocksTravelled": 106922,
         "blocksBroken": 4460,
         "blocksPlaced": 306,
         "deepestY": 28,
-        "lastSeen": 1784147745,
+        "lastSeen": 1784147865,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2083,6 +2083,7 @@
           "Forlorn Hope talisman",
           "Cursed gemstone",
           "Malefactor whitewood mask",
+          "Marketeer belt",
           "Squire bracers",
           "Forgotten noble robe"
         ],
@@ -2138,6 +2139,12 @@
             "code": "game:clothes-face-malefactor-mask",
             "name": "Malefactor whitewood mask",
             "icon": "character/icons/face-malefactor-mask.png"
+          },
+          {
+            "slot": "waist",
+            "code": "game:clothes-waist-marketeer",
+            "name": "Marketeer belt",
+            "icon": "character/icons/waist-marketeer.png"
           },
           {
             "slot": "arm",
@@ -2202,6 +2209,12 @@
             "code": "game:clothes-face-malefactor-mask",
             "name": "Malefactor whitewood mask",
             "icon": "character/icons/face-malefactor-mask.png"
+          },
+          {
+            "slot": "bag-10",
+            "code": "game:clothes-waist-marketeer",
+            "name": "Marketeer belt",
+            "icon": "character/icons/waist-marketeer.png"
           },
           {
             "slot": "bag-11",
@@ -2283,11 +2296,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 48.0,
-        "blocksTravelled": 51233,
+        "blocksTravelled": 51328,
         "blocksBroken": 1209,
         "blocksPlaced": 895,
         "deepestY": 105,
-        "lastSeen": 1784147745,
+        "lastSeen": 1784147865,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2464,16 +2477,17 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 19,
-        "mobKills": 214,
-        "mealsEaten": 3,
-        "caloriesConsumed": 1024,
-        "lastMeal": "Meat pie",
+        "mobKills": 215,
+        "mealsEaten": 6,
+        "caloriesConsumed": 1324,
+        "lastMeal": "Smoked Plain Bushmeat",
         "mealsByName": {
-          "Meat pie": 3
+          "Meat pie": 3,
+          "Smoked Plain Bushmeat": 3
         },
         "foodCatCounts": {
           "Grain": 3,
-          "Protein": 3,
+          "Protein": 6,
           "Vegetable": 3
         },
         "deathCauses": {
@@ -2483,11 +2497,11 @@
           "pig-eurasian-adult-female": 1
         },
         "playtimeHours": 24.1,
-        "blocksTravelled": 120893,
+        "blocksTravelled": 121120,
         "blocksBroken": 8165,
-        "blocksPlaced": 1766,
+        "blocksPlaced": 1767,
         "deepestY": 23,
-        "lastSeen": 1784147745,
+        "lastSeen": 1784147865,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2724,11 +2738,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 104.3,
-        "blocksTravelled": 109491,
-        "blocksBroken": 7283,
-        "blocksPlaced": 4831,
+        "blocksTravelled": 109640,
+        "blocksBroken": 7290,
+        "blocksPlaced": 4838,
         "deepestY": 24,
-        "lastSeen": 1784147745,
+        "lastSeen": 1784147865,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -3002,11 +3016,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 9.1,
-        "blocksTravelled": 15799,
+        "blocksTravelled": 15935,
         "blocksBroken": 253,
         "blocksPlaced": 115,
         "deepestY": 105,
-        "lastSeen": 1784147745,
+        "lastSeen": 1784147865,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
