@@ -55,14 +55,21 @@
     "mustache",
     "beard",
     "facialexpression",
+    "Rotwalker cape",
+    "Rotwalker cape",
+    "Tattered crimson tunic",
     "Nomad trousers",
     "Wool lined knee-high boots",
     "Survivor gloves",
     "Acorn amulet",
-    "Leather bracers"
+    "Rotten king mask",
+    "Marketeer belt",
+    "Leather bracers",
+    "Rotwalker coat",
+    "Rotwalker coat"
    ],
    "frames": 16,
-   "v": 1784149733
+   "v": 1784149857
   },
   "Moritz": {
    "class": "mason",
@@ -110,11 +117,14 @@
     "mustache",
     "beard",
     "facialexpression",
+    "Tailor blouse",
+    "Tailor blouse",
     "Tailor shoes",
-    "Tailor gloves"
+    "Tailor gloves",
+    "Tailor belt"
    ],
    "frames": 16,
-   "v": 1784149749
+   "v": 1784149874
   }
  }
 }

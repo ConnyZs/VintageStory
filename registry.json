@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-230835",
+  "generated": "20260715-231035",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2045,27 +2045,28 @@
         "name": "Raschuetzer",
         "class": "tinker",
         "deaths": 6,
-        "mobKills": 72,
-        "mealsEaten": 24,
-        "caloriesConsumed": 9950,
-        "lastMeal": "Cooked dumplings",
+        "mobKills": 73,
+        "mealsEaten": 26,
+        "caloriesConsumed": 10502,
+        "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Pear": 3,
           "Meat pie": 4,
-          "Earthy orange ceramic bowl of meat stew": 7,
+          "Earthy orange ceramic bowl of meat stew": 8,
           "Strawberry": 2,
           "Blackcurrant": 3,
           "Rye bread": 1,
           "Syrup-covered muffin": 1,
           "Leather-bound Oak Tankard": 2,
-          "Cooked dumplings": 1
+          "Cooked dumplings": 1,
+          "Pear pie (charred)": 1
         },
         "foodCatCounts": {
-          "Fruit": 11,
-          "Grain": 7,
-          "Protein": 13,
+          "Fruit": 12,
+          "Grain": 9,
+          "Protein": 14,
           "Vegetable": 8,
-          "Dairy": 3
+          "Dairy": 5
         },
         "deathCauses": {
           "wolf-eurasian-adult-male": 1,
@@ -2073,11 +2074,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 42.7,
-        "blocksTravelled": 109074,
+        "blocksTravelled": 109117,
         "blocksBroken": 4481,
-        "blocksPlaced": 332,
+        "blocksPlaced": 335,
         "deepestY": 28,
-        "lastSeen": 1784149666,
+        "lastSeen": 1784149786,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2280,7 +2281,7 @@
         "name": "Eghetti",
         "class": "smith",
         "deaths": 2,
-        "mobKills": 50,
+        "mobKills": 51,
         "mealsEaten": 25,
         "caloriesConsumed": 11336,
         "lastMeal": "Rye bread",
@@ -2304,12 +2305,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 48.5,
-        "blocksTravelled": 53329,
+        "playtimeHours": 48.6,
+        "blocksTravelled": 53411,
         "blocksBroken": 1210,
         "blocksPlaced": 896,
         "deepestY": 105,
-        "lastSeen": 1784149666,
+        "lastSeen": 1784149786,
         "gear": [
           "Raccoon tail hat",
           "Workmans pants",
@@ -2462,14 +2463,14 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 19,
-        "mobKills": 216,
-        "mealsEaten": 16,
-        "caloriesConsumed": 4149,
-        "lastMeal": "Syrup-covered muffin",
+        "mobKills": 218,
+        "mealsEaten": 17,
+        "caloriesConsumed": 4511,
+        "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Meat pie": 3,
           "Smoked Plain Bushmeat": 3,
-          "Earthy orange ceramic bowl of meat stew": 1,
+          "Earthy orange ceramic bowl of meat stew": 2,
           "Blueberry": 5,
           "Pear pie (charred)": 1,
           "Rye bread": 1,
@@ -2477,11 +2478,11 @@
           "Syrup-covered muffin": 1
         },
         "foodCatCounts": {
-          "Grain": 6,
-          "Protein": 8,
+          "Grain": 7,
+          "Protein": 9,
           "Vegetable": 4,
           "Fruit": 8,
-          "Dairy": 3
+          "Dairy": 4
         },
         "deathCauses": {
           "bear-brown-adult-female": 1,
@@ -2490,19 +2491,38 @@
           "pig-eurasian-adult-female": 1
         },
         "playtimeHours": 24.6,
-        "blocksTravelled": 123071,
+        "blocksTravelled": 123126,
         "blocksBroken": 8169,
-        "blocksPlaced": 1776,
+        "blocksPlaced": 1777,
         "deepestY": 23,
-        "lastSeen": 1784149666,
+        "lastSeen": 1784149786,
         "gear": [
+          "Rotwalker cape",
+          "Tattered crimson tunic",
           "Nomad trousers",
           "Wool lined knee-high boots",
           "Survivor gloves",
           "Acorn amulet",
-          "Leather bracers"
+          "Rotten king mask",
+          "Marketeer belt",
+          "Leather bracers",
+          "Rotwalker coat",
+          "Black bear hide helmet",
+          "Black bear hide body armor"
         ],
         "gearDetail": [
+          {
+            "slot": "shoulder",
+            "code": "game:clothes-shoulder-rotwalker",
+            "name": "Rotwalker cape",
+            "icon": "character/icons/shoulder-rotwalker.png"
+          },
+          {
+            "slot": "upperbody",
+            "code": "game:clothes-upperbody-tattered-crimson-tunic",
+            "name": "Tattered crimson tunic",
+            "icon": "character/icons/upperbody-tattered-crimson-tunic.png"
+          },
           {
             "slot": "lowerbody",
             "code": "game:clothes-lowerbody-nomad-trousers",
@@ -2527,10 +2547,50 @@
             "name": "Acorn amulet"
           },
           {
+            "slot": "face",
+            "code": "game:clothes-face-rottenking",
+            "name": "Rotten king mask",
+            "icon": "character/icons/face-rottenking.png"
+          },
+          {
+            "slot": "waist",
+            "code": "game:clothes-waist-marketeer",
+            "name": "Marketeer belt",
+            "icon": "character/icons/waist-marketeer.png"
+          },
+          {
             "slot": "arm",
             "code": "game:clothes-arm-leather-bracers",
             "name": "Leather bracers",
             "icon": "character/icons/arm-leather-bracers.png"
+          },
+          {
+            "slot": "upperbodyover",
+            "code": "game:clothes-upperbodyover-rotwalker",
+            "name": "Rotwalker coat",
+            "icon": "character/icons/upperbodyover-rotwalker.png"
+          },
+          {
+            "slot": "armorhead",
+            "code": "game:armor-head-hide-bear-black",
+            "name": "Black bear hide helmet"
+          },
+          {
+            "slot": "armorbody",
+            "code": "game:armor-body-hide-bear-black",
+            "name": "Black bear hide body armor"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:clothes-shoulder-rotwalker",
+            "name": "Rotwalker cape",
+            "icon": "character/icons/shoulder-rotwalker.png"
+          },
+          {
+            "slot": "bag-3",
+            "code": "game:clothes-upperbody-tattered-crimson-tunic",
+            "name": "Tattered crimson tunic",
+            "icon": "character/icons/upperbody-tattered-crimson-tunic.png"
           },
           {
             "slot": "bag-4",
@@ -2556,10 +2616,38 @@
             "name": "Acorn amulet"
           },
           {
+            "slot": "bag-9",
+            "code": "game:clothes-face-rottenking",
+            "name": "Rotten king mask",
+            "icon": "character/icons/face-rottenking.png"
+          },
+          {
+            "slot": "bag-10",
+            "code": "game:clothes-waist-marketeer",
+            "name": "Marketeer belt",
+            "icon": "character/icons/waist-marketeer.png"
+          },
+          {
             "slot": "bag-11",
             "code": "game:clothes-arm-leather-bracers",
             "name": "Leather bracers",
             "icon": "character/icons/arm-leather-bracers.png"
+          },
+          {
+            "slot": "bag-12",
+            "code": "game:clothes-upperbodyover-rotwalker",
+            "name": "Rotwalker coat",
+            "icon": "character/icons/upperbodyover-rotwalker.png"
+          },
+          {
+            "slot": "bag-13",
+            "code": "game:armor-head-hide-bear-black",
+            "name": "Black bear hide helmet"
+          },
+          {
+            "slot": "bag-14",
+            "code": "game:armor-body-hide-bear-black",
+            "name": "Black bear hide body armor"
           },
           {
             "slot": "bag-57",
@@ -2608,10 +2696,10 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 61,
-        "mealsEaten": 48,
-        "caloriesConsumed": 12012,
-        "lastMeal": "Pear",
+        "mobKills": 64,
+        "mealsEaten": 50,
+        "caloriesConsumed": 13452,
+        "lastMeal": "Syrup-covered fruit bread",
         "mealsByName": {
           "Cranberry": 5,
           "Meat pie": 1,
@@ -2623,24 +2711,25 @@
           "Pear": 4,
           "Rye bread": 1,
           "Leather-bound Oak Tankard": 2,
-          "Syrup-covered muffin": 1
+          "Syrup-covered muffin": 2,
+          "Syrup-covered fruit bread": 1
         },
         "foodCatCounts": {
-          "Fruit": 19,
-          "Grain": 11,
-          "Protein": 27,
+          "Fruit": 21,
+          "Grain": 13,
+          "Protein": 28,
           "Vegetable": 14,
-          "Dairy": 3
+          "Dairy": 5
         },
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 104.8,
-        "blocksTravelled": 112318,
+        "playtimeHours": 104.9,
+        "blocksTravelled": 112389,
         "blocksBroken": 7303,
         "blocksPlaced": 4860,
         "deepestY": 24,
-        "lastSeen": 1784149666,
+        "lastSeen": 1784149786,
         "gear": [
           "Linen tunic",
           "Workmans pants",
@@ -2875,22 +2964,23 @@
         "class": "tailor",
         "deaths": 4,
         "mobKills": 9,
-        "mealsEaten": 21,
-        "caloriesConsumed": 10161,
-        "lastMeal": "Earthy orange ceramic bowl of meat stew",
+        "mealsEaten": 23,
+        "caloriesConsumed": 10536,
+        "lastMeal": "Cranberry",
         "mealsByName": {
           "Earthy orange ceramic bowl of meat stew": 10,
           "Meat pie": 8,
           "Leather-bound Oak Tankard": 1,
           "Pear pie (charred)": 1,
-          "Rye bread": 1
+          "Rye bread": 2,
+          "Cranberry": 1
         },
         "foodCatCounts": {
           "Protein": 18,
           "Vegetable": 12,
-          "Grain": 12,
-          "Fruit": 2,
-          "Dairy": 4
+          "Grain": 13,
+          "Fruit": 3,
+          "Dairy": 5
         },
         "deathCauses": {
           "bear-brown-adult-female": 1,
@@ -2898,17 +2988,26 @@
           "shiver-deepsplit": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 9.6,
-        "blocksTravelled": 17189,
+        "playtimeHours": 9.7,
+        "blocksTravelled": 17226,
         "blocksBroken": 259,
         "blocksPlaced": 172,
         "deepestY": 105,
-        "lastSeen": 1784149666,
+        "lastSeen": 1784149786,
         "gear": [
+          "Tailor blouse",
           "Tailor shoes",
-          "Tailor gloves"
+          "Tailor gloves",
+          "Tailor belt",
+          "Tailored gamboised helmet"
         ],
         "gearDetail": [
+          {
+            "slot": "upperbody",
+            "code": "game:clothes-upperbody-tailor-blouse",
+            "name": "Tailor blouse",
+            "icon": "character/icons/upperbody-tailor-blouse.png"
+          },
           {
             "slot": "foot",
             "code": "game:clothes-foot-tailor-shoes",
@@ -2922,6 +3021,23 @@
             "icon": "character/icons/hand-tailor-gloves.png"
           },
           {
+            "slot": "waist",
+            "code": "game:clothes-waist-tailor-belt",
+            "name": "Tailor belt",
+            "icon": "character/icons/waist-tailor-belt.png"
+          },
+          {
+            "slot": "armorhead",
+            "code": "game:armor-head-tailored-plain-linen",
+            "name": "Tailored gamboised helmet"
+          },
+          {
+            "slot": "bag-3",
+            "code": "game:clothes-upperbody-tailor-blouse",
+            "name": "Tailor blouse",
+            "icon": "character/icons/upperbody-tailor-blouse.png"
+          },
+          {
             "slot": "bag-5",
             "code": "game:clothes-foot-tailor-shoes",
             "name": "Tailor shoes",
@@ -2932,6 +3048,17 @@
             "code": "game:clothes-hand-tailor-gloves",
             "name": "Tailor gloves",
             "icon": "character/icons/hand-tailor-gloves.png"
+          },
+          {
+            "slot": "bag-10",
+            "code": "game:clothes-waist-tailor-belt",
+            "name": "Tailor belt",
+            "icon": "character/icons/waist-tailor-belt.png"
+          },
+          {
+            "slot": "bag-13",
+            "code": "game:armor-head-tailored-plain-linen",
+            "name": "Tailored gamboised helmet"
           },
           {
             "slot": "bag-57",
