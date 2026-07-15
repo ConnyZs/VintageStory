@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-225434",
+  "generated": "20260715-225635",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2070,11 +2070,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 42.5,
-        "blocksTravelled": 108440,
+        "blocksTravelled": 108611,
         "blocksBroken": 4460,
         "blocksPlaced": 306,
         "deepestY": 28,
-        "lastSeen": 1784148825,
+        "lastSeen": 1784148945,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2299,11 +2299,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 48.3,
-        "blocksTravelled": 52547,
+        "blocksTravelled": 52732,
         "blocksBroken": 1209,
         "blocksPlaced": 896,
         "deepestY": 105,
-        "lastSeen": 1784148825,
+        "lastSeen": 1784148945,
         "gear": [
           "Raccoon tail hat",
           "Workmans pants",
@@ -2478,12 +2478,12 @@
           "pig-eurasian-adult-male": 1,
           "pig-eurasian-adult-female": 1
         },
-        "playtimeHours": 24.3,
-        "blocksTravelled": 122563,
+        "playtimeHours": 24.4,
+        "blocksTravelled": 122745,
         "blocksBroken": 8168,
         "blocksPlaced": 1774,
         "deepestY": 23,
-        "lastSeen": 1784148825,
+        "lastSeen": 1784148945,
         "gear": [
           "Jester cowl",
           "Tattered crimson tunic",
@@ -2646,17 +2646,18 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 104.6,
-        "blocksTravelled": 111386,
+        "blocksTravelled": 111585,
         "blocksBroken": 7298,
         "blocksPlaced": 4852,
         "deepestY": 24,
-        "lastSeen": 1784148825,
+        "lastSeen": 1784148945,
         "gear": [
           "Linen tunic",
           "Workmans pants",
           "Forlorn Hope shoes",
           "Scribe gloves",
           "Jade amulet",
+          "Festive cat mask",
           "Sturdy belt",
           "Large silver bracelets",
           "Fortune teller vest"
@@ -2689,6 +2690,12 @@
             "slot": "neck",
             "code": "game:clothes-neck-jade-amulet",
             "name": "Jade amulet"
+          },
+          {
+            "slot": "face",
+            "code": "game:clothes-face-festivecat",
+            "name": "Festive cat mask",
+            "icon": "character/icons/face-festivecat.png"
           },
           {
             "slot": "waist",
@@ -2734,6 +2741,12 @@
             "slot": "bag-7",
             "code": "game:clothes-neck-jade-amulet",
             "name": "Jade amulet"
+          },
+          {
+            "slot": "bag-9",
+            "code": "game:clothes-face-festivecat",
+            "name": "Festive cat mask",
+            "icon": "character/icons/face-festivecat.png"
           },
           {
             "slot": "bag-10",
@@ -2891,21 +2904,18 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 9.4,
-        "blocksTravelled": 16576,
+        "blocksTravelled": 16782,
         "blocksBroken": 254,
         "blocksPlaced": 168,
         "deepestY": 105,
-        "lastSeen": 1784148825,
+        "lastSeen": 1784148945,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
           "Tailor shoes",
           "Tailor gloves",
           "Tailor belt",
-          "Tailor needle puff",
-          "Tailor jacket",
-          "Tailored gamboised helmet",
-          "Tailored gamboised leg armor"
+          "Tailor jacket"
         ],
         "gearDetail": [
           {
@@ -2939,26 +2949,10 @@
             "icon": "character/icons/waist-tailor-belt.png"
           },
           {
-            "slot": "arm",
-            "code": "game:clothes-arm-tailor-needlepuff",
-            "name": "Tailor needle puff",
-            "icon": "character/icons/arm-tailor-needlepuff.png"
-          },
-          {
             "slot": "upperbodyover",
             "code": "game:clothes-upperbodyover-tailor-jacket",
             "name": "Tailor jacket",
             "icon": "character/icons/upperbodyover-tailor-jacket.png"
-          },
-          {
-            "slot": "armorhead",
-            "code": "game:armor-head-tailored-plain-linen",
-            "name": "Tailored gamboised helmet"
-          },
-          {
-            "slot": "armorlegs",
-            "code": "game:armor-legs-tailored-plain-linen",
-            "name": "Tailored gamboised leg armor"
           },
           {
             "slot": "bag-3",
@@ -2991,26 +2985,10 @@
             "icon": "character/icons/waist-tailor-belt.png"
           },
           {
-            "slot": "bag-11",
-            "code": "game:clothes-arm-tailor-needlepuff",
-            "name": "Tailor needle puff",
-            "icon": "character/icons/arm-tailor-needlepuff.png"
-          },
-          {
             "slot": "bag-12",
             "code": "game:clothes-upperbodyover-tailor-jacket",
             "name": "Tailor jacket",
             "icon": "character/icons/upperbodyover-tailor-jacket.png"
-          },
-          {
-            "slot": "bag-13",
-            "code": "game:armor-head-tailored-plain-linen",
-            "name": "Tailored gamboised helmet"
-          },
-          {
-            "slot": "bag-15",
-            "code": "game:armor-legs-tailored-plain-linen",
-            "name": "Tailored gamboised leg armor"
           },
           {
             "slot": "bag-57",

@@ -51,7 +51,7 @@
   }
  },
  "Moritz": {
-  "hash": "89e59acf7ccbabcea7e51058d73566c9ed07fbe5",
+  "hash": "1b8fcdde7198367a5ebdd8ed8bc0d66394f06d02",
   "info": {
    "class": "mason",
    "items": [
@@ -63,12 +63,13 @@
     "Forlorn Hope shoes",
     "Scribe gloves",
     "Jade amulet",
+    "Festive cat mask",
     "Sturdy belt",
     "Large silver bracelets",
     "Fortune teller vest"
    ],
    "frames": 16,
-   "v": 1784148912
+   "v": 1784149015
   }
  },
  "AddyBuschu": {
@@ -117,7 +118,7 @@
   }
  },
  "Morsel": {
-  "hash": "00b64844c9caf77eba49734a0d087568eb4cfd0e",
+  "hash": "c81f9635faf727bfc2b606accc1e8dbabcabd120",
   "info": {
    "class": "tailor",
    "items": [
@@ -132,11 +133,10 @@
     "Tailor shoes",
     "Tailor gloves",
     "Tailor belt",
-    "Tailor needle puff",
     "Tailor jacket"
    ],
    "frames": 16,
-   "v": 1784137721
+   "v": 1784149033
   }
  }
 }

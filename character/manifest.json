@@ -78,12 +78,13 @@
     "Forlorn Hope shoes",
     "Scribe gloves",
     "Jade amulet",
+    "Festive cat mask",
     "Sturdy belt",
     "Large silver bracelets",
     "Fortune teller vest"
    ],
    "frames": 16,
-   "v": 1784148912
+   "v": 1784149015
   },
   "Barberschascher": {
    "class": "miner",
@@ -118,11 +119,10 @@
     "Tailor shoes",
     "Tailor gloves",
     "Tailor belt",
-    "Tailor needle puff",
     "Tailor jacket"
    ],
    "frames": 16,
-   "v": 1784137721
+   "v": 1784149033
   }
  }
 }
