@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-220832",
+  "generated": "20260715-221032",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2045,7 +2045,7 @@
         "name": "Raschuetzer",
         "class": "tinker",
         "deaths": 6,
-        "mobKills": 70,
+        "mobKills": 71,
         "mealsEaten": 17,
         "caloriesConsumed": 6055,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
@@ -2068,11 +2068,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 41.7,
-        "blocksTravelled": 104583,
+        "blocksTravelled": 105080,
         "blocksBroken": 4460,
         "blocksPlaced": 306,
         "deepestY": 28,
-        "lastSeen": 1784146063,
+        "lastSeen": 1784146183,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2232,8 +2232,8 @@
           },
           {
             "slot": "bag-60",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "code": "butchering:deadpig-female-eurasian-elder-1-dead",
+            "name": "Pig (dead)"
           }
         ],
         "skin": {
@@ -2282,12 +2282,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 47.5,
-        "blocksTravelled": 49767,
+        "playtimeHours": 47.6,
+        "blocksTravelled": 49902,
         "blocksBroken": 1206,
         "blocksPlaced": 890,
         "deepestY": 105,
-        "lastSeen": 1784146063,
+        "lastSeen": 1784146183,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2642,12 +2642,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 103.8,
-        "blocksTravelled": 105699,
+        "playtimeHours": 103.9,
+        "blocksTravelled": 105740,
         "blocksBroken": 7253,
         "blocksPlaced": 4715,
         "deepestY": 24,
-        "lastSeen": 1784146063,
+        "lastSeen": 1784146183,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
