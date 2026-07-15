@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-232436",
+  "generated": "20260715-232636",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2074,11 +2074,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 43.0,
-        "blocksTravelled": 110140,
+        "blocksTravelled": 110207,
         "blocksBroken": 4481,
         "blocksPlaced": 336,
         "deepestY": 28,
-        "lastSeen": 1784150627,
+        "lastSeen": 1784150747,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2488,8 +2488,8 @@
         "class": "homesteader",
         "deaths": 21,
         "mobKills": 221,
-        "mealsEaten": 24,
-        "caloriesConsumed": 6347,
+        "mealsEaten": 32,
+        "caloriesConsumed": 6987,
         "lastMeal": "Blackcurrant",
         "mealsByName": {
           "Meat pie": 5,
@@ -2501,13 +2501,13 @@
           "Leather-bound Oak Tankard": 1,
           "Syrup-covered muffin": 1,
           "Cranberry": 3,
-          "Blackcurrant": 2
+          "Blackcurrant": 10
         },
         "foodCatCounts": {
           "Grain": 9,
           "Protein": 11,
           "Vegetable": 6,
-          "Fruit": 13,
+          "Fruit": 21,
           "Dairy": 4
         },
         "deathCauses": {
@@ -2518,12 +2518,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 1
         },
-        "playtimeHours": 24.8,
-        "blocksTravelled": 124468,
-        "blocksBroken": 8169,
+        "playtimeHours": 24.9,
+        "blocksTravelled": 124711,
+        "blocksBroken": 8213,
         "blocksPlaced": 1780,
         "deepestY": 23,
-        "lastSeen": 1784150627,
+        "lastSeen": 1784150747,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2725,16 +2725,16 @@
         "class": "mason",
         "deaths": 1,
         "mobKills": 66,
-        "mealsEaten": 66,
+        "mealsEaten": 67,
         "caloriesConsumed": 14580,
-        "lastMeal": "Redcurrant",
+        "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Cranberry": 18,
           "Meat pie": 1,
           "Cranberry pie": 7,
           "Earthy orange ceramic bowl of soup": 1,
           "Wooden bucket": 1,
-          "Earthy orange ceramic bowl of meat stew": 25,
+          "Earthy orange ceramic bowl of meat stew": 26,
           "Chopped cabbage": 1,
           "Pear": 4,
           "Rye bread": 1,
@@ -2745,20 +2745,20 @@
         },
         "foodCatCounts": {
           "Fruit": 36,
-          "Grain": 14,
-          "Protein": 29,
+          "Grain": 15,
+          "Protein": 30,
           "Vegetable": 14,
-          "Dairy": 6
+          "Dairy": 7
         },
         "deathCauses": {
           "shiver-corrupt": 1
         },
         "playtimeHours": 105.1,
-        "blocksTravelled": 113423,
+        "blocksTravelled": 113448,
         "blocksBroken": 7328,
         "blocksPlaced": 4880,
         "deepestY": 24,
-        "lastSeen": 1784150627,
+        "lastSeen": 1784150747,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -3042,7 +3042,7 @@
         "blocksBroken": 278,
         "blocksPlaced": 172,
         "deepestY": 105,
-        "lastSeen": 1784150627,
+        "lastSeen": 1784150747,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
