@@ -73,7 +73,7 @@
   }
  },
  "AddyBuschu": {
-  "hash": "fca70cfc185fd24f91c8a5db44a1461ed2264d12",
+  "hash": "f476298a5e0284b00034424a9734cc6623eee262",
   "info": {
    "class": "homesteader",
    "items": [
@@ -88,11 +88,12 @@
     "Wool lined knee-high boots",
     "Survivor gloves",
     "Acorn amulet",
+    "Leather bracers",
     "Traveler's earthrobe",
     "Traveler's earthrobe"
    ],
    "frames": 16,
-   "v": 1784148775
+   "v": 1784149255
   }
  },
  "Barberschascher": {

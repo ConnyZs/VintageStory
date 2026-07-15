@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-225835",
+  "generated": "20260715-230035",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2046,11 +2046,11 @@
         "class": "tinker",
         "deaths": 6,
         "mobKills": 71,
-        "mealsEaten": 22,
-        "caloriesConsumed": 8750,
-        "lastMeal": "Leather-bound Oak Tankard",
+        "mealsEaten": 23,
+        "caloriesConsumed": 8830,
+        "lastMeal": "Pear",
         "mealsByName": {
-          "Pear": 2,
+          "Pear": 3,
           "Meat pie": 4,
           "Earthy orange ceramic bowl of meat stew": 7,
           "Strawberry": 2,
@@ -2060,7 +2060,7 @@
           "Leather-bound Oak Tankard": 2
         },
         "foodCatCounts": {
-          "Fruit": 10,
+          "Fruit": 11,
           "Grain": 6,
           "Protein": 12,
           "Vegetable": 8,
@@ -2071,12 +2071,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 42.5,
-        "blocksTravelled": 108832,
+        "playtimeHours": 42.6,
+        "blocksTravelled": 108853,
         "blocksBroken": 4460,
-        "blocksPlaced": 310,
+        "blocksPlaced": 313,
         "deepestY": 28,
-        "lastSeen": 1784149066,
+        "lastSeen": 1784149186,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2280,11 +2280,11 @@
         "class": "smith",
         "deaths": 2,
         "mobKills": 49,
-        "mealsEaten": 23,
-        "caloriesConsumed": 9681,
-        "lastMeal": "Leather-bound Oak Tankard",
+        "mealsEaten": 24,
+        "caloriesConsumed": 11021,
+        "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
-          "Earthy orange ceramic bowl of meat stew": 15,
+          "Earthy orange ceramic bowl of meat stew": 16,
           "Meat pie": 3,
           "Earthy orange ceramic bowl of soup": 1,
           "Pear": 1,
@@ -2292,21 +2292,22 @@
           "Leather-bound Oak Tankard": 1
         },
         "foodCatCounts": {
-          "Protein": 21,
+          "Protein": 22,
           "Vegetable": 14,
-          "Grain": 4,
-          "Fruit": 2
+          "Grain": 5,
+          "Fruit": 2,
+          "Dairy": 1
         },
         "deathCauses": {
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
         "playtimeHours": 48.4,
-        "blocksTravelled": 52953,
+        "blocksTravelled": 52973,
         "blocksBroken": 1210,
         "blocksPlaced": 896,
         "deepestY": 105,
-        "lastSeen": 1784149066,
+        "lastSeen": 1784149186,
         "gear": [
           "Raccoon tail hat",
           "Workmans pants",
@@ -2486,11 +2487,11 @@
           "pig-eurasian-adult-female": 1
         },
         "playtimeHours": 24.4,
-        "blocksTravelled": 122969,
+        "blocksTravelled": 122977,
         "blocksBroken": 8168,
         "blocksPlaced": 1774,
         "deepestY": 23,
-        "lastSeen": 1784149066,
+        "lastSeen": 1784149186,
         "gear": [
           "Jester cowl",
           "Tattered crimson tunic",
@@ -2498,6 +2499,7 @@
           "Wool lined knee-high boots",
           "Survivor gloves",
           "Acorn amulet",
+          "Leather bracers",
           "Traveler's earthrobe"
         ],
         "gearDetail": [
@@ -2534,6 +2536,12 @@
             "slot": "neck",
             "code": "game:clothes-neck-acorn-amulet",
             "name": "Acorn amulet"
+          },
+          {
+            "slot": "arm",
+            "code": "game:clothes-arm-leather-bracers",
+            "name": "Leather bracers",
+            "icon": "character/icons/arm-leather-bracers.png"
           },
           {
             "slot": "upperbodyover",
@@ -2574,6 +2582,12 @@
             "slot": "bag-7",
             "code": "game:clothes-neck-acorn-amulet",
             "name": "Acorn amulet"
+          },
+          {
+            "slot": "bag-11",
+            "code": "game:clothes-arm-leather-bracers",
+            "name": "Leather bracers",
+            "icon": "character/icons/arm-leather-bracers.png"
           },
           {
             "slot": "bag-12",
@@ -2629,9 +2643,9 @@
         "class": "mason",
         "deaths": 1,
         "mobKills": 56,
-        "mealsEaten": 45,
-        "caloriesConsumed": 11679,
-        "lastMeal": "Leather-bound Oak Tankard",
+        "mealsEaten": 46,
+        "caloriesConsumed": 11759,
+        "lastMeal": "Pear",
         "mealsByName": {
           "Cranberry": 5,
           "Meat pie": 1,
@@ -2640,13 +2654,13 @@
           "Wooden bucket": 1,
           "Earthy orange ceramic bowl of meat stew": 23,
           "Chopped cabbage": 1,
-          "Pear": 2,
+          "Pear": 3,
           "Rye bread": 1,
           "Leather-bound Oak Tankard": 2,
           "Syrup-covered muffin": 1
         },
         "foodCatCounts": {
-          "Fruit": 17,
+          "Fruit": 18,
           "Grain": 11,
           "Protein": 26,
           "Vegetable": 13,
@@ -2656,11 +2670,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 104.7,
-        "blocksTravelled": 111856,
-        "blocksBroken": 7298,
-        "blocksPlaced": 4853,
+        "blocksTravelled": 112076,
+        "blocksBroken": 7299,
+        "blocksPlaced": 4856,
         "deepestY": 24,
-        "lastSeen": 1784149066,
+        "lastSeen": 1784149186,
         "gear": [
           "Linen tunic",
           "Workmans pants",
@@ -2895,21 +2909,22 @@
         "class": "tailor",
         "deaths": 4,
         "mobKills": 7,
-        "mealsEaten": 18,
-        "caloriesConsumed": 9076,
-        "lastMeal": "Pear pie (charred)",
+        "mealsEaten": 20,
+        "caloriesConsumed": 9879,
+        "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
-          "Earthy orange ceramic bowl of meat stew": 8,
+          "Earthy orange ceramic bowl of meat stew": 9,
           "Meat pie": 8,
           "Leather-bound Oak Tankard": 1,
-          "Pear pie (charred)": 1
+          "Pear pie (charred)": 1,
+          "Rye bread": 1
         },
         "foodCatCounts": {
-          "Protein": 16,
+          "Protein": 17,
           "Vegetable": 12,
-          "Grain": 9,
+          "Grain": 11,
           "Fruit": 2,
-          "Dairy": 1
+          "Dairy": 3
         },
         "deathCauses": {
           "bear-brown-adult-female": 1,
@@ -2918,11 +2933,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 9.5,
-        "blocksTravelled": 17008,
+        "blocksTravelled": 17018,
         "blocksBroken": 254,
         "blocksPlaced": 168,
         "deepestY": 105,
-        "lastSeen": 1784149066,
+        "lastSeen": 1784149186,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
