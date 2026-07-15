@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-152805",
+  "generated": "20260715-153354",
   "game_version": "1.22.3",
   "check_ts": "20260715-151611",
   "latest_engine": "1.22.3",
@@ -359,11 +359,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "1.2.4",
       "build_version": "1.2.5",
       "build_branch": "1.22",
-      "update_pending": false,
-      "proposed": true
+      "update_pending": true,
+      "proposed": false
     },
     {
       "name": "Bola",
@@ -631,11 +631,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "1.2.4",
       "build_version": "1.2.5",
       "build_branch": "1.22",
-      "update_pending": false,
-      "proposed": true
+      "update_pending": true,
+      "proposed": false
     },
     {
       "name": "Forgotten Armory: Gothic style",

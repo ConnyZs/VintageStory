@@ -76,6 +76,15 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/BirdsEye_0.1.4.zip"
     },
     {
+      "filename": "BloodTrail-v1.2.4.zip",
+      "sha256": "0c6910a379ae81519e85a744b517bfcc72609a8762d0dc8b8f5cf15bb2111b83",
+      "size": 483777,
+      "modid": "bloodtrail",
+      "version": "1.2.4",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/BloodTrail-v1.2.4.zip"
+    },
+    {
       "filename": "CarryOn-1.22.0_v1.14.2.zip",
       "sha256": "64730fdee62d0a26621a9197e6dcd126f3e0ef9eb288ebceb61b53f6cc607f59",
       "size": 262698,
@@ -191,6 +200,15 @@
       "version": "1.0.0-dev.5",
       "name": null,
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/ExpandedFoods_MealsModule%201.0.0-dev.5.zip"
+    },
+    {
+      "filename": "Footprints-v1.2.4.zip",
+      "sha256": "daea3f0b8caaeb8eed67fd2aab97e144b516ead1c31959841aacb953cb9edd99",
+      "size": 445616,
+      "modid": "footprints",
+      "version": "1.2.4",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/Footprints-v1.2.4.zip"
     },
     {
       "filename": "Forgotten Armory_Gothic v1.3.4.zip",
