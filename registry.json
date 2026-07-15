@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-194623",
+  "generated": "20260715-194823",
   "game_version": "1.22.3",
   "check_ts": "20260715-151611",
   "latest_engine": "1.22.3",
@@ -2061,11 +2061,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 40.2,
-        "blocksTravelled": 97140,
+        "blocksTravelled": 97191,
         "blocksBroken": 4425,
         "blocksPlaced": 289,
         "deepestY": 28,
-        "lastSeen": 1784137581,
+        "lastSeen": 1784137661,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2563,11 +2563,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 101.5,
-        "blocksTravelled": 101857,
+        "blocksTravelled": 101862,
         "blocksBroken": 6967,
         "blocksPlaced": 4530,
         "deepestY": 24,
-        "lastSeen": 1784137581,
+        "lastSeen": 1784137657,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2822,15 +2822,17 @@
         "class": "tailor",
         "deaths": 4,
         "mobKills": 1,
-        "mealsEaten": 1,
-        "caloriesConsumed": 1050,
-        "lastMeal": "Earthy orange ceramic bowl of meat stew",
+        "mealsEaten": 2,
+        "caloriesConsumed": 1938,
+        "lastMeal": "Meat pie",
         "mealsByName": {
-          "Earthy orange ceramic bowl of meat stew": 1
+          "Earthy orange ceramic bowl of meat stew": 1,
+          "Meat pie": 1
         },
         "foodCatCounts": {
-          "Protein": 1,
-          "Vegetable": 1
+          "Protein": 2,
+          "Vegetable": 2,
+          "Grain": 1
         },
         "deathCauses": {
           "bear-brown-adult-female": 1,
@@ -2838,12 +2840,12 @@
           "shiver-deepsplit": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 6.3,
-        "blocksTravelled": 11132,
+        "playtimeHours": 6.4,
+        "blocksTravelled": 11154,
         "blocksBroken": 144,
         "blocksPlaced": 33,
         "deepestY": 105,
-        "lastSeen": 1784137581,
+        "lastSeen": 1784137657,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
@@ -2959,6 +2961,26 @@
             "slot": "bag-15",
             "code": "game:armor-legs-tailored-plain-linen",
             "name": "Tailored gamboised leg armor"
+          },
+          {
+            "slot": "bag-57",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-58",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-59",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-60",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           }
         ],
         "skin": {
