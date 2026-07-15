@@ -69,7 +69,7 @@
     "Rotwalker coat"
    ],
    "frames": 16,
-   "v": 1784149857
+   "v": 1784150097
   },
   "Moritz": {
    "class": "mason",
@@ -77,18 +77,18 @@
     "hairbase",
     "mustache",
     "facialexpression",
+    "Raccoon fur trapper hat",
     "Linen tunic",
     "Workmans pants",
     "Forlorn Hope shoes",
     "Scribe gloves",
     "Jade amulet",
-    "Festive cat mask",
     "Sturdy belt",
     "Large silver bracelets",
     "Fortune teller vest"
    ],
    "frames": 16,
-   "v": 1784149015
+   "v": 1784150117
   },
   "Barberschascher": {
    "class": "miner",

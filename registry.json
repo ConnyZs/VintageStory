@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-231235",
+  "generated": "20260715-231436",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2046,9 +2046,9 @@
         "class": "tinker",
         "deaths": 6,
         "mobKills": 73,
-        "mealsEaten": 27,
-        "caloriesConsumed": 10702,
-        "lastMeal": "Leather-bound Oak Tankard",
+        "mealsEaten": 28,
+        "caloriesConsumed": 11044,
+        "lastMeal": "Pear pie (charred)",
         "mealsByName": {
           "Pear": 3,
           "Meat pie": 4,
@@ -2059,14 +2059,14 @@
           "Syrup-covered muffin": 1,
           "Leather-bound Oak Tankard": 3,
           "Cooked dumplings": 1,
-          "Pear pie (charred)": 1
+          "Pear pie (charred)": 2
         },
         "foodCatCounts": {
-          "Fruit": 13,
-          "Grain": 9,
+          "Fruit": 14,
+          "Grain": 10,
           "Protein": 14,
           "Vegetable": 8,
-          "Dairy": 5
+          "Dairy": 6
         },
         "deathCauses": {
           "wolf-eurasian-adult-male": 1,
@@ -2074,11 +2074,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 42.8,
-        "blocksTravelled": 109163,
+        "blocksTravelled": 109305,
         "blocksBroken": 4481,
         "blocksPlaced": 336,
         "deepestY": 28,
-        "lastSeen": 1784149906,
+        "lastSeen": 1784150026,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2281,7 +2281,7 @@
         "name": "Eghetti",
         "class": "smith",
         "deaths": 2,
-        "mobKills": 52,
+        "mobKills": 53,
         "mealsEaten": 27,
         "caloriesConsumed": 11885,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
@@ -2306,11 +2306,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 48.6,
-        "blocksTravelled": 53501,
+        "blocksTravelled": 53796,
         "blocksBroken": 1210,
         "blocksPlaced": 897,
         "deepestY": 105,
-        "lastSeen": 1784149906,
+        "lastSeen": 1784150026,
         "gear": [
           "Raccoon tail hat",
           "Workmans pants",
@@ -2462,8 +2462,8 @@
         "uid": "MT3maN90oN2gwGyklJR20Gu1",
         "name": "AddyBuschu",
         "class": "homesteader",
-        "deaths": 20,
-        "mobKills": 218,
+        "deaths": 21,
+        "mobKills": 220,
         "mealsEaten": 17,
         "caloriesConsumed": 4511,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
@@ -2489,14 +2489,15 @@
           "sheep-mouflon-adult-male": 1,
           "pig-eurasian-adult-male": 1,
           "pig-eurasian-adult-female": 1,
-          "wolf-eurasian-adult-female": 1
+          "wolf-eurasian-adult-female": 1,
+          "wolf-eurasian-adult-male": 1
         },
-        "playtimeHours": 24.6,
-        "blocksTravelled": 123383,
+        "playtimeHours": 24.7,
+        "blocksTravelled": 123522,
         "blocksBroken": 8169,
         "blocksPlaced": 1778,
         "deepestY": 23,
-        "lastSeen": 1784149906,
+        "lastSeen": 1784150026,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2654,21 +2655,6 @@
             "slot": "bag-57",
             "code": "game:backpack-normal",
             "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-58",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-59",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-60",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
           }
         ],
         "skin": {
@@ -2726,23 +2712,29 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 104.9,
-        "blocksTravelled": 112450,
-        "blocksBroken": 7303,
+        "blocksTravelled": 112677,
+        "blocksBroken": 7304,
         "blocksPlaced": 4860,
         "deepestY": 24,
-        "lastSeen": 1784149906,
+        "lastSeen": 1784150026,
         "gear": [
+          "Raccoon fur trapper hat",
           "Linen tunic",
           "Workmans pants",
           "Forlorn Hope shoes",
           "Scribe gloves",
           "Jade amulet",
-          "Festive cat mask",
           "Sturdy belt",
           "Large silver bracelets",
           "Fortune teller vest"
         ],
         "gearDetail": [
+          {
+            "slot": "head",
+            "code": "game:clothes-head-furhatwide-generic-gray",
+            "name": "Raccoon fur trapper hat",
+            "icon": "character/icons/head-furhatwide-generic-gray.png"
+          },
           {
             "slot": "upperbody",
             "code": "game:clothes-upperbody-linen-tunic",
@@ -2772,12 +2764,6 @@
             "name": "Jade amulet"
           },
           {
-            "slot": "face",
-            "code": "game:clothes-face-festivecat",
-            "name": "Festive cat mask",
-            "icon": "character/icons/face-festivecat.png"
-          },
-          {
             "slot": "waist",
             "code": "game:clothes-waist-sturdy-belt",
             "name": "Sturdy belt",
@@ -2793,6 +2779,12 @@
             "code": "game:clothes-upperbodyover-fortuneteller",
             "name": "Fortune teller vest",
             "icon": "character/icons/upperbodyover-fortuneteller.png"
+          },
+          {
+            "slot": "bag-1",
+            "code": "game:clothes-head-furhatwide-generic-gray",
+            "name": "Raccoon fur trapper hat",
+            "icon": "character/icons/head-furhatwide-generic-gray.png"
           },
           {
             "slot": "bag-3",
@@ -2823,12 +2815,6 @@
             "name": "Jade amulet"
           },
           {
-            "slot": "bag-9",
-            "code": "game:clothes-face-festivecat",
-            "name": "Festive cat mask",
-            "icon": "character/icons/face-festivecat.png"
-          },
-          {
             "slot": "bag-10",
             "code": "game:clothes-waist-sturdy-belt",
             "name": "Sturdy belt",
@@ -2844,6 +2830,26 @@
             "code": "game:clothes-upperbodyover-fortuneteller",
             "name": "Fortune teller vest",
             "icon": "character/icons/upperbodyover-fortuneteller.png"
+          },
+          {
+            "slot": "bag-57",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-58",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-59",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-60",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           }
         ],
         "skin": {
@@ -2990,11 +2996,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 9.7,
-        "blocksTravelled": 17279,
+        "blocksTravelled": 17458,
         "blocksBroken": 259,
         "blocksPlaced": 172,
         "deepestY": 105,
-        "lastSeen": 1784149906,
+        "lastSeen": 1784150026,
         "gear": [
           "Tailor blouse",
           "Tailor shoes",
@@ -3111,10 +3117,10 @@
   ],
   "lastAccident": {
     "playerName": "AddyBuschu",
-    "timestamp": 1784149910,
-    "cause": "wolf-eurasian-adult-female",
-    "x": 518766,
-    "y": 113,
-    "z": 511296
+    "timestamp": 1784149959,
+    "cause": "wolf-eurasian-adult-male",
+    "x": 518772,
+    "y": 112,
+    "z": 511283
   }
 }

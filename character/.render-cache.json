@@ -51,29 +51,29 @@
   }
  },
  "Moritz": {
-  "hash": "1b8fcdde7198367a5ebdd8ed8bc0d66394f06d02",
+  "hash": "0af434ce5a22e9c079f16d9974734e1c93ea5b83",
   "info": {
    "class": "mason",
    "items": [
     "hairbase",
     "mustache",
     "facialexpression",
+    "Raccoon fur trapper hat",
     "Linen tunic",
     "Workmans pants",
     "Forlorn Hope shoes",
     "Scribe gloves",
     "Jade amulet",
-    "Festive cat mask",
     "Sturdy belt",
     "Large silver bracelets",
     "Fortune teller vest"
    ],
    "frames": 16,
-   "v": 1784149015
+   "v": 1784150117
   }
  },
  "AddyBuschu": {
-  "hash": "248edd5af6a815965c2be44e724d2f72b7e893a1",
+  "hash": "1914ed30fcc55dc38ccba47c53684b6375caa40b",
   "info": {
    "class": "homesteader",
    "items": [
@@ -96,7 +96,7 @@
     "Rotwalker coat"
    ],
    "frames": 16,
-   "v": 1784149857
+   "v": 1784150097
   }
  },
  "Barberschascher": {
