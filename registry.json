@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-223834",
+  "generated": "20260715-224034",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2068,11 +2068,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 42.2,
-        "blocksTravelled": 106922,
+        "blocksTravelled": 106957,
         "blocksBroken": 4460,
         "blocksPlaced": 306,
         "deepestY": 28,
-        "lastSeen": 1784147865,
+        "lastSeen": 1784147985,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2276,18 +2276,19 @@
         "class": "smith",
         "deaths": 2,
         "mobKills": 49,
-        "mealsEaten": 19,
-        "caloriesConsumed": 8801,
-        "lastMeal": "Earthy orange ceramic bowl of meat stew",
+        "mealsEaten": 21,
+        "caloriesConsumed": 9171,
+        "lastMeal": "Cooked redmeat nuggets",
         "mealsByName": {
-          "Earthy orange ceramic bowl of meat stew": 14,
+          "Earthy orange ceramic bowl of meat stew": 15,
           "Meat pie": 3,
           "Earthy orange ceramic bowl of soup": 1,
-          "Pear": 1
+          "Pear": 1,
+          "Cooked redmeat nuggets": 1
         },
         "foodCatCounts": {
-          "Protein": 18,
-          "Vegetable": 13,
+          "Protein": 20,
+          "Vegetable": 14,
           "Grain": 4,
           "Fruit": 1
         },
@@ -2295,12 +2296,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 48.0,
-        "blocksTravelled": 51328,
+        "playtimeHours": 48.1,
+        "blocksTravelled": 51668,
         "blocksBroken": 1209,
-        "blocksPlaced": 895,
+        "blocksPlaced": 896,
         "deepestY": 105,
-        "lastSeen": 1784147865,
+        "lastSeen": 1784147985,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2478,17 +2479,18 @@
         "class": "homesteader",
         "deaths": 19,
         "mobKills": 215,
-        "mealsEaten": 6,
-        "caloriesConsumed": 1324,
-        "lastMeal": "Smoked Plain Bushmeat",
+        "mealsEaten": 7,
+        "caloriesConsumed": 1881,
+        "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Meat pie": 3,
-          "Smoked Plain Bushmeat": 3
+          "Smoked Plain Bushmeat": 3,
+          "Earthy orange ceramic bowl of meat stew": 1
         },
         "foodCatCounts": {
           "Grain": 3,
-          "Protein": 6,
-          "Vegetable": 3
+          "Protein": 7,
+          "Vegetable": 4
         },
         "deathCauses": {
           "bear-brown-adult-female": 1,
@@ -2497,11 +2499,11 @@
           "pig-eurasian-adult-female": 1
         },
         "playtimeHours": 24.1,
-        "blocksTravelled": 121120,
+        "blocksTravelled": 121329,
         "blocksBroken": 8165,
-        "blocksPlaced": 1767,
+        "blocksPlaced": 1768,
         "deepestY": 23,
-        "lastSeen": 1784147865,
+        "lastSeen": 1784147985,
         "gear": [
           "Jester cowl",
           "Rotwalker cape",
@@ -2737,12 +2739,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 104.3,
-        "blocksTravelled": 109640,
-        "blocksBroken": 7290,
-        "blocksPlaced": 4838,
+        "playtimeHours": 104.4,
+        "blocksTravelled": 110022,
+        "blocksBroken": 7297,
+        "blocksPlaced": 4839,
         "deepestY": 24,
-        "lastSeen": 1784147865,
+        "lastSeen": 1784147985,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -3015,12 +3017,12 @@
           "shiver-deepsplit": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 9.1,
-        "blocksTravelled": 15935,
+        "playtimeHours": 9.2,
+        "blocksTravelled": 16043,
         "blocksBroken": 253,
         "blocksPlaced": 115,
         "deepestY": 105,
-        "lastSeen": 1784147865,
+        "lastSeen": 1784147985,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
