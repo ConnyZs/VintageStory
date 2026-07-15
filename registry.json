@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-200051",
+  "generated": "20260715-200224",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2045,15 +2045,19 @@
         "name": "Raschuetzer",
         "class": "tinker",
         "deaths": 6,
-        "mobKills": 53,
-        "mealsEaten": 1,
-        "caloriesConsumed": 80,
-        "lastMeal": "Pear",
+        "mobKills": 67,
+        "mealsEaten": 2,
+        "caloriesConsumed": 1114,
+        "lastMeal": "Meat pie",
         "mealsByName": {
-          "Pear": 1
+          "Pear": 1,
+          "Meat pie": 1
         },
         "foodCatCounts": {
-          "Fruit": 1
+          "Fruit": 1,
+          "Grain": 1,
+          "Protein": 1,
+          "Vegetable": 1
         },
         "deathCauses": {
           "wolf-eurasian-adult-male": 1,
@@ -2061,11 +2065,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 40.4,
-        "blocksTravelled": 97394,
+        "blocksTravelled": 97529,
         "blocksBroken": 4425,
-        "blocksPlaced": 289,
+        "blocksPlaced": 290,
         "deepestY": 28,
-        "lastSeen": 1784138378,
+        "lastSeen": 1784138498,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2248,14 +2252,14 @@
       "name": "Eghetti",
       "role": "admin",
       "first_join": "04/22/2026 18:03",
-      "last_join": "07/09/2026 22:00",
+      "last_join": "07/15/2026 17:57",
       "last_char": "04/22/2026 18:08",
       "stats": {
         "uid": "TxqQ4g4qqKs+G5yFUTFmyGYb",
         "name": "Eghetti",
         "class": "smith",
         "deaths": 2,
-        "mobKills": 44,
+        "mobKills": 45,
         "mealsEaten": 2,
         "caloriesConsumed": 1498,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
@@ -2271,11 +2275,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 45.4,
-        "blocksTravelled": 42900,
+        "blocksTravelled": 43071,
         "blocksBroken": 914,
         "blocksPlaced": 661,
         "deepestY": 105,
-        "lastSeen": 1784138378,
+        "lastSeen": 1784138498,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2626,11 +2630,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 101.7,
-        "blocksTravelled": 102093,
+        "blocksTravelled": 102117,
         "blocksBroken": 6967,
-        "blocksPlaced": 4532,
+        "blocksPlaced": 4533,
         "deepestY": 24,
-        "lastSeen": 1784138378,
+        "lastSeen": 1784138498,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2904,11 +2908,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 6.6,
-        "blocksTravelled": 11177,
+        "blocksTravelled": 11184,
         "blocksBroken": 144,
         "blocksPlaced": 33,
         "deepestY": 105,
-        "lastSeen": 1784138378,
+        "lastSeen": 1784138498,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
