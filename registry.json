@@ -1,5 +1,5 @@
 {
-  "generated": "20260716-001239",
+  "generated": "20260716-001439",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -3042,11 +3042,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 10.7,
-        "blocksTravelled": 18720,
-        "blocksBroken": 601,
-        "blocksPlaced": 324,
+        "blocksTravelled": 18735,
+        "blocksBroken": 645,
+        "blocksPlaced": 337,
         "deepestY": 100,
-        "lastSeen": 1784153508,
+        "lastSeen": 1784153628,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
