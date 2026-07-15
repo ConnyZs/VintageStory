@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-220231",
+  "generated": "20260715-220431",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2068,11 +2068,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 41.6,
-        "blocksTravelled": 103949,
+        "blocksTravelled": 104043,
         "blocksBroken": 4457,
         "blocksPlaced": 304,
         "deepestY": 28,
-        "lastSeen": 1784145734,
+        "lastSeen": 1784145823,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2282,12 +2282,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 47.4,
-        "blocksTravelled": 49670,
-        "blocksBroken": 1194,
+        "playtimeHours": 47.5,
+        "blocksTravelled": 49699,
+        "blocksBroken": 1196,
         "blocksPlaced": 887,
         "deepestY": 105,
-        "lastSeen": 1784145734,
+        "lastSeen": 1784145823,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2642,12 +2642,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 103.7,
-        "blocksTravelled": 105215,
-        "blocksBroken": 7239,
-        "blocksPlaced": 4695,
+        "playtimeHours": 103.8,
+        "blocksTravelled": 105409,
+        "blocksBroken": 7242,
+        "blocksPlaced": 4715,
         "deepestY": 24,
-        "lastSeen": 1784145734,
+        "lastSeen": 1784145823,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
