@@ -28,7 +28,7 @@
   }
  },
  "Eghetti": {
-  "hash": "17b0277b64ced90da395224aaa75506f8509711f",
+  "hash": "bde4d0844918feadeea152cd13ee515d5bee54cc",
   "info": {
    "class": "smith",
    "items": [
@@ -48,7 +48,7 @@
     "Fur coat"
    ],
    "frames": 16,
-   "v": 1784138322
+   "v": 1784148653
   }
  },
  "Moritz": {
@@ -74,7 +74,7 @@
   }
  },
  "AddyBuschu": {
-  "hash": "ec2d3c3e4bd3e6c9f303218f167a33fbc05b3cef",
+  "hash": "6b0c4f64370ad28af4dddacc73f4dd01c61c8042",
   "info": {
    "class": "homesteader",
    "items": [
@@ -83,22 +83,10 @@
     "mustache",
     "beard",
     "facialexpression",
-    "Jester cowl",
-    "Rotwalker cape",
-    "Rotwalker cape",
-    "Tattered crimson tunic",
-    "Nomad trousers",
-    "Wool lined knee-high boots",
-    "Fur gloves",
-    "Acorn amulet",
-    "Rotten king mask",
-    "Marketeer belt",
-    "Leather bracers",
-    "Rotwalker coat",
-    "Rotwalker coat"
+    "Acorn amulet"
    ],
    "frames": 16,
-   "v": 1784146854
+   "v": 1784148669
   }
  },
  "Barberschascher": {

@@ -46,7 +46,7 @@
     "Fur coat"
    ],
    "frames": 16,
-   "v": 1784138322
+   "v": 1784148653
   },
   "AddyBuschu": {
    "class": "homesteader",
@@ -56,22 +56,10 @@
     "mustache",
     "beard",
     "facialexpression",
-    "Jester cowl",
-    "Rotwalker cape",
-    "Rotwalker cape",
-    "Tattered crimson tunic",
-    "Nomad trousers",
-    "Wool lined knee-high boots",
-    "Fur gloves",
-    "Acorn amulet",
-    "Rotten king mask",
-    "Marketeer belt",
-    "Leather bracers",
-    "Rotwalker coat",
-    "Rotwalker coat"
+    "Acorn amulet"
    ],
    "frames": 16,
-   "v": 1784146854
+   "v": 1784148669
   },
   "Moritz": {
    "class": "mason",

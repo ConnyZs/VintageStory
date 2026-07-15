@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-224834",
+  "generated": "20260715-225034",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2070,11 +2070,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 42.4,
-        "blocksTravelled": 107481,
+        "blocksTravelled": 107679,
         "blocksBroken": 4460,
         "blocksPlaced": 306,
         "deepestY": 28,
-        "lastSeen": 1784148465,
+        "lastSeen": 1784148585,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2299,11 +2299,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 48.2,
-        "blocksTravelled": 52147,
+        "blocksTravelled": 52282,
         "blocksBroken": 1209,
         "blocksPlaced": 896,
         "deepestY": 105,
-        "lastSeen": 1784148465,
+        "lastSeen": 1784148585,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2313,8 +2313,7 @@
           "Simple cross",
           "Miner belt",
           "Leather bracers",
-          "Fur coat",
-          "Tailored gambeson body armor"
+          "Fur coat"
         ],
         "gearDetail": [
           {
@@ -2371,11 +2370,6 @@
             "icon": "character/icons/upperbodyover-fur-coat.png"
           },
           {
-            "slot": "armorbody",
-            "code": "game:armor-body-tailored-pink-linen",
-            "name": "Tailored gambeson body armor"
-          },
-          {
             "slot": "bag-1",
             "code": "game:clothes-head-furhattail-raccoon-common",
             "name": "Raccoon tail hat",
@@ -2427,11 +2421,6 @@
             "code": "game:clothes-upperbodyover-fur-coat",
             "name": "Fur coat",
             "icon": "character/icons/upperbodyover-fur-coat.png"
-          },
-          {
-            "slot": "bag-14",
-            "code": "game:armor-body-tailored-pink-linen",
-            "name": "Tailored gambeson body armor"
           },
           {
             "slot": "bag-57",
@@ -2502,175 +2491,25 @@
           "pig-eurasian-adult-male": 1,
           "pig-eurasian-adult-female": 1
         },
-        "playtimeHours": 24.2,
-        "blocksTravelled": 122364,
+        "playtimeHours": 24.3,
+        "blocksTravelled": 122416,
         "blocksBroken": 8166,
-        "blocksPlaced": 1769,
+        "blocksPlaced": 1773,
         "deepestY": 23,
-        "lastSeen": 1784148465,
+        "lastSeen": 1784148585,
         "gear": [
-          "Jester cowl",
-          "Rotwalker cape",
-          "Tattered crimson tunic",
-          "Nomad trousers",
-          "Wool lined knee-high boots",
-          "Fur gloves",
-          "Acorn amulet",
-          "Rotten king mask",
-          "Marketeer belt",
-          "Leather bracers",
-          "Rotwalker coat",
-          "Black bear hide helmet",
-          "Black bear hide body armor"
+          "Acorn amulet"
         ],
         "gearDetail": [
-          {
-            "slot": "head",
-            "code": "game:clothes-head-jester",
-            "name": "Jester cowl"
-          },
-          {
-            "slot": "shoulder",
-            "code": "game:clothes-shoulder-rotwalker",
-            "name": "Rotwalker cape",
-            "icon": "character/icons/shoulder-rotwalker.png"
-          },
-          {
-            "slot": "upperbody",
-            "code": "game:clothes-upperbody-tattered-crimson-tunic",
-            "name": "Tattered crimson tunic",
-            "icon": "character/icons/upperbody-tattered-crimson-tunic.png"
-          },
-          {
-            "slot": "lowerbody",
-            "code": "game:clothes-lowerbody-nomad-trousers",
-            "name": "Nomad trousers",
-            "icon": "character/icons/lowerbody-nomad-trousers.png"
-          },
-          {
-            "slot": "foot",
-            "code": "game:clothes-foot-wool-lined-knee-high-boots",
-            "name": "Wool lined knee-high boots",
-            "icon": "character/icons/foot-wool-lined-knee-high-boots.png"
-          },
-          {
-            "slot": "hand",
-            "code": "game:clothes-hand-fur-gloves",
-            "name": "Fur gloves",
-            "icon": "character/icons/hand-fur-gloves.png"
-          },
           {
             "slot": "neck",
             "code": "game:clothes-neck-acorn-amulet",
             "name": "Acorn amulet"
           },
           {
-            "slot": "face",
-            "code": "game:clothes-face-rottenking",
-            "name": "Rotten king mask",
-            "icon": "character/icons/face-rottenking.png"
-          },
-          {
-            "slot": "waist",
-            "code": "game:clothes-waist-marketeer",
-            "name": "Marketeer belt",
-            "icon": "character/icons/waist-marketeer.png"
-          },
-          {
-            "slot": "arm",
-            "code": "game:clothes-arm-leather-bracers",
-            "name": "Leather bracers",
-            "icon": "character/icons/arm-leather-bracers.png"
-          },
-          {
-            "slot": "upperbodyover",
-            "code": "game:clothes-upperbodyover-rotwalker",
-            "name": "Rotwalker coat",
-            "icon": "character/icons/upperbodyover-rotwalker.png"
-          },
-          {
-            "slot": "armorhead",
-            "code": "game:armor-head-hide-bear-black",
-            "name": "Black bear hide helmet"
-          },
-          {
-            "slot": "armorbody",
-            "code": "game:armor-body-hide-bear-black",
-            "name": "Black bear hide body armor"
-          },
-          {
-            "slot": "bag-1",
-            "code": "game:clothes-head-jester",
-            "name": "Jester cowl"
-          },
-          {
-            "slot": "bag-2",
-            "code": "game:clothes-shoulder-rotwalker",
-            "name": "Rotwalker cape",
-            "icon": "character/icons/shoulder-rotwalker.png"
-          },
-          {
-            "slot": "bag-3",
-            "code": "game:clothes-upperbody-tattered-crimson-tunic",
-            "name": "Tattered crimson tunic",
-            "icon": "character/icons/upperbody-tattered-crimson-tunic.png"
-          },
-          {
-            "slot": "bag-4",
-            "code": "game:clothes-lowerbody-nomad-trousers",
-            "name": "Nomad trousers",
-            "icon": "character/icons/lowerbody-nomad-trousers.png"
-          },
-          {
-            "slot": "bag-5",
-            "code": "game:clothes-foot-wool-lined-knee-high-boots",
-            "name": "Wool lined knee-high boots",
-            "icon": "character/icons/foot-wool-lined-knee-high-boots.png"
-          },
-          {
-            "slot": "bag-6",
-            "code": "game:clothes-hand-fur-gloves",
-            "name": "Fur gloves",
-            "icon": "character/icons/hand-fur-gloves.png"
-          },
-          {
             "slot": "bag-7",
             "code": "game:clothes-neck-acorn-amulet",
             "name": "Acorn amulet"
-          },
-          {
-            "slot": "bag-9",
-            "code": "game:clothes-face-rottenking",
-            "name": "Rotten king mask",
-            "icon": "character/icons/face-rottenking.png"
-          },
-          {
-            "slot": "bag-10",
-            "code": "game:clothes-waist-marketeer",
-            "name": "Marketeer belt",
-            "icon": "character/icons/waist-marketeer.png"
-          },
-          {
-            "slot": "bag-11",
-            "code": "game:clothes-arm-leather-bracers",
-            "name": "Leather bracers",
-            "icon": "character/icons/arm-leather-bracers.png"
-          },
-          {
-            "slot": "bag-12",
-            "code": "game:clothes-upperbodyover-rotwalker",
-            "name": "Rotwalker coat",
-            "icon": "character/icons/upperbodyover-rotwalker.png"
-          },
-          {
-            "slot": "bag-13",
-            "code": "game:armor-head-hide-bear-black",
-            "name": "Black bear hide helmet"
-          },
-          {
-            "slot": "bag-14",
-            "code": "game:armor-body-hide-bear-black",
-            "name": "Black bear hide body armor"
           },
           {
             "slot": "bag-57",
@@ -2744,11 +2583,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 104.5,
-        "blocksTravelled": 110885,
+        "blocksTravelled": 111023,
         "blocksBroken": 7298,
-        "blocksPlaced": 4850,
+        "blocksPlaced": 4851,
         "deepestY": 24,
-        "lastSeen": 1784148465,
+        "lastSeen": 1784148585,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -3022,11 +2861,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 9.3,
-        "blocksTravelled": 16333,
+        "blocksTravelled": 16347,
         "blocksBroken": 253,
-        "blocksPlaced": 116,
+        "blocksPlaced": 129,
         "deepestY": 105,
-        "lastSeen": 1784148465,
+        "lastSeen": 1784148585,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
