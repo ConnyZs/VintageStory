@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-235838",
+  "generated": "20260716-000038",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2726,7 +2726,7 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 67,
+        "mobKills": 68,
         "mealsEaten": 69,
         "caloriesConsumed": 16334,
         "lastMeal": "Cooked dumplings",
@@ -2758,11 +2758,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 105.7,
-        "blocksTravelled": 115157,
+        "blocksTravelled": 115442,
         "blocksBroken": 7390,
         "blocksPlaced": 4929,
         "deepestY": 24,
-        "lastSeen": 1784152686,
+        "lastSeen": 1784152788,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -3042,11 +3042,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 10.5,
-        "blocksTravelled": 18541,
-        "blocksBroken": 445,
-        "blocksPlaced": 253,
+        "blocksTravelled": 18557,
+        "blocksBroken": 470,
+        "blocksPlaced": 270,
         "deepestY": 100,
-        "lastSeen": 1784152686,
+        "lastSeen": 1784152788,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
