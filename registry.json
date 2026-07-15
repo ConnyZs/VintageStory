@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-203826",
+  "generated": "20260715-204026",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2259,18 +2259,18 @@
         "name": "Eghetti",
         "class": "smith",
         "deaths": 2,
-        "mobKills": 48,
-        "mealsEaten": 7,
-        "caloriesConsumed": 4258,
-        "lastMeal": "Meat pie",
+        "mobKills": 49,
+        "mealsEaten": 8,
+        "caloriesConsumed": 4406,
+        "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
-          "Earthy orange ceramic bowl of meat stew": 2,
+          "Earthy orange ceramic bowl of meat stew": 3,
           "Meat pie": 3,
           "Earthy orange ceramic bowl of soup": 1,
           "Pear": 1
         },
         "foodCatCounts": {
-          "Protein": 6,
+          "Protein": 7,
           "Vegetable": 6,
           "Grain": 4,
           "Fruit": 1
@@ -2279,12 +2279,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 46.0,
-        "blocksTravelled": 45958,
-        "blocksBroken": 1053,
+        "playtimeHours": 46.1,
+        "blocksTravelled": 46115,
+        "blocksBroken": 1054,
         "blocksPlaced": 722,
         "deepestY": 105,
-        "lastSeen": 1784140659,
+        "lastSeen": 1784140779,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2638,12 +2638,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 102.3,
-        "blocksTravelled": 102641,
+        "playtimeHours": 102.4,
+        "blocksTravelled": 102720,
         "blocksBroken": 6967,
         "blocksPlaced": 4539,
         "deepestY": 24,
-        "lastSeen": 1784140659,
+        "lastSeen": 1784140779,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2898,17 +2898,17 @@
         "class": "tailor",
         "deaths": 4,
         "mobKills": 4,
-        "mealsEaten": 8,
-        "caloriesConsumed": 4442,
+        "mealsEaten": 9,
+        "caloriesConsumed": 5378,
         "lastMeal": "Meat pie",
         "mealsByName": {
           "Earthy orange ceramic bowl of meat stew": 1,
-          "Meat pie": 7
+          "Meat pie": 8
         },
         "foodCatCounts": {
-          "Protein": 8,
-          "Vegetable": 8,
-          "Grain": 7
+          "Protein": 9,
+          "Vegetable": 9,
+          "Grain": 8
         },
         "deathCauses": {
           "bear-brown-adult-female": 1,
@@ -2917,11 +2917,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 7.2,
-        "blocksTravelled": 13361,
+        "blocksTravelled": 13550,
         "blocksBroken": 211,
-        "blocksPlaced": 64,
+        "blocksPlaced": 65,
         "deepestY": 105,
-        "lastSeen": 1784140659,
+        "lastSeen": 1784140779,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
