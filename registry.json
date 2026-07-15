@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-210028",
+  "generated": "20260715-210228",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2038,14 +2038,14 @@
       "name": "Raschuetzer",
       "role": "admin",
       "first_join": "04/22/2026 17:47",
-      "last_join": "07/15/2026 17:47",
+      "last_join": "07/15/2026 19:00",
       "last_char": "04/29/2026 21:30",
       "stats": {
         "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
         "name": "Raschuetzer",
         "class": "tinker",
         "deaths": 6,
-        "mobKills": 68,
+        "mobKills": 70,
         "mealsEaten": 2,
         "caloriesConsumed": 1114,
         "lastMeal": "Meat pie",
@@ -2065,11 +2065,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 40.6,
-        "blocksTravelled": 97737,
+        "blocksTravelled": 97788,
         "blocksBroken": 4425,
         "blocksPlaced": 293,
         "deepestY": 28,
-        "lastSeen": 1784138994,
+        "lastSeen": 1784142110,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2280,11 +2280,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 46.4,
-        "blocksTravelled": 47124,
-        "blocksBroken": 1127,
-        "blocksPlaced": 812,
+        "blocksTravelled": 47255,
+        "blocksBroken": 1128,
+        "blocksPlaced": 816,
         "deepestY": 105,
-        "lastSeen": 1784141980,
+        "lastSeen": 1784142110,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2639,11 +2639,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 102.7,
-        "blocksTravelled": 103037,
+        "blocksTravelled": 103073,
         "blocksBroken": 6967,
         "blocksPlaced": 4542,
         "deepestY": 24,
-        "lastSeen": 1784141980,
+        "lastSeen": 1784142110,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2898,15 +2898,15 @@
         "class": "tailor",
         "deaths": 4,
         "mobKills": 4,
-        "mealsEaten": 10,
-        "caloriesConsumed": 5749,
+        "mealsEaten": 11,
+        "caloriesConsumed": 6052,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
-          "Earthy orange ceramic bowl of meat stew": 2,
+          "Earthy orange ceramic bowl of meat stew": 3,
           "Meat pie": 8
         },
         "foodCatCounts": {
-          "Protein": 10,
+          "Protein": 11,
           "Vegetable": 10,
           "Grain": 8
         },
@@ -2916,12 +2916,12 @@
           "shiver-deepsplit": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 7.5,
-        "blocksTravelled": 13761,
+        "playtimeHours": 7.6,
+        "blocksTravelled": 13773,
         "blocksBroken": 216,
         "blocksPlaced": 68,
         "deepestY": 105,
-        "lastSeen": 1784141980,
+        "lastSeen": 1784142110,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
