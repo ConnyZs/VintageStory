@@ -1,5 +1,5 @@
 {
-  "generated": "20260716-001439",
+  "generated": "20260716-001639",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -3017,11 +3017,11 @@
         "class": "tailor",
         "deaths": 4,
         "mobKills": 9,
-        "mealsEaten": 30,
-        "caloriesConsumed": 13480,
+        "mealsEaten": 31,
+        "caloriesConsumed": 13868,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
-          "Earthy orange ceramic bowl of meat stew": 12,
+          "Earthy orange ceramic bowl of meat stew": 13,
           "Meat pie": 8,
           "Leather-bound Oak Tankard": 1,
           "Pear pie (charred)": 6,
@@ -3029,7 +3029,7 @@
           "Cranberry": 1
         },
         "foodCatCounts": {
-          "Protein": 20,
+          "Protein": 21,
           "Vegetable": 12,
           "Grain": 19,
           "Fruit": 8,
@@ -3041,12 +3041,12 @@
           "shiver-deepsplit": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 10.7,
-        "blocksTravelled": 18735,
-        "blocksBroken": 645,
-        "blocksPlaced": 337,
+        "playtimeHours": 10.8,
+        "blocksTravelled": 18793,
+        "blocksBroken": 678,
+        "blocksPlaced": 346,
         "deepestY": 100,
-        "lastSeen": 1784153628,
+        "lastSeen": 1784153748,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
