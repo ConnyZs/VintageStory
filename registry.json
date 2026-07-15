@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-200224",
+  "generated": "20260715-200424",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2064,12 +2064,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 40.4,
-        "blocksTravelled": 97529,
+        "playtimeHours": 40.5,
+        "blocksTravelled": 97577,
         "blocksBroken": 4425,
-        "blocksPlaced": 290,
+        "blocksPlaced": 293,
         "deepestY": 28,
-        "lastSeen": 1784138498,
+        "lastSeen": 1784138618,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2274,12 +2274,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 45.4,
-        "blocksTravelled": 43071,
+        "playtimeHours": 45.5,
+        "blocksTravelled": 43140,
         "blocksBroken": 914,
         "blocksPlaced": 661,
         "deepestY": 105,
-        "lastSeen": 1784138498,
+        "lastSeen": 1784138618,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2612,29 +2612,29 @@
         "class": "mason",
         "deaths": 1,
         "mobKills": 54,
-        "mealsEaten": 11,
-        "caloriesConsumed": 2292,
+        "mealsEaten": 12,
+        "caloriesConsumed": 2542,
         "lastMeal": "Cranberry pie",
         "mealsByName": {
           "Cranberry": 5,
           "Meat pie": 1,
-          "Cranberry pie": 5
+          "Cranberry pie": 6
         },
         "foodCatCounts": {
-          "Fruit": 10,
-          "Grain": 6,
+          "Fruit": 11,
+          "Grain": 7,
           "Protein": 1,
           "Vegetable": 1
         },
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 101.7,
-        "blocksTravelled": 102117,
+        "playtimeHours": 101.8,
+        "blocksTravelled": 102124,
         "blocksBroken": 6967,
         "blocksPlaced": 4533,
         "deepestY": 24,
-        "lastSeen": 1784138498,
+        "lastSeen": 1784138618,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2888,18 +2888,18 @@
         "name": "Morsel",
         "class": "tailor",
         "deaths": 4,
-        "mobKills": 1,
-        "mealsEaten": 2,
-        "caloriesConsumed": 1938,
+        "mobKills": 2,
+        "mealsEaten": 3,
+        "caloriesConsumed": 2760,
         "lastMeal": "Meat pie",
         "mealsByName": {
           "Earthy orange ceramic bowl of meat stew": 1,
-          "Meat pie": 1
+          "Meat pie": 2
         },
         "foodCatCounts": {
-          "Protein": 2,
-          "Vegetable": 2,
-          "Grain": 1
+          "Protein": 3,
+          "Vegetable": 3,
+          "Grain": 2
         },
         "deathCauses": {
           "bear-brown-adult-female": 1,
@@ -2908,11 +2908,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 6.6,
-        "blocksTravelled": 11184,
+        "blocksTravelled": 11216,
         "blocksBroken": 144,
         "blocksPlaced": 33,
         "deepestY": 105,
-        "lastSeen": 1784138498,
+        "lastSeen": 1784138618,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
