@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-201425",
+  "generated": "20260715-201625",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2276,12 +2276,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 45.6,
-        "blocksTravelled": 43608,
-        "blocksBroken": 986,
-        "blocksPlaced": 664,
+        "playtimeHours": 45.7,
+        "blocksTravelled": 43656,
+        "blocksBroken": 1022,
+        "blocksPlaced": 706,
         "deepestY": 105,
-        "lastSeen": 1784139218,
+        "lastSeen": 1784139338,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2631,12 +2631,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 101.9,
-        "blocksTravelled": 102260,
+        "playtimeHours": 102.0,
+        "blocksTravelled": 102309,
         "blocksBroken": 6967,
-        "blocksPlaced": 4535,
+        "blocksPlaced": 4536,
         "deepestY": 24,
-        "lastSeen": 1784139218,
+        "lastSeen": 1784139338,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2890,18 +2890,18 @@
         "name": "Morsel",
         "class": "tailor",
         "deaths": 4,
-        "mobKills": 2,
-        "mealsEaten": 5,
-        "caloriesConsumed": 2962,
+        "mobKills": 3,
+        "mealsEaten": 6,
+        "caloriesConsumed": 3508,
         "lastMeal": "Meat pie",
         "mealsByName": {
           "Earthy orange ceramic bowl of meat stew": 1,
-          "Meat pie": 4
+          "Meat pie": 5
         },
         "foodCatCounts": {
-          "Protein": 5,
-          "Vegetable": 5,
-          "Grain": 4
+          "Protein": 6,
+          "Vegetable": 6,
+          "Grain": 5
         },
         "deathCauses": {
           "bear-brown-adult-female": 1,
@@ -2910,11 +2910,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 6.8,
-        "blocksTravelled": 11709,
+        "blocksTravelled": 11983,
         "blocksBroken": 161,
         "blocksPlaced": 52,
         "deepestY": 105,
-        "lastSeen": 1784139218,
+        "lastSeen": 1784139338,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
