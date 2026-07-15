@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-201024",
+  "generated": "20260715-201225",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2277,11 +2277,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 45.6,
-        "blocksTravelled": 43531,
-        "blocksBroken": 914,
+        "blocksTravelled": 43575,
+        "blocksBroken": 947,
         "blocksPlaced": 661,
         "deepestY": 105,
-        "lastSeen": 1784138978,
+        "lastSeen": 1784139098,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2632,11 +2632,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 101.9,
-        "blocksTravelled": 102194,
+        "blocksTravelled": 102231,
         "blocksBroken": 6967,
         "blocksPlaced": 4535,
         "deepestY": 24,
-        "lastSeen": 1784138978,
+        "lastSeen": 1784139098,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2891,17 +2891,17 @@
         "class": "tailor",
         "deaths": 4,
         "mobKills": 2,
-        "mealsEaten": 4,
-        "caloriesConsumed": 2806,
+        "mealsEaten": 5,
+        "caloriesConsumed": 2962,
         "lastMeal": "Meat pie",
         "mealsByName": {
           "Earthy orange ceramic bowl of meat stew": 1,
-          "Meat pie": 3
+          "Meat pie": 4
         },
         "foodCatCounts": {
-          "Protein": 4,
-          "Vegetable": 4,
-          "Grain": 3
+          "Protein": 5,
+          "Vegetable": 5,
+          "Grain": 4
         },
         "deathCauses": {
           "bear-brown-adult-female": 1,
@@ -2909,12 +2909,12 @@
           "shiver-deepsplit": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 6.7,
-        "blocksTravelled": 11324,
+        "playtimeHours": 6.8,
+        "blocksTravelled": 11572,
         "blocksBroken": 144,
         "blocksPlaced": 52,
         "deepestY": 105,
-        "lastSeen": 1784138978,
+        "lastSeen": 1784139098,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
