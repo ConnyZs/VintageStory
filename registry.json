@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-210628",
+  "generated": "20260715-210828",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2067,11 +2067,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 40.7,
-        "blocksTravelled": 98624,
+        "blocksTravelled": 98755,
         "blocksBroken": 4425,
         "blocksPlaced": 293,
         "deepestY": 28,
-        "lastSeen": 1784142340,
+        "lastSeen": 1784142461,
         "gear": [
           "Messenger hat",
           "Artisans scarf",
@@ -2282,11 +2282,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 46.5,
-        "blocksTravelled": 47321,
-        "blocksBroken": 1139,
+        "blocksTravelled": 47361,
+        "blocksBroken": 1145,
         "blocksPlaced": 839,
         "deepestY": 105,
-        "lastSeen": 1784142340,
+        "lastSeen": 1784142461,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2641,11 +2641,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 102.8,
-        "blocksTravelled": 103144,
+        "blocksTravelled": 103160,
         "blocksBroken": 6967,
-        "blocksPlaced": 4542,
+        "blocksPlaced": 4543,
         "deepestY": 24,
-        "lastSeen": 1784142340,
+        "lastSeen": 1784142461,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2900,15 +2900,15 @@
         "class": "tailor",
         "deaths": 4,
         "mobKills": 4,
-        "mealsEaten": 11,
-        "caloriesConsumed": 6052,
+        "mealsEaten": 12,
+        "caloriesConsumed": 6254,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
-          "Earthy orange ceramic bowl of meat stew": 3,
+          "Earthy orange ceramic bowl of meat stew": 4,
           "Meat pie": 8
         },
         "foodCatCounts": {
-          "Protein": 11,
+          "Protein": 12,
           "Vegetable": 10,
           "Grain": 8
         },
@@ -2919,11 +2919,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 7.6,
-        "blocksTravelled": 13928,
+        "blocksTravelled": 14094,
         "blocksBroken": 216,
         "blocksPlaced": 68,
         "deepestY": 105,
-        "lastSeen": 1784142340,
+        "lastSeen": 1784142461,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
