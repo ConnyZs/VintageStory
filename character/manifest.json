@@ -20,12 +20,12 @@
     "Forlorn Hope talisman",
     "Cursed gemstone",
     "Malefactor whitewood mask",
-    "Marketeer belt",
+    "Forlorn Hope belt",
     "Squire bracers",
     "Forgotten noble robe"
    ],
    "frames": 16,
-   "v": 1784147934
+   "v": 1784150217
   },
   "Eghetti": {
    "class": "smith",
@@ -69,7 +69,7 @@
     "Rotwalker coat"
    ],
    "frames": 16,
-   "v": 1784150097
+   "v": 1784150238
   },
   "Moritz": {
    "class": "mason",

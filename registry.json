@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-231436",
+  "generated": "20260715-231636",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2074,11 +2074,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 42.8,
-        "blocksTravelled": 109305,
+        "blocksTravelled": 109531,
         "blocksBroken": 4481,
         "blocksPlaced": 336,
         "deepestY": 28,
-        "lastSeen": 1784150026,
+        "lastSeen": 1784150146,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2089,7 +2089,7 @@
           "Forlorn Hope talisman",
           "Cursed gemstone",
           "Malefactor whitewood mask",
-          "Marketeer belt",
+          "Forlorn Hope belt",
           "Squire bracers",
           "Forgotten noble robe"
         ],
@@ -2148,9 +2148,9 @@
           },
           {
             "slot": "waist",
-            "code": "game:clothes-waist-marketeer",
-            "name": "Marketeer belt",
-            "icon": "character/icons/waist-marketeer.png"
+            "code": "game:clothes-waist-forlorn-belt",
+            "name": "Forlorn Hope belt",
+            "icon": "character/icons/waist-forlorn-belt.png"
           },
           {
             "slot": "arm",
@@ -2218,9 +2218,9 @@
           },
           {
             "slot": "bag-10",
-            "code": "game:clothes-waist-marketeer",
-            "name": "Marketeer belt",
-            "icon": "character/icons/waist-marketeer.png"
+            "code": "game:clothes-waist-forlorn-belt",
+            "name": "Forlorn Hope belt",
+            "icon": "character/icons/waist-forlorn-belt.png"
           },
           {
             "slot": "bag-11",
@@ -2281,13 +2281,13 @@
         "name": "Eghetti",
         "class": "smith",
         "deaths": 2,
-        "mobKills": 53,
-        "mealsEaten": 27,
-        "caloriesConsumed": 11885,
-        "lastMeal": "Earthy orange ceramic bowl of meat stew",
+        "mobKills": 54,
+        "mealsEaten": 29,
+        "caloriesConsumed": 13015,
+        "lastMeal": "Meat pie",
         "mealsByName": {
           "Earthy orange ceramic bowl of meat stew": 17,
-          "Meat pie": 3,
+          "Meat pie": 5,
           "Earthy orange ceramic bowl of soup": 1,
           "Pear": 1,
           "Cooked redmeat nuggets": 2,
@@ -2295,9 +2295,9 @@
           "Rye bread": 1
         },
         "foodCatCounts": {
-          "Protein": 23,
-          "Vegetable": 15,
-          "Grain": 6,
+          "Protein": 25,
+          "Vegetable": 17,
+          "Grain": 8,
           "Fruit": 3,
           "Dairy": 2
         },
@@ -2305,12 +2305,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 48.6,
-        "blocksTravelled": 53796,
+        "playtimeHours": 48.7,
+        "blocksTravelled": 53921,
         "blocksBroken": 1210,
         "blocksPlaced": 897,
         "deepestY": 105,
-        "lastSeen": 1784150026,
+        "lastSeen": 1784150146,
         "gear": [
           "Raccoon tail hat",
           "Workmans pants",
@@ -2464,11 +2464,11 @@
         "class": "homesteader",
         "deaths": 21,
         "mobKills": 220,
-        "mealsEaten": 17,
-        "caloriesConsumed": 4511,
-        "lastMeal": "Earthy orange ceramic bowl of meat stew",
+        "mealsEaten": 19,
+        "caloriesConsumed": 6007,
+        "lastMeal": "Meat pie",
         "mealsByName": {
-          "Meat pie": 3,
+          "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
           "Earthy orange ceramic bowl of meat stew": 2,
           "Blueberry": 5,
@@ -2478,9 +2478,9 @@
           "Syrup-covered muffin": 1
         },
         "foodCatCounts": {
-          "Grain": 7,
-          "Protein": 9,
-          "Vegetable": 4,
+          "Grain": 9,
+          "Protein": 11,
+          "Vegetable": 6,
           "Fruit": 8,
           "Dairy": 4
         },
@@ -2493,11 +2493,11 @@
           "wolf-eurasian-adult-male": 1
         },
         "playtimeHours": 24.7,
-        "blocksTravelled": 123522,
+        "blocksTravelled": 123578,
         "blocksBroken": 8169,
         "blocksPlaced": 1778,
         "deepestY": 23,
-        "lastSeen": 1784150026,
+        "lastSeen": 1784150146,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2655,6 +2655,21 @@
             "slot": "bag-57",
             "code": "game:backpack-normal",
             "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-58",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-59",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-60",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           }
         ],
         "skin": {
@@ -2711,12 +2726,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 104.9,
-        "blocksTravelled": 112677,
-        "blocksBroken": 7304,
-        "blocksPlaced": 4860,
+        "playtimeHours": 105.0,
+        "blocksTravelled": 112822,
+        "blocksBroken": 7313,
+        "blocksPlaced": 4864,
         "deepestY": 24,
-        "lastSeen": 1784150026,
+        "lastSeen": 1784150146,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2995,12 +3010,12 @@
           "shiver-deepsplit": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 9.7,
-        "blocksTravelled": 17458,
+        "playtimeHours": 9.8,
+        "blocksTravelled": 17498,
         "blocksBroken": 259,
         "blocksPlaced": 172,
         "deepestY": 105,
-        "lastSeen": 1784150026,
+        "lastSeen": 1784150146,
         "gear": [
           "Tailor blouse",
           "Tailor shoes",
