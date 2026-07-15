@@ -1,5 +1,5 @@
 {
-  "generated": "20260716-000238",
+  "generated": "20260716-000439",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2727,9 +2727,9 @@
         "class": "mason",
         "deaths": 1,
         "mobKills": 68,
-        "mealsEaten": 69,
-        "caloriesConsumed": 16334,
-        "lastMeal": "Cooked dumplings",
+        "mealsEaten": 70,
+        "caloriesConsumed": 17059,
+        "lastMeal": "Syrup-covered muffin",
         "mealsByName": {
           "Cranberry": 18,
           "Meat pie": 1,
@@ -2741,28 +2741,28 @@
           "Pear": 4,
           "Rye bread": 1,
           "Leather-bound Oak Tankard": 2,
-          "Syrup-covered muffin": 2,
+          "Syrup-covered muffin": 3,
           "Syrup-covered fruit bread": 1,
           "Redcurrant": 2,
           "Pear pie": 1,
           "Cooked dumplings": 1
         },
         "foodCatCounts": {
-          "Fruit": 37,
-          "Grain": 17,
-          "Protein": 31,
+          "Fruit": 38,
+          "Grain": 18,
+          "Protein": 32,
           "Vegetable": 14,
-          "Dairy": 9
+          "Dairy": 10
         },
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 105.7,
-        "blocksTravelled": 115936,
+        "playtimeHours": 105.8,
+        "blocksTravelled": 116046,
         "blocksBroken": 7390,
         "blocksPlaced": 4929,
         "deepestY": 24,
-        "lastSeen": 1784152908,
+        "lastSeen": 1784153028,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -3041,12 +3041,12 @@
           "shiver-deepsplit": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 10.5,
-        "blocksTravelled": 18610,
+        "playtimeHours": 10.6,
+        "blocksTravelled": 18670,
         "blocksBroken": 470,
-        "blocksPlaced": 270,
+        "blocksPlaced": 277,
         "deepestY": 100,
-        "lastSeen": 1784152908,
+        "lastSeen": 1784153028,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
