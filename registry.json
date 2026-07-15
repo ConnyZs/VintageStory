@@ -1,5 +1,5 @@
 {
-  "generated": "20260715-184619",
+  "generated": "20260715-185019",
   "game_version": "1.22.3",
   "check_ts": "20260715-151611",
   "latest_engine": "1.22.3",
@@ -2563,7 +2563,7 @@
         "blocksBroken": 6960,
         "blocksPlaced": 4520,
         "deepestY": 24,
-        "lastSeen": 1784025736,
+        "lastSeen": 1784134188,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2626,26 +2626,6 @@
             "code": "game:clothes-upperbodyover-fortuneteller",
             "name": "Fortune teller vest",
             "icon": "character/icons/upperbodyover-fortuneteller.png"
-          },
-          {
-            "slot": "bag-1",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-2",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-3",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-4",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
           }
         ],
         "skin": {
