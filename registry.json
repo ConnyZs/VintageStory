@@ -1,5 +1,5 @@
 {
-  "generated": "20260716-213825",
+  "generated": "20260716-214025",
   "game_version": "1.22.3",
   "check_ts": "20260716-200050",
   "latest_engine": "1.22.3",
@@ -2078,7 +2078,7 @@
         "blocksBroken": 4481,
         "blocksPlaced": 336,
         "deepestY": 28,
-        "lastSeen": 1784230698,
+        "lastSeen": 1784230818,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2488,8 +2488,8 @@
         "class": "homesteader",
         "deaths": 21,
         "mobKills": 238,
-        "mealsEaten": 48,
-        "caloriesConsumed": 11881,
+        "mealsEaten": 49,
+        "caloriesConsumed": 11941,
         "lastMeal": "Cranberry",
         "mealsByName": {
           "Meat pie": 5,
@@ -2500,7 +2500,7 @@
           "Rye bread": 1,
           "Leather-bound Oak Tankard": 1,
           "Syrup-covered muffin": 1,
-          "Cranberry": 5,
+          "Cranberry": 6,
           "Blackcurrant": 17,
           "Pear pie": 4,
           "Cooked dumplings": 2,
@@ -2510,7 +2510,7 @@
           "Grain": 15,
           "Protein": 13,
           "Vegetable": 7,
-          "Fruit": 34,
+          "Fruit": 35,
           "Dairy": 10
         },
         "deathCauses": {
@@ -2522,11 +2522,11 @@
           "wolf-eurasian-adult-male": 1
         },
         "playtimeHours": 47.1,
-        "blocksTravelled": 135840,
+        "blocksTravelled": 136124,
         "blocksBroken": 10443,
         "blocksPlaced": 3409,
         "deepestY": 23,
-        "lastSeen": 1784230698,
+        "lastSeen": 1784230818,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
