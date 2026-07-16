@@ -1,5 +1,5 @@
 {
-  "generated": "20260716-224029",
+  "generated": "20260716-224229",
   "game_version": "1.22.3",
   "check_ts": "20260716-200050",
   "latest_engine": "1.22.3",
@@ -2488,9 +2488,9 @@
         "class": "homesteader",
         "deaths": 21,
         "mobKills": 238,
-        "mealsEaten": 66,
-        "caloriesConsumed": 13201,
-        "lastMeal": "Field mushroom",
+        "mealsEaten": 72,
+        "caloriesConsumed": 13681,
+        "lastMeal": "Redcurrant",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2505,7 +2505,7 @@
           "Pear pie": 4,
           "Cooked dumplings": 2,
           "Almond mushroom": 1,
-          "Redcurrant": 7,
+          "Redcurrant": 13,
           "Carrot": 2,
           "Field mushroom": 1
         },
@@ -2513,7 +2513,7 @@
           "Grain": 15,
           "Protein": 13,
           "Vegetable": 10,
-          "Fruit": 49,
+          "Fruit": 55,
           "Dairy": 10
         },
         "deathCauses": {
@@ -2525,11 +2525,11 @@
           "wolf-eurasian-adult-male": 1
         },
         "playtimeHours": 48.1,
-        "blocksTravelled": 143150,
+        "blocksTravelled": 143555,
         "blocksBroken": 11192,
         "blocksPlaced": 3444,
         "deepestY": 23,
-        "lastSeen": 1784234421,
+        "lastSeen": 1784234541,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
