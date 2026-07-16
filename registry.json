@@ -1,5 +1,5 @@
 {
-  "generated": "20260716-212824",
+  "generated": "20260716-213024",
   "game_version": "1.22.3",
   "check_ts": "20260716-200050",
   "latest_engine": "1.22.3",
@@ -2073,12 +2073,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 65.0,
+        "playtimeHours": 65.1,
         "blocksTravelled": 111178,
         "blocksBroken": 4481,
         "blocksPlaced": 336,
         "deepestY": 28,
-        "lastSeen": 1784230098,
+        "lastSeen": 1784230218,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2478,7 +2478,7 @@
     },
     {
       "name": "AddyBuschu",
-      "role": "suplayer",
+      "role": "admin",
       "first_join": "04/22/2026 17:55",
       "last_join": "07/16/2026 17:46",
       "last_char": "04/25/2026 15:34",
@@ -2526,7 +2526,7 @@
         "blocksBroken": 10442,
         "blocksPlaced": 3409,
         "deepestY": 23,
-        "lastSeen": 1784230098,
+        "lastSeen": 1784230218,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
