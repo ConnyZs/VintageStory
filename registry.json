@@ -1,5 +1,5 @@
 {
-  "generated": "20260716-220226",
+  "generated": "20260716-220426",
   "game_version": "1.22.3",
   "check_ts": "20260716-200050",
   "latest_engine": "1.22.3",
@@ -2074,11 +2074,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 65.6,
-        "blocksTravelled": 111271,
+        "blocksTravelled": 111284,
         "blocksBroken": 4481,
         "blocksPlaced": 336,
         "deepestY": 28,
-        "lastSeen": 1784232145,
+        "lastSeen": 1784232260,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2522,11 +2522,11 @@
           "wolf-eurasian-adult-male": 1
         },
         "playtimeHours": 47.5,
-        "blocksTravelled": 139062,
-        "blocksBroken": 10702,
+        "blocksTravelled": 139113,
+        "blocksBroken": 10833,
         "blocksPlaced": 3420,
         "deepestY": 23,
-        "lastSeen": 1784232145,
+        "lastSeen": 1784232260,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
