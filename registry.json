@@ -1,5 +1,5 @@
 {
-  "generated": "20260716-194617",
+  "generated": "20260716-194817",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2480,7 +2480,7 @@
       "name": "AddyBuschu",
       "role": "suplayer",
       "first_join": "04/22/2026 17:55",
-      "last_join": "07/15/2026 20:42",
+      "last_join": "07/16/2026 17:46",
       "last_char": "04/25/2026 15:34",
       "stats": {
         "uid": "MT3maN90oN2gwGyklJR20Gu1",
@@ -2521,11 +2521,11 @@
           "wolf-eurasian-adult-male": 1
         },
         "playtimeHours": 45.2,
-        "blocksTravelled": 127015,
+        "blocksTravelled": 127020,
         "blocksBroken": 8219,
         "blocksPlaced": 1798,
         "deepestY": 23,
-        "lastSeen": 1784223975,
+        "lastSeen": 1784224095,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
