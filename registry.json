@@ -1,5 +1,5 @@
 {
-  "generated": "20260716-213024",
+  "generated": "20260716-213224",
   "game_version": "1.22.3",
   "check_ts": "20260716-200050",
   "latest_engine": "1.22.3",
@@ -2078,7 +2078,7 @@
         "blocksBroken": 4481,
         "blocksPlaced": 336,
         "deepestY": 28,
-        "lastSeen": 1784230218,
+        "lastSeen": 1784230338,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2478,7 +2478,7 @@
     },
     {
       "name": "AddyBuschu",
-      "role": "admin",
+      "role": "suplayer",
       "first_join": "04/22/2026 17:55",
       "last_join": "07/16/2026 17:46",
       "last_char": "04/25/2026 15:34",
@@ -2488,8 +2488,8 @@
         "class": "homesteader",
         "deaths": 21,
         "mobKills": 238,
-        "mealsEaten": 47,
-        "caloriesConsumed": 11821,
+        "mealsEaten": 48,
+        "caloriesConsumed": 11881,
         "lastMeal": "Cranberry",
         "mealsByName": {
           "Meat pie": 5,
@@ -2500,7 +2500,7 @@
           "Rye bread": 1,
           "Leather-bound Oak Tankard": 1,
           "Syrup-covered muffin": 1,
-          "Cranberry": 4,
+          "Cranberry": 5,
           "Blackcurrant": 17,
           "Pear pie": 4,
           "Cooked dumplings": 2,
@@ -2510,7 +2510,7 @@
           "Grain": 15,
           "Protein": 13,
           "Vegetable": 7,
-          "Fruit": 33,
+          "Fruit": 34,
           "Dairy": 10
         },
         "deathCauses": {
@@ -2521,12 +2521,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 1
         },
-        "playtimeHours": 46.9,
-        "blocksTravelled": 135204,
+        "playtimeHours": 47.0,
+        "blocksTravelled": 135381,
         "blocksBroken": 10442,
         "blocksPlaced": 3409,
         "deepestY": 23,
-        "lastSeen": 1784230218,
+        "lastSeen": 1784230338,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
