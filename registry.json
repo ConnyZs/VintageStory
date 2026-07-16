@@ -1,5 +1,5 @@
 {
-  "generated": "20260716-232832",
+  "generated": "20260716-233832",
   "game_version": "1.22.3",
   "check_ts": "20260716-200050",
   "latest_engine": "1.22.3",
@@ -2073,12 +2073,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 65.9,
-        "blocksTravelled": 111772,
-        "blocksBroken": 4481,
-        "blocksPlaced": 336,
+        "playtimeHours": 66.1,
+        "blocksTravelled": 112055,
+        "blocksBroken": 4483,
+        "blocksPlaced": 338,
         "deepestY": 28,
-        "lastSeen": 1784237303,
+        "lastSeen": 1784237903,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2488,9 +2488,9 @@
         "class": "homesteader",
         "deaths": 21,
         "mobKills": 240,
-        "mealsEaten": 76,
-        "caloriesConsumed": 14041,
-        "lastMeal": "Blackcurrant",
+        "mealsEaten": 78,
+        "caloriesConsumed": 14221,
+        "lastMeal": "Puffball",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2507,12 +2507,14 @@
           "Almond mushroom": 1,
           "Redcurrant": 13,
           "Carrot": 4,
-          "Field mushroom": 1
+          "Field mushroom": 1,
+          "Turnip": 1,
+          "Puffball": 1
         },
         "foodCatCounts": {
           "Grain": 15,
           "Protein": 13,
-          "Vegetable": 12,
+          "Vegetable": 14,
           "Fruit": 57,
           "Dairy": 10
         },
@@ -2524,12 +2526,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 1
         },
-        "playtimeHours": 48.9,
-        "blocksTravelled": 151270,
-        "blocksBroken": 11266,
-        "blocksPlaced": 3637,
+        "playtimeHours": 49.1,
+        "blocksTravelled": 152353,
+        "blocksBroken": 11271,
+        "blocksPlaced": 3653,
         "deepestY": 23,
-        "lastSeen": 1784237303,
+        "lastSeen": 1784237903,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
