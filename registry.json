@@ -1,5 +1,5 @@
 {
-  "generated": "20260716-233832",
+  "generated": "20260716-234033",
   "game_version": "1.22.3",
   "check_ts": "20260716-200050",
   "latest_engine": "1.22.3",
@@ -2078,7 +2078,7 @@
         "blocksBroken": 4483,
         "blocksPlaced": 338,
         "deepestY": 28,
-        "lastSeen": 1784237903,
+        "lastSeen": 1784238023,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2487,10 +2487,10 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 21,
-        "mobKills": 240,
-        "mealsEaten": 78,
-        "caloriesConsumed": 14221,
-        "lastMeal": "Puffball",
+        "mobKills": 242,
+        "mealsEaten": 79,
+        "caloriesConsumed": 14301,
+        "lastMeal": "Tinder hoof",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2509,12 +2509,13 @@
           "Carrot": 4,
           "Field mushroom": 1,
           "Turnip": 1,
-          "Puffball": 1
+          "Puffball": 1,
+          "Tinder hoof": 1
         },
         "foodCatCounts": {
           "Grain": 15,
           "Protein": 13,
-          "Vegetable": 14,
+          "Vegetable": 15,
           "Fruit": 57,
           "Dairy": 10
         },
@@ -2527,11 +2528,11 @@
           "wolf-eurasian-adult-male": 1
         },
         "playtimeHours": 49.1,
-        "blocksTravelled": 152353,
-        "blocksBroken": 11271,
+        "blocksTravelled": 152751,
+        "blocksBroken": 11272,
         "blocksPlaced": 3653,
         "deepestY": 23,
-        "lastSeen": 1784237903,
+        "lastSeen": 1784238023,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2702,8 +2703,8 @@
           },
           {
             "slot": "bag-60",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "code": "butchering:butcherybag-standard",
+            "name": "Hide Butchering Bag"
           }
         ],
         "skin": {
