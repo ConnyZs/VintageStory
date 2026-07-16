@@ -1,5 +1,5 @@
 {
-  "generated": "20260716-220626",
+  "generated": "20260716-220827",
   "game_version": "1.22.3",
   "check_ts": "20260716-200050",
   "latest_engine": "1.22.3",
@@ -2074,11 +2074,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 65.7,
-        "blocksTravelled": 111284,
+        "blocksTravelled": 111297,
         "blocksBroken": 4481,
         "blocksPlaced": 336,
         "deepestY": 28,
-        "lastSeen": 1784232380,
+        "lastSeen": 1784232500,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2488,9 +2488,9 @@
         "class": "homesteader",
         "deaths": 21,
         "mobKills": 238,
-        "mealsEaten": 49,
-        "caloriesConsumed": 11941,
-        "lastMeal": "Cranberry",
+        "mealsEaten": 58,
+        "caloriesConsumed": 12701,
+        "lastMeal": "Carrot",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2504,13 +2504,15 @@
           "Blackcurrant": 17,
           "Pear pie": 4,
           "Cooked dumplings": 2,
-          "Almond mushroom": 1
+          "Almond mushroom": 1,
+          "Redcurrant": 7,
+          "Carrot": 2
         },
         "foodCatCounts": {
           "Grain": 15,
           "Protein": 13,
-          "Vegetable": 7,
-          "Fruit": 35,
+          "Vegetable": 9,
+          "Fruit": 42,
           "Dairy": 10
         },
         "deathCauses": {
@@ -2521,12 +2523,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 1
         },
-        "playtimeHours": 47.5,
-        "blocksTravelled": 139177,
-        "blocksBroken": 10939,
+        "playtimeHours": 47.6,
+        "blocksTravelled": 139244,
+        "blocksBroken": 11022,
         "blocksPlaced": 3420,
         "deepestY": 23,
-        "lastSeen": 1784232380,
+        "lastSeen": 1784232500,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
