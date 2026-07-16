@@ -1,5 +1,5 @@
 {
-  "generated": "20260716-234633",
+  "generated": "20260716-234833",
   "game_version": "1.22.3",
   "check_ts": "20260716-200050",
   "latest_engine": "1.22.3",
@@ -2528,11 +2528,11 @@
           "wolf-eurasian-adult-male": 1
         },
         "playtimeHours": 49.2,
-        "blocksTravelled": 153900,
+        "blocksTravelled": 153953,
         "blocksBroken": 11275,
         "blocksPlaced": 3660,
         "deepestY": 23,
-        "lastSeen": 1784238384,
+        "lastSeen": 1784238504,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2544,8 +2544,9 @@
           "Marketeer belt",
           "Leather bracers",
           "Rotwalker coat",
-          "Black bear hide helmet",
-          "Black bear hide body armor"
+          "Blackguard helm (Broken)",
+          "Black bear hide body armor",
+          "Blackguard greaves (Broken)"
         ],
         "gearDetail": [
           {
@@ -2609,13 +2610,18 @@
           },
           {
             "slot": "armorhead",
-            "code": "game:armor-head-hide-bear-black",
-            "name": "Black bear hide helmet"
+            "code": "game:armor-head-antique-blackguard-broken",
+            "name": "Blackguard helm (Broken)"
           },
           {
             "slot": "armorbody",
             "code": "game:armor-body-hide-bear-black",
             "name": "Black bear hide body armor"
+          },
+          {
+            "slot": "armorlegs",
+            "code": "game:armor-legs-antique-blackguard-broken",
+            "name": "Blackguard greaves (Broken)"
           },
           {
             "slot": "bag-2",
@@ -2678,13 +2684,18 @@
           },
           {
             "slot": "bag-13",
-            "code": "game:armor-head-hide-bear-black",
-            "name": "Black bear hide helmet"
+            "code": "game:armor-head-antique-blackguard-broken",
+            "name": "Blackguard helm (Broken)"
           },
           {
             "slot": "bag-14",
             "code": "game:armor-body-hide-bear-black",
             "name": "Black bear hide body armor"
+          },
+          {
+            "slot": "bag-15",
+            "code": "game:armor-legs-antique-blackguard-broken",
+            "name": "Blackguard greaves (Broken)"
           },
           {
             "slot": "bag-57",
