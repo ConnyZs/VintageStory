@@ -1,5 +1,5 @@
 {
-  "generated": "20260716-232431",
+  "generated": "20260716-232632",
   "game_version": "1.22.3",
   "check_ts": "20260716-200050",
   "latest_engine": "1.22.3",
@@ -2045,7 +2045,7 @@
         "name": "Raschuetzer",
         "class": "tinker",
         "deaths": 6,
-        "mobKills": 75,
+        "mobKills": 76,
         "mealsEaten": 32,
         "caloriesConsumed": 13804,
         "lastMeal": "Cooked dumplings",
@@ -2073,12 +2073,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 65.8,
-        "blocksTravelled": 111403,
+        "playtimeHours": 65.9,
+        "blocksTravelled": 111484,
         "blocksBroken": 4481,
         "blocksPlaced": 336,
         "deepestY": 28,
-        "lastSeen": 1784237063,
+        "lastSeen": 1784237183,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2524,12 +2524,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 1
         },
-        "playtimeHours": 48.8,
-        "blocksTravelled": 150916,
+        "playtimeHours": 48.9,
+        "blocksTravelled": 150949,
         "blocksBroken": 11266,
         "blocksPlaced": 3637,
         "deepestY": 23,
-        "lastSeen": 1784237063,
+        "lastSeen": 1784237183,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
