@@ -1,5 +1,5 @@
 {
-  "generated": "20260716-194817",
+  "generated": "20260716-195018",
   "game_version": "1.22.3",
   "check_ts": "20260715-200051",
   "latest_engine": "1.22.3",
@@ -2488,8 +2488,8 @@
         "class": "homesteader",
         "deaths": 21,
         "mobKills": 233,
-        "mealsEaten": 37,
-        "caloriesConsumed": 10001,
+        "mealsEaten": 38,
+        "caloriesConsumed": 11121,
         "lastMeal": "Cooked dumplings",
         "mealsByName": {
           "Meat pie": 5,
@@ -2503,14 +2503,14 @@
           "Cranberry": 3,
           "Blackcurrant": 10,
           "Pear pie": 4,
-          "Cooked dumplings": 1
+          "Cooked dumplings": 2
         },
         "foodCatCounts": {
-          "Grain": 14,
-          "Protein": 12,
+          "Grain": 15,
+          "Protein": 13,
           "Vegetable": 6,
           "Fruit": 25,
-          "Dairy": 9
+          "Dairy": 10
         },
         "deathCauses": {
           "bear-brown-adult-female": 1,
@@ -2520,12 +2520,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 1
         },
-        "playtimeHours": 45.2,
-        "blocksTravelled": 127020,
+        "playtimeHours": 45.3,
+        "blocksTravelled": 127294,
         "blocksBroken": 8219,
-        "blocksPlaced": 1798,
+        "blocksPlaced": 1803,
         "deepestY": 23,
-        "lastSeen": 1784224095,
+        "lastSeen": 1784224215,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2696,8 +2696,8 @@
           },
           {
             "slot": "bag-60",
-            "code": "butchering:butcherybag-standard",
-            "name": "Hide Butchering Bag"
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           }
         ],
         "skin": {
