@@ -1,5 +1,5 @@
 {
-  "generated": "20260717-140330",
+  "generated": "20260717-140530",
   "game_version": "1.22.3",
   "check_ts": "20260716-200050",
   "latest_engine": "1.22.3",
@@ -2537,12 +2537,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 1
         },
-        "playtimeHours": 63.4,
-        "blocksTravelled": 160686,
+        "playtimeHours": 63.5,
+        "blocksTravelled": 160846,
         "blocksBroken": 11352,
-        "blocksPlaced": 3681,
+        "blocksPlaced": 3682,
         "deepestY": 23,
-        "lastSeen": 1784289765,
+        "lastSeen": 1784289885,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
