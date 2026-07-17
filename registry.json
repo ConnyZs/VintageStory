@@ -1,5 +1,5 @@
 {
-  "generated": "20260717-134528",
+  "generated": "20260717-134729",
   "game_version": "1.22.3",
   "check_ts": "20260716-200050",
   "latest_engine": "1.22.3",
@@ -2488,9 +2488,9 @@
         "class": "homesteader",
         "deaths": 21,
         "mobKills": 249,
-        "mealsEaten": 96,
-        "caloriesConsumed": 15361,
-        "lastMeal": "Lobster",
+        "mealsEaten": 98,
+        "caloriesConsumed": 15521,
+        "lastMeal": "Black trumpet",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2516,12 +2516,14 @@
           "Dryad saddle": 2,
           "White oyster": 2,
           "Common morel": 2,
-          "Lobster": 1
+          "Lobster": 1,
+          "Chanterelle": 1,
+          "Black trumpet": 1
         },
         "foodCatCounts": {
           "Grain": 21,
           "Protein": 13,
-          "Vegetable": 22,
+          "Vegetable": 24,
           "Fruit": 61,
           "Dairy": 10
         },
@@ -2534,11 +2536,11 @@
           "wolf-eurasian-adult-male": 1
         },
         "playtimeHours": 63.2,
-        "blocksTravelled": 158240,
-        "blocksBroken": 11297,
+        "blocksTravelled": 158343,
+        "blocksBroken": 11301,
         "blocksPlaced": 3668,
         "deepestY": 23,
-        "lastSeen": 1784288728,
+        "lastSeen": 1784288805,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
