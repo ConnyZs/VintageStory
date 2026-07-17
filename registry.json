@@ -1,5 +1,5 @@
 {
-  "generated": "20260717-224205",
+  "generated": "20260717-224405",
   "game_version": "1.22.3",
   "check_ts": "20260717-200052",
   "latest_engine": "1.22.3",
@@ -2520,9 +2520,9 @@
         "class": "homesteader",
         "deaths": 21,
         "mobKills": 266,
-        "mealsEaten": 187,
-        "caloriesConsumed": 22171,
-        "lastMeal": "Raspberry",
+        "mealsEaten": 189,
+        "caloriesConsumed": 22331,
+        "lastMeal": "Red wine cap",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2553,7 +2553,7 @@
           "Black trumpet": 1,
           "Witch's hat": 1,
           "Blackberry": 1,
-          "Red wine cap": 1,
+          "Red wine cap": 3,
           "Honeycomb": 2,
           "Green cracked russula": 11,
           "Violet web cap": 2,
@@ -2567,7 +2567,7 @@
         "foodCatCounts": {
           "Grain": 38,
           "Protein": 13,
-          "Vegetable": 48,
+          "Vegetable": 50,
           "Fruit": 109,
           "Dairy": 10
         },
@@ -2579,12 +2579,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 1
         },
-        "playtimeHours": 66.5,
-        "blocksTravelled": 187431,
-        "blocksBroken": 12002,
+        "playtimeHours": 66.6,
+        "blocksTravelled": 187871,
+        "blocksBroken": 12024,
         "blocksPlaced": 3921,
         "deepestY": 23,
-        "lastSeen": 1784320917,
+        "lastSeen": 1784321037,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2738,6 +2738,21 @@
             "slot": "bag-14",
             "code": "game:nugget-galena",
             "name": "Nugget (Galena)"
+          },
+          {
+            "slot": "bag-15",
+            "code": "game:soil-medium-none",
+            "name": "Medium fertility soil"
+          },
+          {
+            "slot": "bag-16",
+            "code": "floramycology:seeds-redwinecap",
+            "name": "Red Wine Cap Spores"
+          },
+          {
+            "slot": "bag-17",
+            "code": "game:fruit-cranberry",
+            "name": "Cranberry"
           },
           {
             "slot": "bag-21",
