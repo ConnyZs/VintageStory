@@ -1,5 +1,5 @@
 {
-  "generated": "20260717-222404",
+  "generated": "20260717-222604",
   "game_version": "1.22.3",
   "check_ts": "20260717-200052",
   "latest_engine": "1.22.3",
@@ -2487,10 +2487,10 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 21,
-        "mobKills": 259,
-        "mealsEaten": 166,
-        "caloriesConsumed": 20521,
-        "lastMeal": "Green cracked russula",
+        "mobKills": 261,
+        "mealsEaten": 167,
+        "caloriesConsumed": 20601,
+        "lastMeal": "Gold-drop milkcap",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2529,12 +2529,13 @@
           "Green grapes": 4,
           "King bolete": 2,
           "Chicken of the woods": 2,
-          "Fennel": 1
+          "Fennel": 1,
+          "Gold-drop milkcap": 1
         },
         "foodCatCounts": {
           "Grain": 38,
           "Protein": 13,
-          "Vegetable": 44,
+          "Vegetable": 45,
           "Fruit": 92,
           "Dairy": 10
         },
@@ -2546,12 +2547,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 1
         },
-        "playtimeHours": 66.2,
-        "blocksTravelled": 184976,
-        "blocksBroken": 11985,
+        "playtimeHours": 66.3,
+        "blocksTravelled": 185234,
+        "blocksBroken": 11989,
         "blocksPlaced": 3920,
         "deepestY": 23,
-        "lastSeen": 1784319837,
+        "lastSeen": 1784319960,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2685,6 +2686,16 @@
             "slot": "bag-10",
             "code": "game:ladder-stick-north",
             "name": "Crude ladder"
+          },
+          {
+            "slot": "bag-11",
+            "code": "game:fruit-blackberry",
+            "name": "Blackberry"
+          },
+          {
+            "slot": "bag-12",
+            "code": "game:fruit-blueberry",
+            "name": "Blueberry"
           },
           {
             "slot": "bag-24",
