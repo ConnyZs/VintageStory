@@ -1,5 +1,5 @@
 {
-  "generated": "20260717-152136",
+  "generated": "20260717-152336",
   "game_version": "1.22.3",
   "check_ts": "20260716-200050",
   "latest_engine": "1.22.3",
@@ -2488,9 +2488,9 @@
         "class": "homesteader",
         "deaths": 21,
         "mobKills": 251,
-        "mealsEaten": 147,
-        "caloriesConsumed": 19031,
-        "lastMeal": "Green grapes",
+        "mealsEaten": 149,
+        "caloriesConsumed": 19191,
+        "lastMeal": "King bolete",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2526,12 +2526,13 @@
           "Green cracked russula": 2,
           "Violet web cap": 2,
           "Liberty cap": 1,
-          "Green grapes": 4
+          "Green grapes": 4,
+          "King bolete": 2
         },
         "foodCatCounts": {
           "Grain": 38,
           "Protein": 13,
-          "Vegetable": 32,
+          "Vegetable": 34,
           "Fruit": 85,
           "Dairy": 10
         },
@@ -2544,11 +2545,11 @@
           "wolf-eurasian-adult-male": 1
         },
         "playtimeHours": 64.8,
-        "blocksTravelled": 171956,
-        "blocksBroken": 11781,
-        "blocksPlaced": 3812,
+        "blocksTravelled": 172187,
+        "blocksBroken": 11782,
+        "blocksPlaced": 3829,
         "deepestY": 23,
-        "lastSeen": 1784294465,
+        "lastSeen": 1784294569,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2780,12 +2781,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 145.0,
-        "blocksTravelled": 119258,
+        "playtimeHours": 145.1,
+        "blocksTravelled": 119541,
         "blocksBroken": 7446,
         "blocksPlaced": 4977,
         "deepestY": 24,
-        "lastSeen": 1784294465,
+        "lastSeen": 1784294569,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
