@@ -1,5 +1,5 @@
 {
-  "generated": "20260717-185150",
+  "generated": "20260717-185350",
   "game_version": "1.22.3",
   "check_ts": "20260716-200050",
   "latest_engine": "1.22.3",
@@ -2751,7 +2751,7 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 71,
+        "mobKills": 74,
         "mealsEaten": 71,
         "caloriesConsumed": 17371,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
@@ -2782,12 +2782,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 146.1,
-        "blocksTravelled": 124625,
-        "blocksBroken": 7754,
+        "playtimeHours": 146.2,
+        "blocksTravelled": 125153,
+        "blocksBroken": 7755,
         "blocksPlaced": 5134,
         "deepestY": 24,
-        "lastSeen": 1784306991,
+        "lastSeen": 1784307187,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2888,9 +2888,19 @@
             "name": "Glass"
           },
           {
+            "slot": "bag-8",
+            "code": "game:stone-peridotite",
+            "name": "Peridotite stone"
+          },
+          {
             "slot": "bag-9",
             "code": "game:hammer-tinbronze",
             "name": "Tin bronze hammer"
+          },
+          {
+            "slot": "bag-10",
+            "code": "game:stone-andesite",
+            "name": "Andesite stone"
           },
           {
             "slot": "bag-11",
@@ -2921,11 +2931,6 @@
             "slot": "bag-16",
             "code": "game:ore-quartz",
             "name": "Quartz chunk"
-          },
-          {
-            "slot": "bag-17",
-            "code": "game:stone-peridotite",
-            "name": "Peridotite stone"
           },
           {
             "slot": "bag-18",
