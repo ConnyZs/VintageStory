@@ -1,5 +1,5 @@
 {
-  "generated": "20260717-232608",
+  "generated": "20260717-233038",
   "game_version": "1.22.3",
   "check_ts": "20260717-200052",
   "latest_engine": "1.22.3",
@@ -26,6 +26,7 @@
     "Cosmetics",
     "Crafting",
     "Creatures",
+    "Flora",
     "Food",
     "Furniture",
     "Graphics",
@@ -44,7 +45,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 125,
+  "count": 127,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1946,6 +1947,38 @@
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "1.2.2",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": true
+    },
+    {
+      "name": "Chisel Leaf",
+      "modid": "chiselleaf",
+      "section": "1.22",
+      "category": "Crafting",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/chiselleaf",
+      "server_state": "no",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": null,
+      "build_version": "1.2.1",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": true
+    },
+    {
+      "name": "Unnerfed Flowers",
+      "modid": "unnerfedflowers",
+      "section": "1.22",
+      "category": "Flora",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/show/mod/47392",
+      "server_state": "no",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": null,
+      "build_version": "1.0.0",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": true
