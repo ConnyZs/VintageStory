@@ -1,5 +1,5 @@
 {
-  "generated": "20260717-143332",
+  "generated": "20260717-143533",
   "game_version": "1.22.3",
   "check_ts": "20260716-200050",
   "latest_engine": "1.22.3",
@@ -2542,12 +2542,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 1
         },
-        "playtimeHours": 63.9,
-        "blocksTravelled": 164533,
+        "playtimeHours": 64.0,
+        "blocksTravelled": 164959,
         "blocksBroken": 11629,
         "blocksPlaced": 3703,
         "deepestY": 23,
-        "lastSeen": 1784291567,
+        "lastSeen": 1784291687,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2718,8 +2718,8 @@
           },
           {
             "slot": "bag-60",
-            "code": "butchering:butcherybag-standard",
-            "name": "Hide Butchering Bag"
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           }
         ],
         "skin": {
