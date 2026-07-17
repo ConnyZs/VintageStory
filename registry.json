@@ -1,5 +1,5 @@
 {
-  "generated": "20260717-144734",
+  "generated": "20260717-144934",
   "game_version": "1.22.3",
   "check_ts": "20260716-200050",
   "latest_engine": "1.22.3",
@@ -2544,11 +2544,11 @@
           "wolf-eurasian-adult-male": 1
         },
         "playtimeHours": 64.2,
-        "blocksTravelled": 166958,
+        "blocksTravelled": 167131,
         "blocksBroken": 11684,
-        "blocksPlaced": 3703,
+        "blocksPlaced": 3706,
         "deepestY": 23,
-        "lastSeen": 1784292407,
+        "lastSeen": 1784292527,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2780,12 +2780,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 105.8,
-        "blocksTravelled": 116366,
+        "playtimeHours": 144.5,
+        "blocksTravelled": 116373,
         "blocksBroken": 7439,
         "blocksPlaced": 4966,
         "deepestY": 24,
-        "lastSeen": 1784153225,
+        "lastSeen": 1784292527,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
