@@ -1,5 +1,5 @@
 {
-  "generated": "20260717-135329",
+  "generated": "20260717-135529",
   "game_version": "1.22.3",
   "check_ts": "20260716-200050",
   "latest_engine": "1.22.3",
@@ -2488,9 +2488,9 @@
         "class": "homesteader",
         "deaths": 21,
         "mobKills": 249,
-        "mealsEaten": 99,
-        "caloriesConsumed": 15601,
-        "lastMeal": "Witch's hat",
+        "mealsEaten": 110,
+        "caloriesConsumed": 15931,
+        "lastMeal": "Flax grain",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2512,7 +2512,7 @@
           "Puffball": 1,
           "Tinder hoof": 1,
           "Raspberry": 4,
-          "Flax grain": 6,
+          "Flax grain": 17,
           "Dryad saddle": 2,
           "White oyster": 2,
           "Common morel": 2,
@@ -2522,7 +2522,7 @@
           "Witch's hat": 1
         },
         "foodCatCounts": {
-          "Grain": 21,
+          "Grain": 32,
           "Protein": 13,
           "Vegetable": 25,
           "Fruit": 61,
@@ -2537,11 +2537,11 @@
           "wolf-eurasian-adult-male": 1
         },
         "playtimeHours": 63.3,
-        "blocksTravelled": 159451,
-        "blocksBroken": 11302,
-        "blocksPlaced": 3668,
+        "blocksTravelled": 159790,
+        "blocksBroken": 11332,
+        "blocksPlaced": 3670,
         "deepestY": 23,
-        "lastSeen": 1784289165,
+        "lastSeen": 1784289285,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
