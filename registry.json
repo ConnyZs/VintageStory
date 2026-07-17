@@ -1,5 +1,5 @@
 {
-  "generated": "20260717-133728",
+  "generated": "20260717-133928",
   "game_version": "1.22.3",
   "check_ts": "20260716-200050",
   "latest_engine": "1.22.3",
@@ -2488,9 +2488,9 @@
         "class": "homesteader",
         "deaths": 21,
         "mobKills": 245,
-        "mealsEaten": 79,
-        "caloriesConsumed": 14301,
-        "lastMeal": "Tinder hoof",
+        "mealsEaten": 83,
+        "caloriesConsumed": 14621,
+        "lastMeal": "Raspberry",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2510,13 +2510,14 @@
           "Field mushroom": 1,
           "Turnip": 1,
           "Puffball": 1,
-          "Tinder hoof": 1
+          "Tinder hoof": 1,
+          "Raspberry": 4
         },
         "foodCatCounts": {
           "Grain": 15,
           "Protein": 13,
           "Vegetable": 15,
-          "Fruit": 57,
+          "Fruit": 61,
           "Dairy": 10
         },
         "deathCauses": {
@@ -2528,11 +2529,11 @@
           "wolf-eurasian-adult-male": 1
         },
         "playtimeHours": 63.0,
-        "blocksTravelled": 156919,
+        "blocksTravelled": 157106,
         "blocksBroken": 11279,
         "blocksPlaced": 3666,
         "deepestY": 23,
-        "lastSeen": 1784288204,
+        "lastSeen": 1784288324,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
