@@ -1,5 +1,5 @@
 {
-  "generated": "20260717-132927",
+  "generated": "20260717-133127",
   "game_version": "1.22.3",
   "check_ts": "20260716-200050",
   "latest_engine": "1.22.3",
@@ -2487,7 +2487,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 21,
-        "mobKills": 243,
+        "mobKills": 245,
         "mealsEaten": 79,
         "caloriesConsumed": 14301,
         "lastMeal": "Tinder hoof",
@@ -2528,11 +2528,11 @@
           "wolf-eurasian-adult-male": 1
         },
         "playtimeHours": 62.9,
-        "blocksTravelled": 155372,
-        "blocksBroken": 11277,
+        "blocksTravelled": 155734,
+        "blocksBroken": 11278,
         "blocksPlaced": 3665,
         "deepestY": 23,
-        "lastSeen": 1784287724,
+        "lastSeen": 1784287844,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2698,13 +2698,13 @@
           },
           {
             "slot": "bag-59",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "code": "butchering:deadwolf-male-eurasian-7-dead",
+            "name": "Wolf (dead)"
           },
           {
             "slot": "bag-60",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "code": "butchering:deadwolf-male-eurasian-8-dead",
+            "name": "Wolf (dead)"
           }
         ],
         "skin": {
