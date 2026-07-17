@@ -1,5 +1,5 @@
 {
-  "generated": "20260717-220002",
+  "generated": "20260717-220202",
   "game_version": "1.22.3",
   "check_ts": "20260717-200052",
   "latest_engine": "1.22.3",
@@ -2480,7 +2480,7 @@
       "name": "AddyBuschu",
       "role": "suplayer",
       "first_join": "04/22/2026 17:55",
-      "last_join": "07/17/2026 19:55",
+      "last_join": "07/17/2026 19:58",
       "last_char": "04/25/2026 15:34",
       "stats": {
         "uid": "MT3maN90oN2gwGyklJR20Gu1",
@@ -2545,12 +2545,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 1
         },
-        "playtimeHours": 65.8,
-        "blocksTravelled": 181054,
+        "playtimeHours": 65.9,
+        "blocksTravelled": 181332,
         "blocksBroken": 11879,
         "blocksPlaced": 3880,
         "deepestY": 23,
-        "lastSeen": 1784318395,
+        "lastSeen": 1784318516,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2634,6 +2634,21 @@
             "slot": "armorbody",
             "code": "game:armor-body-hide-bear-black",
             "name": "Black bear hide body armor"
+          },
+          {
+            "slot": "bag-1",
+            "code": "animalcages:mediumanimalcage-ceiling-opened-east",
+            "name": "Medium animal cage (open)"
+          },
+          {
+            "slot": "bag-2",
+            "code": "animalcages:mediumanimalcage-ceiling-opened-east",
+            "name": "Medium animal cage (open)"
+          },
+          {
+            "slot": "bag-3",
+            "code": "animalcages:mediumanimalcage-ceiling-opened-east",
+            "name": "Medium animal cage (open)"
           }
         ],
         "skin": {
