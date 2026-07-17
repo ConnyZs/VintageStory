@@ -1,5 +1,5 @@
 {
-  "generated": "20260717-143733",
+  "generated": "20260717-143933",
   "game_version": "1.22.3",
   "check_ts": "20260716-200050",
   "latest_engine": "1.22.3",
@@ -2487,9 +2487,9 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 21,
-        "mobKills": 249,
-        "mealsEaten": 136,
-        "caloriesConsumed": 18151,
+        "mobKills": 250,
+        "mealsEaten": 143,
+        "caloriesConsumed": 18711,
         "lastMeal": "Redcurrant",
         "mealsByName": {
           "Meat pie": 5,
@@ -2505,7 +2505,7 @@
           "Pear pie": 4,
           "Cooked dumplings": 2,
           "Almond mushroom": 1,
-          "Redcurrant": 23,
+          "Redcurrant": 30,
           "Carrot": 4,
           "Field mushroom": 1,
           "Turnip": 1,
@@ -2531,7 +2531,7 @@
           "Grain": 38,
           "Protein": 13,
           "Vegetable": 32,
-          "Fruit": 74,
+          "Fruit": 81,
           "Dairy": 10
         },
         "deathCauses": {
@@ -2543,11 +2543,11 @@
           "wolf-eurasian-adult-male": 1
         },
         "playtimeHours": 64.0,
-        "blocksTravelled": 165185,
-        "blocksBroken": 11653,
+        "blocksTravelled": 165518,
+        "blocksBroken": 11664,
         "blocksPlaced": 3703,
         "deepestY": 23,
-        "lastSeen": 1784291807,
+        "lastSeen": 1784291927,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
