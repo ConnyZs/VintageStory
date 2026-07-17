@@ -1,5 +1,5 @@
 {
-  "generated": "20260717-153136",
+  "generated": "20260717-153337",
   "game_version": "1.22.3",
   "check_ts": "20260716-200050",
   "latest_engine": "1.22.3",
@@ -2487,7 +2487,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 21,
-        "mobKills": 252,
+        "mobKills": 253,
         "mealsEaten": 149,
         "caloriesConsumed": 19191,
         "lastMeal": "King bolete",
@@ -2545,11 +2545,11 @@
           "wolf-eurasian-adult-male": 1
         },
         "playtimeHours": 64.9,
-        "blocksTravelled": 174008,
+        "blocksTravelled": 174487,
         "blocksBroken": 11789,
         "blocksPlaced": 3840,
         "deepestY": 23,
-        "lastSeen": 1784295069,
+        "lastSeen": 1784295169,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2782,11 +2782,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 145.2,
-        "blocksTravelled": 120029,
+        "blocksTravelled": 120551,
         "blocksBroken": 7497,
         "blocksPlaced": 4978,
         "deepestY": 24,
-        "lastSeen": 1784295069,
+        "lastSeen": 1784295169,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
