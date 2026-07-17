@@ -1,5 +1,5 @@
 {
-  "generated": "20260717-145134",
+  "generated": "20260717-145334",
   "game_version": "1.22.3",
   "check_ts": "20260716-200050",
   "latest_engine": "1.22.3",
@@ -2543,12 +2543,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 1
         },
-        "playtimeHours": 64.2,
-        "blocksTravelled": 167486,
-        "blocksBroken": 11700,
+        "playtimeHours": 64.3,
+        "blocksTravelled": 167668,
+        "blocksBroken": 11737,
         "blocksPlaced": 3706,
         "deepestY": 23,
-        "lastSeen": 1784292651,
+        "lastSeen": 1784292767,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2750,16 +2750,16 @@
         "class": "mason",
         "deaths": 1,
         "mobKills": 68,
-        "mealsEaten": 70,
-        "caloriesConsumed": 17059,
-        "lastMeal": "Syrup-covered muffin",
+        "mealsEaten": 71,
+        "caloriesConsumed": 17371,
+        "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Cranberry": 18,
           "Meat pie": 1,
           "Cranberry pie": 7,
           "Earthy orange ceramic bowl of soup": 1,
           "Wooden bucket": 1,
-          "Earthy orange ceramic bowl of meat stew": 26,
+          "Earthy orange ceramic bowl of meat stew": 27,
           "Chopped cabbage": 1,
           "Pear": 4,
           "Rye bread": 1,
@@ -2773,19 +2773,19 @@
         "foodCatCounts": {
           "Fruit": 38,
           "Grain": 18,
-          "Protein": 32,
+          "Protein": 33,
           "Vegetable": 14,
           "Dairy": 10
         },
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 144.5,
-        "blocksTravelled": 116406,
+        "playtimeHours": 144.6,
+        "blocksTravelled": 116648,
         "blocksBroken": 7439,
         "blocksPlaced": 4966,
         "deepestY": 24,
-        "lastSeen": 1784292651,
+        "lastSeen": 1784292767,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
