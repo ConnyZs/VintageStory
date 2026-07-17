@@ -1,5 +1,5 @@
 {
-  "generated": "20260717-155138",
+  "generated": "20260717-155338",
   "game_version": "1.22.3",
   "check_ts": "20260716-200050",
   "latest_engine": "1.22.3",
@@ -2488,9 +2488,9 @@
         "class": "homesteader",
         "deaths": 21,
         "mobKills": 253,
-        "mealsEaten": 151,
-        "caloriesConsumed": 19351,
-        "lastMeal": "Chicken of the woods",
+        "mealsEaten": 152,
+        "caloriesConsumed": 19431,
+        "lastMeal": "Green cracked russula",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2523,7 +2523,7 @@
           "Blackberry": 1,
           "Red wine cap": 1,
           "Honeycomb": 2,
-          "Green cracked russula": 2,
+          "Green cracked russula": 3,
           "Violet web cap": 2,
           "Liberty cap": 1,
           "Green grapes": 4,
@@ -2533,7 +2533,7 @@
         "foodCatCounts": {
           "Grain": 38,
           "Protein": 13,
-          "Vegetable": 36,
+          "Vegetable": 37,
           "Fruit": 85,
           "Dairy": 10
         },
@@ -2546,11 +2546,11 @@
           "wolf-eurasian-adult-male": 1
         },
         "playtimeHours": 65.3,
-        "blocksTravelled": 178066,
-        "blocksBroken": 11858,
-        "blocksPlaced": 3847,
+        "blocksTravelled": 178398,
+        "blocksBroken": 11859,
+        "blocksPlaced": 3849,
         "deepestY": 23,
-        "lastSeen": 1784296277,
+        "lastSeen": 1784296370,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2782,12 +2782,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 145.5,
-        "blocksTravelled": 122040,
+        "playtimeHours": 145.6,
+        "blocksTravelled": 122293,
         "blocksBroken": 7713,
         "blocksPlaced": 4991,
         "deepestY": 24,
-        "lastSeen": 1784296277,
+        "lastSeen": 1784296370,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
