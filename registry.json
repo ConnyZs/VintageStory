@@ -1,5 +1,5 @@
 {
-  "generated": "20260717-225406",
+  "generated": "20260717-225606",
   "game_version": "1.22.3",
   "check_ts": "20260717-200052",
   "latest_engine": "1.22.3",
@@ -2518,7 +2518,7 @@
         "uid": "MT3maN90oN2gwGyklJR20Gu1",
         "name": "AddyBuschu",
         "class": "homesteader",
-        "deaths": 21,
+        "deaths": 22,
         "mobKills": 266,
         "mealsEaten": 193,
         "caloriesConsumed": 22651,
@@ -2577,14 +2577,14 @@
           "pig-eurasian-adult-male": 1,
           "pig-eurasian-adult-female": 1,
           "wolf-eurasian-adult-female": 1,
-          "wolf-eurasian-adult-male": 1
+          "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 66.7,
-        "blocksTravelled": 189872,
+        "playtimeHours": 66.8,
+        "blocksTravelled": 190078,
         "blocksBroken": 12025,
         "blocksPlaced": 3929,
         "deepestY": 23,
-        "lastSeen": 1784321638,
+        "lastSeen": 1784321720,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2668,126 +2668,6 @@
             "slot": "armorbody",
             "code": "game:armor-body-hide-bear-black",
             "name": "Black bear hide body armor"
-          },
-          {
-            "slot": "bag-1",
-            "code": "animalcages:mediumanimalcage-ceiling-opened-east",
-            "name": "Medium animal cage (open)"
-          },
-          {
-            "slot": "bag-2",
-            "code": "animalcages:mediumanimalcage-ceiling-opened-east",
-            "name": "Medium animal cage (open)"
-          },
-          {
-            "slot": "bag-3",
-            "code": "animalcages:mediumanimalcage-ceiling-opened-east",
-            "name": "Medium animal cage (open)"
-          },
-          {
-            "slot": "bag-4",
-            "code": "game:mushroom-funeralbell-normal-north",
-            "name": "Funeral bell"
-          },
-          {
-            "slot": "bag-5",
-            "code": "game:vegetable-fennel",
-            "name": "Fennel"
-          },
-          {
-            "slot": "bag-6",
-            "code": "game:resin",
-            "name": "Resin"
-          },
-          {
-            "slot": "bag-7",
-            "code": "animalcages:mediumanimalcage-ceiling-opened-east",
-            "name": "Medium animal cage (open)"
-          },
-          {
-            "slot": "bag-8",
-            "code": "game:seeds-fennel",
-            "name": "Fennel seeds"
-          },
-          {
-            "slot": "bag-9",
-            "code": "game:seeds-soybean",
-            "name": "Soybean seeds"
-          },
-          {
-            "slot": "bag-10",
-            "code": "game:seeds-cabbage",
-            "name": "Cabbage seeds"
-          },
-          {
-            "slot": "bag-11",
-            "code": "game:fruit-blackberry",
-            "name": "Blackberry"
-          },
-          {
-            "slot": "bag-12",
-            "code": "game:fruit-blueberry",
-            "name": "Blueberry"
-          },
-          {
-            "slot": "bag-13",
-            "code": "game:flaxtwine",
-            "name": "Flax twine"
-          },
-          {
-            "slot": "bag-14",
-            "code": "game:nugget-galena",
-            "name": "Nugget (Galena)"
-          },
-          {
-            "slot": "bag-15",
-            "code": "game:fruit-redcurrant",
-            "name": "Redcurrant"
-          },
-          {
-            "slot": "bag-16",
-            "code": "floramycology:seeds-redwinecap",
-            "name": "Red Wine Cap Spores"
-          },
-          {
-            "slot": "bag-17",
-            "code": "game:fruit-cranberry",
-            "name": "Cranberry"
-          },
-          {
-            "slot": "bag-18",
-            "code": "game:soil-medium-none",
-            "name": "Medium fertility soil"
-          },
-          {
-            "slot": "bag-19",
-            "code": "game:pickaxe-iron",
-            "name": "Iron pickaxe"
-          },
-          {
-            "slot": "bag-20",
-            "code": "game:jug-black-fired",
-            "name": "Black ceramic jug"
-          },
-          {
-            "slot": "bag-21",
-            "code": "game:fruitingbushcutting-greengrapes-free",
-            "name": "game:block-fruitingbushcutting-greengrapes-free"
-          },
-          {
-            "slot": "bag-22",
-            "code": "game:fruitingbushcutting-greengrapes-free",
-            "name": "game:block-fruitingbushcutting-greengrapes-free"
-          },
-          {
-            "slot": "bag-23",
-            "code": "game:fruitingbushcutting-redgrapes-free",
-            "name": "game:block-fruitingbushcutting-redgrapes-free"
-          },
-          {
-            "slot": "bag-24",
-            "code": "game:fruitingbushcutting-greengrapes-free",
-            "name": "game:block-fruitingbushcutting-greengrapes-free"
           }
         ],
         "skin": {
@@ -3347,10 +3227,10 @@
   ],
   "lastAccident": {
     "playerName": "AddyBuschu",
-    "timestamp": 1784149959,
+    "timestamp": 1784321686,
     "cause": "wolf-eurasian-adult-male",
-    "x": 518772,
-    "y": 112,
-    "z": 511283
+    "x": 521346,
+    "y": 110,
+    "z": 505119
   }
 }
