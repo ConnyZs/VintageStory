@@ -1,5 +1,5 @@
 {
-  "generated": "20260717-154337",
+  "generated": "20260717-154537",
   "game_version": "1.22.3",
   "check_ts": "20260716-200050",
   "latest_engine": "1.22.3",
@@ -2488,9 +2488,9 @@
         "class": "homesteader",
         "deaths": 21,
         "mobKills": 253,
-        "mealsEaten": 149,
-        "caloriesConsumed": 19191,
-        "lastMeal": "King bolete",
+        "mealsEaten": 151,
+        "caloriesConsumed": 19351,
+        "lastMeal": "Chicken of the woods",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2527,12 +2527,13 @@
           "Violet web cap": 2,
           "Liberty cap": 1,
           "Green grapes": 4,
-          "King bolete": 2
+          "King bolete": 2,
+          "Chicken of the woods": 2
         },
         "foodCatCounts": {
           "Grain": 38,
           "Protein": 13,
-          "Vegetable": 34,
+          "Vegetable": 36,
           "Fruit": 85,
           "Dairy": 10
         },
@@ -2545,11 +2546,11 @@
           "wolf-eurasian-adult-male": 1
         },
         "playtimeHours": 65.1,
-        "blocksTravelled": 176097,
-        "blocksBroken": 11812,
+        "blocksTravelled": 176599,
+        "blocksBroken": 11814,
         "blocksPlaced": 3840,
         "deepestY": 23,
-        "lastSeen": 1784295770,
+        "lastSeen": 1784295890,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2750,7 +2751,7 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 68,
+        "mobKills": 69,
         "mealsEaten": 71,
         "caloriesConsumed": 17371,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
@@ -2782,11 +2783,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 145.4,
-        "blocksTravelled": 121528,
-        "blocksBroken": 7504,
+        "blocksTravelled": 121766,
+        "blocksBroken": 7526,
         "blocksPlaced": 4991,
         "deepestY": 24,
-        "lastSeen": 1784295770,
+        "lastSeen": 1784295890,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
