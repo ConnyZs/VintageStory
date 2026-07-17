@@ -1,5 +1,5 @@
 {
-  "generated": "20260717-224805",
+  "generated": "20260717-225005",
   "game_version": "1.22.3",
   "check_ts": "20260717-200052",
   "latest_engine": "1.22.3",
@@ -2579,12 +2579,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 1
         },
-        "playtimeHours": 66.6,
-        "blocksTravelled": 188884,
+        "playtimeHours": 66.7,
+        "blocksTravelled": 189234,
         "blocksBroken": 12025,
         "blocksPlaced": 3928,
         "deepestY": 23,
-        "lastSeen": 1784321277,
+        "lastSeen": 1784321397,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2758,6 +2758,11 @@
             "slot": "bag-18",
             "code": "game:soil-medium-none",
             "name": "Medium fertility soil"
+          },
+          {
+            "slot": "bag-19",
+            "code": "game:pickaxe-iron",
+            "name": "Iron pickaxe"
           },
           {
             "slot": "bag-21",
