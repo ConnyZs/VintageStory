@@ -1,5 +1,5 @@
 {
-  "generated": "20260717-222604",
+  "generated": "20260717-222804",
   "game_version": "1.22.3",
   "check_ts": "20260717-200052",
   "latest_engine": "1.22.3",
@@ -2548,11 +2548,11 @@
           "wolf-eurasian-adult-male": 1
         },
         "playtimeHours": 66.3,
-        "blocksTravelled": 185234,
-        "blocksBroken": 11989,
+        "blocksTravelled": 185395,
+        "blocksBroken": 11996,
         "blocksPlaced": 3920,
         "deepestY": 23,
-        "lastSeen": 1784319960,
+        "lastSeen": 1784320077,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2696,6 +2696,21 @@
             "slot": "bag-12",
             "code": "game:fruit-blueberry",
             "name": "Blueberry"
+          },
+          {
+            "slot": "bag-13",
+            "code": "game:quicklime",
+            "name": "Quicklime"
+          },
+          {
+            "slot": "bag-14",
+            "code": "game:clothes-neck-pearl-necklace",
+            "name": "Pearl necklace"
+          },
+          {
+            "slot": "bag-15",
+            "code": "game:flowerpot-moss",
+            "name": "Flowerpot (Moss)"
           },
           {
             "slot": "bag-24",
