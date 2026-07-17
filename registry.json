@@ -1,5 +1,5 @@
 {
-  "generated": "20260717-160139",
+  "generated": "20260717-160339",
   "game_version": "1.22.3",
   "check_ts": "20260716-200050",
   "latest_engine": "1.22.3",
@@ -2546,11 +2546,11 @@
           "wolf-eurasian-adult-male": 1
         },
         "playtimeHours": 65.4,
-        "blocksTravelled": 179508,
+        "blocksTravelled": 179535,
         "blocksBroken": 11863,
-        "blocksPlaced": 3861,
+        "blocksPlaced": 3862,
         "deepestY": 23,
-        "lastSeen": 1784296881,
+        "lastSeen": 1784296971,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2783,11 +2783,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 145.7,
-        "blocksTravelled": 122714,
-        "blocksBroken": 7713,
+        "blocksTravelled": 122751,
+        "blocksBroken": 7716,
         "blocksPlaced": 4991,
         "deepestY": 24,
-        "lastSeen": 1784296881,
+        "lastSeen": 1784296971,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2795,6 +2795,7 @@
           "Forlorn Hope shoes",
           "Scribe gloves",
           "Jade amulet",
+          "Messenger pin",
           "Sturdy belt",
           "Large silver bracelets",
           "Fortune teller vest"
@@ -2833,6 +2834,11 @@
             "slot": "neck",
             "code": "game:clothes-neck-jade-amulet",
             "name": "Jade amulet"
+          },
+          {
+            "slot": "emblem",
+            "code": "game:clothes-emblem-messenger-pin",
+            "name": "Messenger pin"
           },
           {
             "slot": "waist",
@@ -2884,6 +2890,11 @@
             "slot": "bag-7",
             "code": "game:clothes-neck-jade-amulet",
             "name": "Jade amulet"
+          },
+          {
+            "slot": "bag-8",
+            "code": "game:clothes-emblem-messenger-pin",
+            "name": "Messenger pin"
           },
           {
             "slot": "bag-10",
