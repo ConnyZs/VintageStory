@@ -1,5 +1,5 @@
 {
-  "generated": "20260717-185550",
+  "generated": "20260717-185750",
   "game_version": "1.22.3",
   "check_ts": "20260716-200050",
   "latest_engine": "1.22.3",
@@ -2783,11 +2783,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 146.2,
-        "blocksTravelled": 125338,
+        "blocksTravelled": 125749,
         "blocksBroken": 7755,
-        "blocksPlaced": 5136,
+        "blocksPlaced": 5137,
         "deepestY": 24,
-        "lastSeen": 1784307231,
+        "lastSeen": 1784307351,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2861,6 +2861,11 @@
             "slot": "bag-1",
             "code": "game:fruit-blueberry",
             "name": "Blueberry"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:fruit-blackcurrant",
+            "name": "Blackcurrant"
           },
           {
             "slot": "bag-3",
