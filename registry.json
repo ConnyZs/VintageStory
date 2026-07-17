@@ -1,5 +1,5 @@
 {
-  "generated": "20260717-224405",
+  "generated": "20260717-224605",
   "game_version": "1.22.3",
   "check_ts": "20260717-200052",
   "latest_engine": "1.22.3",
@@ -2520,8 +2520,8 @@
         "class": "homesteader",
         "deaths": 21,
         "mobKills": 266,
-        "mealsEaten": 189,
-        "caloriesConsumed": 22331,
+        "mealsEaten": 192,
+        "caloriesConsumed": 22571,
         "lastMeal": "Red wine cap",
         "mealsByName": {
           "Meat pie": 5,
@@ -2553,7 +2553,7 @@
           "Black trumpet": 1,
           "Witch's hat": 1,
           "Blackberry": 1,
-          "Red wine cap": 3,
+          "Red wine cap": 6,
           "Honeycomb": 2,
           "Green cracked russula": 11,
           "Violet web cap": 2,
@@ -2567,7 +2567,7 @@
         "foodCatCounts": {
           "Grain": 38,
           "Protein": 13,
-          "Vegetable": 50,
+          "Vegetable": 53,
           "Fruit": 109,
           "Dairy": 10
         },
@@ -2580,11 +2580,11 @@
           "wolf-eurasian-adult-male": 1
         },
         "playtimeHours": 66.6,
-        "blocksTravelled": 187871,
+        "blocksTravelled": 188422,
         "blocksBroken": 12024,
-        "blocksPlaced": 3921,
+        "blocksPlaced": 3925,
         "deepestY": 23,
-        "lastSeen": 1784321037,
+        "lastSeen": 1784321157,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2738,11 +2738,6 @@
             "slot": "bag-14",
             "code": "game:nugget-galena",
             "name": "Nugget (Galena)"
-          },
-          {
-            "slot": "bag-15",
-            "code": "game:soil-medium-none",
-            "name": "Medium fertility soil"
           },
           {
             "slot": "bag-16",
