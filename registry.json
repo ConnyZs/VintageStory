@@ -1,5 +1,5 @@
 {
-  "generated": "20260717-220602",
+  "generated": "20260717-220803",
   "game_version": "1.22.3",
   "check_ts": "20260717-200052",
   "latest_engine": "1.22.3",
@@ -2545,12 +2545,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 1
         },
-        "playtimeHours": 65.9,
-        "blocksTravelled": 181566,
-        "blocksBroken": 11930,
-        "blocksPlaced": 3907,
+        "playtimeHours": 66.0,
+        "blocksTravelled": 181696,
+        "blocksBroken": 11935,
+        "blocksPlaced": 3914,
         "deepestY": 23,
-        "lastSeen": 1784318756,
+        "lastSeen": 1784318876,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2652,13 +2652,13 @@
           },
           {
             "slot": "bag-4",
-            "code": "game:clearquartz",
-            "name": "Clear quartz"
+            "code": "game:ore-quartz",
+            "name": "Quartz chunk"
           },
           {
             "slot": "bag-5",
-            "code": "game:stone-peridotite",
-            "name": "Peridotite stone"
+            "code": "game:clearquartz",
+            "name": "Clear quartz"
           }
         ],
         "skin": {
