@@ -52,7 +52,7 @@
   }
  },
  "Moritz": {
-  "hash": "61c53d7d6cdae7d350aa316988bb35179fd20a2f",
+  "hash": "754b08aa78a4a47196812a8bd6a378e431fb4f9a",
   "info": {
    "class": "mason",
    "items": [
@@ -66,13 +66,12 @@
     "Scribe gloves",
     "Gold gear amulet",
     "Messenger pin",
-    "Malefactor whitewood mask",
     "Sturdy belt",
     "Large silver bracelets",
     "Fortune teller vest"
    ],
    "frames": 16,
-   "v": 1784297157
+   "v": 1784297397
   }
  },
  "AddyBuschu": {

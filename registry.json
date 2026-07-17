@@ -1,5 +1,5 @@
 {
-  "generated": "20260717-160739",
+  "generated": "20260717-160939",
   "game_version": "1.22.3",
   "check_ts": "20260716-200050",
   "latest_engine": "1.22.3",
@@ -2546,11 +2546,11 @@
           "wolf-eurasian-adult-male": 1
         },
         "playtimeHours": 65.5,
-        "blocksTravelled": 179769,
+        "blocksTravelled": 179887,
         "blocksBroken": 11877,
         "blocksPlaced": 3877,
         "deepestY": 23,
-        "lastSeen": 1784297211,
+        "lastSeen": 1784297331,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2783,11 +2783,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 145.8,
-        "blocksTravelled": 123019,
+        "blocksTravelled": 123083,
         "blocksBroken": 7717,
         "blocksPlaced": 4991,
         "deepestY": 24,
-        "lastSeen": 1784297211,
+        "lastSeen": 1784297331,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2796,7 +2796,6 @@
           "Scribe gloves",
           "Gold gear amulet",
           "Messenger pin",
-          "Malefactor whitewood mask",
           "Sturdy belt",
           "Large silver bracelets",
           "Fortune teller vest"
@@ -2840,12 +2839,6 @@
             "slot": "emblem",
             "code": "game:clothes-emblem-messenger-pin",
             "name": "Messenger pin"
-          },
-          {
-            "slot": "face",
-            "code": "game:clothes-face-malefactor-mask",
-            "name": "Malefactor whitewood mask",
-            "icon": "character/icons/face-malefactor-mask.png"
           },
           {
             "slot": "waist",
@@ -2902,12 +2895,6 @@
             "slot": "bag-8",
             "code": "game:clothes-emblem-messenger-pin",
             "name": "Messenger pin"
-          },
-          {
-            "slot": "bag-9",
-            "code": "game:clothes-face-malefactor-mask",
-            "name": "Malefactor whitewood mask",
-            "icon": "character/icons/face-malefactor-mask.png"
           },
           {
             "slot": "bag-10",
