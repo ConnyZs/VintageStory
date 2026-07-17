@@ -1,5 +1,5 @@
 {
-  "generated": "20260717-224605",
+  "generated": "20260717-224805",
   "game_version": "1.22.3",
   "check_ts": "20260717-200052",
   "latest_engine": "1.22.3",
@@ -2520,9 +2520,9 @@
         "class": "homesteader",
         "deaths": 21,
         "mobKills": 266,
-        "mealsEaten": 192,
-        "caloriesConsumed": 22571,
-        "lastMeal": "Red wine cap",
+        "mealsEaten": 193,
+        "caloriesConsumed": 22651,
+        "lastMeal": "Raspberry",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2543,7 +2543,7 @@
           "Turnip": 1,
           "Puffball": 1,
           "Tinder hoof": 1,
-          "Raspberry": 5,
+          "Raspberry": 6,
           "Flax grain": 23,
           "Dryad saddle": 3,
           "White oyster": 2,
@@ -2568,7 +2568,7 @@
           "Grain": 38,
           "Protein": 13,
           "Vegetable": 53,
-          "Fruit": 109,
+          "Fruit": 110,
           "Dairy": 10
         },
         "deathCauses": {
@@ -2580,11 +2580,11 @@
           "wolf-eurasian-adult-male": 1
         },
         "playtimeHours": 66.6,
-        "blocksTravelled": 188422,
-        "blocksBroken": 12024,
-        "blocksPlaced": 3925,
+        "blocksTravelled": 188884,
+        "blocksBroken": 12025,
+        "blocksPlaced": 3928,
         "deepestY": 23,
-        "lastSeen": 1784321157,
+        "lastSeen": 1784321277,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2740,6 +2740,11 @@
             "name": "Nugget (Galena)"
           },
           {
+            "slot": "bag-15",
+            "code": "game:fruit-redcurrant",
+            "name": "Redcurrant"
+          },
+          {
             "slot": "bag-16",
             "code": "floramycology:seeds-redwinecap",
             "name": "Red Wine Cap Spores"
@@ -2748,6 +2753,11 @@
             "slot": "bag-17",
             "code": "game:fruit-cranberry",
             "name": "Cranberry"
+          },
+          {
+            "slot": "bag-18",
+            "code": "game:soil-medium-none",
+            "name": "Medium fertility soil"
           },
           {
             "slot": "bag-21",
