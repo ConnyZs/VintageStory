@@ -1,5 +1,5 @@
 {
-  "generated": "20260717-185950",
+  "generated": "20260717-190150",
   "game_version": "1.22.3",
   "check_ts": "20260716-200050",
   "latest_engine": "1.22.3",
@@ -2783,11 +2783,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 146.3,
-        "blocksTravelled": 125807,
-        "blocksBroken": 7800,
-        "blocksPlaced": 5148,
+        "blocksTravelled": 125867,
+        "blocksBroken": 7873,
+        "blocksPlaced": 5149,
         "deepestY": 24,
-        "lastSeen": 1784307489,
+        "lastSeen": 1784307591,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2938,6 +2938,11 @@
             "name": "Quartz chunk"
           },
           {
+            "slot": "bag-17",
+            "code": "game:stone-andesite",
+            "name": "Andesite stone"
+          },
+          {
             "slot": "bag-18",
             "code": "canjewelry:gem-rough-chipped-uranium",
             "name": "Small rough uranium"
@@ -2946,6 +2951,16 @@
             "slot": "bag-19",
             "code": "game:torchholder-aged-empty-north",
             "name": "Aged torch holder"
+          },
+          {
+            "slot": "bag-20",
+            "code": "game:stone-andesite",
+            "name": "Andesite stone"
+          },
+          {
+            "slot": "bag-21",
+            "code": "game:stone-andesite",
+            "name": "Andesite stone"
           },
           {
             "slot": "bag-22",
