@@ -1,5 +1,5 @@
 {
-  "generated": "20260717-223048",
+  "generated": "20260717-223204",
   "game_version": "1.22.3",
   "check_ts": "20260717-200052",
   "latest_engine": "1.22.3",
@@ -2563,12 +2563,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 1
         },
-        "playtimeHours": 66.3,
-        "blocksTravelled": 185597,
-        "blocksBroken": 11996,
-        "blocksPlaced": 3920,
+        "playtimeHours": 66.4,
+        "blocksTravelled": 185751,
+        "blocksBroken": 11997,
+        "blocksPlaced": 3921,
         "deepestY": 23,
-        "lastSeen": 1784320197,
+        "lastSeen": 1784320317,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2732,6 +2732,43 @@
             "slot": "bag-16",
             "code": "game:agedwallpaperplanks-blue-east",
             "name": "Blue Wallpaper (On aged planks)"
+          },
+          {
+            "slot": "bag-17",
+            "code": "game:lore-book-rotten-brown",
+            "name": "Rotten lore book (Brown)"
+          },
+          {
+            "slot": "bag-18",
+            "code": "game:clothes-hand-lackey-gloves",
+            "name": "Lackey gloves",
+            "icon": "character/icons/hand-lackey-gloves.png"
+          },
+          {
+            "slot": "bag-19",
+            "code": "game:clothes-foot-jailor-boots",
+            "name": "Jailor boots",
+            "icon": "character/icons/foot-jailor-boots.png"
+          },
+          {
+            "slot": "bag-20",
+            "code": "game:clothes-neck-lunula",
+            "name": "Lunula"
+          },
+          {
+            "slot": "bag-21",
+            "code": "game:fruitingbushcutting-greengrapes-free",
+            "name": "game:block-fruitingbushcutting-greengrapes-free"
+          },
+          {
+            "slot": "bag-22",
+            "code": "game:fruitingbushcutting-greengrapes-free",
+            "name": "game:block-fruitingbushcutting-greengrapes-free"
+          },
+          {
+            "slot": "bag-23",
+            "code": "game:fruitingbushcutting-redgrapes-free",
+            "name": "game:block-fruitingbushcutting-redgrapes-free"
           },
           {
             "slot": "bag-24",
