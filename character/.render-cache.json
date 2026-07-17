@@ -52,7 +52,7 @@
   }
  },
  "Moritz": {
-  "hash": "e70ea10786e6c325056786d3c353218a2e6802af",
+  "hash": "61c53d7d6cdae7d350aa316988bb35179fd20a2f",
   "info": {
    "class": "mason",
    "items": [
@@ -64,14 +64,15 @@
     "Workmans pants",
     "Forlorn Hope shoes",
     "Scribe gloves",
-    "Jade amulet",
+    "Gold gear amulet",
     "Messenger pin",
+    "Malefactor whitewood mask",
     "Sturdy belt",
     "Large silver bracelets",
     "Fortune teller vest"
    ],
    "frames": 16,
-   "v": 1784297037
+   "v": 1784297157
   }
  },
  "AddyBuschu": {
