@@ -1,5 +1,5 @@
 {
-  "generated": "20260717-132727",
+  "generated": "20260717-132927",
   "game_version": "1.22.3",
   "check_ts": "20260716-200050",
   "latest_engine": "1.22.3",
@@ -2527,12 +2527,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 1
         },
-        "playtimeHours": 62.8,
-        "blocksTravelled": 154956,
+        "playtimeHours": 62.9,
+        "blocksTravelled": 155372,
         "blocksBroken": 11277,
         "blocksPlaced": 3665,
         "deepestY": 23,
-        "lastSeen": 1784287604,
+        "lastSeen": 1784287724,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2697,9 +2697,14 @@
             "name": "Leather backpack"
           },
           {
+            "slot": "bag-59",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
             "slot": "bag-60",
-            "code": "butchering:deadwolf-male-eurasian-2-dead",
-            "name": "Wolf (dead)"
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           }
         ],
         "skin": {
