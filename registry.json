@@ -1,5 +1,5 @@
 {
-  "generated": "20260717-184749",
+  "generated": "20260717-184949",
   "game_version": "1.22.3",
   "check_ts": "20260716-200050",
   "latest_engine": "1.22.3",
@@ -2744,7 +2744,7 @@
       "name": "Moritz",
       "role": "admin",
       "first_join": "04/22/2026 18:03",
-      "last_join": "07/17/2026 12:48",
+      "last_join": "07/17/2026 16:47",
       "last_char": "04/22/2026 18:05",
       "stats": {
         "uid": "bKc3JB7NGywTi9YbzXu/Qogt",
@@ -2787,7 +2787,7 @@
         "blocksBroken": 7746,
         "blocksPlaced": 5134,
         "deepestY": 24,
-        "lastSeen": 1784298378,
+        "lastSeen": 1784306889,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2859,79 +2859,88 @@
           },
           {
             "slot": "bag-1",
-            "code": "game:clothes-head-furhatwide-generic-gray",
-            "name": "Raccoon fur trapper hat",
-            "icon": "character/icons/head-furhatwide-generic-gray.png"
+            "code": "game:fruit-blueberry",
+            "name": "Blueberry"
           },
           {
             "slot": "bag-3",
-            "code": "game:clothes-upperbody-linen-tunic",
-            "name": "Linen tunic",
-            "icon": "character/icons/upperbody-linen-tunic.png"
+            "code": "game:woodenpath-oak-ns",
+            "name": "Oak path"
           },
           {
             "slot": "bag-4",
-            "code": "game:clothes-lowerbody-workmans-gown",
-            "name": "Workmans pants",
-            "icon": "character/icons/lowerbody-workmans-gown.png"
+            "code": "game:stonepath-free",
+            "name": "Stone path"
           },
           {
             "slot": "bag-5",
-            "code": "game:clothes-foot-forlorn-shoes",
-            "name": "Forlorn Hope shoes",
-            "icon": "character/icons/foot-forlorn-shoes.png"
+            "code": "game:saltpeter",
+            "name": "Saltpeter"
           },
           {
             "slot": "bag-6",
-            "code": "game:clothes-hand-scribe",
-            "name": "Scribe gloves"
+            "code": "game:daubraw-browngolden",
+            "name": "Raw daub (golden brown)"
           },
           {
             "slot": "bag-7",
-            "code": "game:clothes-neck-gear-amulet-gold",
-            "name": "Gold gear amulet"
+            "code": "game:glass-plain",
+            "name": "Glass"
           },
           {
-            "slot": "bag-8",
-            "code": "game:clothes-emblem-messenger-pin",
-            "name": "Messenger pin"
-          },
-          {
-            "slot": "bag-10",
-            "code": "game:clothes-waist-sturdy-belt",
-            "name": "Sturdy belt",
-            "icon": "character/icons/waist-sturdy-belt.png"
+            "slot": "bag-9",
+            "code": "game:hammer-tinbronze",
+            "name": "Tin bronze hammer"
           },
           {
             "slot": "bag-11",
-            "code": "game:clothes-arm-large-silver-bracelets",
-            "name": "Large silver bracelets"
+            "code": "game:stick",
+            "name": "Stick"
           },
           {
             "slot": "bag-12",
-            "code": "game:clothes-upperbodyover-fortuneteller",
-            "name": "Fortune teller vest",
-            "icon": "character/icons/upperbodyover-fortuneteller.png"
+            "code": "game:torch-basic-lit-up",
+            "name": "Torch"
           },
           {
-            "slot": "bag-57",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "slot": "bag-13",
+            "code": "game:cobblestone-peridotite",
+            "name": "Peridotite cobblestone"
           },
           {
-            "slot": "bag-58",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "slot": "bag-14",
+            "code": "game:woodenfence-oak-ew-free",
+            "name": "Wooden fence (Oak)"
           },
           {
-            "slot": "bag-59",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "slot": "bag-15",
+            "code": "game:wattle-sticks-ew-free",
+            "name": "Wattle fence"
           },
           {
-            "slot": "bag-60",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "slot": "bag-16",
+            "code": "game:ore-quartz",
+            "name": "Quartz chunk"
+          },
+          {
+            "slot": "bag-17",
+            "code": "game:stone-peridotite",
+            "name": "Peridotite stone"
+          },
+          {
+            "slot": "bag-18",
+            "code": "canjewelry:gem-rough-chipped-uranium",
+            "name": "Small rough uranium"
+          },
+          {
+            "slot": "bag-19",
+            "code": "game:torchholder-aged-empty-north",
+            "name": "Aged torch holder"
+          },
+          {
+            "slot": "bag-22",
+            "code": "game:ore-corundum",
+            "name": "Corundum"
           }
         ],
         "skin": {
