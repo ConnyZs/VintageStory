@@ -1,5 +1,5 @@
 {
-  "generated": "20260717-141331",
+  "generated": "20260717-141531",
   "game_version": "1.22.3",
   "check_ts": "20260716-200050",
   "latest_engine": "1.22.3",
@@ -2488,9 +2488,9 @@
         "class": "homesteader",
         "deaths": 21,
         "mobKills": 249,
-        "mealsEaten": 111,
-        "caloriesConsumed": 16011,
-        "lastMeal": "Blackberry",
+        "mealsEaten": 112,
+        "caloriesConsumed": 16091,
+        "lastMeal": "Red wine cap",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2520,12 +2520,13 @@
           "Chanterelle": 1,
           "Black trumpet": 1,
           "Witch's hat": 1,
-          "Blackberry": 1
+          "Blackberry": 1,
+          "Red wine cap": 1
         },
         "foodCatCounts": {
           "Grain": 32,
           "Protein": 13,
-          "Vegetable": 25,
+          "Vegetable": 26,
           "Fruit": 62,
           "Dairy": 10
         },
@@ -2538,11 +2539,11 @@
           "wolf-eurasian-adult-male": 1
         },
         "playtimeHours": 63.6,
-        "blocksTravelled": 161505,
-        "blocksBroken": 11423,
-        "blocksPlaced": 3695,
+        "blocksTravelled": 161816,
+        "blocksBroken": 11425,
+        "blocksPlaced": 3697,
         "deepestY": 23,
-        "lastSeen": 1784290366,
+        "lastSeen": 1784290486,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
