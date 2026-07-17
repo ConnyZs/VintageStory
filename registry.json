@@ -1,5 +1,5 @@
 {
-  "generated": "20260717-190150",
+  "generated": "20260717-190350",
   "game_version": "1.22.3",
   "check_ts": "20260716-200050",
   "latest_engine": "1.22.3",
@@ -2782,12 +2782,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 146.3,
-        "blocksTravelled": 125867,
-        "blocksBroken": 7873,
-        "blocksPlaced": 5149,
+        "playtimeHours": 146.4,
+        "blocksTravelled": 126087,
+        "blocksBroken": 7971,
+        "blocksPlaced": 5156,
         "deepestY": 24,
-        "lastSeen": 1784307591,
+        "lastSeen": 1784307792,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2966,6 +2966,16 @@
             "slot": "bag-22",
             "code": "game:ore-corundum",
             "name": "Corundum"
+          },
+          {
+            "slot": "bag-23",
+            "code": "game:stone-andesite",
+            "name": "Andesite stone"
+          },
+          {
+            "slot": "bag-24",
+            "code": "game:stone-andesite",
+            "name": "Andesite stone"
           }
         ],
         "skin": {
