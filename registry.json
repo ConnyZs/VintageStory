@@ -1,5 +1,5 @@
 {
-  "generated": "20260717-223204",
+  "generated": "20260717-223405",
   "game_version": "1.22.3",
   "check_ts": "20260717-200052",
   "latest_engine": "1.22.3",
@@ -44,7 +44,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 124,
+  "count": 125,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1935,6 +1935,22 @@
       "proposed": true
     },
     {
+      "name": "Art of Growing [unofficial]",
+      "modid": "artofgrowingpatch",
+      "section": "1.22",
+      "category": "QoL",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/show/mod/28845",
+      "server_state": "no",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": null,
+      "build_version": "1.2.2",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": true
+    },
+    {
       "name": "smithingplus",
       "modid": "smithingplus",
       "section": "1.22",
@@ -2503,10 +2519,10 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 21,
-        "mobKills": 261,
-        "mealsEaten": 169,
-        "caloriesConsumed": 20761,
-        "lastMeal": "Green cracked russula",
+        "mobKills": 262,
+        "mealsEaten": 185,
+        "caloriesConsumed": 22041,
+        "lastMeal": "Green grapes",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2542,7 +2558,7 @@
           "Green cracked russula": 11,
           "Violet web cap": 2,
           "Liberty cap": 1,
-          "Green grapes": 4,
+          "Green grapes": 20,
           "King bolete": 2,
           "Chicken of the woods": 2,
           "Fennel": 1,
@@ -2552,7 +2568,7 @@
           "Grain": 38,
           "Protein": 13,
           "Vegetable": 47,
-          "Fruit": 92,
+          "Fruit": 108,
           "Dairy": 10
         },
         "deathCauses": {
@@ -2564,11 +2580,11 @@
           "wolf-eurasian-adult-male": 1
         },
         "playtimeHours": 66.4,
-        "blocksTravelled": 185751,
-        "blocksBroken": 11997,
+        "blocksTravelled": 186100,
+        "blocksBroken": 11999,
         "blocksPlaced": 3921,
         "deepestY": 23,
-        "lastSeen": 1784320317,
+        "lastSeen": 1784320437,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",

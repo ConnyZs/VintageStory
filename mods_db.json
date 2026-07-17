@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-17T20:30:20Z",
+  "updated": "2026-07-17T20:33:37Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1061,6 +1061,15 @@
     {
       "name": "",
       "link": "https://mods.vintagestory.at/artofgrowing",
+      "category": "Other",
+      "section": "1.22",
+      "server_state": "no",
+      "proposed": true,
+      "note": ""
+    },
+    {
+      "name": "",
+      "link": "https://mods.vintagestory.at/show/mod/28845",
       "category": "Other",
       "section": "1.22",
       "server_state": "no",
