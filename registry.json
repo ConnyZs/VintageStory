@@ -1,5 +1,5 @@
 {
-  "generated": "20260717-153537",
+  "generated": "20260717-153737",
   "game_version": "1.22.3",
   "check_ts": "20260716-200050",
   "latest_engine": "1.22.3",
@@ -2545,11 +2545,11 @@
           "wolf-eurasian-adult-male": 1
         },
         "playtimeHours": 65.0,
-        "blocksTravelled": 174741,
-        "blocksBroken": 11791,
+        "blocksTravelled": 175014,
+        "blocksBroken": 11792,
         "blocksPlaced": 3840,
         "deepestY": 23,
-        "lastSeen": 1784295289,
+        "lastSeen": 1784295410,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2557,7 +2557,7 @@
           "Wool lined knee-high boots",
           "Survivor gloves",
           "Acorn amulet",
-          "Rotten king mask",
+          "Crow mask",
           "Marketeer belt",
           "Leather bracers",
           "Rotwalker coat",
@@ -2602,9 +2602,9 @@
           },
           {
             "slot": "face",
-            "code": "game:clothes-face-rottenking",
-            "name": "Rotten king mask",
-            "icon": "character/icons/face-rottenking.png"
+            "code": "game:clothes-face-crow",
+            "name": "Crow mask",
+            "icon": "character/icons/face-crow.png"
           },
           {
             "slot": "waist",
@@ -2671,9 +2671,9 @@
           },
           {
             "slot": "bag-9",
-            "code": "game:clothes-face-rottenking",
-            "name": "Rotten king mask",
-            "icon": "character/icons/face-rottenking.png"
+            "code": "game:clothes-face-crow",
+            "name": "Crow mask",
+            "icon": "character/icons/face-crow.png"
           },
           {
             "slot": "bag-10",
@@ -2782,11 +2782,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 145.3,
-        "blocksTravelled": 120668,
+        "blocksTravelled": 120745,
         "blocksBroken": 7503,
-        "blocksPlaced": 4989,
+        "blocksPlaced": 4990,
         "deepestY": 24,
-        "lastSeen": 1784295289,
+        "lastSeen": 1784295410,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
