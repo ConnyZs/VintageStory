@@ -1,5 +1,5 @@
 {
-  "generated": "20260717-223405",
+  "generated": "20260717-223604",
   "game_version": "1.22.3",
   "check_ts": "20260717-200052",
   "latest_engine": "1.22.3",
@@ -2519,7 +2519,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 21,
-        "mobKills": 262,
+        "mobKills": 264,
         "mealsEaten": 185,
         "caloriesConsumed": 22041,
         "lastMeal": "Green grapes",
@@ -2580,11 +2580,11 @@
           "wolf-eurasian-adult-male": 1
         },
         "playtimeHours": 66.4,
-        "blocksTravelled": 186100,
-        "blocksBroken": 11999,
+        "blocksTravelled": 186198,
+        "blocksBroken": 12002,
         "blocksPlaced": 3921,
         "deepestY": 23,
-        "lastSeen": 1784320437,
+        "lastSeen": 1784320564,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2685,16 +2685,6 @@
             "name": "Medium animal cage (open)"
           },
           {
-            "slot": "bag-4",
-            "code": "game:ore-quartz",
-            "name": "Quartz chunk"
-          },
-          {
-            "slot": "bag-5",
-            "code": "game:clearquartz",
-            "name": "Clear quartz"
-          },
-          {
             "slot": "bag-6",
             "code": "game:resin",
             "name": "Resin"
@@ -2711,13 +2701,8 @@
           },
           {
             "slot": "bag-9",
-            "code": "game:vegetable-fennel",
-            "name": "Fennel"
-          },
-          {
-            "slot": "bag-10",
-            "code": "game:ladder-stick-north",
-            "name": "Crude ladder"
+            "code": "game:seeds-soybean",
+            "name": "Soybean seeds"
           },
           {
             "slot": "bag-11",
@@ -2728,48 +2713,6 @@
             "slot": "bag-12",
             "code": "game:fruit-blueberry",
             "name": "Blueberry"
-          },
-          {
-            "slot": "bag-13",
-            "code": "game:quicklime",
-            "name": "Quicklime"
-          },
-          {
-            "slot": "bag-14",
-            "code": "game:clothes-neck-pearl-necklace",
-            "name": "Pearl necklace"
-          },
-          {
-            "slot": "bag-15",
-            "code": "game:flowerpot-moss",
-            "name": "Flowerpot (Moss)"
-          },
-          {
-            "slot": "bag-16",
-            "code": "game:agedwallpaperplanks-blue-east",
-            "name": "Blue Wallpaper (On aged planks)"
-          },
-          {
-            "slot": "bag-17",
-            "code": "game:lore-book-rotten-brown",
-            "name": "Rotten lore book (Brown)"
-          },
-          {
-            "slot": "bag-18",
-            "code": "game:clothes-hand-lackey-gloves",
-            "name": "Lackey gloves",
-            "icon": "character/icons/hand-lackey-gloves.png"
-          },
-          {
-            "slot": "bag-19",
-            "code": "game:clothes-foot-jailor-boots",
-            "name": "Jailor boots",
-            "icon": "character/icons/foot-jailor-boots.png"
-          },
-          {
-            "slot": "bag-20",
-            "code": "game:clothes-neck-lunula",
-            "name": "Lunula"
           },
           {
             "slot": "bag-21",
