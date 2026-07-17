@@ -1,5 +1,5 @@
 {
-  "generated": "20260717-222804",
+  "generated": "20260717-223004",
   "game_version": "1.22.3",
   "check_ts": "20260717-200052",
   "latest_engine": "1.22.3",
@@ -2488,9 +2488,9 @@
         "class": "homesteader",
         "deaths": 21,
         "mobKills": 261,
-        "mealsEaten": 167,
-        "caloriesConsumed": 20601,
-        "lastMeal": "Gold-drop milkcap",
+        "mealsEaten": 169,
+        "caloriesConsumed": 20761,
+        "lastMeal": "Green cracked russula",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2523,7 +2523,7 @@
           "Blackberry": 1,
           "Red wine cap": 1,
           "Honeycomb": 2,
-          "Green cracked russula": 9,
+          "Green cracked russula": 11,
           "Violet web cap": 2,
           "Liberty cap": 1,
           "Green grapes": 4,
@@ -2535,7 +2535,7 @@
         "foodCatCounts": {
           "Grain": 38,
           "Protein": 13,
-          "Vegetable": 45,
+          "Vegetable": 47,
           "Fruit": 92,
           "Dairy": 10
         },
@@ -2548,11 +2548,11 @@
           "wolf-eurasian-adult-male": 1
         },
         "playtimeHours": 66.3,
-        "blocksTravelled": 185395,
+        "blocksTravelled": 185597,
         "blocksBroken": 11996,
         "blocksPlaced": 3920,
         "deepestY": 23,
-        "lastSeen": 1784320077,
+        "lastSeen": 1784320197,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2711,6 +2711,11 @@
             "slot": "bag-15",
             "code": "game:flowerpot-moss",
             "name": "Flowerpot (Moss)"
+          },
+          {
+            "slot": "bag-16",
+            "code": "game:agedwallpaperplanks-blue-east",
+            "name": "Blue Wallpaper (On aged planks)"
           },
           {
             "slot": "bag-24",
