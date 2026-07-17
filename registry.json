@@ -1,5 +1,5 @@
 {
-  "generated": "20260717-220402",
+  "generated": "20260717-220602",
   "game_version": "1.22.3",
   "check_ts": "20260717-200052",
   "latest_engine": "1.22.3",
@@ -2546,11 +2546,11 @@
           "wolf-eurasian-adult-male": 1
         },
         "playtimeHours": 65.9,
-        "blocksTravelled": 181525,
-        "blocksBroken": 11883,
-        "blocksPlaced": 3883,
+        "blocksTravelled": 181566,
+        "blocksBroken": 11930,
+        "blocksPlaced": 3907,
         "deepestY": 23,
-        "lastSeen": 1784318636,
+        "lastSeen": 1784318756,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2649,6 +2649,16 @@
             "slot": "bag-3",
             "code": "animalcages:mediumanimalcage-ceiling-opened-east",
             "name": "Medium animal cage (open)"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:clearquartz",
+            "name": "Clear quartz"
+          },
+          {
+            "slot": "bag-5",
+            "code": "game:stone-peridotite",
+            "name": "Peridotite stone"
           }
         ],
         "skin": {
