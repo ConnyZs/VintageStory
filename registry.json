@@ -1,5 +1,5 @@
 {
-  "generated": "20260718-050229",
+  "generated": "20260718-173739",
   "game_version": "1.22.3",
   "check_ts": "20260717-200052",
   "latest_engine": "1.22.3",
@@ -2545,21 +2545,21 @@
       "name": "AddyBuschu",
       "role": "suplayer",
       "first_join": "04/22/2026 17:55",
-      "last_join": "07/17/2026 19:58",
+      "last_join": "07/18/2026 11:11",
       "last_char": "04/25/2026 15:34",
       "stats": {
         "uid": "MT3maN90oN2gwGyklJR20Gu1",
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 22,
-        "mobKills": 266,
-        "mealsEaten": 193,
-        "caloriesConsumed": 22651,
-        "lastMeal": "Raspberry",
+        "mobKills": 267,
+        "mealsEaten": 194,
+        "caloriesConsumed": 23399,
+        "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
-          "Earthy orange ceramic bowl of meat stew": 2,
+          "Earthy orange ceramic bowl of meat stew": 3,
           "Blueberry": 12,
           "Pear pie (charred)": 1,
           "Rye bread": 1,
@@ -2599,7 +2599,7 @@
         },
         "foodCatCounts": {
           "Grain": 38,
-          "Protein": 13,
+          "Protein": 14,
           "Vegetable": 53,
           "Fruit": 110,
           "Dairy": 10
@@ -2612,12 +2612,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 66.8,
-        "blocksTravelled": 190078,
-        "blocksBroken": 12025,
-        "blocksPlaced": 3929,
+        "playtimeHours": 81.7,
+        "blocksTravelled": 192437,
+        "blocksBroken": 12027,
+        "blocksPlaced": 3931,
         "deepestY": 23,
-        "lastSeen": 1784321720,
+        "lastSeen": 1784375470,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2722,14 +2722,14 @@
       "name": "Moritz",
       "role": "admin",
       "first_join": "04/22/2026 18:03",
-      "last_join": "07/17/2026 16:47",
+      "last_join": "07/18/2026 10:38",
       "last_char": "04/22/2026 18:05",
       "stats": {
         "uid": "bKc3JB7NGywTi9YbzXu/Qogt",
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 74,
+        "mobKills": 77,
         "mealsEaten": 71,
         "caloriesConsumed": 17371,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
@@ -2760,12 +2760,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 146.4,
-        "blocksTravelled": 126294,
-        "blocksBroken": 7971,
-        "blocksPlaced": 5156,
+        "playtimeHours": 165.1,
+        "blocksTravelled": 140302,
+        "blocksBroken": 8128,
+        "blocksPlaced": 5178,
         "deepestY": 24,
-        "lastSeen": 1784307936,
+        "lastSeen": 1784375475,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2837,8 +2837,8 @@
           },
           {
             "slot": "bag-1",
-            "code": "game:fruit-blueberry",
-            "name": "Blueberry"
+            "code": "game:drystonefence-peridotite-ew-free",
+            "name": "Peridotite dry stone fence"
           },
           {
             "slot": "bag-2",
@@ -2872,18 +2872,18 @@
           },
           {
             "slot": "bag-8",
-            "code": "game:stone-peridotite",
-            "name": "Peridotite stone"
+            "code": "game:cobblestone-peridotite",
+            "name": "Peridotite cobblestone"
           },
           {
             "slot": "bag-9",
-            "code": "game:hammer-tinbronze",
-            "name": "Tin bronze hammer"
+            "code": "game:chisel-iron",
+            "name": "Iron chisel"
           },
           {
             "slot": "bag-10",
-            "code": "game:stone-andesite",
-            "name": "Andesite stone"
+            "code": "game:stone-peridotite",
+            "name": "Peridotite stone"
           },
           {
             "slot": "bag-11",
@@ -2891,14 +2891,9 @@
             "name": "Stick"
           },
           {
-            "slot": "bag-12",
-            "code": "game:torch-basic-lit-up",
-            "name": "Torch"
-          },
-          {
             "slot": "bag-13",
-            "code": "game:cobblestone-peridotite",
-            "name": "Peridotite cobblestone"
+            "code": "game:stone-andesite",
+            "name": "Andesite stone"
           },
           {
             "slot": "bag-14",
@@ -2911,14 +2906,9 @@
             "name": "Wattle fence"
           },
           {
-            "slot": "bag-16",
-            "code": "game:ore-quartz",
-            "name": "Quartz chunk"
-          },
-          {
             "slot": "bag-17",
-            "code": "game:stone-andesite",
-            "name": "Andesite stone"
+            "code": "game:ore-olivine",
+            "name": "Olivine"
           },
           {
             "slot": "bag-18",
@@ -2931,29 +2921,24 @@
             "name": "Aged torch holder"
           },
           {
-            "slot": "bag-20",
-            "code": "game:stone-andesite",
-            "name": "Andesite stone"
-          },
-          {
             "slot": "bag-21",
-            "code": "game:stone-andesite",
-            "name": "Andesite stone"
+            "code": "game:resin",
+            "name": "Resin"
           },
           {
             "slot": "bag-22",
-            "code": "game:ore-corundum",
-            "name": "Corundum"
+            "code": "game:hammer-tinbronze",
+            "name": "Tin bronze hammer"
           },
           {
             "slot": "bag-23",
-            "code": "game:stone-andesite",
-            "name": "Andesite stone"
+            "code": "game:fruit-cranberry",
+            "name": "Cranberry"
           },
           {
             "slot": "bag-24",
-            "code": "game:stone-andesite",
-            "name": "Andesite stone"
+            "code": "game:flower-wilddaisy-free",
+            "name": "Wild daisy"
           }
         ],
         "skin": {
