@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-194908",
+  "generated": "20260719-195108",
   "game_version": "1.22.3",
   "check_ts": "20260719-164831",
   "latest_engine": "1.22.3",
@@ -2122,12 +2122,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 66.7,
-        "blocksTravelled": 117162,
-        "blocksBroken": 4530,
+        "playtimeHours": 66.8,
+        "blocksTravelled": 117555,
+        "blocksBroken": 4620,
         "blocksPlaced": 340,
         "deepestY": 28,
-        "lastSeen": 1784483259,
+        "lastSeen": 1784483464,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2234,9 +2234,24 @@
             "name": "Red grapes"
           },
           {
+            "slot": "bag-5",
+            "code": "game:ore-lignite",
+            "name": "Brown coal"
+          },
+          {
+            "slot": "bag-6",
+            "code": "game:stone-sandstone",
+            "name": "Sandstone stone"
+          },
+          {
             "slot": "bag-7",
             "code": "game:torch-basic-lit-up",
             "name": "Torch"
+          },
+          {
+            "slot": "bag-8",
+            "code": "game:ore-lignite",
+            "name": "Brown coal"
           },
           {
             "slot": "bag-12",
@@ -2294,12 +2309,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 49.3,
-        "blocksTravelled": 59092,
-        "blocksBroken": 1211,
+        "playtimeHours": 49.4,
+        "blocksTravelled": 59462,
+        "blocksBroken": 1259,
         "blocksPlaced": 898,
         "deepestY": 67,
-        "lastSeen": 1784483259,
+        "lastSeen": 1784483464,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2373,8 +2388,8 @@
           },
           {
             "slot": "bag-1",
-            "code": "game:lantern-large-up",
-            "name": "Large molybdochalkos lantern"
+            "code": "walkingstick:walkingstick-crude",
+            "name": "Crude walking stick"
           },
           {
             "slot": "bag-2",
@@ -2478,12 +2493,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 82.2,
-        "blocksTravelled": 196174,
+        "playtimeHours": 82.3,
+        "blocksTravelled": 196445,
         "blocksBroken": 12028,
         "blocksPlaced": 3936,
         "deepestY": 23,
-        "lastSeen": 1784483259,
+        "lastSeen": 1784483464,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2590,13 +2605,13 @@
           },
           {
             "slot": "bag-5",
-            "code": "game:grain-spelt",
-            "name": "Spelt grain"
+            "code": "game:vegetable-onion",
+            "name": "Onion"
           },
           {
             "slot": "bag-6",
-            "code": "game:vegetable-onion",
-            "name": "Onion"
+            "code": "game:vegetable-parsnip",
+            "name": "Parsnip"
           },
           {
             "slot": "bag-7",
@@ -2614,9 +2629,29 @@
             "name": "game:block-fruitingbushcutting-redgrapes-free"
           },
           {
-            "slot": "bag-24",
-            "code": "game:vegetable-parsnip",
-            "name": "Parsnip"
+            "slot": "bag-10",
+            "code": "game:fruitingbushcutting-greengrapes-free",
+            "name": "game:block-fruitingbushcutting-greengrapes-free"
+          },
+          {
+            "slot": "bag-11",
+            "code": "game:fruitingbushcutting-greengrapes-free",
+            "name": "game:block-fruitingbushcutting-greengrapes-free"
+          },
+          {
+            "slot": "bag-12",
+            "code": "game:grain-flax",
+            "name": "Flax grain"
+          },
+          {
+            "slot": "bag-17",
+            "code": "game:grain-spelt",
+            "name": "Spelt grain"
+          },
+          {
+            "slot": "bag-18",
+            "code": "game:fruit-blackcurrant",
+            "name": "Blackcurrant"
           }
         ],
         "skin": {
