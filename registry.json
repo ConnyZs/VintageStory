@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-205712",
+  "generated": "20260719-205912",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2346,11 +2346,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 50.4,
-        "blocksTravelled": 65850,
+        "blocksTravelled": 65852,
         "blocksBroken": 1349,
         "blocksPlaced": 910,
         "deepestY": 67,
-        "lastSeen": 1784487391,
+        "lastSeen": 1784487463,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2551,11 +2551,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 83.4,
-        "blocksTravelled": 206312,
+        "blocksTravelled": 206444,
         "blocksBroken": 12183,
-        "blocksPlaced": 3951,
+        "blocksPlaced": 3952,
         "deepestY": 23,
-        "lastSeen": 1784487391,
+        "lastSeen": 1784487463,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2666,11 +2666,6 @@
             "name": "Small potion flask"
           },
           {
-            "slot": "bag-6",
-            "code": "game:wateringcan-orange-fired",
-            "name": "Orange ceramic watering can"
-          },
-          {
             "slot": "bag-7",
             "code": "game:lore-book-rotten-green",
             "name": "Rotten lore book (Green)"
@@ -2717,11 +2712,6 @@
             "name": "Tuning cylinder (Summer stroll)"
           },
           {
-            "slot": "bag-16",
-            "code": "game:wateringcan-tan-fired",
-            "name": "Tan ceramic watering can"
-          },
-          {
             "slot": "bag-17",
             "code": "game:ore-corundum",
             "name": "Corundum"
@@ -2750,11 +2740,6 @@
             "slot": "bag-22",
             "code": "game:fruitingbushcutting-redgrapes-free",
             "name": "game:block-fruitingbushcutting-redgrapes-free"
-          },
-          {
-            "slot": "bag-23",
-            "code": "game:storagevessel-blue-fired",
-            "name": "Earthy brown ceramic storage vessel"
           },
           {
             "slot": "bag-24",
