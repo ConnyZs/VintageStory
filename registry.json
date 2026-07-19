@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-231120",
+  "generated": "20260719-231320",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2124,11 +2124,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 69.4,
-        "blocksTravelled": 127840,
+        "blocksTravelled": 127878,
         "blocksBroken": 5123,
         "blocksPlaced": 395,
         "deepestY": 28,
-        "lastSeen": 1784495387,
+        "lastSeen": 1784495549,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2491,12 +2491,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 85.6,
-        "blocksTravelled": 223596,
-        "blocksBroken": 12752,
+        "playtimeHours": 85.7,
+        "blocksTravelled": 223685,
+        "blocksBroken": 12753,
         "blocksPlaced": 4317,
         "deepestY": 23,
-        "lastSeen": 1784495387,
+        "lastSeen": 1784495549,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2659,9 +2659,14 @@
             "name": "Wattle gate"
           },
           {
+            "slot": "bag-14",
+            "code": "game:soil-medium-none",
+            "name": "Medium fertility soil"
+          },
+          {
             "slot": "bag-15",
-            "code": "game:bone-tiny",
-            "name": "Small bones"
+            "code": "game:bone",
+            "name": "Bone"
           },
           {
             "slot": "bag-16",
@@ -2680,13 +2685,8 @@
           },
           {
             "slot": "bag-20",
-            "code": "butchering:sinew-wet",
-            "name": "Wet Sinew"
-          },
-          {
-            "slot": "bag-23",
-            "code": "game:soil-medium-none",
-            "name": "Medium fertility soil"
+            "code": "game:bone-tiny",
+            "name": "Small bones"
           }
         ],
         "skin": {
