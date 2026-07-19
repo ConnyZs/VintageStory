@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-212513",
+  "generated": "20260719-212714",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2123,12 +2123,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 67.6,
-        "blocksTravelled": 123490,
+        "playtimeHours": 67.7,
+        "blocksTravelled": 123664,
         "blocksBroken": 5111,
         "blocksPlaced": 363,
         "deepestY": 28,
-        "lastSeen": 1784489023,
+        "lastSeen": 1784489204,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2215,6 +2215,11 @@
             "icon": "character/icons/upperbodyover-forgotten.png"
           },
           {
+            "slot": "bag-1",
+            "code": "game:stick",
+            "name": "Stick"
+          },
+          {
             "slot": "bag-6",
             "code": "walkingstick:walkingstick-pathfinder",
             "name": "Pathfinder's walking stick"
@@ -2223,16 +2228,6 @@
             "slot": "bag-8",
             "code": "game:torch-basic-lit-up",
             "name": "Torch"
-          },
-          {
-            "slot": "bag-10",
-            "code": "game:brickslabs-fire-down-free",
-            "name": "Fireclay brick slab"
-          },
-          {
-            "slot": "bag-11",
-            "code": "game:stick",
-            "name": "Stick"
           },
           {
             "slot": "bag-13",
@@ -2444,7 +2439,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 22,
-        "mobKills": 279,
+        "mobKills": 280,
         "mealsEaten": 202,
         "caloriesConsumed": 24039,
         "lastMeal": "Puffball",
@@ -2505,12 +2500,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 83.8,
-        "blocksTravelled": 210473,
-        "blocksBroken": 12190,
+        "playtimeHours": 83.9,
+        "blocksTravelled": 211017,
+        "blocksBroken": 12191,
         "blocksPlaced": 3968,
         "deepestY": 23,
-        "lastSeen": 1784489023,
+        "lastSeen": 1784489204,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2607,8 +2602,8 @@
           },
           {
             "slot": "bag-3",
-            "code": "animalcages:mediumanimalcage-ceiling-opened-east",
-            "name": "Medium animal cage (open)"
+            "code": "animalcages:mediumanimalcage-ceiling-closed-east",
+            "name": "Medium animal cage (closed)"
           },
           {
             "slot": "bag-4",
