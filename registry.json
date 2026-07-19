@@ -1,5 +1,5 @@
 {
-  "generated": "20260720-003525",
+  "generated": "20260720-003725",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2124,11 +2124,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 70.8,
-        "blocksTravelled": 129340,
+        "blocksTravelled": 129448,
         "blocksBroken": 5127,
         "blocksPlaced": 398,
         "deepestY": 28,
-        "lastSeen": 1784500430,
+        "lastSeen": 1784500635,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2212,11 +2212,6 @@
             "code": "game:clothes-upperbodyover-forgotten",
             "name": "Forgotten noble robe",
             "icon": "character/icons/upperbodyover-forgotten.png"
-          },
-          {
-            "slot": "bag-1",
-            "code": "game:quicklime",
-            "name": "Quicklime"
           },
           {
             "slot": "bag-2",
