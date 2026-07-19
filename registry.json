@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-202510",
+  "generated": "20260719-202710",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2123,12 +2123,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 67.3,
-        "blocksTravelled": 122470,
+        "playtimeHours": 67.4,
+        "blocksTravelled": 123004,
         "blocksBroken": 5111,
         "blocksPlaced": 361,
         "deepestY": 28,
-        "lastSeen": 1784485420,
+        "lastSeen": 1784485578,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2225,11 +2225,6 @@
             "name": "Brown coal"
           },
           {
-            "slot": "bag-3",
-            "code": "game:stone-conglomerate",
-            "name": "Conglomerate stone"
-          },
-          {
             "slot": "bag-4",
             "code": "game:soil-low-none",
             "name": "Low fertility soil"
@@ -2240,19 +2235,9 @@
             "name": "Brown coal"
           },
           {
-            "slot": "bag-6",
-            "code": "game:stone-limestone",
-            "name": "Limestone stone"
-          },
-          {
             "slot": "bag-7",
             "code": "game:torch-basic-lit-up",
             "name": "Torch"
-          },
-          {
-            "slot": "bag-8",
-            "code": "game:stone-conglomerate",
-            "name": "Conglomerate stone"
           },
           {
             "slot": "bag-9",
@@ -2273,11 +2258,6 @@
             "slot": "bag-12",
             "code": "game:stick",
             "name": "Stick"
-          },
-          {
-            "slot": "bag-13",
-            "code": "game:stone-limestone",
-            "name": "Limestone stone"
           },
           {
             "slot": "bag-14",
@@ -2305,34 +2285,9 @@
             "name": "Rich chunk of Galena"
           },
           {
-            "slot": "bag-19",
-            "code": "game:stone-limestone",
-            "name": "Limestone stone"
-          },
-          {
-            "slot": "bag-20",
-            "code": "game:stone-limestone",
-            "name": "Limestone stone"
-          },
-          {
             "slot": "bag-21",
             "code": "canjewelry:gem-rough-flawed-amethyst",
             "name": "Medium rough amethyst"
-          },
-          {
-            "slot": "bag-22",
-            "code": "game:stone-limestone",
-            "name": "Limestone stone"
-          },
-          {
-            "slot": "bag-23",
-            "code": "game:stone-limestone",
-            "name": "Limestone stone"
-          },
-          {
-            "slot": "bag-24",
-            "code": "game:stone-limestone",
-            "name": "Limestone stone"
           }
         ],
         "skin": {
@@ -2386,11 +2341,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 49.9,
-        "blocksTravelled": 63844,
+        "blocksTravelled": 64753,
         "blocksBroken": 1341,
         "blocksPlaced": 899,
         "deepestY": 67,
-        "lastSeen": 1784485420,
+        "lastSeen": 1784485578,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2489,8 +2444,8 @@
           },
           {
             "slot": "bag-6",
-            "code": "game:chiseledblock",
-            "name": "Corroded brass pillar bust"
+            "code": "game:fruitingbushcutting-greengrapes-free",
+            "name": "game:block-fruitingbushcutting-greengrapes-free"
           },
           {
             "slot": "bag-7",
@@ -2558,11 +2513,6 @@
             "name": "Brown coal"
           },
           {
-            "slot": "bag-20",
-            "code": "game:fruitingbushcutting-greengrapes-free",
-            "name": "game:block-fruitingbushcutting-greengrapes-free"
-          },
-          {
             "slot": "bag-21",
             "code": "game:blade-gladius-ruined",
             "name": "Ruined gladius"
@@ -2609,7 +2559,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 22,
-        "mobKills": 267,
+        "mobKills": 268,
         "mealsEaten": 194,
         "caloriesConsumed": 23399,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
@@ -2669,12 +2619,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 82.8,
-        "blocksTravelled": 201037,
+        "playtimeHours": 82.9,
+        "blocksTravelled": 201634,
         "blocksBroken": 12099,
         "blocksPlaced": 3937,
         "deepestY": 23,
-        "lastSeen": 1784485420,
+        "lastSeen": 1784485578,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
