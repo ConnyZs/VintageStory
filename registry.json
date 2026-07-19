@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-193106",
+  "generated": "20260719-193307",
   "game_version": "1.22.3",
   "check_ts": "20260719-164831",
   "latest_engine": "1.22.3",
@@ -2094,7 +2094,7 @@
         "name": "Raschuetzer",
         "class": "tinker",
         "deaths": 6,
-        "mobKills": 76,
+        "mobKills": 77,
         "mealsEaten": 33,
         "caloriesConsumed": 13808,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
@@ -2123,11 +2123,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 66.5,
-        "blocksTravelled": 113362,
-        "blocksBroken": 4486,
+        "blocksTravelled": 113473,
+        "blocksBroken": 4487,
         "blocksPlaced": 340,
         "deepestY": 28,
-        "lastSeen": 1784482255,
+        "lastSeen": 1784482298,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2280,11 +2280,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 49.0,
-        "blocksTravelled": 55429,
+        "blocksTravelled": 55553,
         "blocksBroken": 1211,
         "blocksPlaced": 898,
         "deepestY": 67,
-        "lastSeen": 1784482255,
+        "lastSeen": 1784482298,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2459,11 +2459,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 82.0,
-        "blocksTravelled": 195168,
+        "blocksTravelled": 195243,
         "blocksBroken": 12028,
         "blocksPlaced": 3933,
         "deepestY": 23,
-        "lastSeen": 1784482255,
+        "lastSeen": 1784482298,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2564,19 +2564,9 @@
             "name": "Medium animal cage (open)"
           },
           {
-            "slot": "bag-5",
-            "code": "game:vegetable-fennel",
-            "name": "Fennel"
-          },
-          {
             "slot": "bag-7",
             "code": "animalcages:mediumanimalcage-ceiling-opened-east",
             "name": "Medium animal cage (open)"
-          },
-          {
-            "slot": "bag-8",
-            "code": "game:seeds-fennel",
-            "name": "Fennel seeds"
           },
           {
             "slot": "bag-9",
@@ -2589,16 +2579,6 @@
             "name": "Cabbage seeds"
           },
           {
-            "slot": "bag-11",
-            "code": "game:fruit-blackberry",
-            "name": "Blackberry"
-          },
-          {
-            "slot": "bag-12",
-            "code": "game:fruit-blueberry",
-            "name": "Blueberry"
-          },
-          {
             "slot": "bag-13",
             "code": "game:flaxtwine",
             "name": "Flax twine"
@@ -2609,29 +2589,14 @@
             "name": "Nugget (Galena)"
           },
           {
-            "slot": "bag-15",
-            "code": "game:fruit-redcurrant",
-            "name": "Redcurrant"
-          },
-          {
-            "slot": "bag-16",
-            "code": "floramycology:seeds-redwinecap",
-            "name": "Red Wine Cap Spores"
-          },
-          {
-            "slot": "bag-17",
-            "code": "game:fruit-cranberry",
-            "name": "Cranberry"
-          },
-          {
             "slot": "bag-18",
             "code": "game:soil-medium-none",
             "name": "Medium fertility soil"
           },
           {
-            "slot": "bag-23",
-            "code": "game:resin",
-            "name": "Resin"
+            "slot": "bag-22",
+            "code": "game:seeds-fennel",
+            "name": "Fennel seeds"
           }
         ],
         "skin": {
