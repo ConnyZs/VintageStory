@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-221517",
+  "generated": "20260719-221717",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2128,7 +2128,7 @@
         "blocksBroken": 5115,
         "blocksPlaced": 371,
         "deepestY": 28,
-        "lastSeen": 1784492025,
+        "lastSeen": 1784492225,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2315,12 +2315,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 50.9,
+        "playtimeHours": 51.0,
         "blocksTravelled": 66221,
         "blocksBroken": 1349,
         "blocksPlaced": 911,
         "deepestY": 67,
-        "lastSeen": 1784492025,
+        "lastSeen": 1784492225,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2470,9 +2470,9 @@
         "class": "homesteader",
         "deaths": 22,
         "mobKills": 280,
-        "mealsEaten": 235,
-        "caloriesConsumed": 26584,
-        "lastMeal": "Turnip",
+        "mealsEaten": 238,
+        "caloriesConsumed": 26754,
+        "lastMeal": "Rye grain",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2494,7 +2494,7 @@
           "Puffball": 4,
           "Tinder hoof": 1,
           "Raspberry": 6,
-          "Flax grain": 25,
+          "Flax grain": 26,
           "Dryad saddle": 3,
           "White oyster": 2,
           "Common morel": 2,
@@ -2516,13 +2516,15 @@
           "Red grapes": 5,
           "Whitecurrant": 3,
           "Bearded tooth": 5,
-          "Rice grain": 3
+          "Rice grain": 3,
+          "Strawberry": 1,
+          "Rye grain": 1
         },
         "foodCatCounts": {
-          "Grain": 43,
+          "Grain": 45,
           "Protein": 14,
           "Vegetable": 62,
-          "Fruit": 137,
+          "Fruit": 138,
           "Dairy": 10
         },
         "deathCauses": {
@@ -2534,11 +2536,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 84.7,
-        "blocksTravelled": 217468,
-        "blocksBroken": 12307,
-        "blocksPlaced": 4086,
+        "blocksTravelled": 217662,
+        "blocksBroken": 12315,
+        "blocksPlaced": 4087,
         "deepestY": 23,
-        "lastSeen": 1784492025,
+        "lastSeen": 1784492225,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2676,8 +2678,8 @@
           },
           {
             "slot": "bag-10",
-            "code": "game:fruit-strawberry",
-            "name": "Strawberry"
+            "code": "game:metal-scraps",
+            "name": "Metal scraps"
           },
           {
             "slot": "bag-11",
@@ -2706,13 +2708,13 @@
           },
           {
             "slot": "bag-16",
-            "code": "game:mushroom-violetwebcap-normal",
-            "name": "Violet web cap"
+            "code": "game:painting-oldvillage-north",
+            "name": "Painting (Old Village)"
           },
           {
             "slot": "bag-17",
-            "code": "game:metal-scraps",
-            "name": "Metal scraps"
+            "code": "game:fruit-strawberry",
+            "name": "Strawberry"
           },
           {
             "slot": "bag-18",
@@ -2730,19 +2732,24 @@
             "name": "Turnip seeds"
           },
           {
+            "slot": "bag-21",
+            "code": "game:shovel-copper",
+            "name": "Copper shovel"
+          },
+          {
             "slot": "bag-22",
-            "code": "game:metal-scraps",
-            "name": "Metal scraps"
+            "code": "game:grain-rye",
+            "name": "Rye grain"
           },
           {
             "slot": "bag-23",
-            "code": "floramycology:seeds-violetwebcap",
-            "name": "Violet Webcap Spores"
+            "code": "game:mushroom-violetwebcap-normal",
+            "name": "Violet web cap"
           },
           {
             "slot": "bag-24",
-            "code": "game:grain-rye",
-            "name": "Rye grain"
+            "code": "game:vegetable-turnip",
+            "name": "Turnip"
           }
         ],
         "skin": {
