@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-201509",
+  "generated": "20260719-201709",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2124,11 +2124,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 67.2,
-        "blocksTravelled": 119584,
-        "blocksBroken": 5104,
+        "blocksTravelled": 120064,
+        "blocksBroken": 5107,
         "blocksPlaced": 361,
         "deepestY": 28,
-        "lastSeen": 1784484820,
+        "lastSeen": 1784484974,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2385,12 +2385,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 49.7,
-        "blocksTravelled": 61416,
-        "blocksBroken": 1330,
+        "playtimeHours": 49.8,
+        "blocksTravelled": 61884,
+        "blocksBroken": 1341,
         "blocksPlaced": 899,
         "deepestY": 67,
-        "lastSeen": 1784484820,
+        "lastSeen": 1784484974,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2670,11 +2670,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 82.7,
-        "blocksTravelled": 199789,
+        "blocksTravelled": 199989,
         "blocksBroken": 12069,
         "blocksPlaced": 3936,
         "deepestY": 23,
-        "lastSeen": 1784484820,
+        "lastSeen": 1784484974,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2785,9 +2785,24 @@
             "name": "Small potion flask"
           },
           {
-            "slot": "bag-6",
-            "code": "game:fruitingbushcutting-redgrapes-free",
-            "name": "game:block-fruitingbushcutting-redgrapes-free"
+            "slot": "bag-7",
+            "code": "game:gear-temporal",
+            "name": "Temporal gear"
+          },
+          {
+            "slot": "bag-8",
+            "code": "game:gear-temporal",
+            "name": "Temporal gear"
+          },
+          {
+            "slot": "bag-9",
+            "code": "game:gear-temporal",
+            "name": "Temporal gear"
+          },
+          {
+            "slot": "bag-10",
+            "code": "game:metal-parts",
+            "name": "Metal parts"
           }
         ],
         "skin": {
