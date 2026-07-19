@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-230720",
+  "generated": "20260719-230920",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2094,7 +2094,7 @@
         "name": "Raschuetzer",
         "class": "tinker",
         "deaths": 6,
-        "mobKills": 79,
+        "mobKills": 80,
         "mealsEaten": 40,
         "caloriesConsumed": 15050,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
@@ -2123,12 +2123,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 69.3,
-        "blocksTravelled": 127501,
+        "playtimeHours": 69.4,
+        "blocksTravelled": 127801,
         "blocksBroken": 5123,
         "blocksPlaced": 394,
         "deepestY": 28,
-        "lastSeen": 1784495147,
+        "lastSeen": 1784495267,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2217,41 +2217,6 @@
             "slot": "bag-1",
             "code": "game:torch-basic-lit-up",
             "name": "Torch"
-          },
-          {
-            "slot": "bag-2",
-            "code": "game:blade-sabre-ruined",
-            "name": "Ruined sabre"
-          },
-          {
-            "slot": "bag-3",
-            "code": "game:blade-sabre-ruined",
-            "name": "Ruined sabre"
-          },
-          {
-            "slot": "bag-4",
-            "code": "game:knife-baselard-ruined",
-            "name": "Ruined baselard"
-          },
-          {
-            "slot": "bag-5",
-            "code": "game:blade-claymore-ruined",
-            "name": "Ruined claymore"
-          },
-          {
-            "slot": "bag-6",
-            "code": "game:blade-sabre-ruined",
-            "name": "Ruined sabre"
-          },
-          {
-            "slot": "bag-7",
-            "code": "game:spear-fork-ruined",
-            "name": "Ruined war fork"
-          },
-          {
-            "slot": "bag-11",
-            "code": "game:knife-baselard-ruined",
-            "name": "Ruined baselard"
           }
         ],
         "skin": {
@@ -2305,12 +2270,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 51.8,
-        "blocksTravelled": 66875,
+        "playtimeHours": 51.9,
+        "blocksTravelled": 66950,
         "blocksBroken": 1354,
         "blocksPlaced": 911,
         "deepestY": 67,
-        "lastSeen": 1784495147,
+        "lastSeen": 1784495337,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2428,44 +2393,14 @@
             "name": "Fire clay"
           },
           {
-            "slot": "bag-10",
-            "code": "game:metalbit-copper",
-            "name": "Copper bits"
-          },
-          {
-            "slot": "bag-12",
-            "code": "game:shovel-iron",
-            "name": "Iron shovel"
-          },
-          {
             "slot": "bag-13",
             "code": "game:peatbrick",
             "name": "Peat brick"
           },
           {
-            "slot": "bag-20",
-            "code": "game:scythe-iron",
-            "name": "Iron scythe"
-          },
-          {
-            "slot": "bag-21",
-            "code": "game:scythe-iron",
-            "name": "Iron scythe"
-          },
-          {
-            "slot": "bag-22",
-            "code": "game:knife-generic-iron",
-            "name": "Iron knife"
-          },
-          {
-            "slot": "bag-23",
-            "code": "game:shovel-iron",
-            "name": "Iron shovel"
-          },
-          {
-            "slot": "bag-24",
-            "code": "game:shovel-iron",
-            "name": "Iron shovel"
+            "slot": "bag-14",
+            "code": "game:torch-basic-lit-up",
+            "name": "Torch"
           }
         ],
         "skin": {
@@ -2562,11 +2497,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 85.6,
-        "blocksTravelled": 223338,
+        "blocksTravelled": 223583,
         "blocksBroken": 12752,
-        "blocksPlaced": 4316,
+        "blocksPlaced": 4317,
         "deepestY": 23,
-        "lastSeen": 1784495147,
+        "lastSeen": 1784495267,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2727,6 +2662,11 @@
             "slot": "bag-13",
             "code": "game:wattlegate-sticks-n-closed-left-free",
             "name": "Wattle gate"
+          },
+          {
+            "slot": "bag-17",
+            "code": "game:shovel-iron",
+            "name": "Iron shovel"
           },
           {
             "slot": "bag-18",
