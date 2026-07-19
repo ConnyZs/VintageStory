@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-215515",
+  "generated": "20260719-215715",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2123,12 +2123,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 68.1,
-        "blocksTravelled": 124896,
+        "playtimeHours": 68.2,
+        "blocksTravelled": 124915,
         "blocksBroken": 5115,
         "blocksPlaced": 371,
         "deepestY": 28,
-        "lastSeen": 1784490825,
+        "lastSeen": 1784491016,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2230,6 +2230,21 @@
             "name": "Earthy orange ceramic crucible"
           },
           {
+            "slot": "bag-4",
+            "code": "game:peatbrick",
+            "name": "Peat brick"
+          },
+          {
+            "slot": "bag-5",
+            "code": "game:peatbrick",
+            "name": "Peat brick"
+          },
+          {
+            "slot": "bag-6",
+            "code": "game:peatbrick",
+            "name": "Peat brick"
+          },
+          {
             "slot": "bag-8",
             "code": "game:torch-basic-lit-up",
             "name": "Torch"
@@ -2243,6 +2258,11 @@
             "slot": "bag-15",
             "code": "game:lantern-large-up",
             "name": "Large molybdochalkos lantern"
+          },
+          {
+            "slot": "bag-18",
+            "code": "game:ore-lignite",
+            "name": "Brown coal"
           }
         ],
         "skin": {
@@ -2295,12 +2315,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 50.6,
-        "blocksTravelled": 66105,
+        "playtimeHours": 50.7,
+        "blocksTravelled": 66124,
         "blocksBroken": 1349,
         "blocksPlaced": 911,
         "deepestY": 67,
-        "lastSeen": 1784490825,
+        "lastSeen": 1784491016,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2393,16 +2413,6 @@
             "name": "Iron saw"
           },
           {
-            "slot": "bag-5",
-            "code": "game:ore-lignite",
-            "name": "Brown coal"
-          },
-          {
-            "slot": "bag-6",
-            "code": "game:ore-lignite",
-            "name": "Brown coal"
-          },
-          {
             "slot": "bag-7",
             "code": "game:soil-low-none",
             "name": "Low fertility soil"
@@ -2423,7 +2433,7 @@
             "name": "Copper bits"
           },
           {
-            "slot": "bag-12",
+            "slot": "bag-11",
             "code": "game:torch-basic-lit-up",
             "name": "Torch"
           },
@@ -2460,14 +2470,14 @@
         "class": "homesteader",
         "deaths": 22,
         "mobKills": 280,
-        "mealsEaten": 212,
-        "caloriesConsumed": 24839,
-        "lastMeal": "Redcurrant",
+        "mealsEaten": 217,
+        "caloriesConsumed": 25239,
+        "lastMeal": "Blackberry",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
           "Earthy orange ceramic bowl of meat stew": 3,
-          "Blueberry": 12,
+          "Blueberry": 16,
           "Pear pie (charred)": 1,
           "Rye bread": 1,
           "Leather-bound Oak Tankard": 1,
@@ -2492,7 +2502,7 @@
           "Chanterelle": 1,
           "Black trumpet": 1,
           "Witch's hat": 1,
-          "Blackberry": 1,
+          "Blackberry": 2,
           "Red wine cap": 6,
           "Honeycomb": 2,
           "Green cracked russula": 11,
@@ -2509,7 +2519,7 @@
           "Grain": 38,
           "Protein": 14,
           "Vegetable": 56,
-          "Fruit": 125,
+          "Fruit": 130,
           "Dairy": 10
         },
         "deathCauses": {
@@ -2520,12 +2530,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 84.3,
-        "blocksTravelled": 216095,
+        "playtimeHours": 84.4,
+        "blocksTravelled": 216673,
         "blocksBroken": 12255,
         "blocksPlaced": 4076,
         "deepestY": 23,
-        "lastSeen": 1784490825,
+        "lastSeen": 1784491016,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2647,8 +2657,13 @@
           },
           {
             "slot": "bag-8",
-            "code": "game:fruit-blueberry",
-            "name": "Blueberry"
+            "code": "game:fruitingbushcutting-greengrapes-free",
+            "name": "game:block-fruitingbushcutting-greengrapes-free"
+          },
+          {
+            "slot": "bag-9",
+            "code": "game:resin",
+            "name": "Resin"
           }
         ],
         "skin": {
