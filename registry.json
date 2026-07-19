@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-222117",
+  "generated": "20260719-222317",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2124,11 +2124,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 68.6,
-        "blocksTravelled": 125404,
+        "blocksTravelled": 125544,
         "blocksBroken": 5115,
         "blocksPlaced": 371,
         "deepestY": 28,
-        "lastSeen": 1784492386,
+        "lastSeen": 1784492527,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2245,6 +2245,11 @@
             "name": "Peat brick"
           },
           {
+            "slot": "bag-7",
+            "code": "game:ore-lignite",
+            "name": "Brown coal"
+          },
+          {
             "slot": "bag-8",
             "code": "game:torch-basic-lit-up",
             "name": "Torch"
@@ -2315,12 +2320,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 51.0,
+        "playtimeHours": 51.1,
         "blocksTravelled": 66221,
         "blocksBroken": 1349,
         "blocksPlaced": 911,
         "deepestY": 67,
-        "lastSeen": 1784492386,
+        "lastSeen": 1784492527,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2536,11 +2541,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 84.8,
-        "blocksTravelled": 217960,
-        "blocksBroken": 12315,
+        "blocksTravelled": 218522,
+        "blocksBroken": 12328,
         "blocksPlaced": 4087,
         "deepestY": 23,
-        "lastSeen": 1784492386,
+        "lastSeen": 1784492527,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
