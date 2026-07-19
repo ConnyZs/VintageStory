@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-214114",
+  "generated": "20260719-214314",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2124,11 +2124,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 67.9,
-        "blocksTravelled": 124070,
+        "blocksTravelled": 124119,
         "blocksBroken": 5115,
         "blocksPlaced": 371,
         "deepestY": 28,
-        "lastSeen": 1784489984,
+        "lastSeen": 1784490110,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2225,11 +2225,6 @@
             "name": "Nails and strips (Copper)"
           },
           {
-            "slot": "bag-3",
-            "code": "game:lore-book-aged-orange",
-            "name": "Aged lore book (Orange)"
-          },
-          {
             "slot": "bag-4",
             "code": "game:bookshelf",
             "name": "Bookshelf"
@@ -2240,29 +2235,14 @@
             "name": "Pathfinder's walking stick"
           },
           {
-            "slot": "bag-7",
-            "code": "game:lore-book-aged-darkgray",
-            "name": "Aged lore book (Dark gray)"
-          },
-          {
             "slot": "bag-8",
             "code": "game:torch-basic-lit-up",
             "name": "Torch"
           },
           {
-            "slot": "bag-9",
-            "code": "game:lore-book-aged-gray",
-            "name": "Aged lore book (Gray)"
-          },
-          {
             "slot": "bag-10",
             "code": "game:saw-tinbronze",
             "name": "Tin bronze saw"
-          },
-          {
-            "slot": "bag-11",
-            "code": "game:plank-walnut",
-            "name": "Board (Walnut)"
           },
           {
             "slot": "bag-13",
@@ -2278,16 +2258,6 @@
             "slot": "bag-15",
             "code": "game:stone-limestone",
             "name": "Limestone stone"
-          },
-          {
-            "slot": "bag-19",
-            "code": "game:lore-book-aged-orange",
-            "name": "Aged lore book (Orange)"
-          },
-          {
-            "slot": "bag-20",
-            "code": "game:lore-book-aged-darkgreen",
-            "name": "Aged lore book (Dark green)"
           }
         ],
         "skin": {
@@ -2545,12 +2515,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 84.1,
-        "blocksTravelled": 213564,
-        "blocksBroken": 12235,
-        "blocksPlaced": 4056,
+        "playtimeHours": 84.2,
+        "blocksTravelled": 213708,
+        "blocksBroken": 12238,
+        "blocksPlaced": 4066,
         "deepestY": 23,
-        "lastSeen": 1784489984,
+        "lastSeen": 1784490110,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2636,19 +2606,24 @@
             "name": "Black bear hide body armor"
           },
           {
+            "slot": "bag-1",
+            "code": "animalcages:mediumanimalcage-floor-opened-north",
+            "name": "Medium animal cage (open)"
+          },
+          {
+            "slot": "bag-2",
+            "code": "animalcages:mediumanimalcage-floor-opened-north",
+            "name": "Medium animal cage (open)"
+          },
+          {
             "slot": "bag-3",
-            "code": "animalcages:mediumanimalcage-ceiling-closed-east",
-            "name": "Medium animal cage (closed)"
+            "code": "animalcages:mediumanimalcage-floor-opened-north",
+            "name": "Medium animal cage (open)"
           },
           {
             "slot": "bag-4",
-            "code": "animalcages:mediumanimalcage-ceiling-closed-east",
-            "name": "Medium animal cage (closed)"
-          },
-          {
-            "slot": "bag-5",
-            "code": "alchemy:potionflask-tube-quartz",
-            "name": "Small potion flask"
+            "code": "animalcages:mediumanimalcage-floor-opened-north",
+            "name": "Medium animal cage (open)"
           },
           {
             "slot": "bag-6",
@@ -2656,29 +2631,9 @@
             "name": "Rusty gear"
           },
           {
-            "slot": "bag-7",
-            "code": "game:resin",
-            "name": "Resin"
-          },
-          {
             "slot": "bag-8",
             "code": "bricklayers:storagevesselcolored-burnt-red",
             "name": "Colored storage vessel (Red)"
-          },
-          {
-            "slot": "bag-9",
-            "code": "game:fern-eaglefern",
-            "name": "Eagle fern"
-          },
-          {
-            "slot": "bag-10",
-            "code": "game:wattle-sticks-ew-free",
-            "name": "Wattle fence"
-          },
-          {
-            "slot": "bag-11",
-            "code": "game:wattlegate-sticks-n-closed-left-free",
-            "name": "Wattle gate"
           }
         ],
         "skin": {
