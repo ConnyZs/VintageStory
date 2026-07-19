@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-193907",
+  "generated": "20260719-194107",
   "game_version": "1.22.3",
   "check_ts": "20260719-164831",
   "latest_engine": "1.22.3",
@@ -2123,11 +2123,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 66.6,
-        "blocksTravelled": 114780,
-        "blocksBroken": 4505,
+        "blocksTravelled": 115451,
+        "blocksBroken": 4513,
         "blocksPlaced": 340,
         "deepestY": 28,
-        "lastSeen": 1784482658,
+        "lastSeen": 1784482859,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2289,12 +2289,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 49.1,
-        "blocksTravelled": 56817,
+        "playtimeHours": 49.2,
+        "blocksTravelled": 57436,
         "blocksBroken": 1211,
         "blocksPlaced": 898,
         "deepestY": 67,
-        "lastSeen": 1784482658,
+        "lastSeen": 1784482859,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2474,11 +2474,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 82.1,
-        "blocksTravelled": 195276,
+        "blocksTravelled": 195406,
         "blocksBroken": 12028,
-        "blocksPlaced": 3934,
+        "blocksPlaced": 3936,
         "deepestY": 23,
-        "lastSeen": 1784482658,
+        "lastSeen": 1784482859,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2579,30 +2579,9 @@
             "name": "Medium animal cage (open)"
           },
           {
-            "slot": "bag-4",
-            "code": "game:ore-quartz",
-            "name": "Quartz chunk"
-          },
-          {
-            "slot": "bag-5",
-            "code": "game:clothes-neck-lunula",
-            "name": "Lunula"
-          },
-          {
-            "slot": "bag-6",
-            "code": "game:lore-book-rotten-brown",
-            "name": "Rotten lore book (Brown)"
-          },
-          {
             "slot": "bag-7",
             "code": "animalcages:mediumanimalcage-ceiling-opened-east",
             "name": "Medium animal cage (open)"
-          },
-          {
-            "slot": "bag-8",
-            "code": "game:clothes-hand-lackey-gloves",
-            "name": "Lackey gloves",
-            "icon": "character/icons/hand-lackey-gloves.png"
           },
           {
             "slot": "bag-9",
@@ -2616,57 +2595,6 @@
           },
           {
             "slot": "bag-11",
-            "code": "game:clothes-foot-jailor-boots",
-            "name": "Jailor boots",
-            "icon": "character/icons/foot-jailor-boots.png"
-          },
-          {
-            "slot": "bag-12",
-            "code": "game:ladder-stick-north",
-            "name": "Crude ladder"
-          },
-          {
-            "slot": "bag-13",
-            "code": "game:flaxtwine",
-            "name": "Flax twine"
-          },
-          {
-            "slot": "bag-14",
-            "code": "game:nugget-galena",
-            "name": "Nugget (Galena)"
-          },
-          {
-            "slot": "bag-15",
-            "code": "game:agedwallpaperplanks-blue-east",
-            "name": "Blue Wallpaper (On aged planks)"
-          },
-          {
-            "slot": "bag-16",
-            "code": "game:quicklime",
-            "name": "Quicklime"
-          },
-          {
-            "slot": "bag-18",
-            "code": "game:soil-medium-none",
-            "name": "Medium fertility soil"
-          },
-          {
-            "slot": "bag-19",
-            "code": "game:lore-scroll",
-            "name": "Scroll"
-          },
-          {
-            "slot": "bag-20",
-            "code": "game:clearquartz",
-            "name": "Clear quartz"
-          },
-          {
-            "slot": "bag-21",
-            "code": "game:clothes-neck-pearl-necklace",
-            "name": "Pearl necklace"
-          },
-          {
-            "slot": "bag-22",
             "code": "game:seeds-fennel",
             "name": "Fennel seeds"
           }
