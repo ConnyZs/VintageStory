@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-231520",
+  "generated": "20260719-231720",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2124,11 +2124,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 69.5,
-        "blocksTravelled": 127914,
+        "blocksTravelled": 127942,
         "blocksBroken": 5123,
         "blocksPlaced": 395,
         "deepestY": 28,
-        "lastSeen": 1784495627,
+        "lastSeen": 1784495747,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2492,11 +2492,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 85.7,
-        "blocksTravelled": 223792,
+        "blocksTravelled": 223870,
         "blocksBroken": 12753,
         "blocksPlaced": 4317,
         "deepestY": 23,
-        "lastSeen": 1784495627,
+        "lastSeen": 1784495747,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2634,9 +2634,29 @@
             "name": "Bone"
           },
           {
+            "slot": "bag-9",
+            "code": "butchering:butcherybag-standard",
+            "name": "Hide Butchering Bag"
+          },
+          {
             "slot": "bag-12",
             "code": "game:backpack-normal",
             "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-19",
+            "code": "butchering:deadwolf-male-eurasian-1-bledout",
+            "name": "Wolf (dead)"
+          },
+          {
+            "slot": "bag-20",
+            "code": "butchering:deadwolf-female-eurasian-1-bledout",
+            "name": "Wolf (dead)"
+          },
+          {
+            "slot": "bag-21",
+            "code": "butchering:deadwolf-male-eurasian-1-bledout",
+            "name": "Wolf (dead)"
           }
         ],
         "skin": {
