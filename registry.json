@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-214515",
+  "generated": "20260719-214715",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2124,11 +2124,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 68.0,
-        "blocksTravelled": 124165,
+        "blocksTravelled": 124353,
         "blocksBroken": 5115,
         "blocksPlaced": 371,
         "deepestY": 28,
-        "lastSeen": 1784490224,
+        "lastSeen": 1784490412,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2233,11 +2233,6 @@
             "slot": "bag-13",
             "code": "game:quicklime",
             "name": "Quicklime"
-          },
-          {
-            "slot": "bag-15",
-            "code": "game:stone-limestone",
-            "name": "Limestone stone"
           }
         ],
         "skin": {
@@ -2259,7 +2254,7 @@
       "name": "Eghetti",
       "role": "admin",
       "first_join": "04/22/2026 18:03",
-      "last_join": "07/19/2026 18:52",
+      "last_join": "07/19/2026 19:46",
       "last_char": "04/22/2026 18:08",
       "stats": {
         "uid": "TxqQ4g4qqKs+G5yFUTFmyGYb",
@@ -2295,7 +2290,7 @@
         "blocksBroken": 1349,
         "blocksPlaced": 910,
         "deepestY": 67,
-        "lastSeen": 1784487816,
+        "lastSeen": 1784490412,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2496,11 +2491,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 84.2,
-        "blocksTravelled": 214025,
+        "blocksTravelled": 214212,
         "blocksBroken": 12238,
         "blocksPlaced": 4066,
         "deepestY": 23,
-        "lastSeen": 1784490224,
+        "lastSeen": 1784490412,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
