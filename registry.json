@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-222517",
+  "generated": "20260719-222717",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2123,12 +2123,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 68.6,
-        "blocksTravelled": 125613,
+        "playtimeHours": 68.7,
+        "blocksTravelled": 125686,
         "blocksBroken": 5115,
         "blocksPlaced": 371,
         "deepestY": 28,
-        "lastSeen": 1784492626,
+        "lastSeen": 1784492829,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2260,6 +2260,11 @@
             "name": "Brown coal"
           },
           {
+            "slot": "bag-10",
+            "code": "game:woodbucket",
+            "name": "Wooden bucket"
+          },
+          {
             "slot": "bag-11",
             "code": "game:peatbrick",
             "name": "Peat brick"
@@ -2270,14 +2275,19 @@
             "name": "Basic potion base"
           },
           {
-            "slot": "bag-13",
-            "code": "game:quicklime",
-            "name": "Quicklime"
+            "slot": "bag-14",
+            "code": "game:mortar",
+            "name": "Mortar"
           },
           {
             "slot": "bag-15",
             "code": "game:lantern-large-up",
             "name": "Large molybdochalkos lantern"
+          },
+          {
+            "slot": "bag-19",
+            "code": "game:quicklime",
+            "name": "Quicklime"
           }
         ],
         "skin": {
@@ -2330,12 +2340,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 51.1,
+        "playtimeHours": 51.2,
         "blocksTravelled": 66229,
         "blocksBroken": 1349,
         "blocksPlaced": 911,
         "deepestY": 67,
-        "lastSeen": 1784492626,
+        "lastSeen": 1784492829,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2551,11 +2561,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 84.9,
-        "blocksTravelled": 218927,
+        "blocksTravelled": 219790,
         "blocksBroken": 12328,
         "blocksPlaced": 4087,
         "deepestY": 23,
-        "lastSeen": 1784492626,
+        "lastSeen": 1784492829,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
