@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-225719",
+  "generated": "20260719-225919",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2124,11 +2124,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 69.2,
-        "blocksTravelled": 126965,
+        "blocksTravelled": 127042,
         "blocksBroken": 5121,
         "blocksPlaced": 390,
         "deepestY": 28,
-        "lastSeen": 1784494547,
+        "lastSeen": 1784494667,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2213,6 +2213,16 @@
             "code": "game:clothes-upperbodyover-forgotten",
             "name": "Forgotten noble robe",
             "icon": "character/icons/upperbodyover-forgotten.png"
+          },
+          {
+            "slot": "bag-1",
+            "code": "game:torchholder-brass-empty-north",
+            "name": "Brass torch holder"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:torch-basic-lit-up",
+            "name": "Torch"
           }
         ],
         "skin": {
@@ -2266,12 +2276,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 51.6,
-        "blocksTravelled": 66767,
-        "blocksBroken": 1351,
+        "playtimeHours": 51.7,
+        "blocksTravelled": 66801,
+        "blocksBroken": 1354,
         "blocksPlaced": 911,
         "deepestY": 67,
-        "lastSeen": 1784494547,
+        "lastSeen": 1784494667,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2392,6 +2402,26 @@
             "slot": "bag-10",
             "code": "game:metalbit-copper",
             "name": "Copper bits"
+          },
+          {
+            "slot": "bag-21",
+            "code": "game:workitem-iron",
+            "name": "Broken iron scythe head\n"
+          },
+          {
+            "slot": "bag-22",
+            "code": "game:workitem-iron",
+            "name": "Broken iron knife blade\n"
+          },
+          {
+            "slot": "bag-23",
+            "code": "game:workitem-iron",
+            "name": "Broken iron scythe head\n"
+          },
+          {
+            "slot": "bag-24",
+            "code": "game:workitem-iron",
+            "name": "Broken iron shovel head\n"
           }
         ],
         "skin": {
@@ -2487,11 +2517,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 85.4,
-        "blocksTravelled": 222262,
-        "blocksBroken": 12556,
-        "blocksPlaced": 4190,
+        "blocksTravelled": 222455,
+        "blocksBroken": 12618,
+        "blocksPlaced": 4191,
         "deepestY": 23,
-        "lastSeen": 1784494547,
+        "lastSeen": 1784494667,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2657,6 +2687,11 @@
             "slot": "bag-14",
             "code": "game:soil-medium-none",
             "name": "Medium fertility soil"
+          },
+          {
+            "slot": "bag-15",
+            "code": "game:soil-low-none",
+            "name": "Low fertility soil"
           },
           {
             "slot": "bag-23",
