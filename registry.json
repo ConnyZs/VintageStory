@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-200508",
+  "generated": "20260719-200709",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2122,12 +2122,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 67.0,
-        "blocksTravelled": 118488,
-        "blocksBroken": 4991,
+        "playtimeHours": 67.1,
+        "blocksTravelled": 119043,
+        "blocksBroken": 5001,
         "blocksPlaced": 344,
         "deepestY": 28,
-        "lastSeen": 1784484219,
+        "lastSeen": 1784484370,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2385,11 +2385,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 49.6,
-        "blocksTravelled": 60342,
+        "blocksTravelled": 60545,
         "blocksBroken": 1322,
         "blocksPlaced": 899,
         "deepestY": 67,
-        "lastSeen": 1784484219,
+        "lastSeen": 1784484370,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2483,8 +2483,8 @@
           },
           {
             "slot": "bag-5",
-            "code": "game:soil-low-none",
-            "name": "Low fertility soil"
+            "code": "game:fruitingbushcutting-redgrapes-free",
+            "name": "game:block-fruitingbushcutting-redgrapes-free"
           },
           {
             "slot": "bag-6",
@@ -2668,12 +2668,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 82.5,
-        "blocksTravelled": 198308,
+        "playtimeHours": 82.6,
+        "blocksTravelled": 198531,
         "blocksBroken": 12064,
         "blocksPlaced": 3936,
         "deepestY": 23,
-        "lastSeen": 1784484219,
+        "lastSeen": 1784484370,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2774,94 +2774,9 @@
             "name": "Medium animal cage (open)"
           },
           {
-            "slot": "bag-4",
-            "code": "game:vegetable-turnip",
-            "name": "Turnip"
-          },
-          {
-            "slot": "bag-5",
-            "code": "game:vegetable-onion",
-            "name": "Onion"
-          },
-          {
-            "slot": "bag-6",
-            "code": "game:vegetable-parsnip",
-            "name": "Parsnip"
-          },
-          {
             "slot": "bag-7",
             "code": "animalcages:mediumanimalcage-ceiling-opened-east",
             "name": "Medium animal cage (open)"
-          },
-          {
-            "slot": "bag-8",
-            "code": "game:fruit-blackberry",
-            "name": "Blackberry"
-          },
-          {
-            "slot": "bag-9",
-            "code": "game:fruitingbushcutting-redgrapes-free",
-            "name": "game:block-fruitingbushcutting-redgrapes-free"
-          },
-          {
-            "slot": "bag-10",
-            "code": "game:fruitingbushcutting-greengrapes-free",
-            "name": "game:block-fruitingbushcutting-greengrapes-free"
-          },
-          {
-            "slot": "bag-11",
-            "code": "game:fruitingbushcutting-greengrapes-free",
-            "name": "game:block-fruitingbushcutting-greengrapes-free"
-          },
-          {
-            "slot": "bag-12",
-            "code": "game:grain-flax",
-            "name": "Flax grain"
-          },
-          {
-            "slot": "bag-13",
-            "code": "game:seeds-pineapple",
-            "name": "Pineapple seeds"
-          },
-          {
-            "slot": "bag-14",
-            "code": "game:seeds-amaranth",
-            "name": "Amaranth seeds"
-          },
-          {
-            "slot": "bag-15",
-            "code": "game:seeds-bellpepper",
-            "name": "Bell pepper seeds"
-          },
-          {
-            "slot": "bag-16",
-            "code": "game:seeds-cassava",
-            "name": "Cassava seeds"
-          },
-          {
-            "slot": "bag-17",
-            "code": "game:grain-rye",
-            "name": "Rye grain"
-          },
-          {
-            "slot": "bag-18",
-            "code": "game:grain-spelt",
-            "name": "Spelt grain"
-          },
-          {
-            "slot": "bag-19",
-            "code": "game:seeds-peanut",
-            "name": "Peanut seeds"
-          },
-          {
-            "slot": "bag-20",
-            "code": "game:fruit-raspberry",
-            "name": "Raspberry"
-          },
-          {
-            "slot": "bag-24",
-            "code": "game:fruit-blackcurrant",
-            "name": "Blackcurrant"
           }
         ],
         "skin": {

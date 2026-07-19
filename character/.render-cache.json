@@ -28,7 +28,7 @@
   }
  },
  "Eghetti": {
-  "hash": "a25c5fd711de087cfe98c9bb202ee24d238dddfa",
+  "hash": "4dda2032ba4d9074bdb2618e117c7ee6bc6f0301",
   "info": {
    "class": "smith",
    "items": [
@@ -48,7 +48,7 @@
     "Fur coat"
    ],
    "frames": 16,
-   "v": 1784484348
+   "v": 1784484447
   }
  },
  "Moritz": {
@@ -75,7 +75,7 @@
   }
  },
  "AddyBuschu": {
-  "hash": "f16326cbecfdb4289d6ea8afab953ef91605974e",
+  "hash": "0e8af099b3c64bb6a8cc253a255b982c3fa6795d",
   "info": {
    "class": "homesteader",
    "items": [
@@ -98,7 +98,7 @@
     "Rotwalker coat"
    ],
    "frames": 16,
-   "v": 1784484249
+   "v": 1784484468
   }
  },
  "Barberschascher": {
