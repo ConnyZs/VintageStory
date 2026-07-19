@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-230920",
+  "generated": "20260719-231120",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2124,11 +2124,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 69.4,
-        "blocksTravelled": 127801,
+        "blocksTravelled": 127840,
         "blocksBroken": 5123,
-        "blocksPlaced": 394,
+        "blocksPlaced": 395,
         "deepestY": 28,
-        "lastSeen": 1784495267,
+        "lastSeen": 1784495387,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2212,11 +2212,6 @@
             "code": "game:clothes-upperbodyover-forgotten",
             "name": "Forgotten noble robe",
             "icon": "character/icons/upperbodyover-forgotten.png"
-          },
-          {
-            "slot": "bag-1",
-            "code": "game:torch-basic-lit-up",
-            "name": "Torch"
           }
         ],
         "skin": {
@@ -2497,11 +2492,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 85.6,
-        "blocksTravelled": 223583,
+        "blocksTravelled": 223596,
         "blocksBroken": 12752,
         "blocksPlaced": 4317,
         "deepestY": 23,
-        "lastSeen": 1784495267,
+        "lastSeen": 1784495387,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2664,9 +2659,19 @@
             "name": "Wattle gate"
           },
           {
+            "slot": "bag-15",
+            "code": "game:bone-tiny",
+            "name": "Small bones"
+          },
+          {
+            "slot": "bag-16",
+            "code": "game:seeds-rice",
+            "name": "Rice seeds"
+          },
+          {
             "slot": "bag-17",
-            "code": "game:shovel-iron",
-            "name": "Iron shovel"
+            "code": "game:seeds-soybean",
+            "name": "Soybean seeds"
           },
           {
             "slot": "bag-18",
@@ -2674,14 +2679,14 @@
             "name": "Andesite gravel"
           },
           {
-            "slot": "bag-23",
-            "code": "game:seeds-soybean",
-            "name": "Soybean seeds"
+            "slot": "bag-20",
+            "code": "butchering:sinew-wet",
+            "name": "Wet Sinew"
           },
           {
-            "slot": "bag-24",
-            "code": "game:seeds-rice",
-            "name": "Rice seeds"
+            "slot": "bag-23",
+            "code": "game:soil-medium-none",
+            "name": "Medium fertility soil"
           }
         ],
         "skin": {

@@ -1,6 +1,6 @@
 {
  "Raschuetzer": {
-  "hash": "648c595c0ff955c0074e3f0d9c6dac2d154d70c8",
+  "hash": "82c0d96ddbdf17710e20e27096b849502e271184",
   "info": {
    "class": "tinker",
    "items": [
@@ -24,7 +24,7 @@
     "Forgotten noble robe"
    ],
    "frames": 16,
-   "v": 1784495381
+   "v": 1784495501
   }
  },
  "Eghetti": {
@@ -75,7 +75,7 @@
   }
  },
  "AddyBuschu": {
-  "hash": "4d260927008992ed93a29eb0dc43f763a3467a3c",
+  "hash": "15577912c858d39d2823c4276063ac1e991a4376",
   "info": {
    "class": "homesteader",
    "items": [
@@ -100,7 +100,7 @@
     "Rotwalker coat"
    ],
    "frames": 16,
-   "v": 1784495421
+   "v": 1784495524
   }
  },
  "Barberschascher": {
