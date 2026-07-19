@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-201309",
+  "generated": "20260719-201509",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2123,12 +2123,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 67.1,
-        "blocksTravelled": 119399,
-        "blocksBroken": 5059,
+        "playtimeHours": 67.2,
+        "blocksTravelled": 119584,
+        "blocksBroken": 5104,
         "blocksPlaced": 361,
         "deepestY": 28,
-        "lastSeen": 1784484700,
+        "lastSeen": 1784484820,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2386,11 +2386,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 49.7,
-        "blocksTravelled": 61200,
-        "blocksBroken": 1328,
+        "blocksTravelled": 61416,
+        "blocksBroken": 1330,
         "blocksPlaced": 899,
         "deepestY": 67,
-        "lastSeen": 1784484700,
+        "lastSeen": 1784484820,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2479,8 +2479,8 @@
           },
           {
             "slot": "bag-4",
-            "code": "game:nugget-galena",
-            "name": "Nugget (Galena)"
+            "code": "game:hoovedwearables-blanket-earthtone",
+            "name": "Earth tone saddle blanket"
           },
           {
             "slot": "bag-5",
@@ -2564,8 +2564,8 @@
           },
           {
             "slot": "bag-21",
-            "code": "game:lantern-large-up",
-            "name": "Large molybdochalkos lantern"
+            "code": "game:blade-gladius-ruined",
+            "name": "Ruined gladius"
           },
           {
             "slot": "bag-22",
@@ -2669,12 +2669,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 82.6,
-        "blocksTravelled": 199629,
-        "blocksBroken": 12065,
+        "playtimeHours": 82.7,
+        "blocksTravelled": 199789,
+        "blocksBroken": 12069,
         "blocksPlaced": 3936,
         "deepestY": 23,
-        "lastSeen": 1784484700,
+        "lastSeen": 1784484820,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
