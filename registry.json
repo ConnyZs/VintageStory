@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-203910",
+  "generated": "20260719-204111",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2345,12 +2345,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 50.1,
-        "blocksTravelled": 65252,
+        "playtimeHours": 50.2,
+        "blocksTravelled": 65310,
         "blocksBroken": 1341,
         "blocksPlaced": 899,
         "deepestY": 67,
-        "lastSeen": 1784486262,
+        "lastSeen": 1784486382,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2421,11 +2421,6 @@
             "slot": "armorbody",
             "code": "game:armor-body-tailored-pink-linen",
             "name": "Tailored gambeson body armor"
-          },
-          {
-            "slot": "bag-1",
-            "code": "game:nugget-nativesilver",
-            "name": "Nugget (Native silver)"
           },
           {
             "slot": "bag-2",
@@ -2544,7 +2539,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 22,
-        "mobKills": 272,
+        "mobKills": 273,
         "mealsEaten": 202,
         "caloriesConsumed": 24039,
         "lastMeal": "Puffball",
@@ -2606,11 +2601,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 83.1,
-        "blocksTravelled": 203246,
-        "blocksBroken": 12137,
-        "blocksPlaced": 3941,
+        "blocksTravelled": 203401,
+        "blocksBroken": 12138,
+        "blocksPlaced": 3944,
         "deepestY": 23,
-        "lastSeen": 1784486262,
+        "lastSeen": 1784486382,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2722,13 +2717,13 @@
           },
           {
             "slot": "bag-6",
-            "code": "fatemplar:fa-templar-schematic",
-            "name": "Templar style armor (schematic)"
+            "code": "game:table-greenmarble",
+            "name": "Green marble-topped table"
           },
           {
             "slot": "bag-7",
-            "code": "game:tuningcylinder-10",
-            "name": "Tuning cylinder (Summer stroll)"
+            "code": "game:lore-book-rotten-green",
+            "name": "Rotten lore book (Green)"
           },
           {
             "slot": "bag-8",
@@ -2752,44 +2747,29 @@
           },
           {
             "slot": "bag-12",
-            "code": "game:lore-book-rotten-purple",
-            "name": "Rotten lore book (Purple)"
+            "code": "game:fat-rendered",
+            "name": "Lump of rendered fat"
           },
           {
             "slot": "bag-13",
-            "code": "game:lore-book-aged-gray",
-            "name": "Aged lore book (Gray)"
+            "code": "game:hoovedwearables-blanket-alchemist",
+            "name": "Alchemist saddle blanket"
           },
           {
             "slot": "bag-14",
-            "code": "game:hoovedwearables-face-face16",
-            "name": "Elk medallion (Stiletto)"
+            "code": "game:clothes-neck-merchant-amulet",
+            "name": "Merchant amulet"
           },
           {
             "slot": "bag-15",
-            "code": "game:lore-scroll",
-            "name": "Scroll"
+            "code": "game:jonasframes-gears01",
+            "name": "Jonas sub-assembly (A difference gear assembly)"
           },
           {
             "slot": "bag-16",
-            "code": "game:lore-book-aged-darkgreen",
-            "name": "Aged lore book (Dark green)"
-          },
-          {
-            "slot": "bag-17",
-            "code": "game:clothes-foot-shepherd-sandals",
-            "name": "Shepherd sandals",
-            "icon": "character/icons/foot-shepherd-sandals.png"
-          },
-          {
-            "slot": "bag-18",
-            "code": "game:tuningcylinder-2",
-            "name": "Tuning cylinder (Through The Grass at Night)"
-          },
-          {
-            "slot": "bag-19",
-            "code": "game:wateringcan-tan-fired",
-            "name": "Tan ceramic watering can"
+            "code": "game:clothes-upperbody-miner",
+            "name": "Miner shirt",
+            "icon": "character/icons/upperbody-miner.png"
           },
           {
             "slot": "bag-20",
