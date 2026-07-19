@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-234922",
+  "generated": "20260719-235122",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2123,12 +2123,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 70.0,
+        "playtimeHours": 70.1,
         "blocksTravelled": 129145,
         "blocksBroken": 5127,
         "blocksPlaced": 398,
         "deepestY": 28,
-        "lastSeen": 1784497669,
+        "lastSeen": 1784497789,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2281,11 +2281,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 52.5,
-        "blocksTravelled": 68104,
+        "blocksTravelled": 68284,
         "blocksBroken": 1354,
         "blocksPlaced": 911,
         "deepestY": 67,
-        "lastSeen": 1784497669,
+        "lastSeen": 1784497789,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2423,6 +2423,16 @@
             "slot": "bag-14",
             "code": "game:clay-fire",
             "name": "Fire clay"
+          },
+          {
+            "slot": "bag-15",
+            "code": "quiversandsheaths:part-buckle-iron",
+            "name": "Buckle"
+          },
+          {
+            "slot": "bag-22",
+            "code": "game:bone",
+            "name": "Bone"
           },
           {
             "slot": "bag-24",
