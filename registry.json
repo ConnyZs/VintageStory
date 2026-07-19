@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-204311",
+  "generated": "20260719-204511",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2346,11 +2346,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 50.2,
-        "blocksTravelled": 65356,
-        "blocksBroken": 1341,
-        "blocksPlaced": 899,
+        "blocksTravelled": 65499,
+        "blocksBroken": 1346,
+        "blocksPlaced": 901,
         "deepestY": 67,
-        "lastSeen": 1784486502,
+        "lastSeen": 1784486622,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2423,9 +2423,14 @@
             "name": "Tailored gambeson body armor"
           },
           {
-            "slot": "bag-2",
+            "slot": "bag-1",
             "code": "game:bandage-clean",
             "name": "Clean bandage"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:wallpaper-yellow",
+            "name": "Yellow wallpaper"
           },
           {
             "slot": "bag-5",
@@ -2451,16 +2456,6 @@
             "slot": "bag-9",
             "code": "game:chiseledblock",
             "name": "Corroded brass pillar bust"
-          },
-          {
-            "slot": "bag-10",
-            "code": "game:chiseledblock",
-            "name": "Corroded brass pillar base"
-          },
-          {
-            "slot": "bag-11",
-            "code": "game:chiseledblock",
-            "name": "Corroded brass pillar base"
           },
           {
             "slot": "bag-12",
@@ -2585,12 +2580,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 83.1,
-        "blocksTravelled": 203582,
-        "blocksBroken": 12138,
-        "blocksPlaced": 3944,
+        "playtimeHours": 83.2,
+        "blocksTravelled": 203610,
+        "blocksBroken": 12140,
+        "blocksPlaced": 3946,
         "deepestY": 23,
-        "lastSeen": 1784486502,
+        "lastSeen": 1784486622,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2702,8 +2697,8 @@
           },
           {
             "slot": "bag-6",
-            "code": "game:table-greenmarble",
-            "name": "Green marble-topped table"
+            "code": "game:wateringcan-orange-fired",
+            "name": "Orange ceramic watering can"
           },
           {
             "slot": "bag-7",
@@ -2717,8 +2712,9 @@
           },
           {
             "slot": "bag-9",
-            "code": "game:ingot-zinc",
-            "name": "Zinc ingot"
+            "code": "game:clothes-foot-shepherd-sandals",
+            "name": "Shepherd sandals",
+            "icon": "character/icons/foot-shepherd-sandals.png"
           },
           {
             "slot": "bag-10",
@@ -2737,24 +2733,23 @@
           },
           {
             "slot": "bag-13",
-            "code": "game:hoovedwearables-blanket-alchemist",
-            "name": "Alchemist saddle blanket"
+            "code": "game:hoovedwearables-face-face16",
+            "name": "Elk medallion (Stiletto)"
           },
           {
             "slot": "bag-14",
-            "code": "game:clothes-neck-merchant-amulet",
-            "name": "Merchant amulet"
+            "code": "game:lore-book-aged-gray",
+            "name": "Aged lore book (Gray)"
           },
           {
             "slot": "bag-15",
-            "code": "game:jonasframes-gears01",
-            "name": "Jonas sub-assembly (A difference gear assembly)"
+            "code": "game:tuningcylinder-10",
+            "name": "Tuning cylinder (Summer stroll)"
           },
           {
             "slot": "bag-16",
-            "code": "game:clothes-upperbody-miner",
-            "name": "Miner shirt",
-            "icon": "character/icons/upperbody-miner.png"
+            "code": "game:wateringcan-tan-fired",
+            "name": "Tan ceramic watering can"
           },
           {
             "slot": "bag-17",
@@ -2763,13 +2758,13 @@
           },
           {
             "slot": "bag-18",
-            "code": "game:painting-prey-north",
-            "name": "Painting (Prey)"
+            "code": "game:wallpaper-lightgreen",
+            "name": "Light green wallpaper"
           },
           {
             "slot": "bag-19",
-            "code": "game:smallcarpet-turqoise2",
-            "name": "Small turquoise carpet with gold detailing"
+            "code": "game:tuningcylinder-2",
+            "name": "Tuning cylinder (Through The Grass at Night)"
           },
           {
             "slot": "bag-20",
@@ -2785,11 +2780,6 @@
             "slot": "bag-22",
             "code": "game:fruitingbushcutting-redgrapes-free",
             "name": "game:block-fruitingbushcutting-redgrapes-free"
-          },
-          {
-            "slot": "bag-23",
-            "code": "game:mediumcarpet-turqoise-ns",
-            "name": "Turquoise carpet"
           }
         ],
         "skin": {
