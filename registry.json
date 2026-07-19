@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-203310",
+  "generated": "20260719-203510",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2124,11 +2124,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 67.5,
-        "blocksTravelled": 123074,
+        "blocksTravelled": 123098,
         "blocksBroken": 5111,
-        "blocksPlaced": 362,
+        "blocksPlaced": 363,
         "deepestY": 28,
-        "lastSeen": 1784485901,
+        "lastSeen": 1784486021,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2285,16 +2285,6 @@
             "name": "Fireclay brick slab"
           },
           {
-            "slot": "bag-15",
-            "code": "game:lore-book-aged-orange",
-            "name": "Aged lore book (Orange)"
-          },
-          {
-            "slot": "bag-16",
-            "code": "game:hoovedwearables-face-face15",
-            "name": "Elk medallion (Crown)"
-          },
-          {
             "slot": "bag-17",
             "code": "game:rot",
             "name": "Rot"
@@ -2305,19 +2295,9 @@
             "name": "Rich chunk of Galena"
           },
           {
-            "slot": "bag-19",
-            "code": "game:lore-book-rotten-brown",
-            "name": "Rotten lore book (Brown)"
-          },
-          {
             "slot": "bag-20",
             "code": "game:agedwallpaperplanks-blue-east",
             "name": "Blue Wallpaper (On aged planks)"
-          },
-          {
-            "slot": "bag-21",
-            "code": "canjewelry:gem-rough-flawed-amethyst",
-            "name": "Medium rough amethyst"
           },
           {
             "slot": "bag-22",
@@ -2326,8 +2306,8 @@
           },
           {
             "slot": "bag-24",
-            "code": "game:trunk-east",
-            "name": "Wooden trunk"
+            "code": "game:stone-chalk",
+            "name": "Chalk stone"
           }
         ],
         "skin": {
@@ -2380,12 +2360,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 50.0,
-        "blocksTravelled": 65175,
+        "playtimeHours": 50.1,
+        "blocksTravelled": 65202,
         "blocksBroken": 1341,
         "blocksPlaced": 899,
         "deepestY": 67,
-        "lastSeen": 1784485901,
+        "lastSeen": 1784486021,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2651,11 +2631,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 83.0,
-        "blocksTravelled": 202293,
-        "blocksBroken": 12121,
+        "blocksTravelled": 202472,
+        "blocksBroken": 12122,
         "blocksPlaced": 3941,
         "deepestY": 23,
-        "lastSeen": 1784485901,
+        "lastSeen": 1784486021,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2781,6 +2761,16 @@
             "name": "Metal parts"
           },
           {
+            "slot": "bag-9",
+            "code": "game:ingot-zinc",
+            "name": "Zinc ingot"
+          },
+          {
+            "slot": "bag-10",
+            "code": "game:fruitingbushcutting-greengrapes-free",
+            "name": "game:block-fruitingbushcutting-greengrapes-free"
+          },
+          {
             "slot": "bag-11",
             "code": "game:gear-rusty",
             "name": "Rusty gear"
@@ -2835,6 +2825,11 @@
             "slot": "bag-21",
             "code": "game:fruit-redcurrant",
             "name": "Redcurrant"
+          },
+          {
+            "slot": "bag-22",
+            "code": "game:fruitingbushcutting-redgrapes-free",
+            "name": "game:block-fruitingbushcutting-redgrapes-free"
           }
         ],
         "skin": {
