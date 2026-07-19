@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-223718",
+  "generated": "20260719-223918",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2124,11 +2124,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 68.9,
-        "blocksTravelled": 126197,
+        "blocksTravelled": 126250,
         "blocksBroken": 5115,
-        "blocksPlaced": 378,
+        "blocksPlaced": 379,
         "deepestY": 28,
-        "lastSeen": 1784493434,
+        "lastSeen": 1784493466,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2213,11 +2213,6 @@
             "code": "game:clothes-upperbodyover-forgotten",
             "name": "Forgotten noble robe",
             "icon": "character/icons/upperbodyover-forgotten.png"
-          },
-          {
-            "slot": "bag-1",
-            "code": "game:stick",
-            "name": "Stick"
           },
           {
             "slot": "bag-2",
@@ -2325,7 +2320,7 @@
         "blocksBroken": 1349,
         "blocksPlaced": 911,
         "deepestY": 67,
-        "lastSeen": 1784493434,
+        "lastSeen": 1784493466,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2551,11 +2546,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 85.1,
-        "blocksTravelled": 221007,
+        "blocksTravelled": 221019,
         "blocksBroken": 12334,
         "blocksPlaced": 4099,
         "deepestY": 23,
-        "lastSeen": 1784493434,
+        "lastSeen": 1784493466,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2683,6 +2678,17 @@
             "name": "Rusty gear"
           },
           {
+            "slot": "bag-7",
+            "code": "game:metal-scraps",
+            "name": "Metal scraps"
+          },
+          {
+            "slot": "bag-8",
+            "code": "game:clothes-waist-marketeer",
+            "name": "Marketeer belt",
+            "icon": "character/icons/waist-marketeer.png"
+          },
+          {
             "slot": "bag-9",
             "code": "game:resin",
             "name": "Resin"
@@ -2691,6 +2697,16 @@
             "slot": "bag-10",
             "code": "game:metal-scraps",
             "name": "Metal scraps"
+          },
+          {
+            "slot": "bag-11",
+            "code": "game:seeds-soybean",
+            "name": "Soybean seeds"
+          },
+          {
+            "slot": "bag-12",
+            "code": "game:ingot-gold",
+            "name": "Gold ingot"
           },
           {
             "slot": "bag-13",
@@ -2704,8 +2720,8 @@
           },
           {
             "slot": "bag-15",
-            "code": "game:hide-oiled-medium",
-            "name": "Oiled hide (Medium)"
+            "code": "betterruins:br-schematic-book",
+            "name": "Bookbinder's Blueprint"
           },
           {
             "slot": "bag-16",
@@ -2736,6 +2752,11 @@
             "slot": "bag-21",
             "code": "game:shovel-copper",
             "name": "Copper shovel"
+          },
+          {
+            "slot": "bag-22",
+            "code": "game:fruit-blackberry",
+            "name": "Blackberry"
           },
           {
             "slot": "bag-23",
