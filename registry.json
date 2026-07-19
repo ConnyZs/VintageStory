@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-205511",
+  "generated": "20260719-205712",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2314,7 +2314,7 @@
       "name": "Eghetti",
       "role": "admin",
       "first_join": "04/22/2026 18:03",
-      "last_join": "07/19/2026 17:13",
+      "last_join": "07/19/2026 18:52",
       "last_char": "04/22/2026 18:08",
       "stats": {
         "uid": "TxqQ4g4qqKs+G5yFUTFmyGYb",
@@ -2345,12 +2345,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 50.3,
-        "blocksTravelled": 65802,
+        "playtimeHours": 50.4,
+        "blocksTravelled": 65850,
         "blocksBroken": 1349,
         "blocksPlaced": 910,
         "deepestY": 67,
-        "lastSeen": 1784487222,
+        "lastSeen": 1784487391,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2361,7 +2361,7 @@
           "Miner belt",
           "Leather bracers",
           "Fur coat",
-          "Tailored gambeson body armor"
+          "Blackguard cuirass (Broken)"
         ],
         "gearDetail": [
           {
@@ -2419,18 +2419,13 @@
           },
           {
             "slot": "armorbody",
-            "code": "game:armor-body-tailored-pink-linen",
-            "name": "Tailored gambeson body armor"
+            "code": "game:armor-body-antique-blackguard-broken",
+            "name": "Blackguard cuirass (Broken)"
           },
           {
             "slot": "bag-1",
             "code": "game:bandage-clean",
             "name": "Clean bandage"
-          },
-          {
-            "slot": "bag-2",
-            "code": "game:torch-basic-lit-up",
-            "name": "Torch"
           },
           {
             "slot": "bag-3",
@@ -2555,12 +2550,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 83.3,
-        "blocksTravelled": 205707,
+        "playtimeHours": 83.4,
+        "blocksTravelled": 206312,
         "blocksBroken": 12183,
         "blocksPlaced": 3951,
         "deepestY": 23,
-        "lastSeen": 1784487222,
+        "lastSeen": 1784487391,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
