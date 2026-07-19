@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-191305",
+  "generated": "20260719-191505",
   "game_version": "1.22.3",
   "check_ts": "20260719-164831",
   "latest_engine": "1.22.3",
@@ -2123,11 +2123,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 66.2,
-        "blocksTravelled": 112192,
+        "blocksTravelled": 112229,
         "blocksBroken": 4484,
         "blocksPlaced": 339,
         "deepestY": 28,
-        "lastSeen": 1784481169,
+        "lastSeen": 1784481217,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2314,7 +2314,7 @@
         "blocksBroken": 1210,
         "blocksPlaced": 897,
         "deepestY": 105,
-        "lastSeen": 1784150377,
+        "lastSeen": 1784481219,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2388,81 +2388,48 @@
           },
           {
             "slot": "bag-1",
-            "code": "game:clothes-head-furhattail-raccoon-common",
-            "name": "Raccoon tail hat",
-            "icon": "character/icons/head-furhattail-raccoon-common.png"
+            "code": "game:lantern-large-up",
+            "name": "Large molybdochalkos lantern"
           },
           {
             "slot": "bag-2",
-            "code": "game:clothes-shoulder-blacksmith-apron",
-            "name": "Blacksmith apron",
-            "icon": "character/icons/shoulder-blacksmith-apron.png"
+            "code": "game:tongsmetal-standard-iron",
+            "name": "Iron tongs"
+          },
+          {
+            "slot": "bag-3",
+            "code": "game:stick",
+            "name": "Stick"
           },
           {
             "slot": "bag-4",
-            "code": "game:clothes-lowerbody-workmans-gown",
-            "name": "Workmans pants",
-            "icon": "character/icons/lowerbody-workmans-gown.png"
+            "code": "game:soil-low-none",
+            "name": "Low fertility soil"
           },
           {
             "slot": "bag-5",
-            "code": "game:clothes-foot-soldier-boots",
-            "name": "Soldier boots",
-            "icon": "character/icons/foot-soldier-boots.png"
+            "code": "game:clay-fire",
+            "name": "Fire clay"
           },
           {
             "slot": "bag-6",
-            "code": "game:clothes-hand-heavy-leather-gloves",
-            "name": "Heavy leather gloves",
-            "icon": "character/icons/hand-heavy-leather-gloves.png"
+            "code": "game:torch-basic-lit-up",
+            "name": "Torch"
           },
           {
             "slot": "bag-7",
-            "code": "game:clothes-neck-simple-cross",
-            "name": "Simple cross"
-          },
-          {
-            "slot": "bag-10",
-            "code": "game:clothes-waist-miner",
-            "name": "Miner belt",
-            "icon": "character/icons/waist-miner.png"
+            "code": "butchering:deadhare-male-european-1-rotten",
+            "name": "Hare (dead)"
           },
           {
             "slot": "bag-11",
-            "code": "game:clothes-arm-leather-bracers",
-            "name": "Leather bracers",
-            "icon": "character/icons/arm-leather-bracers.png"
+            "code": "walkingstick:walkingstick-crude",
+            "name": "Crude walking stick"
           },
           {
             "slot": "bag-12",
-            "code": "game:clothes-upperbodyover-fur-coat",
-            "name": "Fur coat",
-            "icon": "character/icons/upperbodyover-fur-coat.png"
-          },
-          {
-            "slot": "bag-14",
-            "code": "game:armor-body-tailored-pink-linen",
-            "name": "Tailored gambeson body armor"
-          },
-          {
-            "slot": "bag-57",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-58",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-59",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-60",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "code": "game:bandage-clean",
+            "name": "Clean bandage"
           }
         ],
         "skin": {
@@ -2556,7 +2523,7 @@
         "blocksBroken": 12027,
         "blocksPlaced": 3931,
         "deepestY": 23,
-        "lastSeen": 1784480929,
+        "lastSeen": 1784481241,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
