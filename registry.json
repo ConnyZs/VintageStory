@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-193307",
+  "generated": "20260719-193507",
   "game_version": "1.22.3",
   "check_ts": "20260719-164831",
   "latest_engine": "1.22.3",
@@ -2123,11 +2123,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 66.5,
-        "blocksTravelled": 113473,
-        "blocksBroken": 4487,
+        "blocksTravelled": 113901,
+        "blocksBroken": 4494,
         "blocksPlaced": 340,
         "deepestY": 28,
-        "lastSeen": 1784482298,
+        "lastSeen": 1784482418,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2279,12 +2279,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 49.0,
-        "blocksTravelled": 55553,
+        "playtimeHours": 49.1,
+        "blocksTravelled": 55982,
         "blocksBroken": 1211,
         "blocksPlaced": 898,
         "deepestY": 67,
-        "lastSeen": 1784482298,
+        "lastSeen": 1784482418,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2459,11 +2459,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 82.0,
-        "blocksTravelled": 195243,
+        "blocksTravelled": 195276,
         "blocksBroken": 12028,
-        "blocksPlaced": 3933,
+        "blocksPlaced": 3934,
         "deepestY": 23,
-        "lastSeen": 1784482298,
+        "lastSeen": 1784482418,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2564,9 +2564,30 @@
             "name": "Medium animal cage (open)"
           },
           {
+            "slot": "bag-4",
+            "code": "game:ore-quartz",
+            "name": "Quartz chunk"
+          },
+          {
+            "slot": "bag-5",
+            "code": "game:clothes-neck-lunula",
+            "name": "Lunula"
+          },
+          {
+            "slot": "bag-6",
+            "code": "game:lore-book-rotten-brown",
+            "name": "Rotten lore book (Brown)"
+          },
+          {
             "slot": "bag-7",
             "code": "animalcages:mediumanimalcage-ceiling-opened-east",
             "name": "Medium animal cage (open)"
+          },
+          {
+            "slot": "bag-8",
+            "code": "game:clothes-hand-lackey-gloves",
+            "name": "Lackey gloves",
+            "icon": "character/icons/hand-lackey-gloves.png"
           },
           {
             "slot": "bag-9",
@@ -2579,6 +2600,17 @@
             "name": "Cabbage seeds"
           },
           {
+            "slot": "bag-11",
+            "code": "game:clothes-foot-jailor-boots",
+            "name": "Jailor boots",
+            "icon": "character/icons/foot-jailor-boots.png"
+          },
+          {
+            "slot": "bag-12",
+            "code": "game:ladder-stick-north",
+            "name": "Crude ladder"
+          },
+          {
             "slot": "bag-13",
             "code": "game:flaxtwine",
             "name": "Flax twine"
@@ -2589,9 +2621,34 @@
             "name": "Nugget (Galena)"
           },
           {
+            "slot": "bag-15",
+            "code": "game:agedwallpaperplanks-blue-east",
+            "name": "Blue Wallpaper (On aged planks)"
+          },
+          {
+            "slot": "bag-16",
+            "code": "game:quicklime",
+            "name": "Quicklime"
+          },
+          {
             "slot": "bag-18",
             "code": "game:soil-medium-none",
             "name": "Medium fertility soil"
+          },
+          {
+            "slot": "bag-19",
+            "code": "game:lore-scroll",
+            "name": "Scroll"
+          },
+          {
+            "slot": "bag-20",
+            "code": "game:clearquartz",
+            "name": "Clear quartz"
+          },
+          {
+            "slot": "bag-21",
+            "code": "game:clothes-neck-pearl-necklace",
+            "name": "Pearl necklace"
           },
           {
             "slot": "bag-22",
