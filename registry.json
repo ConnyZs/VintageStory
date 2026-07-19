@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-214314",
+  "generated": "20260719-214515",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2123,12 +2123,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 67.9,
-        "blocksTravelled": 124119,
+        "playtimeHours": 68.0,
+        "blocksTravelled": 124165,
         "blocksBroken": 5115,
         "blocksPlaced": 371,
         "deepestY": 28,
-        "lastSeen": 1784490110,
+        "lastSeen": 1784490224,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2220,16 +2220,6 @@
             "name": "Stick"
           },
           {
-            "slot": "bag-2",
-            "code": "game:metalnailsandstrips-copper",
-            "name": "Nails and strips (Copper)"
-          },
-          {
-            "slot": "bag-4",
-            "code": "game:bookshelf",
-            "name": "Bookshelf"
-          },
-          {
             "slot": "bag-6",
             "code": "walkingstick:walkingstick-pathfinder",
             "name": "Pathfinder's walking stick"
@@ -2240,19 +2230,9 @@
             "name": "Torch"
           },
           {
-            "slot": "bag-10",
-            "code": "game:saw-tinbronze",
-            "name": "Tin bronze saw"
-          },
-          {
             "slot": "bag-13",
             "code": "game:quicklime",
             "name": "Quicklime"
-          },
-          {
-            "slot": "bag-14",
-            "code": "game:flaxtwine",
-            "name": "Flax twine"
           },
           {
             "slot": "bag-15",
@@ -2516,11 +2496,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 84.2,
-        "blocksTravelled": 213708,
+        "blocksTravelled": 214025,
         "blocksBroken": 12238,
         "blocksPlaced": 4066,
         "deepestY": 23,
-        "lastSeen": 1784490110,
+        "lastSeen": 1784490224,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2626,14 +2606,14 @@
             "name": "Medium animal cage (open)"
           },
           {
+            "slot": "bag-5",
+            "code": "alchemy:potionflask-tube-quartz",
+            "name": "Small potion flask"
+          },
+          {
             "slot": "bag-6",
             "code": "game:gear-rusty",
             "name": "Rusty gear"
-          },
-          {
-            "slot": "bag-8",
-            "code": "bricklayers:storagevesselcolored-burnt-red",
-            "name": "Colored storage vessel (Red)"
           }
         ],
         "skin": {
