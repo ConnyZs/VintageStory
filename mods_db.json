@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-17T21:30:09Z",
+  "updated": "2026-07-19T14:48:19Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1060,19 +1060,10 @@
     },
     {
       "name": "",
-      "link": "https://mods.vintagestory.at/artofgrowing",
-      "category": "Other",
-      "section": "1.22",
-      "server_state": "no",
-      "proposed": true,
-      "note": ""
-    },
-    {
-      "name": "",
       "link": "https://mods.vintagestory.at/show/mod/28845",
       "category": "Other",
       "section": "1.22",
-      "server_state": "no",
+      "server_state": "yes",
       "proposed": true,
       "note": ""
     },
@@ -1081,7 +1072,7 @@
       "link": "https://mods.vintagestory.at/chiselleaf",
       "category": "Other",
       "section": "1.22",
-      "server_state": "no",
+      "server_state": "yes",
       "proposed": true,
       "note": ""
     },
@@ -1090,7 +1081,7 @@
       "link": "https://mods.vintagestory.at/show/mod/47392",
       "category": "Other",
       "section": "1.22",
-      "server_state": "no",
+      "server_state": "yes",
       "proposed": true,
       "note": ""
     }

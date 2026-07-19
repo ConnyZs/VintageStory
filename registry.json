@@ -1,7 +1,7 @@
 {
-  "generated": "20260719-164055",
+  "generated": "20260719-164831",
   "game_version": "1.22.3",
-  "check_ts": "20260718-200056",
+  "check_ts": "20260719-164831",
   "latest_engine": "1.22.3",
   "restart_needed": null,
   "last_deploy_ts": "20260715-155904",
@@ -45,7 +45,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 127,
+  "count": 126,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -970,7 +970,7 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.6.3",
-      "build_version": "1.6.4",
+      "build_version": "1.6.5",
       "build_branch": "1.22",
       "update_pending": true,
       "proposed": false
@@ -1918,22 +1918,6 @@
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": false
-    },
-    {
-      "name": "Art of Growing",
-      "modid": "artofgrowing",
-      "section": "1.22",
-      "category": "Technology",
-      "on_server": false,
-      "link": "https://mods.vintagestory.at/artofgrowing",
-      "server_state": "no",
-      "avail": "outdated",
-      "note": "outdated \u2014 no 1.22 or 1.21 build, won't be installed",
-      "version": null,
-      "build_version": null,
-      "build_branch": null,
-      "update_pending": false,
-      "proposed": true
     },
     {
       "name": "Art of Growing [unofficial]",

@@ -1,6 +1,12 @@
 {
   "actions": [
     {
+      "ts": "2026-07-19T14:47:21Z",
+      "label": "Rejected",
+      "link": "https://mods.vintagestory.at/artofgrowing",
+      "name": "Art of Growing"
+    },
+    {
       "ts": "2026-07-14T21:49:37Z",
       "label": "Approved for server",
       "link": "https://mods.vintagestory.at/animationslib",
@@ -291,12 +297,6 @@
     {
       "ts": "2026-07-12T20:36:16Z",
       "label": "Rejected",
-      "link": "https://mods.vintagestory.at/__test_local_only_e2e__",
-      "name": "Local Only E2E Test"
-    },
-    {
-      "ts": "2026-07-12T20:36:13Z",
-      "label": "Un-approved",
       "link": "https://mods.vintagestory.at/__test_local_only_e2e__",
       "name": "Local Only E2E Test"
     }
