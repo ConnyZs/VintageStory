@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-213314",
+  "generated": "20260719-213514",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2124,11 +2124,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 67.8,
-        "blocksTravelled": 123854,
-        "blocksBroken": 5111,
-        "blocksPlaced": 363,
+        "blocksTravelled": 123883,
+        "blocksBroken": 5113,
+        "blocksPlaced": 367,
         "deepestY": 28,
-        "lastSeen": 1784489506,
+        "lastSeen": 1784489624,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2243,6 +2243,11 @@
             "slot": "bag-10",
             "code": "game:saw-tinbronze",
             "name": "Tin bronze saw"
+          },
+          {
+            "slot": "bag-11",
+            "code": "game:bookshelf",
+            "name": "Bookshelf"
           },
           {
             "slot": "bag-13",
@@ -2516,11 +2521,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 84.0,
-        "blocksTravelled": 212148,
-        "blocksBroken": 12192,
-        "blocksPlaced": 3969,
+        "blocksTravelled": 212506,
+        "blocksBroken": 12200,
+        "blocksPlaced": 3970,
         "deepestY": 23,
-        "lastSeen": 1784489506,
+        "lastSeen": 1784489624,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
