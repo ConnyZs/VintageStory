@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-202910",
+  "generated": "20260719-203110",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2124,11 +2124,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 67.4,
-        "blocksTravelled": 123017,
+        "blocksTravelled": 123046,
         "blocksBroken": 5111,
         "blocksPlaced": 361,
         "deepestY": 28,
-        "lastSeen": 1784485661,
+        "lastSeen": 1784485781,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2318,6 +2318,11 @@
             "slot": "bag-21",
             "code": "canjewelry:gem-rough-flawed-amethyst",
             "name": "Medium rough amethyst"
+          },
+          {
+            "slot": "bag-22",
+            "code": "game:clearquartz",
+            "name": "Clear quartz"
           }
         ],
         "skin": {
@@ -2371,11 +2376,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 50.0,
-        "blocksTravelled": 64844,
+        "blocksTravelled": 64906,
         "blocksBroken": 1341,
         "blocksPlaced": 899,
         "deepestY": 67,
-        "lastSeen": 1784485661,
+        "lastSeen": 1784485781,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2448,11 +2453,6 @@
             "name": "Tailored gambeson body armor"
           },
           {
-            "slot": "bag-1",
-            "code": "game:gear-rusty",
-            "name": "Rusty gear"
-          },
-          {
             "slot": "bag-2",
             "code": "game:bandage-clean",
             "name": "Clean bandage"
@@ -2461,11 +2461,6 @@
             "slot": "bag-3",
             "code": "game:pickaxe-iron",
             "name": "Iron pickaxe"
-          },
-          {
-            "slot": "bag-4",
-            "code": "game:hoovedwearables-blanket-earthtone",
-            "name": "Earth tone saddle blanket"
           },
           {
             "slot": "bag-5",
@@ -2524,23 +2519,28 @@
           },
           {
             "slot": "bag-16",
+            "code": "game:chiseledblock",
+            "name": "Corroded brass pillar bust"
+          },
+          {
+            "slot": "bag-17",
             "code": "game:ore-lignite",
             "name": "Brown coal"
           },
           {
-            "slot": "bag-17",
-            "code": "game:ore-rich-galena-sandstone",
-            "name": "Rich chunk of Galena"
-          },
-          {
-            "slot": "bag-19",
+            "slot": "bag-18",
             "code": "game:ore-lignite",
             "name": "Brown coal"
           },
           {
             "slot": "bag-20",
-            "code": "game:chiseledblock",
-            "name": "Corroded brass pillar bust"
+            "code": "game:ingot-tin",
+            "name": "Tin ingot"
+          },
+          {
+            "slot": "bag-21",
+            "code": "game:hoovedwearables-blanket-earthtone",
+            "name": "Earth tone saddle blanket"
           },
           {
             "slot": "bag-22",
@@ -2551,6 +2551,11 @@
             "slot": "bag-23",
             "code": "game:ore-poor-malachite-limestone",
             "name": "Poor chunk of Malachite"
+          },
+          {
+            "slot": "bag-24",
+            "code": "game:ore-rich-galena-sandstone",
+            "name": "Rich chunk of Galena"
           }
         ],
         "skin": {
@@ -2641,11 +2646,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 82.9,
-        "blocksTravelled": 201997,
-        "blocksBroken": 12116,
+        "blocksTravelled": 202062,
+        "blocksBroken": 12117,
         "blocksPlaced": 3941,
         "deepestY": 23,
-        "lastSeen": 1784485661,
+        "lastSeen": 1784485781,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2830,6 +2835,11 @@
             "slot": "bag-20",
             "code": "game:compost",
             "name": "Compost"
+          },
+          {
+            "slot": "bag-21",
+            "code": "game:fruit-redcurrant",
+            "name": "Redcurrant"
           }
         ],
         "skin": {
