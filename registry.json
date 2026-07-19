@@ -1,5 +1,5 @@
 {
-  "generated": "20260720-002725",
+  "generated": "20260720-002925",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2123,12 +2123,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 70.6,
+        "playtimeHours": 70.7,
         "blocksTravelled": 129179,
         "blocksBroken": 5127,
         "blocksPlaced": 398,
         "deepestY": 28,
-        "lastSeen": 1784499950,
+        "lastSeen": 1784500079,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
