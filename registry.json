@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-194307",
+  "generated": "20260719-194507",
   "game_version": "1.22.3",
   "check_ts": "20260719-164831",
   "latest_engine": "1.22.3",
@@ -2094,7 +2094,7 @@
         "name": "Raschuetzer",
         "class": "tinker",
         "deaths": 6,
-        "mobKills": 77,
+        "mobKills": 78,
         "mealsEaten": 33,
         "caloriesConsumed": 13808,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
@@ -2122,12 +2122,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 66.6,
-        "blocksTravelled": 115654,
-        "blocksBroken": 4515,
+        "playtimeHours": 66.7,
+        "blocksTravelled": 116202,
+        "blocksBroken": 4520,
         "blocksPlaced": 340,
         "deepestY": 28,
-        "lastSeen": 1784482898,
+        "lastSeen": 1784483018,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2290,11 +2290,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 49.2,
-        "blocksTravelled": 57668,
+        "blocksTravelled": 58134,
         "blocksBroken": 1211,
         "blocksPlaced": 898,
         "deepestY": 67,
-        "lastSeen": 1784482898,
+        "lastSeen": 1784483018,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2473,12 +2473,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 82.1,
-        "blocksTravelled": 195445,
+        "playtimeHours": 82.2,
+        "blocksTravelled": 195575,
         "blocksBroken": 12028,
         "blocksPlaced": 3936,
         "deepestY": 23,
-        "lastSeen": 1784482898,
+        "lastSeen": 1784483018,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2579,6 +2579,21 @@
             "name": "Medium animal cage (open)"
           },
           {
+            "slot": "bag-4",
+            "code": "game:vegetable-turnip",
+            "name": "Turnip"
+          },
+          {
+            "slot": "bag-5",
+            "code": "game:grain-spelt",
+            "name": "Spelt grain"
+          },
+          {
+            "slot": "bag-6",
+            "code": "game:vegetable-onion",
+            "name": "Onion"
+          },
+          {
             "slot": "bag-7",
             "code": "animalcages:mediumanimalcage-ceiling-opened-east",
             "name": "Medium animal cage (open)"
@@ -2597,6 +2612,11 @@
             "slot": "bag-11",
             "code": "game:seeds-fennel",
             "name": "Fennel seeds"
+          },
+          {
+            "slot": "bag-24",
+            "code": "game:vegetable-parsnip",
+            "name": "Parsnip"
           }
         ],
         "skin": {
