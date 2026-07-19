@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-201909",
+  "generated": "20260719-202109",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2123,12 +2123,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 67.2,
-        "blocksTravelled": 120541,
-        "blocksBroken": 5108,
+        "playtimeHours": 67.3,
+        "blocksTravelled": 121131,
+        "blocksBroken": 5109,
         "blocksPlaced": 361,
         "deepestY": 28,
-        "lastSeen": 1784485060,
+        "lastSeen": 1784485180,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2386,11 +2386,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 49.8,
-        "blocksTravelled": 62298,
+        "blocksTravelled": 62772,
         "blocksBroken": 1341,
         "blocksPlaced": 899,
         "deepestY": 67,
-        "lastSeen": 1784485060,
+        "lastSeen": 1784485180,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2669,12 +2669,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 82.7,
-        "blocksTravelled": 200191,
-        "blocksBroken": 12069,
+        "playtimeHours": 82.8,
+        "blocksTravelled": 200323,
+        "blocksBroken": 12070,
         "blocksPlaced": 3936,
         "deepestY": 23,
-        "lastSeen": 1784485060,
+        "lastSeen": 1784485180,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2785,6 +2785,11 @@
             "name": "Small potion flask"
           },
           {
+            "slot": "bag-6",
+            "code": "fatemplar:fa-templar-schematic",
+            "name": "Templar style armor (schematic)"
+          },
+          {
             "slot": "bag-7",
             "code": "game:gear-temporal",
             "name": "Temporal gear"
@@ -2803,6 +2808,36 @@
             "slot": "bag-10",
             "code": "game:metal-parts",
             "name": "Metal parts"
+          },
+          {
+            "slot": "bag-11",
+            "code": "game:gear-rusty",
+            "name": "Rusty gear"
+          },
+          {
+            "slot": "bag-12",
+            "code": "game:lore-book-rotten-purple",
+            "name": "Rotten lore book (Purple)"
+          },
+          {
+            "slot": "bag-13",
+            "code": "game:lore-book-aged-gray",
+            "name": "Aged lore book (Gray)"
+          },
+          {
+            "slot": "bag-14",
+            "code": "game:hoovedwearables-face-face16",
+            "name": "Elk medallion (Stiletto)"
+          },
+          {
+            "slot": "bag-15",
+            "code": "game:lore-scroll",
+            "name": "Scroll"
+          },
+          {
+            "slot": "bag-16",
+            "code": "game:lore-book-aged-darkgreen",
+            "name": "Aged lore book (Dark green)"
           }
         ],
         "skin": {
