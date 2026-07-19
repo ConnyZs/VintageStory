@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-224118",
+  "generated": "20260719-224318",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2087,7 +2087,7 @@
       "name": "Raschuetzer",
       "role": "admin",
       "first_join": "04/22/2026 17:47",
-      "last_join": "07/19/2026 19:18",
+      "last_join": "07/19/2026 20:40",
       "last_char": "04/29/2026 21:30",
       "stats": {
         "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
@@ -2124,11 +2124,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 68.9,
-        "blocksTravelled": 126466,
+        "blocksTravelled": 126538,
         "blocksBroken": 5115,
         "blocksPlaced": 379,
         "deepestY": 28,
-        "lastSeen": 1784493615,
+        "lastSeen": 1784493736,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2216,8 +2216,8 @@
           },
           {
             "slot": "bag-1",
-            "code": "game:plank-maple",
-            "name": "Board (Maple)"
+            "code": "game:plank-acacia",
+            "name": "Board (Acacia)"
           },
           {
             "slot": "bag-2",
@@ -2290,7 +2290,7 @@
         "blocksBroken": 1349,
         "blocksPlaced": 911,
         "deepestY": 67,
-        "lastSeen": 1784493586,
+        "lastSeen": 1784493736,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2515,12 +2515,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 85.1,
-        "blocksTravelled": 221140,
+        "playtimeHours": 85.2,
+        "blocksTravelled": 221219,
         "blocksBroken": 12334,
         "blocksPlaced": 4100,
         "deepestY": 23,
-        "lastSeen": 1784493586,
+        "lastSeen": 1784493736,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2643,37 +2643,6 @@
             "name": "Small potion flask"
           },
           {
-            "slot": "bag-6",
-            "code": "game:gear-rusty",
-            "name": "Rusty gear"
-          },
-          {
-            "slot": "bag-7",
-            "code": "game:metal-scraps",
-            "name": "Metal scraps"
-          },
-          {
-            "slot": "bag-8",
-            "code": "game:clothes-waist-marketeer",
-            "name": "Marketeer belt",
-            "icon": "character/icons/waist-marketeer.png"
-          },
-          {
-            "slot": "bag-9",
-            "code": "game:resin",
-            "name": "Resin"
-          },
-          {
-            "slot": "bag-10",
-            "code": "game:metal-scraps",
-            "name": "Metal scraps"
-          },
-          {
-            "slot": "bag-11",
-            "code": "game:seeds-soybean",
-            "name": "Soybean seeds"
-          },
-          {
             "slot": "bag-12",
             "code": "game:ingot-gold",
             "name": "Gold ingot"
@@ -2685,9 +2654,8 @@
           },
           {
             "slot": "bag-17",
-            "code": "game:clothes-lowerbody-prince-breeches",
-            "name": "Prince breeches",
-            "icon": "character/icons/lowerbody-prince-breeches.png"
+            "code": "game:seeds-soybean",
+            "name": "Soybean seeds"
           },
           {
             "slot": "bag-18",
