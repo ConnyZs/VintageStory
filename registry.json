@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-224318",
+  "generated": "20260719-224518",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2123,12 +2123,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 68.9,
-        "blocksTravelled": 126538,
+        "playtimeHours": 69.0,
+        "blocksTravelled": 126602,
         "blocksBroken": 5115,
         "blocksPlaced": 379,
         "deepestY": 28,
-        "lastSeen": 1784493736,
+        "lastSeen": 1784493826,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2215,22 +2215,7 @@
             "icon": "character/icons/upperbodyover-forgotten.png"
           },
           {
-            "slot": "bag-1",
-            "code": "game:plank-acacia",
-            "name": "Board (Acacia)"
-          },
-          {
-            "slot": "bag-2",
-            "code": "walkingstick:walkingstick-pathfinder",
-            "name": "Pathfinder's walking stick"
-          },
-          {
-            "slot": "bag-8",
-            "code": "game:torch-basic-lit-up",
-            "name": "Torch"
-          },
-          {
-            "slot": "bag-15",
+            "slot": "bag-3",
             "code": "game:lantern-large-up",
             "name": "Large molybdochalkos lantern"
           }
@@ -2290,7 +2275,7 @@
         "blocksBroken": 1349,
         "blocksPlaced": 911,
         "deepestY": 67,
-        "lastSeen": 1784493736,
+        "lastSeen": 1784493826,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2516,11 +2501,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 85.2,
-        "blocksTravelled": 221219,
+        "blocksTravelled": 221307,
         "blocksBroken": 12334,
         "blocksPlaced": 4100,
         "deepestY": 23,
-        "lastSeen": 1784493736,
+        "lastSeen": 1784493826,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2643,16 +2628,6 @@
             "name": "Small potion flask"
           },
           {
-            "slot": "bag-12",
-            "code": "game:ingot-gold",
-            "name": "Gold ingot"
-          },
-          {
-            "slot": "bag-13",
-            "code": "game:grain-flax",
-            "name": "Flax grain"
-          },
-          {
             "slot": "bag-17",
             "code": "game:seeds-soybean",
             "name": "Soybean seeds"
@@ -2674,8 +2649,18 @@
           },
           {
             "slot": "bag-21",
-            "code": "game:shovel-copper",
-            "name": "Copper shovel"
+            "code": "game:grain-flax",
+            "name": "Flax grain"
+          },
+          {
+            "slot": "bag-22",
+            "code": "game:ingot-gold",
+            "name": "Gold ingot"
+          },
+          {
+            "slot": "bag-23",
+            "code": "game:trough-genericwood-large-head-north",
+            "name": "Large trough"
           },
           {
             "slot": "bag-24",
