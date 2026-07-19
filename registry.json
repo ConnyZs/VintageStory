@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-215115",
+  "generated": "20260719-215315",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2124,11 +2124,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 68.1,
-        "blocksTravelled": 124455,
+        "blocksTravelled": 124670,
         "blocksBroken": 5115,
         "blocksPlaced": 371,
         "deepestY": 28,
-        "lastSeen": 1784490584,
+        "lastSeen": 1784490714,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2290,12 +2290,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 50.5,
-        "blocksTravelled": 66008,
+        "playtimeHours": 50.6,
+        "blocksTravelled": 66092,
         "blocksBroken": 1349,
-        "blocksPlaced": 910,
+        "blocksPlaced": 911,
         "deepestY": 67,
-        "lastSeen": 1784490584,
+        "lastSeen": 1784490714,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2373,6 +2373,11 @@
             "name": "Clean bandage"
           },
           {
+            "slot": "bag-2",
+            "code": "game:lantern-large-up",
+            "name": "Large molybdochalkos lantern"
+          },
+          {
             "slot": "bag-3",
             "code": "walkingstick:walkingstick-crude",
             "name": "Crude walking stick"
@@ -2406,6 +2411,11 @@
             "slot": "bag-9",
             "code": "game:clay-fire",
             "name": "Fire clay"
+          },
+          {
+            "slot": "bag-19",
+            "code": "game:torch-basic-lit-up",
+            "name": "Torch"
           }
         ],
         "skin": {
@@ -2435,9 +2445,9 @@
         "class": "homesteader",
         "deaths": 22,
         "mobKills": 280,
-        "mealsEaten": 202,
-        "caloriesConsumed": 24039,
-        "lastMeal": "Puffball",
+        "mealsEaten": 208,
+        "caloriesConsumed": 24519,
+        "lastMeal": "Redcurrant",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2452,7 +2462,7 @@
           "Pear pie": 4,
           "Cooked dumplings": 2,
           "Almond mushroom": 1,
-          "Redcurrant": 30,
+          "Redcurrant": 36,
           "Carrot": 4,
           "Field mushroom": 1,
           "Turnip": 1,
@@ -2484,7 +2494,7 @@
           "Grain": 38,
           "Protein": 14,
           "Vegetable": 56,
-          "Fruit": 115,
+          "Fruit": 121,
           "Dairy": 10
         },
         "deathCauses": {
@@ -2496,11 +2506,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 84.3,
-        "blocksTravelled": 214577,
+        "blocksTravelled": 215497,
         "blocksBroken": 12255,
         "blocksPlaced": 4076,
         "deepestY": 23,
-        "lastSeen": 1784490584,
+        "lastSeen": 1784490714,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
