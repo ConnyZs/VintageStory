@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-214915",
+  "generated": "20260719-215115",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2123,12 +2123,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 68.0,
-        "blocksTravelled": 124411,
+        "playtimeHours": 68.1,
+        "blocksTravelled": 124455,
         "blocksBroken": 5115,
         "blocksPlaced": 371,
         "deepestY": 28,
-        "lastSeen": 1784490464,
+        "lastSeen": 1784490584,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2220,7 +2220,7 @@
             "name": "Stick"
           },
           {
-            "slot": "bag-6",
+            "slot": "bag-2",
             "code": "walkingstick:walkingstick-pathfinder",
             "name": "Pathfinder's walking stick"
           },
@@ -2233,6 +2233,11 @@
             "slot": "bag-13",
             "code": "game:quicklime",
             "name": "Quicklime"
+          },
+          {
+            "slot": "bag-15",
+            "code": "game:lantern-large-up",
+            "name": "Large molybdochalkos lantern"
           }
         ],
         "skin": {
@@ -2286,11 +2291,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 50.5,
-        "blocksTravelled": 65966,
+        "blocksTravelled": 66008,
         "blocksBroken": 1349,
         "blocksPlaced": 910,
         "deepestY": 67,
-        "lastSeen": 1784490464,
+        "lastSeen": 1784490584,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2490,12 +2495,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 84.2,
-        "blocksTravelled": 214276,
-        "blocksBroken": 12238,
-        "blocksPlaced": 4066,
+        "playtimeHours": 84.3,
+        "blocksTravelled": 214577,
+        "blocksBroken": 12255,
+        "blocksPlaced": 4076,
         "deepestY": 23,
-        "lastSeen": 1784490464,
+        "lastSeen": 1784490584,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
