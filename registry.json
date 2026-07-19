@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-220116",
+  "generated": "20260719-220316",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2123,12 +2123,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 68.2,
+        "playtimeHours": 68.3,
         "blocksTravelled": 124923,
         "blocksBroken": 5115,
         "blocksPlaced": 371,
         "deepestY": 28,
-        "lastSeen": 1784491185,
+        "lastSeen": 1784491319,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2316,11 +2316,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 50.7,
-        "blocksTravelled": 66150,
+        "blocksTravelled": 66192,
         "blocksBroken": 1349,
         "blocksPlaced": 911,
         "deepestY": 67,
-        "lastSeen": 1784491185,
+        "lastSeen": 1784491319,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2413,6 +2413,11 @@
             "name": "Iron saw"
           },
           {
+            "slot": "bag-6",
+            "code": "maltiezfirearms:bullet-lead",
+            "name": "Bullet (lead)"
+          },
+          {
             "slot": "bag-7",
             "code": "game:soil-low-none",
             "name": "Low fertility soil"
@@ -2433,9 +2438,9 @@
             "name": "Copper bits"
           },
           {
-            "slot": "bag-11",
-            "code": "game:torch-basic-lit-up",
-            "name": "Torch"
+            "slot": "bag-17",
+            "code": "game:peatbrick",
+            "name": "Peat brick"
           }
         ],
         "skin": {
@@ -2465,8 +2470,8 @@
         "class": "homesteader",
         "deaths": 22,
         "mobKills": 280,
-        "mealsEaten": 227,
-        "caloriesConsumed": 25989,
+        "mealsEaten": 230,
+        "caloriesConsumed": 26179,
         "lastMeal": "Flax grain",
         "mealsByName": {
           "Meat pie": 5,
@@ -2489,7 +2494,7 @@
           "Puffball": 4,
           "Tinder hoof": 1,
           "Raspberry": 6,
-          "Flax grain": 24,
+          "Flax grain": 25,
           "Dryad saddle": 3,
           "White oyster": 2,
           "Common morel": 2,
@@ -2497,7 +2502,7 @@
           "Chanterelle": 1,
           "Black trumpet": 1,
           "Witch's hat": 1,
-          "Blackberry": 3,
+          "Blackberry": 5,
           "Red wine cap": 6,
           "Honeycomb": 2,
           "Green cracked russula": 11,
@@ -2513,10 +2518,10 @@
           "Bearded tooth": 5
         },
         "foodCatCounts": {
-          "Grain": 39,
+          "Grain": 40,
           "Protein": 14,
           "Vegetable": 61,
-          "Fruit": 134,
+          "Fruit": 136,
           "Dairy": 10
         },
         "deathCauses": {
@@ -2527,12 +2532,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 84.4,
-        "blocksTravelled": 217281,
-        "blocksBroken": 12283,
-        "blocksPlaced": 4076,
+        "playtimeHours": 84.5,
+        "blocksTravelled": 217356,
+        "blocksBroken": 12287,
+        "blocksPlaced": 4078,
         "deepestY": 23,
-        "lastSeen": 1784491185,
+        "lastSeen": 1784491319,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
