@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-215315",
+  "generated": "20260719-215515",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2124,11 +2124,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 68.1,
-        "blocksTravelled": 124670,
+        "blocksTravelled": 124896,
         "blocksBroken": 5115,
         "blocksPlaced": 371,
         "deepestY": 28,
-        "lastSeen": 1784490714,
+        "lastSeen": 1784490825,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2225,6 +2225,11 @@
             "name": "Pathfinder's walking stick"
           },
           {
+            "slot": "bag-3",
+            "code": "game:crucible-earthyorange-fired",
+            "name": "Earthy orange ceramic crucible"
+          },
+          {
             "slot": "bag-8",
             "code": "game:torch-basic-lit-up",
             "name": "Torch"
@@ -2291,11 +2296,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 50.6,
-        "blocksTravelled": 66092,
+        "blocksTravelled": 66105,
         "blocksBroken": 1349,
         "blocksPlaced": 911,
         "deepestY": 67,
-        "lastSeen": 1784490714,
+        "lastSeen": 1784490825,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2413,9 +2418,19 @@
             "name": "Fire clay"
           },
           {
-            "slot": "bag-19",
+            "slot": "bag-10",
+            "code": "game:metalbit-copper",
+            "name": "Copper bits"
+          },
+          {
+            "slot": "bag-12",
             "code": "game:torch-basic-lit-up",
             "name": "Torch"
+          },
+          {
+            "slot": "bag-19",
+            "code": "game:metalplate-iron",
+            "name": "Iron plate"
           }
         ],
         "skin": {
@@ -2445,8 +2460,8 @@
         "class": "homesteader",
         "deaths": 22,
         "mobKills": 280,
-        "mealsEaten": 208,
-        "caloriesConsumed": 24519,
+        "mealsEaten": 212,
+        "caloriesConsumed": 24839,
         "lastMeal": "Redcurrant",
         "mealsByName": {
           "Meat pie": 5,
@@ -2462,7 +2477,7 @@
           "Pear pie": 4,
           "Cooked dumplings": 2,
           "Almond mushroom": 1,
-          "Redcurrant": 36,
+          "Redcurrant": 40,
           "Carrot": 4,
           "Field mushroom": 1,
           "Turnip": 1,
@@ -2494,7 +2509,7 @@
           "Grain": 38,
           "Protein": 14,
           "Vegetable": 56,
-          "Fruit": 121,
+          "Fruit": 125,
           "Dairy": 10
         },
         "deathCauses": {
@@ -2506,11 +2521,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 84.3,
-        "blocksTravelled": 215497,
+        "blocksTravelled": 216095,
         "blocksBroken": 12255,
         "blocksPlaced": 4076,
         "deepestY": 23,
-        "lastSeen": 1784490714,
+        "lastSeen": 1784490825,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2624,6 +2639,16 @@
             "slot": "bag-6",
             "code": "game:gear-rusty",
             "name": "Rusty gear"
+          },
+          {
+            "slot": "bag-7",
+            "code": "game:fruitingbushcutting-redgrapes-free",
+            "name": "game:block-fruitingbushcutting-redgrapes-free"
+          },
+          {
+            "slot": "bag-8",
+            "code": "game:fruit-blueberry",
+            "name": "Blueberry"
           }
         ],
         "skin": {
