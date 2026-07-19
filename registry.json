@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-232321",
+  "generated": "20260719-232521",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2124,11 +2124,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 69.6,
-        "blocksTravelled": 128117,
+        "blocksTravelled": 128160,
         "blocksBroken": 5125,
         "blocksPlaced": 397,
         "deepestY": 28,
-        "lastSeen": 1784496153,
+        "lastSeen": 1784496228,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2491,12 +2491,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 85.8,
-        "blocksTravelled": 224284,
+        "playtimeHours": 85.9,
+        "blocksTravelled": 224306,
         "blocksBroken": 12753,
         "blocksPlaced": 4318,
         "deepestY": 23,
-        "lastSeen": 1784496153,
+        "lastSeen": 1784496228,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2617,21 +2617,6 @@
             "slot": "bag-5",
             "code": "alchemy:potionflask-tube-quartz",
             "name": "Small potion flask"
-          },
-          {
-            "slot": "bag-6",
-            "code": "butchering:butcherybag-primitive",
-            "name": "Reed Butchering Bag"
-          },
-          {
-            "slot": "bag-7",
-            "code": "game:soil-medium-none",
-            "name": "Medium fertility soil"
-          },
-          {
-            "slot": "bag-8",
-            "code": "game:rod-blackbronze",
-            "name": "Black bronze rod"
           }
         ],
         "skin": {
