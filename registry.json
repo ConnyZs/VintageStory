@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-232721",
+  "generated": "20260719-232921",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2124,11 +2124,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 69.7,
-        "blocksTravelled": 128297,
+        "blocksTravelled": 128433,
         "blocksBroken": 5125,
         "blocksPlaced": 397,
         "deepestY": 28,
-        "lastSeen": 1784496348,
+        "lastSeen": 1784496468,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2233,7 +2233,7 @@
       "name": "Eghetti",
       "role": "admin",
       "first_join": "04/22/2026 18:03",
-      "last_join": "07/19/2026 19:46",
+      "last_join": "07/19/2026 21:25",
       "last_char": "04/22/2026 18:08",
       "stats": {
         "uid": "TxqQ4g4qqKs+G5yFUTFmyGYb",
@@ -2265,12 +2265,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 52.1,
-        "blocksTravelled": 66958,
+        "playtimeHours": 52.2,
+        "blocksTravelled": 67071,
         "blocksBroken": 1354,
         "blocksPlaced": 911,
         "deepestY": 67,
-        "lastSeen": 1784496350,
+        "lastSeen": 1784496468,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2388,6 +2388,11 @@
             "name": "Fire clay"
           },
           {
+            "slot": "bag-10",
+            "code": "game:tongsmetal-standard-tinbronze",
+            "name": "Tin bronze tongs"
+          },
+          {
             "slot": "bag-13",
             "code": "game:peatbrick",
             "name": "Peat brick"
@@ -2492,11 +2497,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 85.9,
-        "blocksTravelled": 224663,
+        "blocksTravelled": 224800,
         "blocksBroken": 12768,
         "blocksPlaced": 4318,
         "deepestY": 23,
-        "lastSeen": 1784496348,
+        "lastSeen": 1784496468,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
