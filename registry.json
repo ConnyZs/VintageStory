@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-225519",
+  "generated": "20260719-225719",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2123,12 +2123,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 69.1,
-        "blocksTravelled": 126787,
+        "playtimeHours": 69.2,
+        "blocksTravelled": 126965,
         "blocksBroken": 5121,
-        "blocksPlaced": 385,
+        "blocksPlaced": 390,
         "deepestY": 28,
-        "lastSeen": 1784494427,
+        "lastSeen": 1784494547,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2267,11 +2267,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 51.6,
-        "blocksTravelled": 66601,
-        "blocksBroken": 1349,
+        "blocksTravelled": 66767,
+        "blocksBroken": 1351,
         "blocksPlaced": 911,
         "deepestY": 67,
-        "lastSeen": 1784494427,
+        "lastSeen": 1784494547,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2392,11 +2392,6 @@
             "slot": "bag-10",
             "code": "game:metalbit-copper",
             "name": "Copper bits"
-          },
-          {
-            "slot": "bag-11",
-            "code": "game:tongsmetal-standard-tinbronze",
-            "name": "Tin bronze tongs"
           }
         ],
         "skin": {
@@ -2492,11 +2487,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 85.4,
-        "blocksTravelled": 222198,
-        "blocksBroken": 12481,
-        "blocksPlaced": 4105,
+        "blocksTravelled": 222262,
+        "blocksBroken": 12556,
+        "blocksPlaced": 4190,
         "deepestY": 23,
-        "lastSeen": 1784494427,
+        "lastSeen": 1784494547,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2645,8 +2640,13 @@
           },
           {
             "slot": "bag-11",
-            "code": "game:soil-low-none",
-            "name": "Low fertility soil"
+            "code": "game:gravel-andesite",
+            "name": "Andesite gravel"
+          },
+          {
+            "slot": "bag-12",
+            "code": "game:gravel-andesite",
+            "name": "Andesite gravel"
           },
           {
             "slot": "bag-13",
