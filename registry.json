@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-213114",
+  "generated": "20260719-213314",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2123,12 +2123,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 67.7,
-        "blocksTravelled": 123785,
+        "playtimeHours": 67.8,
+        "blocksTravelled": 123854,
         "blocksBroken": 5111,
         "blocksPlaced": 363,
         "deepestY": 28,
-        "lastSeen": 1784489384,
+        "lastSeen": 1784489506,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2225,6 +2225,11 @@
             "name": "Nails and strips (Copper)"
           },
           {
+            "slot": "bag-3",
+            "code": "game:plank-walnut",
+            "name": "Board (Walnut)"
+          },
+          {
             "slot": "bag-6",
             "code": "walkingstick:walkingstick-pathfinder",
             "name": "Pathfinder's walking stick"
@@ -2233,6 +2238,11 @@
             "slot": "bag-8",
             "code": "game:torch-basic-lit-up",
             "name": "Torch"
+          },
+          {
+            "slot": "bag-10",
+            "code": "game:saw-tinbronze",
+            "name": "Tin bronze saw"
           },
           {
             "slot": "bag-13",
@@ -2505,12 +2515,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 83.9,
-        "blocksTravelled": 211697,
-        "blocksBroken": 12191,
-        "blocksPlaced": 3968,
+        "playtimeHours": 84.0,
+        "blocksTravelled": 212148,
+        "blocksBroken": 12192,
+        "blocksPlaced": 3969,
         "deepestY": 23,
-        "lastSeen": 1784489384,
+        "lastSeen": 1784489506,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2597,11 +2607,6 @@
           },
           {
             "slot": "bag-1",
-            "code": "animalcages:mediumanimalcage-ceiling-closed-east",
-            "name": "Medium animal cage (closed)"
-          },
-          {
-            "slot": "bag-2",
             "code": "animalcages:mediumanimalcage-ceiling-closed-east",
             "name": "Medium animal cage (closed)"
           },
