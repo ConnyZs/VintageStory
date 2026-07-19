@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-200909",
+  "generated": "20260719-201109",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2124,11 +2124,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 67.1,
-        "blocksTravelled": 119151,
-        "blocksBroken": 5034,
+        "blocksTravelled": 119161,
+        "blocksBroken": 5039,
         "blocksPlaced": 356,
         "deepestY": 28,
-        "lastSeen": 1784484460,
+        "lastSeen": 1784484580,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2221,18 +2221,13 @@
           },
           {
             "slot": "bag-2",
-            "code": "game:fruitingbushcutting-redgrapes-free",
-            "name": "game:block-fruitingbushcutting-redgrapes-free"
+            "code": "game:ore-lignite",
+            "name": "Brown coal"
           },
           {
             "slot": "bag-3",
             "code": "game:stone-conglomerate",
             "name": "Conglomerate stone"
-          },
-          {
-            "slot": "bag-4",
-            "code": "game:fruit-redgrapes",
-            "name": "Red grapes"
           },
           {
             "slot": "bag-5",
@@ -2251,8 +2246,8 @@
           },
           {
             "slot": "bag-8",
-            "code": "game:ore-lignite",
-            "name": "Brown coal"
+            "code": "game:stone-conglomerate",
+            "name": "Conglomerate stone"
           },
           {
             "slot": "bag-9",
@@ -2385,12 +2380,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 49.6,
-        "blocksTravelled": 61014,
+        "playtimeHours": 49.7,
+        "blocksTravelled": 61017,
         "blocksBroken": 1322,
         "blocksPlaced": 899,
         "deepestY": 67,
-        "lastSeen": 1784484460,
+        "lastSeen": 1784484580,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2670,11 +2665,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 82.6,
-        "blocksTravelled": 198985,
+        "blocksTravelled": 199129,
         "blocksBroken": 12064,
         "blocksPlaced": 3936,
         "deepestY": 23,
-        "lastSeen": 1784484460,
+        "lastSeen": 1784484580,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2783,6 +2778,11 @@
             "slot": "bag-5",
             "code": "alchemy:potionflask-tube-quartz",
             "name": "Small potion flask"
+          },
+          {
+            "slot": "bag-6",
+            "code": "game:fruitingbushcutting-redgrapes-free",
+            "name": "game:block-fruitingbushcutting-redgrapes-free"
           }
         ],
         "skin": {
