@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-192506",
+  "generated": "20260719-192706",
   "game_version": "1.22.3",
   "check_ts": "20260719-164831",
   "latest_engine": "1.22.3",
@@ -2122,12 +2122,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 66.3,
-        "blocksTravelled": 112690,
+        "playtimeHours": 66.4,
+        "blocksTravelled": 112946,
         "blocksBroken": 4484,
         "blocksPlaced": 340,
         "deepestY": 28,
-        "lastSeen": 1784481817,
+        "lastSeen": 1784481953,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2214,11 +2214,6 @@
             "icon": "character/icons/upperbodyover-forgotten.png"
           },
           {
-            "slot": "bag-1",
-            "code": "game:log-placed-oak-ud",
-            "name": "Oak log"
-          },
-          {
             "slot": "bag-6",
             "code": "game:lantern-large-up",
             "name": "Large molybdochalkos lantern"
@@ -2285,11 +2280,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 48.9,
-        "blocksTravelled": 54950,
+        "blocksTravelled": 54967,
         "blocksBroken": 1211,
         "blocksPlaced": 898,
         "deepestY": 105,
-        "lastSeen": 1784481817,
+        "lastSeen": 1784481953,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2463,12 +2458,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 81.8,
-        "blocksTravelled": 193739,
+        "playtimeHours": 81.9,
+        "blocksTravelled": 194247,
         "blocksBroken": 12027,
         "blocksPlaced": 3931,
         "deepestY": 23,
-        "lastSeen": 1784481817,
+        "lastSeen": 1784481953,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2552,6 +2547,126 @@
             "slot": "armorbody",
             "code": "game:armor-body-hide-bear-black",
             "name": "Black bear hide body armor"
+          },
+          {
+            "slot": "bag-1",
+            "code": "animalcages:mediumanimalcage-ceiling-opened-east",
+            "name": "Medium animal cage (open)"
+          },
+          {
+            "slot": "bag-2",
+            "code": "animalcages:mediumanimalcage-ceiling-opened-east",
+            "name": "Medium animal cage (open)"
+          },
+          {
+            "slot": "bag-3",
+            "code": "animalcages:mediumanimalcage-ceiling-opened-east",
+            "name": "Medium animal cage (open)"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:mushroom-funeralbell-normal-north",
+            "name": "Funeral bell"
+          },
+          {
+            "slot": "bag-5",
+            "code": "game:vegetable-fennel",
+            "name": "Fennel"
+          },
+          {
+            "slot": "bag-6",
+            "code": "game:resin",
+            "name": "Resin"
+          },
+          {
+            "slot": "bag-7",
+            "code": "animalcages:mediumanimalcage-ceiling-opened-east",
+            "name": "Medium animal cage (open)"
+          },
+          {
+            "slot": "bag-8",
+            "code": "game:seeds-fennel",
+            "name": "Fennel seeds"
+          },
+          {
+            "slot": "bag-9",
+            "code": "game:seeds-soybean",
+            "name": "Soybean seeds"
+          },
+          {
+            "slot": "bag-10",
+            "code": "game:seeds-cabbage",
+            "name": "Cabbage seeds"
+          },
+          {
+            "slot": "bag-11",
+            "code": "game:fruit-blackberry",
+            "name": "Blackberry"
+          },
+          {
+            "slot": "bag-12",
+            "code": "game:fruit-blueberry",
+            "name": "Blueberry"
+          },
+          {
+            "slot": "bag-13",
+            "code": "game:flaxtwine",
+            "name": "Flax twine"
+          },
+          {
+            "slot": "bag-14",
+            "code": "game:nugget-galena",
+            "name": "Nugget (Galena)"
+          },
+          {
+            "slot": "bag-15",
+            "code": "game:fruit-redcurrant",
+            "name": "Redcurrant"
+          },
+          {
+            "slot": "bag-16",
+            "code": "floramycology:seeds-redwinecap",
+            "name": "Red Wine Cap Spores"
+          },
+          {
+            "slot": "bag-17",
+            "code": "game:fruit-cranberry",
+            "name": "Cranberry"
+          },
+          {
+            "slot": "bag-18",
+            "code": "game:soil-medium-none",
+            "name": "Medium fertility soil"
+          },
+          {
+            "slot": "bag-19",
+            "code": "game:pickaxe-iron",
+            "name": "Iron pickaxe"
+          },
+          {
+            "slot": "bag-20",
+            "code": "game:jug-black-fired",
+            "name": "Black ceramic jug"
+          },
+          {
+            "slot": "bag-21",
+            "code": "game:fruitingbushcutting-greengrapes-free",
+            "name": "game:block-fruitingbushcutting-greengrapes-free"
+          },
+          {
+            "slot": "bag-22",
+            "code": "game:fruitingbushcutting-greengrapes-free",
+            "name": "game:block-fruitingbushcutting-greengrapes-free"
+          },
+          {
+            "slot": "bag-23",
+            "code": "game:fruitingbushcutting-redgrapes-free",
+            "name": "game:block-fruitingbushcutting-redgrapes-free"
+          },
+          {
+            "slot": "bag-24",
+            "code": "game:fruitingbushcutting-greengrapes-free",
+            "name": "game:block-fruitingbushcutting-greengrapes-free"
           }
         ],
         "skin": {
