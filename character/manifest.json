@@ -1,5 +1,137 @@
 {
  "frames": 16,
  "front": 0,
- "players": {}
+ "players": {
+  "Raschuetzer": {
+   "class": "tinker",
+   "items": [
+    "hairbase",
+    "hairextra",
+    "mustache",
+    "beard",
+    "facialexpression",
+    "Messenger hat",
+    "Embroidered tartar scarf",
+    "Scarlet ornate linen tunic",
+    "Scarlet ornate linen tunic",
+    "Marketeer pants",
+    "Thigh-high boots",
+    "Laced handsome gloves",
+    "Forlorn Hope talisman",
+    "Cursed gemstone",
+    "Malefactor whitewood mask",
+    "Forlorn Hope belt",
+    "Squire bracers",
+    "Forgotten noble robe"
+   ],
+   "frames": 16,
+   "v": 1784494180
+  },
+  "Eghetti": {
+   "class": "smith",
+   "items": [
+    "hairbase",
+    "mustache",
+    "beard",
+    "facialexpression",
+    "Raccoon tail hat",
+    "Blacksmith apron",
+    "Workmans pants",
+    "Soldier boots",
+    "Heavy leather gloves",
+    "Simple cross",
+    "Miner belt",
+    "Leather bracers",
+    "Fur coat",
+    "Fur coat"
+   ],
+   "frames": 16,
+   "v": 1784493238
+  },
+  "AddyBuschu": {
+   "class": "homesteader",
+   "items": [
+    "hairbase",
+    "hairextra",
+    "mustache",
+    "beard",
+    "facialexpression",
+    "Bycocket",
+    "Rotwalker cape",
+    "Rotwalker cape",
+    "Tattered crimson tunic",
+    "Nomad trousers",
+    "Wool lined knee-high boots",
+    "Survivor gloves",
+    "Acorn amulet",
+    "Prince emblem",
+    "Crow mask",
+    "Rotten king belt",
+    "Leather bracers",
+    "Rotwalker coat",
+    "Rotwalker coat"
+   ],
+   "frames": 16,
+   "v": 1784494203
+  },
+  "Moritz": {
+   "class": "mason",
+   "items": [
+    "hairbase",
+    "mustache",
+    "facialexpression",
+    "Raccoon fur trapper hat",
+    "Linen tunic",
+    "Workmans pants",
+    "Forlorn Hope shoes",
+    "Scribe gloves",
+    "Gold gear amulet",
+    "Messenger pin",
+    "Sturdy belt",
+    "Large silver bracelets",
+    "Fortune teller vest"
+   ],
+   "frames": 16,
+   "v": 1784389079
+  },
+  "Barberschascher": {
+   "class": "miner",
+   "items": [
+    "hairbase",
+    "hairextra",
+    "mustache",
+    "beard",
+    "facialexpression",
+    "Jailors hat",
+    "Clockmaker shirt",
+    "Malefactor trousers",
+    "Blackguard shoes",
+    "Heavy leather gloves",
+    "Leather reinforced mask",
+    "Heavy belt"
+   ],
+   "frames": 16,
+   "v": 1780432886
+  },
+  "Morsel": {
+   "class": "tailor",
+   "items": [
+    "hairbase",
+    "hairextra",
+    "mustache",
+    "beard",
+    "facialexpression",
+    "Tailor blouse",
+    "Tailor blouse",
+    "Tailor trousers",
+    "Tailor shoes",
+    "Tailor gloves",
+    "Tailor belt",
+    "Tailor needle puff",
+    "Tailor jacket"
+   ],
+   "frames": 16,
+   "v": 1784150353
+  }
+ }
 }
