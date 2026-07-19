@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-213714",
+  "generated": "20260719-213914",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2124,11 +2124,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 67.9,
-        "blocksTravelled": 124000,
+        "blocksTravelled": 124001,
         "blocksBroken": 5113,
         "blocksPlaced": 369,
         "deepestY": 28,
-        "lastSeen": 1784489808,
+        "lastSeen": 1784489864,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2516,11 +2516,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 84.1,
-        "blocksTravelled": 213233,
-        "blocksBroken": 12201,
+        "blocksTravelled": 213497,
+        "blocksBroken": 12204,
         "blocksPlaced": 3977,
         "deepestY": 23,
-        "lastSeen": 1784489808,
+        "lastSeen": 1784489864,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2639,6 +2639,11 @@
             "slot": "bag-7",
             "code": "game:resin",
             "name": "Resin"
+          },
+          {
+            "slot": "bag-8",
+            "code": "bricklayers:storagevesselcolored-burnt-red",
+            "name": "Colored storage vessel (Red)"
           }
         ],
         "skin": {
