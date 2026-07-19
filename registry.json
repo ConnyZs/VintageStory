@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-212313",
+  "generated": "20260719-212513",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2124,11 +2124,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 67.6,
-        "blocksTravelled": 123348,
+        "blocksTravelled": 123490,
         "blocksBroken": 5111,
         "blocksPlaced": 363,
         "deepestY": 28,
-        "lastSeen": 1784488903,
+        "lastSeen": 1784489023,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2215,39 +2215,9 @@
             "icon": "character/icons/upperbodyover-forgotten.png"
           },
           {
-            "slot": "bag-1",
-            "code": "game:ore-rich-galena-sandstone",
-            "name": "Rich chunk of Galena"
-          },
-          {
-            "slot": "bag-2",
-            "code": "game:nugget-galena",
-            "name": "Nugget (Galena)"
-          },
-          {
-            "slot": "bag-3",
-            "code": "game:ore-lignite",
-            "name": "Brown coal"
-          },
-          {
-            "slot": "bag-4",
-            "code": "game:ore-lignite",
-            "name": "Brown coal"
-          },
-          {
-            "slot": "bag-5",
-            "code": "game:ore-lignite",
-            "name": "Brown coal"
-          },
-          {
             "slot": "bag-6",
             "code": "walkingstick:walkingstick-pathfinder",
             "name": "Pathfinder's walking stick"
-          },
-          {
-            "slot": "bag-7",
-            "code": "game:ore-medium-galena-sandstone",
-            "name": "Medium chunk of Galena"
           },
           {
             "slot": "bag-8",
@@ -2474,7 +2444,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 22,
-        "mobKills": 277,
+        "mobKills": 279,
         "mealsEaten": 202,
         "caloriesConsumed": 24039,
         "lastMeal": "Puffball",
@@ -2536,11 +2506,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 83.8,
-        "blocksTravelled": 210106,
+        "blocksTravelled": 210473,
         "blocksBroken": 12190,
         "blocksPlaced": 3968,
         "deepestY": 23,
-        "lastSeen": 1784488903,
+        "lastSeen": 1784489023,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2632,8 +2602,8 @@
           },
           {
             "slot": "bag-2",
-            "code": "animalcages:mediumanimalcage-ceiling-opened-east",
-            "name": "Medium animal cage (open)"
+            "code": "animalcages:mediumanimalcage-ceiling-closed-east",
+            "name": "Medium animal cage (closed)"
           },
           {
             "slot": "bag-3",
