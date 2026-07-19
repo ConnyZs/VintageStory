@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-223918",
+  "generated": "20260719-224118",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2124,11 +2124,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 68.9,
-        "blocksTravelled": 126250,
+        "blocksTravelled": 126466,
         "blocksBroken": 5115,
         "blocksPlaced": 379,
         "deepestY": 28,
-        "lastSeen": 1784493466,
+        "lastSeen": 1784493615,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2215,49 +2215,19 @@
             "icon": "character/icons/upperbodyover-forgotten.png"
           },
           {
+            "slot": "bag-1",
+            "code": "game:plank-maple",
+            "name": "Board (Maple)"
+          },
+          {
             "slot": "bag-2",
             "code": "walkingstick:walkingstick-pathfinder",
             "name": "Pathfinder's walking stick"
           },
           {
-            "slot": "bag-3",
-            "code": "game:crucible-earthyorange-fired",
-            "name": "Earthy orange ceramic crucible"
-          },
-          {
-            "slot": "bag-4",
-            "code": "game:peatbrick",
-            "name": "Peat brick"
-          },
-          {
-            "slot": "bag-5",
-            "code": "game:peatbrick",
-            "name": "Peat brick"
-          },
-          {
-            "slot": "bag-6",
-            "code": "game:peatbrick",
-            "name": "Peat brick"
-          },
-          {
             "slot": "bag-8",
             "code": "game:torch-basic-lit-up",
             "name": "Torch"
-          },
-          {
-            "slot": "bag-9",
-            "code": "game:paper-parchment",
-            "name": "Parchment"
-          },
-          {
-            "slot": "bag-11",
-            "code": "game:peatbrick",
-            "name": "Peat brick"
-          },
-          {
-            "slot": "bag-12",
-            "code": "game:plank-acacia",
-            "name": "Board (Acacia)"
           },
           {
             "slot": "bag-15",
@@ -2315,12 +2285,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 51.3,
+        "playtimeHours": 51.4,
         "blocksTravelled": 66342,
         "blocksBroken": 1349,
         "blocksPlaced": 911,
         "deepestY": 67,
-        "lastSeen": 1784493466,
+        "lastSeen": 1784493586,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2546,11 +2516,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 85.1,
-        "blocksTravelled": 221019,
+        "blocksTravelled": 221140,
         "blocksBroken": 12334,
-        "blocksPlaced": 4099,
+        "blocksPlaced": 4100,
         "deepestY": 23,
-        "lastSeen": 1784493466,
+        "lastSeen": 1784493586,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2714,24 +2684,10 @@
             "name": "Flax grain"
           },
           {
-            "slot": "bag-14",
-            "code": "game:fruit-redcurrant",
-            "name": "Redcurrant"
-          },
-          {
-            "slot": "bag-15",
-            "code": "betterruins:br-schematic-book",
-            "name": "Bookbinder's Blueprint"
-          },
-          {
-            "slot": "bag-16",
-            "code": "game:painting-oldvillage-north",
-            "name": "Painting (Old Village)"
-          },
-          {
             "slot": "bag-17",
-            "code": "game:fruit-raspberry",
-            "name": "Raspberry"
+            "code": "game:clothes-lowerbody-prince-breeches",
+            "name": "Prince breeches",
+            "icon": "character/icons/lowerbody-prince-breeches.png"
           },
           {
             "slot": "bag-18",
@@ -2752,16 +2708,6 @@
             "slot": "bag-21",
             "code": "game:shovel-copper",
             "name": "Copper shovel"
-          },
-          {
-            "slot": "bag-22",
-            "code": "game:fruit-blackberry",
-            "name": "Blackberry"
-          },
-          {
-            "slot": "bag-23",
-            "code": "game:mushroom-violetwebcap-normal",
-            "name": "Violet web cap"
           },
           {
             "slot": "bag-24",
