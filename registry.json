@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-215915",
+  "generated": "20260719-220116",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2124,11 +2124,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 68.2,
-        "blocksTravelled": 124915,
+        "blocksTravelled": 124923,
         "blocksBroken": 5115,
         "blocksPlaced": 371,
         "deepestY": 28,
-        "lastSeen": 1784491065,
+        "lastSeen": 1784491185,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2250,6 +2250,11 @@
             "name": "Torch"
           },
           {
+            "slot": "bag-11",
+            "code": "game:peatbrick",
+            "name": "Peat brick"
+          },
+          {
             "slot": "bag-13",
             "code": "game:quicklime",
             "name": "Quicklime"
@@ -2311,11 +2316,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 50.7,
-        "blocksTravelled": 66136,
+        "blocksTravelled": 66150,
         "blocksBroken": 1349,
         "blocksPlaced": 911,
         "deepestY": 67,
-        "lastSeen": 1784491065,
+        "lastSeen": 1784491185,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2431,11 +2436,6 @@
             "slot": "bag-11",
             "code": "game:torch-basic-lit-up",
             "name": "Torch"
-          },
-          {
-            "slot": "bag-16",
-            "code": "maltiezfirearms:lock-matchlock-iron",
-            "name": "Match-lock"
           }
         ],
         "skin": {
@@ -2465,9 +2465,9 @@
         "class": "homesteader",
         "deaths": 22,
         "mobKills": 280,
-        "mealsEaten": 221,
-        "caloriesConsumed": 25559,
-        "lastMeal": "Blackberry",
+        "mealsEaten": 227,
+        "caloriesConsumed": 25989,
+        "lastMeal": "Flax grain",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2489,7 +2489,7 @@
           "Puffball": 4,
           "Tinder hoof": 1,
           "Raspberry": 6,
-          "Flax grain": 23,
+          "Flax grain": 24,
           "Dryad saddle": 3,
           "White oyster": 2,
           "Common morel": 2,
@@ -2509,12 +2509,13 @@
           "Fennel": 2,
           "Gold-drop milkcap": 1,
           "Red grapes": 5,
-          "Whitecurrant": 3
+          "Whitecurrant": 3,
+          "Bearded tooth": 5
         },
         "foodCatCounts": {
-          "Grain": 38,
+          "Grain": 39,
           "Protein": 14,
-          "Vegetable": 56,
+          "Vegetable": 61,
           "Fruit": 134,
           "Dairy": 10
         },
@@ -2527,11 +2528,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 84.4,
-        "blocksTravelled": 216966,
-        "blocksBroken": 12273,
+        "blocksTravelled": 217281,
+        "blocksBroken": 12283,
         "blocksPlaced": 4076,
         "deepestY": 23,
-        "lastSeen": 1784491065,
+        "lastSeen": 1784491185,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2675,6 +2676,36 @@
             "slot": "bag-12",
             "code": "game:mushroom-golddropmilkcap-normal",
             "name": "Gold-drop milkcap"
+          },
+          {
+            "slot": "bag-13",
+            "code": "game:fruit-redcurrant",
+            "name": "Redcurrant"
+          },
+          {
+            "slot": "bag-14",
+            "code": "game:seeds-turnip",
+            "name": "Turnip seeds"
+          },
+          {
+            "slot": "bag-15",
+            "code": "game:soil-medium-none",
+            "name": "Medium fertility soil"
+          },
+          {
+            "slot": "bag-16",
+            "code": "game:mushroom-violetwebcap-normal",
+            "name": "Violet web cap"
+          },
+          {
+            "slot": "bag-17",
+            "code": "floramycology:seeds-violetwebcap",
+            "name": "Violet Webcap Spores"
+          },
+          {
+            "slot": "bag-18",
+            "code": "game:fruit-strawberry",
+            "name": "Strawberry"
           }
         ],
         "skin": {
