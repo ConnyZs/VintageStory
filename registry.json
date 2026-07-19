@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-191505",
+  "generated": "20260719-191706",
   "game_version": "1.22.3",
   "check_ts": "20260719-164831",
   "latest_engine": "1.22.3",
@@ -2087,7 +2087,7 @@
       "name": "Raschuetzer",
       "role": "admin",
       "first_join": "04/22/2026 17:47",
-      "last_join": "07/19/2026 15:02",
+      "last_join": "07/19/2026 17:12",
       "last_char": "04/29/2026 21:30",
       "stats": {
         "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
@@ -2095,13 +2095,13 @@
         "class": "tinker",
         "deaths": 6,
         "mobKills": 76,
-        "mealsEaten": 32,
-        "caloriesConsumed": 13804,
-        "lastMeal": "Cooked dumplings",
+        "mealsEaten": 33,
+        "caloriesConsumed": 13808,
+        "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Pear": 3,
           "Meat pie": 5,
-          "Earthy orange ceramic bowl of meat stew": 9,
+          "Earthy orange ceramic bowl of meat stew": 10,
           "Strawberry": 2,
           "Blackcurrant": 3,
           "Rye bread": 1,
@@ -2113,7 +2113,7 @@
         "foodCatCounts": {
           "Fruit": 15,
           "Grain": 13,
-          "Protein": 17,
+          "Protein": 18,
           "Vegetable": 10,
           "Dairy": 8
         },
@@ -2123,11 +2123,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 66.2,
-        "blocksTravelled": 112229,
+        "blocksTravelled": 112273,
         "blocksBroken": 4484,
         "blocksPlaced": 339,
         "deepestY": 28,
-        "lastSeen": 1784481217,
+        "lastSeen": 1784481349,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2278,7 +2278,7 @@
       "name": "Eghetti",
       "role": "admin",
       "first_join": "04/22/2026 18:03",
-      "last_join": "07/15/2026 17:57",
+      "last_join": "07/19/2026 17:13",
       "last_char": "04/22/2026 18:08",
       "stats": {
         "uid": "TxqQ4g4qqKs+G5yFUTFmyGYb",
@@ -2309,12 +2309,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 48.7,
-        "blocksTravelled": 54156,
+        "playtimeHours": 48.8,
+        "blocksTravelled": 54320,
         "blocksBroken": 1210,
         "blocksPlaced": 897,
         "deepestY": 105,
-        "lastSeen": 1784481219,
+        "lastSeen": 1784481349,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2417,11 +2417,6 @@
             "name": "Torch"
           },
           {
-            "slot": "bag-7",
-            "code": "butchering:deadhare-male-european-1-rotten",
-            "name": "Hare (dead)"
-          },
-          {
             "slot": "bag-11",
             "code": "walkingstick:walkingstick-crude",
             "name": "Crude walking stick"
@@ -2451,7 +2446,7 @@
       "name": "AddyBuschu",
       "role": "suplayer",
       "first_join": "04/22/2026 17:55",
-      "last_join": "07/18/2026 11:11",
+      "last_join": "07/19/2026 17:12",
       "last_char": "04/25/2026 15:34",
       "stats": {
         "uid": "MT3maN90oN2gwGyklJR20Gu1",
@@ -2519,11 +2514,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 81.7,
-        "blocksTravelled": 192437,
+        "blocksTravelled": 192510,
         "blocksBroken": 12027,
         "blocksPlaced": 3931,
         "deepestY": 23,
-        "lastSeen": 1784481241,
+        "lastSeen": 1784481349,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
