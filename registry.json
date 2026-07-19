@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-231720",
+  "generated": "20260719-231920",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2124,11 +2124,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 69.5,
-        "blocksTravelled": 127942,
+        "blocksTravelled": 127990,
         "blocksBroken": 5123,
         "blocksPlaced": 395,
         "deepestY": 28,
-        "lastSeen": 1784495747,
+        "lastSeen": 1784495868,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2425,13 +2425,13 @@
         "class": "homesteader",
         "deaths": 22,
         "mobKills": 285,
-        "mealsEaten": 262,
-        "caloriesConsumed": 29056,
+        "mealsEaten": 263,
+        "caloriesConsumed": 29598,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
-          "Earthy orange ceramic bowl of meat stew": 4,
+          "Earthy orange ceramic bowl of meat stew": 5,
           "Blueberry": 16,
           "Pear pie (charred)": 1,
           "Rye bread": 1,
@@ -2478,8 +2478,8 @@
         },
         "foodCatCounts": {
           "Grain": 55,
-          "Protein": 15,
-          "Vegetable": 73,
+          "Protein": 16,
+          "Vegetable": 74,
           "Fruit": 141,
           "Dairy": 10
         },
@@ -2491,12 +2491,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 85.7,
-        "blocksTravelled": 223870,
+        "playtimeHours": 85.8,
+        "blocksTravelled": 223941,
         "blocksBroken": 12753,
         "blocksPlaced": 4317,
         "deepestY": 23,
-        "lastSeen": 1784495747,
+        "lastSeen": 1784495868,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2627,36 +2627,6 @@
             "slot": "bag-7",
             "code": "game:soil-medium-none",
             "name": "Medium fertility soil"
-          },
-          {
-            "slot": "bag-8",
-            "code": "game:bone",
-            "name": "Bone"
-          },
-          {
-            "slot": "bag-9",
-            "code": "butchering:butcherybag-standard",
-            "name": "Hide Butchering Bag"
-          },
-          {
-            "slot": "bag-12",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-19",
-            "code": "butchering:deadwolf-male-eurasian-1-bledout",
-            "name": "Wolf (dead)"
-          },
-          {
-            "slot": "bag-20",
-            "code": "butchering:deadwolf-female-eurasian-1-bledout",
-            "name": "Wolf (dead)"
-          },
-          {
-            "slot": "bag-21",
-            "code": "butchering:deadwolf-male-eurasian-1-bledout",
-            "name": "Wolf (dead)"
           }
         ],
         "skin": {
