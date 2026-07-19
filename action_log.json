@@ -1,6 +1,24 @@
 {
   "actions": [
     {
+      "ts": "2026-07-19T14:48:34Z",
+      "label": "Approved for server",
+      "link": "https://mods.vintagestory.at/show/mod/47392",
+      "name": "Unnerfed Flowers"
+    },
+    {
+      "ts": "2026-07-19T14:48:34Z",
+      "label": "Approved for server",
+      "link": "https://mods.vintagestory.at/chiselleaf",
+      "name": "Chisel Leaf"
+    },
+    {
+      "ts": "2026-07-19T14:48:34Z",
+      "label": "Approved for server",
+      "link": "https://mods.vintagestory.at/show/mod/28845",
+      "name": "Art of Growing [unofficial]"
+    },
+    {
       "ts": "2026-07-19T14:47:21Z",
       "label": "Rejected",
       "link": "https://mods.vintagestory.at/artofgrowing",
@@ -279,24 +297,6 @@
     {
       "ts": "2026-07-12T20:37:38Z",
       "label": "Approved for server",
-      "link": "https://mods.vintagestory.at/__test_local_only_e2e__",
-      "name": "Local Only E2E Test"
-    },
-    {
-      "ts": "2026-07-12T20:37:35Z",
-      "label": "Proposed",
-      "link": "https://mods.vintagestory.at/__test_local_only_e2e__",
-      "name": "Local Only E2E Test"
-    },
-    {
-      "ts": "2026-07-12T20:36:20Z",
-      "label": "Listed as client-side",
-      "link": "https://mods.vintagestory.at/__test_local_only_e2e__",
-      "name": "Local Only E2E Test"
-    },
-    {
-      "ts": "2026-07-12T20:36:16Z",
-      "label": "Rejected",
       "link": "https://mods.vintagestory.at/__test_local_only_e2e__",
       "name": "Local Only E2E Test"
     }
