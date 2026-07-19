@@ -1,9 +1,9 @@
 {
-  "generated": "20260719-165815",
+  "generated": "20260719-170258",
   "game_version": "1.22.3",
   "check_ts": "20260719-164831",
   "latest_engine": "1.22.3",
-  "restart_needed": "20260719-165818",
+  "restart_needed": null,
   "last_deploy_ts": "20260719-165818",
   "modset": {
     "server_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset.zip",
@@ -2123,11 +2123,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 66.1,
-        "blocksTravelled": 112107,
+        "blocksTravelled": 112118,
         "blocksBroken": 4484,
         "blocksPlaced": 339,
         "deepestY": 28,
-        "lastSeen": 1784238135,
+        "lastSeen": 1784473362,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2215,93 +2215,48 @@
           },
           {
             "slot": "bag-1",
-            "code": "game:clothes-head-messengers-hat",
-            "name": "Messenger hat",
-            "icon": "character/icons/head-messengers-hat.png"
+            "code": "walkingstick:walkingstick-pathfinder",
+            "name": "Pathfinder's walking stick"
           },
           {
             "slot": "bag-2",
-            "code": "game:clothes-shoulder-embroidered-tartarean-scarf",
-            "name": "Embroidered tartar scarf",
-            "icon": "character/icons/shoulder-embroidered-tartarean-scarf.png"
+            "code": "maltiezcrossbows:bolt-copper",
+            "name": "Copper bolt"
           },
           {
             "slot": "bag-3",
-            "code": "game:clothes-upperbody-scarlet-ornate-linen-tunic",
-            "name": "Scarlet ornate linen tunic",
-            "icon": "character/icons/upperbody-scarlet-ornate-linen-tunic.png"
+            "code": "game:pickaxe-iron",
+            "name": "Iron pickaxe"
           },
           {
             "slot": "bag-4",
-            "code": "game:clothes-lowerbody-marketeer",
-            "name": "Marketeer pants",
-            "icon": "character/icons/lowerbody-marketeer.png"
+            "code": "game:prospectingpick-iron",
+            "name": "Iron prospecting pick"
           },
           {
             "slot": "bag-5",
-            "code": "game:clothes-foot-tigh-high-boots",
-            "name": "Thigh-high boots",
-            "icon": "character/icons/foot-tigh-high-boots.png"
-          },
-          {
-            "slot": "bag-6",
-            "code": "game:clothes-hand-laced-handsome-gloves",
-            "name": "Laced handsome gloves",
-            "icon": "character/icons/hand-laced-handsome-gloves.png"
-          },
-          {
-            "slot": "bag-7",
-            "code": "game:clothes-neck-forlorn-talisman",
-            "name": "Forlorn Hope talisman"
+            "code": "maltiezcrossbows:bolt-copper",
+            "name": "Copper bolt"
           },
           {
             "slot": "bag-8",
-            "code": "game:clothes-emblem-cursedgemstone",
-            "name": "Cursed gemstone"
-          },
-          {
-            "slot": "bag-9",
-            "code": "game:clothes-face-malefactor-mask",
-            "name": "Malefactor whitewood mask",
-            "icon": "character/icons/face-malefactor-mask.png"
-          },
-          {
-            "slot": "bag-10",
-            "code": "game:clothes-waist-forlorn-belt",
-            "name": "Forlorn Hope belt",
-            "icon": "character/icons/waist-forlorn-belt.png"
-          },
-          {
-            "slot": "bag-11",
-            "code": "game:clothes-arm-squire-bracers",
-            "name": "Squire bracers",
-            "icon": "character/icons/arm-squire-bracers.png"
+            "code": "game:log-placed-oak-ud",
+            "name": "Oak log"
           },
           {
             "slot": "bag-12",
-            "code": "game:clothes-upperbodyover-forgotten",
-            "name": "Forgotten noble robe",
-            "icon": "character/icons/upperbodyover-forgotten.png"
+            "code": "game:stick",
+            "name": "Stick"
           },
           {
-            "slot": "bag-57",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "slot": "bag-15",
+            "code": "game:lantern-large-up",
+            "name": "Large molybdochalkos lantern"
           },
           {
-            "slot": "bag-58",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-59",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-60",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "slot": "bag-23",
+            "code": "game:torch-basic-lit-up",
+            "name": "Torch"
           }
         ],
         "skin": {
