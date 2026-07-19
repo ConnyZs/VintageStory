@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-211313",
+  "generated": "20260719-211513",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2550,12 +2550,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 83.6,
-        "blocksTravelled": 208274,
+        "playtimeHours": 83.7,
+        "blocksTravelled": 208517,
         "blocksBroken": 12187,
         "blocksPlaced": 3965,
         "deepestY": 23,
-        "lastSeen": 1784488303,
+        "lastSeen": 1784488423,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2642,8 +2642,8 @@
           },
           {
             "slot": "bag-1",
-            "code": "animalcages:mediumanimalcage-ceiling-opened-east",
-            "name": "Medium animal cage (open)"
+            "code": "animalcages:mediumanimalcage-ceiling-closed-east",
+            "name": "Medium animal cage (closed)"
           },
           {
             "slot": "bag-2",
@@ -2652,6 +2652,11 @@
           },
           {
             "slot": "bag-3",
+            "code": "animalcages:mediumanimalcage-ceiling-opened-east",
+            "name": "Medium animal cage (open)"
+          },
+          {
+            "slot": "bag-4",
             "code": "game:shears-iron",
             "name": "Iron shears"
           },
