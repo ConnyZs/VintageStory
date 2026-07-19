@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-231920",
+  "generated": "20260719-232120",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2123,12 +2123,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 69.5,
-        "blocksTravelled": 127990,
+        "playtimeHours": 69.6,
+        "blocksTravelled": 128031,
         "blocksBroken": 5123,
         "blocksPlaced": 395,
         "deepestY": 28,
-        "lastSeen": 1784495868,
+        "lastSeen": 1784495988,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2492,11 +2492,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 85.8,
-        "blocksTravelled": 223941,
+        "blocksTravelled": 224174,
         "blocksBroken": 12753,
         "blocksPlaced": 4317,
         "deepestY": 23,
-        "lastSeen": 1784495868,
+        "lastSeen": 1784495988,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2617,11 +2617,6 @@
             "slot": "bag-5",
             "code": "alchemy:potionflask-tube-quartz",
             "name": "Small potion flask"
-          },
-          {
-            "slot": "bag-6",
-            "code": "game:bone-tiny",
-            "name": "Small bones"
           },
           {
             "slot": "bag-7",
