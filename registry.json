@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-203110",
+  "generated": "20260719-203310",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2123,12 +2123,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 67.4,
-        "blocksTravelled": 123046,
+        "playtimeHours": 67.5,
+        "blocksTravelled": 123074,
         "blocksBroken": 5111,
-        "blocksPlaced": 361,
+        "blocksPlaced": 362,
         "deepestY": 28,
-        "lastSeen": 1784485781,
+        "lastSeen": 1784485901,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2323,6 +2323,11 @@
             "slot": "bag-22",
             "code": "game:clearquartz",
             "name": "Clear quartz"
+          },
+          {
+            "slot": "bag-24",
+            "code": "game:trunk-east",
+            "name": "Wooden trunk"
           }
         ],
         "skin": {
@@ -2376,11 +2381,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 50.0,
-        "blocksTravelled": 64906,
+        "blocksTravelled": 65175,
         "blocksBroken": 1341,
         "blocksPlaced": 899,
         "deepestY": 67,
-        "lastSeen": 1784485781,
+        "lastSeen": 1784485901,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2539,8 +2544,8 @@
           },
           {
             "slot": "bag-21",
-            "code": "game:hoovedwearables-blanket-earthtone",
-            "name": "Earth tone saddle blanket"
+            "code": "game:plank-acacia",
+            "name": "Board (Acacia)"
           },
           {
             "slot": "bag-22",
@@ -2585,9 +2590,9 @@
         "class": "homesteader",
         "deaths": 22,
         "mobKills": 269,
-        "mealsEaten": 199,
-        "caloriesConsumed": 23799,
-        "lastMeal": "Red grapes",
+        "mealsEaten": 202,
+        "caloriesConsumed": 24039,
+        "lastMeal": "Puffball",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2606,7 +2611,7 @@
           "Carrot": 4,
           "Field mushroom": 1,
           "Turnip": 1,
-          "Puffball": 1,
+          "Puffball": 4,
           "Tinder hoof": 1,
           "Raspberry": 6,
           "Flax grain": 23,
@@ -2633,7 +2638,7 @@
         "foodCatCounts": {
           "Grain": 38,
           "Protein": 14,
-          "Vegetable": 53,
+          "Vegetable": 56,
           "Fruit": 115,
           "Dairy": 10
         },
@@ -2645,12 +2650,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 82.9,
-        "blocksTravelled": 202062,
-        "blocksBroken": 12117,
+        "playtimeHours": 83.0,
+        "blocksTravelled": 202293,
+        "blocksBroken": 12121,
         "blocksPlaced": 3941,
         "deepestY": 23,
-        "lastSeen": 1784485781,
+        "lastSeen": 1784485901,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2767,21 +2772,11 @@
           },
           {
             "slot": "bag-7",
-            "code": "game:gear-temporal",
-            "name": "Temporal gear"
+            "code": "game:tuningcylinder-10",
+            "name": "Tuning cylinder (Summer stroll)"
           },
           {
             "slot": "bag-8",
-            "code": "game:gear-temporal",
-            "name": "Temporal gear"
-          },
-          {
-            "slot": "bag-9",
-            "code": "game:gear-temporal",
-            "name": "Temporal gear"
-          },
-          {
-            "slot": "bag-10",
             "code": "game:metal-parts",
             "name": "Metal parts"
           },
