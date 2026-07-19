@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-194707",
+  "generated": "20260719-194908",
   "game_version": "1.22.3",
   "check_ts": "20260719-164831",
   "latest_engine": "1.22.3",
@@ -2123,11 +2123,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 66.7,
-        "blocksTravelled": 116894,
-        "blocksBroken": 4527,
+        "blocksTravelled": 117162,
+        "blocksBroken": 4530,
         "blocksPlaced": 340,
         "deepestY": 28,
-        "lastSeen": 1784483162,
+        "lastSeen": 1784483259,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2220,13 +2220,18 @@
           },
           {
             "slot": "bag-2",
-            "code": "game:knife-generic-iron",
-            "name": "Iron knife"
+            "code": "game:fruitingbushcutting-redgrapes-free",
+            "name": "game:block-fruitingbushcutting-redgrapes-free"
           },
           {
             "slot": "bag-3",
             "code": "game:nugget-nativecopper",
             "name": "Nugget (Native copper)"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:fruit-redgrapes",
+            "name": "Red grapes"
           },
           {
             "slot": "bag-7",
@@ -2290,11 +2295,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 49.3,
-        "blocksTravelled": 58899,
+        "blocksTravelled": 59092,
         "blocksBroken": 1211,
         "blocksPlaced": 898,
         "deepestY": 67,
-        "lastSeen": 1784483162,
+        "lastSeen": 1784483259,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2474,11 +2479,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 82.2,
-        "blocksTravelled": 195823,
+        "blocksTravelled": 196174,
         "blocksBroken": 12028,
         "blocksPlaced": 3936,
         "deepestY": 23,
-        "lastSeen": 1784483162,
+        "lastSeen": 1784483259,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2602,6 +2607,11 @@
             "slot": "bag-8",
             "code": "game:fruit-blackberry",
             "name": "Blackberry"
+          },
+          {
+            "slot": "bag-9",
+            "code": "game:fruitingbushcutting-redgrapes-free",
+            "name": "game:block-fruitingbushcutting-redgrapes-free"
           },
           {
             "slot": "bag-24",
