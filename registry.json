@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-203710",
+  "generated": "20260719-203910",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2346,11 +2346,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 50.1,
-        "blocksTravelled": 65241,
+        "blocksTravelled": 65252,
         "blocksBroken": 1341,
         "blocksPlaced": 899,
         "deepestY": 67,
-        "lastSeen": 1784486183,
+        "lastSeen": 1784486262,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2421,6 +2421,11 @@
             "slot": "armorbody",
             "code": "game:armor-body-tailored-pink-linen",
             "name": "Tailored gambeson body armor"
+          },
+          {
+            "slot": "bag-1",
+            "code": "game:nugget-nativesilver",
+            "name": "Nugget (Native silver)"
           },
           {
             "slot": "bag-2",
@@ -2511,11 +2516,6 @@
             "slot": "bag-22",
             "code": "game:wallpaper-yellow",
             "name": "Yellow wallpaper"
-          },
-          {
-            "slot": "bag-23",
-            "code": "game:ore-poor-malachite-limestone",
-            "name": "Poor chunk of Malachite"
           }
         ],
         "skin": {
@@ -2606,11 +2606,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 83.1,
-        "blocksTravelled": 203112,
-        "blocksBroken": 12123,
+        "blocksTravelled": 203246,
+        "blocksBroken": 12137,
         "blocksPlaced": 3941,
         "deepestY": 23,
-        "lastSeen": 1784486183,
+        "lastSeen": 1784486262,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
