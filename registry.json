@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-202109",
+  "generated": "20260719-202310",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2124,11 +2124,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 67.3,
-        "blocksTravelled": 121131,
-        "blocksBroken": 5109,
+        "blocksTravelled": 121768,
+        "blocksBroken": 5111,
         "blocksPlaced": 361,
         "deepestY": 28,
-        "lastSeen": 1784485180,
+        "lastSeen": 1784485300,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2385,12 +2385,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 49.8,
-        "blocksTravelled": 62772,
+        "playtimeHours": 49.9,
+        "blocksTravelled": 63379,
         "blocksBroken": 1341,
         "blocksPlaced": 899,
         "deepestY": 67,
-        "lastSeen": 1784485180,
+        "lastSeen": 1784485300,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2670,11 +2670,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 82.8,
-        "blocksTravelled": 200323,
-        "blocksBroken": 12070,
-        "blocksPlaced": 3936,
+        "blocksTravelled": 200589,
+        "blocksBroken": 12072,
+        "blocksPlaced": 3937,
         "deepestY": 23,
-        "lastSeen": 1784485180,
+        "lastSeen": 1784485300,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2838,6 +2838,27 @@
             "slot": "bag-16",
             "code": "game:lore-book-aged-darkgreen",
             "name": "Aged lore book (Dark green)"
+          },
+          {
+            "slot": "bag-17",
+            "code": "game:clothes-foot-shepherd-sandals",
+            "name": "Shepherd sandals",
+            "icon": "character/icons/foot-shepherd-sandals.png"
+          },
+          {
+            "slot": "bag-18",
+            "code": "game:tuningcylinder-2",
+            "name": "Tuning cylinder (Through The Grass at Night)"
+          },
+          {
+            "slot": "bag-19",
+            "code": "game:wateringcan-tan-fired",
+            "name": "Tan ceramic watering can"
+          },
+          {
+            "slot": "bag-20",
+            "code": "game:compost",
+            "name": "Compost"
           }
         ],
         "skin": {
