@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-225119",
+  "generated": "20260719-225319",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2124,11 +2124,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 69.1,
-        "blocksTravelled": 126713,
+        "blocksTravelled": 126787,
         "blocksBroken": 5121,
         "blocksPlaced": 385,
         "deepestY": 28,
-        "lastSeen": 1784494187,
+        "lastSeen": 1784494340,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2213,11 +2213,6 @@
             "code": "game:clothes-upperbodyover-forgotten",
             "name": "Forgotten noble robe",
             "icon": "character/icons/upperbodyover-forgotten.png"
-          },
-          {
-            "slot": "bag-1",
-            "code": "game:knife-generic-iron",
-            "name": "Iron knife"
           }
         ],
         "skin": {
@@ -2270,12 +2265,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 51.5,
-        "blocksTravelled": 66382,
+        "playtimeHours": 51.6,
+        "blocksTravelled": 66476,
         "blocksBroken": 1349,
         "blocksPlaced": 911,
         "deepestY": 67,
-        "lastSeen": 1784494187,
+        "lastSeen": 1784494340,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2368,11 +2363,6 @@
             "name": "Iron saw"
           },
           {
-            "slot": "bag-5",
-            "code": "game:peatbrick",
-            "name": "Peat brick"
-          },
-          {
             "slot": "bag-6",
             "code": "maltiezfirearms:bullet-lead",
             "name": "Bullet (lead)"
@@ -2404,8 +2394,8 @@
           },
           {
             "slot": "bag-12",
-            "code": "game:charcoal",
-            "name": "Charcoal"
+            "code": "game:wrench-copper",
+            "name": "Copper wrench"
           }
         ],
         "skin": {
@@ -2501,11 +2491,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 85.3,
-        "blocksTravelled": 221772,
-        "blocksBroken": 12337,
+        "blocksTravelled": 222091,
+        "blocksBroken": 12383,
         "blocksPlaced": 4104,
         "deepestY": 23,
-        "lastSeen": 1784494187,
+        "lastSeen": 1784494340,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2628,14 +2618,39 @@
             "name": "Small potion flask"
           },
           {
-            "slot": "bag-21",
-            "code": "game:soil-medium-none",
-            "name": "Medium fertility soil"
+            "slot": "bag-6",
+            "code": "game:soil-low-none",
+            "name": "Low fertility soil"
           },
           {
-            "slot": "bag-22",
-            "code": "game:seeds-turnip",
-            "name": "Turnip seeds"
+            "slot": "bag-7",
+            "code": "game:flower-redtopgrass-free",
+            "name": "Redtop grass"
+          },
+          {
+            "slot": "bag-8",
+            "code": "game:soil-low-none",
+            "name": "Low fertility soil"
+          },
+          {
+            "slot": "bag-9",
+            "code": "game:vegetable-parsnip",
+            "name": "Parsnip"
+          },
+          {
+            "slot": "bag-10",
+            "code": "game:wattle-sticks-ew-free",
+            "name": "Wattle fence"
+          },
+          {
+            "slot": "bag-11",
+            "code": "game:soil-low-none",
+            "name": "Low fertility soil"
+          },
+          {
+            "slot": "bag-12",
+            "code": "game:soil-low-none",
+            "name": "Low fertility soil"
           },
           {
             "slot": "bag-23",
