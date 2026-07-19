@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-232921",
+  "generated": "20260719-233922",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2087,7 +2087,7 @@
       "name": "Raschuetzer",
       "role": "admin",
       "first_join": "04/22/2026 17:47",
-      "last_join": "07/19/2026 20:40",
+      "last_join": "07/19/2026 21:32",
       "last_char": "04/29/2026 21:30",
       "stats": {
         "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
@@ -2095,13 +2095,13 @@
         "class": "tinker",
         "deaths": 6,
         "mobKills": 80,
-        "mealsEaten": 40,
-        "caloriesConsumed": 15050,
+        "mealsEaten": 41,
+        "caloriesConsumed": 15874,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Pear": 3,
           "Meat pie": 5,
-          "Earthy orange ceramic bowl of meat stew": 11,
+          "Earthy orange ceramic bowl of meat stew": 12,
           "Strawberry": 2,
           "Blackcurrant": 3,
           "Rye bread": 1,
@@ -2114,8 +2114,8 @@
         "foodCatCounts": {
           "Fruit": 21,
           "Grain": 13,
-          "Protein": 19,
-          "Vegetable": 11,
+          "Protein": 20,
+          "Vegetable": 12,
           "Dairy": 8
         },
         "deathCauses": {
@@ -2123,12 +2123,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 69.7,
-        "blocksTravelled": 128433,
-        "blocksBroken": 5125,
-        "blocksPlaced": 397,
+        "playtimeHours": 69.9,
+        "blocksTravelled": 128943,
+        "blocksBroken": 5127,
+        "blocksPlaced": 398,
         "deepestY": 28,
-        "lastSeen": 1784496468,
+        "lastSeen": 1784497068,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2212,6 +2212,21 @@
             "code": "game:clothes-upperbodyover-forgotten",
             "name": "Forgotten noble robe",
             "icon": "character/icons/upperbodyover-forgotten.png"
+          },
+          {
+            "slot": "bag-1",
+            "code": "game:stone-limestone",
+            "name": "Limestone stone"
+          },
+          {
+            "slot": "bag-2",
+            "code": "walkingstick:walkingstick-pathfinder",
+            "name": "Pathfinder's walking stick"
+          },
+          {
+            "slot": "bag-3",
+            "code": "game:lantern-large-up",
+            "name": "Large molybdochalkos lantern"
           }
         ],
         "skin": {
@@ -2241,8 +2256,8 @@
         "class": "smith",
         "deaths": 2,
         "mobKills": 54,
-        "mealsEaten": 30,
-        "caloriesConsumed": 13860,
+        "mealsEaten": 31,
+        "caloriesConsumed": 14705,
         "lastMeal": "Syrup-covered muffin",
         "mealsByName": {
           "Earthy orange ceramic bowl of meat stew": 17,
@@ -2252,25 +2267,25 @@
           "Cooked redmeat nuggets": 2,
           "Leather-bound Oak Tankard": 2,
           "Rye bread": 1,
-          "Syrup-covered muffin": 1
+          "Syrup-covered muffin": 2
         },
         "foodCatCounts": {
-          "Protein": 26,
+          "Protein": 27,
           "Vegetable": 17,
-          "Grain": 9,
-          "Fruit": 4,
-          "Dairy": 3
+          "Grain": 10,
+          "Fruit": 5,
+          "Dairy": 4
         },
         "deathCauses": {
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 52.2,
-        "blocksTravelled": 67071,
+        "playtimeHours": 52.3,
+        "blocksTravelled": 67707,
         "blocksBroken": 1354,
         "blocksPlaced": 911,
         "deepestY": 67,
-        "lastSeen": 1784496468,
+        "lastSeen": 1784497068,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2349,8 +2364,8 @@
           },
           {
             "slot": "bag-2",
-            "code": "game:lantern-large-up",
-            "name": "Large molybdochalkos lantern"
+            "code": "game:peatbrick",
+            "name": "Peat brick"
           },
           {
             "slot": "bag-3",
@@ -2389,18 +2404,13 @@
           },
           {
             "slot": "bag-10",
-            "code": "game:tongsmetal-standard-tinbronze",
-            "name": "Tin bronze tongs"
-          },
-          {
-            "slot": "bag-13",
-            "code": "game:peatbrick",
-            "name": "Peat brick"
-          },
-          {
-            "slot": "bag-14",
             "code": "game:torch-basic-lit-up",
             "name": "Torch"
+          },
+          {
+            "slot": "bag-11",
+            "code": "maltiezfirearms:linenpatch",
+            "name": "Linen patch"
           }
         ],
         "skin": {
@@ -2430,13 +2440,13 @@
         "class": "homesteader",
         "deaths": 22,
         "mobKills": 285,
-        "mealsEaten": 263,
-        "caloriesConsumed": 29598,
+        "mealsEaten": 265,
+        "caloriesConsumed": 30258,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
-          "Earthy orange ceramic bowl of meat stew": 5,
+          "Earthy orange ceramic bowl of meat stew": 7,
           "Blueberry": 16,
           "Pear pie (charred)": 1,
           "Rye bread": 1,
@@ -2483,8 +2493,8 @@
         },
         "foodCatCounts": {
           "Grain": 55,
-          "Protein": 16,
-          "Vegetable": 74,
+          "Protein": 18,
+          "Vegetable": 76,
           "Fruit": 141,
           "Dairy": 10
         },
@@ -2496,12 +2506,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 85.9,
-        "blocksTravelled": 224800,
+        "playtimeHours": 86.1,
+        "blocksTravelled": 225082,
         "blocksBroken": 12768,
         "blocksPlaced": 4318,
         "deepestY": 23,
-        "lastSeen": 1784496468,
+        "lastSeen": 1784497068,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
