@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-191906",
+  "generated": "20260719-192106",
   "game_version": "1.22.3",
   "check_ts": "20260719-164831",
   "latest_engine": "1.22.3",
@@ -2122,12 +2122,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 66.2,
-        "blocksTravelled": 112357,
+        "playtimeHours": 66.3,
+        "blocksTravelled": 112471,
         "blocksBroken": 4484,
         "blocksPlaced": 339,
         "deepestY": 28,
-        "lastSeen": 1784481457,
+        "lastSeen": 1784481651,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2214,24 +2214,14 @@
             "icon": "character/icons/upperbodyover-forgotten.png"
           },
           {
-            "slot": "bag-2",
-            "code": "maltiezcrossbows:bolt-copper",
-            "name": "Copper bolt"
+            "slot": "bag-1",
+            "code": "game:log-placed-oak-ud",
+            "name": "Oak log"
           },
           {
             "slot": "bag-3",
             "code": "game:pickaxe-iron",
             "name": "Iron pickaxe"
-          },
-          {
-            "slot": "bag-4",
-            "code": "game:prospectingpick-iron",
-            "name": "Iron prospecting pick"
-          },
-          {
-            "slot": "bag-5",
-            "code": "maltiezcrossbows:bolt-copper",
-            "name": "Copper bolt"
           },
           {
             "slot": "bag-6",
@@ -2242,11 +2232,6 @@
             "slot": "bag-7",
             "code": "game:torch-basic-lit-up",
             "name": "Torch"
-          },
-          {
-            "slot": "bag-8",
-            "code": "game:log-placed-oak-ud",
-            "name": "Oak log"
           },
           {
             "slot": "bag-12",
@@ -2304,12 +2289,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 48.8,
-        "blocksTravelled": 54484,
+        "playtimeHours": 48.9,
+        "blocksTravelled": 54711,
         "blocksBroken": 1211,
         "blocksPlaced": 898,
         "deepestY": 105,
-        "lastSeen": 1784481457,
+        "lastSeen": 1784481651,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2388,18 +2373,13 @@
           },
           {
             "slot": "bag-2",
-            "code": "game:tongsmetal-standard-iron",
-            "name": "Iron tongs"
-          },
-          {
-            "slot": "bag-3",
             "code": "game:bandage-clean",
             "name": "Clean bandage"
           },
           {
-            "slot": "bag-4",
-            "code": "walkingstick:walkingstick-crude",
-            "name": "Crude walking stick"
+            "slot": "bag-3",
+            "code": "game:pickaxe-iron",
+            "name": "Iron pickaxe"
           }
         ],
         "skin": {
@@ -2488,12 +2468,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 81.7,
-        "blocksTravelled": 192653,
+        "playtimeHours": 81.8,
+        "blocksTravelled": 192941,
         "blocksBroken": 12027,
         "blocksPlaced": 3931,
         "deepestY": 23,
-        "lastSeen": 1784481457,
+        "lastSeen": 1784481651,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
