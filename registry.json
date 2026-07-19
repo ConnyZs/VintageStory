@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-190905",
+  "generated": "20260719-191028",
   "game_version": "1.22.3",
   "check_ts": "20260719-164831",
   "latest_engine": "1.22.3",
@@ -1924,9 +1924,9 @@
       "modid": "artofgrowingpatch",
       "section": "1.22",
       "category": "QoL",
-      "on_server": true,
+      "on_server": false,
       "link": "https://mods.vintagestory.at/show/mod/28845",
-      "server_state": "yes",
+      "server_state": "remove",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.2.2",
