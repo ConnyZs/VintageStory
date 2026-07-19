@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-210312",
+  "generated": "20260719-210512",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2345,12 +2345,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 50.4,
-        "blocksTravelled": 65904,
+        "playtimeHours": 50.5,
+        "blocksTravelled": 65935,
         "blocksBroken": 1349,
         "blocksPlaced": 910,
         "deepestY": 67,
-        "lastSeen": 1784487703,
+        "lastSeen": 1784487816,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2551,11 +2551,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 83.5,
-        "blocksTravelled": 206767,
-        "blocksBroken": 12184,
-        "blocksPlaced": 3964,
+        "blocksTravelled": 206825,
+        "blocksBroken": 12185,
+        "blocksPlaced": 3965,
         "deepestY": 23,
-        "lastSeen": 1784487703,
+        "lastSeen": 1784487823,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2661,31 +2661,14 @@
             "name": "Medium animal cage (open)"
           },
           {
-            "slot": "bag-5",
-            "code": "game:lore-book-aged-orange",
-            "name": "Aged lore book (Orange)"
-          },
-          {
             "slot": "bag-6",
             "code": "game:jonasframes-gears01",
             "name": "Jonas sub-assembly (A difference gear assembly)"
           },
           {
-            "slot": "bag-7",
-            "code": "game:clothes-upperbody-miner",
-            "name": "Miner shirt",
-            "icon": "character/icons/upperbody-miner.png"
-          },
-          {
             "slot": "bag-8",
             "code": "game:metal-parts",
             "name": "Metal parts"
-          },
-          {
-            "slot": "bag-9",
-            "code": "game:clothes-foot-shepherd-sandals",
-            "name": "Shepherd sandals",
-            "icon": "character/icons/foot-shepherd-sandals.png"
           },
           {
             "slot": "bag-10",
@@ -2698,64 +2681,31 @@
             "name": "Rusty gear"
           },
           {
-            "slot": "bag-12",
-            "code": "game:lantern-large-up",
-            "name": "Large molybdochalkos lantern"
-          },
-          {
             "slot": "bag-13",
             "code": "game:hoovedwearables-face-face16",
             "name": "Elk medallion (Stiletto)"
           },
           {
-            "slot": "bag-14",
-            "code": "game:shears-iron",
-            "name": "Iron shears"
-          },
-          {
             "slot": "bag-15",
-            "code": "game:shovel-iron",
-            "name": "Iron shovel"
-          },
-          {
-            "slot": "bag-16",
-            "code": "game:ingot-zinc",
-            "name": "Zinc ingot"
-          },
-          {
-            "slot": "bag-17",
-            "code": "game:ore-corundum",
-            "name": "Corundum"
-          },
-          {
-            "slot": "bag-18",
-            "code": "game:wallpaper-lightgreen",
-            "name": "Light green wallpaper"
-          },
-          {
-            "slot": "bag-19",
-            "code": "game:knife-generic-iron",
-            "name": "Iron knife"
-          },
-          {
-            "slot": "bag-20",
-            "code": "game:hoovedwearables-blanket-alchemist",
-            "name": "Alchemist saddle blanket"
+            "code": "game:clothes-upperbody-miner",
+            "name": "Miner shirt",
+            "icon": "character/icons/upperbody-miner.png"
           },
           {
             "slot": "bag-21",
-            "code": "game:axe-felling-iron",
-            "name": "Iron axe"
+            "code": "game:clothes-foot-shepherd-sandals",
+            "name": "Shepherd sandals",
+            "icon": "character/icons/foot-shepherd-sandals.png"
+          },
+          {
+            "slot": "bag-22",
+            "code": "game:ingot-zinc",
+            "name": "Zinc ingot"
           },
           {
             "slot": "bag-23",
             "code": "game:clothes-neck-merchant-amulet",
             "name": "Merchant amulet"
-          },
-          {
-            "slot": "bag-24",
-            "code": "fatemplar:fa-templar-schematic",
-            "name": "Templar style armor (schematic)"
           }
         ],
         "skin": {
