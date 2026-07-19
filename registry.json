@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-203510",
+  "generated": "20260719-203710",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2123,12 +2123,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 67.5,
-        "blocksTravelled": 123098,
+        "playtimeHours": 67.6,
+        "blocksTravelled": 123160,
         "blocksBroken": 5111,
         "blocksPlaced": 363,
         "deepestY": 28,
-        "lastSeen": 1784486021,
+        "lastSeen": 1784486222,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2216,23 +2216,23 @@
           },
           {
             "slot": "bag-1",
-            "code": "walkingstick:walkingstick-pathfinder",
-            "name": "Pathfinder's walking stick"
+            "code": "game:ore-rich-galena-sandstone",
+            "name": "Rich chunk of Galena"
           },
           {
             "slot": "bag-2",
+            "code": "game:nugget-galena",
+            "name": "Nugget (Galena)"
+          },
+          {
+            "slot": "bag-3",
             "code": "game:ore-lignite",
             "name": "Brown coal"
           },
           {
-            "slot": "bag-3",
-            "code": "game:quicklime",
-            "name": "Quicklime"
-          },
-          {
             "slot": "bag-4",
-            "code": "game:flaxtwine",
-            "name": "Flax twine"
+            "code": "game:ore-lignite",
+            "name": "Brown coal"
           },
           {
             "slot": "bag-5",
@@ -2241,73 +2241,58 @@
           },
           {
             "slot": "bag-6",
-            "code": "game:ore-quartz",
-            "name": "Quartz chunk"
+            "code": "walkingstick:walkingstick-pathfinder",
+            "name": "Pathfinder's walking stick"
           },
           {
             "slot": "bag-7",
-            "code": "game:torch-basic-lit-up",
-            "name": "Torch"
-          },
-          {
-            "slot": "bag-8",
-            "code": "game:nugget-galena",
-            "name": "Nugget (Galena)"
-          },
-          {
-            "slot": "bag-9",
-            "code": "game:ore-lignite",
-            "name": "Brown coal"
-          },
-          {
-            "slot": "bag-10",
-            "code": "game:stone-limestone",
-            "name": "Limestone stone"
-          },
-          {
-            "slot": "bag-11",
             "code": "game:ore-medium-galena-sandstone",
             "name": "Medium chunk of Galena"
           },
           {
-            "slot": "bag-12",
-            "code": "game:stick",
-            "name": "Stick"
+            "slot": "bag-8",
+            "code": "game:torch-basic-lit-up",
+            "name": "Torch"
           },
           {
-            "slot": "bag-13",
+            "slot": "bag-9",
             "code": "game:ladder-stick-north",
             "name": "Crude ladder"
           },
           {
-            "slot": "bag-14",
+            "slot": "bag-10",
             "code": "game:brickslabs-fire-down-free",
             "name": "Fireclay brick slab"
           },
           {
-            "slot": "bag-17",
+            "slot": "bag-11",
+            "code": "game:stick",
+            "name": "Stick"
+          },
+          {
+            "slot": "bag-12",
             "code": "game:rot",
             "name": "Rot"
           },
           {
-            "slot": "bag-18",
-            "code": "game:ore-rich-galena-sandstone",
-            "name": "Rich chunk of Galena"
+            "slot": "bag-13",
+            "code": "game:quicklime",
+            "name": "Quicklime"
           },
           {
-            "slot": "bag-20",
+            "slot": "bag-14",
+            "code": "game:flaxtwine",
+            "name": "Flax twine"
+          },
+          {
+            "slot": "bag-15",
+            "code": "game:stone-limestone",
+            "name": "Limestone stone"
+          },
+          {
+            "slot": "bag-16",
             "code": "game:agedwallpaperplanks-blue-east",
             "name": "Blue Wallpaper (On aged planks)"
-          },
-          {
-            "slot": "bag-22",
-            "code": "game:clearquartz",
-            "name": "Clear quartz"
-          },
-          {
-            "slot": "bag-24",
-            "code": "game:stone-chalk",
-            "name": "Chalk stone"
           }
         ],
         "skin": {
@@ -2361,11 +2346,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 50.1,
-        "blocksTravelled": 65202,
+        "blocksTravelled": 65241,
         "blocksBroken": 1341,
         "blocksPlaced": 899,
         "deepestY": 67,
-        "lastSeen": 1784486021,
+        "lastSeen": 1784486183,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2518,11 +2503,6 @@
             "name": "Brown coal"
           },
           {
-            "slot": "bag-20",
-            "code": "game:ingot-tin",
-            "name": "Tin ingot"
-          },
-          {
             "slot": "bag-21",
             "code": "game:plank-acacia",
             "name": "Board (Acacia)"
@@ -2536,11 +2516,6 @@
             "slot": "bag-23",
             "code": "game:ore-poor-malachite-limestone",
             "name": "Poor chunk of Malachite"
-          },
-          {
-            "slot": "bag-24",
-            "code": "game:ore-rich-galena-sandstone",
-            "name": "Rich chunk of Galena"
           }
         ],
         "skin": {
@@ -2569,7 +2544,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 22,
-        "mobKills": 269,
+        "mobKills": 272,
         "mealsEaten": 202,
         "caloriesConsumed": 24039,
         "lastMeal": "Puffball",
@@ -2630,12 +2605,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 83.0,
-        "blocksTravelled": 202472,
-        "blocksBroken": 12122,
+        "playtimeHours": 83.1,
+        "blocksTravelled": 203112,
+        "blocksBroken": 12123,
         "blocksPlaced": 3941,
         "deepestY": 23,
-        "lastSeen": 1784486021,
+        "lastSeen": 1784486183,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
