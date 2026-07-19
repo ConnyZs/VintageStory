@@ -1,6 +1,6 @@
 {
  "Raschuetzer": {
-  "hash": "93b123b9fb71f6e689fcd9909a1375fdbe73504c",
+  "hash": "e37822519eac0f484c6f16f58ac1bdfb593000f9",
   "info": {
    "class": "tinker",
    "items": [
@@ -24,11 +24,11 @@
     "Forgotten noble robe"
    ],
    "frames": 16,
-   "v": 1784484209
+   "v": 1784484329
   }
  },
  "Eghetti": {
-  "hash": "2202c1d11ae3f26e2656a075a349ac3983aa176b",
+  "hash": "a25c5fd711de087cfe98c9bb202ee24d238dddfa",
   "info": {
    "class": "smith",
    "items": [
@@ -48,7 +48,7 @@
     "Fur coat"
    ],
    "frames": 16,
-   "v": 1784484228
+   "v": 1784484348
   }
  },
  "Moritz": {
