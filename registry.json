@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-205912",
+  "generated": "20260719-210112",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2346,11 +2346,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 50.4,
-        "blocksTravelled": 65852,
+        "blocksTravelled": 65860,
         "blocksBroken": 1349,
         "blocksPlaced": 910,
         "deepestY": 67,
-        "lastSeen": 1784487463,
+        "lastSeen": 1784487583,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2551,11 +2551,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 83.4,
-        "blocksTravelled": 206444,
+        "blocksTravelled": 206711,
         "blocksBroken": 12183,
         "blocksPlaced": 3952,
         "deepestY": 23,
-        "lastSeen": 1784487463,
+        "lastSeen": 1784487583,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2661,11 +2661,6 @@
             "name": "Medium animal cage (open)"
           },
           {
-            "slot": "bag-5",
-            "code": "alchemy:potionflask-tube-quartz",
-            "name": "Small potion flask"
-          },
-          {
             "slot": "bag-7",
             "code": "game:lore-book-rotten-green",
             "name": "Rotten lore book (Green)"
@@ -2682,19 +2677,9 @@
             "icon": "character/icons/foot-shepherd-sandals.png"
           },
           {
-            "slot": "bag-10",
-            "code": "game:fruitingbushcutting-greengrapes-free",
-            "name": "game:block-fruitingbushcutting-greengrapes-free"
-          },
-          {
             "slot": "bag-11",
             "code": "game:gear-rusty",
             "name": "Rusty gear"
-          },
-          {
-            "slot": "bag-12",
-            "code": "game:fat-rendered",
-            "name": "Lump of rendered fat"
           },
           {
             "slot": "bag-13",
@@ -2725,21 +2710,6 @@
             "slot": "bag-19",
             "code": "game:tuningcylinder-2",
             "name": "Tuning cylinder (Through The Grass at Night)"
-          },
-          {
-            "slot": "bag-20",
-            "code": "game:compost",
-            "name": "Compost"
-          },
-          {
-            "slot": "bag-21",
-            "code": "game:fruit-redcurrant",
-            "name": "Redcurrant"
-          },
-          {
-            "slot": "bag-22",
-            "code": "game:fruitingbushcutting-redgrapes-free",
-            "name": "game:block-fruitingbushcutting-redgrapes-free"
           },
           {
             "slot": "bag-24",
