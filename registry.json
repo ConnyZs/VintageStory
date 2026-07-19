@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-195108",
+  "generated": "20260719-195308",
   "game_version": "1.22.3",
   "check_ts": "20260719-164831",
   "latest_engine": "1.22.3",
@@ -2123,11 +2123,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 66.8,
-        "blocksTravelled": 117555,
-        "blocksBroken": 4620,
+        "blocksTravelled": 117571,
+        "blocksBroken": 4653,
         "blocksPlaced": 340,
         "deepestY": 28,
-        "lastSeen": 1784483464,
+        "lastSeen": 1784483499,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2254,6 +2254,11 @@
             "name": "Brown coal"
           },
           {
+            "slot": "bag-9",
+            "code": "game:ore-lignite",
+            "name": "Brown coal"
+          },
+          {
             "slot": "bag-12",
             "code": "game:stick",
             "name": "Stick"
@@ -2310,11 +2315,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 49.4,
-        "blocksTravelled": 59462,
-        "blocksBroken": 1259,
+        "blocksTravelled": 59469,
+        "blocksBroken": 1275,
         "blocksPlaced": 898,
         "deepestY": 67,
-        "lastSeen": 1784483464,
+        "lastSeen": 1784483499,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2498,7 +2503,7 @@
         "blocksBroken": 12028,
         "blocksPlaced": 3936,
         "deepestY": 23,
-        "lastSeen": 1784483464,
+        "lastSeen": 1784483499,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2642,6 +2647,11 @@
             "slot": "bag-12",
             "code": "game:grain-flax",
             "name": "Flax grain"
+          },
+          {
+            "slot": "bag-13",
+            "code": "game:seeds-pineapple",
+            "name": "Pineapple seeds"
           },
           {
             "slot": "bag-17",
