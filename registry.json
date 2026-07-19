@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-200709",
+  "generated": "20260719-200909",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2095,9 +2095,9 @@
         "class": "tinker",
         "deaths": 6,
         "mobKills": 78,
-        "mealsEaten": 33,
-        "caloriesConsumed": 13808,
-        "lastMeal": "Earthy orange ceramic bowl of meat stew",
+        "mealsEaten": 39,
+        "caloriesConsumed": 14288,
+        "lastMeal": "Red grapes",
         "mealsByName": {
           "Pear": 3,
           "Meat pie": 5,
@@ -2108,10 +2108,11 @@
           "Syrup-covered muffin": 1,
           "Leather-bound Oak Tankard": 3,
           "Cooked dumplings": 2,
-          "Pear pie (charred)": 3
+          "Pear pie (charred)": 3,
+          "Red grapes": 6
         },
         "foodCatCounts": {
-          "Fruit": 15,
+          "Fruit": 21,
           "Grain": 13,
           "Protein": 18,
           "Vegetable": 10,
@@ -2123,11 +2124,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 67.1,
-        "blocksTravelled": 119043,
-        "blocksBroken": 5001,
-        "blocksPlaced": 344,
+        "blocksTravelled": 119151,
+        "blocksBroken": 5034,
+        "blocksPlaced": 356,
         "deepestY": 28,
-        "lastSeen": 1784484370,
+        "lastSeen": 1784484460,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2225,8 +2226,8 @@
           },
           {
             "slot": "bag-3",
-            "code": "game:nugget-nativecopper",
-            "name": "Nugget (Native copper)"
+            "code": "game:stone-conglomerate",
+            "name": "Conglomerate stone"
           },
           {
             "slot": "bag-4",
@@ -2385,11 +2386,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 49.6,
-        "blocksTravelled": 60545,
+        "blocksTravelled": 61014,
         "blocksBroken": 1322,
         "blocksPlaced": 899,
         "deepestY": 67,
-        "lastSeen": 1784484370,
+        "lastSeen": 1784484460,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2669,11 +2670,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 82.6,
-        "blocksTravelled": 198531,
+        "blocksTravelled": 198985,
         "blocksBroken": 12064,
         "blocksPlaced": 3936,
         "deepestY": 23,
-        "lastSeen": 1784484370,
+        "lastSeen": 1784484460,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2774,9 +2775,14 @@
             "name": "Medium animal cage (open)"
           },
           {
-            "slot": "bag-7",
+            "slot": "bag-4",
             "code": "animalcages:mediumanimalcage-ceiling-opened-east",
             "name": "Medium animal cage (open)"
+          },
+          {
+            "slot": "bag-5",
+            "code": "alchemy:potionflask-tube-quartz",
+            "name": "Small potion flask"
           }
         ],
         "skin": {
