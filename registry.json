@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-195508",
+  "generated": "20260719-195708",
   "game_version": "1.22.3",
   "check_ts": "20260719-164831",
   "latest_engine": "1.22.3",
@@ -2122,12 +2122,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 66.8,
-        "blocksTravelled": 117822,
-        "blocksBroken": 4701,
-        "blocksPlaced": 340,
+        "playtimeHours": 66.9,
+        "blocksTravelled": 118018,
+        "blocksBroken": 4727,
+        "blocksPlaced": 344,
         "deepestY": 28,
-        "lastSeen": 1784483619,
+        "lastSeen": 1784483766,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2264,9 +2264,39 @@
             "name": "Sandstone stone"
           },
           {
+            "slot": "bag-11",
+            "code": "game:ore-medium-galena-sandstone",
+            "name": "Medium chunk of Galena"
+          },
+          {
             "slot": "bag-12",
             "code": "game:stick",
             "name": "Stick"
+          },
+          {
+            "slot": "bag-13",
+            "code": "betterruins:br-schematic-wood",
+            "name": "Lumberwright's Blueprint"
+          },
+          {
+            "slot": "bag-14",
+            "code": "game:brickslabs-fire-down-free",
+            "name": "Fireclay brick slab"
+          },
+          {
+            "slot": "bag-15",
+            "code": "game:lore-book-aged-orange",
+            "name": "Aged lore book (Orange)"
+          },
+          {
+            "slot": "bag-16",
+            "code": "game:hoovedwearables-face-face15",
+            "name": "Elk medallion (Crown)"
+          },
+          {
+            "slot": "bag-17",
+            "code": "game:rot",
+            "name": "Rot"
           }
         ],
         "skin": {
@@ -2320,11 +2350,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 49.4,
-        "blocksTravelled": 59712,
-        "blocksBroken": 1304,
+        "blocksTravelled": 59866,
+        "blocksBroken": 1315,
         "blocksPlaced": 898,
         "deepestY": 67,
-        "lastSeen": 1784483619,
+        "lastSeen": 1784483766,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2415,6 +2445,81 @@
             "slot": "bag-4",
             "code": "game:nugget-galena",
             "name": "Nugget (Galena)"
+          },
+          {
+            "slot": "bag-5",
+            "code": "game:soil-low-none",
+            "name": "Low fertility soil"
+          },
+          {
+            "slot": "bag-6",
+            "code": "game:chiseledblock",
+            "name": "Corroded brass pillar bust"
+          },
+          {
+            "slot": "bag-7",
+            "code": "game:chiseledblock",
+            "name": "Corroded brass pillar"
+          },
+          {
+            "slot": "bag-8",
+            "code": "game:chiseledblock",
+            "name": "Corroded brass pillar"
+          },
+          {
+            "slot": "bag-9",
+            "code": "game:chiseledblock",
+            "name": "Corroded brass pillar bust"
+          },
+          {
+            "slot": "bag-10",
+            "code": "game:chiseledblock",
+            "name": "Corroded brass pillar base"
+          },
+          {
+            "slot": "bag-11",
+            "code": "game:chiseledblock",
+            "name": "Corroded brass pillar base"
+          },
+          {
+            "slot": "bag-12",
+            "code": "game:chiseledblock",
+            "name": "Corroded brass pillar"
+          },
+          {
+            "slot": "bag-13",
+            "code": "game:chiseledblock",
+            "name": "Corroded brass pillar"
+          },
+          {
+            "slot": "bag-14",
+            "code": "game:chiseledblock",
+            "name": "Corroded brass pillar"
+          },
+          {
+            "slot": "bag-15",
+            "code": "game:chiseledblock",
+            "name": "Corroded brass pillar base"
+          },
+          {
+            "slot": "bag-16",
+            "code": "game:ore-lignite",
+            "name": "Brown coal"
+          },
+          {
+            "slot": "bag-17",
+            "code": "game:ore-rich-galena-sandstone",
+            "name": "Rich chunk of Galena"
+          },
+          {
+            "slot": "bag-18",
+            "code": "game:stone-sandstone",
+            "name": "Sandstone stone"
+          },
+          {
+            "slot": "bag-19",
+            "code": "game:ore-lignite",
+            "name": "Brown coal"
           }
         ],
         "skin": {
@@ -2503,12 +2608,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 82.3,
-        "blocksTravelled": 196755,
-        "blocksBroken": 12041,
+        "playtimeHours": 82.4,
+        "blocksTravelled": 196981,
+        "blocksBroken": 12050,
         "blocksPlaced": 3936,
         "deepestY": 23,
-        "lastSeen": 1784483619,
+        "lastSeen": 1784483766,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
