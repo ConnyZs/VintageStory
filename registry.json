@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-204511",
+  "generated": "20260719-204711",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2345,12 +2345,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 50.2,
-        "blocksTravelled": 65499,
-        "blocksBroken": 1346,
-        "blocksPlaced": 901,
+        "playtimeHours": 50.3,
+        "blocksTravelled": 65747,
+        "blocksBroken": 1349,
+        "blocksPlaced": 910,
         "deepestY": 67,
-        "lastSeen": 1784486622,
+        "lastSeen": 1784486806,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2428,61 +2428,6 @@
             "name": "Clean bandage"
           },
           {
-            "slot": "bag-2",
-            "code": "game:wallpaper-yellow",
-            "name": "Yellow wallpaper"
-          },
-          {
-            "slot": "bag-5",
-            "code": "game:fruitingbushcutting-redgrapes-free",
-            "name": "game:block-fruitingbushcutting-redgrapes-free"
-          },
-          {
-            "slot": "bag-6",
-            "code": "game:fruitingbushcutting-greengrapes-free",
-            "name": "game:block-fruitingbushcutting-greengrapes-free"
-          },
-          {
-            "slot": "bag-7",
-            "code": "game:chiseledblock",
-            "name": "Corroded brass pillar"
-          },
-          {
-            "slot": "bag-8",
-            "code": "game:chiseledblock",
-            "name": "Corroded brass pillar"
-          },
-          {
-            "slot": "bag-9",
-            "code": "game:chiseledblock",
-            "name": "Corroded brass pillar bust"
-          },
-          {
-            "slot": "bag-12",
-            "code": "game:chiseledblock",
-            "name": "Corroded brass pillar"
-          },
-          {
-            "slot": "bag-13",
-            "code": "game:chiseledblock",
-            "name": "Corroded brass pillar"
-          },
-          {
-            "slot": "bag-14",
-            "code": "game:chiseledblock",
-            "name": "Corroded brass pillar"
-          },
-          {
-            "slot": "bag-15",
-            "code": "game:chiseledblock",
-            "name": "Corroded brass pillar base"
-          },
-          {
-            "slot": "bag-16",
-            "code": "game:chiseledblock",
-            "name": "Corroded brass pillar bust"
-          },
-          {
             "slot": "bag-17",
             "code": "game:ore-lignite",
             "name": "Brown coal"
@@ -2519,7 +2464,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 22,
-        "mobKills": 273,
+        "mobKills": 274,
         "mealsEaten": 202,
         "caloriesConsumed": 24039,
         "lastMeal": "Puffball",
@@ -2581,11 +2526,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 83.2,
-        "blocksTravelled": 203610,
-        "blocksBroken": 12140,
+        "blocksTravelled": 204135,
+        "blocksBroken": 12157,
         "blocksPlaced": 3946,
         "deepestY": 23,
-        "lastSeen": 1784486622,
+        "lastSeen": 1784486787,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2780,6 +2725,16 @@
             "slot": "bag-22",
             "code": "game:fruitingbushcutting-redgrapes-free",
             "name": "game:block-fruitingbushcutting-redgrapes-free"
+          },
+          {
+            "slot": "bag-23",
+            "code": "game:storagevessel-blue-fired",
+            "name": "Earthy brown ceramic storage vessel"
+          },
+          {
+            "slot": "bag-24",
+            "code": "fatemplar:fa-templar-schematic",
+            "name": "Templar style armor (schematic)"
           }
         ],
         "skin": {
