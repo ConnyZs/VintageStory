@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-212113",
+  "generated": "20260719-212313",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2087,7 +2087,7 @@
       "name": "Raschuetzer",
       "role": "admin",
       "first_join": "04/22/2026 17:47",
-      "last_join": "07/19/2026 17:12",
+      "last_join": "07/19/2026 19:18",
       "last_char": "04/29/2026 21:30",
       "stats": {
         "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
@@ -2124,11 +2124,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 67.6,
-        "blocksTravelled": 123165,
+        "blocksTravelled": 123348,
         "blocksBroken": 5111,
         "blocksPlaced": 363,
         "deepestY": 28,
-        "lastSeen": 1784488783,
+        "lastSeen": 1784488903,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2265,11 +2265,6 @@
             "name": "Stick"
           },
           {
-            "slot": "bag-12",
-            "code": "game:rot",
-            "name": "Rot"
-          },
-          {
             "slot": "bag-13",
             "code": "game:quicklime",
             "name": "Quicklime"
@@ -2283,11 +2278,6 @@
             "slot": "bag-15",
             "code": "game:stone-limestone",
             "name": "Limestone stone"
-          },
-          {
-            "slot": "bag-16",
-            "code": "game:agedwallpaperplanks-blue-east",
-            "name": "Blue Wallpaper (On aged planks)"
           }
         ],
         "skin": {
@@ -2546,11 +2536,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 83.8,
-        "blocksTravelled": 209684,
+        "blocksTravelled": 210106,
         "blocksBroken": 12190,
         "blocksPlaced": 3968,
         "deepestY": 23,
-        "lastSeen": 1784488783,
+        "lastSeen": 1784488903,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
