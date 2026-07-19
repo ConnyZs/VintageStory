@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-212914",
+  "generated": "20260719-213114",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2124,11 +2124,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 67.7,
-        "blocksTravelled": 123727,
+        "blocksTravelled": 123785,
         "blocksBroken": 5111,
         "blocksPlaced": 363,
         "deepestY": 28,
-        "lastSeen": 1784489264,
+        "lastSeen": 1784489384,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2218,6 +2218,11 @@
             "slot": "bag-1",
             "code": "game:stick",
             "name": "Stick"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:metalnailsandstrips-copper",
+            "name": "Nails and strips (Copper)"
           },
           {
             "slot": "bag-6",
@@ -2501,11 +2506,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 83.9,
-        "blocksTravelled": 211250,
+        "blocksTravelled": 211697,
         "blocksBroken": 12191,
         "blocksPlaced": 3968,
         "deepestY": 23,
-        "lastSeen": 1784489264,
+        "lastSeen": 1784489384,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2607,8 +2612,8 @@
           },
           {
             "slot": "bag-4",
-            "code": "game:shears-iron",
-            "name": "Iron shears"
+            "code": "animalcages:mediumanimalcage-ceiling-closed-east",
+            "name": "Medium animal cage (closed)"
           },
           {
             "slot": "bag-5",
