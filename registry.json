@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-202710",
+  "generated": "20260719-202910",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2124,11 +2124,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 67.4,
-        "blocksTravelled": 123004,
+        "blocksTravelled": 123017,
         "blocksBroken": 5111,
         "blocksPlaced": 361,
         "deepestY": 28,
-        "lastSeen": 1784485578,
+        "lastSeen": 1784485661,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2225,9 +2225,14 @@
             "name": "Brown coal"
           },
           {
+            "slot": "bag-3",
+            "code": "game:quicklime",
+            "name": "Quicklime"
+          },
+          {
             "slot": "bag-4",
-            "code": "game:soil-low-none",
-            "name": "Low fertility soil"
+            "code": "game:flaxtwine",
+            "name": "Flax twine"
           },
           {
             "slot": "bag-5",
@@ -2235,9 +2240,19 @@
             "name": "Brown coal"
           },
           {
+            "slot": "bag-6",
+            "code": "game:ore-quartz",
+            "name": "Quartz chunk"
+          },
+          {
             "slot": "bag-7",
             "code": "game:torch-basic-lit-up",
             "name": "Torch"
+          },
+          {
+            "slot": "bag-8",
+            "code": "game:nugget-galena",
+            "name": "Nugget (Galena)"
           },
           {
             "slot": "bag-9",
@@ -2258,6 +2273,11 @@
             "slot": "bag-12",
             "code": "game:stick",
             "name": "Stick"
+          },
+          {
+            "slot": "bag-13",
+            "code": "game:ladder-stick-north",
+            "name": "Crude ladder"
           },
           {
             "slot": "bag-14",
@@ -2283,6 +2303,16 @@
             "slot": "bag-18",
             "code": "game:ore-rich-galena-sandstone",
             "name": "Rich chunk of Galena"
+          },
+          {
+            "slot": "bag-19",
+            "code": "game:lore-book-rotten-brown",
+            "name": "Rotten lore book (Brown)"
+          },
+          {
+            "slot": "bag-20",
+            "code": "game:agedwallpaperplanks-blue-east",
+            "name": "Blue Wallpaper (On aged planks)"
           },
           {
             "slot": "bag-21",
@@ -2340,12 +2370,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 49.9,
-        "blocksTravelled": 64753,
+        "playtimeHours": 50.0,
+        "blocksTravelled": 64844,
         "blocksBroken": 1341,
         "blocksPlaced": 899,
         "deepestY": 67,
-        "lastSeen": 1784485578,
+        "lastSeen": 1784485661,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2503,19 +2533,14 @@
             "name": "Rich chunk of Galena"
           },
           {
-            "slot": "bag-18",
-            "code": "game:blade-claymore-ruined",
-            "name": "Ruined claymore"
-          },
-          {
             "slot": "bag-19",
             "code": "game:ore-lignite",
             "name": "Brown coal"
           },
           {
-            "slot": "bag-21",
-            "code": "game:blade-gladius-ruined",
-            "name": "Ruined gladius"
+            "slot": "bag-20",
+            "code": "game:chiseledblock",
+            "name": "Corroded brass pillar bust"
           },
           {
             "slot": "bag-22",
@@ -2526,11 +2551,6 @@
             "slot": "bag-23",
             "code": "game:ore-poor-malachite-limestone",
             "name": "Poor chunk of Malachite"
-          },
-          {
-            "slot": "bag-24",
-            "code": "game:scythe-copper",
-            "name": "Copper scythe"
           }
         ],
         "skin": {
@@ -2559,10 +2579,10 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 22,
-        "mobKills": 268,
-        "mealsEaten": 194,
-        "caloriesConsumed": 23399,
-        "lastMeal": "Earthy orange ceramic bowl of meat stew",
+        "mobKills": 269,
+        "mealsEaten": 199,
+        "caloriesConsumed": 23799,
+        "lastMeal": "Red grapes",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2602,13 +2622,14 @@
           "King bolete": 2,
           "Chicken of the woods": 2,
           "Fennel": 2,
-          "Gold-drop milkcap": 1
+          "Gold-drop milkcap": 1,
+          "Red grapes": 5
         },
         "foodCatCounts": {
           "Grain": 38,
           "Protein": 14,
           "Vegetable": 53,
-          "Fruit": 110,
+          "Fruit": 115,
           "Dairy": 10
         },
         "deathCauses": {
@@ -2620,11 +2641,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 82.9,
-        "blocksTravelled": 201634,
-        "blocksBroken": 12099,
-        "blocksPlaced": 3937,
+        "blocksTravelled": 201997,
+        "blocksBroken": 12116,
+        "blocksPlaced": 3941,
         "deepestY": 23,
-        "lastSeen": 1784485578,
+        "lastSeen": 1784485661,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
