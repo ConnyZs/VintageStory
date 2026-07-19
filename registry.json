@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-201109",
+  "generated": "20260719-201309",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2124,11 +2124,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 67.1,
-        "blocksTravelled": 119161,
-        "blocksBroken": 5039,
-        "blocksPlaced": 356,
+        "blocksTravelled": 119399,
+        "blocksBroken": 5059,
+        "blocksPlaced": 361,
         "deepestY": 28,
-        "lastSeen": 1784484580,
+        "lastSeen": 1784484700,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2228,6 +2228,11 @@
             "slot": "bag-3",
             "code": "game:stone-conglomerate",
             "name": "Conglomerate stone"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:soil-low-none",
+            "name": "Low fertility soil"
           },
           {
             "slot": "bag-5",
@@ -2381,11 +2386,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 49.7,
-        "blocksTravelled": 61017,
-        "blocksBroken": 1322,
+        "blocksTravelled": 61200,
+        "blocksBroken": 1328,
         "blocksPlaced": 899,
         "deepestY": 67,
-        "lastSeen": 1784484580,
+        "lastSeen": 1784484700,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2665,11 +2670,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 82.6,
-        "blocksTravelled": 199129,
-        "blocksBroken": 12064,
+        "blocksTravelled": 199629,
+        "blocksBroken": 12065,
         "blocksPlaced": 3936,
         "deepestY": 23,
-        "lastSeen": 1784484580,
+        "lastSeen": 1784484700,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
