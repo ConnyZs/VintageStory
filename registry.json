@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-192906",
+  "generated": "20260719-193106",
   "game_version": "1.22.3",
   "check_ts": "20260719-164831",
   "latest_engine": "1.22.3",
@@ -2122,12 +2122,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 66.4,
-        "blocksTravelled": 113095,
-        "blocksBroken": 4484,
+        "playtimeHours": 66.5,
+        "blocksTravelled": 113362,
+        "blocksBroken": 4486,
         "blocksPlaced": 340,
         "deepestY": 28,
-        "lastSeen": 1784482057,
+        "lastSeen": 1784482255,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2214,9 +2214,9 @@
             "icon": "character/icons/upperbodyover-forgotten.png"
           },
           {
-            "slot": "bag-6",
-            "code": "game:lantern-large-up",
-            "name": "Large molybdochalkos lantern"
+            "slot": "bag-1",
+            "code": "walkingstick:walkingstick-pathfinder",
+            "name": "Pathfinder's walking stick"
           },
           {
             "slot": "bag-7",
@@ -2280,11 +2280,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 49.0,
-        "blocksTravelled": 55071,
+        "blocksTravelled": 55429,
         "blocksBroken": 1211,
         "blocksPlaced": 898,
-        "deepestY": 105,
-        "lastSeen": 1784482057,
+        "deepestY": 67,
+        "lastSeen": 1784482255,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2458,12 +2458,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 81.9,
-        "blocksTravelled": 194612,
-        "blocksBroken": 12027,
-        "blocksPlaced": 3931,
+        "playtimeHours": 82.0,
+        "blocksTravelled": 195168,
+        "blocksBroken": 12028,
+        "blocksPlaced": 3933,
         "deepestY": 23,
-        "lastSeen": 1784482057,
+        "lastSeen": 1784482255,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2564,19 +2564,9 @@
             "name": "Medium animal cage (open)"
           },
           {
-            "slot": "bag-4",
-            "code": "game:mushroom-funeralbell-normal-north",
-            "name": "Funeral bell"
-          },
-          {
             "slot": "bag-5",
             "code": "game:vegetable-fennel",
             "name": "Fennel"
-          },
-          {
-            "slot": "bag-6",
-            "code": "game:resin",
-            "name": "Resin"
           },
           {
             "slot": "bag-7",
@@ -2639,34 +2629,9 @@
             "name": "Medium fertility soil"
           },
           {
-            "slot": "bag-19",
-            "code": "game:pickaxe-iron",
-            "name": "Iron pickaxe"
-          },
-          {
-            "slot": "bag-20",
-            "code": "game:jug-black-fired",
-            "name": "Black ceramic jug"
-          },
-          {
-            "slot": "bag-21",
-            "code": "game:fruitingbushcutting-greengrapes-free",
-            "name": "game:block-fruitingbushcutting-greengrapes-free"
-          },
-          {
-            "slot": "bag-22",
-            "code": "game:fruitingbushcutting-greengrapes-free",
-            "name": "game:block-fruitingbushcutting-greengrapes-free"
-          },
-          {
             "slot": "bag-23",
-            "code": "game:fruitingbushcutting-redgrapes-free",
-            "name": "game:block-fruitingbushcutting-redgrapes-free"
-          },
-          {
-            "slot": "bag-24",
-            "code": "game:fruitingbushcutting-greengrapes-free",
-            "name": "game:block-fruitingbushcutting-greengrapes-free"
+            "code": "game:resin",
+            "name": "Resin"
           }
         ],
         "skin": {
