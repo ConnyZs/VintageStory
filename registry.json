@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-234122",
+  "generated": "20260719-234322",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2124,11 +2124,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 69.9,
-        "blocksTravelled": 129112,
+        "blocksTravelled": 129113,
         "blocksBroken": 5127,
         "blocksPlaced": 398,
         "deepestY": 28,
-        "lastSeen": 1784497188,
+        "lastSeen": 1784497361,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2281,11 +2281,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 52.4,
-        "blocksTravelled": 67736,
+        "blocksTravelled": 67805,
         "blocksBroken": 1354,
         "blocksPlaced": 911,
         "deepestY": 67,
-        "lastSeen": 1784497188,
+        "lastSeen": 1784497361,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2296,7 +2296,7 @@
           "Miner belt",
           "Leather bracers",
           "Fur coat",
-          "Blackguard cuirass (Broken)"
+          "Tailored gambeson body armor"
         ],
         "gearDetail": [
           {
@@ -2354,8 +2354,8 @@
           },
           {
             "slot": "armorbody",
-            "code": "game:armor-body-antique-blackguard-broken",
-            "name": "Blackguard cuirass (Broken)"
+            "code": "game:armor-body-tailored-pink-linen",
+            "name": "Tailored gambeson body armor"
           },
           {
             "slot": "bag-1",
@@ -2413,12 +2413,17 @@
             "name": "Linen patch"
           },
           {
+            "slot": "bag-14",
+            "code": "game:tongsmetal-standard-tinbronze",
+            "name": "Tin bronze tongs"
+          },
+          {
             "slot": "bag-19",
             "code": "game:metalbit-iron",
             "name": "Iron bits"
           },
           {
-            "slot": "bag-21",
+            "slot": "bag-24",
             "code": "maltiezfirearms:powderflask-iron",
             "name": "Powder flask"
           }
@@ -2516,12 +2521,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 86.1,
-        "blocksTravelled": 225340,
+        "playtimeHours": 86.2,
+        "blocksTravelled": 225428,
         "blocksBroken": 12770,
         "blocksPlaced": 4320,
         "deepestY": 23,
-        "lastSeen": 1784497188,
+        "lastSeen": 1784497361,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
