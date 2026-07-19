@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-193507",
+  "generated": "20260719-193707",
   "game_version": "1.22.3",
   "check_ts": "20260719-164831",
   "latest_engine": "1.22.3",
@@ -2123,11 +2123,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 66.5,
-        "blocksTravelled": 113901,
-        "blocksBroken": 4494,
+        "blocksTravelled": 114364,
+        "blocksBroken": 4505,
         "blocksPlaced": 340,
         "deepestY": 28,
-        "lastSeen": 1784482418,
+        "lastSeen": 1784482557,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2219,6 +2219,16 @@
             "name": "Pathfinder's walking stick"
           },
           {
+            "slot": "bag-2",
+            "code": "game:knife-generic-iron",
+            "name": "Iron knife"
+          },
+          {
+            "slot": "bag-3",
+            "code": "game:nugget-nativecopper",
+            "name": "Nugget (Native copper)"
+          },
+          {
             "slot": "bag-7",
             "code": "game:torch-basic-lit-up",
             "name": "Torch"
@@ -2280,11 +2290,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 49.1,
-        "blocksTravelled": 55982,
+        "blocksTravelled": 56458,
         "blocksBroken": 1211,
         "blocksPlaced": 898,
         "deepestY": 67,
-        "lastSeen": 1784482418,
+        "lastSeen": 1784482557,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2370,6 +2380,11 @@
             "slot": "bag-3",
             "code": "game:pickaxe-iron",
             "name": "Iron pickaxe"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:nugget-galena",
+            "name": "Nugget (Galena)"
           }
         ],
         "skin": {
@@ -2458,12 +2473,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 82.0,
+        "playtimeHours": 82.1,
         "blocksTravelled": 195276,
         "blocksBroken": 12028,
         "blocksPlaced": 3934,
         "deepestY": 23,
-        "lastSeen": 1784482418,
+        "lastSeen": 1784482557,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
