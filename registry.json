@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-192306",
+  "generated": "20260719-192506",
   "game_version": "1.22.3",
   "check_ts": "20260719-164831",
   "latest_engine": "1.22.3",
@@ -2123,11 +2123,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 66.3,
-        "blocksTravelled": 112494,
+        "blocksTravelled": 112690,
         "blocksBroken": 4484,
         "blocksPlaced": 340,
         "deepestY": 28,
-        "lastSeen": 1784481697,
+        "lastSeen": 1784481817,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2219,11 +2219,6 @@
             "name": "Oak log"
           },
           {
-            "slot": "bag-3",
-            "code": "game:pickaxe-iron",
-            "name": "Iron pickaxe"
-          },
-          {
             "slot": "bag-6",
             "code": "game:lantern-large-up",
             "name": "Large molybdochalkos lantern"
@@ -2290,11 +2285,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 48.9,
-        "blocksTravelled": 54792,
+        "blocksTravelled": 54950,
         "blocksBroken": 1211,
         "blocksPlaced": 898,
         "deepestY": 105,
-        "lastSeen": 1784481697,
+        "lastSeen": 1784481817,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2469,11 +2464,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 81.8,
-        "blocksTravelled": 193183,
+        "blocksTravelled": 193739,
         "blocksBroken": 12027,
         "blocksPlaced": 3931,
         "deepestY": 23,
-        "lastSeen": 1784481697,
+        "lastSeen": 1784481817,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
