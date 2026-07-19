@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-220316",
+  "generated": "20260719-220516",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2128,7 +2128,7 @@
         "blocksBroken": 5115,
         "blocksPlaced": 371,
         "deepestY": 28,
-        "lastSeen": 1784491319,
+        "lastSeen": 1784491425,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2315,12 +2315,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 50.7,
-        "blocksTravelled": 66192,
+        "playtimeHours": 50.8,
+        "blocksTravelled": 66206,
         "blocksBroken": 1349,
         "blocksPlaced": 911,
         "deepestY": 67,
-        "lastSeen": 1784491319,
+        "lastSeen": 1784491425,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2413,6 +2413,11 @@
             "name": "Iron saw"
           },
           {
+            "slot": "bag-5",
+            "code": "game:peatbrick",
+            "name": "Peat brick"
+          },
+          {
             "slot": "bag-6",
             "code": "maltiezfirearms:bullet-lead",
             "name": "Bullet (lead)"
@@ -2436,11 +2441,6 @@
             "slot": "bag-10",
             "code": "game:metalbit-copper",
             "name": "Copper bits"
-          },
-          {
-            "slot": "bag-17",
-            "code": "game:peatbrick",
-            "name": "Peat brick"
           }
         ],
         "skin": {
@@ -2470,9 +2470,9 @@
         "class": "homesteader",
         "deaths": 22,
         "mobKills": 280,
-        "mealsEaten": 230,
-        "caloriesConsumed": 26179,
-        "lastMeal": "Flax grain",
+        "mealsEaten": 231,
+        "caloriesConsumed": 26259,
+        "lastMeal": "Blackberry",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2502,7 +2502,7 @@
           "Chanterelle": 1,
           "Black trumpet": 1,
           "Witch's hat": 1,
-          "Blackberry": 5,
+          "Blackberry": 6,
           "Red wine cap": 6,
           "Honeycomb": 2,
           "Green cracked russula": 11,
@@ -2521,7 +2521,7 @@
           "Grain": 40,
           "Protein": 14,
           "Vegetable": 61,
-          "Fruit": 136,
+          "Fruit": 137,
           "Dairy": 10
         },
         "deathCauses": {
@@ -2533,11 +2533,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 84.5,
-        "blocksTravelled": 217356,
-        "blocksBroken": 12287,
-        "blocksPlaced": 4078,
+        "blocksTravelled": 217380,
+        "blocksBroken": 12288,
+        "blocksPlaced": 4079,
         "deepestY": 23,
-        "lastSeen": 1784491319,
+        "lastSeen": 1784491425,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2704,13 +2704,43 @@
           },
           {
             "slot": "bag-17",
-            "code": "floramycology:seeds-violetwebcap",
-            "name": "Violet Webcap Spores"
+            "code": "game:metal-scraps",
+            "name": "Metal scraps"
           },
           {
             "slot": "bag-18",
             "code": "game:fruit-strawberry",
             "name": "Strawberry"
+          },
+          {
+            "slot": "bag-19",
+            "code": "game:chiseledblock",
+            "name": "Furnace"
+          },
+          {
+            "slot": "bag-20",
+            "code": "game:chiseledblock",
+            "name": "Furnace"
+          },
+          {
+            "slot": "bag-21",
+            "code": "game:crock-blue-fired",
+            "name": "Earthy brown ceramic crock"
+          },
+          {
+            "slot": "bag-22",
+            "code": "game:metal-scraps",
+            "name": "Metal scraps"
+          },
+          {
+            "slot": "bag-23",
+            "code": "floramycology:seeds-violetwebcap",
+            "name": "Violet Webcap Spores"
+          },
+          {
+            "slot": "bag-24",
+            "code": "game:grain-rye",
+            "name": "Rye grain"
           }
         ],
         "skin": {
