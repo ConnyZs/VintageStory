@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-205311",
+  "generated": "20260719-205511",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2346,11 +2346,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 50.3,
-        "blocksTravelled": 65772,
+        "blocksTravelled": 65802,
         "blocksBroken": 1349,
         "blocksPlaced": 910,
         "deepestY": 67,
-        "lastSeen": 1784487143,
+        "lastSeen": 1784487222,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2428,14 +2428,44 @@
             "name": "Clean bandage"
           },
           {
-            "slot": "bag-17",
+            "slot": "bag-2",
+            "code": "game:torch-basic-lit-up",
+            "name": "Torch"
+          },
+          {
+            "slot": "bag-3",
+            "code": "walkingstick:walkingstick-crude",
+            "name": "Crude walking stick"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:saw-iron",
+            "name": "Iron saw"
+          },
+          {
+            "slot": "bag-5",
             "code": "game:ore-lignite",
             "name": "Brown coal"
           },
           {
-            "slot": "bag-18",
+            "slot": "bag-6",
             "code": "game:ore-lignite",
             "name": "Brown coal"
+          },
+          {
+            "slot": "bag-7",
+            "code": "game:soil-low-none",
+            "name": "Low fertility soil"
+          },
+          {
+            "slot": "bag-8",
+            "code": "game:stick",
+            "name": "Stick"
+          },
+          {
+            "slot": "bag-9",
+            "code": "game:clay-fire",
+            "name": "Fire clay"
           }
         ],
         "skin": {
@@ -2526,11 +2556,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 83.3,
-        "blocksTravelled": 205362,
+        "blocksTravelled": 205707,
         "blocksBroken": 12183,
         "blocksPlaced": 3951,
         "deepestY": 23,
-        "lastSeen": 1784487102,
+        "lastSeen": 1784487222,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
