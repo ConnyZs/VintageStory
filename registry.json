@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-234722",
+  "generated": "20260719-234922",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2128,7 +2128,7 @@
         "blocksBroken": 5127,
         "blocksPlaced": 398,
         "deepestY": 28,
-        "lastSeen": 1784497548,
+        "lastSeen": 1784497669,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2281,11 +2281,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 52.5,
-        "blocksTravelled": 68089,
+        "blocksTravelled": 68104,
         "blocksBroken": 1354,
         "blocksPlaced": 911,
         "deepestY": 67,
-        "lastSeen": 1784497548,
+        "lastSeen": 1784497669,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2390,11 +2390,6 @@
             "name": "Clean bandage"
           },
           {
-            "slot": "bag-7",
-            "code": "game:peatbrick",
-            "name": "Peat brick"
-          },
-          {
             "slot": "bag-8",
             "code": "walkingstick:walkingstick-crude",
             "name": "Crude walking stick"
@@ -2410,6 +2405,11 @@
             "name": "Copper wrench"
           },
           {
+            "slot": "bag-11",
+            "code": "game:peatbrick",
+            "name": "Peat brick"
+          },
+          {
             "slot": "bag-12",
             "code": "game:soil-low-none",
             "name": "Low fertility soil"
@@ -2423,16 +2423,6 @@
             "slot": "bag-14",
             "code": "game:clay-fire",
             "name": "Fire clay"
-          },
-          {
-            "slot": "bag-15",
-            "code": "game:torch-basic-lit-up",
-            "name": "Torch"
-          },
-          {
-            "slot": "bag-19",
-            "code": "game:tongsmetal-standard-tinbronze",
-            "name": "Tin bronze tongs"
           },
           {
             "slot": "bag-24",
