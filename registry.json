@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-210112",
+  "generated": "20260719-210312",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2346,11 +2346,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 50.4,
-        "blocksTravelled": 65860,
+        "blocksTravelled": 65904,
         "blocksBroken": 1349,
         "blocksPlaced": 910,
         "deepestY": 67,
-        "lastSeen": 1784487583,
+        "lastSeen": 1784487703,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2550,12 +2550,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 83.4,
-        "blocksTravelled": 206711,
-        "blocksBroken": 12183,
-        "blocksPlaced": 3952,
+        "playtimeHours": 83.5,
+        "blocksTravelled": 206767,
+        "blocksBroken": 12184,
+        "blocksPlaced": 3964,
         "deepestY": 23,
-        "lastSeen": 1784487583,
+        "lastSeen": 1784487703,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2661,9 +2661,20 @@
             "name": "Medium animal cage (open)"
           },
           {
+            "slot": "bag-5",
+            "code": "game:lore-book-aged-orange",
+            "name": "Aged lore book (Orange)"
+          },
+          {
+            "slot": "bag-6",
+            "code": "game:jonasframes-gears01",
+            "name": "Jonas sub-assembly (A difference gear assembly)"
+          },
+          {
             "slot": "bag-7",
-            "code": "game:lore-book-rotten-green",
-            "name": "Rotten lore book (Green)"
+            "code": "game:clothes-upperbody-miner",
+            "name": "Miner shirt",
+            "icon": "character/icons/upperbody-miner.png"
           },
           {
             "slot": "bag-8",
@@ -2677,9 +2688,19 @@
             "icon": "character/icons/foot-shepherd-sandals.png"
           },
           {
+            "slot": "bag-10",
+            "code": "alchemy:potionflask-tube-quartz",
+            "name": "Small potion flask"
+          },
+          {
             "slot": "bag-11",
             "code": "game:gear-rusty",
             "name": "Rusty gear"
+          },
+          {
+            "slot": "bag-12",
+            "code": "game:lantern-large-up",
+            "name": "Large molybdochalkos lantern"
           },
           {
             "slot": "bag-13",
@@ -2688,13 +2709,18 @@
           },
           {
             "slot": "bag-14",
-            "code": "game:lore-book-aged-gray",
-            "name": "Aged lore book (Gray)"
+            "code": "game:shears-iron",
+            "name": "Iron shears"
           },
           {
             "slot": "bag-15",
-            "code": "game:tuningcylinder-10",
-            "name": "Tuning cylinder (Summer stroll)"
+            "code": "game:shovel-iron",
+            "name": "Iron shovel"
+          },
+          {
+            "slot": "bag-16",
+            "code": "game:ingot-zinc",
+            "name": "Zinc ingot"
           },
           {
             "slot": "bag-17",
@@ -2708,8 +2734,23 @@
           },
           {
             "slot": "bag-19",
-            "code": "game:tuningcylinder-2",
-            "name": "Tuning cylinder (Through The Grass at Night)"
+            "code": "game:knife-generic-iron",
+            "name": "Iron knife"
+          },
+          {
+            "slot": "bag-20",
+            "code": "game:hoovedwearables-blanket-alchemist",
+            "name": "Alchemist saddle blanket"
+          },
+          {
+            "slot": "bag-21",
+            "code": "game:axe-felling-iron",
+            "name": "Iron axe"
+          },
+          {
+            "slot": "bag-23",
+            "code": "game:clothes-neck-merchant-amulet",
+            "name": "Merchant amulet"
           },
           {
             "slot": "bag-24",
