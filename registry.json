@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-234522",
+  "generated": "20260719-234722",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2124,11 +2124,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 70.0,
-        "blocksTravelled": 129114,
+        "blocksTravelled": 129145,
         "blocksBroken": 5127,
         "blocksPlaced": 398,
         "deepestY": 28,
-        "lastSeen": 1784497428,
+        "lastSeen": 1784497548,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2255,7 +2255,7 @@
         "name": "Eghetti",
         "class": "smith",
         "deaths": 2,
-        "mobKills": 54,
+        "mobKills": 55,
         "mealsEaten": 31,
         "caloriesConsumed": 14705,
         "lastMeal": "Syrup-covered muffin",
@@ -2280,12 +2280,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 52.4,
-        "blocksTravelled": 67942,
+        "playtimeHours": 52.5,
+        "blocksTravelled": 68089,
         "blocksBroken": 1354,
         "blocksPlaced": 911,
         "deepestY": 67,
-        "lastSeen": 1784497428,
+        "lastSeen": 1784497548,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2296,7 +2296,9 @@
           "Miner belt",
           "Leather bracers",
           "Fur coat",
-          "Tailored gambeson body armor"
+          "Tailored gambeson body armor",
+          "Bags belt",
+          "Ammo pouch"
         ],
         "gearDetail": [
           {
@@ -2358,74 +2360,84 @@
             "name": "Tailored gambeson body armor"
           },
           {
+            "slot": "waistgear",
+            "code": "quiversandsheaths:belt-waist-plain-general",
+            "name": "Bags belt"
+          },
+          {
+            "slot": "addBeltBack",
+            "code": "quiversandsheaths:beltbag-back-pouch-firearms",
+            "name": "Ammo pouch"
+          },
+          {
             "slot": "bag-1",
-            "code": "game:bandage-clean",
-            "name": "Clean bandage"
-          },
-          {
-            "slot": "bag-2",
-            "code": "game:peatbrick",
-            "name": "Peat brick"
-          },
-          {
-            "slot": "bag-3",
-            "code": "walkingstick:walkingstick-crude",
-            "name": "Crude walking stick"
-          },
-          {
-            "slot": "bag-4",
-            "code": "game:saw-iron",
-            "name": "Iron saw"
-          },
-          {
-            "slot": "bag-5",
-            "code": "game:wrench-copper",
-            "name": "Copper wrench"
-          },
-          {
-            "slot": "bag-6",
             "code": "maltiezfirearms:bullet-lead",
             "name": "Bullet (lead)"
           },
           {
-            "slot": "bag-7",
-            "code": "game:soil-low-none",
-            "name": "Low fertility soil"
-          },
-          {
-            "slot": "bag-8",
-            "code": "game:stick",
-            "name": "Stick"
-          },
-          {
-            "slot": "bag-9",
-            "code": "game:clay-fire",
-            "name": "Fire clay"
-          },
-          {
-            "slot": "bag-10",
-            "code": "game:torch-basic-lit-up",
-            "name": "Torch"
-          },
-          {
-            "slot": "bag-11",
+            "slot": "bag-2",
             "code": "maltiezfirearms:linenpatch",
             "name": "Linen patch"
           },
           {
+            "slot": "bag-3",
+            "code": "maltiezfirearms:powderflask-iron",
+            "name": "Powder flask"
+          },
+          {
+            "slot": "bag-6",
+            "code": "game:bandage-clean",
+            "name": "Clean bandage"
+          },
+          {
+            "slot": "bag-7",
+            "code": "game:peatbrick",
+            "name": "Peat brick"
+          },
+          {
+            "slot": "bag-8",
+            "code": "walkingstick:walkingstick-crude",
+            "name": "Crude walking stick"
+          },
+          {
+            "slot": "bag-9",
+            "code": "game:saw-iron",
+            "name": "Iron saw"
+          },
+          {
+            "slot": "bag-10",
+            "code": "game:wrench-copper",
+            "name": "Copper wrench"
+          },
+          {
+            "slot": "bag-12",
+            "code": "game:soil-low-none",
+            "name": "Low fertility soil"
+          },
+          {
+            "slot": "bag-13",
+            "code": "game:stick",
+            "name": "Stick"
+          },
+          {
             "slot": "bag-14",
+            "code": "game:clay-fire",
+            "name": "Fire clay"
+          },
+          {
+            "slot": "bag-15",
+            "code": "game:torch-basic-lit-up",
+            "name": "Torch"
+          },
+          {
+            "slot": "bag-19",
             "code": "game:tongsmetal-standard-tinbronze",
             "name": "Tin bronze tongs"
           },
           {
-            "slot": "bag-19",
+            "slot": "bag-24",
             "code": "game:metalbit-iron",
             "name": "Iron bits"
-          },
-          {
-            "slot": "bag-24",
-            "code": "maltiezfirearms:powderflask-iron",
-            "name": "Powder flask"
           }
         ],
         "skin": {
@@ -2522,11 +2534,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 86.2,
-        "blocksTravelled": 225451,
+        "blocksTravelled": 225581,
         "blocksBroken": 12770,
         "blocksPlaced": 4320,
         "deepestY": 23,
-        "lastSeen": 1784497428,
+        "lastSeen": 1784497526,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
