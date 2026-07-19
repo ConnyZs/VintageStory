@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-204111",
+  "generated": "20260719-204311",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2346,11 +2346,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 50.2,
-        "blocksTravelled": 65310,
+        "blocksTravelled": 65356,
         "blocksBroken": 1341,
         "blocksPlaced": 899,
         "deepestY": 67,
-        "lastSeen": 1784486382,
+        "lastSeen": 1784486502,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2428,11 +2428,6 @@
             "name": "Clean bandage"
           },
           {
-            "slot": "bag-3",
-            "code": "game:pickaxe-iron",
-            "name": "Iron pickaxe"
-          },
-          {
             "slot": "bag-5",
             "code": "game:fruitingbushcutting-redgrapes-free",
             "name": "game:block-fruitingbushcutting-redgrapes-free"
@@ -2501,16 +2496,6 @@
             "slot": "bag-18",
             "code": "game:ore-lignite",
             "name": "Brown coal"
-          },
-          {
-            "slot": "bag-21",
-            "code": "game:plank-acacia",
-            "name": "Board (Acacia)"
-          },
-          {
-            "slot": "bag-22",
-            "code": "game:wallpaper-yellow",
-            "name": "Yellow wallpaper"
           }
         ],
         "skin": {
@@ -2601,11 +2586,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 83.1,
-        "blocksTravelled": 203401,
+        "blocksTravelled": 203582,
         "blocksBroken": 12138,
         "blocksPlaced": 3944,
         "deepestY": 23,
-        "lastSeen": 1784486382,
+        "lastSeen": 1784486502,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2772,6 +2757,21 @@
             "icon": "character/icons/upperbody-miner.png"
           },
           {
+            "slot": "bag-17",
+            "code": "game:ore-corundum",
+            "name": "Corundum"
+          },
+          {
+            "slot": "bag-18",
+            "code": "game:painting-prey-north",
+            "name": "Painting (Prey)"
+          },
+          {
+            "slot": "bag-19",
+            "code": "game:smallcarpet-turqoise2",
+            "name": "Small turquoise carpet with gold detailing"
+          },
+          {
             "slot": "bag-20",
             "code": "game:compost",
             "name": "Compost"
@@ -2785,6 +2785,11 @@
             "slot": "bag-22",
             "code": "game:fruitingbushcutting-redgrapes-free",
             "name": "game:block-fruitingbushcutting-redgrapes-free"
+          },
+          {
+            "slot": "bag-23",
+            "code": "game:mediumcarpet-turqoise-ns",
+            "name": "Turquoise carpet"
           }
         ],
         "skin": {
