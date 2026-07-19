@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-194507",
+  "generated": "20260719-194707",
   "game_version": "1.22.3",
   "check_ts": "20260719-164831",
   "latest_engine": "1.22.3",
@@ -2123,11 +2123,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 66.7,
-        "blocksTravelled": 116202,
-        "blocksBroken": 4520,
+        "blocksTravelled": 116894,
+        "blocksBroken": 4527,
         "blocksPlaced": 340,
         "deepestY": 28,
-        "lastSeen": 1784483018,
+        "lastSeen": 1784483162,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2289,12 +2289,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 49.2,
-        "blocksTravelled": 58134,
+        "playtimeHours": 49.3,
+        "blocksTravelled": 58899,
         "blocksBroken": 1211,
         "blocksPlaced": 898,
         "deepestY": 67,
-        "lastSeen": 1784483018,
+        "lastSeen": 1784483162,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2474,11 +2474,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 82.2,
-        "blocksTravelled": 195575,
+        "blocksTravelled": 195823,
         "blocksBroken": 12028,
         "blocksPlaced": 3936,
         "deepestY": 23,
-        "lastSeen": 1784483018,
+        "lastSeen": 1784483162,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2599,19 +2599,9 @@
             "name": "Medium animal cage (open)"
           },
           {
-            "slot": "bag-9",
-            "code": "game:seeds-soybean",
-            "name": "Soybean seeds"
-          },
-          {
-            "slot": "bag-10",
-            "code": "game:seeds-cabbage",
-            "name": "Cabbage seeds"
-          },
-          {
-            "slot": "bag-11",
-            "code": "game:seeds-fennel",
-            "name": "Fennel seeds"
+            "slot": "bag-8",
+            "code": "game:fruit-blackberry",
+            "name": "Blackberry"
           },
           {
             "slot": "bag-24",
