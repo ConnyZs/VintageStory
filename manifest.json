@@ -1,7 +1,7 @@
 {
   "game_version": "1.22.3",
-  "generated": "20260715-155736",
-  "count": 110,
+  "generated": "20260719-165648",
+  "count": 113,
   "mods": [
     {
       "filename": "windmillsailfix.zip",
@@ -20,6 +20,15 @@
       "version": "2.0.0-dev.21",
       "name": null,
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/ACulinaryArtillery%202.0.0-dev.21.zip"
+    },
+    {
+      "filename": "ArtOfGrowing_1.2.2.zip",
+      "sha256": "39f08f333b98c0d561f1e3207a7a7d56a154acc8ce0719378af324a68acddf76",
+      "size": 1863415,
+      "modid": "artofgrowingpatch",
+      "version": "1.2.2",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/ArtOfGrowing_1.2.2.zip"
     },
     {
       "filename": "AttributeRenderingLibrary-v3.1.5.zip",
@@ -101,15 +110,6 @@
       "version": "1.9.1",
       "name": null,
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/CartwrightsCaravan_1.9.1.zip"
-    },
-    {
-      "filename": "ChiselTools1.17.3.zip",
-      "sha256": "f97644e6db9269c4d525db3082e82f00da9d02802551a77e68a3ec8c90e1e74a",
-      "size": 1129243,
-      "modid": "chiseltools",
-      "version": "1.17.3",
-      "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/ChiselTools1.17.3.zip"
     },
     {
       "filename": "ChiseledBlockRetention-2.0.1.zip",
@@ -490,13 +490,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/adventurers-walking-stick-net10_3.0.9.zip"
     },
     {
-      "filename": "alchemy_2.1.11.zip",
-      "sha256": "0a218275757b9b758dfba3ca5874fc1437052b92454008b1c79f1eb4044edafe",
-      "size": 2326023,
+      "filename": "alchemy_2.1.13.zip",
+      "sha256": "1d07b524fdb0de2f72464110cf54b7e8c0e57842e0edbb3b510a44b7e717e249",
+      "size": 2328700,
       "modid": "alchemy",
-      "version": "2.1.11",
+      "version": "2.1.13",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/alchemy_2.1.11.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/alchemy_2.1.13.zip"
     },
     {
       "filename": "algernonsterrainsampler_1.3.0.zip",
@@ -634,6 +634,24 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/canjewelry_0.6.20.zip"
     },
     {
+      "filename": "chisel_leaf_1.2.1.zip",
+      "sha256": "2bc52202222186729e5f2b43c74b29ebb8945ba97146e9ad523fc3bcf82b5f11",
+      "size": 323109,
+      "modid": "chiselleaf",
+      "version": "1.2.1",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/chisel_leaf_1.2.1.zip"
+    },
+    {
+      "filename": "chiseltools1.17.4.zip",
+      "sha256": "58de60fd15b6b37fe5c1d891541160323537a17e9ad7ce07364508f332719007",
+      "size": 1127909,
+      "modid": "chiseltools",
+      "version": "1.17.4",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/chiseltools1.17.4.zip"
+    },
+    {
       "filename": "coinage-2.2.1.zip",
       "sha256": "6a4048fa017316acd02018374cb1584768da30b8ce818d780635592e4c72336a",
       "size": 231007,
@@ -751,13 +769,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/gourmand_1.8.12.zip"
     },
     {
-      "filename": "jsonpatcheslib_1.5.3.zip",
-      "sha256": "a00fc7ea4103415e63b1cc7e04618d47c24845215681cc856ccd70907ed5b9e1",
-      "size": 56856,
+      "filename": "jsonpatcheslib_1.5.5.zip",
+      "sha256": "134556b3cc9cffa8a89f79122ce58314e4a5a7bb2ae7f0255f713dc9263f9e0c",
+      "size": 57025,
       "modid": "jsonpatcheslib",
-      "version": "1.5.3",
+      "version": "1.5.5",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/jsonpatcheslib_1.5.3.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/jsonpatcheslib_1.5.5.zip"
     },
     {
       "filename": "kevinsfurniture_1.9.0.zip",
@@ -922,13 +940,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/spyglass_0.6.1.zip"
     },
     {
-      "filename": "stonebakeoven_1.3.5.zip",
-      "sha256": "aecd72207d0397c8a9b81d56c7a7d19a2ab9c184fd7019182bbd95cc529d032a",
-      "size": 106089,
+      "filename": "stonebakeoven_1.3.7.zip",
+      "sha256": "0109104a8b6aa32a84d9d4508da54ae66df9516b138efd269ed98170b357f596",
+      "size": 110883,
       "modid": "stonebakeoven",
-      "version": "1.3.5",
+      "version": "1.3.7",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/stonebakeoven_1.3.5.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/stonebakeoven_1.3.7.zip"
     },
     {
       "filename": "tailors_delight-2.2.2.zip",
@@ -958,6 +976,15 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/tstoolsr_v3.1.2.zip"
     },
     {
+      "filename": "unnerfedflowers auto.zip",
+      "sha256": "c6d978872890dce77abf527d7069c0b48e037a27bb74aee0fab89342c7bbb5e5",
+      "size": 1411,
+      "modid": "unnerfedflowers",
+      "version": "1.0.0",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/unnerfedflowers%20auto.zip"
+    },
+    {
       "filename": "upholstery-1.2.0.zip",
       "sha256": "0fe89c81df60978905a2c394c16ae82e2c825e77e11b41e7ef6a35b9ac8a71b0",
       "size": 69337,
@@ -985,13 +1012,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/vsimgui_1.2.7.zip"
     },
     {
-      "filename": "vsroofing_1.6.3.zip",
-      "sha256": "3c06d5e4d51238a6a4ffbbba1d0c66f6828c20970346a0ae3e54325ba52ee96e",
-      "size": 2414888,
+      "filename": "vsroofing_1.6.5.zip",
+      "sha256": "a45e0dae2e5e7c1d686a05288cd48bc2c77f7388e14c4c03c81b06d3764b515b",
+      "size": 2438754,
       "modid": "vsroofing",
-      "version": "1.6.3",
+      "version": "1.6.5",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/vsroofing_1.6.3.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/vsroofing_1.6.5.zip"
     }
   ],
   "optional": [

@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-165056",
+  "generated": "20260719-165815",
   "game_version": "1.22.3",
   "check_ts": "20260719-164831",
   "latest_engine": "1.22.3",
@@ -8,10 +8,10 @@
   "modset": {
     "server_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset.zip",
     "full_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset-full.zip",
-    "server_count": 110,
-    "full_count": 115,
-    "server_size": 165764926,
-    "full_size": 166759020,
+    "server_count": 113,
+    "full_count": 118,
+    "server_size": 167983395,
+    "full_size": 168977489,
     "client_only": [
       "Extra Info",
       "Improved Handbook Recipes (Fork)",
@@ -19,7 +19,7 @@
       "Status HUD",
       "StepUp Advanced"
     ],
-    "generated": "20260715-155836"
+    "generated": "20260719-165746"
   },
   "admin_url": "http://127.0.0.1:3042",
   "categories": [
@@ -137,10 +137,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "2.1.11",
+      "version": "2.1.13",
       "build_version": "2.1.13",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -809,10 +809,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.17.3",
+      "version": "1.17.4",
       "build_version": "1.17.4",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -889,10 +889,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.3.5",
+      "version": "1.3.7",
       "build_version": "1.3.7",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -969,10 +969,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.6.3",
+      "version": "1.6.5",
       "build_version": "1.6.5",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -1545,10 +1545,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.5.3",
+      "version": "1.5.5",
       "build_version": "1.5.5",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -1929,11 +1929,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "1.2.2",
       "build_version": "1.2.2",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Chisel Leaf",
@@ -1945,11 +1945,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "1.2.1",
       "build_version": "1.2.1",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Unnerfed Flowers",
@@ -1961,11 +1961,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "1.0.0",
       "build_version": "1.0.0",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "smithingplus",
