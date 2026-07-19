@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-230119",
+  "generated": "20260719-230319",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2123,12 +2123,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 69.2,
-        "blocksTravelled": 127165,
+        "playtimeHours": 69.3,
+        "blocksTravelled": 127414,
         "blocksBroken": 5122,
         "blocksPlaced": 393,
         "deepestY": 28,
-        "lastSeen": 1784494787,
+        "lastSeen": 1784494945,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2216,23 +2216,8 @@
           },
           {
             "slot": "bag-1",
-            "code": "game:cattailtops",
-            "name": "Cattails"
-          },
-          {
-            "slot": "bag-3",
-            "code": "game:flaxfibers",
-            "name": "Flax fibers"
-          },
-          {
-            "slot": "bag-4",
-            "code": "game:metalbit-copper",
-            "name": "Copper bits"
-          },
-          {
-            "slot": "bag-24",
-            "code": "game:lantern-large-up",
-            "name": "Large molybdochalkos lantern"
+            "code": "game:torch-basic-lit-up",
+            "name": "Torch"
           }
         ],
         "skin": {
@@ -2287,11 +2272,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 51.7,
-        "blocksTravelled": 66823,
+        "blocksTravelled": 66830,
         "blocksBroken": 1354,
         "blocksPlaced": 911,
         "deepestY": 67,
-        "lastSeen": 1784494787,
+        "lastSeen": 1784494945,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2419,6 +2404,16 @@
             "name": "Iron shovel head"
           },
           {
+            "slot": "bag-16",
+            "code": "game:scythehead-iron",
+            "name": "Iron scythe head"
+          },
+          {
+            "slot": "bag-17",
+            "code": "game:scythehead-iron",
+            "name": "Iron scythe head"
+          },
+          {
             "slot": "bag-18",
             "code": "game:shovelhead-iron",
             "name": "Iron shovel head"
@@ -2451,8 +2446,8 @@
         "class": "homesteader",
         "deaths": 22,
         "mobKills": 283,
-        "mealsEaten": 259,
-        "caloriesConsumed": 28394,
+        "mealsEaten": 261,
+        "caloriesConsumed": 28594,
         "lastMeal": "Parsnip",
         "mealsByName": {
           "Meat pie": 5,
@@ -2500,12 +2495,12 @@
           "Rice grain": 3,
           "Strawberry": 4,
           "Rye grain": 11,
-          "Parsnip": 8
+          "Parsnip": 10
         },
         "foodCatCounts": {
           "Grain": 55,
           "Protein": 14,
-          "Vegetable": 70,
+          "Vegetable": 72,
           "Fruit": 141,
           "Dairy": 10
         },
@@ -2518,11 +2513,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 85.5,
-        "blocksTravelled": 222658,
+        "blocksTravelled": 222952,
         "blocksBroken": 12750,
-        "blocksPlaced": 4311,
+        "blocksPlaced": 4312,
         "deepestY": 23,
-        "lastSeen": 1784494787,
+        "lastSeen": 1784494945,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2650,19 +2645,9 @@
             "name": "Low fertility soil"
           },
           {
-            "slot": "bag-7",
-            "code": "game:flower-redtopgrass-free",
-            "name": "Redtop grass"
-          },
-          {
             "slot": "bag-8",
             "code": "game:soil-low-none",
             "name": "Low fertility soil"
-          },
-          {
-            "slot": "bag-9",
-            "code": "game:vegetable-parsnip",
-            "name": "Parsnip"
           },
           {
             "slot": "bag-10",
