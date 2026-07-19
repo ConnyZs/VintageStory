@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-235122",
+  "generated": "20260719-235322",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2128,7 +2128,7 @@
         "blocksBroken": 5127,
         "blocksPlaced": 398,
         "deepestY": 28,
-        "lastSeen": 1784497789,
+        "lastSeen": 1784497976,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2280,12 +2280,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 52.5,
-        "blocksTravelled": 68284,
+        "playtimeHours": 52.6,
+        "blocksTravelled": 68384,
         "blocksBroken": 1354,
         "blocksPlaced": 911,
         "deepestY": 67,
-        "lastSeen": 1784497789,
+        "lastSeen": 1784497965,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2297,6 +2297,7 @@
           "Leather bracers",
           "Fur coat",
           "Tailored gambeson body armor",
+          "Weapon sling",
           "Bags belt",
           "Ammo pouch"
         ],
@@ -2360,6 +2361,11 @@
             "name": "Tailored gambeson body armor"
           },
           {
+            "slot": "",
+            "code": "quiversandsheaths:shoulderbag-rightleftfront-sling-firearms",
+            "name": "Weapon sling"
+          },
+          {
             "slot": "waistgear",
             "code": "quiversandsheaths:belt-waist-plain-general",
             "name": "Bags belt"
@@ -2371,71 +2377,66 @@
           },
           {
             "slot": "bag-1",
+            "code": "maltiezfirearms:firearm-arquebus-iron",
+            "name": "Arquebus"
+          },
+          {
+            "slot": "bag-3",
             "code": "maltiezfirearms:bullet-lead",
             "name": "Bullet (lead)"
           },
           {
-            "slot": "bag-2",
+            "slot": "bag-4",
             "code": "maltiezfirearms:linenpatch",
             "name": "Linen patch"
           },
           {
-            "slot": "bag-3",
+            "slot": "bag-5",
             "code": "maltiezfirearms:powderflask-iron",
             "name": "Powder flask"
           },
           {
-            "slot": "bag-6",
+            "slot": "bag-8",
             "code": "game:bandage-clean",
             "name": "Clean bandage"
           },
           {
-            "slot": "bag-8",
+            "slot": "bag-10",
             "code": "walkingstick:walkingstick-crude",
             "name": "Crude walking stick"
           },
           {
-            "slot": "bag-9",
+            "slot": "bag-11",
             "code": "game:saw-iron",
             "name": "Iron saw"
           },
           {
-            "slot": "bag-10",
+            "slot": "bag-12",
             "code": "game:wrench-copper",
             "name": "Copper wrench"
           },
           {
-            "slot": "bag-11",
+            "slot": "bag-13",
             "code": "game:peatbrick",
             "name": "Peat brick"
           },
           {
-            "slot": "bag-12",
+            "slot": "bag-14",
             "code": "game:soil-low-none",
             "name": "Low fertility soil"
           },
           {
-            "slot": "bag-13",
+            "slot": "bag-15",
             "code": "game:stick",
             "name": "Stick"
           },
           {
-            "slot": "bag-14",
+            "slot": "bag-16",
             "code": "game:clay-fire",
             "name": "Fire clay"
           },
           {
-            "slot": "bag-15",
-            "code": "quiversandsheaths:part-buckle-iron",
-            "name": "Buckle"
-          },
-          {
-            "slot": "bag-22",
-            "code": "game:bone",
-            "name": "Bone"
-          },
-          {
-            "slot": "bag-24",
+            "slot": "bag-26",
             "code": "game:metalbit-iron",
             "name": "Iron bits"
           }
