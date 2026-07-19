@@ -1,6 +1,6 @@
 {
  "Raschuetzer": {
-  "hash": "04d93509d7c46203d6bb86d521b0f66aa77ad202",
+  "hash": "d02efa2d7bfba2504a82d5d74471ed7f9a5e2172",
   "info": {
    "class": "tinker",
    "items": [
@@ -13,10 +13,10 @@
     "Embroidered tartar scarf",
     "Scarlet ornate linen tunic",
     "Scarlet ornate linen tunic",
-    "Marketeer pants",
+    "Prince breeches",
     "Thigh-high boots",
     "Laced handsome gloves",
-    "Forlorn Hope talisman",
+    "Deep noble amulet",
     "Cursed gemstone",
     "Malefactor whitewood mask",
     "Forlorn Hope belt",
@@ -24,11 +24,11 @@
     "Forgotten noble robe"
    ],
    "frames": 16,
-   "v": 1784495142
+   "v": 1784495261
   }
  },
  "Eghetti": {
-  "hash": "a022cc0dbcee05f78165880566c6b4f9f7f8d90f",
+  "hash": "d5ac48a6d1b80bd96052eaa3a8492d2a34e424c3",
   "info": {
    "class": "smith",
    "items": [
@@ -48,7 +48,7 @@
     "Fur coat"
    ],
    "frames": 16,
-   "v": 1784495161
+   "v": 1784495280
   }
  },
  "Moritz": {
@@ -75,7 +75,7 @@
   }
  },
  "AddyBuschu": {
-  "hash": "7e30ee3744f83f124046653158d5354252e321b8",
+  "hash": "2bd23e3d6be0301a2fe95e06f0c28705541c3779",
   "info": {
    "class": "homesteader",
    "items": [
@@ -100,7 +100,7 @@
     "Rotwalker coat"
    ],
    "frames": 16,
-   "v": 1784495183
+   "v": 1784495302
   }
  },
  "Barberschascher": {

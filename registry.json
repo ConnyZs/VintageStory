@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-230519",
+  "generated": "20260719-230720",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2128,15 +2128,15 @@
         "blocksBroken": 5123,
         "blocksPlaced": 394,
         "deepestY": 28,
-        "lastSeen": 1784495027,
+        "lastSeen": 1784495147,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
           "Scarlet ornate linen tunic",
-          "Marketeer pants",
+          "Prince breeches",
           "Thigh-high boots",
           "Laced handsome gloves",
-          "Forlorn Hope talisman",
+          "Deep noble amulet",
           "Cursed gemstone",
           "Malefactor whitewood mask",
           "Forlorn Hope belt",
@@ -2164,9 +2164,9 @@
           },
           {
             "slot": "lowerbody",
-            "code": "game:clothes-lowerbody-marketeer",
-            "name": "Marketeer pants",
-            "icon": "character/icons/lowerbody-marketeer.png"
+            "code": "game:clothes-lowerbody-prince-breeches",
+            "name": "Prince breeches",
+            "icon": "character/icons/lowerbody-prince-breeches.png"
           },
           {
             "slot": "foot",
@@ -2182,8 +2182,8 @@
           },
           {
             "slot": "neck",
-            "code": "game:clothes-neck-forlorn-talisman",
-            "name": "Forlorn Hope talisman"
+            "code": "game:clothes-neck-deep",
+            "name": "Deep noble amulet"
           },
           {
             "slot": "emblem",
@@ -2306,11 +2306,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 51.8,
-        "blocksTravelled": 66840,
+        "blocksTravelled": 66875,
         "blocksBroken": 1354,
         "blocksPlaced": 911,
         "deepestY": 67,
-        "lastSeen": 1784495027,
+        "lastSeen": 1784495147,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2434,8 +2434,8 @@
           },
           {
             "slot": "bag-12",
-            "code": "game:shovelhead-iron",
-            "name": "Iron shovel head"
+            "code": "game:shovel-iron",
+            "name": "Iron shovel"
           },
           {
             "slot": "bag-13",
@@ -2443,24 +2443,29 @@
             "name": "Peat brick"
           },
           {
-            "slot": "bag-15",
-            "code": "game:knifeblade-iron",
-            "name": "Iron knife blade"
+            "slot": "bag-20",
+            "code": "game:scythe-iron",
+            "name": "Iron scythe"
           },
           {
-            "slot": "bag-16",
-            "code": "game:scythehead-iron",
-            "name": "Iron scythe head"
+            "slot": "bag-21",
+            "code": "game:scythe-iron",
+            "name": "Iron scythe"
           },
           {
-            "slot": "bag-17",
-            "code": "game:scythehead-iron",
-            "name": "Iron scythe head"
+            "slot": "bag-22",
+            "code": "game:knife-generic-iron",
+            "name": "Iron knife"
           },
           {
-            "slot": "bag-18",
-            "code": "game:shovelhead-iron",
-            "name": "Iron shovel head"
+            "slot": "bag-23",
+            "code": "game:shovel-iron",
+            "name": "Iron shovel"
+          },
+          {
+            "slot": "bag-24",
+            "code": "game:shovel-iron",
+            "name": "Iron shovel"
           }
         ],
         "skin": {
@@ -2556,12 +2561,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 85.5,
-        "blocksTravelled": 223165,
-        "blocksBroken": 12751,
-        "blocksPlaced": 4314,
+        "playtimeHours": 85.6,
+        "blocksTravelled": 223338,
+        "blocksBroken": 12752,
+        "blocksPlaced": 4316,
         "deepestY": 23,
-        "lastSeen": 1784495027,
+        "lastSeen": 1784495147,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2717,6 +2722,11 @@
             "slot": "bag-12",
             "code": "game:gravel-andesite",
             "name": "Andesite gravel"
+          },
+          {
+            "slot": "bag-13",
+            "code": "game:wattlegate-sticks-n-closed-left-free",
+            "name": "Wattle gate"
           },
           {
             "slot": "bag-18",
