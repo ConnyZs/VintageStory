@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-223117",
+  "generated": "20260719-223318",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2123,12 +2123,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 68.7,
-        "blocksTravelled": 125810,
+        "playtimeHours": 68.8,
+        "blocksTravelled": 125964,
         "blocksBroken": 5115,
         "blocksPlaced": 371,
         "deepestY": 28,
-        "lastSeen": 1784492986,
+        "lastSeen": 1784493131,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2245,19 +2245,9 @@
             "name": "Peat brick"
           },
           {
-            "slot": "bag-7",
-            "code": "game:ore-lignite",
-            "name": "Brown coal"
-          },
-          {
             "slot": "bag-8",
             "code": "game:torch-basic-lit-up",
             "name": "Torch"
-          },
-          {
-            "slot": "bag-9",
-            "code": "game:ore-lignite",
-            "name": "Brown coal"
           },
           {
             "slot": "bag-10",
@@ -2293,11 +2283,6 @@
             "slot": "bag-19",
             "code": "game:quicklime",
             "name": "Quicklime"
-          },
-          {
-            "slot": "bag-20",
-            "code": "game:mortar",
-            "name": "Mortar"
           }
         ],
         "skin": {
@@ -2351,11 +2336,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 51.2,
-        "blocksTravelled": 66285,
+        "blocksTravelled": 66335,
         "blocksBroken": 1349,
         "blocksPlaced": 911,
         "deepestY": 67,
-        "lastSeen": 1784492986,
+        "lastSeen": 1784493131,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2476,6 +2461,16 @@
             "slot": "bag-10",
             "code": "game:metalbit-copper",
             "name": "Copper bits"
+          },
+          {
+            "slot": "bag-11",
+            "code": "game:tongsmetal-standard-tinbronze",
+            "name": "Tin bronze tongs"
+          },
+          {
+            "slot": "bag-12",
+            "code": "game:charcoal",
+            "name": "Charcoal"
           }
         ],
         "skin": {
@@ -2505,9 +2500,9 @@
         "class": "homesteader",
         "deaths": 22,
         "mobKills": 280,
-        "mealsEaten": 241,
-        "caloriesConsumed": 26994,
-        "lastMeal": "Strawberry",
+        "mealsEaten": 251,
+        "caloriesConsumed": 27594,
+        "lastMeal": "Rye grain",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2553,10 +2548,10 @@
           "Bearded tooth": 5,
           "Rice grain": 3,
           "Strawberry": 4,
-          "Rye grain": 1
+          "Rye grain": 11
         },
         "foodCatCounts": {
-          "Grain": 45,
+          "Grain": 55,
           "Protein": 14,
           "Vegetable": 62,
           "Fruit": 141,
@@ -2571,11 +2566,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 85.0,
-        "blocksTravelled": 220125,
+        "blocksTravelled": 220632,
         "blocksBroken": 12328,
         "blocksPlaced": 4087,
         "deepestY": 23,
-        "lastSeen": 1784492986,
+        "lastSeen": 1784493131,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2748,8 +2743,8 @@
           },
           {
             "slot": "bag-17",
-            "code": "game:fruit-strawberry",
-            "name": "Strawberry"
+            "code": "game:fruit-raspberry",
+            "name": "Raspberry"
           },
           {
             "slot": "bag-18",
