@@ -1,6 +1,6 @@
 {
  "Raschuetzer": {
-  "hash": "6673e7e4e495a159a9d17a8175a127ce82a370eb",
+  "hash": "04d93509d7c46203d6bb86d521b0f66aa77ad202",
   "info": {
    "class": "tinker",
    "items": [
@@ -20,15 +20,15 @@
     "Cursed gemstone",
     "Malefactor whitewood mask",
     "Forlorn Hope belt",
-    "Squire bracers",
+    "Silver bracelet",
     "Forgotten noble robe"
    ],
    "frames": 16,
-   "v": 1784495021
+   "v": 1784495142
   }
  },
  "Eghetti": {
-  "hash": "c9ce0b348b82bb74434bc9e03819321f63f5244c",
+  "hash": "a022cc0dbcee05f78165880566c6b4f9f7f8d90f",
   "info": {
    "class": "smith",
    "items": [
@@ -48,7 +48,7 @@
     "Fur coat"
    ],
    "frames": 16,
-   "v": 1784495039
+   "v": 1784495161
   }
  },
  "Moritz": {
@@ -75,7 +75,7 @@
   }
  },
  "AddyBuschu": {
-  "hash": "b88bc0b916da8463f5c343514e128f5d065ed025",
+  "hash": "7e30ee3744f83f124046653158d5354252e321b8",
   "info": {
    "class": "homesteader",
    "items": [
@@ -100,7 +100,7 @@
     "Rotwalker coat"
    ],
    "frames": 16,
-   "v": 1784495062
+   "v": 1784495183
   }
  },
  "Barberschascher": {

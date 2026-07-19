@@ -21,11 +21,11 @@
     "Cursed gemstone",
     "Malefactor whitewood mask",
     "Forlorn Hope belt",
-    "Squire bracers",
+    "Silver bracelet",
     "Forgotten noble robe"
    ],
    "frames": 16,
-   "v": 1784495021
+   "v": 1784495142
   },
   "Eghetti": {
    "class": "smith",
@@ -46,7 +46,7 @@
     "Fur coat"
    ],
    "frames": 16,
-   "v": 1784495039
+   "v": 1784495161
   },
   "AddyBuschu": {
    "class": "homesteader",
@@ -72,7 +72,7 @@
     "Rotwalker coat"
    ],
    "frames": 16,
-   "v": 1784495062
+   "v": 1784495183
   },
   "Moritz": {
    "class": "mason",

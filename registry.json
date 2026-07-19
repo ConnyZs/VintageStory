@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-230319",
+  "generated": "20260719-230519",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2124,11 +2124,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 69.3,
-        "blocksTravelled": 127414,
-        "blocksBroken": 5122,
-        "blocksPlaced": 393,
+        "blocksTravelled": 127501,
+        "blocksBroken": 5123,
+        "blocksPlaced": 394,
         "deepestY": 28,
-        "lastSeen": 1784494945,
+        "lastSeen": 1784495027,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2140,7 +2140,7 @@
           "Cursed gemstone",
           "Malefactor whitewood mask",
           "Forlorn Hope belt",
-          "Squire bracers",
+          "Silver bracelet",
           "Forgotten noble robe"
         ],
         "gearDetail": [
@@ -2204,9 +2204,8 @@
           },
           {
             "slot": "arm",
-            "code": "game:clothes-arm-squire-bracers",
-            "name": "Squire bracers",
-            "icon": "character/icons/arm-squire-bracers.png"
+            "code": "game:clothes-arm-silver-bracelet",
+            "name": "Silver bracelet"
           },
           {
             "slot": "upperbodyover",
@@ -2218,6 +2217,41 @@
             "slot": "bag-1",
             "code": "game:torch-basic-lit-up",
             "name": "Torch"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:blade-sabre-ruined",
+            "name": "Ruined sabre"
+          },
+          {
+            "slot": "bag-3",
+            "code": "game:blade-sabre-ruined",
+            "name": "Ruined sabre"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:knife-baselard-ruined",
+            "name": "Ruined baselard"
+          },
+          {
+            "slot": "bag-5",
+            "code": "game:blade-claymore-ruined",
+            "name": "Ruined claymore"
+          },
+          {
+            "slot": "bag-6",
+            "code": "game:blade-sabre-ruined",
+            "name": "Ruined sabre"
+          },
+          {
+            "slot": "bag-7",
+            "code": "game:spear-fork-ruined",
+            "name": "Ruined war fork"
+          },
+          {
+            "slot": "bag-11",
+            "code": "game:knife-baselard-ruined",
+            "name": "Ruined baselard"
           }
         ],
         "skin": {
@@ -2271,12 +2305,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 51.7,
-        "blocksTravelled": 66830,
+        "playtimeHours": 51.8,
+        "blocksTravelled": 66840,
         "blocksBroken": 1354,
         "blocksPlaced": 911,
         "deepestY": 67,
-        "lastSeen": 1784494945,
+        "lastSeen": 1784495027,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2404,6 +2438,16 @@
             "name": "Iron shovel head"
           },
           {
+            "slot": "bag-13",
+            "code": "game:peatbrick",
+            "name": "Peat brick"
+          },
+          {
+            "slot": "bag-15",
+            "code": "game:knifeblade-iron",
+            "name": "Iron knife blade"
+          },
+          {
             "slot": "bag-16",
             "code": "game:scythehead-iron",
             "name": "Iron scythe head"
@@ -2446,13 +2490,13 @@
         "class": "homesteader",
         "deaths": 22,
         "mobKills": 283,
-        "mealsEaten": 261,
-        "caloriesConsumed": 28594,
-        "lastMeal": "Parsnip",
+        "mealsEaten": 262,
+        "caloriesConsumed": 29056,
+        "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
-          "Earthy orange ceramic bowl of meat stew": 3,
+          "Earthy orange ceramic bowl of meat stew": 4,
           "Blueberry": 16,
           "Pear pie (charred)": 1,
           "Rye bread": 1,
@@ -2499,8 +2543,8 @@
         },
         "foodCatCounts": {
           "Grain": 55,
-          "Protein": 14,
-          "Vegetable": 72,
+          "Protein": 15,
+          "Vegetable": 73,
           "Fruit": 141,
           "Dairy": 10
         },
@@ -2513,11 +2557,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 85.5,
-        "blocksTravelled": 222952,
-        "blocksBroken": 12750,
-        "blocksPlaced": 4312,
+        "blocksTravelled": 223165,
+        "blocksBroken": 12751,
+        "blocksPlaced": 4314,
         "deepestY": 23,
-        "lastSeen": 1784494945,
+        "lastSeen": 1784495027,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2645,7 +2689,17 @@
             "name": "Low fertility soil"
           },
           {
+            "slot": "bag-7",
+            "code": "game:soil-medium-none",
+            "name": "Medium fertility soil"
+          },
+          {
             "slot": "bag-8",
+            "code": "game:soil-low-none",
+            "name": "Low fertility soil"
+          },
+          {
+            "slot": "bag-9",
             "code": "game:soil-low-none",
             "name": "Low fertility soil"
           },
@@ -2665,19 +2719,9 @@
             "name": "Andesite gravel"
           },
           {
-            "slot": "bag-13",
+            "slot": "bag-18",
             "code": "game:gravel-andesite",
             "name": "Andesite gravel"
-          },
-          {
-            "slot": "bag-14",
-            "code": "game:soil-medium-none",
-            "name": "Medium fertility soil"
-          },
-          {
-            "slot": "bag-15",
-            "code": "game:soil-low-none",
-            "name": "Low fertility soil"
           },
           {
             "slot": "bag-23",
