@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-213514",
+  "generated": "20260719-213714",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2123,12 +2123,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 67.8,
-        "blocksTravelled": 123883,
+        "playtimeHours": 67.9,
+        "blocksTravelled": 124000,
         "blocksBroken": 5113,
-        "blocksPlaced": 367,
+        "blocksPlaced": 369,
         "deepestY": 28,
-        "lastSeen": 1784489624,
+        "lastSeen": 1784489808,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2243,11 +2243,6 @@
             "slot": "bag-10",
             "code": "game:saw-tinbronze",
             "name": "Tin bronze saw"
-          },
-          {
-            "slot": "bag-11",
-            "code": "game:bookshelf",
-            "name": "Bookshelf"
           },
           {
             "slot": "bag-13",
@@ -2520,12 +2515,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 84.0,
-        "blocksTravelled": 212506,
-        "blocksBroken": 12200,
-        "blocksPlaced": 3970,
+        "playtimeHours": 84.1,
+        "blocksTravelled": 213233,
+        "blocksBroken": 12201,
+        "blocksPlaced": 3977,
         "deepestY": 23,
-        "lastSeen": 1784489624,
+        "lastSeen": 1784489808,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2613,6 +2608,11 @@
           {
             "slot": "bag-1",
             "code": "animalcages:mediumanimalcage-ceiling-closed-east",
+            "name": "Medium animal cage (closed)"
+          },
+          {
+            "slot": "bag-2",
+            "code": "animalcages:mediumanimalcage-floor-closed-north",
             "name": "Medium animal cage (closed)"
           },
           {
