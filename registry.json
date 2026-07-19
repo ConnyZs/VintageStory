@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-225919",
+  "generated": "20260719-230119",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2094,14 +2094,14 @@
         "name": "Raschuetzer",
         "class": "tinker",
         "deaths": 6,
-        "mobKills": 78,
-        "mealsEaten": 39,
-        "caloriesConsumed": 14288,
-        "lastMeal": "Red grapes",
+        "mobKills": 79,
+        "mealsEaten": 40,
+        "caloriesConsumed": 15050,
+        "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Pear": 3,
           "Meat pie": 5,
-          "Earthy orange ceramic bowl of meat stew": 10,
+          "Earthy orange ceramic bowl of meat stew": 11,
           "Strawberry": 2,
           "Blackcurrant": 3,
           "Rye bread": 1,
@@ -2114,8 +2114,8 @@
         "foodCatCounts": {
           "Fruit": 21,
           "Grain": 13,
-          "Protein": 18,
-          "Vegetable": 10,
+          "Protein": 19,
+          "Vegetable": 11,
           "Dairy": 8
         },
         "deathCauses": {
@@ -2124,11 +2124,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 69.2,
-        "blocksTravelled": 127042,
-        "blocksBroken": 5121,
-        "blocksPlaced": 390,
+        "blocksTravelled": 127165,
+        "blocksBroken": 5122,
+        "blocksPlaced": 393,
         "deepestY": 28,
-        "lastSeen": 1784494667,
+        "lastSeen": 1784494787,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2216,13 +2216,23 @@
           },
           {
             "slot": "bag-1",
-            "code": "game:torchholder-brass-empty-north",
-            "name": "Brass torch holder"
+            "code": "game:cattailtops",
+            "name": "Cattails"
           },
           {
-            "slot": "bag-2",
-            "code": "game:torch-basic-lit-up",
-            "name": "Torch"
+            "slot": "bag-3",
+            "code": "game:flaxfibers",
+            "name": "Flax fibers"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:metalbit-copper",
+            "name": "Copper bits"
+          },
+          {
+            "slot": "bag-24",
+            "code": "game:lantern-large-up",
+            "name": "Large molybdochalkos lantern"
           }
         ],
         "skin": {
@@ -2277,11 +2287,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 51.7,
-        "blocksTravelled": 66801,
+        "blocksTravelled": 66823,
         "blocksBroken": 1354,
         "blocksPlaced": 911,
         "deepestY": 67,
-        "lastSeen": 1784494667,
+        "lastSeen": 1784494787,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2404,24 +2414,14 @@
             "name": "Copper bits"
           },
           {
-            "slot": "bag-21",
-            "code": "game:workitem-iron",
-            "name": "Broken iron scythe head\n"
+            "slot": "bag-12",
+            "code": "game:shovelhead-iron",
+            "name": "Iron shovel head"
           },
           {
-            "slot": "bag-22",
-            "code": "game:workitem-iron",
-            "name": "Broken iron knife blade\n"
-          },
-          {
-            "slot": "bag-23",
-            "code": "game:workitem-iron",
-            "name": "Broken iron scythe head\n"
-          },
-          {
-            "slot": "bag-24",
-            "code": "game:workitem-iron",
-            "name": "Broken iron shovel head\n"
+            "slot": "bag-18",
+            "code": "game:shovelhead-iron",
+            "name": "Iron shovel head"
           }
         ],
         "skin": {
@@ -2450,10 +2450,10 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 22,
-        "mobKills": 281,
-        "mealsEaten": 251,
-        "caloriesConsumed": 27594,
-        "lastMeal": "Rye grain",
+        "mobKills": 283,
+        "mealsEaten": 259,
+        "caloriesConsumed": 28394,
+        "lastMeal": "Parsnip",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2499,12 +2499,13 @@
           "Bearded tooth": 5,
           "Rice grain": 3,
           "Strawberry": 4,
-          "Rye grain": 11
+          "Rye grain": 11,
+          "Parsnip": 8
         },
         "foodCatCounts": {
           "Grain": 55,
           "Protein": 14,
-          "Vegetable": 62,
+          "Vegetable": 70,
           "Fruit": 141,
           "Dairy": 10
         },
@@ -2516,12 +2517,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 85.4,
-        "blocksTravelled": 222455,
-        "blocksBroken": 12618,
-        "blocksPlaced": 4191,
+        "playtimeHours": 85.5,
+        "blocksTravelled": 222658,
+        "blocksBroken": 12750,
+        "blocksPlaced": 4311,
         "deepestY": 23,
-        "lastSeen": 1784494667,
+        "lastSeen": 1784494787,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
