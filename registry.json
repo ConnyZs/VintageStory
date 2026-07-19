@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-222917",
+  "generated": "20260719-223117",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2124,11 +2124,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 68.7,
-        "blocksTravelled": 125712,
+        "blocksTravelled": 125810,
         "blocksBroken": 5115,
         "blocksPlaced": 371,
         "deepestY": 28,
-        "lastSeen": 1784492866,
+        "lastSeen": 1784492986,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2275,9 +2275,14 @@
             "name": "Basic potion base"
           },
           {
+            "slot": "bag-13",
+            "code": "game:refractorybrickgrating-good-fire",
+            "name": "Fireclay brick grating"
+          },
+          {
             "slot": "bag-14",
-            "code": "game:mortar",
-            "name": "Mortar"
+            "code": "game:refractorybrickgrating-good-fire",
+            "name": "Fireclay brick grating"
           },
           {
             "slot": "bag-15",
@@ -2288,6 +2293,11 @@
             "slot": "bag-19",
             "code": "game:quicklime",
             "name": "Quicklime"
+          },
+          {
+            "slot": "bag-20",
+            "code": "game:mortar",
+            "name": "Mortar"
           }
         ],
         "skin": {
@@ -2341,11 +2351,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 51.2,
-        "blocksTravelled": 66229,
+        "blocksTravelled": 66285,
         "blocksBroken": 1349,
         "blocksPlaced": 911,
         "deepestY": 67,
-        "lastSeen": 1784492866,
+        "lastSeen": 1784492986,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2495,9 +2505,9 @@
         "class": "homesteader",
         "deaths": 22,
         "mobKills": 280,
-        "mealsEaten": 238,
-        "caloriesConsumed": 26754,
-        "lastMeal": "Rye grain",
+        "mealsEaten": 241,
+        "caloriesConsumed": 26994,
+        "lastMeal": "Strawberry",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2542,14 +2552,14 @@
           "Whitecurrant": 3,
           "Bearded tooth": 5,
           "Rice grain": 3,
-          "Strawberry": 1,
+          "Strawberry": 4,
           "Rye grain": 1
         },
         "foodCatCounts": {
           "Grain": 45,
           "Protein": 14,
           "Vegetable": 62,
-          "Fruit": 138,
+          "Fruit": 141,
           "Dairy": 10
         },
         "deathCauses": {
@@ -2560,12 +2570,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 84.9,
-        "blocksTravelled": 219790,
+        "playtimeHours": 85.0,
+        "blocksTravelled": 220125,
         "blocksBroken": 12328,
         "blocksPlaced": 4087,
         "deepestY": 23,
-        "lastSeen": 1784492866,
+        "lastSeen": 1784492986,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
