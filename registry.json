@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-195708",
+  "generated": "20260719-195908",
   "game_version": "1.22.3",
   "check_ts": "20260719-164831",
   "latest_engine": "1.22.3",
@@ -2123,11 +2123,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 66.9,
-        "blocksTravelled": 118018,
-        "blocksBroken": 4727,
+        "blocksTravelled": 118158,
+        "blocksBroken": 4775,
         "blocksPlaced": 344,
         "deepestY": 28,
-        "lastSeen": 1784483766,
+        "lastSeen": 1784483859,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2297,6 +2297,16 @@
             "slot": "bag-17",
             "code": "game:rot",
             "name": "Rot"
+          },
+          {
+            "slot": "bag-18",
+            "code": "game:ore-rich-galena-sandstone",
+            "name": "Rich chunk of Galena"
+          },
+          {
+            "slot": "bag-19",
+            "code": "game:stone-sandstone",
+            "name": "Sandstone stone"
           }
         ],
         "skin": {
@@ -2349,12 +2359,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 49.4,
-        "blocksTravelled": 59866,
-        "blocksBroken": 1315,
+        "playtimeHours": 49.5,
+        "blocksTravelled": 59944,
+        "blocksBroken": 1317,
         "blocksPlaced": 898,
         "deepestY": 67,
-        "lastSeen": 1784483766,
+        "lastSeen": 1784483859,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2520,6 +2530,11 @@
             "slot": "bag-19",
             "code": "game:ore-lignite",
             "name": "Brown coal"
+          },
+          {
+            "slot": "bag-20",
+            "code": "game:knife-generic-flint",
+            "name": "Flint knife"
           }
         ],
         "skin": {
@@ -2609,11 +2624,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 82.4,
-        "blocksTravelled": 196981,
+        "blocksTravelled": 197201,
         "blocksBroken": 12050,
         "blocksPlaced": 3936,
         "deepestY": 23,
-        "lastSeen": 1784483766,
+        "lastSeen": 1784483859,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
