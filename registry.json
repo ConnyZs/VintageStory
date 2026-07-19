@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-220716",
+  "generated": "20260719-220916",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2124,11 +2124,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 68.4,
-        "blocksTravelled": 124923,
+        "blocksTravelled": 125030,
         "blocksBroken": 5115,
         "blocksPlaced": 371,
         "deepestY": 28,
-        "lastSeen": 1784491621,
+        "lastSeen": 1784491665,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2245,6 +2245,11 @@
             "name": "Peat brick"
           },
           {
+            "slot": "bag-7",
+            "code": "game:stone-limestone",
+            "name": "Limestone stone"
+          },
+          {
             "slot": "bag-8",
             "code": "game:torch-basic-lit-up",
             "name": "Torch"
@@ -2320,7 +2325,7 @@
         "blocksBroken": 1349,
         "blocksPlaced": 911,
         "deepestY": 67,
-        "lastSeen": 1784491621,
+        "lastSeen": 1784491665,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2538,7 +2543,7 @@
         "blocksBroken": 12301,
         "blocksPlaced": 4086,
         "deepestY": 23,
-        "lastSeen": 1784491621,
+        "lastSeen": 1784491665,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
