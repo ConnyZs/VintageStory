@@ -75,7 +75,7 @@
   }
  },
  "AddyBuschu": {
-  "hash": "8146f94ee032169327542fa98a1878bc86401c2b",
+  "hash": "72daeaaef6f11614c9975a2a1ade9979eb7dadaa",
   "info": {
    "class": "homesteader",
    "items": [
@@ -91,14 +91,15 @@
     "Wool lined knee-high boots",
     "Survivor gloves",
     "Acorn amulet",
+    "Prince emblem",
     "Crow mask",
-    "Marketeer belt",
+    "Rotten king belt",
     "Leather bracers",
     "Rotwalker coat",
     "Rotwalker coat"
    ],
    "frames": 16,
-   "v": 1784491555
+   "v": 1784491658
   }
  },
  "Barberschascher": {

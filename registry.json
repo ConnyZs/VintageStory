@@ -1,5 +1,5 @@
 {
-  "generated": "20260719-220516",
+  "generated": "20260719-220716",
   "game_version": "1.22.3",
   "check_ts": "20260719-200117",
   "latest_engine": "1.22.3",
@@ -2123,12 +2123,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 68.3,
+        "playtimeHours": 68.4,
         "blocksTravelled": 124923,
         "blocksBroken": 5115,
         "blocksPlaced": 371,
         "deepestY": 28,
-        "lastSeen": 1784491425,
+        "lastSeen": 1784491621,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2316,11 +2316,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 50.8,
-        "blocksTravelled": 66206,
+        "blocksTravelled": 66221,
         "blocksBroken": 1349,
         "blocksPlaced": 911,
         "deepestY": 67,
-        "lastSeen": 1784491425,
+        "lastSeen": 1784491621,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2470,9 +2470,9 @@
         "class": "homesteader",
         "deaths": 22,
         "mobKills": 280,
-        "mealsEaten": 231,
-        "caloriesConsumed": 26259,
-        "lastMeal": "Blackberry",
+        "mealsEaten": 234,
+        "caloriesConsumed": 26484,
+        "lastMeal": "Rice grain",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2515,10 +2515,11 @@
           "Gold-drop milkcap": 1,
           "Red grapes": 5,
           "Whitecurrant": 3,
-          "Bearded tooth": 5
+          "Bearded tooth": 5,
+          "Rice grain": 3
         },
         "foodCatCounts": {
-          "Grain": 40,
+          "Grain": 43,
           "Protein": 14,
           "Vegetable": 61,
           "Fruit": 137,
@@ -2532,12 +2533,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 84.5,
-        "blocksTravelled": 217380,
-        "blocksBroken": 12288,
-        "blocksPlaced": 4079,
+        "playtimeHours": 84.6,
+        "blocksTravelled": 217461,
+        "blocksBroken": 12301,
+        "blocksPlaced": 4086,
         "deepestY": 23,
-        "lastSeen": 1784491425,
+        "lastSeen": 1784491621,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2545,8 +2546,9 @@
           "Wool lined knee-high boots",
           "Survivor gloves",
           "Acorn amulet",
+          "Prince emblem",
           "Crow mask",
-          "Marketeer belt",
+          "Rotten king belt",
           "Leather bracers",
           "Rotwalker coat",
           "Black bear hide helmet",
@@ -2589,6 +2591,11 @@
             "name": "Acorn amulet"
           },
           {
+            "slot": "emblem",
+            "code": "game:clothes-emblem-royal-pin",
+            "name": "Prince emblem"
+          },
+          {
             "slot": "face",
             "code": "game:clothes-face-crow",
             "name": "Crow mask",
@@ -2596,9 +2603,9 @@
           },
           {
             "slot": "waist",
-            "code": "game:clothes-waist-marketeer",
-            "name": "Marketeer belt",
-            "icon": "character/icons/waist-marketeer.png"
+            "code": "game:clothes-waist-rottenking",
+            "name": "Rotten king belt",
+            "icon": "character/icons/waist-rottenking.png"
           },
           {
             "slot": "arm",
@@ -2669,8 +2676,8 @@
           },
           {
             "slot": "bag-10",
-            "code": "game:stone-sandstone",
-            "name": "Sandstone stone"
+            "code": "game:fruit-strawberry",
+            "name": "Strawberry"
           },
           {
             "slot": "bag-11",
@@ -2679,23 +2686,23 @@
           },
           {
             "slot": "bag-12",
-            "code": "game:mushroom-golddropmilkcap-normal",
-            "name": "Gold-drop milkcap"
+            "code": "game:fruit-blackberry",
+            "name": "Blackberry"
           },
           {
             "slot": "bag-13",
+            "code": "game:grain-flax",
+            "name": "Flax grain"
+          },
+          {
+            "slot": "bag-14",
             "code": "game:fruit-redcurrant",
             "name": "Redcurrant"
           },
           {
-            "slot": "bag-14",
-            "code": "game:seeds-turnip",
-            "name": "Turnip seeds"
-          },
-          {
             "slot": "bag-15",
-            "code": "game:soil-medium-none",
-            "name": "Medium fertility soil"
+            "code": "game:chiseledblock",
+            "name": "Aged cast iron furnace"
           },
           {
             "slot": "bag-16",
@@ -2709,23 +2716,18 @@
           },
           {
             "slot": "bag-18",
-            "code": "game:fruit-strawberry",
-            "name": "Strawberry"
+            "code": "game:seeds-rice",
+            "name": "Rice seeds"
           },
           {
             "slot": "bag-19",
-            "code": "game:chiseledblock",
-            "name": "Furnace"
+            "code": "game:soil-medium-none",
+            "name": "Medium fertility soil"
           },
           {
             "slot": "bag-20",
-            "code": "game:chiseledblock",
-            "name": "Furnace"
-          },
-          {
-            "slot": "bag-21",
-            "code": "game:crock-blue-fired",
-            "name": "Earthy brown ceramic crock"
+            "code": "game:seeds-turnip",
+            "name": "Turnip seeds"
           },
           {
             "slot": "bag-22",
