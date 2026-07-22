@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-221254",
+  "generated": "20260722-221454",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2124,12 +2124,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 72.8,
-        "blocksTravelled": 143201,
+        "playtimeHours": 72.9,
+        "blocksTravelled": 143286,
         "blocksBroken": 6442,
         "blocksPlaced": 423,
         "deepestY": 18,
-        "lastSeen": 1784751089,
+        "lastSeen": 1784751231,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2459,9 +2459,9 @@
         "class": "homesteader",
         "deaths": 22,
         "mobKills": 295,
-        "mealsEaten": 302,
-        "caloriesConsumed": 33524,
-        "lastMeal": "Red grapes",
+        "mealsEaten": 304,
+        "caloriesConsumed": 33684,
+        "lastMeal": "Tinder hoof",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2481,7 +2481,7 @@
           "Field mushroom": 1,
           "Turnip": 6,
           "Puffball": 4,
-          "Tinder hoof": 1,
+          "Tinder hoof": 3,
           "Raspberry": 6,
           "Flax grain": 30,
           "Dryad saddle": 3,
@@ -2513,7 +2513,7 @@
         "foodCatCounts": {
           "Grain": 59,
           "Protein": 21,
-          "Vegetable": 84,
+          "Vegetable": 86,
           "Fruit": 166,
           "Dairy": 10
         },
@@ -2525,12 +2525,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 156.6,
-        "blocksTravelled": 246297,
-        "blocksBroken": 15727,
-        "blocksPlaced": 5365,
+        "playtimeHours": 156.7,
+        "blocksTravelled": 246623,
+        "blocksBroken": 15729,
+        "blocksPlaced": 5366,
         "deepestY": 23,
-        "lastSeen": 1784751089,
+        "lastSeen": 1784751231,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
