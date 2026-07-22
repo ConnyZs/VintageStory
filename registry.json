@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-191643",
+  "generated": "20260722-191843",
   "game_version": "1.22.3",
   "check_ts": "20260721-200056",
   "latest_engine": "1.22.5",
@@ -2124,12 +2124,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 71.0,
-        "blocksTravelled": 131011,
+        "playtimeHours": 71.1,
+        "blocksTravelled": 131505,
         "blocksBroken": 5127,
         "blocksPlaced": 398,
         "deepestY": 28,
-        "lastSeen": 1784740522,
+        "lastSeen": 1784740661,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2213,16 +2213,6 @@
             "code": "game:clothes-upperbodyover-forgotten",
             "name": "Forgotten noble robe",
             "icon": "character/icons/upperbodyover-forgotten.png"
-          },
-          {
-            "slot": "bag-1",
-            "code": "alchemy:potionflask-tube-quartz",
-            "name": "Small potion flask"
-          },
-          {
-            "slot": "bag-3",
-            "code": "game:lantern-large-up",
-            "name": "Large molybdochalkos lantern"
           }
         ],
         "skin": {
@@ -2463,7 +2453,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 22,
-        "mobKills": 285,
+        "mobKills": 286,
         "mealsEaten": 268,
         "caloriesConsumed": 30904,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
@@ -2531,11 +2521,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 153.7,
-        "blocksTravelled": 226847,
-        "blocksBroken": 12770,
+        "blocksTravelled": 227364,
+        "blocksBroken": 12774,
         "blocksPlaced": 4331,
         "deepestY": 23,
-        "lastSeen": 1784740522,
+        "lastSeen": 1784740661,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2661,6 +2651,11 @@
             "slot": "bag-6",
             "code": "game:backpack-normal",
             "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-19",
+            "code": "butchering:deadwolf-male-eurasian-10-dead",
+            "name": "Wolf (dead)"
           }
         ],
         "skin": {
