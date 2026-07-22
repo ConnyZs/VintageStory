@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-193844",
+  "generated": "20260722-194044",
   "game_version": "1.22.3",
   "check_ts": "20260721-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 71.4,
-        "blocksTravelled": 133571,
-        "blocksBroken": 5684,
+        "blocksTravelled": 133595,
+        "blocksBroken": 5765,
         "blocksPlaced": 404,
-        "deepestY": 23,
-        "lastSeen": 1784741868,
+        "deepestY": 18,
+        "lastSeen": 1784741963,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2316,6 +2316,21 @@
           },
           {
             "slot": "bag-21",
+            "code": "game:stone-andesite",
+            "name": "Andesite stone"
+          },
+          {
+            "slot": "bag-22",
+            "code": "game:ore-cinnabar",
+            "name": "Cinnabar"
+          },
+          {
+            "slot": "bag-23",
+            "code": "game:stone-andesite",
+            "name": "Andesite stone"
+          },
+          {
+            "slot": "bag-24",
             "code": "game:stone-andesite",
             "name": "Andesite stone"
           }
@@ -2626,11 +2641,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 154.1,
-        "blocksTravelled": 230877,
+        "blocksTravelled": 230986,
         "blocksBroken": 12800,
         "blocksPlaced": 4342,
         "deepestY": 23,
-        "lastSeen": 1784741868,
+        "lastSeen": 1784741963,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2786,26 +2801,6 @@
             "slot": "bag-12",
             "code": "game:seeds-turnip",
             "name": "Turnip seeds"
-          },
-          {
-            "slot": "bag-19",
-            "code": "butchering:deadwolf-male-eurasian-10-dead",
-            "name": "Wolf (dead)"
-          },
-          {
-            "slot": "bag-20",
-            "code": "butchering:deadwolf-male-eurasian-2-dead",
-            "name": "Wolf (dead)"
-          },
-          {
-            "slot": "bag-21",
-            "code": "butchering:deadpanthera-female-1-dead",
-            "name": "Panthera (dead)"
-          },
-          {
-            "slot": "bag-22",
-            "code": "butchering:deadpanthera-female-1-dead",
-            "name": "Panthera (dead)"
           }
         ],
         "skin": {
@@ -3084,12 +3079,12 @@
           "shiver-deepsplit": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 11.1,
-        "blocksTravelled": 19202,
+        "playtimeHours": 11.2,
+        "blocksTravelled": 19255,
         "blocksBroken": 719,
         "blocksPlaced": 374,
         "deepestY": 100,
-        "lastSeen": 1784741868,
+        "lastSeen": 1784741963,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
@@ -3244,11 +3239,6 @@
             "slot": "bag-20",
             "code": "game:instrument-flute1",
             "name": "Bone flute"
-          },
-          {
-            "slot": "bag-22",
-            "code": "game:cobblestone-conglomerate",
-            "name": "Conglomerate cobblestone"
           },
           {
             "slot": "bag-23",
