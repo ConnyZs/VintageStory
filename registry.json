@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-210249",
+  "generated": "20260722-210450",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2526,11 +2526,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 155.5,
-        "blocksTravelled": 237940,
-        "blocksBroken": 15303,
+        "blocksTravelled": 238115,
+        "blocksBroken": 15407,
         "blocksPlaced": 5336,
         "deepestY": 23,
-        "lastSeen": 1784746886,
+        "lastSeen": 1784747007,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2649,8 +2649,8 @@
           },
           {
             "slot": "bag-5",
-            "code": "game:soil-low-none",
-            "name": "Low fertility soil"
+            "code": "game:soil-medium-none",
+            "name": "Medium fertility soil"
           },
           {
             "slot": "bag-6",
@@ -2684,8 +2684,8 @@
           },
           {
             "slot": "bag-12",
-            "code": "game:soil-medium-none",
-            "name": "Medium fertility soil"
+            "code": "game:workitem-iron",
+            "name": "Broken iron shovel head\n"
           },
           {
             "slot": "bag-13",
@@ -2694,8 +2694,8 @@
           },
           {
             "slot": "bag-14",
-            "code": "game:soil-low-none",
-            "name": "Low fertility soil"
+            "code": "game:soil-medium-none",
+            "name": "Medium fertility soil"
           },
           {
             "slot": "bag-15",
@@ -2716,21 +2716,6 @@
             "slot": "bag-18",
             "code": "game:soil-medium-none",
             "name": "Medium fertility soil"
-          },
-          {
-            "slot": "bag-19",
-            "code": "game:soil-low-none",
-            "name": "Low fertility soil"
-          },
-          {
-            "slot": "bag-20",
-            "code": "game:soil-low-none",
-            "name": "Low fertility soil"
-          },
-          {
-            "slot": "bag-21",
-            "code": "game:soil-low-none",
-            "name": "Low fertility soil"
           },
           {
             "slot": "bag-22",
@@ -3014,12 +2999,12 @@
           "shiver-deepsplit": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 12.5,
-        "blocksTravelled": 20824,
+        "playtimeHours": 12.6,
+        "blocksTravelled": 20882,
         "blocksBroken": 754,
         "blocksPlaced": 430,
         "deepestY": 100,
-        "lastSeen": 1784746886,
+        "lastSeen": 1784747007,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
@@ -3120,6 +3105,11 @@
             "slot": "bag-6",
             "code": "tailorsdelight:awl-iron",
             "name": "Iron stitching awl"
+          },
+          {
+            "slot": "bag-7",
+            "code": "game:seeds-soybean",
+            "name": "Soybean seeds"
           },
           {
             "slot": "bag-9",
