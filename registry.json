@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-210450",
+  "generated": "20260722-210650",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2526,11 +2526,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 155.5,
-        "blocksTravelled": 238115,
-        "blocksBroken": 15407,
+        "blocksTravelled": 238194,
+        "blocksBroken": 15492,
         "blocksPlaced": 5336,
         "deepestY": 23,
-        "lastSeen": 1784747007,
+        "lastSeen": 1784747127,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -3000,11 +3000,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 12.6,
-        "blocksTravelled": 20882,
+        "blocksTravelled": 20916,
         "blocksBroken": 754,
         "blocksPlaced": 430,
         "deepestY": 100,
-        "lastSeen": 1784747007,
+        "lastSeen": 1784747127,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
@@ -3105,11 +3105,6 @@
             "slot": "bag-6",
             "code": "tailorsdelight:awl-iron",
             "name": "Iron stitching awl"
-          },
-          {
-            "slot": "bag-7",
-            "code": "game:seeds-soybean",
-            "name": "Soybean seeds"
           },
           {
             "slot": "bag-9",
