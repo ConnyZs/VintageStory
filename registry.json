@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-204048",
+  "generated": "20260722-204248",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2124,12 +2124,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 72.4,
-        "blocksTravelled": 142584,
+        "playtimeHours": 72.5,
+        "blocksTravelled": 142776,
         "blocksBroken": 6442,
         "blocksPlaced": 422,
         "deepestY": 18,
-        "lastSeen": 1784745566,
+        "lastSeen": 1784745686,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2218,16 +2218,6 @@
             "slot": "bag-1",
             "code": "walkingstick:walkingstick-pathfinder",
             "name": "Pathfinder's walking stick"
-          },
-          {
-            "slot": "bag-2",
-            "code": "game:pickaxe-iron",
-            "name": "Iron pickaxe"
-          },
-          {
-            "slot": "bag-4",
-            "code": "game:gear-rusty",
-            "name": "Rusty gear"
           }
         ],
         "skin": {
@@ -2536,11 +2526,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 155.1,
-        "blocksTravelled": 236437,
-        "blocksBroken": 14055,
+        "blocksTravelled": 236566,
+        "blocksBroken": 14073,
         "blocksPlaced": 5036,
         "deepestY": 23,
-        "lastSeen": 1784745566,
+        "lastSeen": 1784745686,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2920,12 +2910,13 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 12.2,
-        "blocksTravelled": 20418,
+        "blocksTravelled": 20545,
         "blocksBroken": 749,
         "blocksPlaced": 421,
         "deepestY": 100,
-        "lastSeen": 1784745566,
+        "lastSeen": 1784745686,
         "gear": [
+          "Mooncloth robe",
           "Tailor blouse",
           "Tailor trousers",
           "Tailor shoes",
@@ -2937,6 +2928,12 @@
           "Tailored gamboised leg armor"
         ],
         "gearDetail": [
+          {
+            "slot": "shoulder",
+            "code": "game:clothes-shoulder-mooncloth-robe",
+            "name": "Mooncloth robe",
+            "icon": "character/icons/shoulder-mooncloth-robe.png"
+          },
           {
             "slot": "upperbody",
             "code": "game:clothes-upperbody-tailor-blouse",
@@ -2991,9 +2988,8 @@
           },
           {
             "slot": "bag-1",
-            "code": "game:clothes-shoulder-mooncloth-robe",
-            "name": "Mooncloth robe",
-            "icon": "character/icons/shoulder-mooncloth-robe.png"
+            "code": "game:metalnailsandstrips-copper",
+            "name": "Nails and strips (Copper)"
           },
           {
             "slot": "bag-2",
