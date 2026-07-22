@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-215052",
+  "generated": "20260722-215253",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2459,9 +2459,9 @@
         "class": "homesteader",
         "deaths": 22,
         "mobKills": 295,
-        "mealsEaten": 298,
-        "caloriesConsumed": 33204,
-        "lastMeal": "Green grapes",
+        "mealsEaten": 302,
+        "caloriesConsumed": 33524,
+        "lastMeal": "Red grapes",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2502,7 +2502,7 @@
           "Chicken of the woods": 2,
           "Fennel": 2,
           "Gold-drop milkcap": 1,
-          "Red grapes": 14,
+          "Red grapes": 18,
           "Whitecurrant": 3,
           "Bearded tooth": 5,
           "Rice grain": 3,
@@ -2514,7 +2514,7 @@
           "Grain": 59,
           "Protein": 21,
           "Vegetable": 84,
-          "Fruit": 162,
+          "Fruit": 166,
           "Dairy": 10
         },
         "deathCauses": {
@@ -2526,11 +2526,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 156.3,
-        "blocksTravelled": 244037,
-        "blocksBroken": 15711,
+        "blocksTravelled": 244395,
+        "blocksBroken": 15723,
         "blocksPlaced": 5342,
         "deepestY": 23,
-        "lastSeen": 1784749768,
+        "lastSeen": 1784749888,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2706,6 +2706,16 @@
             "slot": "bag-19",
             "code": "game:fruitingbushcutting-redgrapes-free",
             "name": "game:block-fruitingbushcutting-redgrapes-free"
+          },
+          {
+            "slot": "bag-20",
+            "code": "game:fruitingbushcutting-redgrapes-free",
+            "name": "game:block-fruitingbushcutting-redgrapes-free"
+          },
+          {
+            "slot": "bag-21",
+            "code": "game:fruitingbushcutting-greengrapes-free",
+            "name": "game:block-fruitingbushcutting-greengrapes-free"
           },
           {
             "slot": "bag-22",
