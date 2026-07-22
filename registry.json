@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-190842",
+  "generated": "20260722-191043",
   "game_version": "1.22.3",
   "check_ts": "20260721-200056",
   "latest_engine": "1.22.5",
@@ -2128,7 +2128,7 @@
         "blocksBroken": 5127,
         "blocksPlaced": 398,
         "deepestY": 28,
-        "lastSeen": 1784740057,
+        "lastSeen": 1784740161,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2530,11 +2530,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 153.6,
-        "blocksTravelled": 225988,
+        "blocksTravelled": 226154,
         "blocksBroken": 12770,
         "blocksPlaced": 4330,
         "deepestY": 23,
-        "lastSeen": 1784740057,
+        "lastSeen": 1784740161,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2655,6 +2655,11 @@
             "slot": "bag-5",
             "code": "alchemy:potionflask-tube-quartz",
             "name": "Small potion flask"
+          },
+          {
+            "slot": "bag-17",
+            "code": "game:lime",
+            "name": "Lime"
           }
         ],
         "skin": {
