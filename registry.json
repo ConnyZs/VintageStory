@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-194845",
+  "generated": "20260722-195045",
   "game_version": "1.22.3",
   "check_ts": "20260721-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 71.6,
-        "blocksTravelled": 134681,
-        "blocksBroken": 5911,
+        "blocksTravelled": 134911,
+        "blocksBroken": 5920,
         "blocksPlaced": 406,
         "deepestY": 18,
-        "lastSeen": 1784742473,
+        "lastSeen": 1784742563,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2640,12 +2640,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 154.2,
-        "blocksTravelled": 232327,
-        "blocksBroken": 12828,
-        "blocksPlaced": 4346,
+        "playtimeHours": 154.3,
+        "blocksTravelled": 232672,
+        "blocksBroken": 12832,
+        "blocksPlaced": 4354,
         "deepestY": 23,
-        "lastSeen": 1784742473,
+        "lastSeen": 1784742563,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2818,37 +2818,12 @@
             "name": "Gravestone"
           },
           {
-            "slot": "bag-17",
-            "code": "game:chiseledblock",
-            "name": "Gravestone"
-          },
-          {
-            "slot": "bag-18",
-            "code": "game:chiseledblock",
-            "name": "Gravestone"
-          },
-          {
             "slot": "bag-19",
             "code": "game:chiseledblock",
             "name": "Gravestone"
           },
           {
             "slot": "bag-20",
-            "code": "game:chiseledblock",
-            "name": "Gravestone"
-          },
-          {
-            "slot": "bag-21",
-            "code": "game:chiseledblock",
-            "name": "Gravestone"
-          },
-          {
-            "slot": "bag-22",
-            "code": "game:chiseledblock",
-            "name": "Gravestone"
-          },
-          {
-            "slot": "bag-23",
             "code": "game:chiseledblock",
             "name": "Gravestone"
           },
@@ -3135,11 +3110,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 11.3,
-        "blocksTravelled": 19393,
+        "blocksTravelled": 19440,
         "blocksBroken": 729,
         "blocksPlaced": 389,
         "deepestY": 100,
-        "lastSeen": 1784742473,
+        "lastSeen": 1784742563,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
@@ -3291,14 +3266,14 @@
             "name": "Bone flute"
           },
           {
+            "slot": "bag-21",
+            "code": "ndlwoodentorchholder:woodenholder-oak",
+            "name": "Wooden Torch Holder (Oak)"
+          },
+          {
             "slot": "bag-22",
             "code": "game:cobblestonestairs-andesite-up-north-free",
             "name": "Andesite cobblestone stairs"
-          },
-          {
-            "slot": "bag-23",
-            "code": "game:stone-peridotite",
-            "name": "Peridotite stone"
           },
           {
             "slot": "bag-24",
