@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-214852",
+  "generated": "20260722-215052",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2526,11 +2526,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 156.3,
-        "blocksTravelled": 243917,
-        "blocksBroken": 15702,
+        "blocksTravelled": 244037,
+        "blocksBroken": 15711,
         "blocksPlaced": 5342,
         "deepestY": 23,
-        "lastSeen": 1784749721,
+        "lastSeen": 1784749768,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
