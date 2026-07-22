@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-221654",
+  "generated": "20260722-221854",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 72.9,
-        "blocksTravelled": 143931,
+        "blocksTravelled": 145151,
         "blocksBroken": 6442,
         "blocksPlaced": 423,
         "deepestY": 18,
-        "lastSeen": 1784751329,
+        "lastSeen": 1784751533,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2458,7 +2458,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 22,
-        "mobKills": 295,
+        "mobKills": 296,
         "mealsEaten": 304,
         "caloriesConsumed": 33684,
         "lastMeal": "Tinder hoof",
@@ -2525,12 +2525,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 156.7,
-        "blocksTravelled": 246892,
+        "playtimeHours": 156.8,
+        "blocksTravelled": 247474,
         "blocksBroken": 15729,
         "blocksPlaced": 5366,
         "deepestY": 23,
-        "lastSeen": 1784751329,
+        "lastSeen": 1784751533,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2629,13 +2629,8 @@
           },
           {
             "slot": "bag-1",
-            "code": "alchemy:potionflask-tube-quartz",
-            "name": "Small potion flask"
-          },
-          {
-            "slot": "bag-2",
-            "code": "game:knife-generic-tinbronze",
-            "name": "Tin bronze knife"
+            "code": "game:fruitingbushcutting-strawberry-free",
+            "name": "Strawberry runner"
           },
           {
             "slot": "bag-3",
@@ -2643,9 +2638,44 @@
             "name": "Blackberry cutting"
           },
           {
+            "slot": "bag-4",
+            "code": "alchemy:potionflask-tube-quartz",
+            "name": "Small potion flask"
+          },
+          {
+            "slot": "bag-5",
+            "code": "alchemy:potionflask-tube-quartz",
+            "name": "Small potion flask"
+          },
+          {
             "slot": "bag-6",
-            "code": "butchering:butcherybag-standard",
-            "name": "Hide Butchering Bag"
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-7",
+            "code": "game:fruitingbushcutting-strawberry-free",
+            "name": "Strawberry runner"
+          },
+          {
+            "slot": "bag-8",
+            "code": "game:fruitingbushcutting-strawberry-free",
+            "name": "Strawberry runner"
+          },
+          {
+            "slot": "bag-9",
+            "code": "game:fruitingbushcutting-blackberry-free",
+            "name": "Blackberry cutting"
+          },
+          {
+            "slot": "bag-10",
+            "code": "game:resin",
+            "name": "Resin"
+          },
+          {
+            "slot": "bag-19",
+            "code": "butchering:deadwolf-male-eurasian-7-dead",
+            "name": "Wolf (dead)"
           }
         ],
         "skin": {
