@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-195645",
+  "generated": "20260722-195845",
   "game_version": "1.22.3",
   "check_ts": "20260721-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 71.7,
-        "blocksTravelled": 135657,
+        "blocksTravelled": 135701,
         "blocksBroken": 5920,
         "blocksPlaced": 406,
         "deepestY": 18,
-        "lastSeen": 1784742924,
+        "lastSeen": 1784743077,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2531,11 +2531,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 154.4,
-        "blocksTravelled": 233047,
-        "blocksBroken": 12957,
-        "blocksPlaced": 4407,
+        "blocksTravelled": 233085,
+        "blocksBroken": 13070,
+        "blocksPlaced": 4463,
         "deepestY": 23,
-        "lastSeen": 1784742924,
+        "lastSeen": 1784743077,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2676,6 +2676,16 @@
             "slot": "bag-9",
             "code": "game:stone-andesite",
             "name": "Andesite stone"
+          },
+          {
+            "slot": "bag-10",
+            "code": "game:soil-medium-none",
+            "name": "Medium fertility soil"
+          },
+          {
+            "slot": "bag-11",
+            "code": "game:cobblestonestairs-andesite-up-north-free",
+            "name": "Andesite cobblestone stairs"
           }
         ],
         "skin": {
@@ -2954,12 +2964,12 @@
           "shiver-deepsplit": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 11.4,
-        "blocksTravelled": 19655,
-        "blocksBroken": 729,
-        "blocksPlaced": 390,
+        "playtimeHours": 11.5,
+        "blocksTravelled": 19719,
+        "blocksBroken": 744,
+        "blocksPlaced": 394,
         "deepestY": 100,
-        "lastSeen": 1784742924,
+        "lastSeen": 1784743077,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
@@ -3064,16 +3074,6 @@
             "slot": "bag-8",
             "code": "game:mannequin-reed-complete",
             "name": "Full body mannequin (reed)"
-          },
-          {
-            "slot": "bag-9",
-            "code": "game:metalnailsandstrips-copper",
-            "name": "Nails and strips (Copper)"
-          },
-          {
-            "slot": "bag-10",
-            "code": "game:stick",
-            "name": "Stick"
           },
           {
             "slot": "bag-11",
