@@ -75,7 +75,7 @@
   }
  },
  "AddyBuschu": {
-  "hash": "4e362a156a892717afd18f174fc0440f2ed1b49b",
+  "hash": "efa033c5956c8765dbca9b1b008a51250c0a99f2",
   "info": {
    "class": "homesteader",
    "items": [
@@ -100,7 +100,7 @@
     "Rotwalker coat"
    ],
    "frames": 16,
-   "v": 1784747832
+   "v": 1784747952
   }
  },
  "Barberschascher": {
@@ -126,7 +126,7 @@
   }
  },
  "Morsel": {
-  "hash": "8c4ceb86c8e3bb82722a317a186a8d2896eb1ae6",
+  "hash": "5d4aeabfb163e13e28af678c71076e1f8421acc7",
   "info": {
    "class": "tailor",
    "items": [
@@ -147,7 +147,7 @@
     "Tailor jacket"
    ],
    "frames": 16,
-   "v": 1784747731
+   "v": 1784747971
   }
  }
 }
