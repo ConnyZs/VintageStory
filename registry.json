@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-203648",
+  "generated": "20260722-203848",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 72.4,
-        "blocksTravelled": 142170,
+        "blocksTravelled": 142553,
         "blocksBroken": 6442,
         "blocksPlaced": 422,
         "deepestY": 18,
-        "lastSeen": 1784745325,
+        "lastSeen": 1784745493,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2225,34 +2225,9 @@
             "name": "Iron pickaxe"
           },
           {
-            "slot": "bag-3",
-            "code": "game:stone-conglomerate",
-            "name": "Conglomerate stone"
-          },
-          {
             "slot": "bag-4",
             "code": "game:gear-rusty",
             "name": "Rusty gear"
-          },
-          {
-            "slot": "bag-5",
-            "code": "game:stone-granite",
-            "name": "Granite stone"
-          },
-          {
-            "slot": "bag-6",
-            "code": "game:stone-conglomerate",
-            "name": "Conglomerate stone"
-          },
-          {
-            "slot": "bag-7",
-            "code": "game:stone-conglomerate",
-            "name": "Conglomerate stone"
-          },
-          {
-            "slot": "bag-8",
-            "code": "game:ore-rich-galena-sandstone",
-            "name": "Rich chunk of Galena"
           },
           {
             "slot": "bag-9",
@@ -2270,69 +2245,9 @@
             "name": "Saltpeter"
           },
           {
-            "slot": "bag-12",
-            "code": "game:beeswax",
-            "name": "Beeswax"
-          },
-          {
-            "slot": "bag-13",
-            "code": "game:stone-limestone",
-            "name": "Limestone stone"
-          },
-          {
-            "slot": "bag-14",
-            "code": "game:stone-conglomerate",
-            "name": "Conglomerate stone"
-          },
-          {
-            "slot": "bag-15",
-            "code": "game:stone-conglomerate",
-            "name": "Conglomerate stone"
-          },
-          {
-            "slot": "bag-16",
-            "code": "game:stone-conglomerate",
-            "name": "Conglomerate stone"
-          },
-          {
-            "slot": "bag-17",
-            "code": "game:stone-conglomerate",
-            "name": "Conglomerate stone"
-          },
-          {
             "slot": "bag-18",
             "code": "canjewelry:gem-rough-chipped-malachite",
             "name": "Small rough malachite"
-          },
-          {
-            "slot": "bag-19",
-            "code": "game:stone-limestone",
-            "name": "Limestone stone"
-          },
-          {
-            "slot": "bag-20",
-            "code": "game:workitem-iron",
-            "name": "Broken iron pickaxe head\n"
-          },
-          {
-            "slot": "bag-21",
-            "code": "game:stone-limestone",
-            "name": "Limestone stone"
-          },
-          {
-            "slot": "bag-22",
-            "code": "game:stone-conglomerate",
-            "name": "Conglomerate stone"
-          },
-          {
-            "slot": "bag-23",
-            "code": "game:stone-limestone",
-            "name": "Limestone stone"
-          },
-          {
-            "slot": "bag-24",
-            "code": "game:ore-rich-cassiterite-granite",
-            "name": "Rich chunk of Cassiterite"
           }
         ],
         "skin": {
@@ -2640,12 +2555,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 155.0,
-        "blocksTravelled": 236139,
+        "playtimeHours": 155.1,
+        "blocksTravelled": 236296,
         "blocksBroken": 14030,
         "blocksPlaced": 5034,
         "deepestY": 23,
-        "lastSeen": 1784745325,
+        "lastSeen": 1784745493,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2793,9 +2708,14 @@
             "name": "Low fertility soil"
           },
           {
-            "slot": "bag-12",
-            "code": "game:stone-andesite",
-            "name": "Andesite stone"
+            "slot": "bag-15",
+            "code": "game:soil-low-none",
+            "name": "Low fertility soil"
+          },
+          {
+            "slot": "bag-23",
+            "code": "game:crate",
+            "name": "Acacia crate (closed)"
           }
         ],
         "skin": {
@@ -3075,11 +2995,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 12.1,
-        "blocksTravelled": 20243,
+        "blocksTravelled": 20313,
         "blocksBroken": 749,
         "blocksPlaced": 421,
         "deepestY": 100,
-        "lastSeen": 1784745325,
+        "lastSeen": 1784745493,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
