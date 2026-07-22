@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-222455",
+  "generated": "20260722-222655",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2124,12 +2124,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 73.0,
-        "blocksTravelled": 145754,
-        "blocksBroken": 6442,
+        "playtimeHours": 73.1,
+        "blocksTravelled": 145820,
+        "blocksBroken": 6448,
         "blocksPlaced": 423,
         "deepestY": 18,
-        "lastSeen": 1784751835,
+        "lastSeen": 1784751930,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2218,6 +2218,11 @@
             "slot": "bag-1",
             "code": "walkingstick:walkingstick-pathfinder",
             "name": "Pathfinder's walking stick"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:chiseledblock",
+            "name": "FemurSnapper Emblem"
           }
         ],
         "skin": {
@@ -2525,12 +2530,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 156.8,
-        "blocksTravelled": 247941,
+        "playtimeHours": 156.9,
+        "blocksTravelled": 248165,
         "blocksBroken": 15729,
         "blocksPlaced": 5366,
         "deepestY": 23,
-        "lastSeen": 1784751835,
+        "lastSeen": 1784751930,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
