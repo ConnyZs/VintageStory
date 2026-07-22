@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-211050",
+  "generated": "20260722-211250",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2459,9 +2459,9 @@
         "class": "homesteader",
         "deaths": 22,
         "mobKills": 291,
-        "mealsEaten": 269,
-        "caloriesConsumed": 31004,
-        "lastMeal": "Carrot",
+        "mealsEaten": 270,
+        "caloriesConsumed": 31084,
+        "lastMeal": "Redcurrant",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2476,7 +2476,7 @@
           "Pear pie": 4,
           "Cooked dumplings": 2,
           "Almond mushroom": 1,
-          "Redcurrant": 40,
+          "Redcurrant": 41,
           "Carrot": 5,
           "Field mushroom": 1,
           "Turnip": 2,
@@ -2514,7 +2514,7 @@
           "Grain": 55,
           "Protein": 21,
           "Vegetable": 80,
-          "Fruit": 141,
+          "Fruit": 142,
           "Dairy": 10
         },
         "deathCauses": {
@@ -2526,11 +2526,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 155.6,
-        "blocksTravelled": 238350,
-        "blocksBroken": 15492,
+        "blocksTravelled": 238788,
+        "blocksBroken": 15500,
         "blocksPlaced": 5336,
         "deepestY": 23,
-        "lastSeen": 1784747367,
+        "lastSeen": 1784747487,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2639,8 +2639,8 @@
           },
           {
             "slot": "bag-3",
-            "code": "game:soil-medium-none",
-            "name": "Medium fertility soil"
+            "code": "game:muddygravel",
+            "name": "Muddy gravel"
           },
           {
             "slot": "bag-4",
@@ -2648,54 +2648,9 @@
             "name": "Horsetail"
           },
           {
-            "slot": "bag-5",
-            "code": "game:soil-medium-none",
-            "name": "Medium fertility soil"
-          },
-          {
-            "slot": "bag-6",
-            "code": "game:soil-medium-none",
-            "name": "Medium fertility soil"
-          },
-          {
-            "slot": "bag-7",
-            "code": "game:soil-medium-none",
-            "name": "Medium fertility soil"
-          },
-          {
-            "slot": "bag-8",
-            "code": "floramycology:seeds-cowparsley",
-            "name": "Cow Parsley Seeds"
-          },
-          {
-            "slot": "bag-9",
-            "code": "floramycology:seeds-redtopgrass",
-            "name": "Red Top Grass Seeds"
-          },
-          {
-            "slot": "bag-10",
-            "code": "game:soil-medium-none",
-            "name": "Medium fertility soil"
-          },
-          {
-            "slot": "bag-11",
-            "code": "game:muddygravel",
-            "name": "Muddy gravel"
-          },
-          {
             "slot": "bag-12",
             "code": "game:workitem-iron",
             "name": "Broken iron shovel head\n"
-          },
-          {
-            "slot": "bag-13",
-            "code": "game:soil-medium-none",
-            "name": "Medium fertility soil"
-          },
-          {
-            "slot": "bag-14",
-            "code": "game:soil-medium-none",
-            "name": "Medium fertility soil"
           },
           {
             "slot": "bag-15",
@@ -2711,11 +2666,6 @@
             "slot": "bag-17",
             "code": "game:clay-red",
             "name": "Red clay"
-          },
-          {
-            "slot": "bag-18",
-            "code": "game:soil-medium-none",
-            "name": "Medium fertility soil"
           },
           {
             "slot": "bag-22",
@@ -3000,11 +2950,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 12.7,
-        "blocksTravelled": 21229,
+        "blocksTravelled": 21635,
         "blocksBroken": 754,
         "blocksPlaced": 430,
         "deepestY": 100,
-        "lastSeen": 1784747367,
+        "lastSeen": 1784747487,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
