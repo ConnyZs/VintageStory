@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-205449",
+  "generated": "20260722-205649",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 72.5,
-        "blocksTravelled": 142785,
+        "blocksTravelled": 142793,
         "blocksBroken": 6442,
         "blocksPlaced": 422,
         "deepestY": 18,
-        "lastSeen": 1784745912,
+        "lastSeen": 1784746526,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2525,12 +2525,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 155.3,
-        "blocksTravelled": 237455,
-        "blocksBroken": 14836,
-        "blocksPlaced": 5299,
+        "playtimeHours": 155.4,
+        "blocksTravelled": 237699,
+        "blocksBroken": 14925,
+        "blocksPlaced": 5306,
         "deepestY": 23,
-        "lastSeen": 1784746406,
+        "lastSeen": 1784746526,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2980,11 +2980,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 12.4,
-        "blocksTravelled": 20736,
+        "blocksTravelled": 20801,
         "blocksBroken": 754,
-        "blocksPlaced": 429,
+        "blocksPlaced": 430,
         "deepestY": 100,
-        "lastSeen": 1784746406,
+        "lastSeen": 1784746526,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
@@ -3060,11 +3060,6 @@
             "slot": "bag-1",
             "code": "game:metalnailsandstrips-copper",
             "name": "Nails and strips (Copper)"
-          },
-          {
-            "slot": "bag-2",
-            "code": "game:flaxfibers",
-            "name": "Flax fibers"
           },
           {
             "slot": "bag-3",
