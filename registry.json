@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-201046",
+  "generated": "20260722-201246",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2124,12 +2124,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 71.9,
-        "blocksTravelled": 138574,
-        "blocksBroken": 5937,
+        "playtimeHours": 72.0,
+        "blocksTravelled": 138966,
+        "blocksBroken": 5939,
         "blocksPlaced": 406,
         "deepestY": 18,
-        "lastSeen": 1784743764,
+        "lastSeen": 1784743884,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2546,11 +2546,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 154.6,
-        "blocksTravelled": 233731,
-        "blocksBroken": 13297,
-        "blocksPlaced": 4719,
+        "blocksTravelled": 233998,
+        "blocksBroken": 13313,
+        "blocksPlaced": 4729,
         "deepestY": 23,
-        "lastSeen": 1784743764,
+        "lastSeen": 1784743884,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -3029,7 +3029,7 @@
         "blocksBroken": 749,
         "blocksPlaced": 414,
         "deepestY": 100,
-        "lastSeen": 1784743764,
+        "lastSeen": 1784743884,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
@@ -3101,11 +3101,6 @@
             "icon": "character/icons/shoulder-mooncloth-robe.png"
           },
           {
-            "slot": "bag-2",
-            "code": "game:cloth-plain",
-            "name": "Plain cloth"
-          },
-          {
             "slot": "bag-3",
             "code": "game:stone-limestone",
             "name": "Limestone stone"
@@ -3162,8 +3157,8 @@
           },
           {
             "slot": "bag-14",
-            "code": "walkingstick:walkingstick",
-            "name": "Walking stick"
+            "code": "game:cloth-plain",
+            "name": "Plain cloth"
           },
           {
             "slot": "bag-15",
