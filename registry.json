@@ -1,7 +1,7 @@
 {
-  "generated": "20260722-195845",
+  "generated": "20260722-200056",
   "game_version": "1.22.3",
-  "check_ts": "20260721-200056",
+  "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
   "restart_needed": null,
   "last_deploy_ts": "20260719-165818",
@@ -970,7 +970,7 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.6.5",
-      "build_version": "1.6.6",
+      "build_version": "1.6.7",
       "build_branch": "1.22",
       "update_pending": true,
       "proposed": false
@@ -2124,12 +2124,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 71.7,
-        "blocksTravelled": 135701,
+        "playtimeHours": 71.8,
+        "blocksTravelled": 135762,
         "blocksBroken": 5920,
         "blocksPlaced": 406,
         "deepestY": 18,
-        "lastSeen": 1784743077,
+        "lastSeen": 1784743164,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2213,6 +2213,11 @@
             "code": "game:clothes-upperbodyover-forgotten",
             "name": "Forgotten noble robe",
             "icon": "character/icons/upperbodyover-forgotten.png"
+          },
+          {
+            "slot": "bag-1",
+            "code": "alchemy:potionflask-tube-plain",
+            "name": "Small potion flask"
           },
           {
             "slot": "bag-3",
@@ -2531,11 +2536,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 154.4,
-        "blocksTravelled": 233085,
-        "blocksBroken": 13070,
+        "blocksTravelled": 233097,
+        "blocksBroken": 13126,
         "blocksPlaced": 4463,
         "deepestY": 23,
-        "lastSeen": 1784743077,
+        "lastSeen": 1784743164,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2686,6 +2691,16 @@
             "slot": "bag-11",
             "code": "game:cobblestonestairs-andesite-up-north-free",
             "name": "Andesite cobblestone stairs"
+          },
+          {
+            "slot": "bag-12",
+            "code": "game:cobblestone-andesite",
+            "name": "Andesite cobblestone"
+          },
+          {
+            "slot": "bag-13",
+            "code": "game:stone-andesite",
+            "name": "Andesite stone"
           }
         ],
         "skin": {
@@ -2965,11 +2980,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 11.5,
-        "blocksTravelled": 19719,
-        "blocksBroken": 744,
-        "blocksPlaced": 394,
+        "blocksTravelled": 19763,
+        "blocksBroken": 749,
+        "blocksPlaced": 405,
         "deepestY": 100,
-        "lastSeen": 1784743077,
+        "lastSeen": 1784743164,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
@@ -3126,9 +3141,9 @@
             "name": "Wooden Torch Holder (Oak)"
           },
           {
-            "slot": "bag-22",
-            "code": "game:cobblestonestairs-andesite-up-north-free",
-            "name": "Andesite cobblestone stairs"
+            "slot": "bag-23",
+            "code": "game:stone-andesite",
+            "name": "Andesite stone"
           },
           {
             "slot": "bag-24",
