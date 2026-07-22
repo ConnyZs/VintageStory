@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-220253",
+  "generated": "20260722-220453",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 72.7,
-        "blocksTravelled": 142934,
+        "blocksTravelled": 143058,
         "blocksBroken": 6442,
         "blocksPlaced": 423,
         "deepestY": 18,
-        "lastSeen": 1784750489,
+        "lastSeen": 1784750627,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2526,11 +2526,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 156.5,
-        "blocksTravelled": 245626,
+        "blocksTravelled": 245651,
         "blocksBroken": 15726,
         "blocksPlaced": 5348,
         "deepestY": 23,
-        "lastSeen": 1784750489,
+        "lastSeen": 1784750627,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2643,19 +2643,9 @@
             "name": "Carcass (Humanoid)"
           },
           {
-            "slot": "bag-4",
-            "code": "game:gravel-peridotite",
-            "name": "Peridotite gravel"
-          },
-          {
             "slot": "bag-5",
             "code": "game:metal-scraps",
             "name": "Metal scraps"
-          },
-          {
-            "slot": "bag-6",
-            "code": "game:stick",
-            "name": "Stick"
           },
           {
             "slot": "bag-7",
@@ -2666,11 +2656,6 @@
             "slot": "bag-8",
             "code": "game:jonasframes-spring01",
             "name": "Jonas sub-assembly (Intricately wound spring)"
-          },
-          {
-            "slot": "bag-9",
-            "code": "game:gear-rusty",
-            "name": "Rusty gear"
           },
           {
             "slot": "bag-10",
@@ -2688,21 +2673,6 @@
             "name": "Lupine (Red)"
           },
           {
-            "slot": "bag-13",
-            "code": "game:stick",
-            "name": "Stick"
-          },
-          {
-            "slot": "bag-14",
-            "code": "game:stick",
-            "name": "Stick"
-          },
-          {
-            "slot": "bag-15",
-            "code": "game:stick",
-            "name": "Stick"
-          },
-          {
             "slot": "bag-16",
             "code": "butchering:butcherybag-standard",
             "name": "Hide Butchering Bag"
@@ -2716,16 +2686,6 @@
             "slot": "bag-18",
             "code": "game:fruitingbushcutting-blackberry-free",
             "name": "Blackberry cutting"
-          },
-          {
-            "slot": "bag-19",
-            "code": "game:stick",
-            "name": "Stick"
-          },
-          {
-            "slot": "bag-20",
-            "code": "game:stick",
-            "name": "Stick"
           },
           {
             "slot": "bag-21",
