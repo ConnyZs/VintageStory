@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-213251",
+  "generated": "20260722-213451",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2526,11 +2526,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 156.0,
-        "blocksTravelled": 241581,
+        "blocksTravelled": 241875,
         "blocksBroken": 15588,
         "blocksPlaced": 5336,
         "deepestY": 23,
-        "lastSeen": 1784748688,
+        "lastSeen": 1784748817,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2980,12 +2980,12 @@
           "shiver-deepsplit": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 13.0,
-        "blocksTravelled": 23946,
+        "playtimeHours": 13.1,
+        "blocksTravelled": 23986,
         "blocksBroken": 765,
         "blocksPlaced": 430,
         "deepestY": 100,
-        "lastSeen": 1784748688,
+        "lastSeen": 1784748817,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
@@ -3058,16 +3058,6 @@
             "name": "Tailored gamboised leg armor"
           },
           {
-            "slot": "bag-1",
-            "code": "game:metalnailsandstrips-copper",
-            "name": "Nails and strips (Copper)"
-          },
-          {
-            "slot": "bag-2",
-            "code": "game:flaxtwine",
-            "name": "Flax twine"
-          },
-          {
             "slot": "bag-3",
             "code": "game:stone-limestone",
             "name": "Limestone stone"
@@ -3083,9 +3073,9 @@
             "name": "Andesite cobblestone"
           },
           {
-            "slot": "bag-6",
-            "code": "tailorsdelight:awl-iron",
-            "name": "Iron stitching awl"
+            "slot": "bag-7",
+            "code": "floramycology:seeds-woad",
+            "name": "Woad Seeds"
           },
           {
             "slot": "bag-8",
@@ -3103,11 +3093,6 @@
             "name": "Cranberry"
           },
           {
-            "slot": "bag-11",
-            "code": "game:sewingkit",
-            "name": "Sewing kit"
-          },
-          {
             "slot": "bag-12",
             "code": "game:crate",
             "name": "Oak crate (closed)"
@@ -3123,16 +3108,6 @@
             "name": "Andesite cobblestone stairs"
           },
           {
-            "slot": "bag-15",
-            "code": "tailorsdelight:needle-bone",
-            "name": "Bone needle"
-          },
-          {
-            "slot": "bag-16",
-            "code": "tailorsdelight:buttons-mixed",
-            "name": "Buttons & Clasps"
-          },
-          {
             "slot": "bag-17",
             "code": "game:clay-red",
             "name": "Red clay"
@@ -3141,11 +3116,6 @@
             "slot": "bag-18",
             "code": "game:fruit-blueberry",
             "name": "Blueberry"
-          },
-          {
-            "slot": "bag-19",
-            "code": "game:instrument-flute1",
-            "name": "Bone flute"
           },
           {
             "slot": "bag-20",
@@ -3166,11 +3136,6 @@
             "slot": "bag-23",
             "code": "maltiezcrossbows:bolt-crude",
             "name": "Crude bolt"
-          },
-          {
-            "slot": "bag-24",
-            "code": "tailorsdelight:panel-cloth-table-none-brown",
-            "name": "Brown table cloth"
           }
         ],
         "skin": {
