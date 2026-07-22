@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-191443",
+  "generated": "20260722-191643",
   "game_version": "1.22.3",
   "check_ts": "20260721-200056",
   "latest_engine": "1.22.5",
@@ -2093,7 +2093,7 @@
         "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
         "name": "Raschuetzer",
         "class": "tinker",
-        "deaths": 6,
+        "deaths": 7,
         "mobKills": 80,
         "mealsEaten": 41,
         "caloriesConsumed": 15874,
@@ -2121,14 +2121,15 @@
         "deathCauses": {
           "wolf-eurasian-adult-male": 1,
           "internal": 1,
-          "shiver-corrupt": 3
+          "shiver-corrupt": 3,
+          "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 71.0,
-        "blocksTravelled": 130226,
+        "blocksTravelled": 131011,
         "blocksBroken": 5127,
         "blocksPlaced": 398,
         "deepestY": 28,
-        "lastSeen": 1784740402,
+        "lastSeen": 1784740522,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2217,11 +2218,6 @@
             "slot": "bag-1",
             "code": "alchemy:potionflask-tube-quartz",
             "name": "Small potion flask"
-          },
-          {
-            "slot": "bag-2",
-            "code": "walkingstick:walkingstick-pathfinder",
-            "name": "Pathfinder's walking stick"
           },
           {
             "slot": "bag-3",
@@ -2535,11 +2531,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 153.7,
-        "blocksTravelled": 226344,
+        "blocksTravelled": 226847,
         "blocksBroken": 12770,
         "blocksPlaced": 4331,
         "deepestY": 23,
-        "lastSeen": 1784740402,
+        "lastSeen": 1784740522,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -3103,11 +3099,11 @@
     }
   ],
   "lastAccident": {
-    "playerName": "AddyBuschu",
-    "timestamp": 1784321686,
-    "cause": "wolf-eurasian-adult-male",
-    "x": 521346,
+    "playerName": "Raschuetzer",
+    "timestamp": 1784740541,
+    "cause": "pantherinae-panthera-adult-female-tigris-normal",
+    "x": 518163,
     "y": 110,
-    "z": 505119
+    "z": 512417
   }
 }
