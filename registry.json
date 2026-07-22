@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-211851",
+  "generated": "20260722-212051",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2526,11 +2526,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 155.8,
-        "blocksTravelled": 239843,
-        "blocksBroken": 15564,
+        "blocksTravelled": 240072,
+        "blocksBroken": 15567,
         "blocksPlaced": 5336,
         "deepestY": 23,
-        "lastSeen": 1784747911,
+        "lastSeen": 1784747967,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -3015,11 +3015,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 12.8,
-        "blocksTravelled": 22252,
+        "blocksTravelled": 22451,
         "blocksBroken": 765,
         "blocksPlaced": 430,
         "deepestY": 100,
-        "lastSeen": 1784747911,
+        "lastSeen": 1784747967,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
@@ -3158,6 +3158,11 @@
             "name": "Oak crate (closed)"
           },
           {
+            "slot": "bag-13",
+            "code": "game:drygrass",
+            "name": "Dry grass"
+          },
+          {
             "slot": "bag-14",
             "code": "game:cobblestonestairs-andesite-up-north-free",
             "name": "Andesite cobblestone stairs"
@@ -3171,6 +3176,11 @@
             "slot": "bag-16",
             "code": "tailorsdelight:buttons-mixed",
             "name": "Buttons & Clasps"
+          },
+          {
+            "slot": "bag-17",
+            "code": "game:clay-red",
+            "name": "Red clay"
           },
           {
             "slot": "bag-19",
