@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-201647",
+  "generated": "20260722-201847",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2124,12 +2124,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 72.0,
-        "blocksTravelled": 139164,
-        "blocksBroken": 6035,
-        "blocksPlaced": 410,
+        "playtimeHours": 72.1,
+        "blocksTravelled": 139232,
+        "blocksBroken": 6143,
+        "blocksPlaced": 414,
         "deepestY": 18,
-        "lastSeen": 1784744125,
+        "lastSeen": 1784744285,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2273,6 +2273,41 @@
             "slot": "bag-12",
             "code": "game:beeswax",
             "name": "Beeswax"
+          },
+          {
+            "slot": "bag-13",
+            "code": "game:stone-limestone",
+            "name": "Limestone stone"
+          },
+          {
+            "slot": "bag-14",
+            "code": "game:stone-conglomerate",
+            "name": "Conglomerate stone"
+          },
+          {
+            "slot": "bag-15",
+            "code": "game:stone-shale",
+            "name": "Shale stone"
+          },
+          {
+            "slot": "bag-16",
+            "code": "game:stone-conglomerate",
+            "name": "Conglomerate stone"
+          },
+          {
+            "slot": "bag-17",
+            "code": "game:stone-conglomerate",
+            "name": "Conglomerate stone"
+          },
+          {
+            "slot": "bag-18",
+            "code": "canjewelry:gem-rough-chipped-malachite",
+            "name": "Small rough malachite"
+          },
+          {
+            "slot": "bag-19",
+            "code": "game:stone-limestone",
+            "name": "Limestone stone"
           },
           {
             "slot": "bag-24",
@@ -2585,12 +2620,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 154.7,
-        "blocksTravelled": 234264,
-        "blocksBroken": 13414,
-        "blocksPlaced": 4729,
+        "playtimeHours": 154.8,
+        "blocksTravelled": 234550,
+        "blocksBroken": 13431,
+        "blocksPlaced": 4877,
         "deepestY": 23,
-        "lastSeen": 1784744125,
+        "lastSeen": 1784744285,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2694,13 +2729,8 @@
           },
           {
             "slot": "bag-2",
-            "code": "game:soil-medium-none",
-            "name": "Medium fertility soil"
-          },
-          {
-            "slot": "bag-3",
-            "code": "game:soil-medium-none",
-            "name": "Medium fertility soil"
+            "code": "game:flint",
+            "name": "Flint"
           },
           {
             "slot": "bag-4",
@@ -3025,11 +3055,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 11.8,
-        "blocksTravelled": 19872,
+        "blocksTravelled": 19958,
         "blocksBroken": 749,
         "blocksPlaced": 414,
         "deepestY": 100,
-        "lastSeen": 1784744125,
+        "lastSeen": 1784744285,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
@@ -3154,6 +3184,11 @@
             "slot": "bag-13",
             "code": "game:log-placed-oak-ud",
             "name": "Oak log"
+          },
+          {
+            "slot": "bag-14",
+            "code": "game:cloth-plain",
+            "name": "Plain cloth"
           },
           {
             "slot": "bag-15",
