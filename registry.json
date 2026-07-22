@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-221054",
+  "generated": "20260722-221254",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 72.8,
-        "blocksTravelled": 143130,
+        "blocksTravelled": 143201,
         "blocksBroken": 6442,
         "blocksPlaced": 423,
         "deepestY": 18,
-        "lastSeen": 1784750969,
+        "lastSeen": 1784751089,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2526,11 +2526,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 156.6,
-        "blocksTravelled": 246025,
+        "blocksTravelled": 246297,
         "blocksBroken": 15727,
-        "blocksPlaced": 5350,
+        "blocksPlaced": 5365,
         "deepestY": 23,
-        "lastSeen": 1784750969,
+        "lastSeen": 1784751089,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2641,11 +2641,6 @@
             "slot": "bag-6",
             "code": "butchering:butcherybag-standard",
             "name": "Hide Butchering Bag"
-          },
-          {
-            "slot": "bag-12",
-            "code": "game:flower-lupine-red-free",
-            "name": "Lupine (Red)"
           }
         ],
         "skin": {
