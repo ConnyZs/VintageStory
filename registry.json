@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-191843",
+  "generated": "20260722-192043",
   "game_version": "1.22.3",
   "check_ts": "20260721-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 71.1,
-        "blocksTravelled": 131505,
+        "blocksTravelled": 131985,
         "blocksBroken": 5127,
         "blocksPlaced": 398,
         "deepestY": 28,
-        "lastSeen": 1784740661,
+        "lastSeen": 1784740762,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2454,9 +2454,9 @@
         "class": "homesteader",
         "deaths": 22,
         "mobKills": 286,
-        "mealsEaten": 268,
-        "caloriesConsumed": 30904,
-        "lastMeal": "Earthy orange ceramic bowl of meat stew",
+        "mealsEaten": 269,
+        "caloriesConsumed": 31004,
+        "lastMeal": "Carrot",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2472,7 +2472,7 @@
           "Cooked dumplings": 2,
           "Almond mushroom": 1,
           "Redcurrant": 40,
-          "Carrot": 4,
+          "Carrot": 5,
           "Field mushroom": 1,
           "Turnip": 2,
           "Puffball": 4,
@@ -2508,7 +2508,7 @@
         "foodCatCounts": {
           "Grain": 55,
           "Protein": 21,
-          "Vegetable": 79,
+          "Vegetable": 80,
           "Fruit": 141,
           "Dairy": 10
         },
@@ -2520,12 +2520,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 153.7,
-        "blocksTravelled": 227364,
-        "blocksBroken": 12774,
+        "playtimeHours": 153.8,
+        "blocksTravelled": 227783,
+        "blocksBroken": 12790,
         "blocksPlaced": 4331,
         "deepestY": 23,
-        "lastSeen": 1784740661,
+        "lastSeen": 1784740762,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2651,6 +2651,36 @@
             "slot": "bag-6",
             "code": "game:backpack-normal",
             "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-7",
+            "code": "game:fruit-redcurrant",
+            "name": "Redcurrant"
+          },
+          {
+            "slot": "bag-8",
+            "code": "game:vegetable-turnip",
+            "name": "Turnip"
+          },
+          {
+            "slot": "bag-9",
+            "code": "game:fruit-blackcurrant",
+            "name": "Blackcurrant"
+          },
+          {
+            "slot": "bag-10",
+            "code": "game:vegetable-onion",
+            "name": "Onion"
+          },
+          {
+            "slot": "bag-11",
+            "code": "game:seeds-onion",
+            "name": "Onion seeds"
+          },
+          {
+            "slot": "bag-12",
+            "code": "game:seeds-turnip",
+            "name": "Turnip seeds"
           },
           {
             "slot": "bag-19",
