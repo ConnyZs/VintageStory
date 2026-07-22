@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-212051",
+  "generated": "20260722-212251",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2526,11 +2526,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 155.8,
-        "blocksTravelled": 240072,
-        "blocksBroken": 15567,
+        "blocksTravelled": 240265,
+        "blocksBroken": 15568,
         "blocksPlaced": 5336,
         "deepestY": 23,
-        "lastSeen": 1784747967,
+        "lastSeen": 1784748087,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2633,16 +2633,6 @@
             "name": "Small potion flask"
           },
           {
-            "slot": "bag-2",
-            "code": "game:muddygravel",
-            "name": "Muddy gravel"
-          },
-          {
-            "slot": "bag-3",
-            "code": "game:muddygravel",
-            "name": "Muddy gravel"
-          },
-          {
             "slot": "bag-4",
             "code": "game:flower-horsetail-free",
             "name": "Horsetail"
@@ -2651,11 +2641,6 @@
             "slot": "bag-5",
             "code": "game:fruit-redcurrant",
             "name": "Redcurrant"
-          },
-          {
-            "slot": "bag-6",
-            "code": "game:drystone-andesite",
-            "name": "Andesite dry stone"
           },
           {
             "slot": "bag-7",
@@ -2671,16 +2656,6 @@
             "slot": "bag-9",
             "code": "game:vegetable-fennel",
             "name": "Fennel"
-          },
-          {
-            "slot": "bag-10",
-            "code": "game:drystonefence-andesite-ew-free",
-            "name": "Andesite dry stone fence"
-          },
-          {
-            "slot": "bag-11",
-            "code": "game:stone-andesite",
-            "name": "Andesite stone"
           },
           {
             "slot": "bag-12",
@@ -2699,43 +2674,18 @@
           },
           {
             "slot": "bag-15",
-            "code": "game:flower-cornflower-free",
-            "name": "Cornflower"
-          },
-          {
-            "slot": "bag-16",
-            "code": "floramycology:seeds-cornflower",
-            "name": "Cornflower Seeds"
-          },
-          {
-            "slot": "bag-17",
             "code": "game:seeds-turnip",
             "name": "Turnip seeds"
           },
           {
+            "slot": "bag-16",
+            "code": "game:seeds-fennel",
+            "name": "Fennel seeds"
+          },
+          {
             "slot": "bag-18",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-19",
-            "code": "butchering:deadpanthera-male-1-dead",
-            "name": "Panthera (dead)"
-          },
-          {
-            "slot": "bag-20",
-            "code": "butchering:deadwolf-baby-eurasian-1-dead",
-            "name": "Wolf (dead)"
-          },
-          {
-            "slot": "bag-21",
-            "code": "butchering:deadwolf-male-eurasian-5-dead",
-            "name": "Wolf (dead)"
-          },
-          {
-            "slot": "bag-22",
-            "code": "butchering:deadwolf-female-eurasian-3-dead",
-            "name": "Wolf (dead)"
+            "code": "butchering:butcherybag-standard",
+            "name": "Hide Butchering Bag"
           }
         ],
         "skin": {
@@ -3014,12 +2964,12 @@
           "shiver-deepsplit": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 12.8,
-        "blocksTravelled": 22451,
+        "playtimeHours": 12.9,
+        "blocksTravelled": 22632,
         "blocksBroken": 765,
         "blocksPlaced": 430,
         "deepestY": 100,
-        "lastSeen": 1784747967,
+        "lastSeen": 1784748087,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
