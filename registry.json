@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-214452",
+  "generated": "20260722-214652",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2526,11 +2526,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 156.2,
-        "blocksTravelled": 243405,
-        "blocksBroken": 15694,
+        "blocksTravelled": 243581,
+        "blocksBroken": 15702,
         "blocksPlaced": 5341,
         "deepestY": 23,
-        "lastSeen": 1784749420,
+        "lastSeen": 1784749528,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2650,8 +2650,8 @@
           },
           {
             "slot": "bag-5",
-            "code": "game:stick",
-            "name": "Stick"
+            "code": "game:gravel-peridotite",
+            "name": "Peridotite gravel"
           },
           {
             "slot": "bag-6",
@@ -2727,6 +2727,11 @@
             "slot": "bag-20",
             "code": "game:flower-woad-free",
             "name": "Woad"
+          },
+          {
+            "slot": "bag-21",
+            "code": "game:soil-low-none",
+            "name": "Low fertility soil"
           },
           {
             "slot": "bag-22",
