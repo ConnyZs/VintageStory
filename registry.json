@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-220453",
+  "generated": "20260722-220654",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 72.7,
-        "blocksTravelled": 143058,
+        "blocksTravelled": 143084,
         "blocksBroken": 6442,
         "blocksPlaced": 423,
         "deepestY": 18,
-        "lastSeen": 1784750627,
+        "lastSeen": 1784750729,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2526,11 +2526,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 156.5,
-        "blocksTravelled": 245651,
+        "blocksTravelled": 245700,
         "blocksBroken": 15726,
         "blocksPlaced": 5348,
         "deepestY": 23,
-        "lastSeen": 1784750627,
+        "lastSeen": 1784750729,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2643,21 +2643,6 @@
             "name": "Carcass (Humanoid)"
           },
           {
-            "slot": "bag-5",
-            "code": "game:metal-scraps",
-            "name": "Metal scraps"
-          },
-          {
-            "slot": "bag-7",
-            "code": "game:diamond-stone-dark",
-            "name": "Diamond pattern dark stone tile"
-          },
-          {
-            "slot": "bag-8",
-            "code": "game:jonasframes-spring01",
-            "name": "Jonas sub-assembly (Intricately wound spring)"
-          },
-          {
             "slot": "bag-10",
             "code": "game:vegetable-fennel",
             "name": "Fennel"
@@ -2686,26 +2671,6 @@
             "slot": "bag-18",
             "code": "game:fruitingbushcutting-blackberry-free",
             "name": "Blackberry cutting"
-          },
-          {
-            "slot": "bag-21",
-            "code": "game:lore-book-rotten-green",
-            "name": "Rotten lore book (Green)"
-          },
-          {
-            "slot": "bag-22",
-            "code": "fagothic:fa-gothic-schematic",
-            "name": "Gothic armor (schematic)"
-          },
-          {
-            "slot": "bag-23",
-            "code": "fatemplar:fa-templar-schematic",
-            "name": "Templar style armor (schematic)"
-          },
-          {
-            "slot": "bag-24",
-            "code": "falandsknecht:fa-landsknecht-schematic",
-            "name": "Landsknecht wearables (schematic)"
           }
         ],
         "skin": {
