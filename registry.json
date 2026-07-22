@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-192443",
+  "generated": "20260722-192644",
   "game_version": "1.22.3",
   "check_ts": "20260721-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 71.2,
-        "blocksTravelled": 132835,
-        "blocksBroken": 5127,
+        "blocksTravelled": 133083,
+        "blocksBroken": 5173,
         "blocksPlaced": 398,
         "deepestY": 28,
-        "lastSeen": 1784741002,
+        "lastSeen": 1784741122,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2220,9 +2220,19 @@
             "name": "Small potion flask"
           },
           {
+            "slot": "bag-2",
+            "code": "game:soil-medium-none",
+            "name": "Medium fertility soil"
+          },
+          {
             "slot": "bag-3",
             "code": "game:lantern-large-up",
             "name": "Large molybdochalkos lantern"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:soil-low-none",
+            "name": "Low fertility soil"
           }
         ],
         "skin": {
@@ -2530,12 +2540,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 153.8,
-        "blocksTravelled": 228663,
-        "blocksBroken": 12793,
-        "blocksPlaced": 4331,
+        "playtimeHours": 153.9,
+        "blocksTravelled": 228875,
+        "blocksBroken": 12796,
+        "blocksPlaced": 4332,
         "deepestY": 23,
-        "lastSeen": 1784741002,
+        "lastSeen": 1784741122,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2691,6 +2701,36 @@
             "slot": "bag-12",
             "code": "game:seeds-turnip",
             "name": "Turnip seeds"
+          },
+          {
+            "slot": "bag-13",
+            "code": "game:flowerpot-rutile",
+            "name": "Flowerpot (Rutile)"
+          },
+          {
+            "slot": "bag-14",
+            "code": "game:flowerpot-celadon",
+            "name": "Flowerpot (Celadon)"
+          },
+          {
+            "slot": "bag-15",
+            "code": "game:chiseledblock",
+            "name": "Gravestone"
+          },
+          {
+            "slot": "bag-16",
+            "code": "game:chiseledblock",
+            "name": "Gravestone"
+          },
+          {
+            "slot": "bag-17",
+            "code": "game:chiseledblock",
+            "name": "Gravestone"
+          },
+          {
+            "slot": "bag-18",
+            "code": "game:chiseledblock",
+            "name": "R.I.P Hypi"
           },
           {
             "slot": "bag-19",
