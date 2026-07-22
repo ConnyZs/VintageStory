@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-211250",
+  "generated": "20260722-211450",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2525,12 +2525,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 155.6,
-        "blocksTravelled": 238788,
-        "blocksBroken": 15500,
+        "playtimeHours": 155.7,
+        "blocksTravelled": 238951,
+        "blocksBroken": 15535,
         "blocksPlaced": 5336,
         "deepestY": 23,
-        "lastSeen": 1784747487,
+        "lastSeen": 1784747609,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2646,6 +2646,26 @@
             "slot": "bag-4",
             "code": "game:flower-horsetail-free",
             "name": "Horsetail"
+          },
+          {
+            "slot": "bag-5",
+            "code": "game:fruit-redcurrant",
+            "name": "Redcurrant"
+          },
+          {
+            "slot": "bag-6",
+            "code": "game:drygrass",
+            "name": "Dry grass"
+          },
+          {
+            "slot": "bag-7",
+            "code": "game:seeds-carrot",
+            "name": "Carrot seeds"
+          },
+          {
+            "slot": "bag-8",
+            "code": "game:vegetable-carrot",
+            "name": "Carrot"
           },
           {
             "slot": "bag-12",
@@ -2950,11 +2970,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 12.7,
-        "blocksTravelled": 21635,
+        "blocksTravelled": 21667,
         "blocksBroken": 754,
         "blocksPlaced": 430,
         "deepestY": 100,
-        "lastSeen": 1784747487,
+        "lastSeen": 1784747609,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
@@ -2965,6 +2985,7 @@
           "Tailor needle puff",
           "Tailor jacket",
           "Tailored gamboised helmet",
+          "Tailored gambeson body armor",
           "Tailored gamboised leg armor"
         ],
         "gearDetail": [
@@ -3020,6 +3041,11 @@
             "slot": "armorhead",
             "code": "game:armor-head-tailored-plain-linen",
             "name": "Tailored gamboised helmet"
+          },
+          {
+            "slot": "armorbody",
+            "code": "game:armor-body-tailored-plain-linen",
+            "name": "Tailored gambeson body armor"
           },
           {
             "slot": "armorlegs",
