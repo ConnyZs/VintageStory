@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-193644",
+  "generated": "20260722-193844",
   "game_version": "1.22.3",
   "check_ts": "20260721-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 71.4,
-        "blocksTravelled": 133530,
-        "blocksBroken": 5562,
-        "blocksPlaced": 400,
+        "blocksTravelled": 133571,
+        "blocksBroken": 5684,
+        "blocksPlaced": 404,
         "deepestY": 23,
-        "lastSeen": 1784741723,
+        "lastSeen": 1784741868,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2298,6 +2298,26 @@
             "slot": "bag-17",
             "code": "game:ore-rich-nativecopper-andesite",
             "name": "Rich chunk of Native copper"
+          },
+          {
+            "slot": "bag-18",
+            "code": "game:stone-andesite",
+            "name": "Andesite stone"
+          },
+          {
+            "slot": "bag-19",
+            "code": "game:ore-rich-nativecopper-andesite",
+            "name": "Rich chunk of Native copper"
+          },
+          {
+            "slot": "bag-20",
+            "code": "game:stone-andesite",
+            "name": "Andesite stone"
+          },
+          {
+            "slot": "bag-21",
+            "code": "game:stone-andesite",
+            "name": "Andesite stone"
           }
         ],
         "skin": {
@@ -2605,12 +2625,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 154.0,
-        "blocksTravelled": 230628,
-        "blocksBroken": 12797,
-        "blocksPlaced": 4332,
+        "playtimeHours": 154.1,
+        "blocksTravelled": 230877,
+        "blocksBroken": 12800,
+        "blocksPlaced": 4342,
         "deepestY": 23,
-        "lastSeen": 1784741723,
+        "lastSeen": 1784741868,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2766,36 +2786,6 @@
             "slot": "bag-12",
             "code": "game:seeds-turnip",
             "name": "Turnip seeds"
-          },
-          {
-            "slot": "bag-13",
-            "code": "game:flowerpot-rutile",
-            "name": "Flowerpot (Rutile)"
-          },
-          {
-            "slot": "bag-14",
-            "code": "game:flowerpot-celadon",
-            "name": "Flowerpot (Celadon)"
-          },
-          {
-            "slot": "bag-15",
-            "code": "game:chiseledblock",
-            "name": "Gravestone"
-          },
-          {
-            "slot": "bag-16",
-            "code": "game:chiseledblock",
-            "name": "Gravestone"
-          },
-          {
-            "slot": "bag-17",
-            "code": "game:chiseledblock",
-            "name": "Gravestone"
-          },
-          {
-            "slot": "bag-18",
-            "code": "game:chiseledblock",
-            "name": "R.I.P Hypi"
           },
           {
             "slot": "bag-19",
@@ -3062,7 +3052,7 @@
       "name": "Morsel",
       "role": "suplayer",
       "first_join": "06/22/2026 18:28",
-      "last_join": "07/15/2026 20:28",
+      "last_join": "07/22/2026 17:34",
       "last_char": "06/22/2026 18:37",
       "stats": {
         "uid": "1VGBHqraGibxC1fHS6a4PjOF",
@@ -3095,11 +3085,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 11.1,
-        "blocksTravelled": 19140,
+        "blocksTravelled": 19202,
         "blocksBroken": 719,
         "blocksPlaced": 374,
         "deepestY": 100,
-        "lastSeen": 1784741723,
+        "lastSeen": 1784741868,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
