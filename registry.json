@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-194645",
+  "generated": "20260722-194845",
   "game_version": "1.22.3",
   "check_ts": "20260721-200056",
   "latest_engine": "1.22.5",
@@ -2124,12 +2124,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 71.5,
-        "blocksTravelled": 134210,
-        "blocksBroken": 5908,
+        "playtimeHours": 71.6,
+        "blocksTravelled": 134681,
+        "blocksBroken": 5911,
         "blocksPlaced": 406,
         "deepestY": 18,
-        "lastSeen": 1784742323,
+        "lastSeen": 1784742473,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2271,8 +2271,8 @@
           },
           {
             "slot": "bag-12",
-            "code": "game:stone-andesite",
-            "name": "Andesite stone"
+            "code": "game:grain-rye",
+            "name": "Rye grain"
           },
           {
             "slot": "bag-13",
@@ -2641,11 +2641,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 154.2,
-        "blocksTravelled": 232010,
-        "blocksBroken": 12818,
-        "blocksPlaced": 4342,
+        "blocksTravelled": 232327,
+        "blocksBroken": 12828,
+        "blocksPlaced": 4346,
         "deepestY": 23,
-        "lastSeen": 1784742323,
+        "lastSeen": 1784742473,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2769,8 +2769,8 @@
           },
           {
             "slot": "bag-6",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "code": "game:chiseledblock",
+            "name": "Gravestone"
           },
           {
             "slot": "bag-7",
@@ -2786,11 +2786,6 @@
             "slot": "bag-9",
             "code": "game:chiseledblock",
             "name": "Gravestone"
-          },
-          {
-            "slot": "bag-10",
-            "code": "game:chiseledblock",
-            "name": "Peridotite rock (Polished)"
           },
           {
             "slot": "bag-11",
@@ -2834,13 +2829,33 @@
           },
           {
             "slot": "bag-19",
-            "code": "butchering:deadpanthera-male-1-dead",
-            "name": "Panthera (dead)"
+            "code": "game:chiseledblock",
+            "name": "Gravestone"
           },
           {
             "slot": "bag-20",
-            "code": "butchering:deadwolf-baby-eurasian-1-dead",
-            "name": "Wolf (dead)"
+            "code": "game:chiseledblock",
+            "name": "Gravestone"
+          },
+          {
+            "slot": "bag-21",
+            "code": "game:chiseledblock",
+            "name": "Gravestone"
+          },
+          {
+            "slot": "bag-22",
+            "code": "game:chiseledblock",
+            "name": "Gravestone"
+          },
+          {
+            "slot": "bag-23",
+            "code": "game:chiseledblock",
+            "name": "Gravestone"
+          },
+          {
+            "slot": "bag-24",
+            "code": "game:chiseledblock",
+            "name": "Gravestone"
           }
         ],
         "skin": {
@@ -3120,11 +3135,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 11.3,
-        "blocksTravelled": 19338,
+        "blocksTravelled": 19393,
         "blocksBroken": 729,
         "blocksPlaced": 389,
         "deepestY": 100,
-        "lastSeen": 1784742323,
+        "lastSeen": 1784742473,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
@@ -3207,8 +3222,8 @@
           },
           {
             "slot": "bag-4",
-            "code": "game:stone-andesite",
-            "name": "Andesite stone"
+            "code": "game:clay-red",
+            "name": "Red clay"
           },
           {
             "slot": "bag-5",
@@ -3231,11 +3246,6 @@
             "name": "Full body mannequin (reed)"
           },
           {
-            "slot": "bag-9",
-            "code": "game:clay-red",
-            "name": "Red clay"
-          },
-          {
             "slot": "bag-10",
             "code": "game:woodbucket",
             "name": "Wooden bucket"
@@ -3247,8 +3257,13 @@
           },
           {
             "slot": "bag-12",
-            "code": "game:woodbucket",
-            "name": "Wooden bucket"
+            "code": "game:log-placed-oak-ud",
+            "name": "Oak log"
+          },
+          {
+            "slot": "bag-13",
+            "code": "game:log-placed-oak-ud",
+            "name": "Oak log"
           },
           {
             "slot": "bag-14",
@@ -3274,6 +3289,11 @@
             "slot": "bag-20",
             "code": "game:instrument-flute1",
             "name": "Bone flute"
+          },
+          {
+            "slot": "bag-22",
+            "code": "game:cobblestonestairs-andesite-up-north-free",
+            "name": "Andesite cobblestone stairs"
           },
           {
             "slot": "bag-23",
