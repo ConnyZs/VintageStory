@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-204448",
+  "generated": "20260722-204648",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2129,7 +2129,7 @@
         "blocksBroken": 6442,
         "blocksPlaced": 422,
         "deepestY": 18,
-        "lastSeen": 1784745806,
+        "lastSeen": 1784745912,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2526,11 +2526,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 155.2,
-        "blocksTravelled": 236653,
-        "blocksBroken": 14312,
-        "blocksPlaced": 5036,
+        "blocksTravelled": 236775,
+        "blocksBroken": 14567,
+        "blocksPlaced": 5037,
         "deepestY": 23,
-        "lastSeen": 1784745806,
+        "lastSeen": 1784745926,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2651,6 +2651,41 @@
             "slot": "bag-5",
             "code": "game:soil-low-none",
             "name": "Low fertility soil"
+          },
+          {
+            "slot": "bag-6",
+            "code": "game:soil-medium-none",
+            "name": "Medium fertility soil"
+          },
+          {
+            "slot": "bag-7",
+            "code": "game:flower-redtopgrass-free",
+            "name": "Redtop grass"
+          },
+          {
+            "slot": "bag-8",
+            "code": "floramycology:seeds-redtopgrass",
+            "name": "Red Top Grass Seeds"
+          },
+          {
+            "slot": "bag-9",
+            "code": "game:soil-low-none",
+            "name": "Low fertility soil"
+          },
+          {
+            "slot": "bag-10",
+            "code": "game:soil-medium-none",
+            "name": "Medium fertility soil"
+          },
+          {
+            "slot": "bag-11",
+            "code": "game:flower-catmint-free",
+            "name": "Catmint"
+          },
+          {
+            "slot": "bag-12",
+            "code": "game:flower-cowparsley-free",
+            "name": "Cow parsley"
           }
         ],
         "skin": {
@@ -2929,12 +2964,12 @@
           "shiver-deepsplit": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 12.2,
-        "blocksTravelled": 20576,
-        "blocksBroken": 749,
-        "blocksPlaced": 421,
+        "playtimeHours": 12.3,
+        "blocksTravelled": 20611,
+        "blocksBroken": 750,
+        "blocksPlaced": 425,
         "deepestY": 100,
-        "lastSeen": 1784745806,
+        "lastSeen": 1784745926,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
@@ -3012,11 +3047,6 @@
             "name": "Nails and strips (Copper)"
           },
           {
-            "slot": "bag-2",
-            "code": "game:flaxfibers",
-            "name": "Flax fibers"
-          },
-          {
             "slot": "bag-3",
             "code": "game:stone-limestone",
             "name": "Limestone stone"
@@ -3067,11 +3097,6 @@
             "name": "Oak log"
           },
           {
-            "slot": "bag-14",
-            "code": "game:woodbucket",
-            "name": "Wooden bucket"
-          },
-          {
             "slot": "bag-15",
             "code": "tailorsdelight:needle-bone",
             "name": "Bone needle"
@@ -3100,11 +3125,6 @@
             "slot": "bag-20",
             "code": "ndlwoodentorchholder:woodenholder-oak",
             "name": "Wooden Torch Holder (Oak)"
-          },
-          {
-            "slot": "bag-21",
-            "code": "game:cobblestonestairs-andesite-up-north-free",
-            "name": "Andesite cobblestone stairs"
           },
           {
             "slot": "bag-22",
