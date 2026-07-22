@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-190242",
+  "generated": "20260722-190442",
   "game_version": "1.22.3",
   "check_ts": "20260721-200056",
   "latest_engine": "1.22.5",
@@ -2124,11 +2124,11 @@
           "shiver-corrupt": 3
         },
         "playtimeHours": 70.8,
-        "blocksTravelled": 129448,
+        "blocksTravelled": 129451,
         "blocksBroken": 5127,
         "blocksPlaced": 398,
         "deepestY": 28,
-        "lastSeen": 1784500635,
+        "lastSeen": 1784739846,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2463,13 +2463,13 @@
         "class": "homesteader",
         "deaths": 22,
         "mobKills": 285,
-        "mealsEaten": 267,
-        "caloriesConsumed": 30818,
+        "mealsEaten": 268,
+        "caloriesConsumed": 30904,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
-          "Earthy orange ceramic bowl of meat stew": 9,
+          "Earthy orange ceramic bowl of meat stew": 10,
           "Blueberry": 16,
           "Pear pie (charred)": 1,
           "Rye bread": 1,
@@ -2516,8 +2516,8 @@
         },
         "foodCatCounts": {
           "Grain": 55,
-          "Protein": 20,
-          "Vegetable": 78,
+          "Protein": 21,
+          "Vegetable": 79,
           "Fruit": 141,
           "Dairy": 10
         },
@@ -2530,11 +2530,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 153.5,
-        "blocksTravelled": 225583,
+        "blocksTravelled": 225697,
         "blocksBroken": 12770,
         "blocksPlaced": 4320,
         "deepestY": 23,
-        "lastSeen": 1784739754,
+        "lastSeen": 1784739801,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
