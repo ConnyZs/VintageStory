@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-192844",
+  "generated": "20260722-193044",
   "game_version": "1.22.3",
   "check_ts": "20260721-200056",
   "latest_engine": "1.22.5",
@@ -2124,12 +2124,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 71.2,
-        "blocksTravelled": 133357,
-        "blocksBroken": 5234,
+        "playtimeHours": 71.3,
+        "blocksTravelled": 133427,
+        "blocksBroken": 5260,
         "blocksPlaced": 400,
         "deepestY": 28,
-        "lastSeen": 1784741264,
+        "lastSeen": 1784741362,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2233,6 +2233,11 @@
             "slot": "bag-4",
             "code": "game:soil-low-none",
             "name": "Low fertility soil"
+          },
+          {
+            "slot": "bag-5",
+            "code": "game:stone-peridotite",
+            "name": "Peridotite stone"
           }
         ],
         "skin": {
@@ -2541,11 +2546,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 153.9,
-        "blocksTravelled": 229366,
+        "blocksTravelled": 229699,
         "blocksBroken": 12797,
         "blocksPlaced": 4332,
         "deepestY": 23,
-        "lastSeen": 1784741264,
+        "lastSeen": 1784741362,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
