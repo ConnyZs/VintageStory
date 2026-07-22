@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-204849",
+  "generated": "20260722-205049",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2526,11 +2526,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 155.3,
-        "blocksTravelled": 236900,
-        "blocksBroken": 14748,
-        "blocksPlaced": 5179,
+        "blocksTravelled": 236957,
+        "blocksBroken": 14749,
+        "blocksPlaced": 5287,
         "deepestY": 23,
-        "lastSeen": 1784746098,
+        "lastSeen": 1784746166,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2644,8 +2644,8 @@
           },
           {
             "slot": "bag-4",
-            "code": "game:soil-low-none",
-            "name": "Low fertility soil"
+            "code": "game:flower-horsetail-free",
+            "name": "Horsetail"
           },
           {
             "slot": "bag-6",
@@ -2659,6 +2659,11 @@
           },
           {
             "slot": "bag-8",
+            "code": "floramycology:seeds-cowparsley",
+            "name": "Cow Parsley Seeds"
+          },
+          {
+            "slot": "bag-9",
             "code": "floramycology:seeds-redtopgrass",
             "name": "Red Top Grass Seeds"
           },
@@ -2686,11 +2691,6 @@
             "slot": "bag-14",
             "code": "game:soil-low-none",
             "name": "Low fertility soil"
-          },
-          {
-            "slot": "bag-15",
-            "code": "floramycology:seeds-cowparsley",
-            "name": "Cow Parsley Seeds"
           }
         ],
         "skin": {
@@ -2970,11 +2970,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 12.3,
-        "blocksTravelled": 20656,
+        "blocksTravelled": 20676,
         "blocksBroken": 753,
         "blocksPlaced": 428,
         "deepestY": 100,
-        "lastSeen": 1784746098,
+        "lastSeen": 1784746166,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
@@ -3072,11 +3072,6 @@
             "name": "Iron stitching awl"
           },
           {
-            "slot": "bag-8",
-            "code": "game:flaxtwine",
-            "name": "Flax twine"
-          },
-          {
             "slot": "bag-9",
             "code": "game:stone-andesite",
             "name": "Andesite stone"
@@ -3085,11 +3080,6 @@
             "slot": "bag-11",
             "code": "game:sewingkit",
             "name": "Sewing kit"
-          },
-          {
-            "slot": "bag-12",
-            "code": "tailorsdelight:twine-darkbrown",
-            "name": "Thread (Dark brown)"
           },
           {
             "slot": "bag-14",
@@ -3107,6 +3097,16 @@
             "name": "Buttons & Clasps"
           },
           {
+            "slot": "bag-17",
+            "code": "canjewelry:gem-rough-chipped-uranium",
+            "name": "Small rough uranium"
+          },
+          {
+            "slot": "bag-18",
+            "code": "game:leather-normal-plain",
+            "name": "Leather"
+          },
+          {
             "slot": "bag-19",
             "code": "game:instrument-flute1",
             "name": "Bone flute"
@@ -3117,6 +3117,11 @@
             "name": "Wooden Torch Holder (Oak)"
           },
           {
+            "slot": "bag-21",
+            "code": "game:leather-normal-plain",
+            "name": "Leather"
+          },
+          {
             "slot": "bag-22",
             "code": "molds:woodhammer",
             "name": "Wooden hammer"
@@ -3125,6 +3130,11 @@
             "slot": "bag-23",
             "code": "maltiezcrossbows:bolt-crude",
             "name": "Crude bolt"
+          },
+          {
+            "slot": "bag-24",
+            "code": "tailorsdelight:panel-cloth-table-none-brown",
+            "name": "Brown table cloth"
           }
         ],
         "skin": {
