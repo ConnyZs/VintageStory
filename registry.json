@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-205049",
+  "generated": "20260722-205249",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2526,11 +2526,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 155.3,
-        "blocksTravelled": 236957,
-        "blocksBroken": 14749,
-        "blocksPlaced": 5287,
+        "blocksTravelled": 237156,
+        "blocksBroken": 14833,
+        "blocksPlaced": 5296,
         "deepestY": 23,
-        "lastSeen": 1784746166,
+        "lastSeen": 1784746286,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2634,8 +2634,8 @@
           },
           {
             "slot": "bag-2",
-            "code": "game:shovel-iron",
-            "name": "Iron shovel"
+            "code": "game:muddygravel",
+            "name": "Muddy gravel"
           },
           {
             "slot": "bag-3",
@@ -2648,14 +2648,14 @@
             "name": "Horsetail"
           },
           {
+            "slot": "bag-5",
+            "code": "game:soil-low-none",
+            "name": "Low fertility soil"
+          },
+          {
             "slot": "bag-6",
             "code": "game:soil-medium-none",
             "name": "Medium fertility soil"
-          },
-          {
-            "slot": "bag-7",
-            "code": "game:flower-redtopgrass-free",
-            "name": "Redtop grass"
           },
           {
             "slot": "bag-8",
@@ -2673,16 +2673,6 @@
             "name": "Medium fertility soil"
           },
           {
-            "slot": "bag-11",
-            "code": "game:flower-catmint-free",
-            "name": "Catmint"
-          },
-          {
-            "slot": "bag-12",
-            "code": "game:flower-cowparsley-free",
-            "name": "Cow parsley"
-          },
-          {
             "slot": "bag-13",
             "code": "game:soil-medium-none",
             "name": "Medium fertility soil"
@@ -2691,6 +2681,11 @@
             "slot": "bag-14",
             "code": "game:soil-low-none",
             "name": "Low fertility soil"
+          },
+          {
+            "slot": "bag-15",
+            "code": "game:drystonefence-andesite-ew-free",
+            "name": "Andesite dry stone fence"
           }
         ],
         "skin": {
@@ -2969,12 +2964,12 @@
           "shiver-deepsplit": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 12.3,
-        "blocksTravelled": 20676,
-        "blocksBroken": 753,
-        "blocksPlaced": 428,
+        "playtimeHours": 12.4,
+        "blocksTravelled": 20707,
+        "blocksBroken": 754,
+        "blocksPlaced": 429,
         "deepestY": 100,
-        "lastSeen": 1784746166,
+        "lastSeen": 1784746286,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
@@ -3082,6 +3077,11 @@
             "name": "Sewing kit"
           },
           {
+            "slot": "bag-12",
+            "code": "game:crate",
+            "name": "Oak crate (closed)"
+          },
+          {
             "slot": "bag-14",
             "code": "game:cobblestonestairs-andesite-up-north-free",
             "name": "Andesite cobblestone stairs"
@@ -3097,14 +3097,9 @@
             "name": "Buttons & Clasps"
           },
           {
-            "slot": "bag-17",
-            "code": "canjewelry:gem-rough-chipped-uranium",
-            "name": "Small rough uranium"
-          },
-          {
             "slot": "bag-18",
-            "code": "game:leather-normal-plain",
-            "name": "Leather"
+            "code": "tailorsdelight:ruler-oak",
+            "name": "Ruler (Oak)"
           },
           {
             "slot": "bag-19",
@@ -3115,11 +3110,6 @@
             "slot": "bag-20",
             "code": "ndlwoodentorchholder:woodenholder-oak",
             "name": "Wooden Torch Holder (Oak)"
-          },
-          {
-            "slot": "bag-21",
-            "code": "game:leather-normal-plain",
-            "name": "Leather"
           },
           {
             "slot": "bag-22",
