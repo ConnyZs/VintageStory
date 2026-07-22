@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-191043",
+  "generated": "20260722-191243",
   "game_version": "1.22.3",
   "check_ts": "20260721-200056",
   "latest_engine": "1.22.5",
@@ -2123,12 +2123,12 @@
           "internal": 1,
           "shiver-corrupt": 3
         },
-        "playtimeHours": 70.9,
-        "blocksTravelled": 129522,
+        "playtimeHours": 71.0,
+        "blocksTravelled": 129973,
         "blocksBroken": 5127,
         "blocksPlaced": 398,
         "deepestY": 28,
-        "lastSeen": 1784740161,
+        "lastSeen": 1784740359,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2212,6 +2212,11 @@
             "code": "game:clothes-upperbodyover-forgotten",
             "name": "Forgotten noble robe",
             "icon": "character/icons/upperbodyover-forgotten.png"
+          },
+          {
+            "slot": "bag-1",
+            "code": "alchemy:potionflask-tube-quartz",
+            "name": "Small potion flask"
           },
           {
             "slot": "bag-2",
@@ -2529,12 +2534,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 153.6,
-        "blocksTravelled": 226154,
+        "playtimeHours": 153.7,
+        "blocksTravelled": 226193,
         "blocksBroken": 12770,
-        "blocksPlaced": 4330,
+        "blocksPlaced": 4331,
         "deepestY": 23,
-        "lastSeen": 1784740161,
+        "lastSeen": 1784740359,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2655,11 +2660,6 @@
             "slot": "bag-5",
             "code": "alchemy:potionflask-tube-quartz",
             "name": "Small potion flask"
-          },
-          {
-            "slot": "bag-17",
-            "code": "game:lime",
-            "name": "Lime"
           }
         ],
         "skin": {
