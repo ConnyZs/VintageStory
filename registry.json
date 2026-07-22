@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-185642",
+  "generated": "20260722-190242",
   "game_version": "1.22.3",
   "check_ts": "20260721-200056",
   "latest_engine": "1.22.5",
@@ -2455,7 +2455,7 @@
       "name": "AddyBuschu",
       "role": "suplayer",
       "first_join": "04/22/2026 17:55",
-      "last_join": "07/19/2026 17:12",
+      "last_join": "07/22/2026 17:01",
       "last_char": "04/25/2026 15:34",
       "stats": {
         "uid": "MT3maN90oN2gwGyklJR20Gu1",
@@ -2529,12 +2529,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 86.2,
-        "blocksTravelled": 225581,
+        "playtimeHours": 153.5,
+        "blocksTravelled": 225583,
         "blocksBroken": 12770,
         "blocksPlaced": 4320,
         "deepestY": 23,
-        "lastSeen": 1784497526,
+        "lastSeen": 1784739754,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
