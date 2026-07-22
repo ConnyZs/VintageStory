@@ -25,7 +25,7 @@
     "Forgotten noble robe"
    ],
    "frames": 16,
-   "v": 1784742786
+   "v": 1784742906
   },
   "Eghetti": {
    "class": "smith",
@@ -72,7 +72,7 @@
     "Rotwalker coat"
    ],
    "frames": 16,
-   "v": 1784742807
+   "v": 1784742928
   },
   "Moritz": {
    "class": "mason",
@@ -131,7 +131,7 @@
     "Tailor jacket"
    ],
    "frames": 16,
-   "v": 1784742825
+   "v": 1784742945
   }
  }
 }

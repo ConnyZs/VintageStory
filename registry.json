@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-195245",
+  "generated": "20260722-195445",
   "game_version": "1.22.3",
   "check_ts": "20260721-200056",
   "latest_engine": "1.22.5",
@@ -2124,12 +2124,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 71.6,
-        "blocksTravelled": 135381,
+        "playtimeHours": 71.7,
+        "blocksTravelled": 135530,
         "blocksBroken": 5920,
         "blocksPlaced": 406,
         "deepestY": 18,
-        "lastSeen": 1784742683,
+        "lastSeen": 1784742804,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2265,11 +2265,6 @@
             "name": "Peridotite stone"
           },
           {
-            "slot": "bag-11",
-            "code": "game:stone-andesite",
-            "name": "Andesite stone"
-          },
-          {
             "slot": "bag-12",
             "code": "game:grain-rye",
             "name": "Rye grain"
@@ -2290,9 +2285,9 @@
             "name": "Andesite stone"
           },
           {
-            "slot": "bag-18",
-            "code": "game:stone-andesite",
-            "name": "Andesite stone"
+            "slot": "bag-16",
+            "code": "game:soil-medium-none",
+            "name": "Medium fertility soil"
           },
           {
             "slot": "bag-20",
@@ -2308,16 +2303,6 @@
             "slot": "bag-22",
             "code": "game:ore-cinnabar",
             "name": "Cinnabar"
-          },
-          {
-            "slot": "bag-23",
-            "code": "game:stone-andesite",
-            "name": "Andesite stone"
-          },
-          {
-            "slot": "bag-24",
-            "code": "game:stone-andesite",
-            "name": "Andesite stone"
           }
         ],
         "skin": {
@@ -2626,11 +2611,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 154.3,
-        "blocksTravelled": 232747,
-        "blocksBroken": 12847,
+        "blocksTravelled": 232975,
+        "blocksBroken": 12902,
         "blocksPlaced": 4390,
         "deepestY": 23,
-        "lastSeen": 1784742683,
+        "lastSeen": 1784742804,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2728,9 +2713,39 @@
             "name": "Black bear hide body armor"
           },
           {
-            "slot": "bag-5",
+            "slot": "bag-1",
             "code": "alchemy:potionflask-tube-quartz",
             "name": "Small potion flask"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:soil-medium-none",
+            "name": "Medium fertility soil"
+          },
+          {
+            "slot": "bag-3",
+            "code": "game:soil-medium-none",
+            "name": "Medium fertility soil"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:soil-medium-none",
+            "name": "Medium fertility soil"
+          },
+          {
+            "slot": "bag-5",
+            "code": "game:shovel-iron",
+            "name": "Iron shovel"
+          },
+          {
+            "slot": "bag-6",
+            "code": "game:cobblestone-andesite",
+            "name": "Andesite cobblestone"
+          },
+          {
+            "slot": "bag-7",
+            "code": "game:stone-andesite",
+            "name": "Andesite stone"
           }
         ],
         "skin": {
@@ -3010,11 +3025,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 11.4,
-        "blocksTravelled": 19595,
+        "blocksTravelled": 19612,
         "blocksBroken": 729,
         "blocksPlaced": 390,
         "deepestY": 100,
-        "lastSeen": 1784742683,
+        "lastSeen": 1784742804,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
@@ -3124,11 +3139,6 @@
             "slot": "bag-11",
             "code": "game:pulp-linen",
             "name": "Linen fiber pulp"
-          },
-          {
-            "slot": "bag-12",
-            "code": "game:log-placed-oak-ud",
-            "name": "Oak log"
           },
           {
             "slot": "bag-13",
