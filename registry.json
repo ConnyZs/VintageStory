@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-212451",
+  "generated": "20260722-212651",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2525,12 +2525,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 155.8,
-        "blocksTravelled": 240639,
+        "playtimeHours": 155.9,
+        "blocksTravelled": 240880,
         "blocksBroken": 15568,
         "blocksPlaced": 5336,
         "deepestY": 23,
-        "lastSeen": 1784748213,
+        "lastSeen": 1784748327,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2631,6 +2631,11 @@
             "slot": "bag-1",
             "code": "alchemy:potionflask-tube-quartz",
             "name": "Small potion flask"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:knife-generic-tinbronze",
+            "name": "Tin bronze knife"
           },
           {
             "slot": "bag-6",
@@ -2889,7 +2894,7 @@
         "name": "Morsel",
         "class": "tailor",
         "deaths": 4,
-        "mobKills": 9,
+        "mobKills": 10,
         "mealsEaten": 31,
         "caloriesConsumed": 13868,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
@@ -2915,11 +2920,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 12.9,
-        "blocksTravelled": 22950,
+        "blocksTravelled": 23279,
         "blocksBroken": 765,
         "blocksPlaced": 430,
         "deepestY": 100,
-        "lastSeen": 1784748213,
+        "lastSeen": 1784748327,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
