@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-193044",
+  "generated": "20260722-193244",
   "game_version": "1.22.3",
   "check_ts": "20260721-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 71.3,
-        "blocksTravelled": 133427,
-        "blocksBroken": 5260,
+        "blocksTravelled": 133460,
+        "blocksBroken": 5356,
         "blocksPlaced": 400,
         "deepestY": 28,
-        "lastSeen": 1784741362,
+        "lastSeen": 1784741482,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2236,6 +2236,21 @@
           },
           {
             "slot": "bag-5",
+            "code": "game:stone-peridotite",
+            "name": "Peridotite stone"
+          },
+          {
+            "slot": "bag-6",
+            "code": "game:stone-peridotite",
+            "name": "Peridotite stone"
+          },
+          {
+            "slot": "bag-7",
+            "code": "game:stone-peridotite",
+            "name": "Peridotite stone"
+          },
+          {
+            "slot": "bag-8",
             "code": "game:stone-peridotite",
             "name": "Peridotite stone"
           }
@@ -2478,7 +2493,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 22,
-        "mobKills": 288,
+        "mobKills": 289,
         "mealsEaten": 269,
         "caloriesConsumed": 31004,
         "lastMeal": "Carrot",
@@ -2545,12 +2560,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 153.9,
-        "blocksTravelled": 229699,
+        "playtimeHours": 154.0,
+        "blocksTravelled": 229961,
         "blocksBroken": 12797,
         "blocksPlaced": 4332,
         "deepestY": 23,
-        "lastSeen": 1784741362,
+        "lastSeen": 1784741482,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2749,6 +2764,11 @@
           },
           {
             "slot": "bag-21",
+            "code": "butchering:deadpanthera-female-1-dead",
+            "name": "Panthera (dead)"
+          },
+          {
+            "slot": "bag-22",
             "code": "butchering:deadpanthera-female-1-dead",
             "name": "Panthera (dead)"
           }
