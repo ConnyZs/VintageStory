@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-201246",
+  "generated": "20260722-201446",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 72.0,
-        "blocksTravelled": 138966,
-        "blocksBroken": 5939,
-        "blocksPlaced": 406,
+        "blocksTravelled": 139061,
+        "blocksBroken": 5999,
+        "blocksPlaced": 410,
         "deepestY": 18,
-        "lastSeen": 1784743884,
+        "lastSeen": 1784744004,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2235,9 +2235,19 @@
             "name": "Rusty gear"
           },
           {
-            "slot": "bag-16",
-            "code": "game:soil-medium-none",
-            "name": "Medium fertility soil"
+            "slot": "bag-5",
+            "code": "game:stone-granite",
+            "name": "Granite stone"
+          },
+          {
+            "slot": "bag-6",
+            "code": "game:stone-granite",
+            "name": "Granite stone"
+          },
+          {
+            "slot": "bag-24",
+            "code": "game:ore-rich-cassiterite-granite",
+            "name": "Rich chunk of Cassiterite"
           }
         ],
         "skin": {
@@ -2545,12 +2555,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 154.6,
-        "blocksTravelled": 233998,
+        "playtimeHours": 154.7,
+        "blocksTravelled": 234151,
         "blocksBroken": 13313,
         "blocksPlaced": 4729,
         "deepestY": 23,
-        "lastSeen": 1784743884,
+        "lastSeen": 1784744004,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2664,8 +2674,8 @@
           },
           {
             "slot": "bag-4",
-            "code": "game:stone-andesite",
-            "name": "Andesite stone"
+            "code": "game:soil-low-none",
+            "name": "Low fertility soil"
           },
           {
             "slot": "bag-5",
@@ -2673,79 +2683,9 @@
             "name": "Iron shovel"
           },
           {
-            "slot": "bag-6",
-            "code": "game:cobblestone-andesite",
-            "name": "Andesite cobblestone"
-          },
-          {
-            "slot": "bag-7",
-            "code": "game:stone-andesite",
-            "name": "Andesite stone"
-          },
-          {
-            "slot": "bag-8",
-            "code": "game:drystone-andesite",
-            "name": "Andesite dry stone"
-          },
-          {
-            "slot": "bag-9",
-            "code": "game:stone-andesite",
-            "name": "Andesite stone"
-          },
-          {
             "slot": "bag-10",
-            "code": "game:cobblestone-andesite",
-            "name": "Andesite cobblestone"
-          },
-          {
-            "slot": "bag-11",
-            "code": "game:cobblestonestairs-andesite-up-north-free",
-            "name": "Andesite cobblestone stairs"
-          },
-          {
-            "slot": "bag-12",
-            "code": "game:cobblestone-andesite",
-            "name": "Andesite cobblestone"
-          },
-          {
-            "slot": "bag-13",
-            "code": "game:stone-andesite",
-            "name": "Andesite stone"
-          },
-          {
-            "slot": "bag-14",
-            "code": "game:stone-andesite",
-            "name": "Andesite stone"
-          },
-          {
-            "slot": "bag-15",
-            "code": "game:stone-andesite",
-            "name": "Andesite stone"
-          },
-          {
-            "slot": "bag-16",
-            "code": "game:flint",
-            "name": "Flint"
-          },
-          {
-            "slot": "bag-17",
-            "code": "game:polishedrockold-full-andesite",
-            "name": "Aged polished rock (Andesite)"
-          },
-          {
-            "slot": "bag-18",
-            "code": "game:treeseed-birch",
-            "name": "Birch seed"
-          },
-          {
-            "slot": "bag-19",
             "code": "game:soil-low-none",
             "name": "Low fertility soil"
-          },
-          {
-            "slot": "bag-20",
-            "code": "game:stone-andesite",
-            "name": "Andesite stone"
           }
         ],
         "skin": {
@@ -3029,7 +2969,7 @@
         "blocksBroken": 749,
         "blocksPlaced": 414,
         "deepestY": 100,
-        "lastSeen": 1784743884,
+        "lastSeen": 1784744004,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
