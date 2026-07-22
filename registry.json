@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-213451",
+  "generated": "20260722-213652",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2459,9 +2459,9 @@
         "class": "homesteader",
         "deaths": 22,
         "mobKills": 294,
-        "mealsEaten": 278,
-        "caloriesConsumed": 31604,
-        "lastMeal": "Turnip",
+        "mealsEaten": 279,
+        "caloriesConsumed": 31684,
+        "lastMeal": "Strawberry",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2506,7 +2506,7 @@
           "Whitecurrant": 3,
           "Bearded tooth": 5,
           "Rice grain": 3,
-          "Strawberry": 4,
+          "Strawberry": 5,
           "Rye grain": 11,
           "Parsnip": 10
         },
@@ -2514,7 +2514,7 @@
           "Grain": 59,
           "Protein": 21,
           "Vegetable": 84,
-          "Fruit": 142,
+          "Fruit": 143,
           "Dairy": 10
         },
         "deathCauses": {
@@ -2526,11 +2526,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 156.0,
-        "blocksTravelled": 241875,
+        "blocksTravelled": 242439,
         "blocksBroken": 15588,
         "blocksPlaced": 5336,
         "deepestY": 23,
-        "lastSeen": 1784748817,
+        "lastSeen": 1784748928,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2981,11 +2981,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 13.1,
-        "blocksTravelled": 23986,
+        "blocksTravelled": 24038,
         "blocksBroken": 765,
-        "blocksPlaced": 430,
+        "blocksPlaced": 432,
         "deepestY": 100,
-        "lastSeen": 1784748817,
+        "lastSeen": 1784748958,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
@@ -3073,16 +3073,6 @@
             "name": "Andesite cobblestone"
           },
           {
-            "slot": "bag-7",
-            "code": "floramycology:seeds-woad",
-            "name": "Woad Seeds"
-          },
-          {
-            "slot": "bag-8",
-            "code": "floramycology:seeds-lilyofthevalley",
-            "name": "Lily of the Valley Seeds"
-          },
-          {
             "slot": "bag-9",
             "code": "game:stone-andesite",
             "name": "Andesite stone"
@@ -3091,11 +3081,6 @@
             "slot": "bag-10",
             "code": "game:fruit-cranberry",
             "name": "Cranberry"
-          },
-          {
-            "slot": "bag-12",
-            "code": "game:crate",
-            "name": "Oak crate (closed)"
           },
           {
             "slot": "bag-13",
