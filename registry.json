@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-213051",
+  "generated": "20260722-213251",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2525,12 +2525,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 155.9,
-        "blocksTravelled": 241405,
-        "blocksBroken": 15578,
+        "playtimeHours": 156.0,
+        "blocksTravelled": 241581,
+        "blocksBroken": 15588,
         "blocksPlaced": 5336,
         "deepestY": 23,
-        "lastSeen": 1784748568,
+        "lastSeen": 1784748688,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2638,9 +2638,65 @@
             "name": "Tin bronze knife"
           },
           {
+            "slot": "bag-3",
+            "code": "game:clothes-neck-rottenking",
+            "name": "Rotten king collar"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:clothes-face-leather-reinforced-mask",
+            "name": "Leather reinforced mask",
+            "icon": "character/icons/face-leather-reinforced-mask.png"
+          },
+          {
+            "slot": "bag-5",
+            "code": "game:stick",
+            "name": "Stick"
+          },
+          {
             "slot": "bag-6",
             "code": "game:backpack-normal",
             "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-7",
+            "code": "game:diamond-stone-dark",
+            "name": "Diamond pattern dark stone tile"
+          },
+          {
+            "slot": "bag-8",
+            "code": "game:chest-east",
+            "name": "Aged Owl treasure chest"
+          },
+          {
+            "slot": "bag-9",
+            "code": "game:gear-rusty",
+            "name": "Rusty gear"
+          },
+          {
+            "slot": "bag-10",
+            "code": "fagothic:fa-gothic-schematic",
+            "name": "Gothic armor (schematic)"
+          },
+          {
+            "slot": "bag-11",
+            "code": "game:lore-book-rotten-green",
+            "name": "Rotten lore book (Green)"
+          },
+          {
+            "slot": "bag-12",
+            "code": "game:flower-lupine-red-free",
+            "name": "Lupine (Red)"
+          },
+          {
+            "slot": "bag-13",
+            "code": "game:seeds-rice",
+            "name": "Rice seeds"
+          },
+          {
+            "slot": "bag-14",
+            "code": "game:seeds-soybean",
+            "name": "Soybean seeds"
           },
           {
             "slot": "bag-19",
@@ -2925,11 +2981,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 13.0,
-        "blocksTravelled": 23922,
+        "blocksTravelled": 23946,
         "blocksBroken": 765,
         "blocksPlaced": 430,
         "deepestY": 100,
-        "lastSeen": 1784748568,
+        "lastSeen": 1784748688,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
@@ -2940,7 +2996,6 @@
           "Tailor needle puff",
           "Tailor jacket",
           "Tailored gamboised helmet",
-          "Tailored gambeson body armor",
           "Tailored gamboised leg armor"
         ],
         "gearDetail": [
@@ -2998,11 +3053,6 @@
             "name": "Tailored gamboised helmet"
           },
           {
-            "slot": "armorbody",
-            "code": "game:armor-body-tailored-plain-linen",
-            "name": "Tailored gambeson body armor"
-          },
-          {
             "slot": "armorlegs",
             "code": "game:armor-legs-tailored-plain-linen",
             "name": "Tailored gamboised leg armor"
@@ -3036,11 +3086,6 @@
             "slot": "bag-6",
             "code": "tailorsdelight:awl-iron",
             "name": "Iron stitching awl"
-          },
-          {
-            "slot": "bag-7",
-            "code": "game:flower-lilyofthevalley-free",
-            "name": "Lily of the valley"
           },
           {
             "slot": "bag-8",
