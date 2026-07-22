@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-205849",
+  "generated": "20260722-210049",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 72.6,
-        "blocksTravelled": 142823,
+        "blocksTravelled": 142834,
         "blocksBroken": 6442,
         "blocksPlaced": 423,
         "deepestY": 18,
-        "lastSeen": 1784746703,
+        "lastSeen": 1784746791,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2526,11 +2526,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 155.4,
-        "blocksTravelled": 237803,
-        "blocksBroken": 15046,
+        "blocksTravelled": 237893,
+        "blocksBroken": 15253,
         "blocksPlaced": 5332,
         "deepestY": 23,
-        "lastSeen": 1784746703,
+        "lastSeen": 1784746766,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2711,6 +2711,21 @@
             "slot": "bag-17",
             "code": "game:clay-red",
             "name": "Red clay"
+          },
+          {
+            "slot": "bag-18",
+            "code": "game:soil-medium-none",
+            "name": "Medium fertility soil"
+          },
+          {
+            "slot": "bag-19",
+            "code": "game:soil-low-none",
+            "name": "Low fertility soil"
+          },
+          {
+            "slot": "bag-20",
+            "code": "game:soil-low-none",
+            "name": "Low fertility soil"
           }
         ],
         "skin": {
@@ -2994,7 +3009,7 @@
         "blocksBroken": 754,
         "blocksPlaced": 430,
         "deepestY": 100,
-        "lastSeen": 1784746703,
+        "lastSeen": 1784746766,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
