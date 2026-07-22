@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-202447",
+  "generated": "20260722-202647",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 72.2,
-        "blocksTravelled": 139324,
-        "blocksBroken": 6342,
+        "blocksTravelled": 139342,
+        "blocksBroken": 6400,
         "blocksPlaced": 414,
         "deepestY": 18,
-        "lastSeen": 1784744605,
+        "lastSeen": 1784744725,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2226,8 +2226,8 @@
           },
           {
             "slot": "bag-3",
-            "code": "alchemy:potionflask-tube-plain",
-            "name": "Small potion flask"
+            "code": "game:stone-conglomerate",
+            "name": "Conglomerate stone"
           },
           {
             "slot": "bag-4",
@@ -2640,12 +2640,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 154.8,
-        "blocksTravelled": 235043,
-        "blocksBroken": 13567,
-        "blocksPlaced": 4880,
+        "playtimeHours": 154.9,
+        "blocksTravelled": 235226,
+        "blocksBroken": 13700,
+        "blocksPlaced": 4890,
         "deepestY": 23,
-        "lastSeen": 1784744605,
+        "lastSeen": 1784744725,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2748,6 +2748,11 @@
             "name": "Small potion flask"
           },
           {
+            "slot": "bag-2",
+            "code": "game:soil-medium-none",
+            "name": "Medium fertility soil"
+          },
+          {
             "slot": "bag-3",
             "code": "game:soil-low-none",
             "name": "Low fertility soil"
@@ -2766,6 +2771,21 @@
             "slot": "bag-6",
             "code": "game:soil-medium-none",
             "name": "Medium fertility soil"
+          },
+          {
+            "slot": "bag-7",
+            "code": "game:soil-low-none",
+            "name": "Low fertility soil"
+          },
+          {
+            "slot": "bag-8",
+            "code": "game:soil-low-none",
+            "name": "Low fertility soil"
+          },
+          {
+            "slot": "bag-9",
+            "code": "game:soil-low-none",
+            "name": "Low fertility soil"
           }
         ],
         "skin": {
@@ -3049,7 +3069,7 @@
         "blocksBroken": 749,
         "blocksPlaced": 421,
         "deepestY": 100,
-        "lastSeen": 1784744605,
+        "lastSeen": 1784744725,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
