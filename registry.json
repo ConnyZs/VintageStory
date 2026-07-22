@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-192043",
+  "generated": "20260722-192243",
   "game_version": "1.22.3",
   "check_ts": "20260721-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 71.1,
-        "blocksTravelled": 131985,
+        "blocksTravelled": 132722,
         "blocksBroken": 5127,
         "blocksPlaced": 398,
         "deepestY": 28,
-        "lastSeen": 1784740762,
+        "lastSeen": 1784740963,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2213,6 +2213,16 @@
             "code": "game:clothes-upperbodyover-forgotten",
             "name": "Forgotten noble robe",
             "icon": "character/icons/upperbodyover-forgotten.png"
+          },
+          {
+            "slot": "bag-1",
+            "code": "alchemy:potionflask-tube-quartz",
+            "name": "Small potion flask"
+          },
+          {
+            "slot": "bag-3",
+            "code": "game:lantern-large-up",
+            "name": "Large molybdochalkos lantern"
           }
         ],
         "skin": {
@@ -2453,7 +2463,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 22,
-        "mobKills": 286,
+        "mobKills": 288,
         "mealsEaten": 269,
         "caloriesConsumed": 31004,
         "lastMeal": "Carrot",
@@ -2521,11 +2531,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 153.8,
-        "blocksTravelled": 227783,
+        "blocksTravelled": 228508,
         "blocksBroken": 12790,
         "blocksPlaced": 4331,
         "deepestY": 23,
-        "lastSeen": 1784740762,
+        "lastSeen": 1784740963,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2686,6 +2696,16 @@
             "slot": "bag-19",
             "code": "butchering:deadwolf-male-eurasian-10-dead",
             "name": "Wolf (dead)"
+          },
+          {
+            "slot": "bag-20",
+            "code": "butchering:deadwolf-male-eurasian-2-dead",
+            "name": "Wolf (dead)"
+          },
+          {
+            "slot": "bag-21",
+            "code": "butchering:deadpanthera-female-1-dead",
+            "name": "Panthera (dead)"
           }
         ],
         "skin": {
