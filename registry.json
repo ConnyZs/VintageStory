@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-223856",
+  "generated": "20260722-224056",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 73.3,
-        "blocksTravelled": 148194,
+        "blocksTravelled": 148638,
         "blocksBroken": 6448,
         "blocksPlaced": 423,
         "deepestY": 18,
-        "lastSeen": 1784752651,
+        "lastSeen": 1784752771,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2235,12 +2235,6 @@
             "name": "Rusty gear"
           },
           {
-            "slot": "bag-5",
-            "code": "game:clothes-lowerbody-shepherd-pants",
-            "name": "Shepherd pants",
-            "icon": "character/icons/lowerbody-shepherd-pants.png"
-          },
-          {
             "slot": "bag-6",
             "code": "game:brickstairs-fire-up-north-free",
             "name": "Fireclay brick stairs"
@@ -2251,19 +2245,9 @@
             "name": "Ancient slab"
           },
           {
-            "slot": "bag-8",
-            "code": "game:hoovedwearables-face-face6",
-            "name": "Elk medallion (Night Sky)"
-          },
-          {
             "slot": "bag-9",
             "code": "game:ore-lapislazuli",
             "name": "Rough lapis lazuli"
-          },
-          {
-            "slot": "bag-10",
-            "code": "game:clothes-neck-merchant-amulet",
-            "name": "Merchant amulet"
           },
           {
             "slot": "bag-11",
@@ -2281,12 +2265,6 @@
             "name": "Charred planks"
           },
           {
-            "slot": "bag-14",
-            "code": "game:clothes-upperbody-surgeon",
-            "name": "Barber surgeon shirt",
-            "icon": "character/icons/upperbody-surgeon.png"
-          },
-          {
             "slot": "bag-15",
             "code": "game:claybricks-good-fire",
             "name": "Fireclay bricks"
@@ -2302,21 +2280,9 @@
             "name": "Metal scraps"
           },
           {
-            "slot": "bag-18",
-            "code": "game:clothes-shoulder-miner",
-            "name": "Miner cape",
-            "icon": "character/icons/shoulder-miner.png"
-          },
-          {
             "slot": "bag-19",
             "code": "game:ore-olivine",
             "name": "Olivine"
-          },
-          {
-            "slot": "bag-20",
-            "code": "game:clothes-upperbody-shepherd-tunic",
-            "name": "Shepherd tunic",
-            "icon": "character/icons/upperbody-shepherd-tunic.png"
           },
           {
             "slot": "bag-21",
@@ -2332,12 +2298,6 @@
             "slot": "bag-23",
             "code": "game:log-placed-aged-ud",
             "name": "Aged oak log"
-          },
-          {
-            "slot": "bag-24",
-            "code": "game:clothes-upperbody-peasent-shirt",
-            "name": "Peasant shirt",
-            "icon": "character/icons/upperbody-peasent-shirt.png"
           }
         ],
         "skin": {
