@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-195445",
+  "generated": "20260722-195645",
   "game_version": "1.22.3",
   "check_ts": "20260721-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 71.7,
-        "blocksTravelled": 135530,
+        "blocksTravelled": 135657,
         "blocksBroken": 5920,
         "blocksPlaced": 406,
         "deepestY": 18,
-        "lastSeen": 1784742804,
+        "lastSeen": 1784742924,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2215,94 +2215,14 @@
             "icon": "character/icons/upperbodyover-forgotten.png"
           },
           {
-            "slot": "bag-1",
-            "code": "alchemy:potionflask-tube-quartz",
-            "name": "Small potion flask"
-          },
-          {
-            "slot": "bag-2",
-            "code": "game:soil-medium-none",
-            "name": "Medium fertility soil"
-          },
-          {
             "slot": "bag-3",
             "code": "game:lantern-large-up",
             "name": "Large molybdochalkos lantern"
           },
           {
-            "slot": "bag-4",
-            "code": "game:soil-low-none",
-            "name": "Low fertility soil"
-          },
-          {
-            "slot": "bag-5",
-            "code": "game:stone-peridotite",
-            "name": "Peridotite stone"
-          },
-          {
-            "slot": "bag-6",
-            "code": "game:stone-peridotite",
-            "name": "Peridotite stone"
-          },
-          {
-            "slot": "bag-7",
-            "code": "game:ore-cinnabar",
-            "name": "Cinnabar"
-          },
-          {
-            "slot": "bag-8",
-            "code": "game:stone-peridotite",
-            "name": "Peridotite stone"
-          },
-          {
-            "slot": "bag-9",
-            "code": "game:ore-cinnabar",
-            "name": "Cinnabar"
-          },
-          {
-            "slot": "bag-10",
-            "code": "game:stone-peridotite",
-            "name": "Peridotite stone"
-          },
-          {
-            "slot": "bag-12",
-            "code": "game:grain-rye",
-            "name": "Rye grain"
-          },
-          {
-            "slot": "bag-13",
-            "code": "game:stone-andesite",
-            "name": "Andesite stone"
-          },
-          {
-            "slot": "bag-14",
-            "code": "game:stone-andesite",
-            "name": "Andesite stone"
-          },
-          {
-            "slot": "bag-15",
-            "code": "game:stone-andesite",
-            "name": "Andesite stone"
-          },
-          {
             "slot": "bag-16",
             "code": "game:soil-medium-none",
             "name": "Medium fertility soil"
-          },
-          {
-            "slot": "bag-20",
-            "code": "game:stone-andesite",
-            "name": "Andesite stone"
-          },
-          {
-            "slot": "bag-21",
-            "code": "game:stone-andesite",
-            "name": "Andesite stone"
-          },
-          {
-            "slot": "bag-22",
-            "code": "game:ore-cinnabar",
-            "name": "Cinnabar"
           }
         ],
         "skin": {
@@ -2610,12 +2530,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 154.3,
-        "blocksTravelled": 232975,
-        "blocksBroken": 12902,
-        "blocksPlaced": 4390,
+        "playtimeHours": 154.4,
+        "blocksTravelled": 233047,
+        "blocksBroken": 12957,
+        "blocksPlaced": 4407,
         "deepestY": 23,
-        "lastSeen": 1784742804,
+        "lastSeen": 1784742924,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2744,6 +2664,16 @@
           },
           {
             "slot": "bag-7",
+            "code": "game:stone-andesite",
+            "name": "Andesite stone"
+          },
+          {
+            "slot": "bag-8",
+            "code": "game:drystone-andesite",
+            "name": "Andesite dry stone"
+          },
+          {
+            "slot": "bag-9",
             "code": "game:stone-andesite",
             "name": "Andesite stone"
           }
@@ -3025,11 +2955,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 11.4,
-        "blocksTravelled": 19612,
+        "blocksTravelled": 19655,
         "blocksBroken": 729,
         "blocksPlaced": 390,
         "deepestY": 100,
-        "lastSeen": 1784742804,
+        "lastSeen": 1784742924,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
@@ -3136,9 +3066,24 @@
             "name": "Full body mannequin (reed)"
           },
           {
+            "slot": "bag-9",
+            "code": "game:metalnailsandstrips-copper",
+            "name": "Nails and strips (Copper)"
+          },
+          {
+            "slot": "bag-10",
+            "code": "game:stick",
+            "name": "Stick"
+          },
+          {
             "slot": "bag-11",
-            "code": "game:pulp-linen",
-            "name": "Linen fiber pulp"
+            "code": "game:ore-cinnabar",
+            "name": "Cinnabar"
+          },
+          {
+            "slot": "bag-12",
+            "code": "game:ore-cinnabar",
+            "name": "Cinnabar"
           },
           {
             "slot": "bag-13",
@@ -3164,6 +3109,11 @@
             "slot": "bag-17",
             "code": "aculinaryartillery:bark-oak-dry",
             "name": "Oak bark"
+          },
+          {
+            "slot": "bag-18",
+            "code": "game:ore-cinnabar",
+            "name": "Cinnabar"
           },
           {
             "slot": "bag-20",
