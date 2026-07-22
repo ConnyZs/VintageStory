@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-200446",
+  "generated": "20260722-200646",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2124,12 +2124,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 71.8,
-        "blocksTravelled": 136877,
-        "blocksBroken": 5920,
+        "playtimeHours": 71.9,
+        "blocksTravelled": 137465,
+        "blocksBroken": 5926,
         "blocksPlaced": 406,
         "deepestY": 18,
-        "lastSeen": 1784743404,
+        "lastSeen": 1784743524,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2536,11 +2536,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 154.5,
-        "blocksTravelled": 233282,
-        "blocksBroken": 13171,
-        "blocksPlaced": 4603,
+        "blocksTravelled": 233534,
+        "blocksBroken": 13198,
+        "blocksPlaced": 4618,
         "deepestY": 23,
-        "lastSeen": 1784743404,
+        "lastSeen": 1784743524,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2653,11 +2653,6 @@
             "name": "Medium fertility soil"
           },
           {
-            "slot": "bag-4",
-            "code": "game:soil-medium-none",
-            "name": "Medium fertility soil"
-          },
-          {
             "slot": "bag-5",
             "code": "game:shovel-iron",
             "name": "Iron shovel"
@@ -2716,6 +2711,11 @@
             "slot": "bag-16",
             "code": "game:flint",
             "name": "Flint"
+          },
+          {
+            "slot": "bag-24",
+            "code": "game:soil-low-none",
+            "name": "Low fertility soil"
           }
         ],
         "skin": {
@@ -2999,7 +2999,7 @@
         "blocksBroken": 749,
         "blocksPlaced": 406,
         "deepestY": 100,
-        "lastSeen": 1784743404,
+        "lastSeen": 1784743524,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
@@ -3086,6 +3086,16 @@
             "name": "Red clay"
           },
           {
+            "slot": "bag-5",
+            "code": "game:cobblestone-andesite",
+            "name": "Andesite cobblestone"
+          },
+          {
+            "slot": "bag-6",
+            "code": "tailorsdelight:awl-iron",
+            "name": "Iron stitching awl"
+          },
+          {
             "slot": "bag-7",
             "code": "game:vegetable-onion",
             "name": "Onion"
@@ -3107,6 +3117,11 @@
           },
           {
             "slot": "bag-11",
+            "code": "game:sewingkit",
+            "name": "Sewing kit"
+          },
+          {
+            "slot": "bag-12",
             "code": "tailorsdelight:twine-darkbrown",
             "name": "Thread (Dark brown)"
           },
@@ -3127,8 +3142,8 @@
           },
           {
             "slot": "bag-16",
-            "code": "tailorsdelight:awl-iron",
-            "name": "Iron stitching awl"
+            "code": "tailorsdelight:buttons-mixed",
+            "name": "Buttons & Clasps"
           },
           {
             "slot": "bag-17",
