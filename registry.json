@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-201847",
+  "generated": "20260722-202047",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 72.1,
-        "blocksTravelled": 139232,
-        "blocksBroken": 6143,
+        "blocksTravelled": 139246,
+        "blocksBroken": 6202,
         "blocksPlaced": 414,
         "deepestY": 18,
-        "lastSeen": 1784744285,
+        "lastSeen": 1784744365,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2308,6 +2308,11 @@
             "slot": "bag-19",
             "code": "game:stone-limestone",
             "name": "Limestone stone"
+          },
+          {
+            "slot": "bag-20",
+            "code": "game:workitem-iron",
+            "name": "Broken iron pickaxe head\n"
           },
           {
             "slot": "bag-24",
@@ -2621,11 +2626,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 154.8,
-        "blocksTravelled": 234550,
-        "blocksBroken": 13431,
+        "blocksTravelled": 234730,
+        "blocksBroken": 13436,
         "blocksPlaced": 4877,
         "deepestY": 23,
-        "lastSeen": 1784744285,
+        "lastSeen": 1784744365,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -3055,11 +3060,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 11.8,
-        "blocksTravelled": 19958,
+        "blocksTravelled": 19985,
         "blocksBroken": 749,
         "blocksPlaced": 414,
         "deepestY": 100,
-        "lastSeen": 1784744285,
+        "lastSeen": 1784744365,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
@@ -3129,6 +3134,11 @@
             "code": "game:clothes-shoulder-mooncloth-robe",
             "name": "Mooncloth robe",
             "icon": "character/icons/shoulder-mooncloth-robe.png"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:plank-oak",
+            "name": "Board (Oak)"
           },
           {
             "slot": "bag-3",
