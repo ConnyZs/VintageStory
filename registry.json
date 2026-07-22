@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-193244",
+  "generated": "20260722-193444",
   "game_version": "1.22.3",
   "check_ts": "20260721-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 71.3,
-        "blocksTravelled": 133460,
-        "blocksBroken": 5356,
+        "blocksTravelled": 133495,
+        "blocksBroken": 5455,
         "blocksPlaced": 400,
         "deepestY": 28,
-        "lastSeen": 1784741482,
+        "lastSeen": 1784741603,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2253,6 +2253,31 @@
             "slot": "bag-8",
             "code": "game:stone-peridotite",
             "name": "Peridotite stone"
+          },
+          {
+            "slot": "bag-9",
+            "code": "game:stone-peridotite",
+            "name": "Peridotite stone"
+          },
+          {
+            "slot": "bag-10",
+            "code": "game:stone-peridotite",
+            "name": "Peridotite stone"
+          },
+          {
+            "slot": "bag-11",
+            "code": "game:stone-andesite",
+            "name": "Andesite stone"
+          },
+          {
+            "slot": "bag-12",
+            "code": "game:stone-andesite",
+            "name": "Andesite stone"
+          },
+          {
+            "slot": "bag-13",
+            "code": "game:stone-andesite",
+            "name": "Andesite stone"
           }
         ],
         "skin": {
@@ -2561,11 +2586,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 154.0,
-        "blocksTravelled": 229961,
+        "blocksTravelled": 230235,
         "blocksBroken": 12797,
         "blocksPlaced": 4332,
         "deepestY": 23,
-        "lastSeen": 1784741482,
+        "lastSeen": 1784741603,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -3054,7 +3079,7 @@
         "blocksBroken": 719,
         "blocksPlaced": 374,
         "deepestY": 100,
-        "lastSeen": 1784154896,
+        "lastSeen": 1784741600,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
@@ -3118,78 +3143,6 @@
             "slot": "armorlegs",
             "code": "game:armor-legs-tailored-plain-linen",
             "name": "Tailored gamboised leg armor"
-          },
-          {
-            "slot": "bag-3",
-            "code": "game:clothes-upperbody-tailor-blouse",
-            "name": "Tailor blouse",
-            "icon": "character/icons/upperbody-tailor-blouse.png"
-          },
-          {
-            "slot": "bag-4",
-            "code": "game:clothes-lowerbody-tailor-trousers",
-            "name": "Tailor trousers",
-            "icon": "character/icons/lowerbody-tailor-trousers.png"
-          },
-          {
-            "slot": "bag-5",
-            "code": "game:clothes-foot-tailor-shoes",
-            "name": "Tailor shoes",
-            "icon": "character/icons/foot-tailor-shoes.png"
-          },
-          {
-            "slot": "bag-6",
-            "code": "game:clothes-hand-tailor-gloves",
-            "name": "Tailor gloves",
-            "icon": "character/icons/hand-tailor-gloves.png"
-          },
-          {
-            "slot": "bag-10",
-            "code": "game:clothes-waist-tailor-belt",
-            "name": "Tailor belt",
-            "icon": "character/icons/waist-tailor-belt.png"
-          },
-          {
-            "slot": "bag-11",
-            "code": "game:clothes-arm-tailor-needlepuff",
-            "name": "Tailor needle puff",
-            "icon": "character/icons/arm-tailor-needlepuff.png"
-          },
-          {
-            "slot": "bag-12",
-            "code": "game:clothes-upperbodyover-tailor-jacket",
-            "name": "Tailor jacket",
-            "icon": "character/icons/upperbodyover-tailor-jacket.png"
-          },
-          {
-            "slot": "bag-13",
-            "code": "game:armor-head-tailored-plain-linen",
-            "name": "Tailored gamboised helmet"
-          },
-          {
-            "slot": "bag-15",
-            "code": "game:armor-legs-tailored-plain-linen",
-            "name": "Tailored gamboised leg armor"
-          },
-          {
-            "slot": "bag-57",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-58",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-59",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-60",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
           }
         ],
         "skin": {
