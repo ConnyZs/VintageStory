@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-202847",
+  "generated": "20260722-203047",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2124,12 +2124,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 72.2,
-        "blocksTravelled": 139664,
+        "playtimeHours": 72.3,
+        "blocksTravelled": 140087,
         "blocksBroken": 6436,
         "blocksPlaced": 422,
         "deepestY": 18,
-        "lastSeen": 1784744889,
+        "lastSeen": 1784744965,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2641,11 +2641,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 154.9,
-        "blocksTravelled": 235474,
-        "blocksBroken": 13772,
-        "blocksPlaced": 4918,
+        "blocksTravelled": 235536,
+        "blocksBroken": 13803,
+        "blocksPlaced": 4977,
         "deepestY": 23,
-        "lastSeen": 1784744889,
+        "lastSeen": 1784744965,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2793,11 +2793,6 @@
             "name": "Low fertility soil"
           },
           {
-            "slot": "bag-11",
-            "code": "game:axe-felling-iron",
-            "name": "Iron axe"
-          },
-          {
             "slot": "bag-12",
             "code": "game:stone-andesite",
             "name": "Andesite stone"
@@ -2808,6 +2803,11 @@
             "name": "Flint"
           },
           {
+            "slot": "bag-14",
+            "code": "game:shovel-iron",
+            "name": "Iron shovel"
+          },
+          {
             "slot": "bag-17",
             "code": "game:log-placed-oak-ud",
             "name": "Oak log"
@@ -2816,11 +2816,6 @@
             "slot": "bag-23",
             "code": "game:pickaxe-iron",
             "name": "Iron pickaxe"
-          },
-          {
-            "slot": "bag-24",
-            "code": "game:log-placed-oak-ud",
-            "name": "Oak log"
           }
         ],
         "skin": {
@@ -3100,11 +3095,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 12.0,
-        "blocksTravelled": 20041,
+        "blocksTravelled": 20053,
         "blocksBroken": 749,
         "blocksPlaced": 421,
         "deepestY": 100,
-        "lastSeen": 1784744889,
+        "lastSeen": 1784744965,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
