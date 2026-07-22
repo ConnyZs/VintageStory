@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-213652",
+  "generated": "20260722-213852",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2525,12 +2525,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 156.0,
-        "blocksTravelled": 242439,
-        "blocksBroken": 15588,
+        "playtimeHours": 156.1,
+        "blocksTravelled": 242673,
+        "blocksBroken": 15608,
         "blocksPlaced": 5336,
         "deepestY": 23,
-        "lastSeen": 1784748928,
+        "lastSeen": 1784749118,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2655,8 +2655,8 @@
           },
           {
             "slot": "bag-6",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "code": "butchering:butcherybag-standard",
+            "name": "Hide Butchering Bag"
           },
           {
             "slot": "bag-7",
@@ -2699,9 +2699,44 @@
             "name": "Soybean seeds"
           },
           {
+            "slot": "bag-15",
+            "code": "game:seeds-fennel",
+            "name": "Fennel seeds"
+          },
+          {
+            "slot": "bag-16",
+            "code": "game:vegetable-fennel",
+            "name": "Fennel"
+          },
+          {
+            "slot": "bag-17",
+            "code": "game:flower-woad-free",
+            "name": "Woad"
+          },
+          {
+            "slot": "bag-18",
+            "code": "floramycology:seeds-woad",
+            "name": "Woad Seeds"
+          },
+          {
             "slot": "bag-19",
-            "code": "butchering:deadwolf-male-eurasian-1-dead",
-            "name": "Wolf (dead)"
+            "code": "game:fruitingbushcutting-redgrapes-free",
+            "name": "game:block-fruitingbushcutting-redgrapes-free"
+          },
+          {
+            "slot": "bag-22",
+            "code": "game:fruitingbushcutting-strawberry-free",
+            "name": "Strawberry runner"
+          },
+          {
+            "slot": "bag-23",
+            "code": "game:fruitingbushcutting-blackberry-free",
+            "name": "Blackberry cutting"
+          },
+          {
+            "slot": "bag-24",
+            "code": "game:fruitingbushcutting-blackberry-free",
+            "name": "Blackberry cutting"
           }
         ],
         "skin": {
