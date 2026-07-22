@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-222255",
+  "generated": "20260722-222455",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 73.0,
-        "blocksTravelled": 145489,
+        "blocksTravelled": 145754,
         "blocksBroken": 6442,
         "blocksPlaced": 423,
         "deepestY": 18,
-        "lastSeen": 1784751690,
+        "lastSeen": 1784751835,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2526,11 +2526,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 156.8,
-        "blocksTravelled": 247570,
+        "blocksTravelled": 247941,
         "blocksBroken": 15729,
         "blocksPlaced": 5366,
         "deepestY": 23,
-        "lastSeen": 1784751690,
+        "lastSeen": 1784751835,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2644,11 +2644,6 @@
           },
           {
             "slot": "bag-4",
-            "code": "alchemy:potionflask-tube-quartz",
-            "name": "Small potion flask"
-          },
-          {
-            "slot": "bag-5",
             "code": "alchemy:potionflask-tube-quartz",
             "name": "Small potion flask"
           },
