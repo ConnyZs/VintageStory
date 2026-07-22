@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-200056",
+  "generated": "20260722-200246",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 71.8,
-        "blocksTravelled": 135762,
+        "blocksTravelled": 136180,
         "blocksBroken": 5920,
         "blocksPlaced": 406,
         "deepestY": 18,
-        "lastSeen": 1784743164,
+        "lastSeen": 1784743284,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2535,12 +2535,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 154.4,
-        "blocksTravelled": 233097,
-        "blocksBroken": 13126,
-        "blocksPlaced": 4463,
+        "playtimeHours": 154.5,
+        "blocksTravelled": 233160,
+        "blocksBroken": 13153,
+        "blocksPlaced": 4578,
         "deepestY": 23,
-        "lastSeen": 1784743164,
+        "lastSeen": 1784743284,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2699,6 +2699,11 @@
           },
           {
             "slot": "bag-13",
+            "code": "game:stone-andesite",
+            "name": "Andesite stone"
+          },
+          {
+            "slot": "bag-14",
             "code": "game:stone-andesite",
             "name": "Andesite stone"
           }
@@ -2980,11 +2985,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 11.5,
-        "blocksTravelled": 19763,
+        "blocksTravelled": 19779,
         "blocksBroken": 749,
-        "blocksPlaced": 405,
+        "blocksPlaced": 406,
         "deepestY": 100,
-        "lastSeen": 1784743164,
+        "lastSeen": 1784743284,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
