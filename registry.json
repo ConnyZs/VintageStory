@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-194445",
+  "generated": "20260722-194645",
   "game_version": "1.22.3",
   "check_ts": "20260721-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 71.5,
-        "blocksTravelled": 133723,
-        "blocksBroken": 5899,
-        "blocksPlaced": 404,
+        "blocksTravelled": 134210,
+        "blocksBroken": 5908,
+        "blocksPlaced": 406,
         "deepestY": 18,
-        "lastSeen": 1784742203,
+        "lastSeen": 1784742323,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2641,11 +2641,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 154.2,
-        "blocksTravelled": 231612,
-        "blocksBroken": 12800,
+        "blocksTravelled": 232010,
+        "blocksBroken": 12818,
         "blocksPlaced": 4342,
         "deepestY": 23,
-        "lastSeen": 1784742203,
+        "lastSeen": 1784742323,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2771,6 +2771,66 @@
             "slot": "bag-6",
             "code": "game:backpack-normal",
             "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-7",
+            "code": "game:chiseledblock",
+            "name": "Gravestone"
+          },
+          {
+            "slot": "bag-8",
+            "code": "game:chiseledblock",
+            "name": "Gravestone"
+          },
+          {
+            "slot": "bag-9",
+            "code": "game:chiseledblock",
+            "name": "Gravestone"
+          },
+          {
+            "slot": "bag-10",
+            "code": "game:chiseledblock",
+            "name": "Peridotite rock (Polished)"
+          },
+          {
+            "slot": "bag-11",
+            "code": "game:chiseledblock",
+            "name": "Gravestone"
+          },
+          {
+            "slot": "bag-12",
+            "code": "game:chiseledblock",
+            "name": "Gravestone"
+          },
+          {
+            "slot": "bag-13",
+            "code": "game:chiseledblock",
+            "name": "Gravestone"
+          },
+          {
+            "slot": "bag-14",
+            "code": "game:chiseledblock",
+            "name": "Gravestone"
+          },
+          {
+            "slot": "bag-15",
+            "code": "game:chiseledblock",
+            "name": "Gravestone"
+          },
+          {
+            "slot": "bag-16",
+            "code": "game:chiseledblock",
+            "name": "Gravestone"
+          },
+          {
+            "slot": "bag-17",
+            "code": "game:chiseledblock",
+            "name": "Gravestone"
+          },
+          {
+            "slot": "bag-18",
+            "code": "game:chiseledblock",
+            "name": "Gravestone"
           },
           {
             "slot": "bag-19",
@@ -3059,12 +3119,12 @@
           "shiver-deepsplit": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 11.2,
-        "blocksTravelled": 19308,
-        "blocksBroken": 723,
-        "blocksPlaced": 375,
+        "playtimeHours": 11.3,
+        "blocksTravelled": 19338,
+        "blocksBroken": 729,
+        "blocksPlaced": 389,
         "deepestY": 100,
-        "lastSeen": 1784742203,
+        "lastSeen": 1784742323,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
@@ -3137,13 +3197,18 @@
           },
           {
             "slot": "bag-2",
-            "code": "game:cobblestonestairs-andesite-up-north-free",
-            "name": "Andesite cobblestone stairs"
+            "code": "game:bowl-earthyorange-meal",
+            "name": "Earthy orange ceramic bowl of meat stew"
           },
           {
             "slot": "bag-3",
             "code": "game:stone-limestone",
             "name": "Limestone stone"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:stone-andesite",
+            "name": "Andesite stone"
           },
           {
             "slot": "bag-5",
@@ -3172,8 +3237,8 @@
           },
           {
             "slot": "bag-10",
-            "code": "game:stone-andesite",
-            "name": "Andesite stone"
+            "code": "game:woodbucket",
+            "name": "Wooden bucket"
           },
           {
             "slot": "bag-11",
@@ -3184,11 +3249,6 @@
             "slot": "bag-12",
             "code": "game:woodbucket",
             "name": "Wooden bucket"
-          },
-          {
-            "slot": "bag-13",
-            "code": "game:cobblestone-andesite",
-            "name": "Andesite cobblestone"
           },
           {
             "slot": "bag-14",
