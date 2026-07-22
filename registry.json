@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-195045",
+  "generated": "20260722-195245",
   "game_version": "1.22.3",
   "check_ts": "20260721-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 71.6,
-        "blocksTravelled": 134911,
+        "blocksTravelled": 135381,
         "blocksBroken": 5920,
         "blocksPlaced": 406,
         "deepestY": 18,
-        "lastSeen": 1784742563,
+        "lastSeen": 1784742683,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2290,24 +2290,9 @@
             "name": "Andesite stone"
           },
           {
-            "slot": "bag-16",
-            "code": "game:crystalizedore-rich-nativecopper-andesite",
-            "name": "Rich crystallized chunk of Native copper"
-          },
-          {
-            "slot": "bag-17",
-            "code": "game:ore-rich-nativecopper-andesite",
-            "name": "Rich chunk of Native copper"
-          },
-          {
             "slot": "bag-18",
             "code": "game:stone-andesite",
             "name": "Andesite stone"
-          },
-          {
-            "slot": "bag-19",
-            "code": "game:ore-rich-nativecopper-andesite",
-            "name": "Rich chunk of Native copper"
           },
           {
             "slot": "bag-20",
@@ -2641,11 +2626,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 154.3,
-        "blocksTravelled": 232672,
-        "blocksBroken": 12832,
-        "blocksPlaced": 4354,
+        "blocksTravelled": 232747,
+        "blocksBroken": 12847,
+        "blocksPlaced": 4390,
         "deepestY": 23,
-        "lastSeen": 1784742563,
+        "lastSeen": 1784742683,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2743,94 +2728,9 @@
             "name": "Black bear hide body armor"
           },
           {
-            "slot": "bag-1",
-            "code": "animalcages:mediumanimalcage-floor-opened-north",
-            "name": "Medium animal cage (open)"
-          },
-          {
-            "slot": "bag-2",
-            "code": "animalcages:mediumanimalcage-floor-opened-north",
-            "name": "Medium animal cage (open)"
-          },
-          {
-            "slot": "bag-3",
-            "code": "animalcages:mediumanimalcage-floor-opened-north",
-            "name": "Medium animal cage (open)"
-          },
-          {
-            "slot": "bag-4",
-            "code": "animalcages:mediumanimalcage-floor-opened-north",
-            "name": "Medium animal cage (open)"
-          },
-          {
             "slot": "bag-5",
             "code": "alchemy:potionflask-tube-quartz",
             "name": "Small potion flask"
-          },
-          {
-            "slot": "bag-6",
-            "code": "game:chiseledblock",
-            "name": "Gravestone"
-          },
-          {
-            "slot": "bag-7",
-            "code": "game:chiseledblock",
-            "name": "Gravestone"
-          },
-          {
-            "slot": "bag-8",
-            "code": "game:chiseledblock",
-            "name": "Gravestone"
-          },
-          {
-            "slot": "bag-9",
-            "code": "game:chiseledblock",
-            "name": "Gravestone"
-          },
-          {
-            "slot": "bag-11",
-            "code": "game:chiseledblock",
-            "name": "Gravestone"
-          },
-          {
-            "slot": "bag-12",
-            "code": "game:chiseledblock",
-            "name": "Gravestone"
-          },
-          {
-            "slot": "bag-13",
-            "code": "game:chiseledblock",
-            "name": "Gravestone"
-          },
-          {
-            "slot": "bag-14",
-            "code": "game:chiseledblock",
-            "name": "Gravestone"
-          },
-          {
-            "slot": "bag-15",
-            "code": "game:chiseledblock",
-            "name": "Gravestone"
-          },
-          {
-            "slot": "bag-16",
-            "code": "game:chiseledblock",
-            "name": "Gravestone"
-          },
-          {
-            "slot": "bag-19",
-            "code": "game:chiseledblock",
-            "name": "Gravestone"
-          },
-          {
-            "slot": "bag-20",
-            "code": "game:chiseledblock",
-            "name": "Gravestone"
-          },
-          {
-            "slot": "bag-24",
-            "code": "game:chiseledblock",
-            "name": "Gravestone"
           }
         ],
         "skin": {
@@ -3109,12 +3009,12 @@
           "shiver-deepsplit": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 11.3,
-        "blocksTravelled": 19440,
+        "playtimeHours": 11.4,
+        "blocksTravelled": 19595,
         "blocksBroken": 729,
-        "blocksPlaced": 389,
+        "blocksPlaced": 390,
         "deepestY": 100,
-        "lastSeen": 1784742563,
+        "lastSeen": 1784742683,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
@@ -3219,11 +3119,6 @@
             "slot": "bag-8",
             "code": "game:mannequin-reed-complete",
             "name": "Full body mannequin (reed)"
-          },
-          {
-            "slot": "bag-10",
-            "code": "game:woodbucket",
-            "name": "Wooden bucket"
           },
           {
             "slot": "bag-11",
