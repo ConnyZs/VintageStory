@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-194044",
+  "generated": "20260722-194245",
   "game_version": "1.22.3",
   "check_ts": "20260721-200056",
   "latest_engine": "1.22.5",
@@ -2124,12 +2124,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 71.4,
-        "blocksTravelled": 133595,
-        "blocksBroken": 5765,
+        "playtimeHours": 71.5,
+        "blocksTravelled": 133618,
+        "blocksBroken": 5872,
         "blocksPlaced": 404,
         "deepestY": 18,
-        "lastSeen": 1784741963,
+        "lastSeen": 1784742083,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2246,8 +2246,8 @@
           },
           {
             "slot": "bag-7",
-            "code": "game:stone-peridotite",
-            "name": "Peridotite stone"
+            "code": "game:ore-cinnabar",
+            "name": "Cinnabar"
           },
           {
             "slot": "bag-8",
@@ -2256,8 +2256,8 @@
           },
           {
             "slot": "bag-9",
-            "code": "game:stone-peridotite",
-            "name": "Peridotite stone"
+            "code": "game:ore-cinnabar",
+            "name": "Cinnabar"
           },
           {
             "slot": "bag-10",
@@ -2641,11 +2641,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 154.1,
-        "blocksTravelled": 230986,
+        "blocksTravelled": 231270,
         "blocksBroken": 12800,
         "blocksPlaced": 4342,
         "deepestY": 23,
-        "lastSeen": 1784741963,
+        "lastSeen": 1784742083,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2771,36 +2771,6 @@
             "slot": "bag-6",
             "code": "game:backpack-normal",
             "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-7",
-            "code": "game:fruit-redcurrant",
-            "name": "Redcurrant"
-          },
-          {
-            "slot": "bag-8",
-            "code": "game:vegetable-turnip",
-            "name": "Turnip"
-          },
-          {
-            "slot": "bag-9",
-            "code": "game:fruit-blackcurrant",
-            "name": "Blackcurrant"
-          },
-          {
-            "slot": "bag-10",
-            "code": "game:vegetable-onion",
-            "name": "Onion"
-          },
-          {
-            "slot": "bag-11",
-            "code": "game:seeds-onion",
-            "name": "Onion seeds"
-          },
-          {
-            "slot": "bag-12",
-            "code": "game:seeds-turnip",
-            "name": "Turnip seeds"
           }
         ],
         "skin": {
@@ -3080,11 +3050,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 11.2,
-        "blocksTravelled": 19255,
+        "blocksTravelled": 19300,
         "blocksBroken": 719,
-        "blocksPlaced": 374,
+        "blocksPlaced": 375,
         "deepestY": 100,
-        "lastSeen": 1784741963,
+        "lastSeen": 1784742083,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
