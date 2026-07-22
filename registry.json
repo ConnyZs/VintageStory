@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-212851",
+  "generated": "20260722-213051",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2458,7 +2458,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 22,
-        "mobKills": 293,
+        "mobKills": 294,
         "mealsEaten": 278,
         "caloriesConsumed": 31604,
         "lastMeal": "Turnip",
@@ -2526,11 +2526,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 155.9,
-        "blocksTravelled": 241245,
-        "blocksBroken": 15568,
+        "blocksTravelled": 241405,
+        "blocksBroken": 15578,
         "blocksPlaced": 5336,
         "deepestY": 23,
-        "lastSeen": 1784748515,
+        "lastSeen": 1784748568,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2641,6 +2641,11 @@
             "slot": "bag-6",
             "code": "game:backpack-normal",
             "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-19",
+            "code": "butchering:deadwolf-male-eurasian-1-dead",
+            "name": "Wolf (dead)"
           }
         ],
         "skin": {
@@ -2920,11 +2925,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 13.0,
-        "blocksTravelled": 23858,
+        "blocksTravelled": 23922,
         "blocksBroken": 765,
         "blocksPlaced": 430,
         "deepestY": 100,
-        "lastSeen": 1784748515,
+        "lastSeen": 1784748568,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
