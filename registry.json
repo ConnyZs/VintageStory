@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-213852",
+  "generated": "20260722-214052",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2459,9 +2459,9 @@
         "class": "homesteader",
         "deaths": 22,
         "mobKills": 294,
-        "mealsEaten": 279,
-        "caloriesConsumed": 31684,
-        "lastMeal": "Strawberry",
+        "mealsEaten": 298,
+        "caloriesConsumed": 33204,
+        "lastMeal": "Green grapes",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2497,16 +2497,16 @@
           "Green cracked russula": 11,
           "Violet web cap": 2,
           "Liberty cap": 1,
-          "Green grapes": 20,
+          "Green grapes": 24,
           "King bolete": 2,
           "Chicken of the woods": 2,
           "Fennel": 2,
           "Gold-drop milkcap": 1,
-          "Red grapes": 5,
+          "Red grapes": 14,
           "Whitecurrant": 3,
           "Bearded tooth": 5,
           "Rice grain": 3,
-          "Strawberry": 5,
+          "Strawberry": 11,
           "Rye grain": 11,
           "Parsnip": 10
         },
@@ -2514,7 +2514,7 @@
           "Grain": 59,
           "Protein": 21,
           "Vegetable": 84,
-          "Fruit": 143,
+          "Fruit": 162,
           "Dairy": 10
         },
         "deathCauses": {
@@ -2526,11 +2526,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 156.1,
-        "blocksTravelled": 242673,
-        "blocksBroken": 15608,
+        "blocksTravelled": 242921,
+        "blocksBroken": 15612,
         "blocksPlaced": 5336,
         "deepestY": 23,
-        "lastSeen": 1784749118,
+        "lastSeen": 1784749168,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
