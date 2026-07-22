@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-222655",
+  "generated": "20260722-222855",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 73.1,
-        "blocksTravelled": 145820,
+        "blocksTravelled": 145859,
         "blocksBroken": 6448,
         "blocksPlaced": 423,
         "deepestY": 18,
-        "lastSeen": 1784751930,
+        "lastSeen": 1784752050,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2223,6 +2223,121 @@
             "slot": "bag-2",
             "code": "game:chiseledblock",
             "name": "FemurSnapper Emblem"
+          },
+          {
+            "slot": "bag-3",
+            "code": "game:stone-sandstone",
+            "name": "Sandstone stone"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:gear-rusty",
+            "name": "Rusty gear"
+          },
+          {
+            "slot": "bag-5",
+            "code": "game:clothes-lowerbody-shepherd-pants",
+            "name": "Shepherd pants",
+            "icon": "character/icons/lowerbody-shepherd-pants.png"
+          },
+          {
+            "slot": "bag-6",
+            "code": "game:brickstairs-fire-up-north-free",
+            "name": "Fireclay brick stairs"
+          },
+          {
+            "slot": "bag-7",
+            "code": "game:quartzslab-down-free",
+            "name": "Ancient slab"
+          },
+          {
+            "slot": "bag-8",
+            "code": "game:log-placed-aged-ud",
+            "name": "Aged oak log"
+          },
+          {
+            "slot": "bag-9",
+            "code": "game:ore-lapislazuli",
+            "name": "Rough lapis lazuli"
+          },
+          {
+            "slot": "bag-10",
+            "code": "game:clothes-neck-merchant-amulet",
+            "name": "Merchant amulet"
+          },
+          {
+            "slot": "bag-11",
+            "code": "game:ore-quartz",
+            "name": "Quartz chunk"
+          },
+          {
+            "slot": "bag-12",
+            "code": "game:table-redmarble",
+            "name": "Pink marble-topped table"
+          },
+          {
+            "slot": "bag-13",
+            "code": "game:burnedplanks-normal-charred-ud",
+            "name": "Charred planks"
+          },
+          {
+            "slot": "bag-14",
+            "code": "game:clothes-upperbody-surgeon",
+            "name": "Barber surgeon shirt",
+            "icon": "character/icons/upperbody-surgeon.png"
+          },
+          {
+            "slot": "bag-15",
+            "code": "game:claybricks-good-fire",
+            "name": "Fireclay bricks"
+          },
+          {
+            "slot": "bag-16",
+            "code": "game:jonasframes-gears02",
+            "name": "Jonas sub-assembly (An exquisite planetary gear)"
+          },
+          {
+            "slot": "bag-17",
+            "code": "game:metal-scraps",
+            "name": "Metal scraps"
+          },
+          {
+            "slot": "bag-18",
+            "code": "game:clothes-shoulder-miner",
+            "name": "Miner cape",
+            "icon": "character/icons/shoulder-miner.png"
+          },
+          {
+            "slot": "bag-19",
+            "code": "game:ore-olivine",
+            "name": "Olivine"
+          },
+          {
+            "slot": "bag-20",
+            "code": "game:clothes-upperbody-shepherd-tunic",
+            "name": "Shepherd tunic",
+            "icon": "character/icons/upperbody-shepherd-tunic.png"
+          },
+          {
+            "slot": "bag-21",
+            "code": "game:hoovedwearables-blanket-earthtone",
+            "name": "Earth tone saddle blanket"
+          },
+          {
+            "slot": "bag-22",
+            "code": "game:clothes-arm-japamala",
+            "name": "Japamala"
+          },
+          {
+            "slot": "bag-23",
+            "code": "game:beeswax",
+            "name": "Beeswax"
+          },
+          {
+            "slot": "bag-24",
+            "code": "game:clothes-upperbody-peasent-shirt",
+            "name": "Peasant shirt",
+            "icon": "character/icons/upperbody-peasent-shirt.png"
           }
         ],
         "skin": {
@@ -2531,11 +2646,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 156.9,
-        "blocksTravelled": 248165,
-        "blocksBroken": 15729,
-        "blocksPlaced": 5366,
+        "blocksTravelled": 248435,
+        "blocksBroken": 15736,
+        "blocksPlaced": 5373,
         "deepestY": 23,
-        "lastSeen": 1784751930,
+        "lastSeen": 1784752050,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2653,6 +2768,11 @@
             "name": "Small potion flask"
           },
           {
+            "slot": "bag-5",
+            "code": "game:fruitingbushcutting-blueberry-free",
+            "name": "Blueberry cutting"
+          },
+          {
             "slot": "bag-6",
             "code": "game:backpack-normal",
             "name": "Leather backpack"
@@ -2686,6 +2806,11 @@
             "slot": "bag-12",
             "code": "game:fruitingbushcutting-strawberry-free",
             "name": "Strawberry runner"
+          },
+          {
+            "slot": "bag-13",
+            "code": "game:workitem-iron",
+            "name": "Broken iron knife blade\n"
           },
           {
             "slot": "bag-19",
