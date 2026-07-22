@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-222855",
+  "generated": "20260722-223055",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 73.1,
-        "blocksTravelled": 145859,
+        "blocksTravelled": 145949,
         "blocksBroken": 6448,
         "blocksPlaced": 423,
         "deepestY": 18,
-        "lastSeen": 1784752050,
+        "lastSeen": 1784752170,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2252,8 +2252,8 @@
           },
           {
             "slot": "bag-8",
-            "code": "game:log-placed-aged-ud",
-            "name": "Aged oak log"
+            "code": "game:hoovedwearables-face-face6",
+            "name": "Elk medallion (Night Sky)"
           },
           {
             "slot": "bag-9",
@@ -2330,8 +2330,8 @@
           },
           {
             "slot": "bag-23",
-            "code": "game:beeswax",
-            "name": "Beeswax"
+            "code": "game:log-placed-aged-ud",
+            "name": "Aged oak log"
           },
           {
             "slot": "bag-24",
@@ -2650,7 +2650,7 @@
         "blocksBroken": 15736,
         "blocksPlaced": 5373,
         "deepestY": 23,
-        "lastSeen": 1784752050,
+        "lastSeen": 1784752170,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
