@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-215853",
+  "generated": "20260722-220053",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 72.6,
-        "blocksTravelled": 142874,
+        "blocksTravelled": 142876,
         "blocksBroken": 6442,
         "blocksPlaced": 423,
         "deepestY": 18,
-        "lastSeen": 1784750325,
+        "lastSeen": 1784750369,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2526,11 +2526,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 156.4,
-        "blocksTravelled": 245611,
+        "blocksTravelled": 245612,
         "blocksBroken": 15726,
-        "blocksPlaced": 5347,
+        "blocksPlaced": 5348,
         "deepestY": 23,
-        "lastSeen": 1784750325,
+        "lastSeen": 1784750369,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2654,13 +2654,19 @@
           },
           {
             "slot": "bag-6",
-            "code": "falandsknecht:fa-landsknecht-schematic",
-            "name": "Landsknecht wearables (schematic)"
+            "code": "game:clothes-hand-deep",
+            "name": "Deep noble gloves",
+            "icon": "character/icons/hand-deep.png"
           },
           {
             "slot": "bag-7",
             "code": "game:diamond-stone-dark",
             "name": "Diamond pattern dark stone tile"
+          },
+          {
+            "slot": "bag-8",
+            "code": "game:jonasframes-spring01",
+            "name": "Jonas sub-assembly (Intricately wound spring)"
           },
           {
             "slot": "bag-9",
@@ -2683,6 +2689,27 @@
             "name": "Lupine (Red)"
           },
           {
+            "slot": "bag-13",
+            "code": "game:clothes-neck-rottenking",
+            "name": "Rotten king collar"
+          },
+          {
+            "slot": "bag-14",
+            "code": "game:clothes-face-leather-reinforced-mask",
+            "name": "Leather reinforced mask",
+            "icon": "character/icons/face-leather-reinforced-mask.png"
+          },
+          {
+            "slot": "bag-15",
+            "code": "fagothic:fa-gothic-schematic",
+            "name": "Gothic armor (schematic)"
+          },
+          {
+            "slot": "bag-16",
+            "code": "butchering:butcherybag-standard",
+            "name": "Hide Butchering Bag"
+          },
+          {
             "slot": "bag-17",
             "code": "game:fruitingbushcutting-blackberry-free",
             "name": "Blackberry cutting"
@@ -2691,6 +2718,37 @@
             "slot": "bag-18",
             "code": "game:fruitingbushcutting-blackberry-free",
             "name": "Blackberry cutting"
+          },
+          {
+            "slot": "bag-19",
+            "code": "game:clothes-upperbody-forgotten",
+            "name": "Forgotten noble shirt",
+            "icon": "character/icons/upperbody-forgotten.png"
+          },
+          {
+            "slot": "bag-20",
+            "code": "game:chest-east",
+            "name": "Aged Owl treasure chest"
+          },
+          {
+            "slot": "bag-21",
+            "code": "game:clothes-neck-fancy-cross",
+            "name": "Ornamental cross"
+          },
+          {
+            "slot": "bag-22",
+            "code": "game:lore-book-rotten-green",
+            "name": "Rotten lore book (Green)"
+          },
+          {
+            "slot": "bag-23",
+            "code": "fatemplar:fa-templar-schematic",
+            "name": "Templar style armor (schematic)"
+          },
+          {
+            "slot": "bag-24",
+            "code": "falandsknecht:fa-landsknecht-schematic",
+            "name": "Landsknecht wearables (schematic)"
           }
         ],
         "skin": {
