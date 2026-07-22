@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-221454",
+  "generated": "20260722-221654",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 72.9,
-        "blocksTravelled": 143286,
+        "blocksTravelled": 143931,
         "blocksBroken": 6442,
         "blocksPlaced": 423,
         "deepestY": 18,
-        "lastSeen": 1784751231,
+        "lastSeen": 1784751329,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2526,11 +2526,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 156.7,
-        "blocksTravelled": 246623,
+        "blocksTravelled": 246892,
         "blocksBroken": 15729,
         "blocksPlaced": 5366,
         "deepestY": 23,
-        "lastSeen": 1784751231,
+        "lastSeen": 1784751329,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2636,6 +2636,11 @@
             "slot": "bag-2",
             "code": "game:knife-generic-tinbronze",
             "name": "Tin bronze knife"
+          },
+          {
+            "slot": "bag-3",
+            "code": "game:fruitingbushcutting-blackberry-free",
+            "name": "Blackberry cutting"
           },
           {
             "slot": "bag-6",
