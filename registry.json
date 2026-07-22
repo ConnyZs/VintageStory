@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-204248",
+  "generated": "20260722-204448",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 72.5,
-        "blocksTravelled": 142776,
+        "blocksTravelled": 142785,
         "blocksBroken": 6442,
         "blocksPlaced": 422,
         "deepestY": 18,
-        "lastSeen": 1784745686,
+        "lastSeen": 1784745806,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2525,12 +2525,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 155.1,
-        "blocksTravelled": 236566,
-        "blocksBroken": 14073,
+        "playtimeHours": 155.2,
+        "blocksTravelled": 236653,
+        "blocksBroken": 14312,
         "blocksPlaced": 5036,
         "deepestY": 23,
-        "lastSeen": 1784745686,
+        "lastSeen": 1784745806,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2631,6 +2631,26 @@
             "slot": "bag-1",
             "code": "alchemy:potionflask-tube-quartz",
             "name": "Small potion flask"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:shovel-iron",
+            "name": "Iron shovel"
+          },
+          {
+            "slot": "bag-3",
+            "code": "game:soil-medium-none",
+            "name": "Medium fertility soil"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:soil-low-none",
+            "name": "Low fertility soil"
+          },
+          {
+            "slot": "bag-5",
+            "code": "game:soil-low-none",
+            "name": "Low fertility soil"
           }
         ],
         "skin": {
@@ -2910,11 +2930,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 12.2,
-        "blocksTravelled": 20545,
+        "blocksTravelled": 20576,
         "blocksBroken": 749,
         "blocksPlaced": 421,
         "deepestY": 100,
-        "lastSeen": 1784745686,
+        "lastSeen": 1784745806,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
@@ -3030,11 +3050,6 @@
             "slot": "bag-9",
             "code": "game:stone-andesite",
             "name": "Andesite stone"
-          },
-          {
-            "slot": "bag-10",
-            "code": "game:flaxfibers",
-            "name": "Flax fibers"
           },
           {
             "slot": "bag-11",
