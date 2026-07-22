@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-214652",
+  "generated": "20260722-214852",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2525,12 +2525,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 156.2,
-        "blocksTravelled": 243581,
+        "playtimeHours": 156.3,
+        "blocksTravelled": 243917,
         "blocksBroken": 15702,
-        "blocksPlaced": 5341,
+        "blocksPlaced": 5342,
         "deepestY": 23,
-        "lastSeen": 1784749528,
+        "lastSeen": 1784749721,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2639,24 +2639,23 @@
           },
           {
             "slot": "bag-3",
-            "code": "game:clothes-neck-rottenking",
-            "name": "Rotten king collar"
+            "code": "game:drycarcass-humanoid2",
+            "name": "Carcass (Humanoid)"
           },
           {
             "slot": "bag-4",
-            "code": "game:clothes-face-leather-reinforced-mask",
-            "name": "Leather reinforced mask",
-            "icon": "character/icons/face-leather-reinforced-mask.png"
-          },
-          {
-            "slot": "bag-5",
             "code": "game:gravel-peridotite",
             "name": "Peridotite gravel"
           },
           {
+            "slot": "bag-5",
+            "code": "game:metal-scraps",
+            "name": "Metal scraps"
+          },
+          {
             "slot": "bag-6",
-            "code": "butchering:butcherybag-standard",
-            "name": "Hide Butchering Bag"
+            "code": "floramycology:seeds-woad",
+            "name": "Woad Seeds"
           },
           {
             "slot": "bag-7",
@@ -2665,8 +2664,8 @@
           },
           {
             "slot": "bag-8",
-            "code": "game:chest-east",
-            "name": "Aged Owl treasure chest"
+            "code": "game:seeds-fennel",
+            "name": "Fennel seeds"
           },
           {
             "slot": "bag-9",
@@ -2675,13 +2674,8 @@
           },
           {
             "slot": "bag-10",
-            "code": "fagothic:fa-gothic-schematic",
-            "name": "Gothic armor (schematic)"
-          },
-          {
-            "slot": "bag-11",
-            "code": "game:lore-book-rotten-green",
-            "name": "Rotten lore book (Green)"
+            "code": "game:flower-woad-free",
+            "name": "Woad"
           },
           {
             "slot": "bag-12",
@@ -2699,11 +2693,6 @@
             "name": "Soybean seeds"
           },
           {
-            "slot": "bag-15",
-            "code": "game:seeds-fennel",
-            "name": "Fennel seeds"
-          },
-          {
             "slot": "bag-16",
             "code": "game:vegetable-fennel",
             "name": "Fennel"
@@ -2714,24 +2703,9 @@
             "name": "Woad"
           },
           {
-            "slot": "bag-18",
-            "code": "floramycology:seeds-woad",
-            "name": "Woad Seeds"
-          },
-          {
             "slot": "bag-19",
             "code": "game:fruitingbushcutting-redgrapes-free",
             "name": "game:block-fruitingbushcutting-redgrapes-free"
-          },
-          {
-            "slot": "bag-20",
-            "code": "game:flower-woad-free",
-            "name": "Woad"
-          },
-          {
-            "slot": "bag-21",
-            "code": "game:soil-low-none",
-            "name": "Low fertility soil"
           },
           {
             "slot": "bag-22",
