@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-201446",
+  "generated": "20260722-201647",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2094,7 +2094,7 @@
         "name": "Raschuetzer",
         "class": "tinker",
         "deaths": 7,
-        "mobKills": 80,
+        "mobKills": 81,
         "mealsEaten": 41,
         "caloriesConsumed": 15874,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 72.0,
-        "blocksTravelled": 139061,
-        "blocksBroken": 5999,
+        "blocksTravelled": 139164,
+        "blocksBroken": 6035,
         "blocksPlaced": 410,
         "deepestY": 18,
-        "lastSeen": 1784744004,
+        "lastSeen": 1784744125,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2216,8 +2216,8 @@
           },
           {
             "slot": "bag-1",
-            "code": "alchemy:potionflask-tube-plain",
-            "name": "Small potion flask"
+            "code": "walkingstick:walkingstick-pathfinder",
+            "name": "Pathfinder's walking stick"
           },
           {
             "slot": "bag-2",
@@ -2226,8 +2226,8 @@
           },
           {
             "slot": "bag-3",
-            "code": "game:lantern-large-up",
-            "name": "Large molybdochalkos lantern"
+            "code": "alchemy:potionflask-tube-plain",
+            "name": "Small potion flask"
           },
           {
             "slot": "bag-4",
@@ -2243,6 +2243,36 @@
             "slot": "bag-6",
             "code": "game:stone-granite",
             "name": "Granite stone"
+          },
+          {
+            "slot": "bag-7",
+            "code": "game:stone-sandstone",
+            "name": "Sandstone stone"
+          },
+          {
+            "slot": "bag-8",
+            "code": "game:ore-rich-galena-sandstone",
+            "name": "Rich chunk of Galena"
+          },
+          {
+            "slot": "bag-9",
+            "code": "game:blastingpowder",
+            "name": "Blasting powder"
+          },
+          {
+            "slot": "bag-10",
+            "code": "game:ore-lignite",
+            "name": "Brown coal"
+          },
+          {
+            "slot": "bag-11",
+            "code": "game:saltpeter",
+            "name": "Saltpeter"
+          },
+          {
+            "slot": "bag-12",
+            "code": "game:beeswax",
+            "name": "Beeswax"
           },
           {
             "slot": "bag-24",
@@ -2556,11 +2586,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 154.7,
-        "blocksTravelled": 234151,
-        "blocksBroken": 13313,
+        "blocksTravelled": 234264,
+        "blocksBroken": 13414,
         "blocksPlaced": 4729,
         "deepestY": 23,
-        "lastSeen": 1784744004,
+        "lastSeen": 1784744125,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2683,9 +2713,39 @@
             "name": "Iron shovel"
           },
           {
+            "slot": "bag-6",
+            "code": "game:tuleroot",
+            "name": "Tule root"
+          },
+          {
+            "slot": "bag-7",
+            "code": "game:cattailroot",
+            "name": "Cattail root"
+          },
+          {
+            "slot": "bag-8",
+            "code": "game:drygrass",
+            "name": "Dry grass"
+          },
+          {
+            "slot": "bag-9",
+            "code": "game:thatch",
+            "name": "Thatch"
+          },
+          {
             "slot": "bag-10",
             "code": "game:soil-low-none",
             "name": "Low fertility soil"
+          },
+          {
+            "slot": "bag-11",
+            "code": "game:stone-andesite",
+            "name": "Andesite stone"
+          },
+          {
+            "slot": "bag-12",
+            "code": "game:cattailtops",
+            "name": "Cattails"
           }
         ],
         "skin": {
@@ -2964,12 +3024,12 @@
           "shiver-deepsplit": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 11.7,
-        "blocksTravelled": 19853,
+        "playtimeHours": 11.8,
+        "blocksTravelled": 19872,
         "blocksBroken": 749,
         "blocksPlaced": 414,
         "deepestY": 100,
-        "lastSeen": 1784744004,
+        "lastSeen": 1784744125,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
@@ -3094,11 +3154,6 @@
             "slot": "bag-13",
             "code": "game:log-placed-oak-ud",
             "name": "Oak log"
-          },
-          {
-            "slot": "bag-14",
-            "code": "game:cloth-plain",
-            "name": "Plain cloth"
           },
           {
             "slot": "bag-15",
