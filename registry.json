@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-193444",
+  "generated": "20260722-193644",
   "game_version": "1.22.3",
   "check_ts": "20260721-200056",
   "latest_engine": "1.22.5",
@@ -2124,12 +2124,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 71.3,
-        "blocksTravelled": 133495,
-        "blocksBroken": 5455,
+        "playtimeHours": 71.4,
+        "blocksTravelled": 133530,
+        "blocksBroken": 5562,
         "blocksPlaced": 400,
-        "deepestY": 28,
-        "lastSeen": 1784741603,
+        "deepestY": 23,
+        "lastSeen": 1784741723,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2278,6 +2278,26 @@
             "slot": "bag-13",
             "code": "game:stone-andesite",
             "name": "Andesite stone"
+          },
+          {
+            "slot": "bag-14",
+            "code": "game:stone-andesite",
+            "name": "Andesite stone"
+          },
+          {
+            "slot": "bag-15",
+            "code": "game:stone-andesite",
+            "name": "Andesite stone"
+          },
+          {
+            "slot": "bag-16",
+            "code": "game:crystalizedore-rich-nativecopper-andesite",
+            "name": "Rich crystallized chunk of Native copper"
+          },
+          {
+            "slot": "bag-17",
+            "code": "game:ore-rich-nativecopper-andesite",
+            "name": "Rich chunk of Native copper"
           }
         ],
         "skin": {
@@ -2518,7 +2538,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 22,
-        "mobKills": 289,
+        "mobKills": 290,
         "mealsEaten": 269,
         "caloriesConsumed": 31004,
         "lastMeal": "Carrot",
@@ -2586,11 +2606,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 154.0,
-        "blocksTravelled": 230235,
+        "blocksTravelled": 230628,
         "blocksBroken": 12797,
         "blocksPlaced": 4332,
         "deepestY": 23,
-        "lastSeen": 1784741603,
+        "lastSeen": 1784741723,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -3079,7 +3099,7 @@
         "blocksBroken": 719,
         "blocksPlaced": 374,
         "deepestY": 100,
-        "lastSeen": 1784741600,
+        "lastSeen": 1784741723,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
@@ -3143,6 +3163,112 @@
             "slot": "armorlegs",
             "code": "game:armor-legs-tailored-plain-linen",
             "name": "Tailored gamboised leg armor"
+          },
+          {
+            "slot": "bag-1",
+            "code": "game:clothes-shoulder-mooncloth-robe",
+            "name": "Mooncloth robe",
+            "icon": "character/icons/shoulder-mooncloth-robe.png"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:cobblestonestairs-andesite-up-north-free",
+            "name": "Andesite cobblestone stairs"
+          },
+          {
+            "slot": "bag-3",
+            "code": "game:stone-limestone",
+            "name": "Limestone stone"
+          },
+          {
+            "slot": "bag-5",
+            "code": "tailorsdelight:awl-iron",
+            "name": "Iron stitching awl"
+          },
+          {
+            "slot": "bag-6",
+            "code": "molds:woodhammer",
+            "name": "Wooden hammer"
+          },
+          {
+            "slot": "bag-7",
+            "code": "game:vegetable-onion",
+            "name": "Onion"
+          },
+          {
+            "slot": "bag-8",
+            "code": "game:mannequin-reed-complete",
+            "name": "Full body mannequin (reed)"
+          },
+          {
+            "slot": "bag-9",
+            "code": "game:clay-red",
+            "name": "Red clay"
+          },
+          {
+            "slot": "bag-10",
+            "code": "game:stone-andesite",
+            "name": "Andesite stone"
+          },
+          {
+            "slot": "bag-11",
+            "code": "game:pulp-linen",
+            "name": "Linen fiber pulp"
+          },
+          {
+            "slot": "bag-12",
+            "code": "game:woodbucket",
+            "name": "Wooden bucket"
+          },
+          {
+            "slot": "bag-13",
+            "code": "game:cobblestone-andesite",
+            "name": "Andesite cobblestone"
+          },
+          {
+            "slot": "bag-14",
+            "code": "walkingstick:walkingstick",
+            "name": "Walking stick"
+          },
+          {
+            "slot": "bag-15",
+            "code": "tailorsdelight:needle-bone",
+            "name": "Bone needle"
+          },
+          {
+            "slot": "bag-16",
+            "code": "game:cobblestonestairs-andesite-up-north-free",
+            "name": "Andesite cobblestone stairs"
+          },
+          {
+            "slot": "bag-17",
+            "code": "aculinaryartillery:bark-oak-dry",
+            "name": "Oak bark"
+          },
+          {
+            "slot": "bag-18",
+            "code": "ndlwoodentorchholder:woodenholder-oak",
+            "name": "Wooden Torch Holder (Oak)"
+          },
+          {
+            "slot": "bag-20",
+            "code": "game:instrument-flute1",
+            "name": "Bone flute"
+          },
+          {
+            "slot": "bag-22",
+            "code": "game:cobblestone-conglomerate",
+            "name": "Conglomerate cobblestone"
+          },
+          {
+            "slot": "bag-23",
+            "code": "game:stone-peridotite",
+            "name": "Peridotite stone"
+          },
+          {
+            "slot": "bag-24",
+            "code": "maltiezcrossbows:bolt-crude",
+            "name": "Crude bolt"
           }
         ],
         "skin": {
