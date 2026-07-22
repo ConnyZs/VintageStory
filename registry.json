@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-202647",
+  "generated": "20260722-202847",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 72.2,
-        "blocksTravelled": 139342,
-        "blocksBroken": 6400,
-        "blocksPlaced": 414,
+        "blocksTravelled": 139664,
+        "blocksBroken": 6436,
+        "blocksPlaced": 422,
         "deepestY": 18,
-        "lastSeen": 1784744725,
+        "lastSeen": 1784744889,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2641,11 +2641,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 154.9,
-        "blocksTravelled": 235226,
-        "blocksBroken": 13700,
-        "blocksPlaced": 4890,
+        "blocksTravelled": 235474,
+        "blocksBroken": 13772,
+        "blocksPlaced": 4918,
         "deepestY": 23,
-        "lastSeen": 1784744725,
+        "lastSeen": 1784744889,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2786,6 +2786,41 @@
             "slot": "bag-9",
             "code": "game:soil-low-none",
             "name": "Low fertility soil"
+          },
+          {
+            "slot": "bag-10",
+            "code": "game:soil-low-none",
+            "name": "Low fertility soil"
+          },
+          {
+            "slot": "bag-11",
+            "code": "game:axe-felling-iron",
+            "name": "Iron axe"
+          },
+          {
+            "slot": "bag-12",
+            "code": "game:stone-andesite",
+            "name": "Andesite stone"
+          },
+          {
+            "slot": "bag-13",
+            "code": "game:flint",
+            "name": "Flint"
+          },
+          {
+            "slot": "bag-17",
+            "code": "game:log-placed-oak-ud",
+            "name": "Oak log"
+          },
+          {
+            "slot": "bag-23",
+            "code": "game:pickaxe-iron",
+            "name": "Iron pickaxe"
+          },
+          {
+            "slot": "bag-24",
+            "code": "game:log-placed-oak-ud",
+            "name": "Oak log"
           }
         ],
         "skin": {
@@ -3064,12 +3099,12 @@
           "shiver-deepsplit": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 11.9,
-        "blocksTravelled": 20016,
+        "playtimeHours": 12.0,
+        "blocksTravelled": 20041,
         "blocksBroken": 749,
         "blocksPlaced": 421,
         "deepestY": 100,
-        "lastSeen": 1784744725,
+        "lastSeen": 1784744889,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
@@ -3169,6 +3204,11 @@
             "slot": "bag-7",
             "code": "game:vegetable-onion",
             "name": "Onion"
+          },
+          {
+            "slot": "bag-8",
+            "code": "game:flaxtwine",
+            "name": "Flax twine"
           },
           {
             "slot": "bag-9",
