@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-194245",
+  "generated": "20260722-194445",
   "game_version": "1.22.3",
   "check_ts": "20260721-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 71.5,
-        "blocksTravelled": 133618,
-        "blocksBroken": 5872,
+        "blocksTravelled": 133723,
+        "blocksBroken": 5899,
         "blocksPlaced": 404,
         "deepestY": 18,
-        "lastSeen": 1784742083,
+        "lastSeen": 1784742203,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2573,7 +2573,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 22,
-        "mobKills": 290,
+        "mobKills": 291,
         "mealsEaten": 269,
         "caloriesConsumed": 31004,
         "lastMeal": "Carrot",
@@ -2640,12 +2640,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 154.1,
-        "blocksTravelled": 231270,
+        "playtimeHours": 154.2,
+        "blocksTravelled": 231612,
         "blocksBroken": 12800,
         "blocksPlaced": 4342,
         "deepestY": 23,
-        "lastSeen": 1784742083,
+        "lastSeen": 1784742203,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2771,6 +2771,16 @@
             "slot": "bag-6",
             "code": "game:backpack-normal",
             "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-19",
+            "code": "butchering:deadpanthera-male-1-dead",
+            "name": "Panthera (dead)"
+          },
+          {
+            "slot": "bag-20",
+            "code": "butchering:deadwolf-baby-eurasian-1-dead",
+            "name": "Wolf (dead)"
           }
         ],
         "skin": {
@@ -3050,11 +3060,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 11.2,
-        "blocksTravelled": 19300,
-        "blocksBroken": 719,
+        "blocksTravelled": 19308,
+        "blocksBroken": 723,
         "blocksPlaced": 375,
         "deepestY": 100,
-        "lastSeen": 1784742083,
+        "lastSeen": 1784742203,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
@@ -3199,11 +3209,6 @@
             "slot": "bag-17",
             "code": "aculinaryartillery:bark-oak-dry",
             "name": "Oak bark"
-          },
-          {
-            "slot": "bag-18",
-            "code": "ndlwoodentorchholder:woodenholder-oak",
-            "name": "Wooden Torch Holder (Oak)"
           },
           {
             "slot": "bag-20",
