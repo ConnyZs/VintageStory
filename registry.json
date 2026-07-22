@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-212651",
+  "generated": "20260722-212851",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2526,11 +2526,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 155.9,
-        "blocksTravelled": 240880,
+        "blocksTravelled": 241245,
         "blocksBroken": 15568,
         "blocksPlaced": 5336,
         "deepestY": 23,
-        "lastSeen": 1784748327,
+        "lastSeen": 1784748515,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2639,8 +2639,8 @@
           },
           {
             "slot": "bag-6",
-            "code": "butchering:butcherybag-standard",
-            "name": "Hide Butchering Bag"
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           }
         ],
         "skin": {
@@ -2919,12 +2919,12 @@
           "shiver-deepsplit": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 12.9,
-        "blocksTravelled": 23279,
+        "playtimeHours": 13.0,
+        "blocksTravelled": 23858,
         "blocksBroken": 765,
         "blocksPlaced": 430,
         "deepestY": 100,
-        "lastSeen": 1784748327,
+        "lastSeen": 1784748515,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
