@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-204648",
+  "generated": "20260722-204849",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2525,12 +2525,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 155.2,
-        "blocksTravelled": 236775,
-        "blocksBroken": 14567,
-        "blocksPlaced": 5037,
+        "playtimeHours": 155.3,
+        "blocksTravelled": 236900,
+        "blocksBroken": 14748,
+        "blocksPlaced": 5179,
         "deepestY": 23,
-        "lastSeen": 1784745926,
+        "lastSeen": 1784746098,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2648,11 +2648,6 @@
             "name": "Low fertility soil"
           },
           {
-            "slot": "bag-5",
-            "code": "game:soil-low-none",
-            "name": "Low fertility soil"
-          },
-          {
             "slot": "bag-6",
             "code": "game:soil-medium-none",
             "name": "Medium fertility soil"
@@ -2668,11 +2663,6 @@
             "name": "Red Top Grass Seeds"
           },
           {
-            "slot": "bag-9",
-            "code": "game:soil-low-none",
-            "name": "Low fertility soil"
-          },
-          {
             "slot": "bag-10",
             "code": "game:soil-medium-none",
             "name": "Medium fertility soil"
@@ -2686,6 +2676,21 @@
             "slot": "bag-12",
             "code": "game:flower-cowparsley-free",
             "name": "Cow parsley"
+          },
+          {
+            "slot": "bag-13",
+            "code": "game:soil-medium-none",
+            "name": "Medium fertility soil"
+          },
+          {
+            "slot": "bag-14",
+            "code": "game:soil-low-none",
+            "name": "Low fertility soil"
+          },
+          {
+            "slot": "bag-15",
+            "code": "floramycology:seeds-cowparsley",
+            "name": "Cow Parsley Seeds"
           }
         ],
         "skin": {
@@ -2965,11 +2970,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 12.3,
-        "blocksTravelled": 20611,
-        "blocksBroken": 750,
-        "blocksPlaced": 425,
+        "blocksTravelled": 20656,
+        "blocksBroken": 753,
+        "blocksPlaced": 428,
         "deepestY": 100,
-        "lastSeen": 1784745926,
+        "lastSeen": 1784746098,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
@@ -3067,11 +3072,6 @@
             "name": "Iron stitching awl"
           },
           {
-            "slot": "bag-7",
-            "code": "game:vegetable-onion",
-            "name": "Onion"
-          },
-          {
             "slot": "bag-8",
             "code": "game:flaxtwine",
             "name": "Flax twine"
@@ -3092,9 +3092,9 @@
             "name": "Thread (Dark brown)"
           },
           {
-            "slot": "bag-13",
-            "code": "game:log-placed-oak-ud",
-            "name": "Oak log"
+            "slot": "bag-14",
+            "code": "game:cobblestonestairs-andesite-up-north-free",
+            "name": "Andesite cobblestone stairs"
           },
           {
             "slot": "bag-15",
@@ -3105,16 +3105,6 @@
             "slot": "bag-16",
             "code": "tailorsdelight:buttons-mixed",
             "name": "Buttons & Clasps"
-          },
-          {
-            "slot": "bag-17",
-            "code": "game:ore-cinnabar",
-            "name": "Cinnabar"
-          },
-          {
-            "slot": "bag-18",
-            "code": "game:ore-cinnabar",
-            "name": "Cinnabar"
           },
           {
             "slot": "bag-19",
@@ -3135,11 +3125,6 @@
             "slot": "bag-23",
             "code": "maltiezcrossbows:bolt-crude",
             "name": "Crude bolt"
-          },
-          {
-            "slot": "bag-24",
-            "code": "game:ore-cinnabar",
-            "name": "Cinnabar"
           }
         ],
         "skin": {
