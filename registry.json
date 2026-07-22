@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-224056",
+  "generated": "20260722-224256",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 73.3,
-        "blocksTravelled": 148638,
+        "blocksTravelled": 148720,
         "blocksBroken": 6448,
         "blocksPlaced": 423,
         "deepestY": 18,
-        "lastSeen": 1784752771,
+        "lastSeen": 1784752880,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2218,86 +2218,6 @@
             "slot": "bag-1",
             "code": "walkingstick:walkingstick-pathfinder",
             "name": "Pathfinder's walking stick"
-          },
-          {
-            "slot": "bag-2",
-            "code": "game:chiseledblock",
-            "name": "FemurSnapper Emblem"
-          },
-          {
-            "slot": "bag-3",
-            "code": "game:stone-sandstone",
-            "name": "Sandstone stone"
-          },
-          {
-            "slot": "bag-4",
-            "code": "game:gear-rusty",
-            "name": "Rusty gear"
-          },
-          {
-            "slot": "bag-6",
-            "code": "game:brickstairs-fire-up-north-free",
-            "name": "Fireclay brick stairs"
-          },
-          {
-            "slot": "bag-7",
-            "code": "game:quartzslab-down-free",
-            "name": "Ancient slab"
-          },
-          {
-            "slot": "bag-9",
-            "code": "game:ore-lapislazuli",
-            "name": "Rough lapis lazuli"
-          },
-          {
-            "slot": "bag-11",
-            "code": "game:ore-quartz",
-            "name": "Quartz chunk"
-          },
-          {
-            "slot": "bag-12",
-            "code": "game:table-redmarble",
-            "name": "Pink marble-topped table"
-          },
-          {
-            "slot": "bag-13",
-            "code": "game:burnedplanks-normal-charred-ud",
-            "name": "Charred planks"
-          },
-          {
-            "slot": "bag-15",
-            "code": "game:claybricks-good-fire",
-            "name": "Fireclay bricks"
-          },
-          {
-            "slot": "bag-16",
-            "code": "game:jonasframes-gears02",
-            "name": "Jonas sub-assembly (An exquisite planetary gear)"
-          },
-          {
-            "slot": "bag-17",
-            "code": "game:metal-scraps",
-            "name": "Metal scraps"
-          },
-          {
-            "slot": "bag-19",
-            "code": "game:ore-olivine",
-            "name": "Olivine"
-          },
-          {
-            "slot": "bag-21",
-            "code": "game:hoovedwearables-blanket-earthtone",
-            "name": "Earth tone saddle blanket"
-          },
-          {
-            "slot": "bag-22",
-            "code": "game:clothes-arm-japamala",
-            "name": "Japamala"
-          },
-          {
-            "slot": "bag-23",
-            "code": "game:log-placed-aged-ud",
-            "name": "Aged oak log"
           }
         ],
         "skin": {
