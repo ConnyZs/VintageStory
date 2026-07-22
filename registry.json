@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-200846",
+  "generated": "20260722-201046",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 71.9,
-        "blocksTravelled": 138306,
-        "blocksBroken": 5933,
+        "blocksTravelled": 138574,
+        "blocksBroken": 5937,
         "blocksPlaced": 406,
         "deepestY": 18,
-        "lastSeen": 1784743681,
+        "lastSeen": 1784743764,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2546,11 +2546,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 154.6,
-        "blocksTravelled": 233609,
-        "blocksBroken": 13281,
-        "blocksPlaced": 4694,
+        "blocksTravelled": 233731,
+        "blocksBroken": 13297,
+        "blocksPlaced": 4719,
         "deepestY": 23,
-        "lastSeen": 1784743681,
+        "lastSeen": 1784743764,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2694,8 +2694,8 @@
           },
           {
             "slot": "bag-10",
-            "code": "game:soil-medium-none",
-            "name": "Medium fertility soil"
+            "code": "game:cobblestone-andesite",
+            "name": "Andesite cobblestone"
           },
           {
             "slot": "bag-11",
@@ -2738,9 +2738,14 @@
             "name": "Birch seed"
           },
           {
-            "slot": "bag-24",
+            "slot": "bag-19",
             "code": "game:soil-low-none",
             "name": "Low fertility soil"
+          },
+          {
+            "slot": "bag-20",
+            "code": "game:stone-andesite",
+            "name": "Andesite stone"
           }
         ],
         "skin": {
@@ -3019,12 +3024,12 @@
           "shiver-deepsplit": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 11.6,
-        "blocksTravelled": 19851,
+        "playtimeHours": 11.7,
+        "blocksTravelled": 19853,
         "blocksBroken": 749,
         "blocksPlaced": 414,
         "deepestY": 100,
-        "lastSeen": 1784743681,
+        "lastSeen": 1784743764,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
@@ -3097,8 +3102,8 @@
           },
           {
             "slot": "bag-2",
-            "code": "game:flaxtwine",
-            "name": "Flax twine"
+            "code": "game:cloth-plain",
+            "name": "Plain cloth"
           },
           {
             "slot": "bag-3",
