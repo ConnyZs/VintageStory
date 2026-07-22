@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-222054",
+  "generated": "20260722-222255",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 73.0,
-        "blocksTravelled": 145429,
+        "blocksTravelled": 145489,
         "blocksBroken": 6442,
         "blocksPlaced": 423,
         "deepestY": 18,
-        "lastSeen": 1784751570,
+        "lastSeen": 1784751690,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2526,11 +2526,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 156.8,
-        "blocksTravelled": 247541,
+        "blocksTravelled": 247570,
         "blocksBroken": 15729,
         "blocksPlaced": 5366,
         "deepestY": 23,
-        "lastSeen": 1784751570,
+        "lastSeen": 1784751690,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2633,6 +2633,11 @@
             "name": "Strawberry runner"
           },
           {
+            "slot": "bag-2",
+            "code": "game:fruitingbushcutting-strawberry-free",
+            "name": "Strawberry runner"
+          },
+          {
             "slot": "bag-3",
             "code": "game:fruitingbushcutting-blackberry-free",
             "name": "Blackberry cutting"
@@ -2671,6 +2676,16 @@
             "slot": "bag-10",
             "code": "game:resin",
             "name": "Resin"
+          },
+          {
+            "slot": "bag-11",
+            "code": "game:fruitingbushcutting-strawberry-free",
+            "name": "Strawberry runner"
+          },
+          {
+            "slot": "bag-12",
+            "code": "game:fruitingbushcutting-strawberry-free",
+            "name": "Strawberry runner"
           },
           {
             "slot": "bag-19",
