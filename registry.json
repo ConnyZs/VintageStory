@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-220053",
+  "generated": "20260722-220253",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2124,12 +2124,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 72.6,
-        "blocksTravelled": 142876,
+        "playtimeHours": 72.7,
+        "blocksTravelled": 142934,
         "blocksBroken": 6442,
         "blocksPlaced": 423,
         "deepestY": 18,
-        "lastSeen": 1784750369,
+        "lastSeen": 1784750489,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2525,12 +2525,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 156.4,
-        "blocksTravelled": 245612,
+        "playtimeHours": 156.5,
+        "blocksTravelled": 245626,
         "blocksBroken": 15726,
         "blocksPlaced": 5348,
         "deepestY": 23,
-        "lastSeen": 1784750369,
+        "lastSeen": 1784750489,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2538,7 +2538,7 @@
           "Nomad trousers",
           "Wool lined knee-high boots",
           "Survivor gloves",
-          "Acorn amulet",
+          "Rotten king collar",
           "Prince emblem",
           "Crow mask",
           "Rotten king belt",
@@ -2585,8 +2585,8 @@
           },
           {
             "slot": "neck",
-            "code": "game:clothes-neck-acorn-amulet",
-            "name": "Acorn amulet"
+            "code": "game:clothes-neck-rottenking",
+            "name": "Rotten king collar"
           },
           {
             "slot": "emblem",
@@ -2654,9 +2654,8 @@
           },
           {
             "slot": "bag-6",
-            "code": "game:clothes-hand-deep",
-            "name": "Deep noble gloves",
-            "icon": "character/icons/hand-deep.png"
+            "code": "game:stick",
+            "name": "Stick"
           },
           {
             "slot": "bag-7",
@@ -2690,19 +2689,18 @@
           },
           {
             "slot": "bag-13",
-            "code": "game:clothes-neck-rottenking",
-            "name": "Rotten king collar"
+            "code": "game:stick",
+            "name": "Stick"
           },
           {
             "slot": "bag-14",
-            "code": "game:clothes-face-leather-reinforced-mask",
-            "name": "Leather reinforced mask",
-            "icon": "character/icons/face-leather-reinforced-mask.png"
+            "code": "game:stick",
+            "name": "Stick"
           },
           {
             "slot": "bag-15",
-            "code": "fagothic:fa-gothic-schematic",
-            "name": "Gothic armor (schematic)"
+            "code": "game:stick",
+            "name": "Stick"
           },
           {
             "slot": "bag-16",
@@ -2721,24 +2719,23 @@
           },
           {
             "slot": "bag-19",
-            "code": "game:clothes-upperbody-forgotten",
-            "name": "Forgotten noble shirt",
-            "icon": "character/icons/upperbody-forgotten.png"
+            "code": "game:stick",
+            "name": "Stick"
           },
           {
             "slot": "bag-20",
-            "code": "game:chest-east",
-            "name": "Aged Owl treasure chest"
+            "code": "game:stick",
+            "name": "Stick"
           },
           {
             "slot": "bag-21",
-            "code": "game:clothes-neck-fancy-cross",
-            "name": "Ornamental cross"
+            "code": "game:lore-book-rotten-green",
+            "name": "Rotten lore book (Green)"
           },
           {
             "slot": "bag-22",
-            "code": "game:lore-book-rotten-green",
-            "name": "Rotten lore book (Green)"
+            "code": "fagothic:fa-gothic-schematic",
+            "name": "Gothic armor (schematic)"
           },
           {
             "slot": "bag-23",
