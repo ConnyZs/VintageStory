@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-212251",
+  "generated": "20260722-212451",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2526,11 +2526,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 155.8,
-        "blocksTravelled": 240265,
+        "blocksTravelled": 240639,
         "blocksBroken": 15568,
         "blocksPlaced": 5336,
         "deepestY": 23,
-        "lastSeen": 1784748087,
+        "lastSeen": 1784748213,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2633,57 +2633,7 @@
             "name": "Small potion flask"
           },
           {
-            "slot": "bag-4",
-            "code": "game:flower-horsetail-free",
-            "name": "Horsetail"
-          },
-          {
-            "slot": "bag-5",
-            "code": "game:fruit-redcurrant",
-            "name": "Redcurrant"
-          },
-          {
-            "slot": "bag-7",
-            "code": "game:seeds-carrot",
-            "name": "Carrot seeds"
-          },
-          {
-            "slot": "bag-8",
-            "code": "game:vegetable-carrot",
-            "name": "Carrot"
-          },
-          {
-            "slot": "bag-9",
-            "code": "game:vegetable-fennel",
-            "name": "Fennel"
-          },
-          {
-            "slot": "bag-12",
-            "code": "game:workitem-iron",
-            "name": "Broken iron shovel head\n"
-          },
-          {
-            "slot": "bag-13",
-            "code": "game:seeds-flax",
-            "name": "Flax seeds"
-          },
-          {
-            "slot": "bag-14",
-            "code": "floramycology:seeds-horsetail",
-            "name": "Horsetail Seeds"
-          },
-          {
-            "slot": "bag-15",
-            "code": "game:seeds-turnip",
-            "name": "Turnip seeds"
-          },
-          {
-            "slot": "bag-16",
-            "code": "game:seeds-fennel",
-            "name": "Fennel seeds"
-          },
-          {
-            "slot": "bag-18",
+            "slot": "bag-6",
             "code": "butchering:butcherybag-standard",
             "name": "Hide Butchering Bag"
           }
@@ -2965,11 +2915,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 12.9,
-        "blocksTravelled": 22632,
+        "blocksTravelled": 22950,
         "blocksBroken": 765,
         "blocksPlaced": 430,
         "deepestY": 100,
-        "lastSeen": 1784748087,
+        "lastSeen": 1784748213,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
@@ -3133,6 +3083,11 @@
             "name": "Red clay"
           },
           {
+            "slot": "bag-18",
+            "code": "game:fruit-blueberry",
+            "name": "Blueberry"
+          },
+          {
             "slot": "bag-19",
             "code": "game:instrument-flute1",
             "name": "Bone flute"
@@ -3141,6 +3096,11 @@
             "slot": "bag-20",
             "code": "ndlwoodentorchholder:woodenholder-oak",
             "name": "Wooden Torch Holder (Oak)"
+          },
+          {
+            "slot": "bag-21",
+            "code": "game:fruit-blackcurrant",
+            "name": "Blackcurrant"
           },
           {
             "slot": "bag-22",
