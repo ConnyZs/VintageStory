@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-223455",
+  "generated": "20260722-223655",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 73.2,
-        "blocksTravelled": 146967,
+        "blocksTravelled": 147674,
         "blocksBroken": 6448,
         "blocksPlaced": 423,
         "deepestY": 18,
-        "lastSeen": 1784752439,
+        "lastSeen": 1784752531,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2645,12 +2645,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 157.0,
-        "blocksTravelled": 248963,
+        "playtimeHours": 157.1,
+        "blocksTravelled": 249244,
         "blocksBroken": 15743,
         "blocksPlaced": 5380,
         "deepestY": 23,
-        "lastSeen": 1784752439,
+        "lastSeen": 1784752574,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2746,21 +2746,6 @@
             "slot": "armorbody",
             "code": "game:armor-body-hide-bear-black",
             "name": "Black bear hide body armor"
-          },
-          {
-            "slot": "bag-4",
-            "code": "alchemy:potionflask-tube-quartz",
-            "name": "Small potion flask"
-          },
-          {
-            "slot": "bag-10",
-            "code": "game:resin",
-            "name": "Resin"
-          },
-          {
-            "slot": "bag-13",
-            "code": "game:workitem-iron",
-            "name": "Broken iron knife blade\n"
           }
         ],
         "skin": {
