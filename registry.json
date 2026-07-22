@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-202247",
+  "generated": "20260722-202447",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2124,12 +2124,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 72.1,
-        "blocksTravelled": 139280,
-        "blocksBroken": 6278,
+        "playtimeHours": 72.2,
+        "blocksTravelled": 139324,
+        "blocksBroken": 6342,
         "blocksPlaced": 414,
         "deepestY": 18,
-        "lastSeen": 1784744485,
+        "lastSeen": 1784744605,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2241,8 +2241,8 @@
           },
           {
             "slot": "bag-6",
-            "code": "game:stone-granite",
-            "name": "Granite stone"
+            "code": "game:stone-conglomerate",
+            "name": "Conglomerate stone"
           },
           {
             "slot": "bag-7",
@@ -2286,8 +2286,8 @@
           },
           {
             "slot": "bag-15",
-            "code": "game:stone-shale",
-            "name": "Shale stone"
+            "code": "game:stone-conglomerate",
+            "name": "Conglomerate stone"
           },
           {
             "slot": "bag-16",
@@ -2641,11 +2641,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 154.8,
-        "blocksTravelled": 234859,
-        "blocksBroken": 13437,
-        "blocksPlaced": 4877,
+        "blocksTravelled": 235043,
+        "blocksBroken": 13567,
+        "blocksPlaced": 4880,
         "deepestY": 23,
-        "lastSeen": 1784744485,
+        "lastSeen": 1784744605,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2748,11 +2748,6 @@
             "name": "Small potion flask"
           },
           {
-            "slot": "bag-2",
-            "code": "game:tuleroot",
-            "name": "Tule root"
-          },
-          {
             "slot": "bag-3",
             "code": "game:soil-low-none",
             "name": "Low fertility soil"
@@ -2771,11 +2766,6 @@
             "slot": "bag-6",
             "code": "game:soil-medium-none",
             "name": "Medium fertility soil"
-          },
-          {
-            "slot": "bag-7",
-            "code": "game:cattailroot",
-            "name": "Cattail root"
           }
         ],
         "skin": {
@@ -3059,7 +3049,7 @@
         "blocksBroken": 749,
         "blocksPlaced": 421,
         "deepestY": 100,
-        "lastSeen": 1784744485,
+        "lastSeen": 1784744605,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
