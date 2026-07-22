@@ -1,5 +1,5 @@
 {
-  "generated": "20260722-200646",
+  "generated": "20260722-200846",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 71.9,
-        "blocksTravelled": 137465,
-        "blocksBroken": 5926,
+        "blocksTravelled": 138306,
+        "blocksBroken": 5933,
         "blocksPlaced": 406,
         "deepestY": 18,
-        "lastSeen": 1784743524,
+        "lastSeen": 1784743681,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2220,9 +2220,19 @@
             "name": "Small potion flask"
           },
           {
+            "slot": "bag-2",
+            "code": "game:pickaxe-iron",
+            "name": "Iron pickaxe"
+          },
+          {
             "slot": "bag-3",
             "code": "game:lantern-large-up",
             "name": "Large molybdochalkos lantern"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:gear-rusty",
+            "name": "Rusty gear"
           },
           {
             "slot": "bag-16",
@@ -2535,12 +2545,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 154.5,
-        "blocksTravelled": 233534,
-        "blocksBroken": 13198,
-        "blocksPlaced": 4618,
+        "playtimeHours": 154.6,
+        "blocksTravelled": 233609,
+        "blocksBroken": 13281,
+        "blocksPlaced": 4694,
         "deepestY": 23,
-        "lastSeen": 1784743524,
+        "lastSeen": 1784743681,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2653,6 +2663,11 @@
             "name": "Medium fertility soil"
           },
           {
+            "slot": "bag-4",
+            "code": "game:stone-andesite",
+            "name": "Andesite stone"
+          },
+          {
             "slot": "bag-5",
             "code": "game:shovel-iron",
             "name": "Iron shovel"
@@ -2711,6 +2726,16 @@
             "slot": "bag-16",
             "code": "game:flint",
             "name": "Flint"
+          },
+          {
+            "slot": "bag-17",
+            "code": "game:polishedrockold-full-andesite",
+            "name": "Aged polished rock (Andesite)"
+          },
+          {
+            "slot": "bag-18",
+            "code": "game:treeseed-birch",
+            "name": "Birch seed"
           },
           {
             "slot": "bag-24",
@@ -2995,11 +3020,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 11.6,
-        "blocksTravelled": 19780,
+        "blocksTravelled": 19851,
         "blocksBroken": 749,
-        "blocksPlaced": 406,
+        "blocksPlaced": 414,
         "deepestY": 100,
-        "lastSeen": 1784743524,
+        "lastSeen": 1784743681,
         "gear": [
           "Tailor blouse",
           "Tailor trousers",
@@ -3072,8 +3097,8 @@
           },
           {
             "slot": "bag-2",
-            "code": "game:bowl-earthyorange-meal",
-            "name": "Earthy orange ceramic bowl of meat stew"
+            "code": "game:flaxtwine",
+            "name": "Flax twine"
           },
           {
             "slot": "bag-3",
@@ -3102,8 +3127,8 @@
           },
           {
             "slot": "bag-8",
-            "code": "game:mannequin-reed-complete",
-            "name": "Full body mannequin (reed)"
+            "code": "game:woodbucket",
+            "name": "Wooden bucket"
           },
           {
             "slot": "bag-9",
