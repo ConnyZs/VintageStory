@@ -1,5 +1,5 @@
 {
-  "generated": "20260723-205301",
+  "generated": "20260723-205501",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2686,11 +2686,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 174.8,
-        "blocksTravelled": 151584,
-        "blocksBroken": 8205,
-        "blocksPlaced": 5214,
+        "blocksTravelled": 151824,
+        "blocksBroken": 8270,
+        "blocksPlaced": 5218,
         "deepestY": 24,
-        "lastSeen": 1784832729,
+        "lastSeen": 1784832844,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2844,6 +2844,11 @@
             "slot": "bag-17",
             "code": "game:chisel-iron",
             "name": "Iron chisel"
+          },
+          {
+            "slot": "bag-18",
+            "code": "game:soil-medium-none",
+            "name": "Medium fertility soil"
           },
           {
             "slot": "bag-19",
