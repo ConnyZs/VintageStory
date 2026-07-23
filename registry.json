@@ -1,5 +1,5 @@
 {
-  "generated": "20260723-212703",
+  "generated": "20260723-212903",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2526,11 +2526,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 179.9,
-        "blocksTravelled": 252100,
+        "blocksTravelled": 252144,
         "blocksBroken": 15818,
         "blocksPlaced": 5399,
         "deepestY": 23,
-        "lastSeen": 1784834765,
+        "lastSeen": 1784834885,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2711,11 +2711,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 175.4,
-        "blocksTravelled": 155576,
+        "blocksTravelled": 155638,
         "blocksBroken": 8307,
         "blocksPlaced": 5276,
         "deepestY": 24,
-        "lastSeen": 1784834765,
+        "lastSeen": 1784834885,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2864,11 +2864,6 @@
             "slot": "bag-17",
             "code": "game:chisel-iron",
             "name": "Iron chisel"
-          },
-          {
-            "slot": "bag-18",
-            "code": "game:peatbrick",
-            "name": "Peat brick"
           },
           {
             "slot": "bag-20",
