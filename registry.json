@@ -1,5 +1,5 @@
 {
-  "generated": "20260723-212303",
+  "generated": "20260723-212503",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2526,11 +2526,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 179.8,
-        "blocksTravelled": 251987,
+        "blocksTravelled": 252089,
         "blocksBroken": 15818,
         "blocksPlaced": 5399,
         "deepestY": 23,
-        "lastSeen": 1784834542,
+        "lastSeen": 1784834645,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2633,16 +2633,6 @@
             "name": "Leather backpack"
           },
           {
-            "slot": "bag-2",
-            "code": "game:grain-flax",
-            "name": "Flax grain"
-          },
-          {
-            "slot": "bag-3",
-            "code": "game:flaxfibers",
-            "name": "Flax fibers"
-          },
-          {
             "slot": "bag-4",
             "code": "game:seeds-flax",
             "name": "Flax seeds"
@@ -2658,28 +2648,8 @@
             "name": "Fennel seeds"
           },
           {
-            "slot": "bag-8",
-            "code": "weaponpacka:haleberd-iron",
-            "name": "Iron halberd"
-          },
-          {
             "slot": "bag-19",
-            "code": "butchering:deadwolf-male-eurasian-10-dead",
-            "name": "Wolf (dead)"
-          },
-          {
-            "slot": "bag-20",
-            "code": "butchering:deadwolf-male-eurasian-5-dead",
-            "name": "Wolf (dead)"
-          },
-          {
-            "slot": "bag-21",
-            "code": "butchering:deadwolf-female-eurasian-3-dead",
-            "name": "Wolf (dead)"
-          },
-          {
-            "slot": "bag-22",
-            "code": "butchering:deadwolf-male-eurasian-7-dead",
+            "code": "butchering:deadwolf-male-eurasian-1-dead",
             "name": "Wolf (dead)"
           }
         ],
@@ -2741,11 +2711,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 175.3,
-        "blocksTravelled": 155484,
-        "blocksBroken": 8299,
+        "blocksTravelled": 155574,
+        "blocksBroken": 8307,
         "blocksPlaced": 5276,
         "deepestY": 24,
-        "lastSeen": 1784834542,
+        "lastSeen": 1784834645,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
