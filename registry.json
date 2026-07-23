@@ -1,5 +1,5 @@
 {
-  "generated": "20260723-210702",
+  "generated": "20260723-210902",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2525,12 +2525,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 179.5,
-        "blocksTravelled": 249944,
+        "playtimeHours": 179.6,
+        "blocksTravelled": 250050,
         "blocksBroken": 15765,
         "blocksPlaced": 5399,
         "deepestY": 23,
-        "lastSeen": 1784833564,
+        "lastSeen": 1784833684,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2685,12 +2685,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 175.0,
-        "blocksTravelled": 153557,
+        "playtimeHours": 175.1,
+        "blocksTravelled": 153749,
         "blocksBroken": 8287,
         "blocksPlaced": 5222,
         "deepestY": 24,
-        "lastSeen": 1784833564,
+        "lastSeen": 1784833684,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2841,19 +2841,9 @@
             "name": "Iron chisel"
           },
           {
-            "slot": "bag-18",
-            "code": "game:ore-poor-uranium-limestone",
-            "name": "Poor chunk of Uranium"
-          },
-          {
             "slot": "bag-20",
             "code": "game:hammer-tinbronze",
             "name": "Tin bronze hammer"
-          },
-          {
-            "slot": "bag-24",
-            "code": "game:ore-medium-uranium-chert",
-            "name": "Medium chunk of Uranium"
           }
         ],
         "skin": {
