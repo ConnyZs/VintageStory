@@ -1,5 +1,5 @@
 {
-  "generated": "20260723-105620",
+  "generated": "20260723-110621",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2686,11 +2686,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 165.1,
-        "blocksTravelled": 140302,
+        "blocksTravelled": 140314,
         "blocksBroken": 8128,
         "blocksPlaced": 5178,
         "deepestY": 24,
-        "lastSeen": 1784553466,
+        "lastSeen": 1784797548,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2759,6 +2759,111 @@
             "code": "game:clothes-upperbodyover-fortuneteller",
             "name": "Fortune teller vest",
             "icon": "character/icons/upperbodyover-fortuneteller.png"
+          },
+          {
+            "slot": "bag-1",
+            "code": "game:drystonefence-peridotite-ew-free",
+            "name": "Peridotite dry stone fence"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:fruit-blackcurrant",
+            "name": "Blackcurrant"
+          },
+          {
+            "slot": "bag-3",
+            "code": "game:woodenpath-oak-ns",
+            "name": "Oak path"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:stonepath-free",
+            "name": "Stone path"
+          },
+          {
+            "slot": "bag-5",
+            "code": "game:saltpeter",
+            "name": "Saltpeter"
+          },
+          {
+            "slot": "bag-6",
+            "code": "game:daubraw-browngolden",
+            "name": "Raw daub (golden brown)"
+          },
+          {
+            "slot": "bag-7",
+            "code": "game:glass-plain",
+            "name": "Glass"
+          },
+          {
+            "slot": "bag-8",
+            "code": "game:cobblestone-peridotite",
+            "name": "Peridotite cobblestone"
+          },
+          {
+            "slot": "bag-9",
+            "code": "game:chisel-iron",
+            "name": "Iron chisel"
+          },
+          {
+            "slot": "bag-10",
+            "code": "game:stone-peridotite",
+            "name": "Peridotite stone"
+          },
+          {
+            "slot": "bag-11",
+            "code": "game:stick",
+            "name": "Stick"
+          },
+          {
+            "slot": "bag-13",
+            "code": "game:stone-andesite",
+            "name": "Andesite stone"
+          },
+          {
+            "slot": "bag-14",
+            "code": "game:woodenfence-oak-ew-free",
+            "name": "Wooden fence (Oak)"
+          },
+          {
+            "slot": "bag-15",
+            "code": "game:wattle-sticks-ew-free",
+            "name": "Wattle fence"
+          },
+          {
+            "slot": "bag-17",
+            "code": "game:ore-olivine",
+            "name": "Olivine"
+          },
+          {
+            "slot": "bag-18",
+            "code": "canjewelry:gem-rough-chipped-uranium",
+            "name": "Small rough uranium"
+          },
+          {
+            "slot": "bag-19",
+            "code": "game:torchholder-aged-empty-north",
+            "name": "Aged torch holder"
+          },
+          {
+            "slot": "bag-21",
+            "code": "game:resin",
+            "name": "Resin"
+          },
+          {
+            "slot": "bag-22",
+            "code": "game:hammer-tinbronze",
+            "name": "Tin bronze hammer"
+          },
+          {
+            "slot": "bag-23",
+            "code": "game:fruit-cranberry",
+            "name": "Cranberry"
+          },
+          {
+            "slot": "bag-24",
+            "code": "game:flower-wilddaisy-free",
+            "name": "Wild daisy"
           }
         ],
         "skin": {
