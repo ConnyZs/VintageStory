@@ -1,5 +1,5 @@
 {
-  "generated": "20260723-202259",
+  "generated": "20260723-202459",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2686,11 +2686,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 174.3,
-        "blocksTravelled": 148514,
-        "blocksBroken": 8134,
+        "blocksTravelled": 148768,
+        "blocksBroken": 8143,
         "blocksPlaced": 5178,
         "deepestY": 24,
-        "lastSeen": 1784830923,
+        "lastSeen": 1784831043,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2814,6 +2814,11 @@
             "slot": "bag-11",
             "code": "game:stick",
             "name": "Stick"
+          },
+          {
+            "slot": "bag-12",
+            "code": "game:gear-rusty",
+            "name": "Rusty gear"
           },
           {
             "slot": "bag-13",
