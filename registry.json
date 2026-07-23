@@ -1,5 +1,5 @@
 {
-  "generated": "20260723-204100",
+  "generated": "20260723-204300",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2686,11 +2686,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 174.6,
-        "blocksTravelled": 150570,
-        "blocksBroken": 8144,
-        "blocksPlaced": 5178,
+        "blocksTravelled": 150794,
+        "blocksBroken": 8148,
+        "blocksPlaced": 5182,
         "deepestY": 24,
-        "lastSeen": 1784832003,
+        "lastSeen": 1784832125,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2786,11 +2786,6 @@
             "name": "Saltpeter"
           },
           {
-            "slot": "bag-6",
-            "code": "game:daubraw-browngolden",
-            "name": "Raw daub (golden brown)"
-          },
-          {
             "slot": "bag-7",
             "code": "game:glass-plain",
             "name": "Glass"
@@ -2806,6 +2801,11 @@
             "name": "Iron chisel"
           },
           {
+            "slot": "bag-10",
+            "code": "game:daubraw-browngolden",
+            "name": "Raw daub (golden brown)"
+          },
+          {
             "slot": "bag-11",
             "code": "game:stick",
             "name": "Stick"
@@ -2814,11 +2814,6 @@
             "slot": "bag-14",
             "code": "game:woodenfence-oak-ew-free",
             "name": "Wooden fence (Oak)"
-          },
-          {
-            "slot": "bag-15",
-            "code": "game:wattle-sticks-ew-free",
-            "name": "Wattle fence"
           },
           {
             "slot": "bag-19",
