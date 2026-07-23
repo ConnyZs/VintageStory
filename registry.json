@@ -1,5 +1,5 @@
 {
-  "generated": "20260723-235713",
+  "generated": "20260723-235913",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2686,11 +2686,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 176.1,
-        "blocksTravelled": 160687,
-        "blocksBroken": 8338,
-        "blocksPlaced": 5287,
+        "blocksTravelled": 160941,
+        "blocksBroken": 8341,
+        "blocksPlaced": 5289,
         "deepestY": 24,
-        "lastSeen": 1784843769,
+        "lastSeen": 1784843880,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2844,11 +2844,6 @@
             "slot": "bag-17",
             "code": "game:lantern-large-up",
             "name": "Large molybdochalkos lantern"
-          },
-          {
-            "slot": "bag-18",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
           }
         ],
         "skin": {
