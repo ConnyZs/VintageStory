@@ -1,5 +1,5 @@
 {
-  "generated": "20260723-210301",
+  "generated": "20260723-210501",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2458,7 +2458,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 22,
-        "mobKills": 296,
+        "mobKills": 298,
         "mealsEaten": 304,
         "caloriesConsumed": 33684,
         "lastMeal": "Tinder hoof",
@@ -2526,11 +2526,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 179.5,
-        "blocksTravelled": 249564,
-        "blocksBroken": 15744,
-        "blocksPlaced": 5381,
+        "blocksTravelled": 249753,
+        "blocksBroken": 15765,
+        "blocksPlaced": 5399,
         "deepestY": 23,
-        "lastSeen": 1784833333,
+        "lastSeen": 1784833444,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2631,6 +2631,16 @@
             "slot": "bag-6",
             "code": "game:backpack-normal",
             "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-19",
+            "code": "butchering:deadpig-female-eurasian-normal-1-dead",
+            "name": "Pig (dead)"
+          },
+          {
+            "slot": "bag-20",
+            "code": "butchering:deadpig-female-eurasian-normal-1-dead",
+            "name": "Pig (dead)"
           }
         ],
         "skin": {
@@ -2691,11 +2701,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 175.0,
-        "blocksTravelled": 153158,
+        "blocksTravelled": 153340,
         "blocksBroken": 8287,
-        "blocksPlaced": 5218,
+        "blocksPlaced": 5219,
         "deepestY": 24,
-        "lastSeen": 1784833333,
+        "lastSeen": 1784833444,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2837,8 +2847,8 @@
           },
           {
             "slot": "bag-15",
-            "code": "game:tuningcylinder-1",
-            "name": "Tuning cylinder (The Seraphs)"
+            "code": "game:spiderweb",
+            "name": "Spider web"
           },
           {
             "slot": "bag-16",
@@ -2866,24 +2876,9 @@
             "name": "Tin bronze hammer"
           },
           {
-            "slot": "bag-21",
+            "slot": "bag-24",
             "code": "game:ore-medium-uranium-chert",
             "name": "Medium chunk of Uranium"
-          },
-          {
-            "slot": "bag-22",
-            "code": "game:drygrass",
-            "name": "Dry grass"
-          },
-          {
-            "slot": "bag-23",
-            "code": "game:gear-rusty",
-            "name": "Rusty gear"
-          },
-          {
-            "slot": "bag-24",
-            "code": "game:spiderweb",
-            "name": "Spider web"
           }
         ],
         "skin": {
