@@ -1,5 +1,5 @@
 {
-  "generated": "20260723-212102",
+  "generated": "20260723-212303",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2526,11 +2526,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 179.8,
-        "blocksTravelled": 251737,
-        "blocksBroken": 15814,
+        "blocksTravelled": 251987,
+        "blocksBroken": 15818,
         "blocksPlaced": 5399,
         "deepestY": 23,
-        "lastSeen": 1784834405,
+        "lastSeen": 1784834542,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2653,33 +2653,33 @@
             "name": "Eagle fern"
           },
           {
-            "slot": "bag-6",
-            "code": "butchering:deaddeer-male-baby-1-dead",
-            "name": "Deer (dead)"
+            "slot": "bag-7",
+            "code": "game:seeds-fennel",
+            "name": "Fennel seeds"
           },
           {
-            "slot": "bag-12",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "slot": "bag-8",
+            "code": "weaponpacka:haleberd-iron",
+            "name": "Iron halberd"
           },
           {
-            "slot": "bag-13",
-            "code": "butchering:deadwolf-male-eurasian-2-dead",
-            "name": "Wolf (dead)"
-          },
-          {
-            "slot": "bag-14",
+            "slot": "bag-19",
             "code": "butchering:deadwolf-male-eurasian-10-dead",
             "name": "Wolf (dead)"
           },
           {
-            "slot": "bag-15",
-            "code": "butchering:deadbear-male-brown-1-dead",
-            "name": "Bear (dead)"
+            "slot": "bag-20",
+            "code": "butchering:deadwolf-male-eurasian-5-dead",
+            "name": "Wolf (dead)"
           },
           {
-            "slot": "bag-16",
-            "code": "butchering:deadwolf-male-eurasian-1-dead",
+            "slot": "bag-21",
+            "code": "butchering:deadwolf-female-eurasian-3-dead",
+            "name": "Wolf (dead)"
+          },
+          {
+            "slot": "bag-22",
+            "code": "butchering:deadwolf-male-eurasian-7-dead",
             "name": "Wolf (dead)"
           }
         ],
@@ -2741,11 +2741,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 175.3,
-        "blocksTravelled": 155331,
+        "blocksTravelled": 155484,
         "blocksBroken": 8299,
-        "blocksPlaced": 5271,
+        "blocksPlaced": 5276,
         "deepestY": 24,
-        "lastSeen": 1784834405,
+        "lastSeen": 1784834542,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2886,11 +2886,6 @@
             "name": "Wooden fence (Oak)"
           },
           {
-            "slot": "bag-15",
-            "code": "game:spiderweb",
-            "name": "Spider web"
-          },
-          {
             "slot": "bag-16",
             "code": "game:fruit-cranberry",
             "name": "Cranberry"
@@ -2899,6 +2894,11 @@
             "slot": "bag-17",
             "code": "game:chisel-iron",
             "name": "Iron chisel"
+          },
+          {
+            "slot": "bag-18",
+            "code": "game:peatbrick",
+            "name": "Peat brick"
           },
           {
             "slot": "bag-20",
