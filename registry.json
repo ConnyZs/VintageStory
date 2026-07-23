@@ -1,5 +1,5 @@
 {
-  "generated": "20260723-205701",
+  "generated": "20260723-205901",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2451,7 +2451,7 @@
       "name": "AddyBuschu",
       "role": "suplayer",
       "first_join": "04/22/2026 17:55",
-      "last_join": "07/22/2026 17:01",
+      "last_join": "07/23/2026 18:56",
       "last_char": "04/25/2026 15:34",
       "stats": {
         "uid": "MT3maN90oN2gwGyklJR20Gu1",
@@ -2525,12 +2525,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 157.1,
-        "blocksTravelled": 249244,
+        "playtimeHours": 179.4,
+        "blocksTravelled": 249252,
         "blocksBroken": 15743,
         "blocksPlaced": 5380,
         "deepestY": 23,
-        "lastSeen": 1784752574,
+        "lastSeen": 1784833102,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2654,7 +2654,7 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 79,
+        "mobKills": 80,
         "mealsEaten": 71,
         "caloriesConsumed": 17371,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
@@ -2686,11 +2686,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 174.9,
-        "blocksTravelled": 152254,
-        "blocksBroken": 8271,
+        "blocksTravelled": 152468,
+        "blocksBroken": 8284,
         "blocksPlaced": 5218,
         "deepestY": 24,
-        "lastSeen": 1784832964,
+        "lastSeen": 1784833084,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2831,6 +2831,11 @@
             "name": "Wooden fence (Oak)"
           },
           {
+            "slot": "bag-15",
+            "code": "game:tuningcylinder-1",
+            "name": "Tuning cylinder (The Seraphs)"
+          },
+          {
             "slot": "bag-16",
             "code": "game:fruit-cranberry",
             "name": "Cranberry"
@@ -2854,6 +2859,26 @@
             "slot": "bag-20",
             "code": "game:hammer-tinbronze",
             "name": "Tin bronze hammer"
+          },
+          {
+            "slot": "bag-21",
+            "code": "game:ore-medium-uranium-chert",
+            "name": "Medium chunk of Uranium"
+          },
+          {
+            "slot": "bag-22",
+            "code": "game:stone-peridotite",
+            "name": "Peridotite stone"
+          },
+          {
+            "slot": "bag-23",
+            "code": "game:gear-rusty",
+            "name": "Rusty gear"
+          },
+          {
+            "slot": "bag-24",
+            "code": "game:spiderweb",
+            "name": "Spider web"
           }
         ],
         "skin": {
