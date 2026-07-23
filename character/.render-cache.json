@@ -75,7 +75,7 @@
   }
  },
  "AddyBuschu": {
-  "hash": "665fbe24975a17eff27af3d83faf556cd8461577",
+  "hash": "e35e1068e27dcf72e9b2bae50962402e32fa4953",
   "info": {
    "class": "homesteader",
    "items": [
@@ -100,7 +100,7 @@
     "Rotwalker coat"
    ],
    "frames": 16,
-   "v": 1784835446
+   "v": 1784835565
   }
  },
  "Barberschascher": {
