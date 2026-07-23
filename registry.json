@@ -1,5 +1,5 @@
 {
-  "generated": "20260723-202859",
+  "generated": "20260723-203059",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2686,11 +2686,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 174.4,
-        "blocksTravelled": 149398,
+        "blocksTravelled": 149571,
         "blocksBroken": 8143,
         "blocksPlaced": 5178,
         "deepestY": 24,
-        "lastSeen": 1784831283,
+        "lastSeen": 1784831403,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2806,11 +2806,6 @@
             "name": "Iron chisel"
           },
           {
-            "slot": "bag-10",
-            "code": "game:stone-peridotite",
-            "name": "Peridotite stone"
-          },
-          {
             "slot": "bag-11",
             "code": "game:stick",
             "name": "Stick"
@@ -2819,11 +2814,6 @@
             "slot": "bag-12",
             "code": "game:gear-rusty",
             "name": "Rusty gear"
-          },
-          {
-            "slot": "bag-13",
-            "code": "game:stone-andesite",
-            "name": "Andesite stone"
           },
           {
             "slot": "bag-14",
@@ -2851,9 +2841,14 @@
             "name": "Aged torch holder"
           },
           {
+            "slot": "bag-20",
+            "code": "game:stone-claystone",
+            "name": "Claystone stone"
+          },
+          {
             "slot": "bag-21",
-            "code": "game:resin",
-            "name": "Resin"
+            "code": "game:stone-claystone",
+            "name": "Claystone stone"
           },
           {
             "slot": "bag-22",
