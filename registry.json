@@ -1,5 +1,5 @@
 {
-  "generated": "20260723-203459",
+  "generated": "20260723-203700",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2686,11 +2686,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 174.5,
-        "blocksTravelled": 149932,
+        "blocksTravelled": 150224,
         "blocksBroken": 8143,
         "blocksPlaced": 5178,
         "deepestY": 24,
-        "lastSeen": 1784831643,
+        "lastSeen": 1784831763,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2824,11 +2824,6 @@
             "slot": "bag-17",
             "code": "game:ore-olivine",
             "name": "Olivine"
-          },
-          {
-            "slot": "bag-18",
-            "code": "canjewelry:gem-rough-chipped-uranium",
-            "name": "Small rough uranium"
           },
           {
             "slot": "bag-19",
