@@ -1,5 +1,5 @@
 {
-  "generated": "20260723-205501",
+  "generated": "20260723-205701",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2685,12 +2685,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 174.8,
-        "blocksTravelled": 151824,
-        "blocksBroken": 8270,
+        "playtimeHours": 174.9,
+        "blocksTravelled": 152254,
+        "blocksBroken": 8271,
         "blocksPlaced": 5218,
         "deepestY": 24,
-        "lastSeen": 1784832844,
+        "lastSeen": 1784832964,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2831,11 +2831,6 @@
             "name": "Wooden fence (Oak)"
           },
           {
-            "slot": "bag-15",
-            "code": "game:lantern-large-up",
-            "name": "Large molybdochalkos lantern"
-          },
-          {
             "slot": "bag-16",
             "code": "game:fruit-cranberry",
             "name": "Cranberry"
@@ -2854,6 +2849,11 @@
             "slot": "bag-19",
             "code": "game:torchholder-aged-empty-north",
             "name": "Aged torch holder"
+          },
+          {
+            "slot": "bag-20",
+            "code": "game:hammer-tinbronze",
+            "name": "Tin bronze hammer"
           }
         ],
         "skin": {
