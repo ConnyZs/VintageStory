@@ -1,5 +1,5 @@
 {
-  "generated": "20260723-203700",
+  "generated": "20260723-203900",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2685,12 +2685,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 174.5,
-        "blocksTravelled": 150224,
+        "playtimeHours": 174.6,
+        "blocksTravelled": 150443,
         "blocksBroken": 8143,
         "blocksPlaced": 5178,
         "deepestY": 24,
-        "lastSeen": 1784831763,
+        "lastSeen": 1784831883,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2821,11 +2821,6 @@
             "name": "Wattle fence"
           },
           {
-            "slot": "bag-17",
-            "code": "game:ore-olivine",
-            "name": "Olivine"
-          },
-          {
             "slot": "bag-19",
             "code": "game:torchholder-aged-empty-north",
             "name": "Aged torch holder"
@@ -2839,11 +2834,6 @@
             "slot": "bag-23",
             "code": "game:fruit-cranberry",
             "name": "Cranberry"
-          },
-          {
-            "slot": "bag-24",
-            "code": "game:flower-wilddaisy-free",
-            "name": "Wild daisy"
           }
         ],
         "skin": {
