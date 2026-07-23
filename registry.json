@@ -1,5 +1,5 @@
 {
-  "generated": "20260723-213103",
+  "generated": "20260723-213303",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2525,12 +2525,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 179.9,
-        "blocksTravelled": 252211,
+        "playtimeHours": 180.0,
+        "blocksTravelled": 252381,
         "blocksBroken": 15819,
         "blocksPlaced": 5399,
         "deepestY": 23,
-        "lastSeen": 1784835005,
+        "lastSeen": 1784835146,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2633,11 +2633,6 @@
             "name": "Leather backpack"
           },
           {
-            "slot": "bag-4",
-            "code": "game:seeds-flax",
-            "name": "Flax seeds"
-          },
-          {
             "slot": "bag-5",
             "code": "game:fern-eaglefern",
             "name": "Eagle fern"
@@ -2710,12 +2705,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 175.4,
-        "blocksTravelled": 155747,
+        "playtimeHours": 175.5,
+        "blocksTravelled": 155991,
         "blocksBroken": 8307,
         "blocksPlaced": 5276,
         "deepestY": 24,
-        "lastSeen": 1784835005,
+        "lastSeen": 1784835146,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2859,11 +2854,6 @@
             "slot": "bag-16",
             "code": "game:fruit-cranberry",
             "name": "Cranberry"
-          },
-          {
-            "slot": "bag-17",
-            "code": "game:chisel-iron",
-            "name": "Iron chisel"
           },
           {
             "slot": "bag-20",
