@@ -1,5 +1,5 @@
 {
-  "generated": "20260723-211102",
+  "generated": "20260723-211302",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2526,11 +2526,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 179.6,
-        "blocksTravelled": 250240,
+        "blocksTravelled": 250370,
         "blocksBroken": 15765,
         "blocksPlaced": 5399,
         "deepestY": 23,
-        "lastSeen": 1784833804,
+        "lastSeen": 1784833937,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2686,11 +2686,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 175.1,
-        "blocksTravelled": 153918,
+        "blocksTravelled": 154093,
         "blocksBroken": 8299,
-        "blocksPlaced": 5234,
+        "blocksPlaced": 5259,
         "deepestY": 24,
-        "lastSeen": 1784833804,
+        "lastSeen": 1784833937,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2801,24 +2801,19 @@
             "name": "Peridotite cobblestone"
           },
           {
-            "slot": "bag-9",
-            "code": "game:soil-low-none",
-            "name": "Low fertility soil"
-          },
-          {
             "slot": "bag-10",
             "code": "game:daubraw-browngolden",
             "name": "Raw daub (golden brown)"
           },
           {
+            "slot": "bag-11",
+            "code": "game:soil-medium-none",
+            "name": "Medium fertility soil"
+          },
+          {
             "slot": "bag-12",
             "code": "game:soil-low-none",
             "name": "Low fertility soil"
-          },
-          {
-            "slot": "bag-13",
-            "code": "game:soil-medium-none",
-            "name": "Medium fertility soil"
           },
           {
             "slot": "bag-14",
