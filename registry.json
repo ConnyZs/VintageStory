@@ -1,5 +1,5 @@
 {
-  "generated": "20260723-204300",
+  "generated": "20260723-204500",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2685,12 +2685,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 174.6,
-        "blocksTravelled": 150794,
-        "blocksBroken": 8148,
-        "blocksPlaced": 5182,
+        "playtimeHours": 174.7,
+        "blocksTravelled": 150807,
+        "blocksBroken": 8154,
+        "blocksPlaced": 5187,
         "deepestY": 24,
-        "lastSeen": 1784832125,
+        "lastSeen": 1784832243,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2786,6 +2786,11 @@
             "name": "Saltpeter"
           },
           {
+            "slot": "bag-6",
+            "code": "game:wattle-sticks-ew-free",
+            "name": "Wattle fence"
+          },
+          {
             "slot": "bag-7",
             "code": "game:glass-plain",
             "name": "Glass"
@@ -2794,11 +2799,6 @@
             "slot": "bag-8",
             "code": "game:cobblestone-peridotite",
             "name": "Peridotite cobblestone"
-          },
-          {
-            "slot": "bag-9",
-            "code": "game:chisel-iron",
-            "name": "Iron chisel"
           },
           {
             "slot": "bag-10",
@@ -2816,14 +2816,14 @@
             "name": "Wooden fence (Oak)"
           },
           {
+            "slot": "bag-15",
+            "code": "game:lantern-large-up",
+            "name": "Large molybdochalkos lantern"
+          },
+          {
             "slot": "bag-19",
             "code": "game:torchholder-aged-empty-north",
             "name": "Aged torch holder"
-          },
-          {
-            "slot": "bag-22",
-            "code": "game:hammer-tinbronze",
-            "name": "Tin bronze hammer"
           },
           {
             "slot": "bag-23",
