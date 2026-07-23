@@ -1,5 +1,5 @@
 {
-  "generated": "20260723-204900",
+  "generated": "20260723-205100",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2685,12 +2685,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 174.7,
-        "blocksTravelled": 151017,
-        "blocksBroken": 8158,
-        "blocksPlaced": 5189,
+        "playtimeHours": 174.8,
+        "blocksTravelled": 151322,
+        "blocksBroken": 8165,
+        "blocksPlaced": 5198,
         "deepestY": 24,
-        "lastSeen": 1784832484,
+        "lastSeen": 1784832604,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2836,14 +2836,19 @@
             "name": "Large molybdochalkos lantern"
           },
           {
+            "slot": "bag-16",
+            "code": "game:fruit-cranberry",
+            "name": "Cranberry"
+          },
+          {
+            "slot": "bag-17",
+            "code": "game:chisel-iron",
+            "name": "Iron chisel"
+          },
+          {
             "slot": "bag-19",
             "code": "game:torchholder-aged-empty-north",
             "name": "Aged torch holder"
-          },
-          {
-            "slot": "bag-23",
-            "code": "game:fruit-cranberry",
-            "name": "Cranberry"
           }
         ],
         "skin": {
