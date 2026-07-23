@@ -1,5 +1,5 @@
 {
-  "generated": "20260723-211302",
+  "generated": "20260723-211502",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2457,7 +2457,7 @@
         "uid": "MT3maN90oN2gwGyklJR20Gu1",
         "name": "AddyBuschu",
         "class": "homesteader",
-        "deaths": 22,
+        "deaths": 23,
         "mobKills": 298,
         "mealsEaten": 304,
         "caloriesConsumed": 33684,
@@ -2518,19 +2518,19 @@
           "Dairy": 10
         },
         "deathCauses": {
-          "bear-brown-adult-female": 1,
+          "bear-brown-adult-female": 2,
           "sheep-mouflon-adult-male": 1,
           "pig-eurasian-adult-male": 1,
           "pig-eurasian-adult-female": 1,
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 179.6,
-        "blocksTravelled": 250370,
-        "blocksBroken": 15765,
+        "playtimeHours": 179.7,
+        "blocksTravelled": 250614,
+        "blocksBroken": 15772,
         "blocksPlaced": 5399,
         "deepestY": 23,
-        "lastSeen": 1784833937,
+        "lastSeen": 1784834045,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2685,12 +2685,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 175.1,
-        "blocksTravelled": 154093,
+        "playtimeHours": 175.2,
+        "blocksTravelled": 154324,
         "blocksBroken": 8299,
-        "blocksPlaced": 5259,
+        "blocksPlaced": 5271,
         "deepestY": 24,
-        "lastSeen": 1784833937,
+        "lastSeen": 1784834045,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2799,6 +2799,11 @@
             "slot": "bag-8",
             "code": "game:cobblestone-peridotite",
             "name": "Peridotite cobblestone"
+          },
+          {
+            "slot": "bag-9",
+            "code": "game:soil-low-none",
+            "name": "Low fertility soil"
           },
           {
             "slot": "bag-10",
@@ -3144,11 +3149,11 @@
     }
   ],
   "lastAccident": {
-    "playerName": "Raschuetzer",
-    "timestamp": 1784740541,
-    "cause": "pantherinae-panthera-adult-female-tigris-normal",
-    "x": 518163,
-    "y": 110,
-    "z": 512417
+    "playerName": "AddyBuschu",
+    "timestamp": 1784834087,
+    "cause": "bear-brown-adult-female",
+    "x": 519023,
+    "y": 117,
+    "z": 511338
   }
 }
