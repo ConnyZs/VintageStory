@@ -1,5 +1,5 @@
 {
-  "generated": "20260723-213303",
+  "generated": "20260723-213503",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2526,11 +2526,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 180.0,
-        "blocksTravelled": 252381,
+        "blocksTravelled": 252513,
         "blocksBroken": 15819,
-        "blocksPlaced": 5399,
+        "blocksPlaced": 5404,
         "deepestY": 23,
-        "lastSeen": 1784835146,
+        "lastSeen": 1784835245,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2628,24 +2628,9 @@
             "name": "Black bear hide body armor"
           },
           {
-            "slot": "bag-1",
+            "slot": "bag-6",
             "code": "game:backpack-normal",
             "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-5",
-            "code": "game:fern-eaglefern",
-            "name": "Eagle fern"
-          },
-          {
-            "slot": "bag-7",
-            "code": "game:seeds-fennel",
-            "name": "Fennel seeds"
-          },
-          {
-            "slot": "bag-19",
-            "code": "butchering:deadwolf-male-eurasian-1-dead",
-            "name": "Wolf (dead)"
           }
         ],
         "skin": {
@@ -2706,11 +2691,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 175.5,
-        "blocksTravelled": 155991,
-        "blocksBroken": 8307,
-        "blocksPlaced": 5276,
+        "blocksTravelled": 156008,
+        "blocksBroken": 8309,
+        "blocksPlaced": 5277,
         "deepestY": 24,
-        "lastSeen": 1784835146,
+        "lastSeen": 1784835245,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2856,9 +2841,24 @@
             "name": "Cranberry"
           },
           {
+            "slot": "bag-17",
+            "code": "game:chisel-iron",
+            "name": "Iron chisel"
+          },
+          {
+            "slot": "bag-18",
+            "code": "chiseltools:chiseledchest-east",
+            "name": "Decorative Chest (High Capacity)"
+          },
+          {
             "slot": "bag-20",
             "code": "game:hammer-tinbronze",
             "name": "Tin bronze hammer"
+          },
+          {
+            "slot": "bag-24",
+            "code": "game:trunk-east",
+            "name": "Wooden trunk"
           }
         ],
         "skin": {
