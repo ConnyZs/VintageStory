@@ -1,5 +1,5 @@
 {
-  "generated": "20260723-232911",
+  "generated": "20260723-234112",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2685,12 +2685,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 175.6,
-        "blocksTravelled": 156248,
-        "blocksBroken": 8312,
-        "blocksPlaced": 5282,
+        "playtimeHours": 175.8,
+        "blocksTravelled": 158455,
+        "blocksBroken": 8338,
+        "blocksPlaced": 5287,
         "deepestY": 24,
-        "lastSeen": 1784842088,
+        "lastSeen": 1784842808,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2797,8 +2797,8 @@
           },
           {
             "slot": "bag-8",
-            "code": "game:cobblestone-peridotite",
-            "name": "Peridotite cobblestone"
+            "code": "game:blade-gladius-ruined",
+            "name": "Ruined gladius"
           },
           {
             "slot": "bag-9",
@@ -2831,19 +2831,19 @@
             "name": "Wooden fence (Oak)"
           },
           {
+            "slot": "bag-15",
+            "code": "game:stone-peridotite",
+            "name": "Peridotite stone"
+          },
+          {
             "slot": "bag-16",
             "code": "game:fruit-cranberry",
             "name": "Cranberry"
           },
           {
             "slot": "bag-20",
-            "code": "game:hammer-tinbronze",
-            "name": "Tin bronze hammer"
-          },
-          {
-            "slot": "bag-23",
-            "code": "game:chisel-iron",
-            "name": "Iron chisel"
+            "code": "game:lantern-large-up",
+            "name": "Large molybdochalkos lantern"
           }
         ],
         "skin": {
