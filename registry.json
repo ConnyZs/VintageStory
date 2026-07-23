@@ -1,5 +1,5 @@
 {
-  "generated": "20260723-211502",
+  "generated": "20260723-211702",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2526,11 +2526,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 179.7,
-        "blocksTravelled": 250614,
+        "blocksTravelled": 251170,
         "blocksBroken": 15772,
         "blocksPlaced": 5399,
         "deepestY": 23,
-        "lastSeen": 1784834045,
+        "lastSeen": 1784834165,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2626,6 +2626,16 @@
             "slot": "armorbody",
             "code": "game:armor-body-hide-bear-black",
             "name": "Black bear hide body armor"
+          },
+          {
+            "slot": "bag-1",
+            "code": "butchering:deadwolf-male-eurasian-2-dead",
+            "name": "Wolf (dead)"
+          },
+          {
+            "slot": "bag-2",
+            "code": "butchering:deadwolf-male-eurasian-10-dead",
+            "name": "Wolf (dead)"
           }
         ],
         "skin": {
@@ -2654,7 +2664,7 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 80,
+        "mobKills": 81,
         "mealsEaten": 71,
         "caloriesConsumed": 17371,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
@@ -2686,11 +2696,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 175.2,
-        "blocksTravelled": 154324,
+        "blocksTravelled": 154559,
         "blocksBroken": 8299,
         "blocksPlaced": 5271,
         "deepestY": 24,
-        "lastSeen": 1784834045,
+        "lastSeen": 1784834165,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2819,6 +2829,11 @@
             "slot": "bag-12",
             "code": "game:soil-low-none",
             "name": "Low fertility soil"
+          },
+          {
+            "slot": "bag-13",
+            "code": "game:fruit-redcurrant",
+            "name": "Redcurrant"
           },
           {
             "slot": "bag-14",
