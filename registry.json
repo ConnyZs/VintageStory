@@ -1,5 +1,5 @@
 {
-  "generated": "20260723-211902",
+  "generated": "20260723-212102",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2458,7 +2458,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 23,
-        "mobKills": 298,
+        "mobKills": 299,
         "mealsEaten": 304,
         "caloriesConsumed": 33684,
         "lastMeal": "Tinder hoof",
@@ -2525,12 +2525,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 179.7,
-        "blocksTravelled": 251425,
-        "blocksBroken": 15796,
+        "playtimeHours": 179.8,
+        "blocksTravelled": 251737,
+        "blocksBroken": 15814,
         "blocksPlaced": 5399,
         "deepestY": 23,
-        "lastSeen": 1784834285,
+        "lastSeen": 1784834405,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2658,19 +2658,29 @@
             "name": "Deer (dead)"
           },
           {
-            "slot": "bag-19",
+            "slot": "bag-12",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-13",
             "code": "butchering:deadwolf-male-eurasian-2-dead",
             "name": "Wolf (dead)"
           },
           {
-            "slot": "bag-20",
+            "slot": "bag-14",
             "code": "butchering:deadwolf-male-eurasian-10-dead",
             "name": "Wolf (dead)"
           },
           {
-            "slot": "bag-21",
+            "slot": "bag-15",
             "code": "butchering:deadbear-male-brown-1-dead",
             "name": "Bear (dead)"
+          },
+          {
+            "slot": "bag-16",
+            "code": "butchering:deadwolf-male-eurasian-1-dead",
+            "name": "Wolf (dead)"
           }
         ],
         "skin": {
@@ -2699,7 +2709,7 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 81,
+        "mobKills": 82,
         "mealsEaten": 71,
         "caloriesConsumed": 17371,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
@@ -2730,12 +2740,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 175.2,
-        "blocksTravelled": 154865,
+        "playtimeHours": 175.3,
+        "blocksTravelled": 155331,
         "blocksBroken": 8299,
         "blocksPlaced": 5271,
         "deepestY": 24,
-        "lastSeen": 1784834285,
+        "lastSeen": 1784834405,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
