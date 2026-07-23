@@ -1,5 +1,5 @@
 {
-  "generated": "20260723-203059",
+  "generated": "20260723-203259",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2685,12 +2685,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 174.4,
-        "blocksTravelled": 149571,
+        "playtimeHours": 174.5,
+        "blocksTravelled": 149675,
         "blocksBroken": 8143,
         "blocksPlaced": 5178,
         "deepestY": 24,
-        "lastSeen": 1784831403,
+        "lastSeen": 1784831523,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2811,11 +2811,6 @@
             "name": "Stick"
           },
           {
-            "slot": "bag-12",
-            "code": "game:gear-rusty",
-            "name": "Rusty gear"
-          },
-          {
             "slot": "bag-14",
             "code": "game:woodenfence-oak-ew-free",
             "name": "Wooden fence (Oak)"
@@ -2839,16 +2834,6 @@
             "slot": "bag-19",
             "code": "game:torchholder-aged-empty-north",
             "name": "Aged torch holder"
-          },
-          {
-            "slot": "bag-20",
-            "code": "game:stone-claystone",
-            "name": "Claystone stone"
-          },
-          {
-            "slot": "bag-21",
-            "code": "game:stone-claystone",
-            "name": "Claystone stone"
           },
           {
             "slot": "bag-22",
