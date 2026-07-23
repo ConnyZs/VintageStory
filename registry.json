@@ -1,5 +1,5 @@
 {
-  "generated": "20260723-235313",
+  "generated": "20260723-235513",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2686,11 +2686,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 176.0,
-        "blocksTravelled": 160097,
+        "blocksTravelled": 160595,
         "blocksBroken": 8338,
         "blocksPlaced": 5287,
         "deepestY": 24,
-        "lastSeen": 1784843529,
+        "lastSeen": 1784843649,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2841,9 +2841,14 @@
             "name": "Cranberry"
           },
           {
-            "slot": "bag-20",
+            "slot": "bag-17",
             "code": "game:lantern-large-up",
             "name": "Large molybdochalkos lantern"
+          },
+          {
+            "slot": "bag-18",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           }
         ],
         "skin": {
