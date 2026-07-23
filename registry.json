@@ -1,5 +1,5 @@
 {
-  "generated": "20260723-210501",
+  "generated": "20260723-210702",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2526,11 +2526,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 179.5,
-        "blocksTravelled": 249753,
+        "blocksTravelled": 249944,
         "blocksBroken": 15765,
         "blocksPlaced": 5399,
         "deepestY": 23,
-        "lastSeen": 1784833444,
+        "lastSeen": 1784833564,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2626,21 +2626,6 @@
             "slot": "armorbody",
             "code": "game:armor-body-hide-bear-black",
             "name": "Black bear hide body armor"
-          },
-          {
-            "slot": "bag-6",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-19",
-            "code": "butchering:deadpig-female-eurasian-normal-1-dead",
-            "name": "Pig (dead)"
-          },
-          {
-            "slot": "bag-20",
-            "code": "butchering:deadpig-female-eurasian-normal-1-dead",
-            "name": "Pig (dead)"
           }
         ],
         "skin": {
@@ -2701,11 +2686,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 175.0,
-        "blocksTravelled": 153340,
+        "blocksTravelled": 153557,
         "blocksBroken": 8287,
-        "blocksPlaced": 5219,
+        "blocksPlaced": 5222,
         "deepestY": 24,
-        "lastSeen": 1784833444,
+        "lastSeen": 1784833564,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2826,11 +2811,6 @@
             "name": "Raw daub (golden brown)"
           },
           {
-            "slot": "bag-11",
-            "code": "game:stick",
-            "name": "Stick"
-          },
-          {
             "slot": "bag-12",
             "code": "game:soil-low-none",
             "name": "Low fertility soil"
@@ -2864,11 +2844,6 @@
             "slot": "bag-18",
             "code": "game:ore-poor-uranium-limestone",
             "name": "Poor chunk of Uranium"
-          },
-          {
-            "slot": "bag-19",
-            "code": "game:torchholder-aged-empty-north",
-            "name": "Aged torch holder"
           },
           {
             "slot": "bag-20",
