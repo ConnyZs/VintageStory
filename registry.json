@@ -1,5 +1,5 @@
 {
-  "generated": "20260723-214104",
+  "generated": "20260723-214304",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2525,12 +2525,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 180.1,
-        "blocksTravelled": 252646,
+        "playtimeHours": 180.2,
+        "blocksTravelled": 252678,
         "blocksBroken": 15819,
         "blocksPlaced": 5404,
         "deepestY": 23,
-        "lastSeen": 1784835605,
+        "lastSeen": 1784835749,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2626,11 +2626,6 @@
             "slot": "armorbody",
             "code": "game:armor-body-hide-bear-black",
             "name": "Black bear hide body armor"
-          },
-          {
-            "slot": "bag-6",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
           }
         ],
         "skin": {
