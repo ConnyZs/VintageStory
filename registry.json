@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-123505",
+  "generated": "20260724-123705",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2686,13 +2686,14 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 188.7,
-        "blocksTravelled": 161775,
-        "blocksBroken": 8343,
-        "blocksPlaced": 5289,
+        "blocksTravelled": 161961,
+        "blocksBroken": 8345,
+        "blocksPlaced": 5300,
         "deepestY": 24,
-        "lastSeen": 1784889266,
+        "lastSeen": 1784889386,
         "gear": [
           "Raccoon fur trapper hat",
+          "Artisans scarf",
           "Linen tunic",
           "Workmans pants",
           "Forlorn Hope shoes",
@@ -2700,8 +2701,7 @@
           "Gold gear amulet",
           "Messenger pin",
           "Sturdy belt",
-          "Large silver bracelets",
-          "Fortune teller vest"
+          "Large silver bracelets"
         ],
         "gearDetail": [
           {
@@ -2709,6 +2709,12 @@
             "code": "game:clothes-head-furhatwide-generic-gray",
             "name": "Raccoon fur trapper hat",
             "icon": "character/icons/head-furhatwide-generic-gray.png"
+          },
+          {
+            "slot": "shoulder",
+            "code": "game:clothes-shoulder-artisans-scarf",
+            "name": "Artisans scarf",
+            "icon": "character/icons/shoulder-artisans-scarf.png"
           },
           {
             "slot": "upperbody",
@@ -2753,12 +2759,6 @@
             "slot": "arm",
             "code": "game:clothes-arm-large-silver-bracelets",
             "name": "Large silver bracelets"
-          },
-          {
-            "slot": "upperbodyover",
-            "code": "game:clothes-upperbodyover-fortuneteller",
-            "name": "Fortune teller vest",
-            "icon": "character/icons/upperbodyover-fortuneteller.png"
           },
           {
             "slot": "bag-1",
@@ -2817,8 +2817,8 @@
           },
           {
             "slot": "bag-12",
-            "code": "game:soil-low-none",
-            "name": "Low fertility soil"
+            "code": "game:clothes-arm-bronze-armlet",
+            "name": "Bronze armlet"
           },
           {
             "slot": "bag-13",
@@ -2841,9 +2841,25 @@
             "name": "Cranberry"
           },
           {
+            "slot": "bag-17",
+            "code": "game:clothes-upperbodyover-fortuneteller",
+            "name": "Fortune teller vest",
+            "icon": "character/icons/upperbodyover-fortuneteller.png"
+          },
+          {
+            "slot": "bag-19",
+            "code": "game:gear-rusty",
+            "name": "Rusty gear"
+          },
+          {
             "slot": "bag-20",
             "code": "game:hammer-tinbronze",
             "name": "Tin bronze hammer"
+          },
+          {
+            "slot": "bag-21",
+            "code": "game:cobblestone-peridotite",
+            "name": "Peridotite cobblestone"
           }
         ],
         "skin": {

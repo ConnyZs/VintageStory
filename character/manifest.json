@@ -81,6 +81,7 @@
     "mustache",
     "facialexpression",
     "Raccoon fur trapper hat",
+    "Artisans scarf",
     "Linen tunic",
     "Workmans pants",
     "Forlorn Hope shoes",
@@ -88,11 +89,10 @@
     "Gold gear amulet",
     "Messenger pin",
     "Sturdy belt",
-    "Large silver bracelets",
-    "Fortune teller vest"
+    "Large silver bracelets"
    ],
    "frames": 16,
-   "v": 1784889205
+   "v": 1784889443
   },
   "Barberschascher": {
    "class": "miner",
