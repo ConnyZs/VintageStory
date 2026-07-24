@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-134710",
+  "generated": "20260724-134910",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2528,11 +2528,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 196.2,
-        "blocksTravelled": 256284,
+        "blocksTravelled": 256387,
         "blocksBroken": 15902,
-        "blocksPlaced": 5423,
+        "blocksPlaced": 5424,
         "deepestY": 23,
-        "lastSeen": 1784893589,
+        "lastSeen": 1784893722,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2693,6 +2693,11 @@
             "slot": "bag-17",
             "code": "game:rot",
             "name": "Rot"
+          },
+          {
+            "slot": "bag-18",
+            "code": "game:clothes-face-glasses",
+            "name": "Plain glasses"
           }
         ],
         "skin": {
@@ -2753,11 +2758,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 189.9,
-        "blocksTravelled": 167612,
-        "blocksBroken": 8439,
-        "blocksPlaced": 5357,
+        "blocksTravelled": 167662,
+        "blocksBroken": 8444,
+        "blocksPlaced": 5360,
         "deepestY": 24,
-        "lastSeen": 1784893589,
+        "lastSeen": 1784893722,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -2836,13 +2841,13 @@
           },
           {
             "slot": "bag-1",
-            "code": "game:flint",
-            "name": "Flint"
+            "code": "betterruins:br-schematic-road",
+            "name": "Paver's Road Blueprint"
           },
           {
             "slot": "bag-2",
-            "code": "game:honeycomb",
-            "name": "Honeycomb"
+            "code": "game:clutter",
+            "name": "Clay figurine"
           },
           {
             "slot": "bag-3",
@@ -2866,8 +2871,8 @@
           },
           {
             "slot": "bag-7",
-            "code": "game:stick",
-            "name": "Stick"
+            "code": "game:honeycomb",
+            "name": "Honeycomb"
           },
           {
             "slot": "bag-8",
@@ -2921,8 +2926,8 @@
           },
           {
             "slot": "bag-18",
-            "code": "game:nugget-galena",
-            "name": "Nugget (Galena)"
+            "code": "game:clothes-butterflypin-temporal",
+            "name": "Butterfly pin (Temporal)"
           },
           {
             "slot": "bag-19",
@@ -2938,6 +2943,21 @@
             "slot": "bag-21",
             "code": "game:attachingplant-sparsemold",
             "name": "Mold layer (sparse)"
+          },
+          {
+            "slot": "bag-22",
+            "code": "game:seashell-sundial-darkpurple",
+            "name": "Sundial (Darkpurple)"
+          },
+          {
+            "slot": "bag-23",
+            "code": "game:displaycase-aged1",
+            "name": "Display case"
+          },
+          {
+            "slot": "bag-24",
+            "code": "game:ore-phosphorite",
+            "name": "Phosphorite"
           }
         ],
         "skin": {
