@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-124506",
+  "generated": "20260724-124706",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2686,11 +2686,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 188.9,
-        "blocksTravelled": 163216,
+        "blocksTravelled": 163282,
         "blocksBroken": 8345,
         "blocksPlaced": 5300,
         "deepestY": 24,
-        "lastSeen": 1784889867,
+        "lastSeen": 1784889987,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2786,21 +2786,6 @@
             "name": "Saltpeter"
           },
           {
-            "slot": "bag-6",
-            "code": "game:wattle-sticks-ew-free",
-            "name": "Wattle fence"
-          },
-          {
-            "slot": "bag-7",
-            "code": "game:glass-plain",
-            "name": "Glass"
-          },
-          {
-            "slot": "bag-8",
-            "code": "game:blade-gladius-ruined",
-            "name": "Ruined gladius"
-          },
-          {
             "slot": "bag-9",
             "code": "game:soil-low-none",
             "name": "Low fertility soil"
@@ -2811,29 +2796,9 @@
             "name": "Raw daub (golden brown)"
           },
           {
-            "slot": "bag-11",
-            "code": "game:soil-medium-none",
-            "name": "Medium fertility soil"
-          },
-          {
             "slot": "bag-12",
             "code": "game:clothes-arm-bronze-armlet",
             "name": "Bronze armlet"
-          },
-          {
-            "slot": "bag-13",
-            "code": "game:woodenpath-oak-ns",
-            "name": "Oak path"
-          },
-          {
-            "slot": "bag-14",
-            "code": "game:woodenfence-oak-ew-free",
-            "name": "Wooden fence (Oak)"
-          },
-          {
-            "slot": "bag-16",
-            "code": "game:stonepath-free",
-            "name": "Stone path"
           },
           {
             "slot": "bag-17",
@@ -2841,25 +2806,9 @@
             "name": "Horsetail Poultice (from reeds)"
           },
           {
-            "slot": "bag-18",
-            "code": "game:clothes-shoulder-artisans-scarf",
-            "name": "Artisans scarf",
-            "icon": "character/icons/shoulder-artisans-scarf.png"
-          },
-          {
-            "slot": "bag-19",
-            "code": "game:gear-rusty",
-            "name": "Rusty gear"
-          },
-          {
             "slot": "bag-20",
             "code": "game:hammer-tinbronze",
             "name": "Tin bronze hammer"
-          },
-          {
-            "slot": "bag-21",
-            "code": "game:cobblestone-peridotite",
-            "name": "Peridotite cobblestone"
           },
           {
             "slot": "bag-22",
