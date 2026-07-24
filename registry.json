@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-142313",
+  "generated": "20260724-142513",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2458,7 +2458,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 318,
+        "mobKills": 320,
         "mealsEaten": 320,
         "caloriesConsumed": 35712,
         "lastMeal": "Redcurrant",
@@ -2529,11 +2529,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 196.8,
-        "blocksTravelled": 260008,
-        "blocksBroken": 16045,
-        "blocksPlaced": 5484,
+        "blocksTravelled": 260057,
+        "blocksBroken": 16047,
+        "blocksPlaced": 5485,
         "deepestY": 23,
-        "lastSeen": 1784895751,
+        "lastSeen": 1784895871,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2740,13 +2740,13 @@
           },
           {
             "slot": "bag-22",
-            "code": "game:flaxtwine",
-            "name": "Flax twine"
+            "code": "game:paper-parchment",
+            "name": "Parchment"
           },
           {
             "slot": "bag-23",
-            "code": "game:paper-parchment",
-            "name": "Parchment"
+            "code": "game:pickaxe-iron",
+            "name": "Iron pickaxe"
           },
           {
             "slot": "bag-24",
@@ -2812,11 +2812,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 190.5,
-        "blocksTravelled": 169902,
+        "blocksTravelled": 170007,
         "blocksBroken": 8494,
         "blocksPlaced": 5381,
         "deepestY": 24,
-        "lastSeen": 1784895751,
+        "lastSeen": 1784895871,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -2910,9 +2910,9 @@
             "name": "Clay figurine"
           },
           {
-            "slot": "bag-4",
-            "code": "game:ore-lignite",
-            "name": "Brown coal"
+            "slot": "bag-3",
+            "code": "game:metal-scraps",
+            "name": "Metal scraps"
           },
           {
             "slot": "bag-5",
