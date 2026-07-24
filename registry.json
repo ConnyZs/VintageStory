@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-125306",
+  "generated": "20260724-125506",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2686,11 +2686,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 189.0,
-        "blocksTravelled": 163342,
-        "blocksBroken": 8345,
-        "blocksPlaced": 5301,
+        "blocksTravelled": 163531,
+        "blocksBroken": 8347,
+        "blocksPlaced": 5306,
         "deepestY": 24,
-        "lastSeen": 1784890347,
+        "lastSeen": 1784890467,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -2793,24 +2793,14 @@
             "name": "Saltpeter"
           },
           {
-            "slot": "bag-9",
-            "code": "game:soil-low-none",
-            "name": "Low fertility soil"
-          },
-          {
-            "slot": "bag-10",
-            "code": "game:daubraw-browngolden",
-            "name": "Raw daub (golden brown)"
-          },
-          {
             "slot": "bag-17",
             "code": "game:poultice-reed-horsetail",
             "name": "Horsetail Poultice (from reeds)"
           },
           {
-            "slot": "bag-20",
-            "code": "game:hammer-tinbronze",
-            "name": "Tin bronze hammer"
+            "slot": "bag-19",
+            "code": "game:lantern-large-up",
+            "name": "Large molybdochalkos lantern"
           },
           {
             "slot": "bag-22",
