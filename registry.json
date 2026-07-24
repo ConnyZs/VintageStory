@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-125106",
+  "generated": "20260724-125306",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2686,11 +2686,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 189.0,
-        "blocksTravelled": 163285,
+        "blocksTravelled": 163342,
         "blocksBroken": 8345,
-        "blocksPlaced": 5300,
+        "blocksPlaced": 5301,
         "deepestY": 24,
-        "lastSeen": 1784890227,
+        "lastSeen": 1784890347,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -2801,11 +2801,6 @@
             "slot": "bag-10",
             "code": "game:daubraw-browngolden",
             "name": "Raw daub (golden brown)"
-          },
-          {
-            "slot": "bag-12",
-            "code": "game:clothes-arm-bronze-armlet",
-            "name": "Bronze armlet"
           },
           {
             "slot": "bag-17",
