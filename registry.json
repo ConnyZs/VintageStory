@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-142513",
+  "generated": "20260724-142713",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2528,12 +2528,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 196.8,
-        "blocksTravelled": 260057,
+        "playtimeHours": 196.9,
+        "blocksTravelled": 260639,
         "blocksBroken": 16047,
         "blocksPlaced": 5485,
         "deepestY": 23,
-        "lastSeen": 1784895871,
+        "lastSeen": 1784895991,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2745,8 +2745,8 @@
           },
           {
             "slot": "bag-23",
-            "code": "game:pickaxe-iron",
-            "name": "Iron pickaxe"
+            "code": "game:hoe-copper",
+            "name": "Copper hoe"
           },
           {
             "slot": "bag-24",
@@ -2811,12 +2811,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 190.5,
-        "blocksTravelled": 170007,
+        "playtimeHours": 190.6,
+        "blocksTravelled": 170591,
         "blocksBroken": 8494,
         "blocksPlaced": 5381,
         "deepestY": 24,
-        "lastSeen": 1784895871,
+        "lastSeen": 1784895991,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
