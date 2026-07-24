@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-223148",
+  "generated": "20260724-223348",
   "game_version": "1.22.3",
   "check_ts": "20260724-200056",
   "latest_engine": "1.22.5",
@@ -2473,7 +2473,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 350,
+        "mobKills": 353,
         "mealsEaten": 323,
         "caloriesConsumed": 35952,
         "lastMeal": "Redcurrant",
@@ -2544,11 +2544,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 198.9,
-        "blocksTravelled": 274054,
-        "blocksBroken": 16604,
-        "blocksPlaced": 5711,
+        "blocksTravelled": 274331,
+        "blocksBroken": 16612,
+        "blocksPlaced": 5717,
         "deepestY": 23,
-        "lastSeen": 1784925014,
+        "lastSeen": 1784925143,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
