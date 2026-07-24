@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-134510",
+  "generated": "20260724-134710",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2528,11 +2528,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 196.2,
-        "blocksTravelled": 256099,
-        "blocksBroken": 15901,
-        "blocksPlaced": 5421,
+        "blocksTravelled": 256284,
+        "blocksBroken": 15902,
+        "blocksPlaced": 5423,
         "deepestY": 23,
-        "lastSeen": 1784893469,
+        "lastSeen": 1784893589,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2666,8 +2666,8 @@
           },
           {
             "slot": "bag-8",
-            "code": "game:stone-andesite",
-            "name": "Andesite stone"
+            "code": "game:chest-east",
+            "name": "Aged Owl treasure chest"
           },
           {
             "slot": "bag-9",
@@ -2680,34 +2680,19 @@
             "name": "Blueberry cutting"
           },
           {
-            "slot": "bag-15",
+            "slot": "bag-11",
+            "code": "game:soil-high-none",
+            "name": "Terra preta"
+          },
+          {
+            "slot": "bag-12",
             "code": "game:chest-east",
-            "name": "Aged Owl treasure chest"
+            "name": "Aged wooden chest"
           },
           {
             "slot": "bag-17",
             "code": "game:rot",
             "name": "Rot"
-          },
-          {
-            "slot": "bag-20",
-            "code": "game:seeds-turnip",
-            "name": "Turnip seeds"
-          },
-          {
-            "slot": "bag-21",
-            "code": "game:seeds-rye",
-            "name": "Rye seeds"
-          },
-          {
-            "slot": "bag-23",
-            "code": "game:chest-east",
-            "name": "Aged wooden chest"
-          },
-          {
-            "slot": "bag-24",
-            "code": "game:crate",
-            "name": "Aged crate (closed)"
           }
         ],
         "skin": {
@@ -2768,11 +2753,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 189.9,
-        "blocksTravelled": 167419,
-        "blocksBroken": 8436,
+        "blocksTravelled": 167612,
+        "blocksBroken": 8439,
         "blocksPlaced": 5357,
         "deepestY": 24,
-        "lastSeen": 1784893469,
+        "lastSeen": 1784893589,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -2948,6 +2933,11 @@
             "slot": "bag-20",
             "code": "bricklayers:sherds-light",
             "name": "Light ceramic sherds"
+          },
+          {
+            "slot": "bag-21",
+            "code": "game:attachingplant-sparsemold",
+            "name": "Mold layer (sparse)"
           }
         ],
         "skin": {
