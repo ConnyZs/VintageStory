@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-151316",
+  "generated": "20260724-151517",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2528,12 +2528,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 197.6,
-        "blocksTravelled": 265112,
-        "blocksBroken": 16163,
+        "playtimeHours": 197.7,
+        "blocksTravelled": 265246,
+        "blocksBroken": 16257,
         "blocksPlaced": 5534,
         "deepestY": 23,
-        "lastSeen": 1784898753,
+        "lastSeen": 1784898873,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2707,6 +2707,16 @@
           },
           {
             "slot": "bag-16",
+            "code": "game:flower-lupine-purple-free",
+            "name": "Lupine (Purple)"
+          },
+          {
+            "slot": "bag-17",
+            "code": "game:flower-lupine-white-free",
+            "name": "Lupine (White)"
+          },
+          {
+            "slot": "bag-18",
             "code": "game:flaxtwine",
             "name": "Flax twine"
           }
