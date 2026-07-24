@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-133309",
+  "generated": "20260724-133509",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2527,11 +2527,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 196.0,
-        "blocksTravelled": 255793,
-        "blocksBroken": 15841,
-        "blocksPlaced": 5405,
+        "blocksTravelled": 255876,
+        "blocksBroken": 15879,
+        "blocksPlaced": 5419,
         "deepestY": 23,
-        "lastSeen": 1784892749,
+        "lastSeen": 1784892869,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2687,6 +2687,31 @@
             "slot": "bag-12",
             "code": "game:fruit-redcurrant",
             "name": "Redcurrant"
+          },
+          {
+            "slot": "bag-13",
+            "code": "game:torchholder-aged-empty-north",
+            "name": "Aged torch holder"
+          },
+          {
+            "slot": "bag-14",
+            "code": "game:dirtygravel-wet-cracked",
+            "name": "Wet dirty gravel  (Cracked)"
+          },
+          {
+            "slot": "bag-15",
+            "code": "game:soil-high-none",
+            "name": "Terra preta"
+          },
+          {
+            "slot": "bag-16",
+            "code": "game:dirtygravel-wet-plain",
+            "name": "Wet dirty gravel  (Plain)"
+          },
+          {
+            "slot": "bag-17",
+            "code": "game:soil-low-none",
+            "name": "Low fertility soil"
           }
         ],
         "skin": {
@@ -2747,11 +2772,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 189.7,
-        "blocksTravelled": 167053,
+        "blocksTravelled": 167121,
         "blocksBroken": 8405,
-        "blocksPlaced": 5351,
+        "blocksPlaced": 5352,
         "deepestY": 24,
-        "lastSeen": 1784892749,
+        "lastSeen": 1784892869,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -2832,6 +2857,11 @@
             "slot": "bag-1",
             "code": "game:flint",
             "name": "Flint"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:honeycomb",
+            "name": "Honeycomb"
           },
           {
             "slot": "bag-6",
