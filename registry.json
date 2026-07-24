@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-141712",
+  "generated": "20260724-141913",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2529,11 +2529,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 196.7,
-        "blocksTravelled": 258861,
+        "blocksTravelled": 259617,
         "blocksBroken": 16038,
         "blocksPlaced": 5484,
         "deepestY": 23,
-        "lastSeen": 1784895390,
+        "lastSeen": 1784895533,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2657,7 +2657,7 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 91,
+        "mobKills": 92,
         "mealsEaten": 71,
         "caloriesConsumed": 17371,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
@@ -2689,11 +2689,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 190.4,
-        "blocksTravelled": 169669,
-        "blocksBroken": 8486,
-        "blocksPlaced": 5379,
+        "blocksTravelled": 169720,
+        "blocksBroken": 8492,
+        "blocksPlaced": 5381,
         "deepestY": 24,
-        "lastSeen": 1784895390,
+        "lastSeen": 1784895533,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -2779,11 +2779,6 @@
             "slot": "bag-2",
             "code": "game:clutter",
             "name": "Clay figurine"
-          },
-          {
-            "slot": "bag-3",
-            "code": "game:flaxtwine",
-            "name": "Flax twine"
           },
           {
             "slot": "bag-4",
