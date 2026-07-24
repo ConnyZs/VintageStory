@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-132308",
+  "generated": "20260724-132509",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2526,11 +2526,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 195.8,
-        "blocksTravelled": 254226,
-        "blocksBroken": 15830,
+        "blocksTravelled": 254440,
+        "blocksBroken": 15832,
         "blocksPlaced": 5404,
         "deepestY": 23,
-        "lastSeen": 1784892148,
+        "lastSeen": 1784892268,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2626,6 +2626,21 @@
             "slot": "armorbody",
             "code": "game:armor-body-hide-bear-black",
             "name": "Black bear hide body armor"
+          },
+          {
+            "slot": "bag-1",
+            "code": "game:fruit-pear",
+            "name": "Pear"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:fruit-pear",
+            "name": "Pear"
+          },
+          {
+            "slot": "bag-3",
+            "code": "game:seeds-cabbage",
+            "name": "Cabbage seeds"
           }
         ],
         "skin": {
@@ -2686,11 +2701,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 189.5,
-        "blocksTravelled": 165493,
+        "blocksTravelled": 165592,
         "blocksBroken": 8387,
         "blocksPlaced": 5351,
         "deepestY": 24,
-        "lastSeen": 1784892148,
+        "lastSeen": 1784892268,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
