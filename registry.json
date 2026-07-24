@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-144514",
+  "generated": "20260724-144715",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2529,11 +2529,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 197.2,
-        "blocksTravelled": 262826,
+        "blocksTravelled": 263012,
         "blocksBroken": 16047,
         "blocksPlaced": 5495,
         "deepestY": 23,
-        "lastSeen": 1784897072,
+        "lastSeen": 1784897192,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2631,11 +2631,6 @@
             "name": "Black bear hide body armor"
           },
           {
-            "slot": "bag-1",
-            "code": "game:clothes-foot-rusty-ankle-manacles",
-            "name": "Rusty manacles"
-          },
-          {
             "slot": "bag-2",
             "code": "game:fruitingbushcutting-blueberry-free",
             "name": "Blueberry cutting"
@@ -2656,11 +2651,6 @@
             "name": "Blueberry cutting"
           },
           {
-            "slot": "bag-7",
-            "code": "game:ore-fluorite",
-            "name": "Fluorite"
-          },
-          {
             "slot": "bag-8",
             "code": "game:fruit-pear",
             "name": "Pear"
@@ -2676,49 +2666,29 @@
             "name": "Pear"
           },
           {
-            "slot": "bag-11",
-            "code": "em:powdered-ore-boneash",
-            "name": "Bone ash"
-          },
-          {
             "slot": "bag-12",
             "code": "game:fruit-pear",
             "name": "Pear"
           },
           {
-            "slot": "bag-14",
-            "code": "game:clothes-face-glasses",
-            "name": "Plain glasses"
-          },
-          {
-            "slot": "bag-15",
-            "code": "game:clothes-arm-hornedbracelet",
-            "name": "Horned bracelet"
-          },
-          {
             "slot": "bag-16",
-            "code": "game:ingot-lead",
-            "name": "Lead ingot"
+            "code": "game:barrel",
+            "name": "Barrel"
           },
           {
             "slot": "bag-17",
-            "code": "game:hoe-copper",
-            "name": "Copper hoe"
+            "code": "game:barrel",
+            "name": "Barrel"
           },
           {
             "slot": "bag-18",
-            "code": "game:rot",
-            "name": "Rot"
+            "code": "game:barrel",
+            "name": "Barrel"
           },
           {
             "slot": "bag-19",
             "code": "game:rot",
             "name": "Rot"
-          },
-          {
-            "slot": "bag-20",
-            "code": "game:clothes-arm-rusty-wrist-manacles",
-            "name": "Rusty wrist manacles"
           },
           {
             "slot": "bag-21",
@@ -2732,6 +2702,11 @@
           },
           {
             "slot": "bag-23",
+            "code": "game:rot",
+            "name": "Rot"
+          },
+          {
+            "slot": "bag-24",
             "code": "game:rot",
             "name": "Rot"
           }
