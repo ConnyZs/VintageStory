@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-135711",
+  "generated": "20260724-135911",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2528,11 +2528,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 196.4,
-        "blocksTravelled": 257290,
-        "blocksBroken": 15967,
-        "blocksPlaced": 5460,
+        "blocksTravelled": 257367,
+        "blocksBroken": 16000,
+        "blocksPlaced": 5470,
         "deepestY": 23,
-        "lastSeen": 1784894190,
+        "lastSeen": 1784894326,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2690,6 +2690,26 @@
             "name": "Aged wooden chest"
           },
           {
+            "slot": "bag-13",
+            "code": "game:rot",
+            "name": "Rot"
+          },
+          {
+            "slot": "bag-14",
+            "code": "game:rot",
+            "name": "Rot"
+          },
+          {
+            "slot": "bag-15",
+            "code": "game:rot",
+            "name": "Rot"
+          },
+          {
+            "slot": "bag-16",
+            "code": "game:bone",
+            "name": "Bone"
+          },
+          {
             "slot": "bag-18",
             "code": "game:clothes-face-glasses",
             "name": "Plain glasses"
@@ -2753,11 +2773,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 190.1,
-        "blocksTravelled": 168648,
-        "blocksBroken": 8455,
-        "blocksPlaced": 5367,
+        "blocksTravelled": 168703,
+        "blocksBroken": 8457,
+        "blocksPlaced": 5368,
         "deepestY": 24,
-        "lastSeen": 1784894190,
+        "lastSeen": 1784894326,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -2846,8 +2866,8 @@
           },
           {
             "slot": "bag-3",
-            "code": "falandsknecht:fa-landsknecht-schematic",
-            "name": "Landsknecht wearables (schematic)"
+            "code": "game:clothes-arm-copper-bracelet",
+            "name": "Copper bracelet"
           },
           {
             "slot": "bag-4",
@@ -2863,6 +2883,11 @@
             "slot": "bag-6",
             "code": "game:soil-medium-none",
             "name": "Medium fertility soil"
+          },
+          {
+            "slot": "bag-7",
+            "code": "game:storagevessel-blue-fired",
+            "name": "Earthy brown ceramic storage vessel"
           },
           {
             "slot": "bag-8",
@@ -2916,8 +2941,8 @@
           },
           {
             "slot": "bag-18",
-            "code": "game:clothes-butterflypin-temporal",
-            "name": "Butterfly pin (Temporal)"
+            "code": "game:chest-east",
+            "name": "Aged Owl treasure chest"
           },
           {
             "slot": "bag-19",
@@ -2936,13 +2961,14 @@
           },
           {
             "slot": "bag-22",
-            "code": "game:seashell-sundial-darkpurple",
-            "name": "Sundial (Darkpurple)"
+            "code": "game:flowerpot-black-fired",
+            "name": "Black ceramic flowerpot"
           },
           {
             "slot": "bag-23",
-            "code": "game:displaycase-aged1",
-            "name": "Display case"
+            "code": "game:clothes-hand-surgeon",
+            "name": "Barber surgeon hand wraps",
+            "icon": "character/icons/hand-surgeon.png"
           },
           {
             "slot": "bag-24",
