@@ -845,10 +845,14 @@ function bagRows(detail){
 }
 function equipRows(detail){
   const by={}; (detail||[]).forEach(g=>{ if(g&&g.slot) by[g.slot]=g; });
-  const known=new Set([...EQ_SLOTS.map(s=>s[0]),'backpack','bag-1','bag-2','bag-3','bag-4']);
+  const known=new Set([...EQ_SLOTS.map(s=>s[0]),'backpack']);
+  const isBagSlot=s=>/^bag-\d+$/.test(s||"");
   let rows=EQ_SLOTS.map(([k,l])=>{const it=by[k];
     return `<div class="eqrow${it?"":" empty"}">${itemIco(it,k,!!it)}<span class="eqs">${l}</span><span class="eqi">${it?esc(it.name):"—"}</span></div>`;}).join("");
-  (detail||[]).forEach(g=>{ if(g&&g.slot&&!known.has(g.slot))
+  // bag-N entries (any N) are summarized in the dedicated Backpacks row below, never as
+  // generic fallback rows here — a player with more than 4 bag-type equip points (e.g. via
+  // Quivers and Sheaths) would otherwise leak bag-5+ into this list as clutter.
+  (detail||[]).forEach(g=>{ if(g&&g.slot&&!known.has(g.slot)&&!isBagSlot(g.slot))
     rows+=`<div class="eqrow">${itemIco(g,g.slot,true)}<span class="eqs">${esc(g.slot)}</span><span class="eqi">${esc(g.name||"")}</span></div>`; });
   rows+=bagRows(detail);
   return rows;
