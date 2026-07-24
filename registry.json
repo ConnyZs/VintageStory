@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-124306",
+  "generated": "20260724-124506",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2685,12 +2685,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 188.8,
-        "blocksTravelled": 162969,
+        "playtimeHours": 188.9,
+        "blocksTravelled": 163216,
         "blocksBroken": 8345,
         "blocksPlaced": 5300,
         "deepestY": 24,
-        "lastSeen": 1784889747,
+        "lastSeen": 1784889867,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2762,8 +2762,8 @@
           },
           {
             "slot": "bag-1",
-            "code": "game:drystonefence-peridotite-ew-free",
-            "name": "Peridotite dry stone fence"
+            "code": "game:fruit-blueberry",
+            "name": "Blueberry"
           },
           {
             "slot": "bag-2",
@@ -2772,13 +2772,13 @@
           },
           {
             "slot": "bag-3",
-            "code": "game:woodenpath-oak-ns",
-            "name": "Oak path"
+            "code": "game:fruit-redcurrant",
+            "name": "Redcurrant"
           },
           {
             "slot": "bag-4",
-            "code": "game:stonepath-free",
-            "name": "Stone path"
+            "code": "game:fruit-cranberry",
+            "name": "Cranberry"
           },
           {
             "slot": "bag-5",
@@ -2822,8 +2822,8 @@
           },
           {
             "slot": "bag-13",
-            "code": "game:fruit-redcurrant",
-            "name": "Redcurrant"
+            "code": "game:woodenpath-oak-ns",
+            "name": "Oak path"
           },
           {
             "slot": "bag-14",
@@ -2831,14 +2831,9 @@
             "name": "Wooden fence (Oak)"
           },
           {
-            "slot": "bag-15",
-            "code": "game:stone-peridotite",
-            "name": "Peridotite stone"
-          },
-          {
             "slot": "bag-16",
-            "code": "game:fruit-cranberry",
-            "name": "Cranberry"
+            "code": "game:stonepath-free",
+            "name": "Stone path"
           },
           {
             "slot": "bag-17",
