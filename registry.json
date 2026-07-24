@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-131908",
+  "generated": "20260724-132108",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2525,12 +2525,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 195.7,
-        "blocksTravelled": 253347,
+        "playtimeHours": 195.8,
+        "blocksTravelled": 253819,
         "blocksBroken": 15829,
         "blocksPlaced": 5404,
         "deepestY": 23,
-        "lastSeen": 1784891909,
+        "lastSeen": 1784892028,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2685,12 +2685,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 189.4,
-        "blocksTravelled": 164672,
+        "playtimeHours": 189.5,
+        "blocksTravelled": 165154,
         "blocksBroken": 8385,
         "blocksPlaced": 5351,
         "deepestY": 24,
-        "lastSeen": 1784891909,
+        "lastSeen": 1784892028,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -2766,31 +2766,6 @@
             "code": "game:clothes-upperbodyover-fortuneteller",
             "name": "Fortune teller vest",
             "icon": "character/icons/upperbodyover-fortuneteller.png"
-          },
-          {
-            "slot": "bag-1",
-            "code": "game:fruit-blueberry",
-            "name": "Blueberry"
-          },
-          {
-            "slot": "bag-2",
-            "code": "game:fruit-blackcurrant",
-            "name": "Blackcurrant"
-          },
-          {
-            "slot": "bag-3",
-            "code": "game:fruit-redcurrant",
-            "name": "Redcurrant"
-          },
-          {
-            "slot": "bag-4",
-            "code": "game:fruit-cranberry",
-            "name": "Cranberry"
-          },
-          {
-            "slot": "bag-5",
-            "code": "game:saltpeter",
-            "name": "Saltpeter"
           },
           {
             "slot": "bag-6",
