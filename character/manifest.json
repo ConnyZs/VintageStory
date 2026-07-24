@@ -81,6 +81,8 @@
     "mustache",
     "facialexpression",
     "Raccoon fur trapper hat",
+    "Miner cape",
+    "Miner cape",
     "Linen tunic",
     "Workmans pants",
     "Forlorn Hope shoes",
@@ -92,7 +94,7 @@
     "Fortune teller vest"
    ],
    "frames": 16,
-   "v": 1784890044
+   "v": 1784890165
   },
   "Barberschascher": {
    "class": "miner",

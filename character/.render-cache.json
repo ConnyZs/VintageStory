@@ -52,7 +52,7 @@
   }
  },
  "Moritz": {
-  "hash": "f7d824557c58023dbfccbf3d4bfcaacebd19ed3f",
+  "hash": "6c2b89df1b26e9e25ea45bd3c3d40575e5f451d5",
   "info": {
    "class": "mason",
    "items": [
@@ -60,6 +60,8 @@
     "mustache",
     "facialexpression",
     "Raccoon fur trapper hat",
+    "Miner cape",
+    "Miner cape",
     "Linen tunic",
     "Workmans pants",
     "Forlorn Hope shoes",
@@ -71,7 +73,7 @@
     "Fortune teller vest"
    ],
    "frames": 16,
-   "v": 1784890044
+   "v": 1784890165
   }
  },
  "AddyBuschu": {
