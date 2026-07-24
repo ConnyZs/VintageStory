@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-133709",
+  "generated": "20260724-133910",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2526,12 +2526,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 196.0,
-        "blocksTravelled": 255935,
-        "blocksBroken": 15884,
-        "blocksPlaced": 5419,
+        "playtimeHours": 196.1,
+        "blocksTravelled": 255990,
+        "blocksBroken": 15887,
+        "blocksPlaced": 5420,
         "deepestY": 23,
-        "lastSeen": 1784892989,
+        "lastSeen": 1784893118,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2806,12 +2806,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 189.7,
-        "blocksTravelled": 167174,
-        "blocksBroken": 8407,
+        "playtimeHours": 189.8,
+        "blocksTravelled": 167256,
+        "blocksBroken": 8417,
         "blocksPlaced": 5352,
         "deepestY": 24,
-        "lastSeen": 1784892989,
+        "lastSeen": 1784893118,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -2939,14 +2939,59 @@
             "name": "Ruined sabre"
           },
           {
+            "slot": "bag-11",
+            "code": "game:metal-scraps",
+            "name": "Metal scraps"
+          },
+          {
+            "slot": "bag-12",
+            "code": "game:ore-lignite",
+            "name": "Brown coal"
+          },
+          {
             "slot": "bag-13",
             "code": "game:poultice-reed-horsetail",
             "name": "Horsetail Poultice (from reeds)"
           },
           {
+            "slot": "bag-14",
+            "code": "game:torchholder-brass-empty-north",
+            "name": "Brass torch holder"
+          },
+          {
+            "slot": "bag-15",
+            "code": "game:ore-poor-malachite-limestone",
+            "name": "Poor chunk of Malachite"
+          },
+          {
+            "slot": "bag-16",
+            "code": "game:planks-aged-ud",
+            "name": "Aged oak planks"
+          },
+          {
+            "slot": "bag-17",
+            "code": "game:gear-rusty",
+            "name": "Rusty gear"
+          },
+          {
+            "slot": "bag-18",
+            "code": "game:ingot-copper",
+            "name": "Copper ingot"
+          },
+          {
             "slot": "bag-19",
             "code": "game:hammer-tinbronze",
             "name": "Tin bronze hammer"
+          },
+          {
+            "slot": "bag-20",
+            "code": "game:metal-parts",
+            "name": "Metal parts"
+          },
+          {
+            "slot": "bag-21",
+            "code": "game:flowerpot-black-fired",
+            "name": "Black ceramic flowerpot"
           }
         ],
         "skin": {
