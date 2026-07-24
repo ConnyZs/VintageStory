@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-152517",
+  "generated": "20260724-152717",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2528,12 +2528,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 197.8,
-        "blocksTravelled": 266319,
-        "blocksBroken": 16369,
-        "blocksPlaced": 5576,
+        "playtimeHours": 197.9,
+        "blocksTravelled": 266487,
+        "blocksBroken": 16370,
+        "blocksPlaced": 5600,
         "deepestY": 23,
-        "lastSeen": 1784899473,
+        "lastSeen": 1784899593,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2632,35 +2632,8 @@
           },
           {
             "slot": "bag-1",
-            "code": "game:gear-rusty",
-            "name": "Rusty gear"
-          },
-          {
-            "slot": "bag-2",
-            "code": "game:torchholder-aged-empty-north",
-            "name": "Aged torch holder"
-          },
-          {
-            "slot": "bag-3",
-            "code": "game:clothes-upperbody-great-steppe-shirt",
-            "name": "Great Steppe shirt",
-            "icon": "character/icons/upperbody-great-steppe-shirt.png"
-          },
-          {
-            "slot": "bag-4",
-            "code": "game:metal-scraps",
-            "name": "Metal scraps"
-          },
-          {
-            "slot": "bag-5",
-            "code": "game:metal-parts",
-            "name": "Metal parts"
-          },
-          {
-            "slot": "bag-6",
-            "code": "game:clothes-shoulder-rotwalker",
-            "name": "Rotwalker cape",
-            "icon": "character/icons/shoulder-rotwalker.png"
+            "code": "game:seeds-rye",
+            "name": "Rye seeds"
           },
           {
             "slot": "bag-7",
@@ -2683,11 +2656,6 @@
             "name": "Bone"
           },
           {
-            "slot": "bag-11",
-            "code": "game:clothes-neck-japamala",
-            "name": "Japamala"
-          },
-          {
             "slot": "bag-12",
             "code": "game:rope",
             "name": "Coil of rope"
@@ -2708,11 +2676,6 @@
             "name": "Spider web"
           },
           {
-            "slot": "bag-16",
-            "code": "game:metal-scraps",
-            "name": "Metal scraps"
-          },
-          {
             "slot": "bag-17",
             "code": "game:stick",
             "name": "Stick"
@@ -2721,16 +2684,6 @@
             "slot": "bag-18",
             "code": "game:ore-sulfur",
             "name": "Sulfur chunk"
-          },
-          {
-            "slot": "bag-19",
-            "code": "game:seeds-rye",
-            "name": "Rye seeds"
-          },
-          {
-            "slot": "bag-20",
-            "code": "game:chest-east",
-            "name": "Aged wooden chest"
           }
         ],
         "skin": {
