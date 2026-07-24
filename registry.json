@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-150716",
+  "generated": "20260724-150916",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2458,7 +2458,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 320,
+        "mobKills": 328,
         "mealsEaten": 320,
         "caloriesConsumed": 35712,
         "lastMeal": "Redcurrant",
@@ -2528,12 +2528,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 197.5,
-        "blocksTravelled": 264643,
-        "blocksBroken": 16057,
-        "blocksPlaced": 5516,
+        "playtimeHours": 197.6,
+        "blocksTravelled": 264770,
+        "blocksBroken": 16088,
+        "blocksPlaced": 5524,
         "deepestY": 23,
-        "lastSeen": 1784898392,
+        "lastSeen": 1784898554,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2634,6 +2634,46 @@
             "slot": "bag-1",
             "code": "game:gear-rusty",
             "name": "Rusty gear"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:clothes-neck-bronze-gem-necklace",
+            "name": "Bronze gem necklace"
+          },
+          {
+            "slot": "bag-3",
+            "code": "game:lore-scroll",
+            "name": "Scroll"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:metal-scraps",
+            "name": "Metal scraps"
+          },
+          {
+            "slot": "bag-5",
+            "code": "game:metal-parts",
+            "name": "Metal parts"
+          },
+          {
+            "slot": "bag-6",
+            "code": "game:painting-elk-north",
+            "name": "Painting (Elk)"
+          },
+          {
+            "slot": "bag-7",
+            "code": "game:stone-andesite",
+            "name": "Andesite stone"
+          },
+          {
+            "slot": "bag-8",
+            "code": "game:vegetable-fennel",
+            "name": "Fennel"
+          },
+          {
+            "slot": "bag-9",
+            "code": "game:seeds-fennel",
+            "name": "Fennel seeds"
           }
         ],
         "skin": {
