@@ -3,8 +3,8 @@
   "full_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset-full.zip",
   "server_count": 113,
   "full_count": 118,
-  "server_size": 167983395,
-  "full_size": 168977489,
+  "server_size": 166360565,
+  "full_size": 167354659,
   "client_only": [
     "Extra Info",
     "Improved Handbook Recipes (Fork)",
@@ -12,5 +12,5 @@
     "Status HUD",
     "StepUp Advanced"
   ],
-  "generated": "20260719-165746"
+  "generated": "20260724-204000"
 }
