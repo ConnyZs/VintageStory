@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-133109",
+  "generated": "20260724-133309",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2526,12 +2526,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 195.9,
-        "blocksTravelled": 255530,
-        "blocksBroken": 15835,
+        "playtimeHours": 196.0,
+        "blocksTravelled": 255793,
+        "blocksBroken": 15841,
         "blocksPlaced": 5405,
         "deepestY": 23,
-        "lastSeen": 1784892629,
+        "lastSeen": 1784892749,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2662,6 +2662,31 @@
             "slot": "bag-7",
             "code": "game:fruitingbushcutting-blueberry-free",
             "name": "Blueberry cutting"
+          },
+          {
+            "slot": "bag-8",
+            "code": "game:vegetable-onion",
+            "name": "Onion"
+          },
+          {
+            "slot": "bag-9",
+            "code": "game:seeds-carrot",
+            "name": "Carrot seeds"
+          },
+          {
+            "slot": "bag-10",
+            "code": "game:fruitingbushcutting-blueberry-free",
+            "name": "Blueberry cutting"
+          },
+          {
+            "slot": "bag-11",
+            "code": "game:seeds-onion",
+            "name": "Onion seeds"
+          },
+          {
+            "slot": "bag-12",
+            "code": "game:fruit-redcurrant",
+            "name": "Redcurrant"
           }
         ],
         "skin": {
@@ -2721,12 +2746,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 189.6,
-        "blocksTravelled": 166784,
-        "blocksBroken": 8400,
+        "playtimeHours": 189.7,
+        "blocksTravelled": 167053,
+        "blocksBroken": 8405,
         "blocksPlaced": 5351,
         "deepestY": 24,
-        "lastSeen": 1784892629,
+        "lastSeen": 1784892749,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -2802,6 +2827,11 @@
             "code": "game:clothes-upperbodyover-fortuneteller",
             "name": "Fortune teller vest",
             "icon": "character/icons/upperbodyover-fortuneteller.png"
+          },
+          {
+            "slot": "bag-1",
+            "code": "game:flint",
+            "name": "Flint"
           },
           {
             "slot": "bag-6",
