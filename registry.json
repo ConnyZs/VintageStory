@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-144314",
+  "generated": "20260724-144514",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2528,12 +2528,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 197.1,
-        "blocksTravelled": 262689,
+        "playtimeHours": 197.2,
+        "blocksTravelled": 262826,
         "blocksBroken": 16047,
-        "blocksPlaced": 5492,
+        "blocksPlaced": 5495,
         "deepestY": 23,
-        "lastSeen": 1784896952,
+        "lastSeen": 1784897072,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2641,11 +2641,6 @@
             "name": "Blueberry cutting"
           },
           {
-            "slot": "bag-3",
-            "code": "game:seeds-cabbage",
-            "name": "Cabbage seeds"
-          },
-          {
             "slot": "bag-4",
             "code": "game:fruitingbushcutting-blueberry-free",
             "name": "Blueberry cutting"
@@ -2682,8 +2677,8 @@
           },
           {
             "slot": "bag-11",
-            "code": "game:soil-high-none",
-            "name": "Terra preta"
+            "code": "em:powdered-ore-boneash",
+            "name": "Bone ash"
           },
           {
             "slot": "bag-12",
