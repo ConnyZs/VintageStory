@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-143514",
+  "generated": "20260724-143714",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2529,11 +2529,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 197.0,
-        "blocksTravelled": 262206,
+        "blocksTravelled": 262507,
         "blocksBroken": 16047,
-        "blocksPlaced": 5487,
+        "blocksPlaced": 5489,
         "deepestY": 23,
-        "lastSeen": 1784896471,
+        "lastSeen": 1784896591,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2776,11 +2776,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 190.7,
-        "blocksTravelled": 172271,
+        "blocksTravelled": 172336,
         "blocksBroken": 8513,
         "blocksPlaced": 5383,
         "deepestY": 24,
-        "lastSeen": 1784896471,
+        "lastSeen": 1784896591,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -2931,8 +2931,8 @@
           },
           {
             "slot": "bag-16",
-            "code": "game:jonasparts-cylinder02",
-            "name": "Jonas part (Temporal alignment node)"
+            "code": "game:jonasparts-connector01",
+            "name": "Jonas part (Flux gap connector)"
           },
           {
             "slot": "bag-17",
