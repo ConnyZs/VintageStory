@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-143914",
+  "generated": "20260724-144114",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2529,11 +2529,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 197.1,
-        "blocksTravelled": 262634,
+        "blocksTravelled": 262653,
         "blocksBroken": 16047,
         "blocksPlaced": 5489,
         "deepestY": 23,
-        "lastSeen": 1784896742,
+        "lastSeen": 1784896832,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2632,9 +2632,8 @@
           },
           {
             "slot": "bag-1",
-            "code": "game:clothes-upperbody-peasent-shirt",
-            "name": "Peasant shirt",
-            "icon": "character/icons/upperbody-peasent-shirt.png"
+            "code": "game:clothes-foot-rusty-ankle-manacles",
+            "name": "Rusty manacles"
           },
           {
             "slot": "bag-2",
@@ -2677,19 +2676,9 @@
             "name": "Pear"
           },
           {
-            "slot": "bag-10",
-            "code": "game:crate",
-            "name": "Aged crate (closed)"
-          },
-          {
             "slot": "bag-11",
             "code": "game:soil-high-none",
             "name": "Terra preta"
-          },
-          {
-            "slot": "bag-12",
-            "code": "game:clothes-face-glasses",
-            "name": "Plain glasses"
           },
           {
             "slot": "bag-13",
@@ -2698,9 +2687,8 @@
           },
           {
             "slot": "bag-14",
-            "code": "game:clothes-upperbody-lackey-shirt",
-            "name": "Lackey shirt",
-            "icon": "character/icons/upperbody-lackey-shirt.png"
+            "code": "game:clothes-face-glasses",
+            "name": "Plain glasses"
           },
           {
             "slot": "bag-15",
@@ -2716,12 +2704,6 @@
             "slot": "bag-17",
             "code": "game:hoe-copper",
             "name": "Copper hoe"
-          },
-          {
-            "slot": "bag-18",
-            "code": "game:clothes-shoulder-owlponcho",
-            "name": "Owl poncho",
-            "icon": "character/icons/shoulder-owlponcho.png"
           },
           {
             "slot": "bag-20",
@@ -2787,11 +2769,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 190.8,
-        "blocksTravelled": 172405,
+        "blocksTravelled": 172419,
         "blocksBroken": 8513,
         "blocksPlaced": 5383,
         "deepestY": 24,
-        "lastSeen": 1784896742,
+        "lastSeen": 1784896756,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
