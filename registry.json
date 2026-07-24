@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-144715",
+  "generated": "20260724-144915",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2529,11 +2529,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 197.2,
-        "blocksTravelled": 263012,
-        "blocksBroken": 16047,
-        "blocksPlaced": 5495,
+        "blocksTravelled": 263281,
+        "blocksBroken": 16052,
+        "blocksPlaced": 5516,
         "deepestY": 23,
-        "lastSeen": 1784897192,
+        "lastSeen": 1784897346,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2651,47 +2651,7 @@
             "name": "Blueberry cutting"
           },
           {
-            "slot": "bag-8",
-            "code": "game:fruit-pear",
-            "name": "Pear"
-          },
-          {
-            "slot": "bag-9",
-            "code": "game:fruit-pear",
-            "name": "Pear"
-          },
-          {
-            "slot": "bag-10",
-            "code": "game:fruit-pear",
-            "name": "Pear"
-          },
-          {
-            "slot": "bag-12",
-            "code": "game:fruit-pear",
-            "name": "Pear"
-          },
-          {
-            "slot": "bag-16",
-            "code": "game:barrel",
-            "name": "Barrel"
-          },
-          {
-            "slot": "bag-17",
-            "code": "game:barrel",
-            "name": "Barrel"
-          },
-          {
-            "slot": "bag-18",
-            "code": "game:barrel",
-            "name": "Barrel"
-          },
-          {
             "slot": "bag-19",
-            "code": "game:rot",
-            "name": "Rot"
-          },
-          {
-            "slot": "bag-21",
             "code": "game:rot",
             "name": "Rot"
           },
