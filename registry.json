@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-125707",
+  "generated": "20260724-125907",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2686,11 +2686,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 189.1,
-        "blocksTravelled": 163560,
-        "blocksBroken": 8350,
+        "blocksTravelled": 163623,
+        "blocksBroken": 8354,
         "blocksPlaced": 5310,
         "deepestY": 24,
-        "lastSeen": 1784890587,
+        "lastSeen": 1784890707,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -2791,6 +2791,21 @@
             "slot": "bag-5",
             "code": "game:saltpeter",
             "name": "Saltpeter"
+          },
+          {
+            "slot": "bag-6",
+            "code": "game:sand-andesite",
+            "name": "Andesite sand"
+          },
+          {
+            "slot": "bag-7",
+            "code": "game:sand-andesite",
+            "name": "Andesite sand"
+          },
+          {
+            "slot": "bag-8",
+            "code": "game:soil-low-none",
+            "name": "Low fertility soil"
           },
           {
             "slot": "bag-17",
