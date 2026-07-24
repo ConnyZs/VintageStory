@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-133509",
+  "generated": "20260724-133709",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2527,11 +2527,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 196.0,
-        "blocksTravelled": 255876,
-        "blocksBroken": 15879,
+        "blocksTravelled": 255935,
+        "blocksBroken": 15884,
         "blocksPlaced": 5419,
         "deepestY": 23,
-        "lastSeen": 1784892869,
+        "lastSeen": 1784892989,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2710,8 +2710,43 @@
           },
           {
             "slot": "bag-17",
-            "code": "game:soil-low-none",
-            "name": "Low fertility soil"
+            "code": "game:rot",
+            "name": "Rot"
+          },
+          {
+            "slot": "bag-18",
+            "code": "betterruins:br-schematic-chest",
+            "name": "Treasure Guardian's Blueprint"
+          },
+          {
+            "slot": "bag-19",
+            "code": "game:rot",
+            "name": "Rot"
+          },
+          {
+            "slot": "bag-20",
+            "code": "game:seeds-turnip",
+            "name": "Turnip seeds"
+          },
+          {
+            "slot": "bag-21",
+            "code": "game:seeds-rye",
+            "name": "Rye seeds"
+          },
+          {
+            "slot": "bag-22",
+            "code": "game:rot",
+            "name": "Rot"
+          },
+          {
+            "slot": "bag-23",
+            "code": "game:chest-east",
+            "name": "Aged wooden chest"
+          },
+          {
+            "slot": "bag-24",
+            "code": "game:crate",
+            "name": "Aged crate (closed)"
           }
         ],
         "skin": {
@@ -2740,7 +2775,7 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 82,
+        "mobKills": 83,
         "mealsEaten": 71,
         "caloriesConsumed": 17371,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
@@ -2772,11 +2807,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 189.7,
-        "blocksTravelled": 167121,
-        "blocksBroken": 8405,
+        "blocksTravelled": 167174,
+        "blocksBroken": 8407,
         "blocksPlaced": 5352,
         "deepestY": 24,
-        "lastSeen": 1784892869,
+        "lastSeen": 1784892989,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -2864,9 +2899,44 @@
             "name": "Honeycomb"
           },
           {
+            "slot": "bag-3",
+            "code": "game:seeds-sunflower",
+            "name": "Sunflower seeds"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:ore-borax",
+            "name": "Borax"
+          },
+          {
+            "slot": "bag-5",
+            "code": "game:armorstand-aged",
+            "name": "Armor stand (aged)"
+          },
+          {
             "slot": "bag-6",
             "code": "game:soil-medium-none",
             "name": "Medium fertility soil"
+          },
+          {
+            "slot": "bag-7",
+            "code": "game:armorstand-aged",
+            "name": "Armor stand (aged)"
+          },
+          {
+            "slot": "bag-8",
+            "code": "game:storagevessel-blue-fired",
+            "name": "Earthy brown ceramic storage vessel"
+          },
+          {
+            "slot": "bag-9",
+            "code": "game:blade-sabre-ruined",
+            "name": "Ruined sabre"
+          },
+          {
+            "slot": "bag-10",
+            "code": "game:blade-sabre-ruined",
+            "name": "Ruined sabre"
           },
           {
             "slot": "bag-13",
