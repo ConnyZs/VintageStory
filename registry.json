@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-123105",
+  "generated": "20260724-123305",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2685,12 +2685,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 188.6,
-        "blocksTravelled": 161018,
-        "blocksBroken": 8341,
+        "playtimeHours": 188.7,
+        "blocksTravelled": 161442,
+        "blocksBroken": 8343,
         "blocksPlaced": 5289,
         "deepestY": 24,
-        "lastSeen": 1784889026,
+        "lastSeen": 1784889146,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2841,9 +2841,9 @@
             "name": "Cranberry"
           },
           {
-            "slot": "bag-17",
-            "code": "game:lantern-large-up",
-            "name": "Large molybdochalkos lantern"
+            "slot": "bag-20",
+            "code": "game:hammer-tinbronze",
+            "name": "Tin bronze hammer"
           }
         ],
         "skin": {
