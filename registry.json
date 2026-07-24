@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-151717",
+  "generated": "20260724-151917",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2529,11 +2529,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 197.7,
-        "blocksTravelled": 265440,
-        "blocksBroken": 16306,
-        "blocksPlaced": 5548,
+        "blocksTravelled": 265482,
+        "blocksBroken": 16317,
+        "blocksPlaced": 5552,
         "deepestY": 23,
-        "lastSeen": 1784898993,
+        "lastSeen": 1784899113,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2637,13 +2637,14 @@
           },
           {
             "slot": "bag-2",
-            "code": "game:clothes-neck-bronze-gem-necklace",
-            "name": "Bronze gem necklace"
+            "code": "game:torchholder-aged-empty-north",
+            "name": "Aged torch holder"
           },
           {
             "slot": "bag-3",
-            "code": "game:lore-scroll",
-            "name": "Scroll"
+            "code": "game:clothes-upperbody-great-steppe-shirt",
+            "name": "Great Steppe shirt",
+            "icon": "character/icons/upperbody-great-steppe-shirt.png"
           },
           {
             "slot": "bag-4",
@@ -2654,11 +2655,6 @@
             "slot": "bag-5",
             "code": "game:metal-parts",
             "name": "Metal parts"
-          },
-          {
-            "slot": "bag-6",
-            "code": "game:painting-elk-north",
-            "name": "Painting (Elk)"
           },
           {
             "slot": "bag-7",
@@ -2681,46 +2677,6 @@
             "name": "Bone"
           },
           {
-            "slot": "bag-11",
-            "code": "game:bed-woodaged-head-north",
-            "name": "Aged wooden bed"
-          },
-          {
-            "slot": "bag-12",
-            "code": "game:agedwallpaperplanks-green-east",
-            "name": "Green Wallpaper (On aged planks)"
-          },
-          {
-            "slot": "bag-13",
-            "code": "game:painting-forestdawn-north",
-            "name": "Painting (Forest Dawn)"
-          },
-          {
-            "slot": "bag-14",
-            "code": "game:agedwallpaperplanks-green-east",
-            "name": "Green Wallpaper (On aged planks)"
-          },
-          {
-            "slot": "bag-15",
-            "code": "game:flower-lupine-blue-free",
-            "name": "Lupine (Blue)"
-          },
-          {
-            "slot": "bag-16",
-            "code": "game:flower-lupine-purple-free",
-            "name": "Lupine (Purple)"
-          },
-          {
-            "slot": "bag-17",
-            "code": "game:flower-lupine-white-free",
-            "name": "Lupine (White)"
-          },
-          {
-            "slot": "bag-18",
-            "code": "game:flower-lupine-orange-free",
-            "name": "Lupine (Orange)"
-          },
-          {
             "slot": "bag-19",
             "code": "game:flaxtwine",
             "name": "Flax twine"
@@ -2729,6 +2685,26 @@
             "slot": "bag-20",
             "code": "game:spiderweb",
             "name": "Spider web"
+          },
+          {
+            "slot": "bag-21",
+            "code": "game:metal-scraps",
+            "name": "Metal scraps"
+          },
+          {
+            "slot": "bag-22",
+            "code": "game:stick",
+            "name": "Stick"
+          },
+          {
+            "slot": "bag-23",
+            "code": "game:ore-sulfur",
+            "name": "Sulfur chunk"
+          },
+          {
+            "slot": "bag-24",
+            "code": "game:seeds-rye",
+            "name": "Rye seeds"
           }
         ],
         "skin": {
