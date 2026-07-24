@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-143113",
+  "generated": "20260724-143314",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2528,12 +2528,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 196.9,
-        "blocksTravelled": 261618,
+        "playtimeHours": 197.0,
+        "blocksTravelled": 262074,
         "blocksBroken": 16047,
         "blocksPlaced": 5485,
         "deepestY": 23,
-        "lastSeen": 1784896231,
+        "lastSeen": 1784896351,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2811,12 +2811,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 190.6,
-        "blocksTravelled": 171500,
+        "playtimeHours": 190.7,
+        "blocksTravelled": 171975,
         "blocksBroken": 8513,
         "blocksPlaced": 5381,
         "deepestY": 24,
-        "lastSeen": 1784896231,
+        "lastSeen": 1784896351,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
