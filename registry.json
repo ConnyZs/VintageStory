@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-142113",
+  "generated": "20260724-142313",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2529,11 +2529,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 196.8,
-        "blocksTravelled": 259948,
-        "blocksBroken": 16039,
+        "blocksTravelled": 260008,
+        "blocksBroken": 16045,
         "blocksPlaced": 5484,
         "deepestY": 23,
-        "lastSeen": 1784895631,
+        "lastSeen": 1784895751,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2812,11 +2812,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 190.5,
-        "blocksTravelled": 169811,
-        "blocksBroken": 8492,
+        "blocksTravelled": 169902,
+        "blocksBroken": 8494,
         "blocksPlaced": 5381,
         "deepestY": 24,
-        "lastSeen": 1784895631,
+        "lastSeen": 1784895751,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -2826,6 +2826,7 @@
           "Scribe gloves",
           "Gold gear amulet",
           "Messenger pin",
+          "Plain glasses",
           "Sturdy belt",
           "Large silver bracelets",
           "Fortune teller vest"
@@ -2877,6 +2878,11 @@
             "name": "Messenger pin"
           },
           {
+            "slot": "face",
+            "code": "game:clothes-face-glasses",
+            "name": "Plain glasses"
+          },
+          {
             "slot": "waist",
             "code": "game:clothes-waist-sturdy-belt",
             "name": "Sturdy belt",
@@ -2904,14 +2910,9 @@
             "name": "Clay figurine"
           },
           {
-            "slot": "bag-3",
-            "code": "game:torchholder-aged-empty-north",
-            "name": "Aged torch holder"
-          },
-          {
             "slot": "bag-4",
-            "code": "game:ore-borax",
-            "name": "Borax"
+            "code": "game:ore-lignite",
+            "name": "Brown coal"
           },
           {
             "slot": "bag-5",
