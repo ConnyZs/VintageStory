@@ -61,7 +61,6 @@
     "Rotwalker cape",
     "Tattered crimson tunic",
     "Nomad trousers",
-    "Wool lined knee-high boots",
     "Survivor gloves",
     "Rotten king collar",
     "Prince emblem",
@@ -72,7 +71,7 @@
     "Rotwalker coat"
    ],
    "frames": 16,
-   "v": 1784893050
+   "v": 1784893289
   },
   "Moritz": {
    "class": "mason",
@@ -94,7 +93,7 @@
     "Fortune teller vest"
    ],
    "frames": 16,
-   "v": 1784893168
+   "v": 1784893307
   },
   "Barberschascher": {
    "class": "miner",

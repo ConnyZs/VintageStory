@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-133910",
+  "generated": "20260724-134110",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2459,9 +2459,9 @@
         "class": "homesteader",
         "deaths": 23,
         "mobKills": 300,
-        "mealsEaten": 306,
-        "caloriesConsumed": 34512,
-        "lastMeal": "Shiitake",
+        "mealsEaten": 310,
+        "caloriesConsumed": 34912,
+        "lastMeal": "Onion",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2509,12 +2509,13 @@
           "Strawberry": 11,
           "Rye grain": 11,
           "Parsnip": 10,
-          "Shiitake": 1
+          "Shiitake": 1,
+          "Onion": 4
         },
         "foodCatCounts": {
           "Grain": 59,
           "Protein": 22,
-          "Vegetable": 88,
+          "Vegetable": 92,
           "Fruit": 166,
           "Dairy": 10
         },
@@ -2527,17 +2528,16 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 196.1,
-        "blocksTravelled": 255990,
-        "blocksBroken": 15887,
+        "blocksTravelled": 256033,
+        "blocksBroken": 15895,
         "blocksPlaced": 5420,
         "deepestY": 23,
-        "lastSeen": 1784893118,
+        "lastSeen": 1784893229,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
           "Tattered crimson tunic",
           "Nomad trousers",
-          "Wool lined knee-high boots",
           "Survivor gloves",
           "Rotten king collar",
           "Prince emblem",
@@ -2571,12 +2571,6 @@
             "code": "game:clothes-lowerbody-nomad-trousers",
             "name": "Nomad trousers",
             "icon": "character/icons/lowerbody-nomad-trousers.png"
-          },
-          {
-            "slot": "foot",
-            "code": "game:clothes-foot-wool-lined-knee-high-boots",
-            "name": "Wool lined knee-high boots",
-            "icon": "character/icons/foot-wool-lined-knee-high-boots.png"
           },
           {
             "slot": "hand",
@@ -2695,18 +2689,18 @@
           },
           {
             "slot": "bag-14",
-            "code": "game:dirtygravel-wet-cracked",
-            "name": "Wet dirty gravel  (Cracked)"
+            "code": "game:lore-scroll",
+            "name": "Scroll"
           },
           {
             "slot": "bag-15",
-            "code": "game:soil-high-none",
-            "name": "Terra preta"
+            "code": "game:chest-east",
+            "name": "Aged Owl treasure chest"
           },
           {
             "slot": "bag-16",
-            "code": "game:dirtygravel-wet-plain",
-            "name": "Wet dirty gravel  (Plain)"
+            "code": "game:gear-rusty",
+            "name": "Rusty gear"
           },
           {
             "slot": "bag-17",
@@ -2807,11 +2801,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 189.8,
-        "blocksTravelled": 167256,
-        "blocksBroken": 8417,
-        "blocksPlaced": 5352,
+        "blocksTravelled": 167315,
+        "blocksBroken": 8430,
+        "blocksPlaced": 5355,
         "deepestY": 24,
-        "lastSeen": 1784893118,
+        "lastSeen": 1784893229,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -2899,19 +2893,14 @@
             "name": "Honeycomb"
           },
           {
-            "slot": "bag-3",
-            "code": "game:seeds-sunflower",
-            "name": "Sunflower seeds"
-          },
-          {
             "slot": "bag-4",
             "code": "game:ore-borax",
             "name": "Borax"
           },
           {
             "slot": "bag-5",
-            "code": "game:armorstand-aged",
-            "name": "Armor stand (aged)"
+            "code": "game:metal-parts",
+            "name": "Metal parts"
           },
           {
             "slot": "bag-6",
@@ -2920,28 +2909,28 @@
           },
           {
             "slot": "bag-7",
-            "code": "game:armorstand-aged",
-            "name": "Armor stand (aged)"
+            "code": "game:stick",
+            "name": "Stick"
           },
           {
             "slot": "bag-8",
-            "code": "game:storagevessel-blue-fired",
-            "name": "Earthy brown ceramic storage vessel"
+            "code": "game:powder-iron-oxide",
+            "name": "Powdered iron oxide"
           },
           {
             "slot": "bag-9",
-            "code": "game:blade-sabre-ruined",
-            "name": "Ruined sabre"
+            "code": "game:gear-rusty",
+            "name": "Rusty gear"
           },
           {
             "slot": "bag-10",
-            "code": "game:blade-sabre-ruined",
-            "name": "Ruined sabre"
+            "code": "game:metal-scraps",
+            "name": "Metal scraps"
           },
           {
             "slot": "bag-11",
-            "code": "game:metal-scraps",
-            "name": "Metal scraps"
+            "code": "game:torchholder-brass-empty-north",
+            "name": "Brass torch holder"
           },
           {
             "slot": "bag-12",
@@ -2954,44 +2943,9 @@
             "name": "Horsetail Poultice (from reeds)"
           },
           {
-            "slot": "bag-14",
-            "code": "game:torchholder-brass-empty-north",
-            "name": "Brass torch holder"
-          },
-          {
-            "slot": "bag-15",
-            "code": "game:ore-poor-malachite-limestone",
-            "name": "Poor chunk of Malachite"
-          },
-          {
-            "slot": "bag-16",
-            "code": "game:planks-aged-ud",
-            "name": "Aged oak planks"
-          },
-          {
-            "slot": "bag-17",
-            "code": "game:gear-rusty",
-            "name": "Rusty gear"
-          },
-          {
-            "slot": "bag-18",
-            "code": "game:ingot-copper",
-            "name": "Copper ingot"
-          },
-          {
             "slot": "bag-19",
             "code": "game:hammer-tinbronze",
             "name": "Tin bronze hammer"
-          },
-          {
-            "slot": "bag-20",
-            "code": "game:metal-parts",
-            "name": "Metal parts"
-          },
-          {
-            "slot": "bag-21",
-            "code": "game:flowerpot-black-fired",
-            "name": "Black ceramic flowerpot"
           }
         ],
         "skin": {
