@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-151917",
+  "generated": "20260724-152117",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2528,12 +2528,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 197.7,
-        "blocksTravelled": 265482,
-        "blocksBroken": 16317,
-        "blocksPlaced": 5552,
+        "playtimeHours": 197.8,
+        "blocksTravelled": 265663,
+        "blocksBroken": 16330,
+        "blocksPlaced": 5576,
         "deepestY": 23,
-        "lastSeen": 1784899113,
+        "lastSeen": 1784899233,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2657,6 +2657,12 @@
             "name": "Metal parts"
           },
           {
+            "slot": "bag-6",
+            "code": "game:clothes-shoulder-rotwalker",
+            "name": "Rotwalker cape",
+            "icon": "character/icons/shoulder-rotwalker.png"
+          },
+          {
             "slot": "bag-7",
             "code": "game:stone-andesite",
             "name": "Andesite stone"
@@ -2677,34 +2683,54 @@
             "name": "Bone"
           },
           {
-            "slot": "bag-19",
+            "slot": "bag-11",
+            "code": "game:clothes-neck-japamala",
+            "name": "Japamala"
+          },
+          {
+            "slot": "bag-12",
+            "code": "game:rope",
+            "name": "Coil of rope"
+          },
+          {
+            "slot": "bag-13",
+            "code": "game:ore-lignite",
+            "name": "Brown coal"
+          },
+          {
+            "slot": "bag-14",
             "code": "game:flaxtwine",
             "name": "Flax twine"
           },
           {
-            "slot": "bag-20",
+            "slot": "bag-15",
             "code": "game:spiderweb",
             "name": "Spider web"
           },
           {
-            "slot": "bag-21",
+            "slot": "bag-16",
             "code": "game:metal-scraps",
             "name": "Metal scraps"
           },
           {
-            "slot": "bag-22",
+            "slot": "bag-17",
             "code": "game:stick",
             "name": "Stick"
           },
           {
-            "slot": "bag-23",
+            "slot": "bag-18",
             "code": "game:ore-sulfur",
             "name": "Sulfur chunk"
           },
           {
-            "slot": "bag-24",
+            "slot": "bag-19",
             "code": "game:seeds-rye",
             "name": "Rye seeds"
+          },
+          {
+            "slot": "bag-20",
+            "code": "game:chest-east",
+            "name": "Aged wooden chest"
           }
         ],
         "skin": {
