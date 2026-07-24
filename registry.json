@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-135110",
+  "generated": "20260724-135311",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2528,11 +2528,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 196.3,
-        "blocksTravelled": 256486,
-        "blocksBroken": 15922,
-        "blocksPlaced": 5435,
+        "blocksTravelled": 256698,
+        "blocksBroken": 15949,
+        "blocksPlaced": 5458,
         "deepestY": 23,
-        "lastSeen": 1784893829,
+        "lastSeen": 1784893949,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2660,6 +2660,11 @@
             "name": "Blueberry cutting"
           },
           {
+            "slot": "bag-9",
+            "code": "game:fruit-pear",
+            "name": "Pear"
+          },
+          {
             "slot": "bag-10",
             "code": "game:fruit-redcurrant",
             "name": "Redcurrant"
@@ -2738,11 +2743,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 190.0,
-        "blocksTravelled": 167798,
+        "blocksTravelled": 168091,
         "blocksBroken": 8451,
         "blocksPlaced": 5366,
         "deepestY": 24,
-        "lastSeen": 1784893829,
+        "lastSeen": 1784893949,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
