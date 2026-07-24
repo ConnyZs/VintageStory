@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-140912",
+  "generated": "20260724-141112",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2528,11 +2528,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 196.6,
-        "blocksTravelled": 257825,
-        "blocksBroken": 16028,
-        "blocksPlaced": 5471,
+        "blocksTravelled": 257897,
+        "blocksBroken": 16030,
+        "blocksPlaced": 5481,
         "deepestY": 23,
-        "lastSeen": 1784894930,
+        "lastSeen": 1784895030,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2719,8 +2719,8 @@
           },
           {
             "slot": "bag-18",
-            "code": "game:stone-andesite",
-            "name": "Andesite stone"
+            "code": "falandsknecht:fa-landsknecht-schematic",
+            "name": "Landsknecht wearables (schematic)"
           },
           {
             "slot": "bag-19",
@@ -2734,13 +2734,18 @@
           },
           {
             "slot": "bag-21",
-            "code": "game:stone-andesite",
-            "name": "Andesite stone"
+            "code": "betterruins:br-schematic-carpenter",
+            "name": "Carpenter's Blueprint"
           },
           {
             "slot": "bag-22",
             "code": "game:flaxtwine",
             "name": "Flax twine"
+          },
+          {
+            "slot": "bag-23",
+            "code": "game:paper-parchment",
+            "name": "Parchment"
           },
           {
             "slot": "bag-24",
@@ -2806,11 +2811,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 190.3,
-        "blocksTravelled": 169147,
-        "blocksBroken": 8480,
-        "blocksPlaced": 5370,
+        "blocksTravelled": 169253,
+        "blocksBroken": 8481,
+        "blocksPlaced": 5371,
         "deepestY": 24,
-        "lastSeen": 1784894930,
+        "lastSeen": 1784895030,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
