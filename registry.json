@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-123905",
+  "generated": "20260724-124105",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2686,11 +2686,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 188.8,
-        "blocksTravelled": 162247,
+        "blocksTravelled": 162296,
         "blocksBroken": 8345,
         "blocksPlaced": 5300,
         "deepestY": 24,
-        "lastSeen": 1784889507,
+        "lastSeen": 1784889627,
         "gear": [
           "Raccoon fur trapper hat",
           "Linen tunic",
@@ -2865,6 +2865,21 @@
             "slot": "bag-21",
             "code": "game:cobblestone-peridotite",
             "name": "Peridotite cobblestone"
+          },
+          {
+            "slot": "bag-22",
+            "code": "game:seeds-pineapple",
+            "name": "Pineapple seeds"
+          },
+          {
+            "slot": "bag-23",
+            "code": "game:seeds-carrot",
+            "name": "Carrot seeds"
+          },
+          {
+            "slot": "bag-24",
+            "code": "game:seeds-turnip",
+            "name": "Turnip seeds"
           }
         ],
         "skin": {
