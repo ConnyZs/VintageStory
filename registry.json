@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-135311",
+  "generated": "20260724-135511",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2458,7 +2458,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 23,
-        "mobKills": 300,
+        "mobKills": 301,
         "mealsEaten": 310,
         "caloriesConsumed": 34912,
         "lastMeal": "Onion",
@@ -2528,11 +2528,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 196.3,
-        "blocksTravelled": 256698,
+        "blocksTravelled": 257024,
         "blocksBroken": 15949,
         "blocksPlaced": 5458,
         "deepestY": 23,
-        "lastSeen": 1784893949,
+        "lastSeen": 1784894070,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2660,6 +2660,16 @@
             "name": "Blueberry cutting"
           },
           {
+            "slot": "bag-7",
+            "code": "game:metal-parts",
+            "name": "Metal parts"
+          },
+          {
+            "slot": "bag-8",
+            "code": "game:gear-rusty",
+            "name": "Rusty gear"
+          },
+          {
             "slot": "bag-9",
             "code": "game:fruit-pear",
             "name": "Pear"
@@ -2743,11 +2753,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 190.0,
-        "blocksTravelled": 168091,
-        "blocksBroken": 8451,
+        "blocksTravelled": 168388,
+        "blocksBroken": 8452,
         "blocksPlaced": 5366,
         "deepestY": 24,
-        "lastSeen": 1784893949,
+        "lastSeen": 1784894070,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
