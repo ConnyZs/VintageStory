@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-134910",
+  "generated": "20260724-135110",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2527,12 +2527,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 196.2,
-        "blocksTravelled": 256387,
-        "blocksBroken": 15902,
-        "blocksPlaced": 5424,
+        "playtimeHours": 196.3,
+        "blocksTravelled": 256486,
+        "blocksBroken": 15922,
+        "blocksPlaced": 5435,
         "deepestY": 23,
-        "lastSeen": 1784893722,
+        "lastSeen": 1784893829,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2631,13 +2631,13 @@
           },
           {
             "slot": "bag-1",
-            "code": "game:fruit-pear",
-            "name": "Pear"
+            "code": "game:rot",
+            "name": "Rot"
           },
           {
             "slot": "bag-2",
-            "code": "game:fruit-pear",
-            "name": "Pear"
+            "code": "game:fruitingbushcutting-blueberry-free",
+            "name": "Blueberry cutting"
           },
           {
             "slot": "bag-3",
@@ -2646,8 +2646,8 @@
           },
           {
             "slot": "bag-4",
-            "code": "game:fruit-pear",
-            "name": "Pear"
+            "code": "game:fruitingbushcutting-blueberry-free",
+            "name": "Blueberry cutting"
           },
           {
             "slot": "bag-5",
@@ -2660,24 +2660,9 @@
             "name": "Blueberry cutting"
           },
           {
-            "slot": "bag-7",
-            "code": "game:fruitingbushcutting-blueberry-free",
-            "name": "Blueberry cutting"
-          },
-          {
-            "slot": "bag-8",
-            "code": "game:chest-east",
-            "name": "Aged Owl treasure chest"
-          },
-          {
-            "slot": "bag-9",
+            "slot": "bag-10",
             "code": "game:fruit-redcurrant",
             "name": "Redcurrant"
-          },
-          {
-            "slot": "bag-10",
-            "code": "game:fruitingbushcutting-blueberry-free",
-            "name": "Blueberry cutting"
           },
           {
             "slot": "bag-11",
@@ -2688,11 +2673,6 @@
             "slot": "bag-12",
             "code": "game:chest-east",
             "name": "Aged wooden chest"
-          },
-          {
-            "slot": "bag-17",
-            "code": "game:rot",
-            "name": "Rot"
           },
           {
             "slot": "bag-18",
@@ -2757,12 +2737,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 189.9,
-        "blocksTravelled": 167662,
-        "blocksBroken": 8444,
-        "blocksPlaced": 5360,
+        "playtimeHours": 190.0,
+        "blocksTravelled": 167798,
+        "blocksBroken": 8451,
+        "blocksPlaced": 5366,
         "deepestY": 24,
-        "lastSeen": 1784893722,
+        "lastSeen": 1784893829,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
