@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-19T17:09:57Z",
+  "updated": "2026-07-24T18:38:31Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1060,15 +1060,6 @@
     },
     {
       "name": "",
-      "link": "https://mods.vintagestory.at/show/mod/28845",
-      "category": "Other",
-      "section": "1.22",
-      "server_state": "remove",
-      "proposed": false,
-      "note": ""
-    },
-    {
-      "name": "",
       "link": "https://mods.vintagestory.at/chiselleaf",
       "category": "Other",
       "section": "1.22",
@@ -1083,6 +1074,15 @@
       "section": "1.22",
       "server_state": "yes",
       "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "",
+      "link": "https://mods.vintagestory.at/configlib",
+      "category": "Other",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": true,
       "note": ""
     }
   ]

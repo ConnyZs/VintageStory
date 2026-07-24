@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-203540",
+  "generated": "2026-07-24T18:36:44Z",
   "game_version": "1.22.3",
   "check_ts": "20260724-200056",
   "latest_engine": "1.22.5",
@@ -2080,6 +2080,22 @@
       "proposed": false,
       "custom": true,
       "client_only": false
+    },
+    {
+      "name": "https://mods.vintagestory.at/configlib",
+      "modid": null,
+      "section": "1.22",
+      "category": "Other",
+      "on_server": true,
+      "link": "https://mods.vintagestory.at/configlib",
+      "server_state": "yes",
+      "avail": "pending",
+      "note": "",
+      "version": null,
+      "build_version": null,
+      "build_branch": null,
+      "update_pending": false,
+      "proposed": true
     }
   ],
   "crew": [
