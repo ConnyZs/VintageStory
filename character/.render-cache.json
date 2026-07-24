@@ -52,7 +52,7 @@
   }
  },
  "Moritz": {
-  "hash": "4b995ac4e02e7694af2781107e81fb437a4c8a1f",
+  "hash": "f262ddf821f9d4a2f3d3c998bfec8deee5c0dc12",
   "info": {
    "class": "mason",
    "items": [
@@ -74,11 +74,11 @@
     "Fortune teller vest"
    ],
    "frames": 16,
-   "v": 1784895953
+   "v": 1784896553
   }
  },
  "AddyBuschu": {
-  "hash": "d4048f8ad2dcc6372fe9b3e52105de72424e2fe9",
+  "hash": "02f895fb8f12e778064929961032708b49eb4500",
   "info": {
    "class": "homesteader",
    "items": [
@@ -103,7 +103,7 @@
     "Rotwalker coat"
    ],
    "frames": 16,
-   "v": 1784896054
+   "v": 1784896534
   }
  },
  "Barberschascher": {

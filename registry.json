@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-143314",
+  "generated": "20260724-143514",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2529,11 +2529,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 197.0,
-        "blocksTravelled": 262074,
+        "blocksTravelled": 262206,
         "blocksBroken": 16047,
-        "blocksPlaced": 5485,
+        "blocksPlaced": 5487,
         "deepestY": 23,
-        "lastSeen": 1784896351,
+        "lastSeen": 1784896471,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2667,19 +2667,9 @@
             "name": "Fluorite"
           },
           {
-            "slot": "bag-8",
-            "code": "betterruins:br-schematic-door",
-            "name": "Gatekeeper's Blueprint"
-          },
-          {
             "slot": "bag-9",
             "code": "game:fruit-pear",
             "name": "Pear"
-          },
-          {
-            "slot": "bag-10",
-            "code": "betterruins:br-schematic-jonasassembly",
-            "name": "Engineer's Assembly Blueprint"
           },
           {
             "slot": "bag-11",
@@ -2713,17 +2703,6 @@
             "name": "Lead ingot"
           },
           {
-            "slot": "bag-17",
-            "code": "game:clothes-shoulder-owlponcho",
-            "name": "Owl poncho",
-            "icon": "character/icons/shoulder-owlponcho.png"
-          },
-          {
-            "slot": "bag-18",
-            "code": "falandsknecht:fa-landsknecht-schematic",
-            "name": "Landsknecht wearables (schematic)"
-          },
-          {
             "slot": "bag-19",
             "code": "game:metal-parts",
             "name": "Metal parts"
@@ -2734,24 +2713,9 @@
             "name": "Metal scraps"
           },
           {
-            "slot": "bag-21",
-            "code": "betterruins:br-schematic-carpenter",
-            "name": "Carpenter's Blueprint"
-          },
-          {
-            "slot": "bag-22",
-            "code": "game:paper-parchment",
-            "name": "Parchment"
-          },
-          {
             "slot": "bag-23",
             "code": "game:hoe-copper",
             "name": "Copper hoe"
-          },
-          {
-            "slot": "bag-24",
-            "code": "game:painting-forestdawn-north",
-            "name": "Painting (Forest Dawn)"
           }
         ],
         "skin": {
@@ -2812,11 +2776,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 190.7,
-        "blocksTravelled": 171975,
+        "blocksTravelled": 172271,
         "blocksBroken": 8513,
-        "blocksPlaced": 5381,
+        "blocksPlaced": 5383,
         "deepestY": 24,
-        "lastSeen": 1784896351,
+        "lastSeen": 1784896471,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -2915,14 +2879,14 @@
             "name": "Metal scraps"
           },
           {
+            "slot": "bag-4",
+            "code": "game:soil-low-none",
+            "name": "Low fertility soil"
+          },
+          {
             "slot": "bag-5",
             "code": "game:ore-phosphorite",
             "name": "Phosphorite"
-          },
-          {
-            "slot": "bag-6",
-            "code": "game:clutter",
-            "name": "Aged Childrens Toy"
           },
           {
             "slot": "bag-7",
@@ -2951,11 +2915,6 @@
             "icon": "character/icons/face-marketeer.png"
           },
           {
-            "slot": "bag-12",
-            "code": "game:lore-book-aged-orangebrown",
-            "name": "Aged lore book (Orange brown)"
-          },
-          {
             "slot": "bag-13",
             "code": "game:rope",
             "name": "Coil of rope"
@@ -2977,8 +2936,8 @@
           },
           {
             "slot": "bag-17",
-            "code": "game:tuningcylinder-7",
-            "name": "Tuning cylinder (Vintage Story)"
+            "code": "game:soil-medium-none",
+            "name": "Medium fertility soil"
           },
           {
             "slot": "bag-18",
@@ -2999,11 +2958,6 @@
             "slot": "bag-21",
             "code": "game:attachingplant-sparsemold",
             "name": "Mold layer (sparse)"
-          },
-          {
-            "slot": "bag-22",
-            "code": "game:clutter",
-            "name": "Aged Childrens Toy"
           },
           {
             "slot": "bag-23",
