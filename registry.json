@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-141913",
+  "generated": "20260724-142113",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2459,9 +2459,9 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 318,
-        "mealsEaten": 310,
-        "caloriesConsumed": 34912,
-        "lastMeal": "Onion",
+        "mealsEaten": 320,
+        "caloriesConsumed": 35712,
+        "lastMeal": "Redcurrant",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2476,7 +2476,7 @@
           "Pear pie": 4,
           "Cooked dumplings": 2,
           "Almond mushroom": 1,
-          "Redcurrant": 41,
+          "Redcurrant": 51,
           "Carrot": 5,
           "Field mushroom": 1,
           "Turnip": 6,
@@ -2516,7 +2516,7 @@
           "Grain": 59,
           "Protein": 22,
           "Vegetable": 92,
-          "Fruit": 166,
+          "Fruit": 176,
           "Dairy": 10
         },
         "deathCauses": {
@@ -2528,12 +2528,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 196.7,
-        "blocksTravelled": 259617,
-        "blocksBroken": 16038,
+        "playtimeHours": 196.8,
+        "blocksTravelled": 259948,
+        "blocksBroken": 16039,
         "blocksPlaced": 5484,
         "deepestY": 23,
-        "lastSeen": 1784895533,
+        "lastSeen": 1784895631,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2629,6 +2629,129 @@
             "slot": "armorbody",
             "code": "game:armor-body-hide-bear-black",
             "name": "Black bear hide body armor"
+          },
+          {
+            "slot": "bag-1",
+            "code": "game:clothes-upperbody-peasent-shirt",
+            "name": "Peasant shirt",
+            "icon": "character/icons/upperbody-peasent-shirt.png"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:fruitingbushcutting-blueberry-free",
+            "name": "Blueberry cutting"
+          },
+          {
+            "slot": "bag-3",
+            "code": "game:seeds-cabbage",
+            "name": "Cabbage seeds"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:fruitingbushcutting-blueberry-free",
+            "name": "Blueberry cutting"
+          },
+          {
+            "slot": "bag-5",
+            "code": "game:fruitingbushcutting-blueberry-free",
+            "name": "Blueberry cutting"
+          },
+          {
+            "slot": "bag-6",
+            "code": "game:fruitingbushcutting-blueberry-free",
+            "name": "Blueberry cutting"
+          },
+          {
+            "slot": "bag-7",
+            "code": "game:ore-fluorite",
+            "name": "Fluorite"
+          },
+          {
+            "slot": "bag-8",
+            "code": "betterruins:br-schematic-door",
+            "name": "Gatekeeper's Blueprint"
+          },
+          {
+            "slot": "bag-9",
+            "code": "game:fruit-pear",
+            "name": "Pear"
+          },
+          {
+            "slot": "bag-10",
+            "code": "betterruins:br-schematic-jonasassembly",
+            "name": "Engineer's Assembly Blueprint"
+          },
+          {
+            "slot": "bag-11",
+            "code": "game:soil-high-none",
+            "name": "Terra preta"
+          },
+          {
+            "slot": "bag-12",
+            "code": "game:clothes-face-glasses",
+            "name": "Plain glasses"
+          },
+          {
+            "slot": "bag-13",
+            "code": "game:jonasparts-valve01",
+            "name": "Jonas part (Alternate injection valve )"
+          },
+          {
+            "slot": "bag-14",
+            "code": "game:clothes-upperbody-lackey-shirt",
+            "name": "Lackey shirt",
+            "icon": "character/icons/upperbody-lackey-shirt.png"
+          },
+          {
+            "slot": "bag-15",
+            "code": "game:clothes-arm-hornedbracelet",
+            "name": "Horned bracelet"
+          },
+          {
+            "slot": "bag-16",
+            "code": "game:ingot-lead",
+            "name": "Lead ingot"
+          },
+          {
+            "slot": "bag-17",
+            "code": "game:clothes-shoulder-owlponcho",
+            "name": "Owl poncho",
+            "icon": "character/icons/shoulder-owlponcho.png"
+          },
+          {
+            "slot": "bag-18",
+            "code": "falandsknecht:fa-landsknecht-schematic",
+            "name": "Landsknecht wearables (schematic)"
+          },
+          {
+            "slot": "bag-19",
+            "code": "game:metal-parts",
+            "name": "Metal parts"
+          },
+          {
+            "slot": "bag-20",
+            "code": "game:metal-scraps",
+            "name": "Metal scraps"
+          },
+          {
+            "slot": "bag-21",
+            "code": "betterruins:br-schematic-carpenter",
+            "name": "Carpenter's Blueprint"
+          },
+          {
+            "slot": "bag-22",
+            "code": "game:flaxtwine",
+            "name": "Flax twine"
+          },
+          {
+            "slot": "bag-23",
+            "code": "game:paper-parchment",
+            "name": "Parchment"
+          },
+          {
+            "slot": "bag-24",
+            "code": "game:painting-forestdawn-north",
+            "name": "Painting (Forest Dawn)"
           }
         ],
         "skin": {
@@ -2688,12 +2811,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 190.4,
-        "blocksTravelled": 169720,
+        "playtimeHours": 190.5,
+        "blocksTravelled": 169811,
         "blocksBroken": 8492,
         "blocksPlaced": 5381,
         "deepestY": 24,
-        "lastSeen": 1784895533,
+        "lastSeen": 1784895631,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -2781,6 +2904,11 @@
             "name": "Clay figurine"
           },
           {
+            "slot": "bag-3",
+            "code": "game:torchholder-aged-empty-north",
+            "name": "Aged torch holder"
+          },
+          {
             "slot": "bag-4",
             "code": "game:ore-borax",
             "name": "Borax"
@@ -2817,13 +2945,14 @@
           },
           {
             "slot": "bag-11",
-            "code": "game:ore-quartz",
-            "name": "Quartz chunk"
+            "code": "game:clothes-face-marketeer",
+            "name": "Marketeer mask",
+            "icon": "character/icons/face-marketeer.png"
           },
           {
             "slot": "bag-12",
-            "code": "game:ore-lignite",
-            "name": "Brown coal"
+            "code": "game:lore-book-aged-orangebrown",
+            "name": "Aged lore book (Orange brown)"
           },
           {
             "slot": "bag-13",
