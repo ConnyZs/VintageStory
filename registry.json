@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-203140",
+  "generated": "20260724-203340",
   "game_version": "1.22.3",
   "check_ts": "20260724-200056",
   "latest_engine": "1.22.5",
@@ -2129,7 +2129,7 @@
         "blocksBroken": 6448,
         "blocksPlaced": 423,
         "deepestY": 18,
-        "lastSeen": 1784752880,
+        "lastSeen": 1784918001,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2216,8 +2216,23 @@
           },
           {
             "slot": "bag-1",
-            "code": "walkingstick:walkingstick-pathfinder",
-            "name": "Pathfinder's walking stick"
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-3",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           }
         ],
         "skin": {
