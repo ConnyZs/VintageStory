@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-140111",
+  "generated": "20260724-140311",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2527,12 +2527,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 196.4,
-        "blocksTravelled": 257404,
-        "blocksBroken": 16000,
+        "playtimeHours": 196.5,
+        "blocksTravelled": 257480,
+        "blocksBroken": 16003,
         "blocksPlaced": 5471,
         "deepestY": 23,
-        "lastSeen": 1784894430,
+        "lastSeen": 1784894550,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2665,6 +2665,11 @@
             "name": "Fluorite"
           },
           {
+            "slot": "bag-8",
+            "code": "betterruins:br-schematic-door",
+            "name": "Gatekeeper's Blueprint"
+          },
+          {
             "slot": "bag-9",
             "code": "game:fruit-pear",
             "name": "Pear"
@@ -2683,6 +2688,11 @@
             "slot": "bag-12",
             "code": "game:clothes-face-glasses",
             "name": "Plain glasses"
+          },
+          {
+            "slot": "bag-13",
+            "code": "game:jonasparts-valve01",
+            "name": "Jonas part (Alternate injection valve )"
           }
         ],
         "skin": {
@@ -2742,12 +2752,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 190.1,
-        "blocksTravelled": 168757,
-        "blocksBroken": 8457,
+        "playtimeHours": 190.2,
+        "blocksTravelled": 168869,
+        "blocksBroken": 8458,
         "blocksPlaced": 5369,
         "deepestY": 24,
-        "lastSeen": 1784894430,
+        "lastSeen": 1784894550,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -2836,8 +2846,8 @@
           },
           {
             "slot": "bag-3",
-            "code": "game:clothes-arm-copper-bracelet",
-            "name": "Copper bracelet"
+            "code": "game:flaxtwine",
+            "name": "Flax twine"
           },
           {
             "slot": "bag-4",
@@ -2913,11 +2923,6 @@
             "slot": "bag-19",
             "code": "game:hammer-tinbronze",
             "name": "Tin bronze hammer"
-          },
-          {
-            "slot": "bag-20",
-            "code": "game:ore-lapislazuli",
-            "name": "Rough lapis lazuli"
           },
           {
             "slot": "bag-21",
