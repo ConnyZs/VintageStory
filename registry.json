@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-135911",
+  "generated": "20260724-140111",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2528,11 +2528,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 196.4,
-        "blocksTravelled": 257367,
+        "blocksTravelled": 257404,
         "blocksBroken": 16000,
-        "blocksPlaced": 5470,
+        "blocksPlaced": 5471,
         "deepestY": 23,
-        "lastSeen": 1784894326,
+        "lastSeen": 1784894430,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2661,13 +2661,8 @@
           },
           {
             "slot": "bag-7",
-            "code": "game:metal-parts",
-            "name": "Metal parts"
-          },
-          {
-            "slot": "bag-8",
-            "code": "game:gear-rusty",
-            "name": "Rusty gear"
+            "code": "game:ore-fluorite",
+            "name": "Fluorite"
           },
           {
             "slot": "bag-9",
@@ -2686,31 +2681,6 @@
           },
           {
             "slot": "bag-12",
-            "code": "game:chest-east",
-            "name": "Aged wooden chest"
-          },
-          {
-            "slot": "bag-13",
-            "code": "game:rot",
-            "name": "Rot"
-          },
-          {
-            "slot": "bag-14",
-            "code": "game:rot",
-            "name": "Rot"
-          },
-          {
-            "slot": "bag-15",
-            "code": "game:rot",
-            "name": "Rot"
-          },
-          {
-            "slot": "bag-16",
-            "code": "game:bone",
-            "name": "Bone"
-          },
-          {
-            "slot": "bag-18",
             "code": "game:clothes-face-glasses",
             "name": "Plain glasses"
           }
@@ -2773,11 +2743,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 190.1,
-        "blocksTravelled": 168703,
+        "blocksTravelled": 168757,
         "blocksBroken": 8457,
-        "blocksPlaced": 5368,
+        "blocksPlaced": 5369,
         "deepestY": 24,
-        "lastSeen": 1784894326,
+        "lastSeen": 1784894430,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -2856,8 +2826,8 @@
           },
           {
             "slot": "bag-1",
-            "code": "betterruins:br-schematic-road",
-            "name": "Paver's Road Blueprint"
+            "code": "game:flowerpot-black-fired",
+            "name": "Black ceramic flowerpot"
           },
           {
             "slot": "bag-2",
@@ -2876,8 +2846,8 @@
           },
           {
             "slot": "bag-5",
-            "code": "game:metal-parts",
-            "name": "Metal parts"
+            "code": "game:ore-phosphorite",
+            "name": "Phosphorite"
           },
           {
             "slot": "bag-6",
@@ -2906,8 +2876,8 @@
           },
           {
             "slot": "bag-11",
-            "code": "game:torchholder-brass-empty-north",
-            "name": "Brass torch holder"
+            "code": "game:ore-quartz",
+            "name": "Quartz chunk"
           },
           {
             "slot": "bag-12",
@@ -2926,8 +2896,8 @@
           },
           {
             "slot": "bag-15",
-            "code": "game:torchholder-aged-empty-north",
-            "name": "Aged torch holder"
+            "code": "game:clothes-arm-rusty-wrist-manacles",
+            "name": "Rusty wrist manacles"
           },
           {
             "slot": "bag-16",
@@ -2936,13 +2906,8 @@
           },
           {
             "slot": "bag-17",
-            "code": "game:ore-quartz",
-            "name": "Quartz chunk"
-          },
-          {
-            "slot": "bag-18",
-            "code": "game:chest-east",
-            "name": "Aged Owl treasure chest"
+            "code": "game:tuningcylinder-7",
+            "name": "Tuning cylinder (Vintage Story)"
           },
           {
             "slot": "bag-19",
@@ -2951,29 +2916,13 @@
           },
           {
             "slot": "bag-20",
-            "code": "bricklayers:sherds-light",
-            "name": "Light ceramic sherds"
+            "code": "game:ore-lapislazuli",
+            "name": "Rough lapis lazuli"
           },
           {
             "slot": "bag-21",
             "code": "game:attachingplant-sparsemold",
             "name": "Mold layer (sparse)"
-          },
-          {
-            "slot": "bag-22",
-            "code": "game:flowerpot-black-fired",
-            "name": "Black ceramic flowerpot"
-          },
-          {
-            "slot": "bag-23",
-            "code": "game:clothes-hand-surgeon",
-            "name": "Barber surgeon hand wraps",
-            "icon": "character/icons/hand-surgeon.png"
-          },
-          {
-            "slot": "bag-24",
-            "code": "game:ore-phosphorite",
-            "name": "Phosphorite"
           }
         ],
         "skin": {
