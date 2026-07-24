@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-130907",
+  "generated": "20260724-131108",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2459,13 +2459,13 @@
         "class": "homesteader",
         "deaths": 23,
         "mobKills": 299,
-        "mealsEaten": 304,
-        "caloriesConsumed": 33684,
-        "lastMeal": "Tinder hoof",
+        "mealsEaten": 305,
+        "caloriesConsumed": 34432,
+        "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
-          "Earthy orange ceramic bowl of meat stew": 10,
+          "Earthy orange ceramic bowl of meat stew": 11,
           "Blueberry": 16,
           "Pear pie (charred)": 1,
           "Rye bread": 1,
@@ -2512,8 +2512,8 @@
         },
         "foodCatCounts": {
           "Grain": 59,
-          "Protein": 21,
-          "Vegetable": 86,
+          "Protein": 22,
+          "Vegetable": 87,
           "Fruit": 166,
           "Dairy": 10
         },
@@ -2526,11 +2526,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 195.6,
-        "blocksTravelled": 252680,
-        "blocksBroken": 15819,
+        "blocksTravelled": 252692,
+        "blocksBroken": 15829,
         "blocksPlaced": 5404,
         "deepestY": 23,
-        "lastSeen": 1784891308,
+        "lastSeen": 1784891428,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2686,11 +2686,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 189.3,
-        "blocksTravelled": 163987,
-        "blocksBroken": 8377,
-        "blocksPlaced": 5336,
+        "blocksTravelled": 164100,
+        "blocksBroken": 8384,
+        "blocksPlaced": 5347,
         "deepestY": 24,
-        "lastSeen": 1784891308,
+        "lastSeen": 1784891428,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
