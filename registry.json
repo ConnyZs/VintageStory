@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-144915",
+  "generated": "20260724-145115",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2528,12 +2528,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 197.2,
-        "blocksTravelled": 263281,
+        "playtimeHours": 197.3,
+        "blocksTravelled": 263356,
         "blocksBroken": 16052,
         "blocksPlaced": 5516,
         "deepestY": 23,
-        "lastSeen": 1784897346,
+        "lastSeen": 1784897432,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2631,44 +2631,14 @@
             "name": "Black bear hide body armor"
           },
           {
+            "slot": "bag-1",
+            "code": "game:fruitingbushcutting-blueberry-free",
+            "name": "Blueberry cutting"
+          },
+          {
             "slot": "bag-2",
             "code": "game:fruitingbushcutting-blueberry-free",
             "name": "Blueberry cutting"
-          },
-          {
-            "slot": "bag-4",
-            "code": "game:fruitingbushcutting-blueberry-free",
-            "name": "Blueberry cutting"
-          },
-          {
-            "slot": "bag-5",
-            "code": "game:fruitingbushcutting-blueberry-free",
-            "name": "Blueberry cutting"
-          },
-          {
-            "slot": "bag-6",
-            "code": "game:fruitingbushcutting-blueberry-free",
-            "name": "Blueberry cutting"
-          },
-          {
-            "slot": "bag-19",
-            "code": "game:rot",
-            "name": "Rot"
-          },
-          {
-            "slot": "bag-22",
-            "code": "game:rot",
-            "name": "Rot"
-          },
-          {
-            "slot": "bag-23",
-            "code": "game:rot",
-            "name": "Rot"
-          },
-          {
-            "slot": "bag-24",
-            "code": "game:rot",
-            "name": "Rot"
           }
         ],
         "skin": {
