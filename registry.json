@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-145515",
+  "generated": "20260724-145715",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2528,12 +2528,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 197.3,
-        "blocksTravelled": 263356,
+        "playtimeHours": 197.4,
+        "blocksTravelled": 263500,
         "blocksBroken": 16052,
         "blocksPlaced": 5516,
         "deepestY": 23,
-        "lastSeen": 1784897672,
+        "lastSeen": 1784897792,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2629,16 +2629,6 @@
             "slot": "armorbody",
             "code": "game:armor-body-hide-bear-black",
             "name": "Black bear hide body armor"
-          },
-          {
-            "slot": "bag-1",
-            "code": "game:fruitingbushcutting-blueberry-free",
-            "name": "Blueberry cutting"
-          },
-          {
-            "slot": "bag-2",
-            "code": "game:fruitingbushcutting-blueberry-free",
-            "name": "Blueberry cutting"
           }
         ],
         "skin": {
