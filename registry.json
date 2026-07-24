@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-151517",
+  "generated": "20260724-151717",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2529,11 +2529,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 197.7,
-        "blocksTravelled": 265246,
-        "blocksBroken": 16257,
-        "blocksPlaced": 5534,
+        "blocksTravelled": 265440,
+        "blocksBroken": 16306,
+        "blocksPlaced": 5548,
         "deepestY": 23,
-        "lastSeen": 1784898873,
+        "lastSeen": 1784898993,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2717,8 +2717,18 @@
           },
           {
             "slot": "bag-18",
+            "code": "game:flower-lupine-orange-free",
+            "name": "Lupine (Orange)"
+          },
+          {
+            "slot": "bag-19",
             "code": "game:flaxtwine",
             "name": "Flax twine"
+          },
+          {
+            "slot": "bag-20",
+            "code": "game:spiderweb",
+            "name": "Spider web"
           }
         ],
         "skin": {
