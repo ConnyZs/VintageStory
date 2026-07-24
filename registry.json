@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-144114",
+  "generated": "20260724-144314",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2529,11 +2529,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 197.1,
-        "blocksTravelled": 262653,
+        "blocksTravelled": 262689,
         "blocksBroken": 16047,
-        "blocksPlaced": 5489,
+        "blocksPlaced": 5492,
         "deepestY": 23,
-        "lastSeen": 1784896832,
+        "lastSeen": 1784896952,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2667,11 +2667,16 @@
           },
           {
             "slot": "bag-8",
-            "code": "game:chest-east",
-            "name": "Aged wooden chest"
+            "code": "game:fruit-pear",
+            "name": "Pear"
           },
           {
             "slot": "bag-9",
+            "code": "game:fruit-pear",
+            "name": "Pear"
+          },
+          {
+            "slot": "bag-10",
             "code": "game:fruit-pear",
             "name": "Pear"
           },
@@ -2681,9 +2686,9 @@
             "name": "Terra preta"
           },
           {
-            "slot": "bag-13",
-            "code": "game:lore-scroll",
-            "name": "Scroll"
+            "slot": "bag-12",
+            "code": "game:fruit-pear",
+            "name": "Pear"
           },
           {
             "slot": "bag-14",
@@ -2706,9 +2711,34 @@
             "name": "Copper hoe"
           },
           {
+            "slot": "bag-18",
+            "code": "game:rot",
+            "name": "Rot"
+          },
+          {
+            "slot": "bag-19",
+            "code": "game:rot",
+            "name": "Rot"
+          },
+          {
             "slot": "bag-20",
             "code": "game:clothes-arm-rusty-wrist-manacles",
             "name": "Rusty wrist manacles"
+          },
+          {
+            "slot": "bag-21",
+            "code": "game:rot",
+            "name": "Rot"
+          },
+          {
+            "slot": "bag-22",
+            "code": "game:rot",
+            "name": "Rot"
+          },
+          {
+            "slot": "bag-23",
+            "code": "game:rot",
+            "name": "Rot"
           }
         ],
         "skin": {
