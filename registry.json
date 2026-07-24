@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-150916",
+  "generated": "20260724-151116",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2458,7 +2458,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 328,
+        "mobKills": 330,
         "mealsEaten": 320,
         "caloriesConsumed": 35712,
         "lastMeal": "Redcurrant",
@@ -2529,11 +2529,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 197.6,
-        "blocksTravelled": 264770,
-        "blocksBroken": 16088,
+        "blocksTravelled": 264808,
+        "blocksBroken": 16151,
         "blocksPlaced": 5524,
         "deepestY": 23,
-        "lastSeen": 1784898554,
+        "lastSeen": 1784898633,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2674,6 +2674,36 @@
             "slot": "bag-9",
             "code": "game:seeds-fennel",
             "name": "Fennel seeds"
+          },
+          {
+            "slot": "bag-10",
+            "code": "game:bone",
+            "name": "Bone"
+          },
+          {
+            "slot": "bag-11",
+            "code": "game:bed-woodaged-head-north",
+            "name": "Aged wooden bed"
+          },
+          {
+            "slot": "bag-12",
+            "code": "game:agedwallpaperplanks-green-east",
+            "name": "Green Wallpaper (On aged planks)"
+          },
+          {
+            "slot": "bag-13",
+            "code": "game:painting-forestdawn-north",
+            "name": "Painting (Forest Dawn)"
+          },
+          {
+            "slot": "bag-14",
+            "code": "game:agedwallpaperplanks-green-east",
+            "name": "Green Wallpaper (On aged planks)"
+          },
+          {
+            "slot": "bag-15",
+            "code": "game:spiderweb",
+            "name": "Spider web"
           }
         ],
         "skin": {
