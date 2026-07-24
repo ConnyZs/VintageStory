@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-140511",
+  "generated": "20260724-140712",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2528,11 +2528,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 196.5,
-        "blocksTravelled": 257569,
-        "blocksBroken": 16005,
+        "blocksTravelled": 257688,
+        "blocksBroken": 16011,
         "blocksPlaced": 5471,
         "deepestY": 23,
-        "lastSeen": 1784894670,
+        "lastSeen": 1784894790,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2707,19 +2707,14 @@
           },
           {
             "slot": "bag-16",
-            "code": "game:chest-east",
-            "name": "Aged Owl treasure chest"
+            "code": "game:ingot-lead",
+            "name": "Lead ingot"
           },
           {
             "slot": "bag-17",
             "code": "game:clothes-shoulder-owlponcho",
             "name": "Owl poncho",
             "icon": "character/icons/shoulder-owlponcho.png"
-          },
-          {
-            "slot": "bag-18",
-            "code": "game:gear-rusty",
-            "name": "Rusty gear"
           }
         ],
         "skin": {
@@ -2780,11 +2775,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 190.2,
-        "blocksTravelled": 168955,
-        "blocksBroken": 8466,
+        "blocksTravelled": 169024,
+        "blocksBroken": 8473,
         "blocksPlaced": 5370,
         "deepestY": 24,
-        "lastSeen": 1784894670,
+        "lastSeen": 1784894790,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -2948,8 +2943,8 @@
           },
           {
             "slot": "bag-18",
-            "code": "game:stone-andesite",
-            "name": "Andesite stone"
+            "code": "game:clothes-foot-rusty-ankle-manacles",
+            "name": "Rusty manacles"
           },
           {
             "slot": "bag-19",
@@ -2976,6 +2971,12 @@
             "code": "game:clothes-shoulder-jord-robe",
             "name": "Jord robe",
             "icon": "character/icons/shoulder-jord-robe.png"
+          },
+          {
+            "slot": "bag-24",
+            "code": "game:clothes-lowerbody-shepherd-pants",
+            "name": "Shepherd pants",
+            "icon": "character/icons/lowerbody-shepherd-pants.png"
           }
         ],
         "skin": {
