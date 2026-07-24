@@ -52,7 +52,7 @@
   }
  },
  "Moritz": {
-  "hash": "4809c09d5ff635de561bf9ed7701942b18e53a9e",
+  "hash": "5d57e53bf34004ff227510b131bf7b1770b583ea",
   "info": {
    "class": "mason",
    "items": [
@@ -60,7 +60,6 @@
     "mustache",
     "facialexpression",
     "Raccoon fur trapper hat",
-    "Artisans scarf",
     "Linen tunic",
     "Workmans pants",
     "Forlorn Hope shoes",
@@ -68,10 +67,11 @@
     "Gold gear amulet",
     "Messenger pin",
     "Sturdy belt",
-    "Large silver bracelets"
+    "Large silver bracelets",
+    "Fortune teller vest"
    ],
    "frames": 16,
-   "v": 1784889443
+   "v": 1784889563
   }
  },
  "AddyBuschu": {

@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-123705",
+  "generated": "20260724-123905",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2685,15 +2685,14 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 188.7,
-        "blocksTravelled": 161961,
+        "playtimeHours": 188.8,
+        "blocksTravelled": 162247,
         "blocksBroken": 8345,
         "blocksPlaced": 5300,
         "deepestY": 24,
-        "lastSeen": 1784889386,
+        "lastSeen": 1784889507,
         "gear": [
           "Raccoon fur trapper hat",
-          "Artisans scarf",
           "Linen tunic",
           "Workmans pants",
           "Forlorn Hope shoes",
@@ -2701,7 +2700,8 @@
           "Gold gear amulet",
           "Messenger pin",
           "Sturdy belt",
-          "Large silver bracelets"
+          "Large silver bracelets",
+          "Fortune teller vest"
         ],
         "gearDetail": [
           {
@@ -2709,12 +2709,6 @@
             "code": "game:clothes-head-furhatwide-generic-gray",
             "name": "Raccoon fur trapper hat",
             "icon": "character/icons/head-furhatwide-generic-gray.png"
-          },
-          {
-            "slot": "shoulder",
-            "code": "game:clothes-shoulder-artisans-scarf",
-            "name": "Artisans scarf",
-            "icon": "character/icons/shoulder-artisans-scarf.png"
           },
           {
             "slot": "upperbody",
@@ -2759,6 +2753,12 @@
             "slot": "arm",
             "code": "game:clothes-arm-large-silver-bracelets",
             "name": "Large silver bracelets"
+          },
+          {
+            "slot": "upperbodyover",
+            "code": "game:clothes-upperbodyover-fortuneteller",
+            "name": "Fortune teller vest",
+            "icon": "character/icons/upperbodyover-fortuneteller.png"
           },
           {
             "slot": "bag-1",
@@ -2842,9 +2842,14 @@
           },
           {
             "slot": "bag-17",
-            "code": "game:clothes-upperbodyover-fortuneteller",
-            "name": "Fortune teller vest",
-            "icon": "character/icons/upperbodyover-fortuneteller.png"
+            "code": "game:poultice-reed-horsetail",
+            "name": "Horsetail Poultice (from reeds)"
+          },
+          {
+            "slot": "bag-18",
+            "code": "game:clothes-shoulder-artisans-scarf",
+            "name": "Artisans scarf",
+            "icon": "character/icons/shoulder-artisans-scarf.png"
           },
           {
             "slot": "bag-19",
