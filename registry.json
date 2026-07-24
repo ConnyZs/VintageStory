@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-221547",
+  "generated": "20260724-221747",
   "game_version": "1.22.3",
   "check_ts": "20260724-200056",
   "latest_engine": "1.22.5",
@@ -2473,7 +2473,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 342,
+        "mobKills": 343,
         "mealsEaten": 323,
         "caloriesConsumed": 35952,
         "lastMeal": "Redcurrant",
@@ -2543,12 +2543,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 198.6,
-        "blocksTravelled": 271773,
+        "playtimeHours": 198.7,
+        "blocksTravelled": 272116,
         "blocksBroken": 16584,
-        "blocksPlaced": 5705,
+        "blocksPlaced": 5706,
         "deepestY": 23,
-        "lastSeen": 1784924053,
+        "lastSeen": 1784924238,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2561,7 +2561,9 @@
           "Crow mask",
           "Rotten king belt",
           "Leather bracers",
-          "Rotwalker coat"
+          "Rotwalker coat",
+          "Black bear hide helmet",
+          "Black bear hide body armor"
         ],
         "gearDetail": [
           {
@@ -2632,6 +2634,16 @@
             "code": "game:clothes-upperbodyover-rotwalker",
             "name": "Rotwalker coat",
             "icon": "character/icons/upperbodyover-rotwalker.png"
+          },
+          {
+            "slot": "armorhead",
+            "code": "game:armor-head-hide-bear-black",
+            "name": "Black bear hide helmet"
+          },
+          {
+            "slot": "armorbody",
+            "code": "game:armor-body-hide-bear-black",
+            "name": "Black bear hide body armor"
           },
           {
             "slot": "bag-1",
