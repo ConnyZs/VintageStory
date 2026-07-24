@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-140311",
+  "generated": "20260724-140511",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2528,11 +2528,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 196.5,
-        "blocksTravelled": 257480,
-        "blocksBroken": 16003,
+        "blocksTravelled": 257569,
+        "blocksBroken": 16005,
         "blocksPlaced": 5471,
         "deepestY": 23,
-        "lastSeen": 1784894550,
+        "lastSeen": 1784894670,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2693,6 +2693,33 @@
             "slot": "bag-13",
             "code": "game:jonasparts-valve01",
             "name": "Jonas part (Alternate injection valve )"
+          },
+          {
+            "slot": "bag-14",
+            "code": "game:clothes-upperbody-lackey-shirt",
+            "name": "Lackey shirt",
+            "icon": "character/icons/upperbody-lackey-shirt.png"
+          },
+          {
+            "slot": "bag-15",
+            "code": "game:clothes-arm-hornedbracelet",
+            "name": "Horned bracelet"
+          },
+          {
+            "slot": "bag-16",
+            "code": "game:chest-east",
+            "name": "Aged Owl treasure chest"
+          },
+          {
+            "slot": "bag-17",
+            "code": "game:clothes-shoulder-owlponcho",
+            "name": "Owl poncho",
+            "icon": "character/icons/shoulder-owlponcho.png"
+          },
+          {
+            "slot": "bag-18",
+            "code": "game:gear-rusty",
+            "name": "Rusty gear"
           }
         ],
         "skin": {
@@ -2753,11 +2780,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 190.2,
-        "blocksTravelled": 168869,
-        "blocksBroken": 8458,
-        "blocksPlaced": 5369,
+        "blocksTravelled": 168955,
+        "blocksBroken": 8466,
+        "blocksPlaced": 5370,
         "deepestY": 24,
-        "lastSeen": 1784894550,
+        "lastSeen": 1784894670,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -2920,14 +2947,35 @@
             "name": "Tuning cylinder (Vintage Story)"
           },
           {
+            "slot": "bag-18",
+            "code": "game:stone-andesite",
+            "name": "Andesite stone"
+          },
+          {
             "slot": "bag-19",
             "code": "game:hammer-tinbronze",
             "name": "Tin bronze hammer"
           },
           {
+            "slot": "bag-20",
+            "code": "game:mushroom-shiitake-normal-north",
+            "name": "Shiitake"
+          },
+          {
             "slot": "bag-21",
             "code": "game:attachingplant-sparsemold",
             "name": "Mold layer (sparse)"
+          },
+          {
+            "slot": "bag-22",
+            "code": "game:clutter",
+            "name": "Aged Childrens Toy"
+          },
+          {
+            "slot": "bag-23",
+            "code": "game:clothes-shoulder-jord-robe",
+            "name": "Jord robe",
+            "icon": "character/icons/shoulder-jord-robe.png"
           }
         ],
         "skin": {
