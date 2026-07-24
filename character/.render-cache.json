@@ -52,7 +52,7 @@
   }
  },
  "Moritz": {
-  "hash": "c501d077615e0d87a2db41140fbcf50ad00bccbf",
+  "hash": "8b65f77e24bc3a16246b1f586fccaf8e4bc7165e",
   "info": {
    "class": "mason",
    "items": [
@@ -73,11 +73,11 @@
     "Fortune teller vest"
    ],
    "frames": 16,
-   "v": 1784893307
+   "v": 1784893429
   }
  },
  "AddyBuschu": {
-  "hash": "aced81e4d42d48d836e6d9300c9434689a5fc19e",
+  "hash": "fe8fd22d62960f8924aad741e60ee036c57a671a",
   "info": {
    "class": "homesteader",
    "items": [
@@ -91,6 +91,7 @@
     "Rotwalker cape",
     "Tattered crimson tunic",
     "Nomad trousers",
+    "Wool lined knee-high boots",
     "Survivor gloves",
     "Rotten king collar",
     "Prince emblem",
@@ -101,7 +102,7 @@
     "Rotwalker coat"
    ],
    "frames": 16,
-   "v": 1784893289
+   "v": 1784893410
   }
  },
  "Barberschascher": {

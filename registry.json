@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-134110",
+  "generated": "20260724-134310",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2528,16 +2528,17 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 196.1,
-        "blocksTravelled": 256033,
+        "blocksTravelled": 256035,
         "blocksBroken": 15895,
-        "blocksPlaced": 5420,
+        "blocksPlaced": 5421,
         "deepestY": 23,
-        "lastSeen": 1784893229,
+        "lastSeen": 1784893349,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
           "Tattered crimson tunic",
           "Nomad trousers",
+          "Wool lined knee-high boots",
           "Survivor gloves",
           "Rotten king collar",
           "Prince emblem",
@@ -2571,6 +2572,12 @@
             "code": "game:clothes-lowerbody-nomad-trousers",
             "name": "Nomad trousers",
             "icon": "character/icons/lowerbody-nomad-trousers.png"
+          },
+          {
+            "slot": "foot",
+            "code": "game:clothes-foot-wool-lined-knee-high-boots",
+            "name": "Wool lined knee-high boots",
+            "icon": "character/icons/foot-wool-lined-knee-high-boots.png"
           },
           {
             "slot": "hand",
@@ -2659,13 +2666,8 @@
           },
           {
             "slot": "bag-8",
-            "code": "game:vegetable-onion",
-            "name": "Onion"
-          },
-          {
-            "slot": "bag-9",
-            "code": "game:seeds-carrot",
-            "name": "Carrot seeds"
+            "code": "game:metal-scraps",
+            "name": "Metal scraps"
           },
           {
             "slot": "bag-10",
@@ -2673,24 +2675,9 @@
             "name": "Blueberry cutting"
           },
           {
-            "slot": "bag-11",
-            "code": "game:seeds-onion",
-            "name": "Onion seeds"
-          },
-          {
             "slot": "bag-12",
             "code": "game:fruit-redcurrant",
             "name": "Redcurrant"
-          },
-          {
-            "slot": "bag-13",
-            "code": "game:torchholder-aged-empty-north",
-            "name": "Aged torch holder"
-          },
-          {
-            "slot": "bag-14",
-            "code": "game:lore-scroll",
-            "name": "Scroll"
           },
           {
             "slot": "bag-15",
@@ -2708,16 +2695,6 @@
             "name": "Rot"
           },
           {
-            "slot": "bag-18",
-            "code": "betterruins:br-schematic-chest",
-            "name": "Treasure Guardian's Blueprint"
-          },
-          {
-            "slot": "bag-19",
-            "code": "game:rot",
-            "name": "Rot"
-          },
-          {
             "slot": "bag-20",
             "code": "game:seeds-turnip",
             "name": "Turnip seeds"
@@ -2726,11 +2703,6 @@
             "slot": "bag-21",
             "code": "game:seeds-rye",
             "name": "Rye seeds"
-          },
-          {
-            "slot": "bag-22",
-            "code": "game:rot",
-            "name": "Rot"
           },
           {
             "slot": "bag-23",
@@ -2801,11 +2773,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 189.8,
-        "blocksTravelled": 167315,
+        "blocksTravelled": 167361,
         "blocksBroken": 8430,
-        "blocksPlaced": 5355,
+        "blocksPlaced": 5357,
         "deepestY": 24,
-        "lastSeen": 1784893229,
+        "lastSeen": 1784893349,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -2893,6 +2865,11 @@
             "name": "Honeycomb"
           },
           {
+            "slot": "bag-3",
+            "code": "falandsknecht:fa-landsknecht-schematic",
+            "name": "Landsknecht wearables (schematic)"
+          },
+          {
             "slot": "bag-4",
             "code": "game:ore-borax",
             "name": "Borax"
@@ -2941,6 +2918,26 @@
             "slot": "bag-13",
             "code": "game:poultice-reed-horsetail",
             "name": "Horsetail Poultice (from reeds)"
+          },
+          {
+            "slot": "bag-14",
+            "code": "game:nugget-nativegold",
+            "name": "Nugget (Native gold)"
+          },
+          {
+            "slot": "bag-15",
+            "code": "game:ore-medium-sphalerite-andesite",
+            "name": "Medium chunk of Sphalerite"
+          },
+          {
+            "slot": "bag-16",
+            "code": "game:ore-poor-malachite-limestone",
+            "name": "Poor chunk of Malachite"
+          },
+          {
+            "slot": "bag-17",
+            "code": "game:ore-quartz",
+            "name": "Quartz chunk"
           },
           {
             "slot": "bag-19",
