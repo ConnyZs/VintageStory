@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-150516",
+  "generated": "20260724-150716",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2529,11 +2529,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 197.5,
-        "blocksTravelled": 264504,
-        "blocksBroken": 16056,
+        "blocksTravelled": 264643,
+        "blocksBroken": 16057,
         "blocksPlaced": 5516,
         "deepestY": 23,
-        "lastSeen": 1784898272,
+        "lastSeen": 1784898392,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2629,6 +2629,11 @@
             "slot": "armorbody",
             "code": "game:armor-body-hide-bear-black",
             "name": "Black bear hide body armor"
+          },
+          {
+            "slot": "bag-1",
+            "code": "game:gear-rusty",
+            "name": "Rusty gear"
           }
         ],
         "skin": {
