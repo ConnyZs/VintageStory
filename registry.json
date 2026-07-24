@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-131508",
+  "generated": "20260724-131708",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2526,11 +2526,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 195.7,
-        "blocksTravelled": 253062,
+        "blocksTravelled": 253225,
         "blocksBroken": 15829,
         "blocksPlaced": 5404,
         "deepestY": 23,
-        "lastSeen": 1784891668,
+        "lastSeen": 1784891788,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2686,11 +2686,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 189.4,
-        "blocksTravelled": 164289,
+        "blocksTravelled": 164545,
         "blocksBroken": 8385,
         "blocksPlaced": 5351,
         "deepestY": 24,
-        "lastSeen": 1784891668,
+        "lastSeen": 1784891788,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -2841,21 +2841,6 @@
             "slot": "bag-19",
             "code": "game:lantern-large-up",
             "name": "Large molybdochalkos lantern"
-          },
-          {
-            "slot": "bag-22",
-            "code": "game:seeds-pineapple",
-            "name": "Pineapple seeds"
-          },
-          {
-            "slot": "bag-23",
-            "code": "game:seeds-carrot",
-            "name": "Carrot seeds"
-          },
-          {
-            "slot": "bag-24",
-            "code": "game:seeds-turnip",
-            "name": "Turnip seeds"
           }
         ],
         "skin": {
