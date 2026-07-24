@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-135511",
+  "generated": "20260724-135711",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2527,12 +2527,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 196.3,
-        "blocksTravelled": 257024,
-        "blocksBroken": 15949,
-        "blocksPlaced": 5458,
+        "playtimeHours": 196.4,
+        "blocksTravelled": 257290,
+        "blocksBroken": 15967,
+        "blocksPlaced": 5460,
         "deepestY": 23,
-        "lastSeen": 1784894070,
+        "lastSeen": 1784894190,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2752,12 +2752,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 190.0,
-        "blocksTravelled": 168388,
-        "blocksBroken": 8452,
-        "blocksPlaced": 5366,
+        "playtimeHours": 190.1,
+        "blocksTravelled": 168648,
+        "blocksBroken": 8455,
+        "blocksPlaced": 5367,
         "deepestY": 24,
-        "lastSeen": 1784894070,
+        "lastSeen": 1784894190,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -2863,11 +2863,6 @@
             "slot": "bag-6",
             "code": "game:soil-medium-none",
             "name": "Medium fertility soil"
-          },
-          {
-            "slot": "bag-7",
-            "code": "game:honeycomb",
-            "name": "Honeycomb"
           },
           {
             "slot": "bag-8",
