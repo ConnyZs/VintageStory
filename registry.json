@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-125907",
+  "generated": "20260724-130107",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2686,11 +2686,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 189.1,
-        "blocksTravelled": 163623,
-        "blocksBroken": 8354,
-        "blocksPlaced": 5310,
+        "blocksTravelled": 163770,
+        "blocksBroken": 8357,
+        "blocksPlaced": 5316,
         "deepestY": 24,
-        "lastSeen": 1784890707,
+        "lastSeen": 1784890827,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -2794,18 +2794,43 @@
           },
           {
             "slot": "bag-6",
-            "code": "game:sand-andesite",
-            "name": "Andesite sand"
+            "code": "game:daubraw-browngolden",
+            "name": "Raw daub (golden brown)"
           },
           {
             "slot": "bag-7",
-            "code": "game:sand-andesite",
-            "name": "Andesite sand"
+            "code": "game:daubraw-browngolden",
+            "name": "Raw daub (golden brown)"
           },
           {
             "slot": "bag-8",
-            "code": "game:soil-low-none",
-            "name": "Low fertility soil"
+            "code": "game:daubraw-browngolden",
+            "name": "Raw daub (golden brown)"
+          },
+          {
+            "slot": "bag-9",
+            "code": "game:daubraw-browngolden",
+            "name": "Raw daub (golden brown)"
+          },
+          {
+            "slot": "bag-10",
+            "code": "game:daubraw-browngolden",
+            "name": "Raw daub (golden brown)"
+          },
+          {
+            "slot": "bag-11",
+            "code": "game:daubraw-browngolden",
+            "name": "Raw daub (golden brown)"
+          },
+          {
+            "slot": "bag-12",
+            "code": "game:daubraw-browngolden",
+            "name": "Raw daub (golden brown)"
+          },
+          {
+            "slot": "bag-13",
+            "code": "game:daubraw-browngolden",
+            "name": "Raw daub (golden brown)"
           },
           {
             "slot": "bag-17",
