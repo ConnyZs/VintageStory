@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-134310",
+  "generated": "20260724-134510",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2527,12 +2527,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 196.1,
-        "blocksTravelled": 256035,
-        "blocksBroken": 15895,
+        "playtimeHours": 196.2,
+        "blocksTravelled": 256099,
+        "blocksBroken": 15901,
         "blocksPlaced": 5421,
         "deepestY": 23,
-        "lastSeen": 1784893349,
+        "lastSeen": 1784893469,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2666,8 +2666,13 @@
           },
           {
             "slot": "bag-8",
-            "code": "game:metal-scraps",
-            "name": "Metal scraps"
+            "code": "game:stone-andesite",
+            "name": "Andesite stone"
+          },
+          {
+            "slot": "bag-9",
+            "code": "game:fruit-redcurrant",
+            "name": "Redcurrant"
           },
           {
             "slot": "bag-10",
@@ -2675,19 +2680,9 @@
             "name": "Blueberry cutting"
           },
           {
-            "slot": "bag-12",
-            "code": "game:fruit-redcurrant",
-            "name": "Redcurrant"
-          },
-          {
             "slot": "bag-15",
             "code": "game:chest-east",
             "name": "Aged Owl treasure chest"
-          },
-          {
-            "slot": "bag-16",
-            "code": "game:gear-rusty",
-            "name": "Rusty gear"
           },
           {
             "slot": "bag-17",
@@ -2772,12 +2767,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 189.8,
-        "blocksTravelled": 167361,
-        "blocksBroken": 8430,
+        "playtimeHours": 189.9,
+        "blocksTravelled": 167419,
+        "blocksBroken": 8436,
         "blocksPlaced": 5357,
         "deepestY": 24,
-        "lastSeen": 1784893349,
+        "lastSeen": 1784893469,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -2896,13 +2891,13 @@
           },
           {
             "slot": "bag-9",
-            "code": "game:gear-rusty",
-            "name": "Rusty gear"
+            "code": "game:ore-medium-sphalerite-andesite",
+            "name": "Medium chunk of Sphalerite"
           },
           {
             "slot": "bag-10",
-            "code": "game:metal-scraps",
-            "name": "Metal scraps"
+            "code": "game:ore-poor-malachite-limestone",
+            "name": "Poor chunk of Malachite"
           },
           {
             "slot": "bag-11",
@@ -2926,13 +2921,13 @@
           },
           {
             "slot": "bag-15",
-            "code": "game:ore-medium-sphalerite-andesite",
-            "name": "Medium chunk of Sphalerite"
+            "code": "game:torchholder-aged-empty-north",
+            "name": "Aged torch holder"
           },
           {
             "slot": "bag-16",
-            "code": "game:ore-poor-malachite-limestone",
-            "name": "Poor chunk of Malachite"
+            "code": "game:jonasparts-cylinder02",
+            "name": "Jonas part (Temporal alignment node)"
           },
           {
             "slot": "bag-17",
@@ -2940,9 +2935,19 @@
             "name": "Quartz chunk"
           },
           {
+            "slot": "bag-18",
+            "code": "game:nugget-galena",
+            "name": "Nugget (Galena)"
+          },
+          {
             "slot": "bag-19",
             "code": "game:hammer-tinbronze",
             "name": "Tin bronze hammer"
+          },
+          {
+            "slot": "bag-20",
+            "code": "bricklayers:sherds-light",
+            "name": "Light ceramic sherds"
           }
         ],
         "skin": {
