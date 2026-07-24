@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-132909",
+  "generated": "20260724-133109",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2459,9 +2459,9 @@
         "class": "homesteader",
         "deaths": 23,
         "mobKills": 300,
-        "mealsEaten": 305,
-        "caloriesConsumed": 34432,
-        "lastMeal": "Earthy orange ceramic bowl of meat stew",
+        "mealsEaten": 306,
+        "caloriesConsumed": 34512,
+        "lastMeal": "Shiitake",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2508,12 +2508,13 @@
           "Rice grain": 3,
           "Strawberry": 11,
           "Rye grain": 11,
-          "Parsnip": 10
+          "Parsnip": 10,
+          "Shiitake": 1
         },
         "foodCatCounts": {
           "Grain": 59,
           "Protein": 22,
-          "Vegetable": 87,
+          "Vegetable": 88,
           "Fruit": 166,
           "Dairy": 10
         },
@@ -2526,11 +2527,11 @@
           "wolf-eurasian-adult-male": 2
         },
         "playtimeHours": 195.9,
-        "blocksTravelled": 255302,
-        "blocksBroken": 15834,
+        "blocksTravelled": 255530,
+        "blocksBroken": 15835,
         "blocksPlaced": 5405,
         "deepestY": 23,
-        "lastSeen": 1784892513,
+        "lastSeen": 1784892629,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2646,6 +2647,21 @@
             "slot": "bag-4",
             "code": "game:fruit-pear",
             "name": "Pear"
+          },
+          {
+            "slot": "bag-5",
+            "code": "game:fruitingbushcutting-blueberry-free",
+            "name": "Blueberry cutting"
+          },
+          {
+            "slot": "bag-6",
+            "code": "game:fruitingbushcutting-blueberry-free",
+            "name": "Blueberry cutting"
+          },
+          {
+            "slot": "bag-7",
+            "code": "game:fruitingbushcutting-blueberry-free",
+            "name": "Blueberry cutting"
           }
         ],
         "skin": {
@@ -2706,11 +2722,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 189.6,
-        "blocksTravelled": 166492,
-        "blocksBroken": 8387,
+        "blocksTravelled": 166784,
+        "blocksBroken": 8400,
         "blocksPlaced": 5351,
         "deepestY": 24,
-        "lastSeen": 1784892513,
+        "lastSeen": 1784892629,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
