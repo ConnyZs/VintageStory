@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-132509",
+  "generated": "20260724-132709",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2525,12 +2525,12 @@
           "wolf-eurasian-adult-female": 1,
           "wolf-eurasian-adult-male": 2
         },
-        "playtimeHours": 195.8,
-        "blocksTravelled": 254440,
+        "playtimeHours": 195.9,
+        "blocksTravelled": 254811,
         "blocksBroken": 15832,
         "blocksPlaced": 5404,
         "deepestY": 23,
-        "lastSeen": 1784892268,
+        "lastSeen": 1784892388,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2641,6 +2641,11 @@
             "slot": "bag-3",
             "code": "game:seeds-cabbage",
             "name": "Cabbage seeds"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:fruit-pear",
+            "name": "Pear"
           }
         ],
         "skin": {
@@ -2700,12 +2705,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 189.5,
-        "blocksTravelled": 165592,
+        "playtimeHours": 189.6,
+        "blocksTravelled": 165988,
         "blocksBroken": 8387,
         "blocksPlaced": 5351,
         "deepestY": 24,
-        "lastSeen": 1784892268,
+        "lastSeen": 1784892388,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
