@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-152918",
+  "generated": "20260724-153118",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2459,8 +2459,8 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 330,
-        "mealsEaten": 320,
-        "caloriesConsumed": 35712,
+        "mealsEaten": 323,
+        "caloriesConsumed": 35952,
         "lastMeal": "Redcurrant",
         "mealsByName": {
           "Meat pie": 5,
@@ -2476,7 +2476,7 @@
           "Pear pie": 4,
           "Cooked dumplings": 2,
           "Almond mushroom": 1,
-          "Redcurrant": 51,
+          "Redcurrant": 54,
           "Carrot": 5,
           "Field mushroom": 1,
           "Turnip": 6,
@@ -2516,7 +2516,7 @@
           "Grain": 59,
           "Protein": 22,
           "Vegetable": 92,
-          "Fruit": 176,
+          "Fruit": 179,
           "Dairy": 10
         },
         "deathCauses": {
@@ -2529,11 +2529,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 197.9,
-        "blocksTravelled": 267030,
-        "blocksBroken": 16370,
+        "blocksTravelled": 267358,
+        "blocksBroken": 16381,
         "blocksPlaced": 5600,
         "deepestY": 23,
-        "lastSeen": 1784899713,
+        "lastSeen": 1784899833,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
