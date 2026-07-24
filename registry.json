@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-143714",
+  "generated": "20260724-143914",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2528,12 +2528,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 197.0,
-        "blocksTravelled": 262507,
+        "playtimeHours": 197.1,
+        "blocksTravelled": 262634,
         "blocksBroken": 16047,
         "blocksPlaced": 5489,
         "deepestY": 23,
-        "lastSeen": 1784896591,
+        "lastSeen": 1784896742,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2667,9 +2667,19 @@
             "name": "Fluorite"
           },
           {
+            "slot": "bag-8",
+            "code": "game:chest-east",
+            "name": "Aged wooden chest"
+          },
+          {
             "slot": "bag-9",
             "code": "game:fruit-pear",
             "name": "Pear"
+          },
+          {
+            "slot": "bag-10",
+            "code": "game:crate",
+            "name": "Aged crate (closed)"
           },
           {
             "slot": "bag-11",
@@ -2683,8 +2693,8 @@
           },
           {
             "slot": "bag-13",
-            "code": "game:jonasparts-valve01",
-            "name": "Jonas part (Alternate injection valve )"
+            "code": "game:lore-scroll",
+            "name": "Scroll"
           },
           {
             "slot": "bag-14",
@@ -2703,19 +2713,20 @@
             "name": "Lead ingot"
           },
           {
-            "slot": "bag-19",
-            "code": "game:metal-parts",
-            "name": "Metal parts"
+            "slot": "bag-17",
+            "code": "game:hoe-copper",
+            "name": "Copper hoe"
+          },
+          {
+            "slot": "bag-18",
+            "code": "game:clothes-shoulder-owlponcho",
+            "name": "Owl poncho",
+            "icon": "character/icons/shoulder-owlponcho.png"
           },
           {
             "slot": "bag-20",
-            "code": "game:metal-scraps",
-            "name": "Metal scraps"
-          },
-          {
-            "slot": "bag-23",
-            "code": "game:hoe-copper",
-            "name": "Copper hoe"
+            "code": "game:clothes-arm-rusty-wrist-manacles",
+            "name": "Rusty wrist manacles"
           }
         ],
         "skin": {
@@ -2775,12 +2786,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 190.7,
-        "blocksTravelled": 172336,
+        "playtimeHours": 190.8,
+        "blocksTravelled": 172405,
         "blocksBroken": 8513,
         "blocksPlaced": 5383,
         "deepestY": 24,
-        "lastSeen": 1784896591,
+        "lastSeen": 1784896742,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -2889,6 +2900,11 @@
             "name": "Phosphorite"
           },
           {
+            "slot": "bag-6",
+            "code": "game:saltpeter",
+            "name": "Saltpeter"
+          },
+          {
             "slot": "bag-7",
             "code": "game:storagevessel-blue-fired",
             "name": "Earthy brown ceramic storage vessel"
@@ -2915,6 +2931,11 @@
             "icon": "character/icons/face-marketeer.png"
           },
           {
+            "slot": "bag-12",
+            "code": "game:fruit-blackcurrant",
+            "name": "Blackcurrant"
+          },
+          {
             "slot": "bag-13",
             "code": "game:rope",
             "name": "Coil of rope"
@@ -2925,24 +2946,14 @@
             "name": "Nugget (Native gold)"
           },
           {
-            "slot": "bag-15",
-            "code": "game:clothes-arm-rusty-wrist-manacles",
-            "name": "Rusty wrist manacles"
-          },
-          {
             "slot": "bag-16",
-            "code": "game:jonasparts-connector01",
-            "name": "Jonas part (Flux gap connector)"
+            "code": "game:fruit-blueberry",
+            "name": "Blueberry"
           },
           {
             "slot": "bag-17",
             "code": "game:soil-medium-none",
             "name": "Medium fertility soil"
-          },
-          {
-            "slot": "bag-18",
-            "code": "game:clothes-foot-rusty-ankle-manacles",
-            "name": "Rusty manacles"
           },
           {
             "slot": "bag-19",
@@ -2958,6 +2969,11 @@
             "slot": "bag-21",
             "code": "game:attachingplant-sparsemold",
             "name": "Mold layer (sparse)"
+          },
+          {
+            "slot": "bag-22",
+            "code": "game:fruit-redcurrant",
+            "name": "Redcurrant"
           },
           {
             "slot": "bag-23",
