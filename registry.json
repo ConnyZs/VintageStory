@@ -1,5 +1,5 @@
 {
-  "generated": "20260724-142713",
+  "generated": "20260724-142913",
   "game_version": "1.22.3",
   "check_ts": "20260722-200056",
   "latest_engine": "1.22.5",
@@ -2529,11 +2529,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 196.9,
-        "blocksTravelled": 260639,
+        "blocksTravelled": 261215,
         "blocksBroken": 16047,
         "blocksPlaced": 5485,
         "deepestY": 23,
-        "lastSeen": 1784895991,
+        "lastSeen": 1784896138,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2812,11 +2812,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 190.6,
-        "blocksTravelled": 170591,
-        "blocksBroken": 8494,
+        "blocksTravelled": 171124,
+        "blocksBroken": 8513,
         "blocksPlaced": 5381,
         "deepestY": 24,
-        "lastSeen": 1784895991,
+        "lastSeen": 1784896138,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
