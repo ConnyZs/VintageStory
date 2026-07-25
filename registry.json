@@ -1,5 +1,5 @@
 {
-  "generated": "20260725-205636",
+  "generated": "20260725-205836",
   "game_version": "1.22.3",
   "check_ts": "20260724-200056",
   "latest_engine": "1.22.5",
@@ -2095,13 +2095,13 @@
         "class": "tinker",
         "deaths": 7,
         "mobKills": 86,
-        "mealsEaten": 41,
-        "caloriesConsumed": 15874,
+        "mealsEaten": 43,
+        "caloriesConsumed": 17370,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Pear": 3,
           "Meat pie": 5,
-          "Earthy orange ceramic bowl of meat stew": 12,
+          "Earthy orange ceramic bowl of meat stew": 14,
           "Strawberry": 2,
           "Blackcurrant": 3,
           "Rye bread": 1,
@@ -2114,8 +2114,8 @@
         "foodCatCounts": {
           "Fruit": 21,
           "Grain": 13,
-          "Protein": 20,
-          "Vegetable": 12,
+          "Protein": 22,
+          "Vegetable": 14,
           "Dairy": 8
         },
         "deathCauses": {
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 97.5,
-        "blocksTravelled": 157262,
+        "blocksTravelled": 157510,
         "blocksBroken": 7603,
         "blocksPlaced": 454,
         "deepestY": 1,
-        "lastSeen": 1785005689,
+        "lastSeen": 1785005813,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2473,10 +2473,10 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 396,
-        "mealsEaten": 393,
-        "caloriesConsumed": 41290,
-        "lastMeal": "Blackberry",
+        "mobKills": 399,
+        "mealsEaten": 400,
+        "caloriesConsumed": 41820,
+        "lastMeal": "Fennel",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2506,7 +2506,7 @@
           "Chanterelle": 1,
           "Black trumpet": 1,
           "Witch's hat": 1,
-          "Blackberry": 11,
+          "Blackberry": 17,
           "Red wine cap": 6,
           "Honeycomb": 2,
           "Green cracked russula": 11,
@@ -2515,7 +2515,7 @@
           "Green grapes": 30,
           "King bolete": 2,
           "Chicken of the woods": 2,
-          "Fennel": 2,
+          "Fennel": 3,
           "Gold-drop milkcap": 1,
           "Red grapes": 34,
           "Whitecurrant": 3,
@@ -2531,8 +2531,8 @@
         "foodCatCounts": {
           "Grain": 72,
           "Protein": 23,
-          "Vegetable": 93,
-          "Fruit": 235,
+          "Vegetable": 94,
+          "Fruit": 241,
           "Dairy": 10
         },
         "deathCauses": {
@@ -2545,11 +2545,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 220.9,
-        "blocksTravelled": 298079,
-        "blocksBroken": 17092,
-        "blocksPlaced": 6198,
+        "blocksTravelled": 298748,
+        "blocksBroken": 17096,
+        "blocksPlaced": 6205,
         "deepestY": 1,
-        "lastSeen": 1785005689,
+        "lastSeen": 1785005813,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
