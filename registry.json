@@ -1,5 +1,5 @@
 {
-  "generated": "20260725-224043",
+  "generated": "20260725-224243",
   "game_version": "1.22.3",
   "check_ts": "20260724-200056",
   "latest_engine": "1.22.5",
@@ -2124,12 +2124,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 99.2,
-        "blocksTravelled": 159468,
+        "playtimeHours": 99.3,
+        "blocksTravelled": 159540,
         "blocksBroken": 7605,
         "blocksPlaced": 456,
         "deepestY": 1,
-        "lastSeen": 1785011933,
+        "lastSeen": 1785012157,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2544,12 +2544,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 222.6,
-        "blocksTravelled": 310473,
+        "playtimeHours": 222.7,
+        "blocksTravelled": 310797,
         "blocksBroken": 17905,
         "blocksPlaced": 7255,
         "deepestY": 1,
-        "lastSeen": 1785011933,
+        "lastSeen": 1785012157,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2658,11 +2658,6 @@
           },
           {
             "slot": "bag-3",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-4",
             "code": "game:backpack-normal",
             "name": "Leather backpack"
           }
