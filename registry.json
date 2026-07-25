@@ -1,5 +1,5 @@
 {
-  "generated": "20260725-193831",
+  "generated": "20260725-194031",
   "game_version": "1.22.3",
   "check_ts": "20260724-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 96.2,
-        "blocksTravelled": 153221,
+        "blocksTravelled": 153950,
         "blocksBroken": 7507,
         "blocksPlaced": 450,
         "deepestY": 1,
-        "lastSeen": 1785001006,
+        "lastSeen": 1785001126,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2473,7 +2473,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 367,
+        "mobKills": 369,
         "mealsEaten": 353,
         "caloriesConsumed": 38090,
         "lastMeal": "Red grapes",
@@ -2545,11 +2545,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 219.6,
-        "blocksTravelled": 288657,
-        "blocksBroken": 16987,
-        "blocksPlaced": 6176,
+        "blocksTravelled": 288682,
+        "blocksBroken": 16988,
+        "blocksPlaced": 6179,
         "deepestY": 1,
-        "lastSeen": 1785001006,
+        "lastSeen": 1785001126,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
