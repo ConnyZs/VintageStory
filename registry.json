@@ -1,5 +1,5 @@
 {
-  "generated": "20260725-205236",
+  "generated": "20260725-205436",
   "game_version": "1.22.3",
   "check_ts": "20260724-200056",
   "latest_engine": "1.22.5",
@@ -2124,12 +2124,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 97.4,
-        "blocksTravelled": 157209,
+        "playtimeHours": 97.5,
+        "blocksTravelled": 157212,
         "blocksBroken": 7603,
         "blocksPlaced": 454,
         "deepestY": 1,
-        "lastSeen": 1785005511,
+        "lastSeen": 1785005569,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2474,9 +2474,9 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 396,
-        "mealsEaten": 383,
-        "caloriesConsumed": 40490,
-        "lastMeal": "Strawberry",
+        "mealsEaten": 393,
+        "caloriesConsumed": 41290,
+        "lastMeal": "Blackberry",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2506,7 +2506,7 @@
           "Chanterelle": 1,
           "Black trumpet": 1,
           "Witch's hat": 1,
-          "Blackberry": 6,
+          "Blackberry": 11,
           "Red wine cap": 6,
           "Honeycomb": 2,
           "Green cracked russula": 11,
@@ -2521,7 +2521,7 @@
           "Whitecurrant": 3,
           "Bearded tooth": 5,
           "Rice grain": 3,
-          "Strawberry": 25,
+          "Strawberry": 30,
           "Rye grain": 11,
           "Parsnip": 10,
           "Shiitake": 1,
@@ -2532,7 +2532,7 @@
           "Grain": 72,
           "Protein": 23,
           "Vegetable": 93,
-          "Fruit": 225,
+          "Fruit": 235,
           "Dairy": 10
         },
         "deathCauses": {
@@ -2545,11 +2545,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 220.8,
-        "blocksTravelled": 297495,
+        "blocksTravelled": 297845,
         "blocksBroken": 17054,
         "blocksPlaced": 6196,
         "deepestY": 1,
-        "lastSeen": 1785005511,
+        "lastSeen": 1785005569,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
