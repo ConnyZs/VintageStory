@@ -1,5 +1,5 @@
 {
-  "generated": "20260725-224443",
+  "generated": "20260725-224643",
   "game_version": "1.22.3",
   "check_ts": "20260724-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 99.3,
-        "blocksTravelled": 159541,
-        "blocksBroken": 7605,
+        "blocksTravelled": 159623,
+        "blocksBroken": 7606,
         "blocksPlaced": 456,
         "deepestY": 1,
-        "lastSeen": 1785012174,
+        "lastSeen": 1785012294,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2473,7 +2473,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 422,
+        "mobKills": 423,
         "mealsEaten": 463,
         "caloriesConsumed": 46590,
         "lastMeal": "Redcurrant",
@@ -2545,11 +2545,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 222.7,
-        "blocksTravelled": 310801,
-        "blocksBroken": 17905,
+        "blocksTravelled": 310891,
+        "blocksBroken": 17908,
         "blocksPlaced": 7255,
         "deepestY": 1,
-        "lastSeen": 1785012174,
+        "lastSeen": 1785012294,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2647,19 +2647,14 @@
             "name": "Black bear hide body armor"
           },
           {
-            "slot": "bag-1",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-2",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
             "slot": "bag-3",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "code": "butchering:deadwolf-male-eurasian-10-dead",
+            "name": "Wolf (dead)"
+          },
+          {
+            "slot": "bag-4",
+            "code": "butchering:deaddeer-male-adultlarge-1-dead",
+            "name": "Large Deer (dead)"
           }
         ],
         "skin": {
