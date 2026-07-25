@@ -1,5 +1,5 @@
 {
-  "generated": "20260725-201033",
+  "generated": "20260725-201233",
   "game_version": "1.22.3",
   "check_ts": "20260724-200056",
   "latest_engine": "1.22.5",
@@ -2087,7 +2087,7 @@
       "name": "Raschuetzer",
       "role": "admin",
       "first_join": "04/22/2026 17:47",
-      "last_join": "07/25/2026 16:20",
+      "last_join": "07/25/2026 18:11",
       "last_char": "04/29/2026 21:30",
       "stats": {
         "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
@@ -2124,12 +2124,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 96.7,
-        "blocksTravelled": 156275,
+        "playtimeHours": 96.8,
+        "blocksTravelled": 156276,
         "blocksBroken": 7603,
         "blocksPlaced": 453,
         "deepestY": 1,
-        "lastSeen": 1785002927,
+        "lastSeen": 1785003106,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2473,7 +2473,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 376,
+        "mobKills": 386,
         "mealsEaten": 369,
         "caloriesConsumed": 39370,
         "lastMeal": "Red grapes",
@@ -2545,11 +2545,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 220.1,
-        "blocksTravelled": 292755,
-        "blocksBroken": 17002,
+        "blocksTravelled": 292965,
+        "blocksBroken": 17008,
         "blocksPlaced": 6189,
         "deepestY": 1,
-        "lastSeen": 1785002927,
+        "lastSeen": 1785003094,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
