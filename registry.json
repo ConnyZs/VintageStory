@@ -1,5 +1,5 @@
 {
-  "generated": "20260725-222842",
+  "generated": "20260725-223042",
   "game_version": "1.22.3",
   "check_ts": "20260724-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 99.0,
-        "blocksTravelled": 159448,
+        "blocksTravelled": 159457,
         "blocksBroken": 7605,
         "blocksPlaced": 456,
         "deepestY": 1,
-        "lastSeen": 1785011250,
+        "lastSeen": 1785011333,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2545,11 +2545,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 222.4,
-        "blocksTravelled": 309369,
+        "blocksTravelled": 309514,
         "blocksBroken": 17904,
         "blocksPlaced": 7255,
         "deepestY": 1,
-        "lastSeen": 1785011250,
+        "lastSeen": 1785011333,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2658,13 +2658,8 @@
           },
           {
             "slot": "bag-3",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-4",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "code": "butchering:butcherybag-standard",
+            "name": "Hide Butchering Bag"
           }
         ],
         "skin": {
