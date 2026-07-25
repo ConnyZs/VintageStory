@@ -1,5 +1,5 @@
 {
-  "generated": "20260725-201433",
+  "generated": "20260725-201634",
   "game_version": "1.22.3",
   "check_ts": "20260724-200056",
   "latest_engine": "1.22.5",
@@ -2129,7 +2129,7 @@
         "blocksBroken": 7603,
         "blocksPlaced": 453,
         "deepestY": 1,
-        "lastSeen": 1785003167,
+        "lastSeen": 1785003287,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2473,9 +2473,9 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 389,
-        "mealsEaten": 369,
-        "caloriesConsumed": 39370,
+        "mobKills": 395,
+        "mealsEaten": 379,
+        "caloriesConsumed": 40170,
         "lastMeal": "Red grapes",
         "mealsByName": {
           "Meat pie": 5,
@@ -2517,7 +2517,7 @@
           "Chicken of the woods": 2,
           "Fennel": 2,
           "Gold-drop milkcap": 1,
-          "Red grapes": 24,
+          "Red grapes": 34,
           "Whitecurrant": 3,
           "Bearded tooth": 5,
           "Rice grain": 3,
@@ -2532,7 +2532,7 @@
           "Grain": 72,
           "Protein": 23,
           "Vegetable": 93,
-          "Fruit": 211,
+          "Fruit": 221,
           "Dairy": 10
         },
         "deathCauses": {
@@ -2545,11 +2545,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 220.2,
-        "blocksTravelled": 292986,
-        "blocksBroken": 17012,
+        "blocksTravelled": 293035,
+        "blocksBroken": 17019,
         "blocksPlaced": 6189,
         "deepestY": 1,
-        "lastSeen": 1785003167,
+        "lastSeen": 1785003287,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
