@@ -1,5 +1,5 @@
 {
-  "generated": "20260725-225844",
+  "generated": "20260725-230044",
   "game_version": "1.22.3",
   "check_ts": "20260724-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 99.5,
-        "blocksTravelled": 159798,
+        "blocksTravelled": 159803,
         "blocksBroken": 7606,
         "blocksPlaced": 456,
         "deepestY": 1,
-        "lastSeen": 1785013063,
+        "lastSeen": 1785013134,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2545,50 +2545,61 @@
           "shiver-surface": 1
         },
         "playtimeHours": 222.9,
-        "blocksTravelled": 311164,
+        "blocksTravelled": 311175,
         "blocksBroken": 17912,
         "blocksPlaced": 7255,
         "deepestY": 1,
-        "lastSeen": 1785013063,
+        "lastSeen": 1785013134,
         "gear": [
-          "Jester cowl",
-          "Acrobat capelet",
-          "Acrobat bolero",
-          "Messenger trousers",
-          "Rusty manacles",
+          "Rotwalker cape",
+          "Tattered crimson tunic",
+          "Nomad trousers",
+          "Wool lined knee-high boots",
+          "Survivor gloves",
+          "Rotten king collar",
           "Prince emblem",
-          "Forgotten noble mask",
-          "Rusty wrist manacles",
-          "Traveler's earthrobe"
+          "Crow mask",
+          "Heavy tool belt",
+          "Leather bracers",
+          "Rotwalker coat",
+          "Black bear hide helmet",
+          "Black bear hide body armor"
         ],
         "gearDetail": [
           {
-            "slot": "head",
-            "code": "game:clothes-head-jester",
-            "name": "Jester cowl"
-          },
-          {
             "slot": "shoulder",
-            "code": "game:clothes-shoulder-acrobat",
-            "name": "Acrobat capelet",
-            "icon": "character/icons/shoulder-acrobat.png"
+            "code": "game:clothes-shoulder-rotwalker",
+            "name": "Rotwalker cape",
+            "icon": "character/icons/shoulder-rotwalker.png"
           },
           {
             "slot": "upperbody",
-            "code": "game:clothes-upperbody-acrobat",
-            "name": "Acrobat bolero",
-            "icon": "character/icons/upperbody-acrobat.png"
+            "code": "game:clothes-upperbody-tattered-crimson-tunic",
+            "name": "Tattered crimson tunic",
+            "icon": "character/icons/upperbody-tattered-crimson-tunic.png"
           },
           {
             "slot": "lowerbody",
-            "code": "game:clothes-lowerbody-messenger-trousers",
-            "name": "Messenger trousers",
-            "icon": "character/icons/lowerbody-messenger-trousers.png"
+            "code": "game:clothes-lowerbody-nomad-trousers",
+            "name": "Nomad trousers",
+            "icon": "character/icons/lowerbody-nomad-trousers.png"
           },
           {
             "slot": "foot",
-            "code": "game:clothes-foot-rusty-ankle-manacles",
-            "name": "Rusty manacles"
+            "code": "game:clothes-foot-wool-lined-knee-high-boots",
+            "name": "Wool lined knee-high boots",
+            "icon": "character/icons/foot-wool-lined-knee-high-boots.png"
+          },
+          {
+            "slot": "hand",
+            "code": "game:clothes-hand-survivor",
+            "name": "Survivor gloves",
+            "icon": "character/icons/hand-survivor.png"
+          },
+          {
+            "slot": "neck",
+            "code": "game:clothes-neck-rottenking",
+            "name": "Rotten king collar"
           },
           {
             "slot": "emblem",
@@ -2597,20 +2608,37 @@
           },
           {
             "slot": "face",
-            "code": "game:clothes-face-forgotten",
-            "name": "Forgotten noble mask",
-            "icon": "character/icons/face-forgotten.png"
+            "code": "game:clothes-face-crow",
+            "name": "Crow mask",
+            "icon": "character/icons/face-crow.png"
+          },
+          {
+            "slot": "waist",
+            "code": "game:clothes-waist-heavy-tool-belt",
+            "name": "Heavy tool belt",
+            "icon": "character/icons/waist-heavy-tool-belt.png"
           },
           {
             "slot": "arm",
-            "code": "game:clothes-arm-rusty-wrist-manacles",
-            "name": "Rusty wrist manacles"
+            "code": "game:clothes-arm-leather-bracers",
+            "name": "Leather bracers",
+            "icon": "character/icons/arm-leather-bracers.png"
           },
           {
             "slot": "upperbodyover",
-            "code": "game:clothes-upperbodyover-travelers-earthrobe",
-            "name": "Traveler's earthrobe",
-            "icon": "character/icons/upperbodyover-travelers-earthrobe.png"
+            "code": "game:clothes-upperbodyover-rotwalker",
+            "name": "Rotwalker coat",
+            "icon": "character/icons/upperbodyover-rotwalker.png"
+          },
+          {
+            "slot": "armorhead",
+            "code": "game:armor-head-hide-bear-black",
+            "name": "Black bear hide helmet"
+          },
+          {
+            "slot": "armorbody",
+            "code": "game:armor-body-hide-bear-black",
+            "name": "Black bear hide body armor"
           },
           {
             "slot": "bag-1",
