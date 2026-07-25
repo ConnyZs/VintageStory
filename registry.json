@@ -1,5 +1,5 @@
 {
-  "generated": "20260725-210837",
+  "generated": "20260725-211037",
   "game_version": "1.22.3",
   "check_ts": "20260724-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 97.7,
-        "blocksTravelled": 157936,
+        "blocksTravelled": 158179,
         "blocksBroken": 7603,
         "blocksPlaced": 454,
         "deepestY": 1,
-        "lastSeen": 1785006417,
+        "lastSeen": 1785006530,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2473,10 +2473,10 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 418,
-        "mealsEaten": 412,
-        "caloriesConsumed": 42510,
-        "lastMeal": "Fennel",
+        "mobKills": 419,
+        "mealsEaten": 416,
+        "caloriesConsumed": 42830,
+        "lastMeal": "Red wine cap",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2507,7 +2507,7 @@
           "Black trumpet": 1,
           "Witch's hat": 1,
           "Blackberry": 20,
-          "Red wine cap": 6,
+          "Red wine cap": 10,
           "Honeycomb": 2,
           "Green cracked russula": 11,
           "Violet web cap": 2,
@@ -2531,7 +2531,7 @@
         "foodCatCounts": {
           "Grain": 72,
           "Protein": 23,
-          "Vegetable": 103,
+          "Vegetable": 107,
           "Fruit": 244,
           "Dairy": 10
         },
@@ -2545,11 +2545,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 221.1,
-        "blocksTravelled": 299818,
-        "blocksBroken": 17131,
+        "blocksTravelled": 299933,
+        "blocksBroken": 17134,
         "blocksPlaced": 6206,
         "deepestY": 1,
-        "lastSeen": 1785006417,
+        "lastSeen": 1785006530,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
