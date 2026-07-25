@@ -1,5 +1,5 @@
 {
-  "generated": "20260725-225043",
+  "generated": "20260725-225243",
   "game_version": "1.22.3",
   "check_ts": "20260724-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 99.4,
-        "blocksTravelled": 159689,
+        "blocksTravelled": 159723,
         "blocksBroken": 7606,
         "blocksPlaced": 456,
         "deepestY": 1,
-        "lastSeen": 1785012534,
+        "lastSeen": 1785012761,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2545,106 +2545,19 @@
           "shiver-surface": 1
         },
         "playtimeHours": 222.8,
-        "blocksTravelled": 310984,
+        "blocksTravelled": 311054,
         "blocksBroken": 17912,
         "blocksPlaced": 7255,
         "deepestY": 1,
-        "lastSeen": 1785012534,
+        "lastSeen": 1785012761,
         "gear": [
-          "Bycocket",
-          "Rotwalker cape",
-          "Tattered crimson tunic",
-          "Nomad trousers",
-          "Wool lined knee-high boots",
-          "Survivor gloves",
-          "Rotten king collar",
-          "Prince emblem",
-          "Crow mask",
-          "Heavy tool belt",
-          "Leather bracers",
-          "Rotwalker coat",
-          "Black bear hide helmet",
-          "Black bear hide body armor"
+          "Prince emblem"
         ],
         "gearDetail": [
-          {
-            "slot": "head",
-            "code": "game:clothes-head-bycocket",
-            "name": "Bycocket"
-          },
-          {
-            "slot": "shoulder",
-            "code": "game:clothes-shoulder-rotwalker",
-            "name": "Rotwalker cape",
-            "icon": "character/icons/shoulder-rotwalker.png"
-          },
-          {
-            "slot": "upperbody",
-            "code": "game:clothes-upperbody-tattered-crimson-tunic",
-            "name": "Tattered crimson tunic",
-            "icon": "character/icons/upperbody-tattered-crimson-tunic.png"
-          },
-          {
-            "slot": "lowerbody",
-            "code": "game:clothes-lowerbody-nomad-trousers",
-            "name": "Nomad trousers",
-            "icon": "character/icons/lowerbody-nomad-trousers.png"
-          },
-          {
-            "slot": "foot",
-            "code": "game:clothes-foot-wool-lined-knee-high-boots",
-            "name": "Wool lined knee-high boots",
-            "icon": "character/icons/foot-wool-lined-knee-high-boots.png"
-          },
-          {
-            "slot": "hand",
-            "code": "game:clothes-hand-survivor",
-            "name": "Survivor gloves",
-            "icon": "character/icons/hand-survivor.png"
-          },
-          {
-            "slot": "neck",
-            "code": "game:clothes-neck-rottenking",
-            "name": "Rotten king collar"
-          },
           {
             "slot": "emblem",
             "code": "game:clothes-emblem-royal-pin",
             "name": "Prince emblem"
-          },
-          {
-            "slot": "face",
-            "code": "game:clothes-face-crow",
-            "name": "Crow mask",
-            "icon": "character/icons/face-crow.png"
-          },
-          {
-            "slot": "waist",
-            "code": "game:clothes-waist-heavy-tool-belt",
-            "name": "Heavy tool belt",
-            "icon": "character/icons/waist-heavy-tool-belt.png"
-          },
-          {
-            "slot": "arm",
-            "code": "game:clothes-arm-leather-bracers",
-            "name": "Leather bracers",
-            "icon": "character/icons/arm-leather-bracers.png"
-          },
-          {
-            "slot": "upperbodyover",
-            "code": "game:clothes-upperbodyover-rotwalker",
-            "name": "Rotwalker coat",
-            "icon": "character/icons/upperbodyover-rotwalker.png"
-          },
-          {
-            "slot": "armorhead",
-            "code": "game:armor-head-hide-bear-black",
-            "name": "Black bear hide helmet"
-          },
-          {
-            "slot": "armorbody",
-            "code": "game:armor-body-hide-bear-black",
-            "name": "Black bear hide body armor"
           },
           {
             "slot": "bag-1",

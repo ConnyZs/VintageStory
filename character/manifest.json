@@ -54,23 +54,10 @@
     "mustache",
     "beard",
     "facialexpression",
-    "Bycocket",
-    "Rotwalker cape",
-    "Rotwalker cape",
-    "Tattered crimson tunic",
-    "Nomad trousers",
-    "Wool lined knee-high boots",
-    "Survivor gloves",
-    "Rotten king collar",
-    "Prince emblem",
-    "Crow mask",
-    "Heavy tool belt",
-    "Leather bracers",
-    "Rotwalker coat",
-    "Rotwalker coat"
+    "Prince emblem"
    ],
    "frames": 16,
-   "v": 1785012546
+   "v": 1785012779
   },
   "Moritz": {
    "class": "mason",
