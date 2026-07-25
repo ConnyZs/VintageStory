@@ -1,5 +1,5 @@
 {
-  "generated": "20260725-212238",
+  "generated": "20260725-212438",
   "game_version": "1.22.3",
   "check_ts": "20260724-200056",
   "latest_engine": "1.22.5",
@@ -2124,12 +2124,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 97.9,
-        "blocksTravelled": 158673,
+        "playtimeHours": 98.0,
+        "blocksTravelled": 158792,
         "blocksBroken": 7604,
         "blocksPlaced": 456,
         "deepestY": 1,
-        "lastSeen": 1785007323,
+        "lastSeen": 1785007371,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2474,9 +2474,9 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 419,
-        "mealsEaten": 434,
-        "caloriesConsumed": 44270,
-        "lastMeal": "Strawberry",
+        "mealsEaten": 449,
+        "caloriesConsumed": 45470,
+        "lastMeal": "Puffball",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2495,7 +2495,7 @@
           "Carrot": 5,
           "Field mushroom": 1,
           "Turnip": 6,
-          "Puffball": 4,
+          "Puffball": 19,
           "Tinder hoof": 3,
           "Raspberry": 6,
           "Flax grain": 30,
@@ -2531,7 +2531,7 @@
         "foodCatCounts": {
           "Grain": 72,
           "Protein": 23,
-          "Vegetable": 112,
+          "Vegetable": 127,
           "Fruit": 257,
           "Dairy": 10
         },
@@ -2545,11 +2545,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 221.3,
-        "blocksTravelled": 302381,
+        "blocksTravelled": 302525,
         "blocksBroken": 17160,
         "blocksPlaced": 6240,
         "deepestY": 1,
-        "lastSeen": 1785007323,
+        "lastSeen": 1785007371,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
