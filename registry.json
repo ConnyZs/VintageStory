@@ -1,5 +1,5 @@
 {
-  "generated": "20260725-182026",
+  "generated": "20260725-182226",
   "game_version": "1.22.3",
   "check_ts": "20260724-200056",
   "latest_engine": "1.22.5",
@@ -2087,7 +2087,7 @@
       "name": "Raschuetzer",
       "role": "admin",
       "first_join": "04/22/2026 17:47",
-      "last_join": "07/24/2026 18:45",
+      "last_join": "07/25/2026 16:20",
       "last_char": "04/29/2026 21:30",
       "stats": {
         "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
@@ -2124,12 +2124,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 73.3,
-        "blocksTravelled": 148753,
+        "playtimeHours": 94.9,
+        "blocksTravelled": 148754,
         "blocksBroken": 6448,
         "blocksPlaced": 423,
         "deepestY": 18,
-        "lastSeen": 1784918792,
+        "lastSeen": 1784996452,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2466,7 +2466,7 @@
       "name": "AddyBuschu",
       "role": "admin",
       "first_join": "04/22/2026 17:55",
-      "last_join": "07/25/2026 15:50",
+      "last_join": "07/25/2026 16:19",
       "last_char": "04/25/2026 15:34",
       "stats": {
         "uid": "MT3maN90oN2gwGyklJR20Gu1",
@@ -2474,13 +2474,13 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 353,
-        "mealsEaten": 323,
-        "caloriesConsumed": 35952,
-        "lastMeal": "Redcurrant",
+        "mealsEaten": 324,
+        "caloriesConsumed": 36070,
+        "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
-          "Earthy orange ceramic bowl of meat stew": 11,
+          "Earthy orange ceramic bowl of meat stew": 12,
           "Blueberry": 16,
           "Pear pie (charred)": 1,
           "Rye bread": 1,
@@ -2529,8 +2529,8 @@
         },
         "foodCatCounts": {
           "Grain": 59,
-          "Protein": 22,
-          "Vegetable": 92,
+          "Protein": 23,
+          "Vegetable": 93,
           "Fruit": 179,
           "Dairy": 10
         },
@@ -2544,11 +2544,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 218.3,
-        "blocksTravelled": 278031,
+        "blocksTravelled": 278108,
         "blocksBroken": 16809,
         "blocksPlaced": 5905,
         "deepestY": 1,
-        "lastSeen": 1784996420,
+        "lastSeen": 1784996449,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
