@@ -1,5 +1,5 @@
 {
-  "generated": "20260725-224643",
+  "generated": "20260725-224843",
   "game_version": "1.22.3",
   "check_ts": "20260724-200056",
   "latest_engine": "1.22.5",
@@ -2124,12 +2124,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 99.3,
-        "blocksTravelled": 159623,
+        "playtimeHours": 99.4,
+        "blocksTravelled": 159685,
         "blocksBroken": 7606,
         "blocksPlaced": 456,
         "deepestY": 1,
-        "lastSeen": 1785012294,
+        "lastSeen": 1785012459,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2545,11 +2545,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 222.7,
-        "blocksTravelled": 310891,
-        "blocksBroken": 17908,
+        "blocksTravelled": 310952,
+        "blocksBroken": 17912,
         "blocksPlaced": 7255,
         "deepestY": 1,
-        "lastSeen": 1785012294,
+        "lastSeen": 1785012459,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2647,14 +2647,24 @@
             "name": "Black bear hide body armor"
           },
           {
+            "slot": "bag-1",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
             "slot": "bag-3",
-            "code": "butchering:deadwolf-male-eurasian-10-dead",
-            "name": "Wolf (dead)"
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           },
           {
             "slot": "bag-4",
-            "code": "butchering:deaddeer-male-adultlarge-1-dead",
-            "name": "Large Deer (dead)"
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           }
         ],
         "skin": {
