@@ -1,5 +1,5 @@
 {
-  "generated": "20260725-231044",
+  "generated": "20260725-231245",
   "game_version": "1.22.3",
   "check_ts": "20260724-200056",
   "latest_engine": "1.22.5",
@@ -2129,7 +2129,7 @@
         "blocksBroken": 7606,
         "blocksPlaced": 456,
         "deepestY": 1,
-        "lastSeen": 1785013734,
+        "lastSeen": 1785013854,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2545,11 +2545,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 223.1,
-        "blocksTravelled": 311854,
+        "blocksTravelled": 311955,
         "blocksBroken": 17912,
         "blocksPlaced": 7255,
         "deepestY": 1,
-        "lastSeen": 1785013734,
+        "lastSeen": 1785013854,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
