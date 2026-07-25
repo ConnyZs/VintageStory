@@ -1,5 +1,5 @@
 {
-  "generated": "20260725-211837",
+  "generated": "20260725-212037",
   "game_version": "1.22.3",
   "check_ts": "20260724-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 97.9,
-        "blocksTravelled": 158440,
+        "blocksTravelled": 158597,
         "blocksBroken": 7604,
-        "blocksPlaced": 455,
+        "blocksPlaced": 456,
         "deepestY": 1,
-        "lastSeen": 1785007021,
+        "lastSeen": 1785007130,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2474,9 +2474,9 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 419,
-        "mealsEaten": 419,
-        "caloriesConsumed": 43070,
-        "lastMeal": "Green cracked russula",
+        "mealsEaten": 430,
+        "caloriesConsumed": 43950,
+        "lastMeal": "Green grapes",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
@@ -2507,12 +2507,12 @@
           "Black trumpet": 1,
           "Witch's hat": 1,
           "Blackberry": 20,
-          "Red wine cap": 10,
+          "Red wine cap": 13,
           "Honeycomb": 2,
           "Green cracked russula": 13,
           "Violet web cap": 2,
           "Liberty cap": 1,
-          "Green grapes": 30,
+          "Green grapes": 38,
           "King bolete": 2,
           "Chicken of the woods": 2,
           "Fennel": 12,
@@ -2531,8 +2531,8 @@
         "foodCatCounts": {
           "Grain": 72,
           "Protein": 23,
-          "Vegetable": 109,
-          "Fruit": 245,
+          "Vegetable": 112,
+          "Fruit": 253,
           "Dairy": 10
         },
         "deathCauses": {
@@ -2544,12 +2544,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 221.2,
-        "blocksTravelled": 301552,
+        "playtimeHours": 221.3,
+        "blocksTravelled": 301989,
         "blocksBroken": 17160,
         "blocksPlaced": 6240,
         "deepestY": 1,
-        "lastSeen": 1785007021,
+        "lastSeen": 1785007130,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
