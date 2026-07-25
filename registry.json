@@ -1,5 +1,5 @@
 {
-  "generated": "20260725-183427",
+  "generated": "20260725-183627",
   "game_version": "1.22.3",
   "check_ts": "20260724-200056",
   "latest_engine": "1.22.5",
@@ -2124,21 +2124,21 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 95.1,
-        "blocksTravelled": 148937,
+        "playtimeHours": 95.2,
+        "blocksTravelled": 148961,
         "blocksBroken": 6448,
         "blocksPlaced": 424,
         "deepestY": 18,
-        "lastSeen": 1784997162,
+        "lastSeen": 1784997356,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
-          "Scarlet ornate linen tunic",
+          "Forgotten noble shirt",
           "Prince breeches",
           "Thigh-high boots",
-          "Laced handsome gloves",
+          "Deep noble gloves",
           "Deep noble amulet",
-          "Cursed gemstone",
+          "Butterfly pin (Temporal)",
           "Malefactor whitewood mask",
           "Forlorn Hope belt",
           "Silver bracelet",
@@ -2159,9 +2159,9 @@
           },
           {
             "slot": "upperbody",
-            "code": "game:clothes-upperbody-scarlet-ornate-linen-tunic",
-            "name": "Scarlet ornate linen tunic",
-            "icon": "character/icons/upperbody-scarlet-ornate-linen-tunic.png"
+            "code": "game:clothes-upperbody-forgotten",
+            "name": "Forgotten noble shirt",
+            "icon": "character/icons/upperbody-forgotten.png"
           },
           {
             "slot": "lowerbody",
@@ -2177,9 +2177,9 @@
           },
           {
             "slot": "hand",
-            "code": "game:clothes-hand-laced-handsome-gloves",
-            "name": "Laced handsome gloves",
-            "icon": "character/icons/hand-laced-handsome-gloves.png"
+            "code": "game:clothes-hand-deep",
+            "name": "Deep noble gloves",
+            "icon": "character/icons/hand-deep.png"
           },
           {
             "slot": "neck",
@@ -2188,8 +2188,8 @@
           },
           {
             "slot": "emblem",
-            "code": "game:clothes-emblem-cursedgemstone",
-            "name": "Cursed gemstone"
+            "code": "game:clothes-butterflypin-temporal",
+            "name": "Butterfly pin (Temporal)"
           },
           {
             "slot": "face",
@@ -2544,11 +2544,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 218.5,
-        "blocksTravelled": 278740,
-        "blocksBroken": 16811,
-        "blocksPlaced": 5906,
+        "blocksTravelled": 278962,
+        "blocksBroken": 16875,
+        "blocksPlaced": 6015,
         "deepestY": 1,
-        "lastSeen": 1784997162,
+        "lastSeen": 1784997356,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
