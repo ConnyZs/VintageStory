@@ -54,10 +54,21 @@
     "mustache",
     "beard",
     "facialexpression",
-    "Prince emblem"
+    "Jester cowl",
+    "Acrobat capelet",
+    "Acrobat capelet",
+    "Acrobat bolero",
+    "Messenger trousers",
+    "Rusty manacles",
+    "Prince emblem",
+    "Plain glasses",
+    "Rotten king belt",
+    "Rusty wrist manacles",
+    "Traveler's earthrobe",
+    "Traveler's earthrobe"
    ],
    "frames": 16,
-   "v": 1785012779
+   "v": 1785013023
   },
   "Moritz": {
    "class": "mason",

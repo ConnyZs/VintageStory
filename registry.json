@@ -1,5 +1,5 @@
 {
-  "generated": "20260725-225444",
+  "generated": "20260725-225644",
   "game_version": "1.22.3",
   "check_ts": "20260724-200056",
   "latest_engine": "1.22.5",
@@ -2124,12 +2124,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 99.4,
-        "blocksTravelled": 159724,
+        "playtimeHours": 99.5,
+        "blocksTravelled": 159756,
         "blocksBroken": 7606,
         "blocksPlaced": 456,
         "deepestY": 1,
-        "lastSeen": 1785012774,
+        "lastSeen": 1785012894,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2544,20 +2544,79 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 222.8,
-        "blocksTravelled": 311054,
+        "playtimeHours": 222.9,
+        "blocksTravelled": 311106,
         "blocksBroken": 17912,
         "blocksPlaced": 7255,
         "deepestY": 1,
-        "lastSeen": 1785012774,
+        "lastSeen": 1785012894,
         "gear": [
-          "Prince emblem"
+          "Jester cowl",
+          "Acrobat capelet",
+          "Acrobat bolero",
+          "Messenger trousers",
+          "Rusty manacles",
+          "Prince emblem",
+          "Plain glasses",
+          "Rotten king belt",
+          "Rusty wrist manacles",
+          "Traveler's earthrobe"
         ],
         "gearDetail": [
+          {
+            "slot": "head",
+            "code": "game:clothes-head-jester",
+            "name": "Jester cowl"
+          },
+          {
+            "slot": "shoulder",
+            "code": "game:clothes-shoulder-acrobat",
+            "name": "Acrobat capelet",
+            "icon": "character/icons/shoulder-acrobat.png"
+          },
+          {
+            "slot": "upperbody",
+            "code": "game:clothes-upperbody-acrobat",
+            "name": "Acrobat bolero",
+            "icon": "character/icons/upperbody-acrobat.png"
+          },
+          {
+            "slot": "lowerbody",
+            "code": "game:clothes-lowerbody-messenger-trousers",
+            "name": "Messenger trousers",
+            "icon": "character/icons/lowerbody-messenger-trousers.png"
+          },
+          {
+            "slot": "foot",
+            "code": "game:clothes-foot-rusty-ankle-manacles",
+            "name": "Rusty manacles"
+          },
           {
             "slot": "emblem",
             "code": "game:clothes-emblem-royal-pin",
             "name": "Prince emblem"
+          },
+          {
+            "slot": "face",
+            "code": "game:clothes-face-glasses",
+            "name": "Plain glasses"
+          },
+          {
+            "slot": "waist",
+            "code": "game:clothes-waist-rottenking",
+            "name": "Rotten king belt",
+            "icon": "character/icons/waist-rottenking.png"
+          },
+          {
+            "slot": "arm",
+            "code": "game:clothes-arm-rusty-wrist-manacles",
+            "name": "Rusty wrist manacles"
+          },
+          {
+            "slot": "upperbodyover",
+            "code": "game:clothes-upperbodyover-travelers-earthrobe",
+            "name": "Traveler's earthrobe",
+            "icon": "character/icons/upperbodyover-travelers-earthrobe.png"
           },
           {
             "slot": "bag-1",
