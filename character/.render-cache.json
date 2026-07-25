@@ -76,7 +76,7 @@
   }
  },
  "AddyBuschu": {
-  "hash": "6dc9ce25ff00685f7d012571b9bf13399b09c90e",
+  "hash": "4aacdb7417bdf3165413978726a4730447738760",
   "info": {
    "class": "homesteader",
    "items": [
@@ -95,13 +95,13 @@
     "Rotten king collar",
     "Prince emblem",
     "Crow mask",
-    "Rotten king belt",
+    "Heavy tool belt",
     "Leather bracers",
     "Rotwalker coat",
     "Rotwalker coat"
    ],
    "frames": 16,
-   "v": 1784998491
+   "v": 1785001976
   }
  },
  "Barberschascher": {

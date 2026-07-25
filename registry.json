@@ -1,5 +1,5 @@
 {
-  "generated": "20260725-195032",
+  "generated": "20260725-195232",
   "game_version": "1.22.3",
   "check_ts": "20260724-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 96.4,
-        "blocksTravelled": 155185,
-        "blocksBroken": 7512,
-        "blocksPlaced": 451,
+        "blocksTravelled": 155343,
+        "blocksBroken": 7532,
+        "blocksPlaced": 452,
         "deepestY": 1,
-        "lastSeen": 1785001726,
+        "lastSeen": 1785001886,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2545,11 +2545,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 219.8,
-        "blocksTravelled": 290063,
-        "blocksBroken": 16994,
-        "blocksPlaced": 6179,
+        "blocksTravelled": 290294,
+        "blocksBroken": 16995,
+        "blocksPlaced": 6180,
         "deepestY": 1,
-        "lastSeen": 1785001726,
+        "lastSeen": 1785001886,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2560,7 +2560,7 @@
           "Rotten king collar",
           "Prince emblem",
           "Crow mask",
-          "Rotten king belt",
+          "Heavy tool belt",
           "Leather bracers",
           "Rotwalker coat",
           "Black bear hide helmet",
@@ -2620,9 +2620,9 @@
           },
           {
             "slot": "waist",
-            "code": "game:clothes-waist-rottenking",
-            "name": "Rotten king belt",
-            "icon": "character/icons/waist-rottenking.png"
+            "code": "game:clothes-waist-heavy-tool-belt",
+            "name": "Heavy tool belt",
+            "icon": "character/icons/waist-heavy-tool-belt.png"
           },
           {
             "slot": "arm",
