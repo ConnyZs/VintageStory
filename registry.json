@@ -1,5 +1,5 @@
 {
-  "generated": "20260725-185228",
+  "generated": "20260725-185428",
   "game_version": "1.22.3",
   "check_ts": "20260724-200056",
   "latest_engine": "1.22.5",
@@ -2124,12 +2124,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 95.4,
-        "blocksTravelled": 149951,
+        "playtimeHours": 95.5,
+        "blocksTravelled": 150589,
         "blocksBroken": 6449,
         "blocksPlaced": 429,
         "deepestY": 18,
-        "lastSeen": 1784998262,
+        "lastSeen": 1784998363,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2544,11 +2544,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 218.8,
-        "blocksTravelled": 281342,
+        "blocksTravelled": 281634,
         "blocksBroken": 16899,
         "blocksPlaced": 6114,
         "deepestY": 1,
-        "lastSeen": 1784998262,
+        "lastSeen": 1784998363,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
@@ -2662,8 +2662,8 @@
           },
           {
             "slot": "bag-4",
-            "code": "butchering:deadpig-male-eurasian-normal-1-dead",
-            "name": "Pig (dead)"
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           }
         ],
         "skin": {
