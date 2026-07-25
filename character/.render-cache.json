@@ -76,7 +76,7 @@
   }
  },
  "AddyBuschu": {
-  "hash": "b8cb51535cfa8cb8fb3e6dadc00731bfad2f10ac",
+  "hash": "e98aee26febac2ee9eb1ecd8938c938b3881e066",
   "info": {
    "class": "homesteader",
    "items": [
@@ -92,14 +92,13 @@
     "Messenger trousers",
     "Rusty manacles",
     "Prince emblem",
-    "Plain glasses",
-    "Rotten king belt",
+    "Forgotten noble mask",
     "Rusty wrist manacles",
     "Traveler's earthrobe",
     "Traveler's earthrobe"
    ],
    "frames": 16,
-   "v": 1785013023
+   "v": 1785013144
   }
  },
  "Barberschascher": {

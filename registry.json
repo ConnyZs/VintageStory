@@ -1,5 +1,5 @@
 {
-  "generated": "20260725-225644",
+  "generated": "20260725-225844",
   "game_version": "1.22.3",
   "check_ts": "20260724-200056",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 99.5,
-        "blocksTravelled": 159756,
+        "blocksTravelled": 159798,
         "blocksBroken": 7606,
         "blocksPlaced": 456,
         "deepestY": 1,
-        "lastSeen": 1785012894,
+        "lastSeen": 1785013063,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2545,11 +2545,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 222.9,
-        "blocksTravelled": 311106,
+        "blocksTravelled": 311164,
         "blocksBroken": 17912,
         "blocksPlaced": 7255,
         "deepestY": 1,
-        "lastSeen": 1785012894,
+        "lastSeen": 1785013063,
         "gear": [
           "Jester cowl",
           "Acrobat capelet",
@@ -2557,8 +2557,7 @@
           "Messenger trousers",
           "Rusty manacles",
           "Prince emblem",
-          "Plain glasses",
-          "Rotten king belt",
+          "Forgotten noble mask",
           "Rusty wrist manacles",
           "Traveler's earthrobe"
         ],
@@ -2598,14 +2597,9 @@
           },
           {
             "slot": "face",
-            "code": "game:clothes-face-glasses",
-            "name": "Plain glasses"
-          },
-          {
-            "slot": "waist",
-            "code": "game:clothes-waist-rottenking",
-            "name": "Rotten king belt",
-            "icon": "character/icons/waist-rottenking.png"
+            "code": "game:clothes-face-forgotten",
+            "name": "Forgotten noble mask",
+            "icon": "character/icons/face-forgotten.png"
           },
           {
             "slot": "arm",
