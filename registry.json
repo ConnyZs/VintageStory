@@ -1,5 +1,5 @@
 {
-  "generated": "20260725-215840",
+  "generated": "20260725-220040",
   "game_version": "1.22.3",
   "check_ts": "20260724-200056",
   "latest_engine": "1.22.5",
@@ -2545,11 +2545,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 221.9,
-        "blocksTravelled": 306885,
-        "blocksBroken": 17326,
-        "blocksPlaced": 6537,
+        "blocksTravelled": 307107,
+        "blocksBroken": 17329,
+        "blocksPlaced": 6542,
         "deepestY": 1,
-        "lastSeen": 1785009438,
+        "lastSeen": 1785009532,
         "gear": [
           "Bycocket",
           "Rotwalker cape",
