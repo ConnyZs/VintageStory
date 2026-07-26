@@ -1,5 +1,5 @@
 {
-  "generated": "20260726-212841",
+  "generated": "20260726-213041",
   "game_version": "1.22.5",
   "check_ts": "20260726-200057",
   "latest_engine": "1.22.5",
@@ -2480,11 +2480,11 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 455,
-        "mealsEaten": 487,
-        "caloriesConsumed": 59350,
+        "mealsEaten": 488,
+        "caloriesConsumed": 59966,
         "lastMeal": "Meat pie",
         "mealsByName": {
-          "Meat pie": 16,
+          "Meat pie": 17,
           "Smoked Plain Bushmeat": 3,
           "Earthy orange ceramic bowl of meat stew": 23,
           "Blueberry": 16,
@@ -2536,9 +2536,9 @@
           "Smoked Plain Primemeat": 2
         },
         "foodCatCounts": {
-          "Grain": 83,
-          "Protein": 47,
-          "Vegetable": 149,
+          "Grain": 84,
+          "Protein": 48,
+          "Vegetable": 150,
           "Fruit": 271,
           "Dairy": 10
         },
@@ -2552,11 +2552,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 245.4,
-        "blocksTravelled": 323305,
+        "blocksTravelled": 323413,
         "blocksBroken": 18208,
-        "blocksPlaced": 7299,
+        "blocksPlaced": 7300,
         "deepestY": 1,
-        "lastSeen": 1785094084,
+        "lastSeen": 1785094168,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2694,7 +2694,7 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 121,
+        "mobKills": 125,
         "mealsEaten": 101,
         "caloriesConsumed": 26627,
         "lastMeal": "Meat pie",
@@ -2727,11 +2727,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 194.0,
-        "blocksTravelled": 180345,
-        "blocksBroken": 8899,
-        "blocksPlaced": 5953,
+        "blocksTravelled": 180452,
+        "blocksBroken": 8917,
+        "blocksPlaced": 5954,
         "deepestY": 24,
-        "lastSeen": 1785094084,
+        "lastSeen": 1785094168,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
