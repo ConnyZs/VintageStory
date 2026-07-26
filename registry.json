@@ -1,5 +1,5 @@
 {
-  "generated": "20260726-214041",
+  "generated": "20260726-214242",
   "game_version": "1.22.5",
   "check_ts": "20260726-200057",
   "latest_engine": "1.22.5",
@@ -2480,11 +2480,11 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 466,
-        "mealsEaten": 497,
-        "caloriesConsumed": 61254,
+        "mealsEaten": 500,
+        "caloriesConsumed": 61490,
         "lastMeal": "Meat pie",
         "mealsByName": {
-          "Meat pie": 26,
+          "Meat pie": 29,
           "Smoked Plain Bushmeat": 3,
           "Earthy orange ceramic bowl of meat stew": 23,
           "Blueberry": 16,
@@ -2536,9 +2536,9 @@
           "Smoked Plain Primemeat": 2
         },
         "foodCatCounts": {
-          "Grain": 93,
-          "Protein": 57,
-          "Vegetable": 159,
+          "Grain": 96,
+          "Protein": 60,
+          "Vegetable": 162,
           "Fruit": 271,
           "Dairy": 10
         },
@@ -2552,11 +2552,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 245.6,
-        "blocksTravelled": 324510,
+        "blocksTravelled": 324772,
         "blocksBroken": 18211,
         "blocksPlaced": 7300,
         "deepestY": 1,
-        "lastSeen": 1785094769,
+        "lastSeen": 1785094889,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2695,12 +2695,12 @@
         "class": "mason",
         "deaths": 1,
         "mobKills": 133,
-        "mealsEaten": 103,
-        "caloriesConsumed": 28057,
+        "mealsEaten": 104,
+        "caloriesConsumed": 28581,
         "lastMeal": "Meat pie",
         "mealsByName": {
           "Cranberry": 19,
-          "Meat pie": 12,
+          "Meat pie": 13,
           "Cranberry pie": 7,
           "Earthy orange ceramic bowl of soup": 1,
           "Wooden bucket": 1,
@@ -2718,20 +2718,20 @@
         },
         "foodCatCounts": {
           "Fruit": 40,
-          "Grain": 29,
-          "Protein": 63,
-          "Vegetable": 44,
+          "Grain": 30,
+          "Protein": 64,
+          "Vegetable": 45,
           "Dairy": 10
         },
         "deathCauses": {
           "shiver-corrupt": 1
         },
         "playtimeHours": 194.2,
-        "blocksTravelled": 181907,
-        "blocksBroken": 8947,
+        "blocksTravelled": 181975,
+        "blocksBroken": 8951,
         "blocksPlaced": 5955,
         "deepestY": 24,
-        "lastSeen": 1785094769,
+        "lastSeen": 1785094889,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
