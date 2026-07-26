@@ -1,5 +1,5 @@
 {
-  "generated": "20260726-193033",
+  "generated": "20260726-193234",
   "game_version": "1.22.5",
   "check_ts": "20260724-200056",
   "latest_engine": "1.22.5",
@@ -2124,12 +2124,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 100.1,
-        "blocksTravelled": 160647,
+        "playtimeHours": 100.2,
+        "blocksTravelled": 160689,
         "blocksBroken": 7606,
         "blocksPlaced": 456,
         "deepestY": 1,
-        "lastSeen": 1785086964,
+        "lastSeen": 1785087131,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2544,12 +2544,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 243.4,
-        "blocksTravelled": 314058,
+        "playtimeHours": 243.5,
+        "blocksTravelled": 314281,
         "blocksBroken": 17917,
         "blocksPlaced": 7263,
         "deepestY": 1,
-        "lastSeen": 1785086964,
+        "lastSeen": 1785087131,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2688,8 +2688,8 @@
         "class": "mason",
         "deaths": 1,
         "mobKills": 92,
-        "mealsEaten": 76,
-        "caloriesConsumed": 18455,
+        "mealsEaten": 77,
+        "caloriesConsumed": 18607,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Cranberry": 19,
@@ -2697,7 +2697,7 @@
           "Cranberry pie": 7,
           "Earthy orange ceramic bowl of soup": 1,
           "Wooden bucket": 1,
-          "Earthy orange ceramic bowl of meat stew": 30,
+          "Earthy orange ceramic bowl of meat stew": 31,
           "Chopped cabbage": 1,
           "Pear": 4,
           "Rye bread": 1,
@@ -2712,19 +2712,19 @@
         "foodCatCounts": {
           "Fruit": 40,
           "Grain": 18,
-          "Protein": 36,
-          "Vegetable": 17,
+          "Protein": 37,
+          "Vegetable": 18,
           "Dairy": 10
         },
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 192.0,
-        "blocksTravelled": 173026,
+        "playtimeHours": 192.1,
+        "blocksTravelled": 173292,
         "blocksBroken": 8540,
-        "blocksPlaced": 5412,
+        "blocksPlaced": 5421,
         "deepestY": 24,
-        "lastSeen": 1785086964,
+        "lastSeen": 1785087131,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
