@@ -1,5 +1,5 @@
 {
-  "generated": "20260726-223645",
+  "generated": "20260726-223845",
   "game_version": "1.22.5",
   "check_ts": "20260726-200057",
   "latest_engine": "1.22.5",
@@ -2125,12 +2125,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 103.0,
-        "blocksTravelled": 167472,
+        "playtimeHours": 103.1,
+        "blocksTravelled": 167542,
         "blocksBroken": 7636,
         "blocksPlaced": 469,
         "deepestY": 1,
-        "lastSeen": 1785098131,
+        "lastSeen": 1785098313,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2473,14 +2473,14 @@
       "name": "AddyBuschu",
       "role": "admin",
       "first_join": "04/22/2026 17:55",
-      "last_join": "07/26/2026 17:02",
+      "last_join": "07/26/2026 20:33",
       "last_char": "04/25/2026 15:34",
       "stats": {
         "uid": "MT3maN90oN2gwGyklJR20Gu1",
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 494,
+        "mobKills": 495,
         "mealsEaten": 523,
         "caloriesConsumed": 68744,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
@@ -2553,12 +2553,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 246.5,
-        "blocksTravelled": 329145,
+        "playtimeHours": 246.6,
+        "blocksTravelled": 329222,
         "blocksBroken": 18445,
         "blocksPlaced": 7306,
         "deepestY": 1,
-        "lastSeen": 1785098131,
+        "lastSeen": 1785098313,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2689,7 +2689,7 @@
       "name": "Moritz",
       "role": "admin",
       "first_join": "04/22/2026 18:03",
-      "last_join": "07/26/2026 17:09",
+      "last_join": "07/26/2026 20:33",
       "last_char": "04/22/2026 18:05",
       "stats": {
         "uid": "bKc3JB7NGywTi9YbzXu/Qogt",
@@ -2730,11 +2730,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 195.1,
-        "blocksTravelled": 186983,
+        "blocksTravelled": 187057,
         "blocksBroken": 8979,
         "blocksPlaced": 5979,
         "deepestY": 12,
-        "lastSeen": 1785098131,
+        "lastSeen": 1785098313,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
