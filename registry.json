@@ -1,5 +1,5 @@
 {
-  "generated": "20260726-191432",
+  "generated": "20260726-191633",
   "game_version": "1.22.5",
   "check_ts": "20260724-200056",
   "latest_engine": "1.22.5",
@@ -2095,13 +2095,13 @@
         "class": "tinker",
         "deaths": 7,
         "mobKills": 86,
-        "mealsEaten": 43,
-        "caloriesConsumed": 17370,
+        "mealsEaten": 44,
+        "caloriesConsumed": 18026,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Pear": 3,
           "Meat pie": 5,
-          "Earthy orange ceramic bowl of meat stew": 14,
+          "Earthy orange ceramic bowl of meat stew": 15,
           "Strawberry": 2,
           "Blackcurrant": 3,
           "Rye bread": 1,
@@ -2114,8 +2114,8 @@
         "foodCatCounts": {
           "Fruit": 21,
           "Grain": 13,
-          "Protein": 22,
-          "Vegetable": 14,
+          "Protein": 23,
+          "Vegetable": 15,
           "Dairy": 8
         },
         "deathCauses": {
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 99.9,
-        "blocksTravelled": 160179,
+        "blocksTravelled": 160205,
         "blocksBroken": 7606,
         "blocksPlaced": 456,
         "deepestY": 1,
-        "lastSeen": 1785014402,
+        "lastSeen": 1785086123,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2545,11 +2545,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 243.2,
-        "blocksTravelled": 312384,
+        "blocksTravelled": 312648,
         "blocksBroken": 17917,
         "blocksPlaced": 7262,
         "deepestY": 1,
-        "lastSeen": 1785086003,
+        "lastSeen": 1785086123,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2719,11 +2719,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 191.8,
-        "blocksTravelled": 172638,
+        "blocksTravelled": 172767,
         "blocksBroken": 8540,
         "blocksPlaced": 5411,
         "deepestY": 24,
-        "lastSeen": 1785086003,
+        "lastSeen": 1785086123,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -2733,7 +2733,6 @@
           "Scribe gloves",
           "Gold gear amulet",
           "Messenger pin",
-          "Plain glasses",
           "Sturdy belt",
           "Large silver bracelets",
           "Fortune teller vest"
@@ -2783,11 +2782,6 @@
             "slot": "emblem",
             "code": "game:clothes-emblem-messenger-pin",
             "name": "Messenger pin"
-          },
-          {
-            "slot": "face",
-            "code": "game:clothes-face-glasses",
-            "name": "Plain glasses"
           },
           {
             "slot": "waist",
