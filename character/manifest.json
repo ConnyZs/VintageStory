@@ -54,7 +54,7 @@
     "mustache",
     "beard",
     "facialexpression",
-    "Acrobat hairpin",
+    "Red fox fur trapper hat",
     "Rotwalker cape",
     "Rotwalker cape",
     "Tattered crimson tunic",
@@ -66,11 +66,11 @@
     "Sheep skull mask",
     "Heavy tool belt",
     "Leather bracers",
-    "Rotwalker coat",
-    "Rotwalker coat"
+    "Fur coat",
+    "Fur coat"
    ],
    "frames": 16,
-   "v": 1785100631
+   "v": 1785102071
   },
   "Moritz": {
    "class": "mason",
@@ -89,10 +89,11 @@
     "Messenger pin",
     "Sturdy belt",
     "Large silver bracelets",
-    "Fortune teller vest"
+    "Fur coat",
+    "Fur coat"
    ],
    "frames": 16,
-   "v": 1785099930
+   "v": 1785102092
   },
   "Barberschascher": {
    "class": "miner",

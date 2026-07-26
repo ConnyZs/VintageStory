@@ -1,5 +1,5 @@
 {
-  "generated": "20260726-232848",
+  "generated": "20260726-234049",
   "game_version": "1.22.5",
   "check_ts": "20260726-200057",
   "latest_engine": "1.22.5",
@@ -2125,12 +2125,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 103.9,
-        "blocksTravelled": 169346,
+        "playtimeHours": 104.1,
+        "blocksTravelled": 169558,
         "blocksBroken": 7646,
-        "blocksPlaced": 472,
+        "blocksPlaced": 476,
         "deepestY": 1,
-        "lastSeen": 1785101254,
+        "lastSeen": 1785101975,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2480,14 +2480,14 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 500,
-        "mealsEaten": 538,
-        "caloriesConsumed": 73180,
-        "lastMeal": "Earthy orange ceramic bowl of jam",
+        "mobKills": 504,
+        "mealsEaten": 544,
+        "caloriesConsumed": 74991,
+        "lastMeal": "Carrot",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
-          "Earthy orange ceramic bowl of meat stew": 28,
+          "Earthy orange ceramic bowl of meat stew": 29,
           "Blueberry": 16,
           "Pear pie (charred)": 1,
           "Rye bread": 1,
@@ -2499,7 +2499,7 @@
           "Cooked dumplings": 2,
           "Almond mushroom": 1,
           "Redcurrant": 69,
-          "Carrot": 5,
+          "Carrot": 6,
           "Field mushroom": 1,
           "Turnip": 6,
           "Puffball": 19,
@@ -2527,7 +2527,7 @@
           "Red grapes": 34,
           "Whitecurrant": 3,
           "Bearded tooth": 5,
-          "Rice grain": 9,
+          "Rice grain": 13,
           "Strawberry": 34,
           "Rye grain": 11,
           "Parsnip": 10,
@@ -2539,9 +2539,9 @@
           "Earthy orange ceramic bowl of jam": 4
         },
         "foodCatCounts": {
-          "Grain": 122,
-          "Protein": 84,
-          "Vegetable": 183,
+          "Grain": 126,
+          "Protein": 85,
+          "Vegetable": 185,
           "Fruit": 279,
           "Dairy": 10
         },
@@ -2554,14 +2554,14 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 247.4,
-        "blocksTravelled": 332709,
-        "blocksBroken": 18521,
+        "playtimeHours": 247.6,
+        "blocksTravelled": 333625,
+        "blocksBroken": 18699,
         "blocksPlaced": 7342,
         "deepestY": 1,
-        "lastSeen": 1785101254,
+        "lastSeen": 1785101975,
         "gear": [
-          "Acrobat hairpin",
+          "Red fox fur trapper hat",
           "Rotwalker cape",
           "Tattered crimson tunic",
           "Nomad trousers",
@@ -2572,15 +2572,16 @@
           "Sheep skull mask",
           "Heavy tool belt",
           "Leather bracers",
-          "Rotwalker coat",
+          "Fur coat",
           "Black bear hide helmet",
           "Black bear hide body armor"
         ],
         "gearDetail": [
           {
             "slot": "head",
-            "code": "game:clothes-head-acrobat",
-            "name": "Acrobat hairpin"
+            "code": "game:clothes-head-furhatwide-fox-red",
+            "name": "Red fox fur trapper hat",
+            "icon": "character/icons/head-furhatwide-fox-red.png"
           },
           {
             "slot": "shoulder",
@@ -2642,9 +2643,9 @@
           },
           {
             "slot": "upperbodyover",
-            "code": "game:clothes-upperbodyover-rotwalker",
-            "name": "Rotwalker coat",
-            "icon": "character/icons/upperbodyover-rotwalker.png"
+            "code": "game:clothes-upperbodyover-fur-coat",
+            "name": "Fur coat",
+            "icon": "character/icons/upperbodyover-fur-coat.png"
           },
           {
             "slot": "armorhead",
@@ -2703,9 +2704,9 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 161,
-        "mealsEaten": 142,
-        "caloriesConsumed": 39476,
+        "mobKills": 168,
+        "mealsEaten": 145,
+        "caloriesConsumed": 41174,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Cranberry": 19,
@@ -2713,7 +2714,7 @@
           "Cranberry pie": 7,
           "Earthy orange ceramic bowl of soup": 1,
           "Wooden bucket": 1,
-          "Earthy orange ceramic bowl of meat stew": 61,
+          "Earthy orange ceramic bowl of meat stew": 64,
           "Chopped cabbage": 1,
           "Pear": 4,
           "Rye bread": 1,
@@ -2730,20 +2731,20 @@
         },
         "foodCatCounts": {
           "Fruit": 49,
-          "Grain": 52,
-          "Protein": 86,
-          "Vegetable": 67,
-          "Dairy": 10
+          "Grain": 53,
+          "Protein": 89,
+          "Vegetable": 69,
+          "Dairy": 11
         },
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 196.0,
-        "blocksTravelled": 192021,
-        "blocksBroken": 9031,
-        "blocksPlaced": 6011,
+        "playtimeHours": 196.2,
+        "blocksTravelled": 193233,
+        "blocksBroken": 9039,
+        "blocksPlaced": 6041,
         "deepestY": 12,
-        "lastSeen": 1785101254,
+        "lastSeen": 1785101975,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -2755,7 +2756,7 @@
           "Messenger pin",
           "Sturdy belt",
           "Large silver bracelets",
-          "Fortune teller vest"
+          "Fur coat"
         ],
         "gearDetail": [
           {
@@ -2816,9 +2817,9 @@
           },
           {
             "slot": "upperbodyover",
-            "code": "game:clothes-upperbodyover-fortuneteller",
-            "name": "Fortune teller vest",
-            "icon": "character/icons/upperbodyover-fortuneteller.png"
+            "code": "game:clothes-upperbodyover-fur-coat",
+            "name": "Fur coat",
+            "icon": "character/icons/upperbodyover-fur-coat.png"
           },
           {
             "slot": "bag-1",
