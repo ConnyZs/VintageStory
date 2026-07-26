@@ -1,5 +1,5 @@
 {
-  "generated": "20260727-001651",
+  "generated": "20260727-001851",
   "game_version": "1.22.5",
   "check_ts": "20260726-200057",
   "latest_engine": "1.22.5",
@@ -2126,11 +2126,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 104.7,
-        "blocksTravelled": 170915,
+        "blocksTravelled": 170964,
         "blocksBroken": 7646,
         "blocksPlaced": 477,
         "deepestY": 1,
-        "lastSeen": 1785104136,
+        "lastSeen": 1785104328,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2704,9 +2704,9 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 171,
-        "mealsEaten": 148,
-        "caloriesConsumed": 43294,
+        "mobKills": 172,
+        "mealsEaten": 149,
+        "caloriesConsumed": 44015,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Cranberry": 19,
@@ -2714,7 +2714,7 @@
           "Cranberry pie": 7,
           "Earthy orange ceramic bowl of soup": 1,
           "Wooden bucket": 1,
-          "Earthy orange ceramic bowl of meat stew": 67,
+          "Earthy orange ceramic bowl of meat stew": 68,
           "Chopped cabbage": 1,
           "Pear": 4,
           "Rye bread": 1,
@@ -2732,19 +2732,19 @@
         "foodCatCounts": {
           "Fruit": 49,
           "Grain": 54,
-          "Protein": 92,
-          "Vegetable": 71,
+          "Protein": 93,
+          "Vegetable": 72,
           "Dairy": 12
         },
         "deathCauses": {
           "shiver-corrupt": 1
         },
         "playtimeHours": 196.8,
-        "blocksTravelled": 195172,
-        "blocksBroken": 9102,
-        "blocksPlaced": 6186,
+        "blocksTravelled": 195258,
+        "blocksBroken": 9112,
+        "blocksPlaced": 6190,
         "deepestY": 12,
-        "lastSeen": 1785104136,
+        "lastSeen": 1785104256,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
