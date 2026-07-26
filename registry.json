@@ -1,5 +1,5 @@
 {
-  "generated": "20260727-003452",
+  "generated": "20260727-003652",
   "game_version": "1.22.5",
   "check_ts": "20260726-200057",
   "latest_engine": "1.22.5",
@@ -2095,8 +2095,8 @@
         "class": "tinker",
         "deaths": 7,
         "mobKills": 133,
-        "mealsEaten": 66,
-        "caloriesConsumed": 32628,
+        "mealsEaten": 68,
+        "caloriesConsumed": 33562,
         "lastMeal": "Blackberry pie",
         "mealsByName": {
           "Pear": 3,
@@ -2110,11 +2110,11 @@
           "Cooked dumplings": 2,
           "Pear pie (charred)": 3,
           "Red grapes": 6,
-          "Blackberry pie": 7
+          "Blackberry pie": 9
         },
         "foodCatCounts": {
-          "Fruit": 28,
-          "Grain": 26,
+          "Fruit": 30,
+          "Grain": 28,
           "Protein": 38,
           "Vegetable": 29,
           "Dairy": 9
@@ -2126,11 +2126,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 105.0,
-        "blocksTravelled": 171301,
+        "blocksTravelled": 171342,
         "blocksBroken": 7646,
         "blocksPlaced": 477,
         "deepestY": 1,
-        "lastSeen": 1785105260,
+        "lastSeen": 1785105337,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2705,8 +2705,8 @@
         "class": "mason",
         "deaths": 1,
         "mobKills": 172,
-        "mealsEaten": 153,
-        "caloriesConsumed": 46029,
+        "mealsEaten": 154,
+        "caloriesConsumed": 46153,
         "lastMeal": "Blackberry pie",
         "mealsByName": {
           "Cranberry": 19,
@@ -2725,13 +2725,13 @@
           "Pear pie": 1,
           "Cooked dumplings": 1,
           "Strawberry": 1,
-          "Blackberry pie": 12,
+          "Blackberry pie": 13,
           "Rice grain": 7,
           "Earthy orange ceramic bowl of jam": 1
         },
         "foodCatCounts": {
-          "Fruit": 53,
-          "Grain": 58,
+          "Fruit": 54,
+          "Grain": 59,
           "Protein": 93,
           "Vegetable": 72,
           "Dairy": 12
@@ -2740,11 +2740,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 197.1,
-        "blocksTravelled": 196251,
+        "blocksTravelled": 196362,
         "blocksBroken": 9112,
-        "blocksPlaced": 6193,
+        "blocksPlaced": 6194,
         "deepestY": 12,
-        "lastSeen": 1785105260,
+        "lastSeen": 1785105337,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
