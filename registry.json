@@ -1,5 +1,5 @@
 {
-  "generated": "20260726-221444",
+  "generated": "20260726-221644",
   "game_version": "1.22.5",
   "check_ts": "20260726-200057",
   "latest_engine": "1.22.5",
@@ -2095,9 +2095,9 @@
         "class": "tinker",
         "deaths": 7,
         "mobKills": 121,
-        "mealsEaten": 51,
-        "caloriesConsumed": 23654,
-        "lastMeal": "Meat pie",
+        "mealsEaten": 55,
+        "caloriesConsumed": 25024,
+        "lastMeal": "Blackberry pie",
         "mealsByName": {
           "Pear": 3,
           "Meat pie": 9,
@@ -2109,11 +2109,12 @@
           "Leather-bound Oak Tankard": 3,
           "Cooked dumplings": 2,
           "Pear pie (charred)": 3,
-          "Red grapes": 6
+          "Red grapes": 6,
+          "Blackberry pie": 4
         },
         "foodCatCounts": {
-          "Fruit": 21,
-          "Grain": 17,
+          "Fruit": 25,
+          "Grain": 21,
           "Protein": 30,
           "Vegetable": 22,
           "Dairy": 8
@@ -2124,12 +2125,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 102.6,
-        "blocksTravelled": 165954,
+        "playtimeHours": 102.7,
+        "blocksTravelled": 166270,
         "blocksBroken": 7632,
-        "blocksPlaced": 461,
+        "blocksPlaced": 462,
         "deepestY": 1,
-        "lastSeen": 1785096810,
+        "lastSeen": 1785096930,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2480,11 +2481,11 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 489,
-        "mealsEaten": 514,
-        "caloriesConsumed": 64900,
-        "lastMeal": "Meat pie",
+        "mealsEaten": 518,
+        "caloriesConsumed": 66160,
+        "lastMeal": "Blackberry pie",
         "mealsByName": {
-          "Meat pie": 43,
+          "Meat pie": 44,
           "Smoked Plain Bushmeat": 3,
           "Earthy orange ceramic bowl of meat stew": 23,
           "Blueberry": 16,
@@ -2533,13 +2534,14 @@
           "Shiitake": 1,
           "Onion": 4,
           "Spelt grain": 13,
-          "Smoked Plain Primemeat": 2
+          "Smoked Plain Primemeat": 2,
+          "Blackberry pie": 3
         },
         "foodCatCounts": {
-          "Grain": 110,
-          "Protein": 74,
-          "Vegetable": 176,
-          "Fruit": 271,
+          "Grain": 114,
+          "Protein": 75,
+          "Vegetable": 177,
+          "Fruit": 274,
           "Dairy": 10
         },
         "deathCauses": {
@@ -2552,11 +2554,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 246.2,
-        "blocksTravelled": 327063,
+        "blocksTravelled": 327383,
         "blocksBroken": 18393,
-        "blocksPlaced": 7301,
+        "blocksPlaced": 7302,
         "deepestY": 1,
-        "lastSeen": 1785096810,
+        "lastSeen": 1785096930,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2695,8 +2697,8 @@
         "class": "mason",
         "deaths": 1,
         "mobKills": 149,
-        "mealsEaten": 118,
-        "caloriesConsumed": 32013,
+        "mealsEaten": 119,
+        "caloriesConsumed": 32241,
         "lastMeal": "Blackberry pie",
         "mealsByName": {
           "Cranberry": 19,
@@ -2715,11 +2717,11 @@
           "Pear pie": 1,
           "Cooked dumplings": 1,
           "Strawberry": 1,
-          "Blackberry pie": 7
+          "Blackberry pie": 8
         },
         "foodCatCounts": {
-          "Fruit": 47,
-          "Grain": 44,
+          "Fruit": 48,
+          "Grain": 45,
           "Protein": 71,
           "Vegetable": 52,
           "Dairy": 10
@@ -2728,11 +2730,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 194.8,
-        "blocksTravelled": 184896,
+        "blocksTravelled": 185188,
         "blocksBroken": 8951,
-        "blocksPlaced": 5971,
+        "blocksPlaced": 5975,
         "deepestY": 12,
-        "lastSeen": 1785096810,
+        "lastSeen": 1785096930,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
