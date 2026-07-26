@@ -1,5 +1,5 @@
 {
-  "generated": "20260726-205639",
+  "generated": "20260726-205839",
   "game_version": "1.22.5",
   "check_ts": "20260726-200057",
   "latest_engine": "1.22.5",
@@ -2124,12 +2124,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 101.3,
-        "blocksTravelled": 163349,
+        "playtimeHours": 101.4,
+        "blocksTravelled": 163441,
         "blocksBroken": 7614,
         "blocksPlaced": 460,
         "deepestY": 1,
-        "lastSeen": 1785092127,
+        "lastSeen": 1785092266,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2142,7 +2142,8 @@
           "Malefactor whitewood mask",
           "Forlorn Hope belt",
           "Silver bracelet",
-          "Forgotten noble robe"
+          "Forgotten noble robe",
+          "Tailored gamboised helmet"
         ],
         "gearDetail": [
           {
@@ -2213,6 +2214,11 @@
             "code": "game:clothes-upperbodyover-forgotten",
             "name": "Forgotten noble robe",
             "icon": "character/icons/upperbodyover-forgotten.png"
+          },
+          {
+            "slot": "armorhead",
+            "code": "game:armor-head-tailored-plain-linen",
+            "name": "Tailored gamboised helmet"
           },
           {
             "slot": "bag-1",
@@ -2474,11 +2480,11 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 445,
-        "mealsEaten": 479,
-        "caloriesConsumed": 55286,
+        "mealsEaten": 481,
+        "caloriesConsumed": 56304,
         "lastMeal": "Meat pie",
         "mealsByName": {
-          "Meat pie": 10,
+          "Meat pie": 12,
           "Smoked Plain Bushmeat": 3,
           "Earthy orange ceramic bowl of meat stew": 23,
           "Blueberry": 16,
@@ -2529,9 +2535,9 @@
           "Spelt grain": 13
         },
         "foodCatCounts": {
-          "Grain": 77,
-          "Protein": 39,
-          "Vegetable": 143,
+          "Grain": 79,
+          "Protein": 41,
+          "Vegetable": 145,
           "Fruit": 271,
           "Dairy": 10
         },
@@ -2545,11 +2551,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 244.9,
-        "blocksTravelled": 320799,
-        "blocksBroken": 18191,
+        "blocksTravelled": 321007,
+        "blocksBroken": 18192,
         "blocksPlaced": 7286,
         "deepestY": 1,
-        "lastSeen": 1785092127,
+        "lastSeen": 1785092266,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2720,11 +2726,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 193.5,
-        "blocksTravelled": 178527,
-        "blocksBroken": 8832,
-        "blocksPlaced": 5904,
+        "blocksTravelled": 178548,
+        "blocksBroken": 8834,
+        "blocksPlaced": 5906,
         "deepestY": 24,
-        "lastSeen": 1785092127,
+        "lastSeen": 1785092266,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
