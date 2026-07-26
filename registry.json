@@ -1,5 +1,5 @@
 {
-  "generated": "20260726-213641",
+  "generated": "20260726-213841",
   "game_version": "1.22.5",
   "check_ts": "20260726-200057",
   "latest_engine": "1.22.5",
@@ -2480,11 +2480,11 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 466,
-        "mealsEaten": 493,
-        "caloriesConsumed": 60734,
+        "mealsEaten": 495,
+        "caloriesConsumed": 60980,
         "lastMeal": "Meat pie",
         "mealsByName": {
-          "Meat pie": 22,
+          "Meat pie": 24,
           "Smoked Plain Bushmeat": 3,
           "Earthy orange ceramic bowl of meat stew": 23,
           "Blueberry": 16,
@@ -2536,9 +2536,9 @@
           "Smoked Plain Primemeat": 2
         },
         "foodCatCounts": {
-          "Grain": 89,
-          "Protein": 53,
-          "Vegetable": 155,
+          "Grain": 91,
+          "Protein": 55,
+          "Vegetable": 157,
           "Fruit": 271,
           "Dairy": 10
         },
@@ -2551,12 +2551,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 245.5,
-        "blocksTravelled": 324179,
+        "playtimeHours": 245.6,
+        "blocksTravelled": 324288,
         "blocksBroken": 18211,
         "blocksPlaced": 7300,
         "deepestY": 1,
-        "lastSeen": 1785094529,
+        "lastSeen": 1785094688,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2726,12 +2726,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 194.1,
-        "blocksTravelled": 181157,
+        "playtimeHours": 194.2,
+        "blocksTravelled": 181458,
         "blocksBroken": 8937,
         "blocksPlaced": 5955,
         "deepestY": 24,
-        "lastSeen": 1785094529,
+        "lastSeen": 1785094688,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
