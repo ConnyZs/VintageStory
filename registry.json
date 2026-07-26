@@ -1,5 +1,5 @@
 {
-  "generated": "20260726-212641",
+  "generated": "20260726-212841",
   "game_version": "1.22.5",
   "check_ts": "20260726-200057",
   "latest_engine": "1.22.5",
@@ -2552,11 +2552,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 245.4,
-        "blocksTravelled": 323200,
+        "blocksTravelled": 323305,
         "blocksBroken": 18208,
         "blocksPlaced": 7299,
         "deepestY": 1,
-        "lastSeen": 1785093928,
+        "lastSeen": 1785094084,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2694,7 +2694,7 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 115,
+        "mobKills": 121,
         "mealsEaten": 101,
         "caloriesConsumed": 26627,
         "lastMeal": "Meat pie",
@@ -2727,11 +2727,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 194.0,
-        "blocksTravelled": 180194,
-        "blocksBroken": 8889,
-        "blocksPlaced": 5947,
+        "blocksTravelled": 180345,
+        "blocksBroken": 8899,
+        "blocksPlaced": 5953,
         "deepestY": 24,
-        "lastSeen": 1785093928,
+        "lastSeen": 1785094084,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
