@@ -1,5 +1,5 @@
 {
-  "generated": "20260726-210439",
+  "generated": "20260726-210639",
   "game_version": "1.22.5",
   "check_ts": "20260726-200057",
   "latest_engine": "1.22.5",
@@ -2551,11 +2551,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 245.0,
-        "blocksTravelled": 321430,
-        "blocksBroken": 18201,
-        "blocksPlaced": 7292,
+        "blocksTravelled": 321607,
+        "blocksBroken": 18207,
+        "blocksPlaced": 7294,
         "deepestY": 1,
-        "lastSeen": 1785092607,
+        "lastSeen": 1785092727,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2693,13 +2693,13 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 111,
-        "mealsEaten": 97,
-        "caloriesConsumed": 24993,
+        "mobKills": 113,
+        "mealsEaten": 98,
+        "caloriesConsumed": 25411,
         "lastMeal": "Meat pie",
         "mealsByName": {
           "Cranberry": 19,
-          "Meat pie": 6,
+          "Meat pie": 7,
           "Cranberry pie": 7,
           "Earthy orange ceramic bowl of soup": 1,
           "Wooden bucket": 1,
@@ -2717,20 +2717,20 @@
         },
         "foodCatCounts": {
           "Fruit": 40,
-          "Grain": 23,
-          "Protein": 57,
-          "Vegetable": 38,
+          "Grain": 24,
+          "Protein": 58,
+          "Vegetable": 39,
           "Dairy": 10
         },
         "deathCauses": {
           "shiver-corrupt": 1
         },
         "playtimeHours": 193.6,
-        "blocksTravelled": 178972,
-        "blocksBroken": 8848,
-        "blocksPlaced": 5909,
+        "blocksTravelled": 179118,
+        "blocksBroken": 8865,
+        "blocksPlaced": 5914,
         "deepestY": 24,
-        "lastSeen": 1785092607,
+        "lastSeen": 1785092727,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
