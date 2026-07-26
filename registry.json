@@ -1,5 +1,5 @@
 {
-  "generated": "20260726-201636",
+  "generated": "20260726-201836",
   "game_version": "1.22.5",
   "check_ts": "20260726-200057",
   "latest_engine": "1.22.5",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 100.7,
-        "blocksTravelled": 161341,
+        "blocksTravelled": 161384,
         "blocksBroken": 7606,
         "blocksPlaced": 456,
         "deepestY": 1,
-        "lastSeen": 1785089725,
+        "lastSeen": 1785089850,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2473,7 +2473,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 429,
+        "mobKills": 430,
         "mealsEaten": 473,
         "caloriesConsumed": 52304,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
@@ -2545,11 +2545,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 244.2,
-        "blocksTravelled": 317714,
+        "blocksTravelled": 317982,
         "blocksBroken": 18010,
         "blocksPlaced": 7269,
         "deepestY": 1,
-        "lastSeen": 1785089725,
+        "lastSeen": 1785089850,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2652,13 +2652,8 @@
           },
           {
             "slot": "bag-3",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-4",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "code": "butchering:deadwolf-male-eurasian-9-dead",
+            "name": "Wolf (dead)"
           }
         ],
         "skin": {
@@ -2720,11 +2715,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 192.8,
-        "blocksTravelled": 176282,
-        "blocksBroken": 8721,
-        "blocksPlaced": 5736,
+        "blocksTravelled": 176474,
+        "blocksBroken": 8729,
+        "blocksPlaced": 5737,
         "deepestY": 24,
-        "lastSeen": 1785089725,
+        "lastSeen": 1785089850,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
