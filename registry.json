@@ -1,5 +1,5 @@
 {
-  "generated": "20260726-221844",
+  "generated": "20260726-222044",
   "game_version": "1.22.5",
   "check_ts": "20260726-200057",
   "latest_engine": "1.22.5",
@@ -2126,11 +2126,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 102.7,
-        "blocksTravelled": 166369,
-        "blocksBroken": 7632,
-        "blocksPlaced": 462,
+        "blocksTravelled": 166435,
+        "blocksBroken": 7634,
+        "blocksPlaced": 465,
         "deepestY": 1,
-        "lastSeen": 1785097104,
+        "lastSeen": 1785097170,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2481,11 +2481,11 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 489,
-        "mealsEaten": 518,
-        "caloriesConsumed": 66160,
-        "lastMeal": "Blackberry pie",
+        "mealsEaten": 520,
+        "caloriesConsumed": 66878,
+        "lastMeal": "Meat pie",
         "mealsByName": {
-          "Meat pie": 44,
+          "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
           "Earthy orange ceramic bowl of meat stew": 23,
           "Blueberry": 16,
@@ -2535,13 +2535,13 @@
           "Onion": 4,
           "Spelt grain": 13,
           "Smoked Plain Primemeat": 2,
-          "Blackberry pie": 3
+          "Blackberry pie": 4
         },
         "foodCatCounts": {
-          "Grain": 114,
-          "Protein": 75,
-          "Vegetable": 177,
-          "Fruit": 274,
+          "Grain": 116,
+          "Protein": 76,
+          "Vegetable": 178,
+          "Fruit": 275,
           "Dairy": 10
         },
         "deathCauses": {
@@ -2553,12 +2553,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 246.2,
-        "blocksTravelled": 327465,
+        "playtimeHours": 246.3,
+        "blocksTravelled": 327495,
         "blocksBroken": 18393,
         "blocksPlaced": 7303,
         "deepestY": 1,
-        "lastSeen": 1785097104,
+        "lastSeen": 1785097170,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2729,12 +2729,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 194.8,
-        "blocksTravelled": 185236,
+        "playtimeHours": 194.9,
+        "blocksTravelled": 185421,
         "blocksBroken": 8951,
         "blocksPlaced": 5975,
         "deepestY": 12,
-        "lastSeen": 1785097104,
+        "lastSeen": 1785097170,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
