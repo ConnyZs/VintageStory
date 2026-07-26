@@ -1,5 +1,5 @@
 {
-  "generated": "20260726-222244",
+  "generated": "20260726-222444",
   "game_version": "1.22.5",
   "check_ts": "20260726-200057",
   "latest_engine": "1.22.5",
@@ -2095,8 +2095,8 @@
         "class": "tinker",
         "deaths": 7,
         "mobKills": 122,
-        "mealsEaten": 55,
-        "caloriesConsumed": 25024,
+        "mealsEaten": 57,
+        "caloriesConsumed": 26264,
         "lastMeal": "Blackberry pie",
         "mealsByName": {
           "Pear": 3,
@@ -2110,11 +2110,11 @@
           "Cooked dumplings": 2,
           "Pear pie (charred)": 3,
           "Red grapes": 6,
-          "Blackberry pie": 4
+          "Blackberry pie": 6
         },
         "foodCatCounts": {
-          "Fruit": 25,
-          "Grain": 21,
+          "Fruit": 27,
+          "Grain": 23,
           "Protein": 30,
           "Vegetable": 22,
           "Dairy": 8
@@ -2126,11 +2126,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 102.8,
-        "blocksTravelled": 166742,
-        "blocksBroken": 7635,
-        "blocksPlaced": 466,
+        "blocksTravelled": 166812,
+        "blocksBroken": 7636,
+        "blocksPlaced": 469,
         "deepestY": 1,
-        "lastSeen": 1785097290,
+        "lastSeen": 1785097411,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2480,7 +2480,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 489,
+        "mobKills": 491,
         "mealsEaten": 521,
         "caloriesConsumed": 67542,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
@@ -2554,11 +2554,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 246.3,
-        "blocksTravelled": 327591,
+        "blocksTravelled": 327878,
         "blocksBroken": 18393,
         "blocksPlaced": 7303,
         "deepestY": 1,
-        "lastSeen": 1785097290,
+        "lastSeen": 1785097411,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2730,11 +2730,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 194.9,
-        "blocksTravelled": 185560,
+        "blocksTravelled": 185941,
         "blocksBroken": 8951,
         "blocksPlaced": 5975,
         "deepestY": 12,
-        "lastSeen": 1785097290,
+        "lastSeen": 1785097411,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
