@@ -1,5 +1,5 @@
 {
-  "generated": "20260727-001851",
+  "generated": "20260727-002051",
   "game_version": "1.22.5",
   "check_ts": "20260726-200057",
   "latest_engine": "1.22.5",
@@ -2087,7 +2087,7 @@
       "name": "Raschuetzer",
       "role": "admin",
       "first_join": "04/22/2026 17:47",
-      "last_join": "07/26/2026 21:03",
+      "last_join": "07/26/2026 22:18",
       "last_char": "04/29/2026 21:30",
       "stats": {
         "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
@@ -2126,11 +2126,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 104.7,
-        "blocksTravelled": 170964,
+        "blocksTravelled": 170966,
         "blocksBroken": 7646,
         "blocksPlaced": 477,
         "deepestY": 1,
-        "lastSeen": 1785104328,
+        "lastSeen": 1785104376,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2705,9 +2705,9 @@
         "class": "mason",
         "deaths": 1,
         "mobKills": 172,
-        "mealsEaten": 149,
-        "caloriesConsumed": 44015,
-        "lastMeal": "Earthy orange ceramic bowl of meat stew",
+        "mealsEaten": 151,
+        "caloriesConsumed": 44789,
+        "lastMeal": "Blackberry pie",
         "mealsByName": {
           "Cranberry": 19,
           "Meat pie": 20,
@@ -2725,13 +2725,13 @@
           "Pear pie": 1,
           "Cooked dumplings": 1,
           "Strawberry": 1,
-          "Blackberry pie": 8,
+          "Blackberry pie": 10,
           "Rice grain": 7,
           "Earthy orange ceramic bowl of jam": 1
         },
         "foodCatCounts": {
-          "Fruit": 49,
-          "Grain": 54,
+          "Fruit": 51,
+          "Grain": 56,
           "Protein": 93,
           "Vegetable": 72,
           "Dairy": 12
@@ -2740,11 +2740,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 196.8,
-        "blocksTravelled": 195258,
+        "blocksTravelled": 195302,
         "blocksBroken": 9112,
-        "blocksPlaced": 6190,
+        "blocksPlaced": 6191,
         "deepestY": 12,
-        "lastSeen": 1785104256,
+        "lastSeen": 1785104376,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
