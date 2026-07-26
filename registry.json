@@ -1,5 +1,5 @@
 {
-  "generated": "20260726-221043",
+  "generated": "20260726-221243",
   "game_version": "1.22.5",
   "check_ts": "20260726-200057",
   "latest_engine": "1.22.5",
@@ -2094,7 +2094,7 @@
         "name": "Raschuetzer",
         "class": "tinker",
         "deaths": 7,
-        "mobKills": 114,
+        "mobKills": 118,
         "mealsEaten": 51,
         "caloriesConsumed": 23654,
         "lastMeal": "Meat pie",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 102.6,
-        "blocksTravelled": 165702,
-        "blocksBroken": 7618,
+        "blocksTravelled": 165843,
+        "blocksBroken": 7624,
         "blocksPlaced": 461,
         "deepestY": 1,
-        "lastSeen": 1785096570,
+        "lastSeen": 1785096690,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2479,7 +2479,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 480,
+        "mobKills": 485,
         "mealsEaten": 514,
         "caloriesConsumed": 64900,
         "lastMeal": "Meat pie",
@@ -2552,11 +2552,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 246.1,
-        "blocksTravelled": 326805,
+        "blocksTravelled": 326931,
         "blocksBroken": 18393,
         "blocksPlaced": 7301,
         "deepestY": 1,
-        "lastSeen": 1785096570,
+        "lastSeen": 1785096690,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2695,8 +2695,8 @@
         "class": "mason",
         "deaths": 1,
         "mobKills": 149,
-        "mealsEaten": 113,
-        "caloriesConsumed": 31351,
+        "mealsEaten": 116,
+        "caloriesConsumed": 31811,
         "lastMeal": "Blackberry pie",
         "mealsByName": {
           "Cranberry": 19,
@@ -2715,11 +2715,11 @@
           "Pear pie": 1,
           "Cooked dumplings": 1,
           "Strawberry": 1,
-          "Blackberry pie": 2
+          "Blackberry pie": 5
         },
         "foodCatCounts": {
-          "Fruit": 42,
-          "Grain": 39,
+          "Fruit": 45,
+          "Grain": 42,
           "Protein": 71,
           "Vegetable": 52,
           "Dairy": 10
@@ -2728,11 +2728,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 194.7,
-        "blocksTravelled": 184673,
+        "blocksTravelled": 184765,
         "blocksBroken": 8951,
         "blocksPlaced": 5971,
         "deepestY": 12,
-        "lastSeen": 1785096570,
+        "lastSeen": 1785096690,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
