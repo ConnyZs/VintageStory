@@ -1,5 +1,5 @@
 {
-  "generated": "20260726-194234",
+  "generated": "20260726-194434",
   "game_version": "1.22.5",
   "check_ts": "20260724-200056",
   "latest_engine": "1.22.5",
@@ -2474,13 +2474,13 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 427,
-        "mealsEaten": 467,
-        "caloriesConsumed": 49652,
+        "mealsEaten": 468,
+        "caloriesConsumed": 50194,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Meat pie": 5,
           "Smoked Plain Bushmeat": 3,
-          "Earthy orange ceramic bowl of meat stew": 16,
+          "Earthy orange ceramic bowl of meat stew": 17,
           "Blueberry": 16,
           "Pear pie (charred)": 1,
           "Rye bread": 1,
@@ -2530,8 +2530,8 @@
         },
         "foodCatCounts": {
           "Grain": 72,
-          "Protein": 27,
-          "Vegetable": 131,
+          "Protein": 28,
+          "Vegetable": 132,
           "Fruit": 271,
           "Dairy": 10
         },
@@ -2544,12 +2544,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 243.6,
-        "blocksTravelled": 315374,
-        "blocksBroken": 17935,
+        "playtimeHours": 243.7,
+        "blocksTravelled": 315480,
+        "blocksBroken": 17942,
         "blocksPlaced": 7264,
         "deepestY": 1,
-        "lastSeen": 1785087736,
+        "lastSeen": 1785087804,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2688,8 +2688,8 @@
         "class": "mason",
         "deaths": 1,
         "mobKills": 92,
-        "mealsEaten": 79,
-        "caloriesConsumed": 19273,
+        "mealsEaten": 80,
+        "caloriesConsumed": 19451,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Cranberry": 19,
@@ -2697,7 +2697,7 @@
           "Cranberry pie": 7,
           "Earthy orange ceramic bowl of soup": 1,
           "Wooden bucket": 1,
-          "Earthy orange ceramic bowl of meat stew": 33,
+          "Earthy orange ceramic bowl of meat stew": 34,
           "Chopped cabbage": 1,
           "Pear": 4,
           "Rye bread": 1,
@@ -2712,19 +2712,19 @@
         "foodCatCounts": {
           "Fruit": 40,
           "Grain": 18,
-          "Protein": 39,
-          "Vegetable": 20,
+          "Protein": 40,
+          "Vegetable": 21,
           "Dairy": 10
         },
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 192.2,
-        "blocksTravelled": 173513,
+        "playtimeHours": 192.3,
+        "blocksTravelled": 173814,
         "blocksBroken": 8540,
         "blocksPlaced": 5426,
         "deepestY": 24,
-        "lastSeen": 1785087736,
+        "lastSeen": 1785087804,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
