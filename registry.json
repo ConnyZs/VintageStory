@@ -1,5 +1,5 @@
 {
-  "generated": "20260726-220843",
+  "generated": "20260726-221043",
   "game_version": "1.22.5",
   "check_ts": "20260726-200057",
   "latest_engine": "1.22.5",
@@ -2094,7 +2094,7 @@
         "name": "Raschuetzer",
         "class": "tinker",
         "deaths": 7,
-        "mobKills": 113,
+        "mobKills": 114,
         "mealsEaten": 51,
         "caloriesConsumed": 23654,
         "lastMeal": "Meat pie",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 102.6,
-        "blocksTravelled": 165651,
+        "blocksTravelled": 165702,
         "blocksBroken": 7618,
         "blocksPlaced": 461,
         "deepestY": 1,
-        "lastSeen": 1785096500,
+        "lastSeen": 1785096570,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2479,7 +2479,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 479,
+        "mobKills": 480,
         "mealsEaten": 514,
         "caloriesConsumed": 64900,
         "lastMeal": "Meat pie",
@@ -2552,11 +2552,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 246.1,
-        "blocksTravelled": 326764,
+        "blocksTravelled": 326805,
         "blocksBroken": 18393,
         "blocksPlaced": 7301,
         "deepestY": 1,
-        "lastSeen": 1785096500,
+        "lastSeen": 1785096570,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2728,11 +2728,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 194.7,
-        "blocksTravelled": 184604,
+        "blocksTravelled": 184673,
         "blocksBroken": 8951,
-        "blocksPlaced": 5970,
+        "blocksPlaced": 5971,
         "deepestY": 12,
-        "lastSeen": 1785096500,
+        "lastSeen": 1785096570,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
