@@ -1,5 +1,5 @@
 {
-  "generated": "20260726-215843",
+  "generated": "20260726-220043",
   "game_version": "1.22.5",
   "check_ts": "20260726-200057",
   "latest_engine": "1.22.5",
@@ -2094,7 +2094,7 @@
         "name": "Raschuetzer",
         "class": "tinker",
         "deaths": 7,
-        "mobKills": 107,
+        "mobKills": 109,
         "mealsEaten": 51,
         "caloriesConsumed": 23654,
         "lastMeal": "Meat pie",
@@ -2125,11 +2125,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 102.4,
-        "blocksTravelled": 164924,
+        "blocksTravelled": 165157,
         "blocksBroken": 7614,
         "blocksPlaced": 461,
         "deepestY": 1,
-        "lastSeen": 1785095896,
+        "lastSeen": 1785095970,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2479,12 +2479,12 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 469,
-        "mealsEaten": 509,
-        "caloriesConsumed": 63686,
+        "mobKills": 472,
+        "mealsEaten": 510,
+        "caloriesConsumed": 63734,
         "lastMeal": "Meat pie",
         "mealsByName": {
-          "Meat pie": 38,
+          "Meat pie": 39,
           "Smoked Plain Bushmeat": 3,
           "Earthy orange ceramic bowl of meat stew": 23,
           "Blueberry": 16,
@@ -2536,9 +2536,9 @@
           "Smoked Plain Primemeat": 2
         },
         "foodCatCounts": {
-          "Grain": 105,
-          "Protein": 69,
-          "Vegetable": 171,
+          "Grain": 106,
+          "Protein": 70,
+          "Vegetable": 172,
           "Fruit": 271,
           "Dairy": 10
         },
@@ -2552,11 +2552,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 245.9,
-        "blocksTravelled": 326235,
+        "blocksTravelled": 326424,
         "blocksBroken": 18383,
         "blocksPlaced": 7300,
         "deepestY": 1,
-        "lastSeen": 1785095896,
+        "lastSeen": 1785095970,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2694,13 +2694,13 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 141,
-        "mealsEaten": 109,
-        "caloriesConsumed": 30147,
+        "mobKills": 143,
+        "mealsEaten": 110,
+        "caloriesConsumed": 30583,
         "lastMeal": "Meat pie",
         "mealsByName": {
           "Cranberry": 19,
-          "Meat pie": 18,
+          "Meat pie": 19,
           "Cranberry pie": 7,
           "Earthy orange ceramic bowl of soup": 1,
           "Wooden bucket": 1,
@@ -2718,20 +2718,20 @@
         },
         "foodCatCounts": {
           "Fruit": 40,
-          "Grain": 35,
-          "Protein": 69,
-          "Vegetable": 50,
+          "Grain": 36,
+          "Protein": 70,
+          "Vegetable": 51,
           "Dairy": 10
         },
         "deathCauses": {
           "shiver-corrupt": 1
         },
         "playtimeHours": 194.5,
-        "blocksTravelled": 183903,
+        "blocksTravelled": 184195,
         "blocksBroken": 8951,
         "blocksPlaced": 5967,
-        "deepestY": 20,
-        "lastSeen": 1785095896,
+        "deepestY": 12,
+        "lastSeen": 1785095970,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
