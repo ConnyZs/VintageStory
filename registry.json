@@ -1,5 +1,5 @@
 {
-  "generated": "20260727-000450",
+  "generated": "20260727-000650",
   "game_version": "1.22.5",
   "check_ts": "20260726-200057",
   "latest_engine": "1.22.5",
@@ -2095,13 +2095,13 @@
         "class": "tinker",
         "deaths": 7,
         "mobKills": 133,
-        "mealsEaten": 63,
-        "caloriesConsumed": 30796,
+        "mealsEaten": 65,
+        "caloriesConsumed": 32170,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Pear": 3,
           "Meat pie": 10,
-          "Earthy orange ceramic bowl of meat stew": 23,
+          "Earthy orange ceramic bowl of meat stew": 25,
           "Strawberry": 2,
           "Blackcurrant": 3,
           "Rye bread": 1,
@@ -2115,8 +2115,8 @@
         "foodCatCounts": {
           "Fruit": 27,
           "Grain": 25,
-          "Protein": 36,
-          "Vegetable": 27,
+          "Protein": 38,
+          "Vegetable": 29,
           "Dairy": 9
         },
         "deathCauses": {
@@ -2126,11 +2126,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 104.5,
-        "blocksTravelled": 170667,
+        "blocksTravelled": 170714,
         "blocksBroken": 7646,
         "blocksPlaced": 477,
         "deepestY": 1,
-        "lastSeen": 1785103448,
+        "lastSeen": 1785103535,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2704,7 +2704,7 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 170,
+        "mobKills": 171,
         "mealsEaten": 148,
         "caloriesConsumed": 43294,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
@@ -2740,11 +2740,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 196.6,
-        "blocksTravelled": 194408,
+        "blocksTravelled": 194624,
         "blocksBroken": 9097,
         "blocksPlaced": 6162,
         "deepestY": 12,
-        "lastSeen": 1785103448,
+        "lastSeen": 1785103535,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
