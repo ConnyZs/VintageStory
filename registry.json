@@ -1,5 +1,5 @@
 {
-  "generated": "20260726-213041",
+  "generated": "20260726-213241",
   "game_version": "1.22.5",
   "check_ts": "20260726-200057",
   "latest_engine": "1.22.5",
@@ -2479,12 +2479,12 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 455,
-        "mealsEaten": 488,
-        "caloriesConsumed": 59966,
+        "mobKills": 466,
+        "mealsEaten": 490,
+        "caloriesConsumed": 60418,
         "lastMeal": "Meat pie",
         "mealsByName": {
-          "Meat pie": 17,
+          "Meat pie": 19,
           "Smoked Plain Bushmeat": 3,
           "Earthy orange ceramic bowl of meat stew": 23,
           "Blueberry": 16,
@@ -2536,9 +2536,9 @@
           "Smoked Plain Primemeat": 2
         },
         "foodCatCounts": {
-          "Grain": 84,
-          "Protein": 48,
-          "Vegetable": 150,
+          "Grain": 86,
+          "Protein": 50,
+          "Vegetable": 152,
           "Fruit": 271,
           "Dairy": 10
         },
@@ -2551,12 +2551,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 245.4,
-        "blocksTravelled": 323413,
-        "blocksBroken": 18208,
+        "playtimeHours": 245.5,
+        "blocksTravelled": 323805,
+        "blocksBroken": 18211,
         "blocksPlaced": 7300,
         "deepestY": 1,
-        "lastSeen": 1785094168,
+        "lastSeen": 1785094288,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2694,7 +2694,7 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 125,
+        "mobKills": 133,
         "mealsEaten": 101,
         "caloriesConsumed": 26627,
         "lastMeal": "Meat pie",
@@ -2726,12 +2726,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 194.0,
-        "blocksTravelled": 180452,
-        "blocksBroken": 8917,
+        "playtimeHours": 194.1,
+        "blocksTravelled": 180658,
+        "blocksBroken": 8936,
         "blocksPlaced": 5954,
         "deepestY": 24,
-        "lastSeen": 1785094168,
+        "lastSeen": 1785094288,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
