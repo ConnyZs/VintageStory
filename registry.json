@@ -1,5 +1,5 @@
 {
-  "generated": "20260726-222644",
+  "generated": "20260726-222844",
   "game_version": "1.22.5",
   "check_ts": "20260726-200057",
   "latest_engine": "1.22.5",
@@ -2094,7 +2094,7 @@
         "name": "Raschuetzer",
         "class": "tinker",
         "deaths": 7,
-        "mobKills": 124,
+        "mobKills": 126,
         "mealsEaten": 57,
         "caloriesConsumed": 26264,
         "lastMeal": "Blackberry pie",
@@ -2125,12 +2125,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 102.8,
-        "blocksTravelled": 166975,
+        "playtimeHours": 102.9,
+        "blocksTravelled": 167043,
         "blocksBroken": 7636,
         "blocksPlaced": 469,
         "deepestY": 1,
-        "lastSeen": 1785097531,
+        "lastSeen": 1785097708,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2554,11 +2554,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 246.4,
-        "blocksTravelled": 328149,
-        "blocksBroken": 18401,
+        "blocksTravelled": 328476,
+        "blocksBroken": 18413,
         "blocksPlaced": 7303,
         "deepestY": 1,
-        "lastSeen": 1785097531,
+        "lastSeen": 1785097708,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2697,8 +2697,8 @@
         "class": "mason",
         "deaths": 1,
         "mobKills": 152,
-        "mealsEaten": 122,
-        "caloriesConsumed": 33901,
+        "mealsEaten": 123,
+        "caloriesConsumed": 34179,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Cranberry": 19,
@@ -2706,7 +2706,7 @@
           "Cranberry pie": 7,
           "Earthy orange ceramic bowl of soup": 1,
           "Wooden bucket": 1,
-          "Earthy orange ceramic bowl of meat stew": 49,
+          "Earthy orange ceramic bowl of meat stew": 50,
           "Chopped cabbage": 1,
           "Pear": 4,
           "Rye bread": 1,
@@ -2722,19 +2722,19 @@
         "foodCatCounts": {
           "Fruit": 48,
           "Grain": 45,
-          "Protein": 74,
-          "Vegetable": 55,
+          "Protein": 75,
+          "Vegetable": 56,
           "Dairy": 10
         },
         "deathCauses": {
           "shiver-corrupt": 1
         },
         "playtimeHours": 195.0,
-        "blocksTravelled": 186103,
-        "blocksBroken": 8953,
+        "blocksTravelled": 186438,
+        "blocksBroken": 8954,
         "blocksPlaced": 5978,
         "deepestY": 12,
-        "lastSeen": 1785097531,
+        "lastSeen": 1785097708,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
