@@ -1,5 +1,5 @@
 {
-  "generated": "20260726-225446",
+  "generated": "20260726-225646",
   "game_version": "1.22.5",
   "check_ts": "20260726-200057",
   "latest_engine": "1.22.5",
@@ -2126,11 +2126,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 103.3,
-        "blocksTravelled": 168438,
+        "blocksTravelled": 168472,
         "blocksBroken": 7637,
         "blocksPlaced": 470,
         "deepestY": 1,
-        "lastSeen": 1785099219,
+        "lastSeen": 1785099332,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2553,12 +2553,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 246.8,
-        "blocksTravelled": 330108,
-        "blocksBroken": 18455,
-        "blocksPlaced": 7330,
+        "playtimeHours": 246.9,
+        "blocksTravelled": 330167,
+        "blocksBroken": 18460,
+        "blocksPlaced": 7331,
         "deepestY": 1,
-        "lastSeen": 1785099219,
+        "lastSeen": 1785099332,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2696,7 +2696,7 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 156,
+        "mobKills": 157,
         "mealsEaten": 131,
         "caloriesConsumed": 34908,
         "lastMeal": "Rice grain",
@@ -2731,11 +2731,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 195.4,
-        "blocksTravelled": 187913,
+        "blocksTravelled": 187981,
         "blocksBroken": 8979,
         "blocksPlaced": 5981,
         "deepestY": 12,
-        "lastSeen": 1785099219,
+        "lastSeen": 1785099332,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -2745,6 +2745,7 @@
           "Scribe gloves",
           "Gold gear amulet",
           "Messenger pin",
+          "Sheep skull mask",
           "Sturdy belt",
           "Large silver bracelets",
           "Fortune teller vest"
@@ -2794,6 +2795,12 @@
             "slot": "emblem",
             "code": "game:clothes-emblem-messenger-pin",
             "name": "Messenger pin"
+          },
+          {
+            "slot": "face",
+            "code": "game:clothes-face-sheepskull",
+            "name": "Sheep skull mask",
+            "icon": "character/icons/face-sheepskull.png"
           },
           {
             "slot": "waist",
