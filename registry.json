@@ -1,5 +1,5 @@
 {
-  "generated": "20260726-190832",
+  "generated": "20260726-191032",
   "game_version": "1.22.5",
   "check_ts": "20260724-200056",
   "latest_engine": "1.22.5",
@@ -2545,11 +2545,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 243.1,
-        "blocksTravelled": 312091,
+        "blocksTravelled": 312125,
         "blocksBroken": 17912,
         "blocksPlaced": 7255,
         "deepestY": 1,
-        "lastSeen": 1785085643,
+        "lastSeen": 1785085763,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2718,12 +2718,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 190.9,
-        "blocksTravelled": 172573,
+        "playtimeHours": 191.7,
+        "blocksTravelled": 172578,
         "blocksBroken": 8540,
         "blocksPlaced": 5411,
         "deepestY": 24,
-        "lastSeen": 1785082781,
+        "lastSeen": 1785085789,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
