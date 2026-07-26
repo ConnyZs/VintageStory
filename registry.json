@@ -1,5 +1,5 @@
 {
-  "generated": "20260726-232248",
+  "generated": "20260726-232448",
   "game_version": "1.22.5",
   "check_ts": "20260726-200057",
   "latest_engine": "1.22.5",
@@ -2126,11 +2126,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 103.8,
-        "blocksTravelled": 169094,
+        "blocksTravelled": 169185,
         "blocksBroken": 7646,
         "blocksPlaced": 472,
         "deepestY": 1,
-        "lastSeen": 1785100894,
+        "lastSeen": 1785101031,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2555,11 +2555,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 247.3,
-        "blocksTravelled": 332339,
-        "blocksBroken": 18501,
+        "blocksTravelled": 332438,
+        "blocksBroken": 18519,
         "blocksPlaced": 7342,
         "deepestY": 1,
-        "lastSeen": 1785100894,
+        "lastSeen": 1785101031,
         "gear": [
           "Acrobat hairpin",
           "Rotwalker cape",
@@ -2703,7 +2703,7 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 160,
+        "mobKills": 161,
         "mealsEaten": 138,
         "caloriesConsumed": 39056,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
@@ -2739,11 +2739,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 195.9,
-        "blocksTravelled": 191102,
-        "blocksBroken": 9022,
-        "blocksPlaced": 6008,
+        "blocksTravelled": 191277,
+        "blocksBroken": 9030,
+        "blocksPlaced": 6010,
         "deepestY": 12,
-        "lastSeen": 1785100894,
+        "lastSeen": 1785101031,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
