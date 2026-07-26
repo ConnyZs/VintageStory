@@ -1,5 +1,5 @@
 {
-  "generated": "20260726-212040",
+  "generated": "20260726-212240",
   "game_version": "1.22.5",
   "check_ts": "20260726-200057",
   "latest_engine": "1.22.5",
@@ -2479,12 +2479,12 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 452,
-        "mealsEaten": 486,
-        "caloriesConsumed": 58364,
-        "lastMeal": "Smoked Plain Primemeat",
+        "mobKills": 455,
+        "mealsEaten": 487,
+        "caloriesConsumed": 59350,
+        "lastMeal": "Meat pie",
         "mealsByName": {
-          "Meat pie": 15,
+          "Meat pie": 16,
           "Smoked Plain Bushmeat": 3,
           "Earthy orange ceramic bowl of meat stew": 23,
           "Blueberry": 16,
@@ -2536,9 +2536,9 @@
           "Smoked Plain Primemeat": 2
         },
         "foodCatCounts": {
-          "Grain": 82,
-          "Protein": 46,
-          "Vegetable": 148,
+          "Grain": 83,
+          "Protein": 47,
+          "Vegetable": 149,
           "Fruit": 271,
           "Dairy": 10
         },
@@ -2552,11 +2552,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 245.3,
-        "blocksTravelled": 322765,
+        "blocksTravelled": 323018,
         "blocksBroken": 18208,
         "blocksPlaced": 7299,
         "deepestY": 1,
-        "lastSeen": 1785093568,
+        "lastSeen": 1785093688,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2727,11 +2727,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 193.9,
-        "blocksTravelled": 179699,
-        "blocksBroken": 8881,
-        "blocksPlaced": 5933,
+        "blocksTravelled": 179808,
+        "blocksBroken": 8885,
+        "blocksPlaced": 5943,
         "deepestY": 24,
-        "lastSeen": 1785093568,
+        "lastSeen": 1785093688,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
