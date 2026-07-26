@@ -1,5 +1,5 @@
 {
-  "generated": "20260726-230246",
+  "generated": "20260726-230446",
   "game_version": "1.22.5",
   "check_ts": "20260726-200057",
   "latest_engine": "1.22.5",
@@ -2125,12 +2125,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 103.4,
-        "blocksTravelled": 168674,
+        "playtimeHours": 103.5,
+        "blocksTravelled": 168697,
         "blocksBroken": 7645,
         "blocksPlaced": 470,
         "deepestY": 1,
-        "lastSeen": 1785099693,
+        "lastSeen": 1785099844,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2554,11 +2554,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 247.0,
-        "blocksTravelled": 330991,
+        "blocksTravelled": 331018,
         "blocksBroken": 18463,
-        "blocksPlaced": 7334,
+        "blocksPlaced": 7335,
         "deepestY": 1,
-        "lastSeen": 1785099693,
+        "lastSeen": 1785099823,
         "gear": [
           "Rotwalker cape",
           "Tattered crimson tunic",
@@ -2567,7 +2567,7 @@
           "Survivor gloves",
           "Rotten king collar",
           "Prince emblem",
-          "Crow mask",
+          "Sheep skull mask",
           "Heavy tool belt",
           "Leather bracers",
           "Rotwalker coat",
@@ -2617,9 +2617,9 @@
           },
           {
             "slot": "face",
-            "code": "game:clothes-face-crow",
-            "name": "Crow mask",
-            "icon": "character/icons/face-crow.png"
+            "code": "game:clothes-face-sheepskull",
+            "name": "Sheep skull mask",
+            "icon": "character/icons/face-sheepskull.png"
           },
           {
             "slot": "waist",
@@ -2697,8 +2697,8 @@
         "class": "mason",
         "deaths": 1,
         "mobKills": 157,
-        "mealsEaten": 134,
-        "caloriesConsumed": 36806,
+        "mealsEaten": 135,
+        "caloriesConsumed": 36838,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Cranberry": 19,
@@ -2706,7 +2706,7 @@
           "Cranberry pie": 7,
           "Earthy orange ceramic bowl of soup": 1,
           "Wooden bucket": 1,
-          "Earthy orange ceramic bowl of meat stew": 54,
+          "Earthy orange ceramic bowl of meat stew": 55,
           "Chopped cabbage": 1,
           "Pear": 4,
           "Rye bread": 1,
@@ -2723,19 +2723,19 @@
         "foodCatCounts": {
           "Fruit": 48,
           "Grain": 52,
-          "Protein": 79,
-          "Vegetable": 60,
+          "Protein": 80,
+          "Vegetable": 61,
           "Dairy": 10
         },
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 195.5,
-        "blocksTravelled": 188844,
+        "playtimeHours": 195.6,
+        "blocksTravelled": 188918,
         "blocksBroken": 8980,
-        "blocksPlaced": 5984,
+        "blocksPlaced": 5992,
         "deepestY": 12,
-        "lastSeen": 1785099693,
+        "lastSeen": 1785099823,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -2745,7 +2745,6 @@
           "Scribe gloves",
           "Gold gear amulet",
           "Messenger pin",
-          "Sheep skull mask",
           "Sturdy belt",
           "Large silver bracelets",
           "Fortune teller vest"
@@ -2795,12 +2794,6 @@
             "slot": "emblem",
             "code": "game:clothes-emblem-messenger-pin",
             "name": "Messenger pin"
-          },
-          {
-            "slot": "face",
-            "code": "game:clothes-face-sheepskull",
-            "name": "Sheep skull mask",
-            "icon": "character/icons/face-sheepskull.png"
           },
           {
             "slot": "waist",

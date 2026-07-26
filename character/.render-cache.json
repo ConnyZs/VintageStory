@@ -50,7 +50,7 @@
   }
  },
  "Moritz": {
-  "hash": "de0b1ed699e3c3637c7bef31a0bbad4821cf1200",
+  "hash": "54043db9901bb5ab0d2b5cfd9fdd08a031a4553b",
   "info": {
    "class": "mason",
    "items": [
@@ -66,17 +66,16 @@
     "Scribe gloves",
     "Gold gear amulet",
     "Messenger pin",
-    "Sheep skull mask",
     "Sturdy belt",
     "Large silver bracelets",
     "Fortune teller vest"
    ],
    "frames": 16,
-   "v": 1785099428
+   "v": 1785099930
   }
  },
  "AddyBuschu": {
-  "hash": "7b0bfb714ad5f621dea959cdd51882589e3db40e",
+  "hash": "5be6993230de3212f26eaddc2af4073dfe30a1de",
   "info": {
    "class": "homesteader",
    "items": [
@@ -93,14 +92,14 @@
     "Survivor gloves",
     "Rotten king collar",
     "Prince emblem",
-    "Crow mask",
+    "Sheep skull mask",
     "Heavy tool belt",
     "Leather bracers",
     "Rotwalker coat",
     "Rotwalker coat"
    ],
    "frames": 16,
-   "v": 1785090059
+   "v": 1785099910
   }
  },
  "Barberschascher": {

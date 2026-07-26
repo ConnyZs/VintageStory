@@ -62,14 +62,14 @@
     "Survivor gloves",
     "Rotten king collar",
     "Prince emblem",
-    "Crow mask",
+    "Sheep skull mask",
     "Heavy tool belt",
     "Leather bracers",
     "Rotwalker coat",
     "Rotwalker coat"
    ],
    "frames": 16,
-   "v": 1785090059
+   "v": 1785099910
   },
   "Moritz": {
    "class": "mason",
@@ -86,13 +86,12 @@
     "Scribe gloves",
     "Gold gear amulet",
     "Messenger pin",
-    "Sheep skull mask",
     "Sturdy belt",
     "Large silver bracelets",
     "Fortune teller vest"
    ],
    "frames": 16,
-   "v": 1785099428
+   "v": 1785099930
   },
   "Barberschascher": {
    "class": "miner",
