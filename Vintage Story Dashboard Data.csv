@@ -57,7 +57,7 @@ Tabletop Games,https://mods.vintagestory.at/tabletopgames,Utility,1.22,yes,avail
 "Tankards, Goblets and More!",https://mods.vintagestory.at/tankardsandgoblets,Food,1.22,yes,available for 1.22 (installs on update),tankardsandgoblets,available,1.4.4
 Translocator Engineering - Redux,https://mods.vintagestory.at/translocatorengineeringredux,Technology,1.22,yes,available for 1.22 (installs on update),translocatorengineeringredux,available,1.6.6
 VS Roofing Mod,https://mods.vintagestory.at/show/mod/30143,Utility,1.22,yes,available for 1.22 (installs on update),vsroofing,available,1.6.7
-Window Storage,https://mods.vintagestory.at/windowstorage,Storage,1.22,yes,available for 1.22 (installs on update),windowstorage,available,1.8.25
+Window Storage [Legacy],https://mods.vintagestory.at/windowstorage,Storage,1.22,yes,available for 1.22 (installs on update),windowstorage,available,1.8.25
 Tailor's Delight,https://mods.vintagestory.at/tailorsdelight,Cosmetics,1.22,yes,available for 1.22 (installs on update),tailorsdelight,available,2.2.2
 Cartwright´s Caravan,https://mods.vintagestory.at/cartwrightscaravan,Storage,1.22,yes,available for 1.22 (installs on update),cartwrightscaravan,available,1.9.1
 Chiseled Block Retention,https://mods.vintagestory.at/cbr,QoL,1.22,yes,available for 1.22 (installs on update),cbr,available,2.0.1
@@ -94,7 +94,7 @@ Electrical Progressive: Core,https://mods.vintagestory.at/electricalprogressivec
 Expanded Matter,https://mods.vintagestory.at/em,Worldgen,1.22,yes,available for 1.22 (installs on update),em,available,3.7.0
 JSON Patches lib,https://mods.vintagestory.at/jsonpatcheslib,Library,1.22,yes,available for 1.22 (installs on update),jsonpatcheslib,available,1.5.5
 Molds,https://mods.vintagestory.at/molds,Technology,1.22,yes,available for 1.22 (installs on update),molds,available,0.3.6
-Window Storage Lib,https://mods.vintagestory.at/windowstoragelib,Library,1.22,yes,available for 1.22 (installs on update),windowstoragelib,available,1.2.7
+Window Storage Lib [Legacy],https://mods.vintagestory.at/windowstoragelib,Library,1.22,yes,available for 1.22 (installs on update),windowstoragelib,available,1.2.7
 Salty´s TerraTag,https://mods.vintagestory.at/terratag,Utility,1.22,yes,available for 1.22 (installs on update),terratag,available,0.5.0
 Vanity,https://mods.vintagestory.at/vanity,Cosmetics,1.22,yes,available for 1.22 (installs on update),vanity,available,2.4.8
 From Golden Combs,https://mods.vintagestory.at/show/mod/1373,Food,1.22,yes,available for 1.22 (installs on update),fromgoldencombs,available,2.0.8
@@ -119,6 +119,7 @@ Animations lib,https://mods.vintagestory.at/animationslib,Weapons,1.22,yes,"avai
 Chisel Leaf,https://mods.vintagestory.at/chiselleaf,Crafting,1.22,yes,available for 1.22 (installs on update),chiselleaf,available,1.2.1
 Unnerfed Flowers,https://mods.vintagestory.at/show/mod/47392,Flora,1.22,yes,available for 1.22 (installs on update),unnerfedflowers,available,1.0.0
 Config lib,https://mods.vintagestory.at/configlib,Other,1.22,yes,available for 1.22 (installs on update),configlib,available,1.12.0
+Extreme Weathers [ALPHA],https://mods.vintagestory.at/show/mod/58501,Realism,1.22,no,available for 1.22 (installs on update),extremeweather,available,
 smithingplus,,Misc.,1.22,yes,,smithingplus,available,1.8.7
 Windmill Sail Fix,,Misc.,1.22,,,windmillsailfix,available,2.0.2
 Labeled Trunks,,Storage,1.22,yes,,labeledtrunk,available,1.1.11

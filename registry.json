@@ -1,5 +1,5 @@
 {
-  "generated": "20260727-171207",
+  "generated": "20260727-171749",
   "game_version": "1.22.5",
   "check_ts": "20260726-200057",
   "latest_engine": "1.22.5",
@@ -37,6 +37,7 @@
     "Other",
     "QOL",
     "QoL",
+    "Realism",
     "Storage",
     "Symphony",
     "Technology",
@@ -45,7 +46,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 126,
+  "count": 127,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -458,7 +459,7 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "0.6.20",
-      "build_version": "0.6.21",
+      "build_version": "0.6.22",
       "build_branch": "1.22",
       "update_pending": true,
       "proposed": false
@@ -976,7 +977,7 @@
       "proposed": false
     },
     {
-      "name": "Window Storage",
+      "name": "Window Storage [Legacy]",
       "modid": "windowstorage",
       "section": "1.22",
       "category": "Storage",
@@ -1568,7 +1569,7 @@
       "proposed": false
     },
     {
-      "name": "Window Storage Lib",
+      "name": "Window Storage Lib [Legacy]",
       "modid": "windowstoragelib",
       "section": "1.22",
       "category": "Library",
@@ -1966,6 +1967,22 @@
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": false
+    },
+    {
+      "name": "Extreme Weathers [ALPHA]",
+      "modid": "extremeweather",
+      "section": "1.22",
+      "category": "Realism",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/show/mod/58501",
+      "server_state": "no",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": null,
+      "build_version": "1.7.1",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": true
     },
     {
       "name": "smithingplus",
