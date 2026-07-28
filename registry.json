@@ -1,5 +1,5 @@
 {
-  "generated": "20260728-202428",
+  "generated": "20260728-202628",
   "game_version": "1.22.5",
   "check_ts": "20260727-200052",
   "latest_engine": "1.22.5",
@@ -2576,14 +2576,39 @@
         "blocksBroken": 18861,
         "blocksPlaced": 7351,
         "deepestY": 1,
-        "lastSeen": 1785263015,
+        "lastSeen": 1785263080,
         "gear": [
+          "Rotwalker cape",
+          "Tattered crimson tunic",
+          "Nomad trousers",
           "Rotten king shoes",
+          "Survivor gloves",
           "Rotten king collar",
-          "Rotten king mask",
-          "Rotten king belt"
+          "Prince emblem",
+          "Sheep skull mask",
+          "Heavy tool belt",
+          "Leather bracers",
+          "Fur coat"
         ],
         "gearDetail": [
+          {
+            "slot": "shoulder",
+            "code": "game:clothes-shoulder-rotwalker",
+            "name": "Rotwalker cape",
+            "icon": "character/icons/shoulder-rotwalker.png"
+          },
+          {
+            "slot": "upperbody",
+            "code": "game:clothes-upperbody-tattered-crimson-tunic",
+            "name": "Tattered crimson tunic",
+            "icon": "character/icons/upperbody-tattered-crimson-tunic.png"
+          },
+          {
+            "slot": "lowerbody",
+            "code": "game:clothes-lowerbody-nomad-trousers",
+            "name": "Nomad trousers",
+            "icon": "character/icons/lowerbody-nomad-trousers.png"
+          },
           {
             "slot": "foot",
             "code": "game:clothes-foot-rottenking",
@@ -2591,21 +2616,44 @@
             "icon": "character/icons/foot-rottenking.png"
           },
           {
+            "slot": "hand",
+            "code": "game:clothes-hand-survivor",
+            "name": "Survivor gloves",
+            "icon": "character/icons/hand-survivor.png"
+          },
+          {
             "slot": "neck",
             "code": "game:clothes-neck-rottenking",
             "name": "Rotten king collar"
           },
           {
+            "slot": "emblem",
+            "code": "game:clothes-emblem-royal-pin",
+            "name": "Prince emblem"
+          },
+          {
             "slot": "face",
-            "code": "game:clothes-face-rottenking",
-            "name": "Rotten king mask",
-            "icon": "character/icons/face-rottenking.png"
+            "code": "game:clothes-face-sheepskull",
+            "name": "Sheep skull mask",
+            "icon": "character/icons/face-sheepskull.png"
           },
           {
             "slot": "waist",
-            "code": "game:clothes-waist-rottenking",
-            "name": "Rotten king belt",
-            "icon": "character/icons/waist-rottenking.png"
+            "code": "game:clothes-waist-heavy-tool-belt",
+            "name": "Heavy tool belt",
+            "icon": "character/icons/waist-heavy-tool-belt.png"
+          },
+          {
+            "slot": "arm",
+            "code": "game:clothes-arm-leather-bracers",
+            "name": "Leather bracers",
+            "icon": "character/icons/arm-leather-bracers.png"
+          },
+          {
+            "slot": "upperbodyover",
+            "code": "game:clothes-upperbodyover-fur-coat",
+            "name": "Fur coat",
+            "icon": "character/icons/upperbodyover-fur-coat.png"
           },
           {
             "slot": "bag-1",
@@ -2689,12 +2737,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 240.7,
-        "blocksTravelled": 211261,
+        "playtimeHours": 240.8,
+        "blocksTravelled": 211319,
         "blocksBroken": 9435,
         "blocksPlaced": 6590,
         "deepestY": 12,
-        "lastSeen": 1785263015,
+        "lastSeen": 1785263080,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
