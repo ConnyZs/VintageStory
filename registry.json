@@ -1,5 +1,5 @@
 {
-  "generated": "20260728-205230",
+  "generated": "20260728-205430",
   "game_version": "1.22.5",
   "check_ts": "20260727-200052",
   "latest_engine": "1.22.5",
@@ -2572,11 +2572,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 292.8,
-        "blocksTravelled": 337727,
-        "blocksBroken": 18898,
-        "blocksPlaced": 7368,
+        "blocksTravelled": 338277,
+        "blocksBroken": 18899,
+        "blocksPlaced": 7371,
         "deepestY": 1,
-        "lastSeen": 1785264641,
+        "lastSeen": 1785264828,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2757,23 +2757,21 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 241.2,
-        "blocksTravelled": 214610,
+        "blocksTravelled": 214736,
         "blocksBroken": 9507,
-        "blocksPlaced": 6602,
+        "blocksPlaced": 6603,
         "deepestY": 12,
-        "lastSeen": 1785264641,
+        "lastSeen": 1785264828,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
           "Linen tunic",
           "Workmans pants",
-          "Forlorn Hope shoes",
           "Scribe gloves",
           "Gold gear amulet",
           "Messenger pin",
           "Sturdy belt",
-          "Large silver bracelets",
-          "Fur coat"
+          "Large silver bracelets"
         ],
         "gearDetail": [
           {
@@ -2801,12 +2799,6 @@
             "icon": "character/icons/lowerbody-workmans-gown.png"
           },
           {
-            "slot": "foot",
-            "code": "game:clothes-foot-forlorn-shoes",
-            "name": "Forlorn Hope shoes",
-            "icon": "character/icons/foot-forlorn-shoes.png"
-          },
-          {
             "slot": "hand",
             "code": "game:clothes-hand-scribe",
             "name": "Scribe gloves"
@@ -2831,12 +2823,6 @@
             "slot": "arm",
             "code": "game:clothes-arm-large-silver-bracelets",
             "name": "Large silver bracelets"
-          },
-          {
-            "slot": "upperbodyover",
-            "code": "game:clothes-upperbodyover-fur-coat",
-            "name": "Fur coat",
-            "icon": "character/icons/upperbodyover-fur-coat.png"
           },
           {
             "slot": "bag-1",
