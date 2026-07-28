@@ -1,5 +1,5 @@
 {
-  "generated": "20260728-202228",
+  "generated": "20260728-202428",
   "game_version": "1.22.5",
   "check_ts": "20260727-200052",
   "latest_engine": "1.22.5",
@@ -2490,7 +2490,7 @@
       "name": "AddyBuschu",
       "role": "admin",
       "first_join": "04/22/2026 17:55",
-      "last_join": "07/26/2026 20:33",
+      "last_join": "07/28/2026 18:19",
       "last_char": "04/25/2026 15:34",
       "stats": {
         "uid": "MT3maN90oN2gwGyklJR20Gu1",
@@ -2572,63 +2572,23 @@
           "shiver-surface": 1
         },
         "playtimeHours": 292.3,
-        "blocksTravelled": 334602,
+        "blocksTravelled": 334651,
         "blocksBroken": 18861,
         "blocksPlaced": 7351,
         "deepestY": 1,
-        "lastSeen": 1785262870,
+        "lastSeen": 1785263015,
         "gear": [
-          "Red fox fur trapper hat",
-          "Rotwalker cape",
-          "Tattered crimson tunic",
-          "Nomad trousers",
-          "Wool lined knee-high boots",
-          "Survivor gloves",
+          "Rotten king shoes",
           "Rotten king collar",
-          "Prince emblem",
-          "Sheep skull mask",
-          "Heavy tool belt",
-          "Leather bracers",
-          "Fur coat",
-          "Black bear hide helmet",
-          "Black bear hide body armor"
+          "Rotten king mask",
+          "Rotten king belt"
         ],
         "gearDetail": [
           {
-            "slot": "head",
-            "code": "game:clothes-head-furhatwide-fox-red",
-            "name": "Red fox fur trapper hat",
-            "icon": "character/icons/head-furhatwide-fox-red.png"
-          },
-          {
-            "slot": "shoulder",
-            "code": "game:clothes-shoulder-rotwalker",
-            "name": "Rotwalker cape",
-            "icon": "character/icons/shoulder-rotwalker.png"
-          },
-          {
-            "slot": "upperbody",
-            "code": "game:clothes-upperbody-tattered-crimson-tunic",
-            "name": "Tattered crimson tunic",
-            "icon": "character/icons/upperbody-tattered-crimson-tunic.png"
-          },
-          {
-            "slot": "lowerbody",
-            "code": "game:clothes-lowerbody-nomad-trousers",
-            "name": "Nomad trousers",
-            "icon": "character/icons/lowerbody-nomad-trousers.png"
-          },
-          {
             "slot": "foot",
-            "code": "game:clothes-foot-wool-lined-knee-high-boots",
-            "name": "Wool lined knee-high boots",
-            "icon": "character/icons/foot-wool-lined-knee-high-boots.png"
-          },
-          {
-            "slot": "hand",
-            "code": "game:clothes-hand-survivor",
-            "name": "Survivor gloves",
-            "icon": "character/icons/hand-survivor.png"
+            "code": "game:clothes-foot-rottenking",
+            "name": "Rotten king shoes",
+            "icon": "character/icons/foot-rottenking.png"
           },
           {
             "slot": "neck",
@@ -2636,43 +2596,16 @@
             "name": "Rotten king collar"
           },
           {
-            "slot": "emblem",
-            "code": "game:clothes-emblem-royal-pin",
-            "name": "Prince emblem"
-          },
-          {
             "slot": "face",
-            "code": "game:clothes-face-sheepskull",
-            "name": "Sheep skull mask",
-            "icon": "character/icons/face-sheepskull.png"
+            "code": "game:clothes-face-rottenking",
+            "name": "Rotten king mask",
+            "icon": "character/icons/face-rottenking.png"
           },
           {
             "slot": "waist",
-            "code": "game:clothes-waist-heavy-tool-belt",
-            "name": "Heavy tool belt",
-            "icon": "character/icons/waist-heavy-tool-belt.png"
-          },
-          {
-            "slot": "arm",
-            "code": "game:clothes-arm-leather-bracers",
-            "name": "Leather bracers",
-            "icon": "character/icons/arm-leather-bracers.png"
-          },
-          {
-            "slot": "upperbodyover",
-            "code": "game:clothes-upperbodyover-fur-coat",
-            "name": "Fur coat",
-            "icon": "character/icons/upperbodyover-fur-coat.png"
-          },
-          {
-            "slot": "armorhead",
-            "code": "game:armor-head-hide-bear-black",
-            "name": "Black bear hide helmet"
-          },
-          {
-            "slot": "armorbody",
-            "code": "game:armor-body-hide-bear-black",
-            "name": "Black bear hide body armor"
+            "code": "game:clothes-waist-rottenking",
+            "name": "Rotten king belt",
+            "icon": "character/icons/waist-rottenking.png"
           },
           {
             "slot": "bag-1",
@@ -2757,11 +2690,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 240.7,
-        "blocksTravelled": 211189,
+        "blocksTravelled": 211261,
         "blocksBroken": 9435,
         "blocksPlaced": 6590,
         "deepestY": 12,
-        "lastSeen": 1785262840,
+        "lastSeen": 1785263015,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",

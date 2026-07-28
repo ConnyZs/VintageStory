@@ -76,7 +76,7 @@
   }
  },
  "AddyBuschu": {
-  "hash": "858fb0111c3254244d8a9b87314c18d55bf92493",
+  "hash": "d9100d1ff23c2776211c53efb5cabeaa22433309",
   "info": {
    "class": "homesteader",
    "items": [
@@ -85,23 +85,13 @@
     "mustache",
     "beard",
     "facialexpression",
-    "Red fox fur trapper hat",
-    "Rotwalker cape",
-    "Rotwalker cape",
-    "Tattered crimson tunic",
-    "Nomad trousers",
-    "Wool lined knee-high boots",
-    "Survivor gloves",
+    "Rotten king shoes",
     "Rotten king collar",
-    "Prince emblem",
-    "Sheep skull mask",
-    "Heavy tool belt",
-    "Leather bracers",
-    "Fur coat",
-    "Fur coat"
+    "Rotten king mask",
+    "Rotten king belt"
    ],
    "frames": 16,
-   "v": 1785102071
+   "v": 1785263087
   }
  },
  "Barberschascher": {
