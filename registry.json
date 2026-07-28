@@ -1,5 +1,5 @@
 {
-  "generated": "20260728-202628",
+  "generated": "20260728-202828",
   "game_version": "1.22.5",
   "check_ts": "20260727-200052",
   "latest_engine": "1.22.5",
@@ -2571,13 +2571,14 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 292.3,
-        "blocksTravelled": 334651,
-        "blocksBroken": 18861,
+        "playtimeHours": 292.4,
+        "blocksTravelled": 334950,
+        "blocksBroken": 18865,
         "blocksPlaced": 7351,
         "deepestY": 1,
-        "lastSeen": 1785263080,
+        "lastSeen": 1785263200,
         "gear": [
+          "Red fox fur trapper hat",
           "Rotwalker cape",
           "Tattered crimson tunic",
           "Nomad trousers",
@@ -2588,9 +2589,17 @@
           "Sheep skull mask",
           "Heavy tool belt",
           "Leather bracers",
-          "Fur coat"
+          "Fur coat",
+          "Black bear hide helmet",
+          "Black bear hide body armor"
         ],
         "gearDetail": [
+          {
+            "slot": "head",
+            "code": "game:clothes-head-furhatwide-fox-red",
+            "name": "Red fox fur trapper hat",
+            "icon": "character/icons/head-furhatwide-fox-red.png"
+          },
           {
             "slot": "shoulder",
             "code": "game:clothes-shoulder-rotwalker",
@@ -2654,6 +2663,16 @@
             "code": "game:clothes-upperbodyover-fur-coat",
             "name": "Fur coat",
             "icon": "character/icons/upperbodyover-fur-coat.png"
+          },
+          {
+            "slot": "armorhead",
+            "code": "game:armor-head-hide-bear-black",
+            "name": "Black bear hide helmet"
+          },
+          {
+            "slot": "armorbody",
+            "code": "game:armor-body-hide-bear-black",
+            "name": "Black bear hide body armor"
           },
           {
             "slot": "bag-1",
@@ -2738,11 +2757,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 240.8,
-        "blocksTravelled": 211319,
-        "blocksBroken": 9435,
+        "blocksTravelled": 211491,
+        "blocksBroken": 9436,
         "blocksPlaced": 6590,
         "deepestY": 12,
-        "lastSeen": 1785263080,
+        "lastSeen": 1785263200,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
