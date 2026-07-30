@@ -1,5 +1,5 @@
 {
-  "generated": "20260730-164217",
+  "generated": "20260730-164417",
   "game_version": "1.22.5",
   "check_ts": "20260729-200057",
   "latest_engine": "1.22.5",
@@ -2738,8 +2738,8 @@
         "class": "mason",
         "deaths": 1,
         "mobKills": 188,
-        "mealsEaten": 158,
-        "caloriesConsumed": 47553,
+        "mealsEaten": 159,
+        "caloriesConsumed": 48173,
         "lastMeal": "Blackberry pie",
         "mealsByName": {
           "Cranberry": 19,
@@ -2758,13 +2758,13 @@
           "Pear pie": 1,
           "Cooked dumplings": 1,
           "Strawberry": 1,
-          "Blackberry pie": 17,
+          "Blackberry pie": 18,
           "Rice grain": 7,
           "Earthy orange ceramic bowl of jam": 1
         },
         "foodCatCounts": {
-          "Fruit": 58,
-          "Grain": 63,
+          "Fruit": 59,
+          "Grain": 64,
           "Protein": 93,
           "Vegetable": 72,
           "Dairy": 12
@@ -2773,11 +2773,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 285.0,
-        "blocksTravelled": 225630,
+        "blocksTravelled": 225905,
         "blocksBroken": 10034,
-        "blocksPlaced": 6907,
+        "blocksPlaced": 6908,
         "deepestY": 12,
-        "lastSeen": 1785422506,
+        "lastSeen": 1785422626,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
