@@ -1,5 +1,5 @@
 {
-  "generated": "20260730-162816",
+  "generated": "20260730-163016",
   "game_version": "1.22.5",
   "check_ts": "20260729-200057",
   "latest_engine": "1.22.5",
@@ -2730,7 +2730,7 @@
       "name": "Moritz",
       "role": "admin",
       "first_join": "04/22/2026 18:03",
-      "last_join": "07/30/2026 12:49",
+      "last_join": "07/30/2026 14:25",
       "last_char": "04/22/2026 18:05",
       "stats": {
         "uid": "bKc3JB7NGywTi9YbzXu/Qogt",
@@ -2738,8 +2738,8 @@
         "class": "mason",
         "deaths": 1,
         "mobKills": 187,
-        "mealsEaten": 155,
-        "caloriesConsumed": 46465,
+        "mealsEaten": 157,
+        "caloriesConsumed": 47385,
         "lastMeal": "Blackberry pie",
         "mealsByName": {
           "Cranberry": 19,
@@ -2758,13 +2758,13 @@
           "Pear pie": 1,
           "Cooked dumplings": 1,
           "Strawberry": 1,
-          "Blackberry pie": 14,
+          "Blackberry pie": 16,
           "Rice grain": 7,
           "Earthy orange ceramic bowl of jam": 1
         },
         "foodCatCounts": {
-          "Fruit": 55,
-          "Grain": 60,
+          "Fruit": 57,
+          "Grain": 62,
           "Protein": 93,
           "Vegetable": 72,
           "Dairy": 12
@@ -2773,11 +2773,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 284.8,
-        "blocksTravelled": 224527,
+        "blocksTravelled": 224594,
         "blocksBroken": 10027,
         "blocksPlaced": 6905,
         "deepestY": 12,
-        "lastSeen": 1785421665,
+        "lastSeen": 1785421785,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
