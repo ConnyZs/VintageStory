@@ -1,5 +1,5 @@
 {
-  "generated": "20260730-170218",
+  "generated": "20260730-170419",
   "game_version": "1.22.5",
   "check_ts": "20260729-200057",
   "latest_engine": "1.22.5",
@@ -2772,12 +2772,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 285.3,
-        "blocksTravelled": 229865,
-        "blocksBroken": 10171,
-        "blocksPlaced": 6911,
+        "playtimeHours": 285.4,
+        "blocksTravelled": 230471,
+        "blocksBroken": 10176,
+        "blocksPlaced": 6913,
         "deepestY": 12,
-        "lastSeen": 1785423707,
+        "lastSeen": 1785423831,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
