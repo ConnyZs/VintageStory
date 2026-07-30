@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-27T15:17:21Z",
+  "updated": "2026-07-30T08:20:34Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1088,6 +1088,15 @@
     {
       "name": "",
       "link": "https://mods.vintagestory.at/show/mod/58501",
+      "category": "Other",
+      "section": "1.22",
+      "server_state": "no",
+      "proposed": true,
+      "note": ""
+    },
+    {
+      "name": "",
+      "link": "https://mods.vintagestory.at/immersivebodytemperature",
       "category": "Other",
       "section": "1.22",
       "server_state": "no",

@@ -1,5 +1,5 @@
 {
-  "generated": "20260730-021133",
+  "generated": "20260730-102105",
   "game_version": "1.22.5",
   "check_ts": "20260729-200057",
   "latest_engine": "1.22.5",
@@ -46,7 +46,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 127,
+  "count": 128,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -971,9 +971,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.6.7",
-      "build_version": "1.6.7",
+      "build_version": "1.7.0",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -1547,9 +1547,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.5.5",
-      "build_version": "1.5.5",
+      "build_version": "1.5.6",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -1867,7 +1867,7 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.14.0",
-      "build_version": "1.14.1",
+      "build_version": "1.15.0",
       "build_branch": "1.22",
       "update_pending": true,
       "proposed": false
@@ -1980,6 +1980,22 @@
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "1.8.0",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": true
+    },
+    {
+      "name": "Immersive Body Temperature",
+      "modid": "warmweathereffects",
+      "section": "1.22",
+      "category": "Immersion",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/immersivebodytemperature",
+      "server_state": "no",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": null,
+      "build_version": "1.4.1",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": true
