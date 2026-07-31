@@ -191,6 +191,11 @@ $backup = Join-Path $env:USERPROFILE "VSmods-backup-$stamp.zip"
 Write-Host "`nBacking up Mods folder -> $backup"
 Compress-Archive -Path (Join-Path $modsDir '*') -DestinationPath $backup -Force
 
+# keep only the 2 most recent backups so these don't quietly pile up run after run
+$oldBackups = Get-ChildItem -LiteralPath $env:USERPROFILE -Filter "VSmods-backup-*.zip" -File |
+  Sort-Object LastWriteTime -Descending | Select-Object -Skip 2
+foreach ($ob in $oldBackups) { Remove-Item -LiteralPath $ob.FullName -Force -ErrorAction SilentlyContinue }
+
 # ---- download + verify + install ----
 foreach ($m in $toGet) {
   $fn=$m.filename; $sha=$m.sha256; $url=($m.url -replace ' ','%20')
