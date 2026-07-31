@@ -217,6 +217,14 @@ typeset BACKUP="$HOME/VSmods-backup-$STAMP.zip"
 print "\nBacking up Mods folder → $BACKUP"
 (cd "$MODS_DIR" && zip -q "$BACKUP" *.zip 2>/dev/null) || true
 
+# keep only the 2 most recent backups so these don't quietly pile up run after run —
+# glob qualifiers: N = null-glob (no error if none match, needed under this script's
+# `nounset`/`errexit`), om = order by mtime, newest first
+typeset -a old_backups=("$HOME"/VSmods-backup-*.zip(Nom))
+if (( ${#old_backups} > 2 )); then
+  for old in "${(@)old_backups[3,-1]}"; do rm -f -- "$old"; done
+fi
+
 # ── download + verify + install ───────────────────────────────────────────────
 for entry in "${to_dl[@]}"; do
   local fn sha url; IFS='|' read -r _ fn sha url _ <<< "$entry"
