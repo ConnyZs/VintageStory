@@ -1,5 +1,5 @@
 {
-  "generated": "20260801-160748",
+  "generated": "20260801-160948",
   "game_version": "1.22.5",
   "check_ts": "20260730-200058",
   "latest_engine": "1.22.5",
@@ -2737,7 +2737,7 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 188,
+        "mobKills": 189,
         "mealsEaten": 159,
         "caloriesConsumed": 48173,
         "lastMeal": "Blackberry pie",
@@ -2773,11 +2773,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 325.0,
-        "blocksTravelled": 231716,
-        "blocksBroken": 10246,
+        "blocksTravelled": 231878,
+        "blocksBroken": 10264,
         "blocksPlaced": 6988,
         "deepestY": 12,
-        "lastSeen": 1785593214,
+        "lastSeen": 1785593334,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
