@@ -1,5 +1,5 @@
 {
-  "generated": "20260804-101707",
+  "generated": "20260804-101908",
   "game_version": "1.22.5",
   "check_ts": "20260803-200058",
   "latest_engine": "1.22.6",
@@ -2730,7 +2730,7 @@
       "name": "Moritz",
       "role": "admin",
       "first_join": "04/22/2026 18:03",
-      "last_join": "08/03/2026 13:15",
+      "last_join": "08/04/2026 08:16",
       "last_char": "04/22/2026 18:05",
       "stats": {
         "uid": "bKc3JB7NGywTi9YbzXu/Qogt",
@@ -2773,12 +2773,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 391.1,
-        "blocksTravelled": 238339,
-        "blocksBroken": 10446,
-        "blocksPlaced": 7024,
+        "playtimeHours": 391.2,
+        "blocksTravelled": 238461,
+        "blocksBroken": 10533,
+        "blocksPlaced": 7035,
         "deepestY": 12,
-        "lastSeen": 1785831408,
+        "lastSeen": 1785831537,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
