@@ -1,5 +1,5 @@
 {
-  "generated": "20260804-212552",
+  "generated": "20260804-212752",
   "game_version": "1.22.5",
   "check_ts": "20260804-200057",
   "latest_engine": "1.22.6",
@@ -2120,14 +2120,14 @@
       "name": "Raschuetzer",
       "role": "admin",
       "first_join": "04/22/2026 17:47",
-      "last_join": "08/04/2026 18:56",
+      "last_join": "08/04/2026 19:25",
       "last_char": "04/29/2026 21:30",
       "stats": {
         "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
         "name": "Raschuetzer",
         "class": "tinker",
         "deaths": 7,
-        "mobKills": 162,
+        "mobKills": 164,
         "mealsEaten": 83,
         "caloriesConsumed": 40354,
         "lastMeal": "Cranberry pie",
@@ -2162,11 +2162,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 108.4,
-        "blocksTravelled": 183577,
-        "blocksBroken": 7666,
+        "blocksTravelled": 183610,
+        "blocksBroken": 7669,
         "blocksPlaced": 486,
         "deepestY": 1,
-        "lastSeen": 1785871530,
+        "lastSeen": 1785871628,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2297,7 +2297,7 @@
       "name": "Eghetti",
       "role": "admin",
       "first_join": "04/22/2026 18:03",
-      "last_join": "08/04/2026 17:27",
+      "last_join": "08/04/2026 19:25",
       "last_char": "04/22/2026 18:08",
       "stats": {
         "uid": "TxqQ4g4qqKs+G5yFUTFmyGYb",
@@ -2333,11 +2333,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 54.6,
-        "blocksTravelled": 74159,
+        "blocksTravelled": 74164,
         "blocksBroken": 1365,
         "blocksPlaced": 919,
         "deepestY": 67,
-        "lastSeen": 1785871536,
+        "lastSeen": 1785871628,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2474,7 +2474,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 581,
+        "mobKills": 584,
         "mealsEaten": 610,
         "caloriesConsumed": 95934,
         "lastMeal": "Redcurrant pie",
@@ -2558,11 +2558,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 295.6,
-        "blocksTravelled": 356039,
+        "blocksTravelled": 356068,
         "blocksBroken": 19321,
-        "blocksPlaced": 7426,
+        "blocksPlaced": 7427,
         "deepestY": 1,
-        "lastSeen": 1785871448,
+        "lastSeen": 1785871628,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2748,12 +2748,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 394.5,
-        "blocksTravelled": 258038,
+        "playtimeHours": 394.6,
+        "blocksTravelled": 258062,
         "blocksBroken": 11111,
-        "blocksPlaced": 7355,
+        "blocksPlaced": 7356,
         "deepestY": 12,
-        "lastSeen": 1785871448,
+        "lastSeen": 1785871628,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
