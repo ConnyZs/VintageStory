@@ -1,5 +1,5 @@
 {
-  "generated": "20260804-235201",
+  "generated": "20260804-235401",
   "game_version": "1.22.5",
   "check_ts": "20260804-200057",
   "latest_engine": "1.22.6",
@@ -2164,12 +2164,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 110.8,
-        "blocksTravelled": 197789,
+        "playtimeHours": 110.9,
+        "blocksTravelled": 198127,
         "blocksBroken": 8190,
         "blocksPlaced": 534,
         "deepestY": 1,
-        "lastSeen": 1785880214,
+        "lastSeen": 1785880383,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2341,11 +2341,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 57.0,
-        "blocksTravelled": 84934,
+        "blocksTravelled": 85274,
         "blocksBroken": 1380,
         "blocksPlaced": 927,
         "deepestY": 54,
-        "lastSeen": 1785880214,
+        "lastSeen": 1785880383,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2482,7 +2482,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 612,
+        "mobKills": 613,
         "mealsEaten": 688,
         "caloriesConsumed": 116063,
         "lastMeal": "Redcurrant",
@@ -2568,12 +2568,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 298.0,
-        "blocksTravelled": 367867,
-        "blocksBroken": 19974,
+        "playtimeHours": 298.1,
+        "blocksTravelled": 368074,
+        "blocksBroken": 19982,
         "blocksPlaced": 7770,
         "deepestY": 1,
-        "lastSeen": 1785880214,
+        "lastSeen": 1785880383,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2767,12 +2767,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 396.9,
-        "blocksTravelled": 274047,
-        "blocksBroken": 11393,
+        "playtimeHours": 397.0,
+        "blocksTravelled": 274392,
+        "blocksBroken": 11394,
         "blocksPlaced": 7412,
         "deepestY": 12,
-        "lastSeen": 1785880214,
+        "lastSeen": 1785880383,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
