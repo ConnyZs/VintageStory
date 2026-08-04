@@ -1,5 +1,5 @@
 {
-  "generated": "20260804-234601",
+  "generated": "20260804-234801",
   "game_version": "1.22.5",
   "check_ts": "20260804-200057",
   "latest_engine": "1.22.6",
@@ -2165,11 +2165,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 110.7,
-        "blocksTravelled": 196321,
-        "blocksBroken": 8188,
+        "blocksTravelled": 196564,
+        "blocksBroken": 8190,
         "blocksPlaced": 534,
         "deepestY": 1,
-        "lastSeen": 1785879854,
+        "lastSeen": 1785879974,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2341,11 +2341,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 56.9,
-        "blocksTravelled": 84091,
+        "blocksTravelled": 84275,
         "blocksBroken": 1380,
         "blocksPlaced": 927,
         "deepestY": 54,
-        "lastSeen": 1785879854,
+        "lastSeen": 1785879974,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2483,8 +2483,8 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 612,
-        "mealsEaten": 669,
-        "caloriesConsumed": 114543,
+        "mealsEaten": 673,
+        "caloriesConsumed": 114863,
         "lastMeal": "Beautyberry",
         "mealsByName": {
           "Meat pie": 45,
@@ -2550,13 +2550,13 @@
           "Redcurrant pie": 4,
           "Syrup-covered fruit bread": 15,
           "Black ceramic jug": 1,
-          "Beautyberry": 7
+          "Beautyberry": 11
         },
         "foodCatCounts": {
           "Grain": 207,
           "Protein": 102,
           "Vegetable": 193,
-          "Fruit": 372,
+          "Fruit": 376,
           "Dairy": 37
         },
         "deathCauses": {
@@ -2568,12 +2568,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 297.9,
-        "blocksTravelled": 367185,
+        "playtimeHours": 298.0,
+        "blocksTravelled": 367418,
         "blocksBroken": 19948,
-        "blocksPlaced": 7766,
+        "blocksPlaced": 7767,
         "deepestY": 1,
-        "lastSeen": 1785879854,
+        "lastSeen": 1785879974,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2719,8 +2719,8 @@
         "class": "mason",
         "deaths": 1,
         "mobKills": 267,
-        "mealsEaten": 250,
-        "caloriesConsumed": 81463,
+        "mealsEaten": 252,
+        "caloriesConsumed": 81623,
         "lastMeal": "Beautyberry",
         "mealsByName": {
           "Cranberry": 19,
@@ -2755,10 +2755,10 @@
           "Flax grain": 4,
           "Dryad saddle": 1,
           "Deer ear": 1,
-          "Beautyberry": 1
+          "Beautyberry": 3
         },
         "foodCatCounts": {
-          "Fruit": 115,
+          "Fruit": 117,
           "Grain": 132,
           "Protein": 115,
           "Vegetable": 82,
@@ -2767,12 +2767,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 396.8,
-        "blocksTravelled": 273159,
-        "blocksBroken": 11367,
+        "playtimeHours": 396.9,
+        "blocksTravelled": 273363,
+        "blocksBroken": 11393,
         "blocksPlaced": 7412,
         "deepestY": 12,
-        "lastSeen": 1785879854,
+        "lastSeen": 1785879974,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
