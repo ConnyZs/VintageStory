@@ -1,5 +1,5 @@
 {
-  "generated": "20260804-190343",
+  "generated": "20260804-190543",
   "game_version": "1.22.5",
   "check_ts": "20260804-171855",
   "latest_engine": "1.22.6",
@@ -2158,12 +2158,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 106.0,
+        "playtimeHours": 106.1,
         "blocksTravelled": 172795,
         "blocksBroken": 7646,
         "blocksPlaced": 478,
         "deepestY": 1,
-        "lastSeen": 1785862922,
+        "lastSeen": 1785863042,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2514,9 +2514,9 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 524,
-        "mealsEaten": 553,
-        "caloriesConsumed": 78513,
-        "lastMeal": "Smoked Plain Primemeat",
+        "mealsEaten": 554,
+        "caloriesConsumed": 79223,
+        "lastMeal": "Earthy orange ceramic bowl of soup",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
@@ -2570,12 +2570,13 @@
           "Smoked Plain Primemeat": 11,
           "Blackberry pie": 4,
           "Earthy orange ceramic bowl of jam": 4,
-          "Cabbage": 1
+          "Cabbage": 1,
+          "Earthy orange ceramic bowl of soup": 1
         },
         "foodCatCounts": {
-          "Grain": 126,
-          "Protein": 92,
-          "Vegetable": 188,
+          "Grain": 127,
+          "Protein": 93,
+          "Vegetable": 189,
           "Fruit": 279,
           "Dairy": 10
         },
@@ -2588,12 +2589,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 293.2,
-        "blocksTravelled": 340588,
+        "playtimeHours": 293.3,
+        "blocksTravelled": 340616,
         "blocksBroken": 19054,
         "blocksPlaced": 7374,
         "deepestY": 1,
-        "lastSeen": 1785862922,
+        "lastSeen": 1785863042,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2776,11 +2777,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 392.2,
-        "blocksTravelled": 243598,
+        "blocksTravelled": 243646,
         "blocksBroken": 10613,
         "blocksPlaced": 7052,
         "deepestY": 12,
-        "lastSeen": 1785862922,
+        "lastSeen": 1785863042,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
