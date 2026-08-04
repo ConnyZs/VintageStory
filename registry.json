@@ -1,5 +1,5 @@
 {
-  "generated": "20260804-213953",
+  "generated": "20260804-214153",
   "game_version": "1.22.5",
   "check_ts": "20260804-200057",
   "latest_engine": "1.22.6",
@@ -2162,11 +2162,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 108.6,
-        "blocksTravelled": 184300,
+        "blocksTravelled": 184393,
         "blocksBroken": 7683,
         "blocksPlaced": 494,
         "deepestY": 1,
-        "lastSeen": 1785872289,
+        "lastSeen": 1785872409,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2334,11 +2334,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 54.8,
-        "blocksTravelled": 74670,
+        "blocksTravelled": 74757,
         "blocksBroken": 1370,
         "blocksPlaced": 923,
         "deepestY": 67,
-        "lastSeen": 1785872289,
+        "lastSeen": 1785872409,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2558,12 +2558,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 295.8,
-        "blocksTravelled": 356622,
+        "playtimeHours": 295.9,
+        "blocksTravelled": 356730,
         "blocksBroken": 19357,
         "blocksPlaced": 7449,
         "deepestY": 1,
-        "lastSeen": 1785872289,
+        "lastSeen": 1785872409,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2709,9 +2709,9 @@
         "class": "mason",
         "deaths": 1,
         "mobKills": 220,
-        "mealsEaten": 206,
-        "caloriesConsumed": 63214,
-        "lastMeal": "Cooked dumplings",
+        "mealsEaten": 208,
+        "caloriesConsumed": 63844,
+        "lastMeal": "Rye bread",
         "mealsByName": {
           "Cranberry": 19,
           "Meat pie": 20,
@@ -2721,7 +2721,7 @@
           "Earthy orange ceramic bowl of meat stew": 68,
           "Chopped cabbage": 1,
           "Pear": 4,
-          "Rye bread": 1,
+          "Rye bread": 3,
           "Leather-bound Oak Tankard": 2,
           "Syrup-covered muffin": 4,
           "Syrup-covered fruit bread": 1,
@@ -2741,20 +2741,20 @@
         },
         "foodCatCounts": {
           "Fruit": 98,
-          "Grain": 104,
+          "Grain": 106,
           "Protein": 102,
           "Vegetable": 78,
-          "Dairy": 14
+          "Dairy": 16
         },
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 394.7,
-        "blocksTravelled": 258566,
+        "playtimeHours": 394.8,
+        "blocksTravelled": 258671,
         "blocksBroken": 11126,
         "blocksPlaced": 7364,
         "deepestY": 12,
-        "lastSeen": 1785872289,
+        "lastSeen": 1785872409,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
