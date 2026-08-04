@@ -1,5 +1,5 @@
 {
-  "generated": "20260804-225157",
+  "generated": "20260804-225357",
   "game_version": "1.22.5",
   "check_ts": "20260804-200057",
   "latest_engine": "1.22.6",
@@ -2162,12 +2162,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 109.8,
-        "blocksTravelled": 191350,
+        "playtimeHours": 109.9,
+        "blocksTravelled": 191385,
         "blocksBroken": 8123,
         "blocksPlaced": 526,
         "deepestY": 1,
-        "lastSeen": 1785876612,
+        "lastSeen": 1785876760,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2306,8 +2306,8 @@
         "class": "smith",
         "deaths": 2,
         "mobKills": 57,
-        "mealsEaten": 51,
-        "caloriesConsumed": 21434,
+        "mealsEaten": 53,
+        "caloriesConsumed": 22884,
         "lastMeal": "Syrup-covered muffin",
         "mealsByName": {
           "Earthy orange ceramic bowl of meat stew": 17,
@@ -2317,7 +2317,7 @@
           "Cooked redmeat nuggets": 2,
           "Leather-bound Oak Tankard": 2,
           "Rye bread": 1,
-          "Syrup-covered muffin": 3,
+          "Syrup-covered muffin": 5,
           "Blackcurrant pie": 2,
           "Blueberry pie": 3,
           "Fruit pie": 5,
@@ -2326,22 +2326,22 @@
           "Red grapes": 5
         },
         "foodCatCounts": {
-          "Protein": 29,
+          "Protein": 31,
           "Vegetable": 18,
-          "Grain": 25,
-          "Fruit": 24,
-          "Dairy": 7
+          "Grain": 27,
+          "Fruit": 26,
+          "Dairy": 9
         },
         "deathCauses": {
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
         "playtimeHours": 56.0,
-        "blocksTravelled": 80018,
+        "blocksTravelled": 80022,
         "blocksBroken": 1372,
         "blocksPlaced": 923,
         "deepestY": 54,
-        "lastSeen": 1785876612,
+        "lastSeen": 1785876760,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2712,7 +2712,7 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 257,
+        "mobKills": 260,
         "mealsEaten": 221,
         "caloriesConsumed": 73839,
         "lastMeal": "Syrup-covered muffin",
@@ -2754,12 +2754,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 395.9,
-        "blocksTravelled": 267843,
+        "playtimeHours": 396.0,
+        "blocksTravelled": 267928,
         "blocksBroken": 11309,
         "blocksPlaced": 7381,
         "deepestY": 12,
-        "lastSeen": 1785876612,
+        "lastSeen": 1785876760,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
