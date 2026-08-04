@@ -1,5 +1,5 @@
 {
-  "generated": "20260804-215954",
+  "generated": "20260804-220154",
   "game_version": "1.22.5",
   "check_ts": "20260804-200057",
   "latest_engine": "1.22.6",
@@ -2162,12 +2162,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 108.9,
-        "blocksTravelled": 186639,
+        "playtimeHours": 109.0,
+        "blocksTravelled": 186790,
         "blocksBroken": 7685,
         "blocksPlaced": 494,
         "deepestY": 1,
-        "lastSeen": 1785873489,
+        "lastSeen": 1785873609,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2334,12 +2334,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 55.0,
-        "blocksTravelled": 76734,
+        "playtimeHours": 55.2,
+        "blocksTravelled": 77069,
         "blocksBroken": 1370,
         "blocksPlaced": 923,
         "deepestY": 67,
-        "lastSeen": 1785873160,
+        "lastSeen": 1785873633,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2477,9 +2477,9 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 586,
-        "mealsEaten": 616,
-        "caloriesConsumed": 99496,
-        "lastMeal": "Cooked dumplings",
+        "mealsEaten": 618,
+        "caloriesConsumed": 100686,
+        "lastMeal": "Syrup-covered fruit bread",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
@@ -2541,14 +2541,15 @@
           "Blackcurrant pie": 4,
           "Strawberry pie": 19,
           "Lump of raw fat": 1,
-          "Redcurrant pie": 4
+          "Redcurrant pie": 4,
+          "Syrup-covered fruit bread": 2
         },
         "foodCatCounts": {
-          "Grain": 186,
+          "Grain": 188,
           "Protein": 98,
           "Vegetable": 193,
-          "Fruit": 327,
-          "Dairy": 19
+          "Fruit": 329,
+          "Dairy": 21
         },
         "deathCauses": {
           "bear-brown-adult-female": 2,
@@ -2560,11 +2561,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 296.2,
-        "blocksTravelled": 358673,
-        "blocksBroken": 19599,
-        "blocksPlaced": 7503,
+        "blocksTravelled": 358690,
+        "blocksBroken": 19603,
+        "blocksPlaced": 7511,
         "deepestY": 1,
-        "lastSeen": 1785873489,
+        "lastSeen": 1785873609,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2709,7 +2710,7 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 227,
+        "mobKills": 228,
         "mealsEaten": 212,
         "caloriesConsumed": 67274,
         "lastMeal": "Cooked dumplings",
@@ -2751,11 +2752,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 395.1,
-        "blocksTravelled": 261585,
+        "blocksTravelled": 261731,
         "blocksBroken": 11167,
         "blocksPlaced": 7366,
         "deepestY": 12,
-        "lastSeen": 1785873489,
+        "lastSeen": 1785873609,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
