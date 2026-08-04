@@ -1,5 +1,5 @@
 {
-  "generated": "20260804-204349",
+  "generated": "20260804-204549",
   "game_version": "1.22.5",
   "check_ts": "20260804-200057",
   "latest_engine": "1.22.6",
@@ -2162,11 +2162,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 107.7,
-        "blocksTravelled": 178947,
+        "blocksTravelled": 179101,
         "blocksBroken": 7646,
         "blocksPlaced": 485,
         "deepestY": 1,
-        "lastSeen": 1785868926,
+        "lastSeen": 1785869046,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2556,11 +2556,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 294.9,
-        "blocksTravelled": 351318,
+        "blocksTravelled": 351437,
         "blocksBroken": 19233,
         "blocksPlaced": 7406,
         "deepestY": 1,
-        "lastSeen": 1785868926,
+        "lastSeen": 1785869046,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2706,8 +2706,8 @@
         "class": "mason",
         "deaths": 1,
         "mobKills": 191,
-        "mealsEaten": 190,
-        "caloriesConsumed": 58694,
+        "mealsEaten": 191,
+        "caloriesConsumed": 58738,
         "lastMeal": "Blueberry pie",
         "mealsByName": {
           "Cranberry": 19,
@@ -2732,12 +2732,12 @@
           "Green grapes": 6,
           "Vintage Beef": 1,
           "Blackcurrant pie": 4,
-          "Blueberry pie": 6,
+          "Blueberry pie": 7,
           "Fruit pie": 6
         },
         "foodCatCounts": {
-          "Fruit": 83,
-          "Grain": 88,
+          "Fruit": 84,
+          "Grain": 89,
           "Protein": 101,
           "Vegetable": 78,
           "Dairy": 13
@@ -2745,12 +2745,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 393.8,
-        "blocksTravelled": 253234,
+        "playtimeHours": 393.9,
+        "blocksTravelled": 253335,
         "blocksBroken": 11057,
         "blocksPlaced": 7334,
         "deepestY": 12,
-        "lastSeen": 1785868926,
+        "lastSeen": 1785869046,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
