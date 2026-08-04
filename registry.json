@@ -1,5 +1,5 @@
 {
-  "generated": "20260804-223556",
+  "generated": "20260804-223756",
   "game_version": "1.22.5",
   "check_ts": "20260804-200057",
   "latest_engine": "1.22.6",
@@ -2127,9 +2127,9 @@
         "name": "Raschuetzer",
         "class": "tinker",
         "deaths": 7,
-        "mobKills": 168,
-        "mealsEaten": 90,
-        "caloriesConsumed": 44260,
+        "mobKills": 169,
+        "mealsEaten": 91,
+        "caloriesConsumed": 44855,
         "lastMeal": "Syrup-covered fruit bread",
         "mealsByName": {
           "Pear": 3,
@@ -2147,14 +2147,14 @@
           "Fruit pie": 7,
           "Cranberry pie": 7,
           "Blackcurrant pie": 2,
-          "Syrup-covered fruit bread": 6
+          "Syrup-covered fruit bread": 7
         },
         "foodCatCounts": {
-          "Fruit": 52,
-          "Grain": 50,
+          "Fruit": 53,
+          "Grain": 51,
           "Protein": 38,
           "Vegetable": 29,
-          "Dairy": 15
+          "Dairy": 16
         },
         "deathCauses": {
           "wolf-eurasian-adult-male": 1,
@@ -2162,12 +2162,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 109.5,
-        "blocksTravelled": 190602,
+        "playtimeHours": 109.6,
+        "blocksTravelled": 190787,
         "blocksBroken": 7758,
         "blocksPlaced": 526,
         "deepestY": 1,
-        "lastSeen": 1785875651,
+        "lastSeen": 1785875854,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2336,12 +2336,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 55.7,
+        "playtimeHours": 55.8,
         "blocksTravelled": 79424,
         "blocksBroken": 1370,
         "blocksPlaced": 923,
         "deepestY": 67,
-        "lastSeen": 1785875651,
+        "lastSeen": 1785875854,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2478,7 +2478,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 596,
+        "mobKills": 597,
         "mealsEaten": 625,
         "caloriesConsumed": 104731,
         "lastMeal": "Flax grain",
@@ -2563,11 +2563,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 296.8,
-        "blocksTravelled": 362512,
+        "blocksTravelled": 362664,
         "blocksBroken": 19813,
         "blocksPlaced": 7574,
         "deepestY": 1,
-        "lastSeen": 1785875651,
+        "lastSeen": 1785875854,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2712,7 +2712,7 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 246,
+        "mobKills": 250,
         "mealsEaten": 219,
         "caloriesConsumed": 71994,
         "lastMeal": "Cooked dumplings",
@@ -2755,11 +2755,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 395.7,
-        "blocksTravelled": 266679,
+        "blocksTravelled": 266916,
         "blocksBroken": 11296,
-        "blocksPlaced": 7378,
+        "blocksPlaced": 7379,
         "deepestY": 12,
-        "lastSeen": 1785875651,
+        "lastSeen": 1785875854,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
