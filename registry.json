@@ -1,5 +1,5 @@
 {
-  "generated": "20260804-190943",
+  "generated": "20260804-191143",
   "game_version": "1.22.5",
   "check_ts": "20260804-171855",
   "latest_engine": "1.22.6",
@@ -2158,12 +2158,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 106.1,
-        "blocksTravelled": 172869,
+        "playtimeHours": 106.2,
+        "blocksTravelled": 172907,
         "blocksBroken": 7646,
         "blocksPlaced": 478,
         "deepestY": 1,
-        "lastSeen": 1785863282,
+        "lastSeen": 1785863472,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2514,8 +2514,8 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 524,
-        "mealsEaten": 555,
-        "caloriesConsumed": 79759,
+        "mealsEaten": 557,
+        "caloriesConsumed": 80455,
         "lastMeal": "Blackberry pie",
         "mealsByName": {
           "Meat pie": 45,
@@ -2568,16 +2568,16 @@
           "Onion": 4,
           "Spelt grain": 13,
           "Smoked Plain Primemeat": 11,
-          "Blackberry pie": 5,
+          "Blackberry pie": 7,
           "Earthy orange ceramic bowl of jam": 4,
           "Cabbage": 1,
           "Earthy orange ceramic bowl of soup": 1
         },
         "foodCatCounts": {
-          "Grain": 128,
+          "Grain": 130,
           "Protein": 93,
           "Vegetable": 189,
-          "Fruit": 280,
+          "Fruit": 282,
           "Dairy": 10
         },
         "deathCauses": {
@@ -2589,12 +2589,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 293.3,
-        "blocksTravelled": 340723,
+        "playtimeHours": 293.4,
+        "blocksTravelled": 340777,
         "blocksBroken": 19054,
         "blocksPlaced": 7377,
         "deepestY": 1,
-        "lastSeen": 1785863282,
+        "lastSeen": 1785863472,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2740,14 +2740,14 @@
         "class": "mason",
         "deaths": 1,
         "mobKills": 191,
-        "mealsEaten": 169,
-        "caloriesConsumed": 50484,
-        "lastMeal": "Syrup-covered muffin",
+        "mealsEaten": 171,
+        "caloriesConsumed": 51670,
+        "lastMeal": "Earthy orange ceramic bowl of soup",
         "mealsByName": {
           "Cranberry": 19,
           "Meat pie": 20,
           "Cranberry pie": 7,
-          "Earthy orange ceramic bowl of soup": 3,
+          "Earthy orange ceramic bowl of soup": 5,
           "Wooden bucket": 1,
           "Earthy orange ceramic bowl of meat stew": 68,
           "Chopped cabbage": 1,
@@ -2768,20 +2768,20 @@
         },
         "foodCatCounts": {
           "Fruit": 66,
-          "Grain": 67,
-          "Protein": 97,
-          "Vegetable": 74,
+          "Grain": 69,
+          "Protein": 99,
+          "Vegetable": 76,
           "Dairy": 13
         },
         "deathCauses": {
           "shiver-corrupt": 1
         },
         "playtimeHours": 392.3,
-        "blocksTravelled": 244154,
+        "blocksTravelled": 244221,
         "blocksBroken": 10614,
         "blocksPlaced": 7053,
         "deepestY": 12,
-        "lastSeen": 1785863282,
+        "lastSeen": 1785863472,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
