@@ -1,5 +1,5 @@
 {
-  "generated": "20260804-215754",
+  "generated": "20260804-215954",
   "game_version": "1.22.5",
   "check_ts": "20260804-200057",
   "latest_engine": "1.22.6",
@@ -2163,11 +2163,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 108.9,
-        "blocksTravelled": 186252,
-        "blocksBroken": 7684,
+        "blocksTravelled": 186639,
+        "blocksBroken": 7685,
         "blocksPlaced": 494,
         "deepestY": 1,
-        "lastSeen": 1785873439,
+        "lastSeen": 1785873489,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2559,12 +2559,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 296.1,
-        "blocksTravelled": 358493,
-        "blocksBroken": 19578,
-        "blocksPlaced": 7486,
+        "playtimeHours": 296.2,
+        "blocksTravelled": 358673,
+        "blocksBroken": 19599,
+        "blocksPlaced": 7503,
         "deepestY": 1,
-        "lastSeen": 1785873439,
+        "lastSeen": 1785873489,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2709,10 +2709,10 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 221,
-        "mealsEaten": 211,
-        "caloriesConsumed": 66154,
-        "lastMeal": "Syrup-covered fruit bread",
+        "mobKills": 227,
+        "mealsEaten": 212,
+        "caloriesConsumed": 67274,
+        "lastMeal": "Cooked dumplings",
         "mealsByName": {
           "Cranberry": 19,
           "Meat pie": 20,
@@ -2728,7 +2728,7 @@
           "Syrup-covered fruit bread": 3,
           "Redcurrant": 2,
           "Pear pie": 1,
-          "Cooked dumplings": 3,
+          "Cooked dumplings": 4,
           "Strawberry": 1,
           "Blackberry pie": 18,
           "Rice grain": 7,
@@ -2742,20 +2742,20 @@
         },
         "foodCatCounts": {
           "Fruit": 100,
-          "Grain": 109,
-          "Protein": 103,
+          "Grain": 110,
+          "Protein": 104,
           "Vegetable": 78,
-          "Dairy": 19
+          "Dairy": 20
         },
         "deathCauses": {
           "shiver-corrupt": 1
         },
         "playtimeHours": 395.1,
-        "blocksTravelled": 261284,
-        "blocksBroken": 11161,
+        "blocksTravelled": 261585,
+        "blocksBroken": 11167,
         "blocksPlaced": 7366,
         "deepestY": 12,
-        "lastSeen": 1785873439,
+        "lastSeen": 1785873489,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
