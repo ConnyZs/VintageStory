@@ -1,5 +1,5 @@
 {
-  "generated": "20260804-213352",
+  "generated": "20260804-213553",
   "game_version": "1.22.5",
   "check_ts": "20260804-200057",
   "latest_engine": "1.22.6",
@@ -2127,7 +2127,7 @@
         "name": "Raschuetzer",
         "class": "tinker",
         "deaths": 7,
-        "mobKills": 164,
+        "mobKills": 166,
         "mealsEaten": 83,
         "caloriesConsumed": 40354,
         "lastMeal": "Cranberry pie",
@@ -2162,11 +2162,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 108.5,
-        "blocksTravelled": 183898,
-        "blocksBroken": 7681,
-        "blocksPlaced": 486,
+        "blocksTravelled": 183986,
+        "blocksBroken": 7682,
+        "blocksPlaced": 494,
         "deepestY": 1,
-        "lastSeen": 1785871930,
+        "lastSeen": 1785872048,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2334,11 +2334,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 54.7,
-        "blocksTravelled": 74375,
-        "blocksBroken": 1366,
-        "blocksPlaced": 919,
+        "blocksTravelled": 74420,
+        "blocksBroken": 1370,
+        "blocksPlaced": 923,
         "deepestY": 67,
-        "lastSeen": 1785871930,
+        "lastSeen": 1785872048,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2476,8 +2476,8 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 585,
-        "mealsEaten": 610,
-        "caloriesConsumed": 95934,
+        "mealsEaten": 611,
+        "caloriesConsumed": 96006,
         "lastMeal": "Redcurrant pie",
         "mealsByName": {
           "Meat pie": 45,
@@ -2540,13 +2540,13 @@
           "Blackcurrant pie": 4,
           "Strawberry pie": 19,
           "Lump of raw fat": 1,
-          "Redcurrant pie": 2
+          "Redcurrant pie": 3
         },
         "foodCatCounts": {
-          "Grain": 180,
+          "Grain": 181,
           "Protein": 96,
           "Vegetable": 193,
-          "Fruit": 325,
+          "Fruit": 326,
           "Dairy": 15
         },
         "deathCauses": {
@@ -2558,17 +2558,17 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 295.7,
-        "blocksTravelled": 356210,
-        "blocksBroken": 19323,
+        "playtimeHours": 295.8,
+        "blocksTravelled": 356340,
+        "blocksBroken": 19325,
         "blocksPlaced": 7436,
         "deepestY": 1,
-        "lastSeen": 1785871930,
+        "lastSeen": 1785872048,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
           "Tattered crimson tunic",
-          "Nomad trousers",
+          "Rawhide trousers",
           "Rotten king shoes",
           "Survivor gloves",
           "Rotten king collar",
@@ -2601,9 +2601,9 @@
           },
           {
             "slot": "lowerbody",
-            "code": "game:clothes-lowerbody-nomad-trousers",
-            "name": "Nomad trousers",
-            "icon": "character/icons/lowerbody-nomad-trousers.png"
+            "code": "game:clothes-lowerbody-raw-hide-trousers",
+            "name": "Rawhide trousers",
+            "icon": "character/icons/lowerbody-raw-hide-trousers.png"
           },
           {
             "slot": "foot",
@@ -2708,7 +2708,7 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 217,
+        "mobKills": 220,
         "mealsEaten": 205,
         "caloriesConsumed": 62094,
         "lastMeal": "Redcurrant pie",
@@ -2749,12 +2749,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 394.6,
-        "blocksTravelled": 258258,
+        "playtimeHours": 394.7,
+        "blocksTravelled": 258360,
         "blocksBroken": 11126,
-        "blocksPlaced": 7361,
+        "blocksPlaced": 7362,
         "deepestY": 12,
-        "lastSeen": 1785871930,
+        "lastSeen": 1785872048,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
