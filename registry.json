@@ -1,5 +1,5 @@
 {
-  "generated": "20260804-182340",
+  "generated": "20260804-182541",
   "game_version": "1.22.5",
   "check_ts": "20260804-171855",
   "latest_engine": "1.22.6",
@@ -2163,7 +2163,7 @@
         "blocksBroken": 7646,
         "blocksPlaced": 478,
         "deepestY": 1,
-        "lastSeen": 1785860521,
+        "lastSeen": 1785860641,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2774,11 +2774,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 391.5,
-        "blocksTravelled": 239645,
+        "blocksTravelled": 239833,
         "blocksBroken": 10593,
         "blocksPlaced": 7049,
         "deepestY": 12,
-        "lastSeen": 1785860521,
+        "lastSeen": 1785860641,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
