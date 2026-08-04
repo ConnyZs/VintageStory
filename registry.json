@@ -1,5 +1,5 @@
 {
-  "generated": "20260804-191143",
+  "generated": "20260804-191344",
   "game_version": "1.22.5",
   "check_ts": "20260804-171855",
   "latest_engine": "1.22.6",
@@ -2159,11 +2159,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 106.2,
-        "blocksTravelled": 172907,
+        "blocksTravelled": 172920,
         "blocksBroken": 7646,
         "blocksPlaced": 478,
         "deepestY": 1,
-        "lastSeen": 1785863472,
+        "lastSeen": 1785863523,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2590,11 +2590,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 293.4,
-        "blocksTravelled": 340777,
+        "blocksTravelled": 340833,
         "blocksBroken": 19054,
         "blocksPlaced": 7377,
         "deepestY": 1,
-        "lastSeen": 1785863472,
+        "lastSeen": 1785863523,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2704,8 +2704,8 @@
           },
           {
             "slot": "bag-3",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "code": "butchering:butcherybag-standard",
+            "name": "Hide Butchering Bag"
           },
           {
             "slot": "bag-4",
@@ -2777,11 +2777,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 392.3,
-        "blocksTravelled": 244221,
+        "blocksTravelled": 244227,
         "blocksBroken": 10614,
         "blocksPlaced": 7053,
         "deepestY": 12,
-        "lastSeen": 1785863472,
+        "lastSeen": 1785863523,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
