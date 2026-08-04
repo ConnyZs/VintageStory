@@ -1,5 +1,5 @@
 {
-  "generated": "20260804-192544",
+  "generated": "20260804-192744",
   "game_version": "1.22.5",
   "check_ts": "20260804-171855",
   "latest_engine": "1.22.6",
@@ -2161,11 +2161,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 106.4,
-        "blocksTravelled": 173532,
+        "blocksTravelled": 173561,
         "blocksBroken": 7646,
-        "blocksPlaced": 481,
+        "blocksPlaced": 482,
         "deepestY": 1,
-        "lastSeen": 1785864243,
+        "lastSeen": 1785864378,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2329,11 +2329,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 52.6,
-        "blocksTravelled": 68542,
+        "blocksTravelled": 68551,
         "blocksBroken": 1354,
         "blocksPlaced": 911,
         "deepestY": 67,
-        "lastSeen": 1784498177,
+        "lastSeen": 1785864437,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2425,68 +2425,23 @@
           },
           {
             "slot": "bag-1",
-            "code": "maltiezfirearms:firearm-arquebus-iron",
-            "name": "Arquebus"
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           },
           {
             "slot": "bag-3",
-            "code": "maltiezfirearms:bullet-lead",
-            "name": "Bullet (lead)"
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           },
           {
             "slot": "bag-4",
-            "code": "maltiezfirearms:linenpatch",
-            "name": "Linen patch"
-          },
-          {
-            "slot": "bag-5",
-            "code": "maltiezfirearms:powderflask-iron",
-            "name": "Powder flask"
-          },
-          {
-            "slot": "bag-8",
-            "code": "game:bandage-clean",
-            "name": "Clean bandage"
-          },
-          {
-            "slot": "bag-10",
-            "code": "walkingstick:walkingstick-crude",
-            "name": "Crude walking stick"
-          },
-          {
-            "slot": "bag-11",
-            "code": "game:saw-iron",
-            "name": "Iron saw"
-          },
-          {
-            "slot": "bag-12",
-            "code": "game:wrench-copper",
-            "name": "Copper wrench"
-          },
-          {
-            "slot": "bag-13",
-            "code": "game:peatbrick",
-            "name": "Peat brick"
-          },
-          {
-            "slot": "bag-14",
-            "code": "game:soil-low-none",
-            "name": "Low fertility soil"
-          },
-          {
-            "slot": "bag-15",
-            "code": "game:stick",
-            "name": "Stick"
-          },
-          {
-            "slot": "bag-16",
-            "code": "game:clay-fire",
-            "name": "Fire clay"
-          },
-          {
-            "slot": "bag-26",
-            "code": "game:metalbit-iron",
-            "name": "Iron bits"
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           }
         ],
         "skin": {
@@ -2516,9 +2471,9 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 527,
-        "mealsEaten": 564,
-        "caloriesConsumed": 82557,
-        "lastMeal": "Fruit pie",
+        "mealsEaten": 568,
+        "caloriesConsumed": 83837,
+        "lastMeal": "Cranberry pie",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
@@ -2537,7 +2492,7 @@
           "Carrot": 7,
           "Field mushroom": 1,
           "Turnip": 6,
-          "Puffball": 19,
+          "Puffball": 21,
           "Tinder hoof": 3,
           "Raspberry": 6,
           "Flax grain": 30,
@@ -2574,13 +2529,14 @@
           "Earthy orange ceramic bowl of jam": 4,
           "Cabbage": 1,
           "Earthy orange ceramic bowl of soup": 1,
-          "Fruit pie": 6
+          "Fruit pie": 6,
+          "Cranberry pie": 2
         },
         "foodCatCounts": {
-          "Grain": 137,
+          "Grain": 139,
           "Protein": 93,
-          "Vegetable": 189,
-          "Fruit": 289,
+          "Vegetable": 191,
+          "Fruit": 291,
           "Dairy": 10
         },
         "deathCauses": {
@@ -2593,11 +2549,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 293.6,
-        "blocksTravelled": 342894,
-        "blocksBroken": 19055,
+        "blocksTravelled": 343767,
+        "blocksBroken": 19057,
         "blocksPlaced": 7379,
         "deepestY": 1,
-        "lastSeen": 1785864243,
+        "lastSeen": 1785864378,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2743,14 +2699,14 @@
         "class": "mason",
         "deaths": 1,
         "mobKills": 191,
-        "mealsEaten": 173,
-        "caloriesConsumed": 52460,
+        "mealsEaten": 174,
+        "caloriesConsumed": 53068,
         "lastMeal": "Earthy orange ceramic bowl of soup",
         "mealsByName": {
           "Cranberry": 19,
           "Meat pie": 20,
           "Cranberry pie": 8,
-          "Earthy orange ceramic bowl of soup": 6,
+          "Earthy orange ceramic bowl of soup": 7,
           "Wooden bucket": 1,
           "Earthy orange ceramic bowl of meat stew": 68,
           "Chopped cabbage": 1,
@@ -2771,20 +2727,20 @@
         },
         "foodCatCounts": {
           "Fruit": 67,
-          "Grain": 71,
-          "Protein": 100,
-          "Vegetable": 77,
+          "Grain": 72,
+          "Protein": 101,
+          "Vegetable": 78,
           "Dairy": 13
         },
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 392.5,
-        "blocksTravelled": 245172,
-        "blocksBroken": 10759,
-        "blocksPlaced": 7121,
+        "playtimeHours": 392.6,
+        "blocksTravelled": 245365,
+        "blocksBroken": 10770,
+        "blocksPlaced": 7126,
         "deepestY": 12,
-        "lastSeen": 1785864243,
+        "lastSeen": 1785864378,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
