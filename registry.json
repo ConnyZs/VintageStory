@@ -1,5 +1,5 @@
 {
-  "generated": "20260804-214553",
+  "generated": "20260804-214753",
   "game_version": "1.22.5",
   "check_ts": "20260804-200057",
   "latest_engine": "1.22.6",
@@ -2162,12 +2162,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 108.7,
-        "blocksTravelled": 185207,
+        "playtimeHours": 108.8,
+        "blocksTravelled": 185604,
         "blocksBroken": 7683,
         "blocksPlaced": 494,
         "deepestY": 1,
-        "lastSeen": 1785872649,
+        "lastSeen": 1785872835,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2334,12 +2334,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 54.9,
-        "blocksTravelled": 75475,
+        "playtimeHours": 55.0,
+        "blocksTravelled": 75869,
         "blocksBroken": 1370,
         "blocksPlaced": 923,
         "deepestY": 67,
-        "lastSeen": 1785872649,
+        "lastSeen": 1785872835,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2477,9 +2477,9 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 586,
-        "mealsEaten": 615,
-        "caloriesConsumed": 98376,
-        "lastMeal": "Rye bread",
+        "mealsEaten": 616,
+        "caloriesConsumed": 99496,
+        "lastMeal": "Cooked dumplings",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
@@ -2492,7 +2492,7 @@
           "Cranberry": 15,
           "Blackcurrant": 27,
           "Pear pie": 4,
-          "Cooked dumplings": 3,
+          "Cooked dumplings": 4,
           "Almond mushroom": 1,
           "Redcurrant": 69,
           "Carrot": 7,
@@ -2544,11 +2544,11 @@
           "Redcurrant pie": 4
         },
         "foodCatCounts": {
-          "Grain": 185,
-          "Protein": 97,
+          "Grain": 186,
+          "Protein": 98,
           "Vegetable": 193,
           "Fruit": 327,
-          "Dairy": 18
+          "Dairy": 19
         },
         "deathCauses": {
           "bear-brown-adult-female": 2,
@@ -2559,12 +2559,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 295.9,
-        "blocksTravelled": 357653,
-        "blocksBroken": 19359,
+        "playtimeHours": 296.0,
+        "blocksTravelled": 358026,
+        "blocksBroken": 19368,
         "blocksPlaced": 7451,
         "deepestY": 1,
-        "lastSeen": 1785872649,
+        "lastSeen": 1785872835,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2710,9 +2710,9 @@
         "class": "mason",
         "deaths": 1,
         "mobKills": 221,
-        "mealsEaten": 209,
-        "caloriesConsumed": 64439,
-        "lastMeal": "Syrup-covered fruit bread",
+        "mealsEaten": 210,
+        "caloriesConsumed": 65559,
+        "lastMeal": "Cooked dumplings",
         "mealsByName": {
           "Cranberry": 19,
           "Meat pie": 20,
@@ -2728,7 +2728,7 @@
           "Syrup-covered fruit bread": 2,
           "Redcurrant": 2,
           "Pear pie": 1,
-          "Cooked dumplings": 2,
+          "Cooked dumplings": 3,
           "Strawberry": 1,
           "Blackberry pie": 18,
           "Rice grain": 7,
@@ -2742,20 +2742,20 @@
         },
         "foodCatCounts": {
           "Fruit": 99,
-          "Grain": 107,
-          "Protein": 102,
+          "Grain": 108,
+          "Protein": 103,
           "Vegetable": 78,
-          "Dairy": 17
+          "Dairy": 18
         },
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 394.8,
-        "blocksTravelled": 259667,
+        "playtimeHours": 394.9,
+        "blocksTravelled": 260017,
         "blocksBroken": 11126,
         "blocksPlaced": 7365,
         "deepestY": 12,
-        "lastSeen": 1785872649,
+        "lastSeen": 1785872835,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
