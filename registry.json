@@ -1,5 +1,5 @@
 {
-  "generated": "20260804-234000",
+  "generated": "20260804-234200",
   "game_version": "1.22.5",
   "check_ts": "20260804-200057",
   "latest_engine": "1.22.6",
@@ -2127,10 +2127,10 @@
         "name": "Raschuetzer",
         "class": "tinker",
         "deaths": 7,
-        "mobKills": 174,
-        "mealsEaten": 103,
-        "caloriesConsumed": 51480,
-        "lastMeal": "Syrup-covered fruit bread",
+        "mobKills": 175,
+        "mealsEaten": 108,
+        "caloriesConsumed": 52910,
+        "lastMeal": "Blueberry",
         "mealsByName": {
           "Pear": 3,
           "Meat pie": 10,
@@ -2142,20 +2142,21 @@
           "Leather-bound Oak Tankard": 3,
           "Cooked dumplings": 2,
           "Pear pie (charred)": 3,
-          "Red grapes": 6,
+          "Red grapes": 7,
           "Blackberry pie": 9,
           "Fruit pie": 7,
           "Cranberry pie": 7,
           "Blackcurrant pie": 2,
-          "Syrup-covered fruit bread": 18,
-          "Black ceramic jug": 1
+          "Syrup-covered fruit bread": 20,
+          "Black ceramic jug": 1,
+          "Blueberry": 2
         },
         "foodCatCounts": {
-          "Fruit": 64,
-          "Grain": 62,
+          "Fruit": 69,
+          "Grain": 64,
           "Protein": 38,
           "Vegetable": 29,
-          "Dairy": 27
+          "Dairy": 29
         },
         "deathCauses": {
           "wolf-eurasian-adult-male": 1,
@@ -2164,11 +2165,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 110.6,
-        "blocksTravelled": 194928,
+        "blocksTravelled": 195133,
         "blocksBroken": 8188,
-        "blocksPlaced": 532,
+        "blocksPlaced": 534,
         "deepestY": 1,
-        "lastSeen": 1785879494,
+        "lastSeen": 1785879614,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2307,9 +2308,9 @@
         "class": "smith",
         "deaths": 2,
         "mobKills": 61,
-        "mealsEaten": 59,
-        "caloriesConsumed": 26581,
-        "lastMeal": "Syrup-covered muffin",
+        "mealsEaten": 67,
+        "caloriesConsumed": 27221,
+        "lastMeal": "Blueberry",
         "mealsByName": {
           "Earthy orange ceramic bowl of meat stew": 17,
           "Meat pie": 5,
@@ -2324,14 +2325,15 @@
           "Fruit pie": 5,
           "Redcurrant pie": 1,
           "Syrup-covered fruit bread": 2,
-          "Red grapes": 5,
-          "Black ceramic jug": 1
+          "Red grapes": 7,
+          "Black ceramic jug": 1,
+          "Blueberry": 6
         },
         "foodCatCounts": {
           "Protein": 36,
           "Vegetable": 18,
           "Grain": 32,
-          "Fruit": 31,
+          "Fruit": 39,
           "Dairy": 14
         },
         "deathCauses": {
@@ -2339,11 +2341,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 56.8,
-        "blocksTravelled": 83049,
+        "blocksTravelled": 83370,
         "blocksBroken": 1380,
         "blocksPlaced": 927,
         "deepestY": 54,
-        "lastSeen": 1785879494,
+        "lastSeen": 1785879614,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2481,14 +2483,14 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 612,
-        "mealsEaten": 649,
-        "caloriesConsumed": 112823,
-        "lastMeal": "Blackcurrant",
+        "mealsEaten": 653,
+        "caloriesConsumed": 113143,
+        "lastMeal": "Blueberry",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
           "Earthy orange ceramic bowl of meat stew": 30,
-          "Blueberry": 16,
+          "Blueberry": 17,
           "Pear pie (charred)": 1,
           "Rye bread": 8,
           "Leather-bound Oak Tankard": 1,
@@ -2524,7 +2526,7 @@
           "Chicken of the woods": 2,
           "Fennel": 12,
           "Gold-drop milkcap": 1,
-          "Red grapes": 34,
+          "Red grapes": 37,
           "Whitecurrant": 7,
           "Bearded tooth": 5,
           "Rice grain": 13,
@@ -2553,7 +2555,7 @@
           "Grain": 207,
           "Protein": 101,
           "Vegetable": 193,
-          "Fruit": 353,
+          "Fruit": 357,
           "Dairy": 37
         },
         "deathCauses": {
@@ -2565,12 +2567,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 297.8,
-        "blocksTravelled": 366322,
+        "playtimeHours": 297.9,
+        "blocksTravelled": 366556,
         "blocksBroken": 19948,
         "blocksPlaced": 7766,
         "deepestY": 1,
-        "lastSeen": 1785879494,
+        "lastSeen": 1785879614,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2716,9 +2718,9 @@
         "class": "mason",
         "deaths": 1,
         "mobKills": 267,
-        "mealsEaten": 244,
-        "caloriesConsumed": 80468,
-        "lastMeal": "Deer ear",
+        "mealsEaten": 246,
+        "caloriesConsumed": 81143,
+        "lastMeal": "Red grapes",
         "mealsByName": {
           "Cranberry": 19,
           "Meat pie": 20,
@@ -2731,7 +2733,7 @@
           "Rye bread": 3,
           "Leather-bound Oak Tankard": 2,
           "Syrup-covered muffin": 8,
-          "Syrup-covered fruit bread": 5,
+          "Syrup-covered fruit bread": 6,
           "Redcurrant": 2,
           "Pear pie": 1,
           "Cooked dumplings": 11,
@@ -2745,7 +2747,7 @@
           "Blueberry pie": 12,
           "Fruit pie": 6,
           "Redcurrant pie": 9,
-          "Red grapes": 3,
+          "Red grapes": 4,
           "Black ceramic jug": 4,
           "Turnip": 2,
           "Spelt grain": 4,
@@ -2754,21 +2756,21 @@
           "Deer ear": 1
         },
         "foodCatCounts": {
-          "Fruit": 109,
-          "Grain": 131,
+          "Fruit": 111,
+          "Grain": 132,
           "Protein": 115,
           "Vegetable": 82,
-          "Dairy": 33
+          "Dairy": 34
         },
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 396.7,
-        "blocksTravelled": 272092,
+        "playtimeHours": 396.8,
+        "blocksTravelled": 272398,
         "blocksBroken": 11361,
         "blocksPlaced": 7411,
         "deepestY": 12,
-        "lastSeen": 1785879494,
+        "lastSeen": 1785879614,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
