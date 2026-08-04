@@ -1,5 +1,5 @@
 {
-  "generated": "20260804-213553",
+  "generated": "20260804-213753",
   "game_version": "1.22.5",
   "check_ts": "20260804-200057",
   "latest_engine": "1.22.6",
@@ -2161,12 +2161,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 108.5,
-        "blocksTravelled": 183986,
+        "playtimeHours": 108.6,
+        "blocksTravelled": 184173,
         "blocksBroken": 7682,
         "blocksPlaced": 494,
         "deepestY": 1,
-        "lastSeen": 1785872048,
+        "lastSeen": 1785872232,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2333,12 +2333,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 54.7,
-        "blocksTravelled": 74420,
+        "playtimeHours": 54.8,
+        "blocksTravelled": 74553,
         "blocksBroken": 1370,
         "blocksPlaced": 923,
         "deepestY": 67,
-        "lastSeen": 1785872048,
+        "lastSeen": 1785872232,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2476,9 +2476,9 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 585,
-        "mealsEaten": 611,
-        "caloriesConsumed": 96006,
-        "lastMeal": "Redcurrant pie",
+        "mealsEaten": 613,
+        "caloriesConsumed": 97746,
+        "lastMeal": "Cooked dumplings",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
@@ -2491,7 +2491,7 @@
           "Cranberry": 15,
           "Blackcurrant": 27,
           "Pear pie": 4,
-          "Cooked dumplings": 2,
+          "Cooked dumplings": 3,
           "Almond mushroom": 1,
           "Redcurrant": 69,
           "Carrot": 7,
@@ -2540,14 +2540,14 @@
           "Blackcurrant pie": 4,
           "Strawberry pie": 19,
           "Lump of raw fat": 1,
-          "Redcurrant pie": 3
+          "Redcurrant pie": 4
         },
         "foodCatCounts": {
-          "Grain": 181,
-          "Protein": 96,
+          "Grain": 183,
+          "Protein": 97,
           "Vegetable": 193,
-          "Fruit": 326,
-          "Dairy": 15
+          "Fruit": 327,
+          "Dairy": 16
         },
         "deathCauses": {
           "bear-brown-adult-female": 2,
@@ -2559,11 +2559,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 295.8,
-        "blocksTravelled": 356340,
-        "blocksBroken": 19325,
+        "blocksTravelled": 356470,
+        "blocksBroken": 19336,
         "blocksPlaced": 7436,
         "deepestY": 1,
-        "lastSeen": 1785872048,
+        "lastSeen": 1785872232,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2709,9 +2709,9 @@
         "class": "mason",
         "deaths": 1,
         "mobKills": 220,
-        "mealsEaten": 205,
-        "caloriesConsumed": 62094,
-        "lastMeal": "Redcurrant pie",
+        "mealsEaten": 206,
+        "caloriesConsumed": 63214,
+        "lastMeal": "Cooked dumplings",
         "mealsByName": {
           "Cranberry": 19,
           "Meat pie": 20,
@@ -2727,7 +2727,7 @@
           "Syrup-covered fruit bread": 1,
           "Redcurrant": 2,
           "Pear pie": 1,
-          "Cooked dumplings": 1,
+          "Cooked dumplings": 2,
           "Strawberry": 1,
           "Blackberry pie": 18,
           "Rice grain": 7,
@@ -2741,20 +2741,20 @@
         },
         "foodCatCounts": {
           "Fruit": 98,
-          "Grain": 103,
-          "Protein": 101,
+          "Grain": 104,
+          "Protein": 102,
           "Vegetable": 78,
-          "Dairy": 13
+          "Dairy": 14
         },
         "deathCauses": {
           "shiver-corrupt": 1
         },
         "playtimeHours": 394.7,
-        "blocksTravelled": 258360,
+        "blocksTravelled": 258510,
         "blocksBroken": 11126,
-        "blocksPlaced": 7362,
+        "blocksPlaced": 7363,
         "deepestY": 12,
-        "lastSeen": 1785872048,
+        "lastSeen": 1785872232,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
