@@ -1,5 +1,5 @@
 {
-  "generated": "20260805-000402",
+  "generated": "20260805-000602",
   "game_version": "1.22.5",
   "check_ts": "20260804-200057",
   "latest_engine": "1.22.6",
@@ -2128,9 +2128,9 @@
         "class": "tinker",
         "deaths": 7,
         "mobKills": 175,
-        "mealsEaten": 116,
-        "caloriesConsumed": 56125,
-        "lastMeal": "Blackberry",
+        "mealsEaten": 122,
+        "caloriesConsumed": 56605,
+        "lastMeal": "Blueberry",
         "mealsByName": {
           "Pear": 3,
           "Meat pie": 10,
@@ -2149,11 +2149,11 @@
           "Blackcurrant pie": 2,
           "Syrup-covered fruit bread": 25,
           "Black ceramic jug": 1,
-          "Blueberry": 3,
+          "Blueberry": 9,
           "Blackberry": 2
         },
         "foodCatCounts": {
-          "Fruit": 77,
+          "Fruit": 83,
           "Grain": 69,
           "Protein": 38,
           "Vegetable": 29,
@@ -2166,11 +2166,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 111.0,
-        "blocksTravelled": 200337,
+        "blocksTravelled": 200351,
         "blocksBroken": 8190,
         "blocksPlaced": 534,
         "deepestY": 1,
-        "lastSeen": 1785880987,
+        "lastSeen": 1785881067,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2721,9 +2721,9 @@
         "class": "mason",
         "deaths": 1,
         "mobKills": 267,
-        "mealsEaten": 257,
-        "caloriesConsumed": 82023,
-        "lastMeal": "Green grapes",
+        "mealsEaten": 258,
+        "caloriesConsumed": 82618,
+        "lastMeal": "Syrup-covered fruit bread",
         "mealsByName": {
           "Cranberry": 19,
           "Meat pie": 20,
@@ -2736,7 +2736,7 @@
           "Rye bread": 3,
           "Leather-bound Oak Tankard": 2,
           "Syrup-covered muffin": 8,
-          "Syrup-covered fruit bread": 6,
+          "Syrup-covered fruit bread": 7,
           "Redcurrant": 5,
           "Pear pie": 1,
           "Cooked dumplings": 11,
@@ -2760,21 +2760,21 @@
           "Beautyberry": 3
         },
         "foodCatCounts": {
-          "Fruit": 122,
-          "Grain": 132,
+          "Fruit": 123,
+          "Grain": 133,
           "Protein": 115,
           "Vegetable": 82,
-          "Dairy": 34
+          "Dairy": 35
         },
         "deathCauses": {
           "shiver-corrupt": 1
         },
         "playtimeHours": 397.2,
-        "blocksTravelled": 276018,
+        "blocksTravelled": 276051,
         "blocksBroken": 11395,
         "blocksPlaced": 7414,
         "deepestY": 12,
-        "lastSeen": 1785880987,
+        "lastSeen": 1785881064,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
