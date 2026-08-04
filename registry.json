@@ -1,5 +1,5 @@
 {
-  "generated": "20260804-230758",
+  "generated": "20260804-230958",
   "game_version": "1.22.5",
   "check_ts": "20260804-200057",
   "latest_engine": "1.22.6",
@@ -2167,7 +2167,7 @@
         "blocksBroken": 8174,
         "blocksPlaced": 526,
         "deepestY": 1,
-        "lastSeen": 1785877666,
+        "lastSeen": 1785877693,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2338,11 +2338,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 56.3,
-        "blocksTravelled": 80489,
+        "blocksTravelled": 80490,
         "blocksBroken": 1372,
         "blocksPlaced": 925,
         "deepestY": 54,
-        "lastSeen": 1785877666,
+        "lastSeen": 1785877693,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2569,7 +2569,7 @@
         "blocksBroken": 19848,
         "blocksPlaced": 7639,
         "deepestY": 1,
-        "lastSeen": 1785877666,
+        "lastSeen": 1785877693,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2715,8 +2715,8 @@
         "class": "mason",
         "deaths": 1,
         "mobKills": 264,
-        "mealsEaten": 226,
-        "caloriesConsumed": 76158,
+        "mealsEaten": 227,
+        "caloriesConsumed": 76238,
         "lastMeal": "Black ceramic jug",
         "mealsByName": {
           "Cranberry": 19,
@@ -2745,7 +2745,7 @@
           "Fruit pie": 6,
           "Redcurrant pie": 9,
           "Red grapes": 3,
-          "Black ceramic jug": 2
+          "Black ceramic jug": 3
         },
         "foodCatCounts": {
           "Fruit": 107,
@@ -2762,7 +2762,7 @@
         "blocksBroken": 11327,
         "blocksPlaced": 7382,
         "deepestY": 12,
-        "lastSeen": 1785877666,
+        "lastSeen": 1785877693,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
