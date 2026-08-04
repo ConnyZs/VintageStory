@@ -1,5 +1,5 @@
 {
-  "generated": "20260805-000001",
+  "generated": "20260805-000202",
   "game_version": "1.22.5",
   "check_ts": "20260804-200057",
   "latest_engine": "1.22.6",
@@ -2128,9 +2128,9 @@
         "class": "tinker",
         "deaths": 7,
         "mobKills": 175,
-        "mealsEaten": 113,
-        "caloriesConsumed": 55885,
-        "lastMeal": "Syrup-covered fruit bread",
+        "mealsEaten": 116,
+        "caloriesConsumed": 56125,
+        "lastMeal": "Blackberry",
         "mealsByName": {
           "Pear": 3,
           "Meat pie": 10,
@@ -2149,10 +2149,11 @@
           "Blackcurrant pie": 2,
           "Syrup-covered fruit bread": 25,
           "Black ceramic jug": 1,
-          "Blueberry": 2
+          "Blueberry": 3,
+          "Blackberry": 2
         },
         "foodCatCounts": {
-          "Fruit": 74,
+          "Fruit": 77,
           "Grain": 69,
           "Protein": 38,
           "Vegetable": 29,
@@ -2164,12 +2165,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 110.9,
-        "blocksTravelled": 199857,
+        "playtimeHours": 111.0,
+        "blocksTravelled": 200293,
         "blocksBroken": 8190,
         "blocksPlaced": 534,
         "deepestY": 1,
-        "lastSeen": 1785880695,
+        "lastSeen": 1785880815,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2341,11 +2342,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 57.1,
-        "blocksTravelled": 86401,
+        "blocksTravelled": 86449,
         "blocksBroken": 1380,
         "blocksPlaced": 927,
         "deepestY": 54,
-        "lastSeen": 1785880695,
+        "lastSeen": 1785880815,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2482,10 +2483,10 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 615,
-        "mealsEaten": 713,
-        "caloriesConsumed": 117963,
-        "lastMeal": "Amaranth grain",
+        "mobKills": 619,
+        "mealsEaten": 718,
+        "caloriesConsumed": 118363,
+        "lastMeal": "Green grapes",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
@@ -2521,7 +2522,7 @@
           "Green cracked russula": 13,
           "Violet web cap": 2,
           "Liberty cap": 1,
-          "Green grapes": 42,
+          "Green grapes": 47,
           "King bolete": 2,
           "Chicken of the woods": 2,
           "Fennel": 12,
@@ -2557,7 +2558,7 @@
           "Grain": 212,
           "Protein": 102,
           "Vegetable": 193,
-          "Fruit": 411,
+          "Fruit": 416,
           "Dairy": 37
         },
         "deathCauses": {
@@ -2570,11 +2571,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 298.2,
-        "blocksTravelled": 369514,
+        "blocksTravelled": 369684,
         "blocksBroken": 19982,
         "blocksPlaced": 7770,
         "deepestY": 1,
-        "lastSeen": 1785880695,
+        "lastSeen": 1785880815,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2769,11 +2770,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 397.1,
-        "blocksTravelled": 275635,
-        "blocksBroken": 11394,
+        "blocksTravelled": 275989,
+        "blocksBroken": 11395,
         "blocksPlaced": 7412,
         "deepestY": 12,
-        "lastSeen": 1785880695,
+        "lastSeen": 1785880815,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
