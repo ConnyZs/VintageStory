@@ -1,5 +1,5 @@
 {
-  "generated": "20260804-225958",
+  "generated": "20260804-230158",
   "game_version": "1.22.5",
   "check_ts": "20260804-200057",
   "latest_engine": "1.22.6",
@@ -2162,12 +2162,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 109.9,
-        "blocksTravelled": 191888,
+        "playtimeHours": 110.0,
+        "blocksTravelled": 192021,
         "blocksBroken": 8123,
         "blocksPlaced": 526,
         "deepestY": 1,
-        "lastSeen": 1785877092,
+        "lastSeen": 1785877212,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2337,11 +2337,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 56.1,
-        "blocksTravelled": 80309,
+        "blocksTravelled": 80426,
         "blocksBroken": 1372,
         "blocksPlaced": 925,
         "deepestY": 54,
-        "lastSeen": 1785877092,
+        "lastSeen": 1785877212,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2563,11 +2563,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 297.2,
-        "blocksTravelled": 363422,
+        "blocksTravelled": 363585,
         "blocksBroken": 19847,
-        "blocksPlaced": 7624,
+        "blocksPlaced": 7636,
         "deepestY": 1,
-        "lastSeen": 1785877092,
+        "lastSeen": 1785877212,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2712,9 +2712,9 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 261,
-        "mealsEaten": 222,
-        "caloriesConsumed": 74564,
+        "mobKills": 262,
+        "mealsEaten": 224,
+        "caloriesConsumed": 76014,
         "lastMeal": "Syrup-covered muffin",
         "mealsByName": {
           "Cranberry": 19,
@@ -2727,7 +2727,7 @@
           "Pear": 4,
           "Rye bread": 3,
           "Leather-bound Oak Tankard": 2,
-          "Syrup-covered muffin": 6,
+          "Syrup-covered muffin": 8,
           "Syrup-covered fruit bread": 3,
           "Redcurrant": 2,
           "Pear pie": 1,
@@ -2745,21 +2745,21 @@
           "Red grapes": 3
         },
         "foodCatCounts": {
-          "Fruit": 105,
-          "Grain": 117,
-          "Protein": 111,
+          "Fruit": 107,
+          "Grain": 119,
+          "Protein": 113,
           "Vegetable": 78,
-          "Dairy": 27
+          "Dairy": 29
         },
         "deathCauses": {
           "shiver-corrupt": 1
         },
         "playtimeHours": 396.1,
-        "blocksTravelled": 268320,
-        "blocksBroken": 11310,
+        "blocksTravelled": 268511,
+        "blocksBroken": 11322,
         "blocksPlaced": 7381,
         "deepestY": 12,
-        "lastSeen": 1785877092,
+        "lastSeen": 1785877212,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
