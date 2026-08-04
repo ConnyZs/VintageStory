@@ -1,5 +1,5 @@
 {
-  "generated": "20260804-224957",
+  "generated": "20260804-225157",
   "game_version": "1.22.5",
   "check_ts": "20260804-200057",
   "latest_engine": "1.22.6",
@@ -2163,11 +2163,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 109.8,
-        "blocksTravelled": 191223,
+        "blocksTravelled": 191350,
         "blocksBroken": 8123,
         "blocksPlaced": 526,
         "deepestY": 1,
-        "lastSeen": 1785876492,
+        "lastSeen": 1785876612,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2305,7 +2305,7 @@
         "name": "Eghetti",
         "class": "smith",
         "deaths": 2,
-        "mobKills": 56,
+        "mobKills": 57,
         "mealsEaten": 51,
         "caloriesConsumed": 21434,
         "lastMeal": "Syrup-covered muffin",
@@ -2336,12 +2336,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 55.9,
-        "blocksTravelled": 79988,
+        "playtimeHours": 56.0,
+        "blocksTravelled": 80018,
         "blocksBroken": 1372,
         "blocksPlaced": 923,
         "deepestY": 54,
-        "lastSeen": 1785876492,
+        "lastSeen": 1785876612,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2479,8 +2479,8 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 604,
-        "mealsEaten": 628,
-        "caloriesConsumed": 106516,
+        "mealsEaten": 630,
+        "caloriesConsumed": 107706,
         "lastMeal": "Syrup-covered fruit bread",
         "mealsByName": {
           "Meat pie": 45,
@@ -2544,14 +2544,14 @@
           "Strawberry pie": 19,
           "Lump of raw fat": 1,
           "Redcurrant pie": 4,
-          "Syrup-covered fruit bread": 6
+          "Syrup-covered fruit bread": 8
         },
         "foodCatCounts": {
-          "Grain": 198,
+          "Grain": 200,
           "Protein": 101,
           "Vegetable": 193,
-          "Fruit": 333,
-          "Dairy": 28
+          "Fruit": 335,
+          "Dairy": 30
         },
         "deathCauses": {
           "bear-brown-adult-female": 2,
@@ -2562,12 +2562,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 297.0,
-        "blocksTravelled": 363285,
-        "blocksBroken": 19845,
-        "blocksPlaced": 7610,
+        "playtimeHours": 297.1,
+        "blocksTravelled": 363316,
+        "blocksBroken": 19847,
+        "blocksPlaced": 7624,
         "deepestY": 1,
-        "lastSeen": 1785876492,
+        "lastSeen": 1785876700,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2712,10 +2712,10 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 255,
-        "mealsEaten": 220,
-        "caloriesConsumed": 73114,
-        "lastMeal": "Cooked dumplings",
+        "mobKills": 257,
+        "mealsEaten": 221,
+        "caloriesConsumed": 73839,
+        "lastMeal": "Syrup-covered muffin",
         "mealsByName": {
           "Cranberry": 19,
           "Meat pie": 20,
@@ -2727,7 +2727,7 @@
           "Pear": 4,
           "Rye bread": 3,
           "Leather-bound Oak Tankard": 2,
-          "Syrup-covered muffin": 4,
+          "Syrup-covered muffin": 5,
           "Syrup-covered fruit bread": 3,
           "Redcurrant": 2,
           "Pear pie": 1,
@@ -2745,21 +2745,21 @@
           "Red grapes": 3
         },
         "foodCatCounts": {
-          "Fruit": 103,
-          "Grain": 115,
-          "Protein": 109,
+          "Fruit": 104,
+          "Grain": 116,
+          "Protein": 110,
           "Vegetable": 78,
-          "Dairy": 25
+          "Dairy": 26
         },
         "deathCauses": {
           "shiver-corrupt": 1
         },
         "playtimeHours": 395.9,
-        "blocksTravelled": 267636,
-        "blocksBroken": 11305,
-        "blocksPlaced": 7380,
+        "blocksTravelled": 267843,
+        "blocksBroken": 11309,
+        "blocksPlaced": 7381,
         "deepestY": 12,
-        "lastSeen": 1785876492,
+        "lastSeen": 1785876612,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
