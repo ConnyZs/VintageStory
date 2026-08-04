@@ -1,5 +1,5 @@
 {
-  "generated": "20260804-213753",
+  "generated": "20260804-213953",
   "game_version": "1.22.5",
   "check_ts": "20260804-200057",
   "latest_engine": "1.22.6",
@@ -2128,8 +2128,8 @@
         "class": "tinker",
         "deaths": 7,
         "mobKills": 166,
-        "mealsEaten": 83,
-        "caloriesConsumed": 40354,
+        "mealsEaten": 84,
+        "caloriesConsumed": 40690,
         "lastMeal": "Cranberry pie",
         "mealsByName": {
           "Pear": 3,
@@ -2145,12 +2145,12 @@
           "Red grapes": 6,
           "Blackberry pie": 9,
           "Fruit pie": 7,
-          "Cranberry pie": 6,
+          "Cranberry pie": 7,
           "Blackcurrant pie": 2
         },
         "foodCatCounts": {
-          "Fruit": 45,
-          "Grain": 43,
+          "Fruit": 46,
+          "Grain": 44,
           "Protein": 38,
           "Vegetable": 29,
           "Dairy": 9
@@ -2162,11 +2162,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 108.6,
-        "blocksTravelled": 184173,
-        "blocksBroken": 7682,
+        "blocksTravelled": 184300,
+        "blocksBroken": 7683,
         "blocksPlaced": 494,
         "deepestY": 1,
-        "lastSeen": 1785872232,
+        "lastSeen": 1785872289,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2304,7 +2304,7 @@
         "name": "Eghetti",
         "class": "smith",
         "deaths": 2,
-        "mobKills": 55,
+        "mobKills": 56,
         "mealsEaten": 43,
         "caloriesConsumed": 19119,
         "lastMeal": "Redcurrant pie",
@@ -2334,11 +2334,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 54.8,
-        "blocksTravelled": 74553,
+        "blocksTravelled": 74670,
         "blocksBroken": 1370,
         "blocksPlaced": 923,
         "deepestY": 67,
-        "lastSeen": 1785872232,
+        "lastSeen": 1785872289,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2559,11 +2559,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 295.8,
-        "blocksTravelled": 356470,
-        "blocksBroken": 19336,
-        "blocksPlaced": 7436,
+        "blocksTravelled": 356622,
+        "blocksBroken": 19357,
+        "blocksPlaced": 7449,
         "deepestY": 1,
-        "lastSeen": 1785872232,
+        "lastSeen": 1785872289,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2750,11 +2750,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 394.7,
-        "blocksTravelled": 258510,
+        "blocksTravelled": 258566,
         "blocksBroken": 11126,
-        "blocksPlaced": 7363,
+        "blocksPlaced": 7364,
         "deepestY": 12,
-        "lastSeen": 1785872232,
+        "lastSeen": 1785872289,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
