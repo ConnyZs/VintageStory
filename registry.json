@@ -1,5 +1,5 @@
 {
-  "generated": "20260804-181540",
+  "generated": "20260804-181740",
   "game_version": "1.22.5",
   "check_ts": "20260804-171855",
   "latest_engine": "1.22.6",
@@ -2158,12 +2158,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 105.2,
-        "blocksTravelled": 171587,
+        "playtimeHours": 105.3,
+        "blocksTravelled": 171622,
         "blocksBroken": 7646,
         "blocksPlaced": 478,
         "deepestY": 1,
-        "lastSeen": 1785860040,
+        "lastSeen": 1785860161,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2730,7 +2730,7 @@
       "name": "Moritz",
       "role": "admin",
       "first_join": "04/22/2026 18:03",
-      "last_join": "08/04/2026 16:05",
+      "last_join": "08/04/2026 16:12",
       "last_char": "04/22/2026 18:05",
       "stats": {
         "uid": "bKc3JB7NGywTi9YbzXu/Qogt",
@@ -2774,11 +2774,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 391.4,
-        "blocksTravelled": 239348,
+        "blocksTravelled": 239350,
         "blocksBroken": 10593,
         "blocksPlaced": 7048,
         "deepestY": 12,
-        "lastSeen": 1785860094,
+        "lastSeen": 1785860211,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
