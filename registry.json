@@ -1,5 +1,5 @@
 {
-  "generated": "20260804-183541",
+  "generated": "20260804-183741",
   "game_version": "1.22.5",
   "check_ts": "20260804-171855",
   "latest_engine": "1.22.6",
@@ -2127,7 +2127,7 @@
         "name": "Raschuetzer",
         "class": "tinker",
         "deaths": 7,
-        "mobKills": 133,
+        "mobKills": 134,
         "mealsEaten": 68,
         "caloriesConsumed": 33562,
         "lastMeal": "Blackberry pie",
@@ -2159,11 +2159,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 105.6,
-        "blocksTravelled": 171918,
+        "blocksTravelled": 172239,
         "blocksBroken": 7646,
         "blocksPlaced": 478,
         "deepestY": 1,
-        "lastSeen": 1785861241,
+        "lastSeen": 1785861361,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2774,11 +2774,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 391.7,
-        "blocksTravelled": 241168,
+        "blocksTravelled": 241467,
         "blocksBroken": 10593,
         "blocksPlaced": 7049,
         "deepestY": 12,
-        "lastSeen": 1785861241,
+        "lastSeen": 1785861361,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
