@@ -1,5 +1,5 @@
 {
-  "generated": "20260804-225557",
+  "generated": "20260804-225758",
   "game_version": "1.22.5",
   "check_ts": "20260804-200057",
   "latest_engine": "1.22.6",
@@ -2163,11 +2163,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 109.9,
-        "blocksTravelled": 191552,
+        "blocksTravelled": 191820,
         "blocksBroken": 8123,
         "blocksPlaced": 526,
         "deepestY": 1,
-        "lastSeen": 1785876852,
+        "lastSeen": 1785877062,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2336,12 +2336,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 56.0,
-        "blocksTravelled": 80078,
+        "playtimeHours": 56.1,
+        "blocksTravelled": 80298,
         "blocksBroken": 1372,
-        "blocksPlaced": 923,
+        "blocksPlaced": 925,
         "deepestY": 54,
-        "lastSeen": 1785876852,
+        "lastSeen": 1785877062,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2471,7 +2471,7 @@
       "name": "AddyBuschu",
       "role": "admin",
       "first_join": "04/22/2026 17:55",
-      "last_join": "08/04/2026 18:25",
+      "last_join": "08/04/2026 20:55",
       "last_char": "04/25/2026 15:34",
       "stats": {
         "uid": "MT3maN90oN2gwGyklJR20Gu1",
@@ -2562,12 +2562,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 297.1,
-        "blocksTravelled": 363316,
+        "playtimeHours": 297.2,
+        "blocksTravelled": 363383,
         "blocksBroken": 19847,
         "blocksPlaced": 7624,
         "deepestY": 1,
-        "lastSeen": 1785876700,
+        "lastSeen": 1785877062,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2712,9 +2712,9 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 260,
-        "mealsEaten": 221,
-        "caloriesConsumed": 73839,
+        "mobKills": 261,
+        "mealsEaten": 222,
+        "caloriesConsumed": 74564,
         "lastMeal": "Syrup-covered muffin",
         "mealsByName": {
           "Cranberry": 19,
@@ -2727,7 +2727,7 @@
           "Pear": 4,
           "Rye bread": 3,
           "Leather-bound Oak Tankard": 2,
-          "Syrup-covered muffin": 5,
+          "Syrup-covered muffin": 6,
           "Syrup-covered fruit bread": 3,
           "Redcurrant": 2,
           "Pear pie": 1,
@@ -2745,21 +2745,21 @@
           "Red grapes": 3
         },
         "foodCatCounts": {
-          "Fruit": 104,
-          "Grain": 116,
-          "Protein": 110,
+          "Fruit": 105,
+          "Grain": 117,
+          "Protein": 111,
           "Vegetable": 78,
-          "Dairy": 26
+          "Dairy": 27
         },
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 396.0,
-        "blocksTravelled": 268032,
-        "blocksBroken": 11309,
+        "playtimeHours": 396.1,
+        "blocksTravelled": 268247,
+        "blocksBroken": 11310,
         "blocksPlaced": 7381,
         "deepestY": 12,
-        "lastSeen": 1785876852,
+        "lastSeen": 1785877062,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
