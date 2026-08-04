@@ -88,12 +88,10 @@
     "Gold gear amulet",
     "Messenger pin",
     "Sturdy belt",
-    "Large silver bracelets",
-    "Fur coat",
-    "Fur coat"
+    "Large silver bracelets"
    ],
    "frames": 16,
-   "v": 1785265009
+   "v": 1785881063
   },
   "Barberschascher": {
    "class": "miner",

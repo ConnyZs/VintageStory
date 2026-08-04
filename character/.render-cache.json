@@ -50,7 +50,7 @@
   }
  },
  "Moritz": {
-  "hash": "05ae91b804a48bff89263ec8a678bafbda3afcca",
+  "hash": "62286d2fc20ba2730464c67df1f16b4c50b24bc2",
   "info": {
    "class": "mason",
    "items": [
@@ -67,12 +67,10 @@
     "Gold gear amulet",
     "Messenger pin",
     "Sturdy belt",
-    "Large silver bracelets",
-    "Fur coat",
-    "Fur coat"
+    "Large silver bracelets"
    ],
    "frames": 16,
-   "v": 1785265009
+   "v": 1785881063
   }
  },
  "AddyBuschu": {

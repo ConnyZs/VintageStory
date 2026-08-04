@@ -1,5 +1,5 @@
 {
-  "generated": "20260805-000202",
+  "generated": "20260805-000402",
   "game_version": "1.22.5",
   "check_ts": "20260804-200057",
   "latest_engine": "1.22.6",
@@ -2166,11 +2166,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 111.0,
-        "blocksTravelled": 200293,
+        "blocksTravelled": 200337,
         "blocksBroken": 8190,
         "blocksPlaced": 534,
         "deepestY": 1,
-        "lastSeen": 1785880815,
+        "lastSeen": 1785880987,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2341,12 +2341,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 57.1,
-        "blocksTravelled": 86449,
+        "playtimeHours": 57.2,
+        "blocksTravelled": 86481,
         "blocksBroken": 1380,
-        "blocksPlaced": 927,
+        "blocksPlaced": 928,
         "deepestY": 54,
-        "lastSeen": 1785880815,
+        "lastSeen": 1785881012,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2570,12 +2570,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 298.2,
-        "blocksTravelled": 369684,
+        "playtimeHours": 298.3,
+        "blocksTravelled": 369726,
         "blocksBroken": 19982,
         "blocksPlaced": 7770,
         "deepestY": 1,
-        "lastSeen": 1785880815,
+        "lastSeen": 1785881000,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2769,12 +2769,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 397.1,
-        "blocksTravelled": 275989,
+        "playtimeHours": 397.2,
+        "blocksTravelled": 276018,
         "blocksBroken": 11395,
-        "blocksPlaced": 7412,
+        "blocksPlaced": 7414,
         "deepestY": 12,
-        "lastSeen": 1785880815,
+        "lastSeen": 1785880987,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -2785,8 +2785,7 @@
           "Gold gear amulet",
           "Messenger pin",
           "Sturdy belt",
-          "Large silver bracelets",
-          "Fur coat"
+          "Large silver bracelets"
         ],
         "gearDetail": [
           {
@@ -2844,12 +2843,6 @@
             "slot": "arm",
             "code": "game:clothes-arm-large-silver-bracelets",
             "name": "Large silver bracelets"
-          },
-          {
-            "slot": "upperbodyover",
-            "code": "game:clothes-upperbodyover-fur-coat",
-            "name": "Fur coat",
-            "icon": "character/icons/upperbodyover-fur-coat.png"
           },
           {
             "slot": "bag-1",
