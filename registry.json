@@ -1,5 +1,5 @@
 {
-  "generated": "20260804-231359",
+  "generated": "20260804-231559",
   "game_version": "1.22.5",
   "check_ts": "20260804-200057",
   "latest_engine": "1.22.6",
@@ -2127,7 +2127,7 @@
         "name": "Raschuetzer",
         "class": "tinker",
         "deaths": 7,
-        "mobKills": 171,
+        "mobKills": 173,
         "mealsEaten": 97,
         "caloriesConsumed": 47910,
         "lastMeal": "Black ceramic jug",
@@ -2164,11 +2164,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 110.2,
-        "blocksTravelled": 192226,
-        "blocksBroken": 8174,
+        "blocksTravelled": 192509,
+        "blocksBroken": 8176,
         "blocksPlaced": 526,
         "deepestY": 1,
-        "lastSeen": 1785877968,
+        "lastSeen": 1785878053,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2306,7 +2306,7 @@
         "name": "Eghetti",
         "class": "smith",
         "deaths": 2,
-        "mobKills": 57,
+        "mobKills": 60,
         "mealsEaten": 56,
         "caloriesConsumed": 24406,
         "lastMeal": "Syrup-covered muffin",
@@ -2339,11 +2339,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 56.4,
-        "blocksTravelled": 80492,
-        "blocksBroken": 1372,
+        "blocksTravelled": 80661,
+        "blocksBroken": 1373,
         "blocksPlaced": 925,
         "deepestY": 54,
-        "lastSeen": 1785877968,
+        "lastSeen": 1785878053,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2480,9 +2480,9 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 604,
-        "mealsEaten": 632,
-        "caloriesConsumed": 108373,
+        "mobKills": 606,
+        "mealsEaten": 633,
+        "caloriesConsumed": 108968,
         "lastMeal": "Syrup-covered fruit bread",
         "mealsByName": {
           "Meat pie": 45,
@@ -2546,15 +2546,15 @@
           "Strawberry pie": 19,
           "Lump of raw fat": 1,
           "Redcurrant pie": 4,
-          "Syrup-covered fruit bread": 9,
+          "Syrup-covered fruit bread": 10,
           "Black ceramic jug": 1
         },
         "foodCatCounts": {
-          "Grain": 201,
+          "Grain": 202,
           "Protein": 101,
           "Vegetable": 193,
-          "Fruit": 336,
-          "Dairy": 31
+          "Fruit": 337,
+          "Dairy": 32
         },
         "deathCauses": {
           "bear-brown-adult-female": 2,
@@ -2566,11 +2566,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 297.4,
-        "blocksTravelled": 363651,
-        "blocksBroken": 19848,
-        "blocksPlaced": 7639,
+        "blocksTravelled": 363865,
+        "blocksBroken": 19852,
+        "blocksPlaced": 7640,
         "deepestY": 1,
-        "lastSeen": 1785877968,
+        "lastSeen": 1785878053,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2715,10 +2715,10 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 264,
-        "mealsEaten": 228,
-        "caloriesConsumed": 76318,
-        "lastMeal": "Black ceramic jug",
+        "mobKills": 265,
+        "mealsEaten": 229,
+        "caloriesConsumed": 77438,
+        "lastMeal": "Cooked dumplings",
         "mealsByName": {
           "Cranberry": 19,
           "Meat pie": 20,
@@ -2734,7 +2734,7 @@
           "Syrup-covered fruit bread": 3,
           "Redcurrant": 2,
           "Pear pie": 1,
-          "Cooked dumplings": 9,
+          "Cooked dumplings": 10,
           "Strawberry": 1,
           "Blackberry pie": 18,
           "Rice grain": 7,
@@ -2750,20 +2750,20 @@
         },
         "foodCatCounts": {
           "Fruit": 107,
-          "Grain": 119,
-          "Protein": 113,
+          "Grain": 120,
+          "Protein": 114,
           "Vegetable": 78,
-          "Dairy": 29
+          "Dairy": 30
         },
         "deathCauses": {
           "shiver-corrupt": 1
         },
         "playtimeHours": 396.3,
-        "blocksTravelled": 268766,
+        "blocksTravelled": 269141,
         "blocksBroken": 11327,
-        "blocksPlaced": 7383,
+        "blocksPlaced": 7386,
         "deepestY": 12,
-        "lastSeen": 1785877968,
+        "lastSeen": 1785878053,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
