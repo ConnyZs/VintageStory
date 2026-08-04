@@ -1,5 +1,5 @@
 {
-  "generated": "20260804-200347",
+  "generated": "20260804-200547",
   "game_version": "1.22.5",
   "check_ts": "20260804-200057",
   "latest_engine": "1.22.6",
@@ -2332,19 +2332,19 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 53.2,
-        "blocksTravelled": 69681,
+        "playtimeHours": 53.3,
+        "blocksTravelled": 69723,
         "blocksBroken": 1363,
         "blocksPlaced": 917,
         "deepestY": 67,
-        "lastSeen": 1785866525,
+        "lastSeen": 1785866645,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
           "Workmans pants",
           "Soldier boots",
           "Heavy leather gloves",
-          "Simple cross",
+          "Ornamental cross",
           "Miner belt",
           "Leather bracers",
           "Fur coat",
@@ -2386,8 +2386,8 @@
           },
           {
             "slot": "neck",
-            "code": "game:clothes-neck-simple-cross",
-            "name": "Simple cross"
+            "code": "game:clothes-neck-fancy-cross",
+            "name": "Ornamental cross"
           },
           {
             "slot": "waist",
@@ -2554,12 +2554,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 294.2,
-        "blocksTravelled": 345984,
+        "playtimeHours": 294.3,
+        "blocksTravelled": 346248,
         "blocksBroken": 19060,
         "blocksPlaced": 7404,
         "deepestY": 1,
-        "lastSeen": 1785866525,
+        "lastSeen": 1785866645,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2705,9 +2705,9 @@
         "class": "mason",
         "deaths": 1,
         "mobKills": 191,
-        "mealsEaten": 179,
-        "caloriesConsumed": 55574,
-        "lastMeal": "Blackcurrant pie",
+        "mealsEaten": 181,
+        "caloriesConsumed": 56434,
+        "lastMeal": "Fruit pie",
         "mealsByName": {
           "Cranberry": 19,
           "Meat pie": 20,
@@ -2731,11 +2731,12 @@
           "Green grapes": 6,
           "Vintage Beef": 1,
           "Blackcurrant pie": 4,
-          "Blueberry pie": 1
+          "Blueberry pie": 1,
+          "Fruit pie": 2
         },
         "foodCatCounts": {
-          "Fruit": 72,
-          "Grain": 77,
+          "Fruit": 74,
+          "Grain": 79,
           "Protein": 101,
           "Vegetable": 78,
           "Dairy": 13
@@ -2744,11 +2745,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 393.2,
-        "blocksTravelled": 247711,
-        "blocksBroken": 11001,
-        "blocksPlaced": 7321,
+        "blocksTravelled": 248039,
+        "blocksBroken": 11002,
+        "blocksPlaced": 7328,
         "deepestY": 12,
-        "lastSeen": 1785866525,
+        "lastSeen": 1785866645,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",

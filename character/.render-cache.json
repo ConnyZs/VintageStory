@@ -26,7 +26,7 @@
   }
  },
  "Eghetti": {
-  "hash": "c59fef1da7c5af26d4881308349c187ff980b6e1",
+  "hash": "0a2410bcce3707890ebbbc23bf82a231a7d59c20",
   "info": {
    "class": "smith",
    "items": [
@@ -39,14 +39,14 @@
     "Workmans pants",
     "Soldier boots",
     "Heavy leather gloves",
-    "Simple cross",
+    "Ornamental cross",
     "Miner belt",
     "Leather bracers",
     "Fur coat",
     "Fur coat"
    ],
    "frames": 16,
-   "v": 1785864963
+   "v": 1785866764
   }
  },
  "Moritz": {
