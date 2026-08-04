@@ -1,5 +1,5 @@
 {
-  "generated": "20260804-205550",
+  "generated": "20260804-205750",
   "game_version": "1.22.5",
   "check_ts": "20260804-200057",
   "latest_engine": "1.22.6",
@@ -2120,7 +2120,7 @@
       "name": "Raschuetzer",
       "role": "admin",
       "first_join": "04/22/2026 17:47",
-      "last_join": "08/04/2026 18:16",
+      "last_join": "08/04/2026 18:56",
       "last_char": "04/29/2026 21:30",
       "stats": {
         "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
@@ -2162,11 +2162,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 107.9,
-        "blocksTravelled": 181584,
+        "blocksTravelled": 181653,
         "blocksBroken": 7646,
         "blocksPlaced": 485,
         "deepestY": 1,
-        "lastSeen": 1785869732,
+        "lastSeen": 1785869814,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2556,11 +2556,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 295.1,
-        "blocksTravelled": 354004,
-        "blocksBroken": 19233,
+        "blocksTravelled": 354087,
+        "blocksBroken": 19235,
         "blocksPlaced": 7407,
         "deepestY": 1,
-        "lastSeen": 1785869647,
+        "lastSeen": 1785869814,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2698,7 +2698,7 @@
       "name": "Moritz",
       "role": "admin",
       "first_join": "04/22/2026 18:03",
-      "last_join": "08/04/2026 18:28",
+      "last_join": "08/04/2026 18:56",
       "last_char": "04/22/2026 18:05",
       "stats": {
         "uid": "bKc3JB7NGywTi9YbzXu/Qogt",
@@ -2745,12 +2745,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 394.0,
+        "playtimeHours": 394.1,
         "blocksTravelled": 255925,
         "blocksBroken": 11070,
         "blocksPlaced": 7334,
         "deepestY": 12,
-        "lastSeen": 1785869736,
+        "lastSeen": 1785869831,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
