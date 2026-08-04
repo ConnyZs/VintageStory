@@ -1,5 +1,5 @@
 {
-  "generated": "20260804-212752",
+  "generated": "20260804-212952",
   "game_version": "1.22.5",
   "check_ts": "20260804-200057",
   "latest_engine": "1.22.6",
@@ -2162,11 +2162,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 108.4,
-        "blocksTravelled": 183610,
+        "blocksTravelled": 183732,
         "blocksBroken": 7669,
         "blocksPlaced": 486,
         "deepestY": 1,
-        "lastSeen": 1785871628,
+        "lastSeen": 1785871688,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2305,9 +2305,9 @@
         "class": "smith",
         "deaths": 2,
         "mobKills": 55,
-        "mealsEaten": 42,
-        "caloriesConsumed": 18499,
-        "lastMeal": "Blueberry pie",
+        "mealsEaten": 43,
+        "caloriesConsumed": 19119,
+        "lastMeal": "Redcurrant pie",
         "mealsByName": {
           "Earthy orange ceramic bowl of meat stew": 17,
           "Meat pie": 5,
@@ -2319,13 +2319,14 @@
           "Syrup-covered muffin": 2,
           "Blackcurrant pie": 2,
           "Blueberry pie": 3,
-          "Fruit pie": 5
+          "Fruit pie": 5,
+          "Redcurrant pie": 1
         },
         "foodCatCounts": {
           "Protein": 28,
           "Vegetable": 18,
-          "Grain": 21,
-          "Fruit": 15,
+          "Grain": 22,
+          "Fruit": 16,
           "Dairy": 4
         },
         "deathCauses": {
@@ -2333,11 +2334,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 54.6,
-        "blocksTravelled": 74164,
+        "blocksTravelled": 74217,
         "blocksBroken": 1365,
         "blocksPlaced": 919,
         "deepestY": 67,
-        "lastSeen": 1785871628,
+        "lastSeen": 1785871688,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2474,7 +2475,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 584,
+        "mobKills": 585,
         "mealsEaten": 610,
         "caloriesConsumed": 95934,
         "lastMeal": "Redcurrant pie",
@@ -2557,12 +2558,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 295.6,
-        "blocksTravelled": 356068,
-        "blocksBroken": 19321,
-        "blocksPlaced": 7427,
+        "playtimeHours": 295.7,
+        "blocksTravelled": 356154,
+        "blocksBroken": 19322,
+        "blocksPlaced": 7433,
         "deepestY": 1,
-        "lastSeen": 1785871628,
+        "lastSeen": 1785871688,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2749,11 +2750,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 394.6,
-        "blocksTravelled": 258062,
+        "blocksTravelled": 258166,
         "blocksBroken": 11111,
-        "blocksPlaced": 7356,
+        "blocksPlaced": 7361,
         "deepestY": 12,
-        "lastSeen": 1785871628,
+        "lastSeen": 1785871688,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
