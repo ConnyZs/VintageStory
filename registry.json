@@ -1,5 +1,5 @@
 {
-  "generated": "20260804-185943",
+  "generated": "20260804-190143",
   "game_version": "1.22.5",
   "check_ts": "20260804-171855",
   "latest_engine": "1.22.6",
@@ -2159,11 +2159,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 106.0,
-        "blocksTravelled": 172726,
+        "blocksTravelled": 172742,
         "blocksBroken": 7646,
         "blocksPlaced": 478,
         "deepestY": 1,
-        "lastSeen": 1785862682,
+        "lastSeen": 1785862868,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2513,9 +2513,9 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 521,
-        "mealsEaten": 552,
-        "caloriesConsumed": 78213,
+        "mobKills": 524,
+        "mealsEaten": 553,
+        "caloriesConsumed": 78513,
         "lastMeal": "Smoked Plain Primemeat",
         "mealsByName": {
           "Meat pie": 45,
@@ -2567,14 +2567,14 @@
           "Shiitake": 1,
           "Onion": 4,
           "Spelt grain": 13,
-          "Smoked Plain Primemeat": 10,
+          "Smoked Plain Primemeat": 11,
           "Blackberry pie": 4,
           "Earthy orange ceramic bowl of jam": 4,
           "Cabbage": 1
         },
         "foodCatCounts": {
           "Grain": 126,
-          "Protein": 91,
+          "Protein": 92,
           "Vegetable": 188,
           "Fruit": 279,
           "Dairy": 10
@@ -2589,11 +2589,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 293.2,
-        "blocksTravelled": 340023,
+        "blocksTravelled": 340316,
         "blocksBroken": 19054,
         "blocksPlaced": 7374,
         "deepestY": 1,
-        "lastSeen": 1785862682,
+        "lastSeen": 1785862868,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2708,8 +2708,8 @@
           },
           {
             "slot": "bag-4",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "code": "butchering:butcherybag-standard",
+            "name": "Hide Butchering Bag"
           }
         ],
         "skin": {
@@ -2739,14 +2739,14 @@
         "class": "mason",
         "deaths": 1,
         "mobKills": 191,
-        "mealsEaten": 166,
-        "caloriesConsumed": 48933,
-        "lastMeal": "Vintage Beef",
+        "mealsEaten": 167,
+        "caloriesConsumed": 49524,
+        "lastMeal": "Earthy orange ceramic bowl of soup",
         "mealsByName": {
           "Cranberry": 19,
           "Meat pie": 20,
           "Cranberry pie": 7,
-          "Earthy orange ceramic bowl of soup": 1,
+          "Earthy orange ceramic bowl of soup": 2,
           "Wooden bucket": 1,
           "Earthy orange ceramic bowl of meat stew": 68,
           "Chopped cabbage": 1,
@@ -2767,20 +2767,20 @@
         },
         "foodCatCounts": {
           "Fruit": 65,
-          "Grain": 64,
-          "Protein": 94,
-          "Vegetable": 72,
+          "Grain": 65,
+          "Protein": 95,
+          "Vegetable": 73,
           "Dairy": 12
         },
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 392.1,
-        "blocksTravelled": 243422,
+        "playtimeHours": 392.2,
+        "blocksTravelled": 243507,
         "blocksBroken": 10613,
         "blocksPlaced": 7052,
         "deepestY": 12,
-        "lastSeen": 1785862682,
+        "lastSeen": 1785862868,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
