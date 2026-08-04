@@ -1,5 +1,5 @@
 {
-  "generated": "20260804-190543",
+  "generated": "20260804-190743",
   "game_version": "1.22.5",
   "check_ts": "20260804-171855",
   "latest_engine": "1.22.6",
@@ -2163,7 +2163,7 @@
         "blocksBroken": 7646,
         "blocksPlaced": 478,
         "deepestY": 1,
-        "lastSeen": 1785863042,
+        "lastSeen": 1785863170,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2590,11 +2590,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 293.3,
-        "blocksTravelled": 340616,
+        "blocksTravelled": 340646,
         "blocksBroken": 19054,
-        "blocksPlaced": 7374,
+        "blocksPlaced": 7375,
         "deepestY": 1,
-        "lastSeen": 1785863042,
+        "lastSeen": 1785863170,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2777,11 +2777,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 392.2,
-        "blocksTravelled": 243646,
+        "blocksTravelled": 243893,
         "blocksBroken": 10613,
         "blocksPlaced": 7052,
         "deepestY": 12,
-        "lastSeen": 1785863042,
+        "lastSeen": 1785863170,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
