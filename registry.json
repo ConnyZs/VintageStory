@@ -1,5 +1,5 @@
 {
-  "generated": "20260804-221155",
+  "generated": "20260804-221356",
   "game_version": "1.22.5",
   "check_ts": "20260804-200057",
   "latest_engine": "1.22.6",
@@ -2120,7 +2120,7 @@
       "name": "Raschuetzer",
       "role": "admin",
       "first_join": "04/22/2026 17:47",
-      "last_join": "08/04/2026 19:25",
+      "last_join": "08/04/2026 20:08",
       "last_char": "04/29/2026 21:30",
       "stats": {
         "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
@@ -2162,12 +2162,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 109.1,
-        "blocksTravelled": 187450,
-        "blocksBroken": 7710,
+        "playtimeHours": 109.2,
+        "blocksTravelled": 187797,
+        "blocksBroken": 7727,
         "blocksPlaced": 526,
         "deepestY": 1,
-        "lastSeen": 1785874210,
+        "lastSeen": 1785874345,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2306,9 +2306,9 @@
         "class": "smith",
         "deaths": 2,
         "mobKills": 56,
-        "mealsEaten": 45,
-        "caloriesConsumed": 20309,
-        "lastMeal": "Syrup-covered fruit bread",
+        "mealsEaten": 50,
+        "caloriesConsumed": 20709,
+        "lastMeal": "Red grapes",
         "mealsByName": {
           "Earthy orange ceramic bowl of meat stew": 17,
           "Meat pie": 5,
@@ -2322,25 +2322,26 @@
           "Blueberry pie": 3,
           "Fruit pie": 5,
           "Redcurrant pie": 1,
-          "Syrup-covered fruit bread": 2
+          "Syrup-covered fruit bread": 2,
+          "Red grapes": 5
         },
         "foodCatCounts": {
           "Protein": 28,
           "Vegetable": 18,
           "Grain": 24,
-          "Fruit": 18,
+          "Fruit": 23,
           "Dairy": 6
         },
         "deathCauses": {
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 55.3,
-        "blocksTravelled": 77221,
+        "playtimeHours": 55.4,
+        "blocksTravelled": 77256,
         "blocksBroken": 1370,
         "blocksPlaced": 923,
         "deepestY": 67,
-        "lastSeen": 1785874210,
+        "lastSeen": 1785874345,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2477,7 +2478,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 590,
+        "mobKills": 591,
         "mealsEaten": 620,
         "caloriesConsumed": 102401,
         "lastMeal": "Cooked dumplings",
@@ -2562,11 +2563,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 296.4,
-        "blocksTravelled": 359396,
-        "blocksBroken": 19683,
-        "blocksPlaced": 7556,
+        "blocksTravelled": 359605,
+        "blocksBroken": 19738,
+        "blocksPlaced": 7571,
         "deepestY": 1,
-        "lastSeen": 1785874210,
+        "lastSeen": 1785874345,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2754,11 +2755,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 395.3,
-        "blocksTravelled": 262896,
-        "blocksBroken": 11190,
+        "blocksTravelled": 263306,
+        "blocksBroken": 11198,
         "blocksPlaced": 7366,
         "deepestY": 12,
-        "lastSeen": 1785874210,
+        "lastSeen": 1785874345,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
