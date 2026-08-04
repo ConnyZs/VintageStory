@@ -1,5 +1,5 @@
 {
-  "generated": "20260804-192744",
+  "generated": "20260804-192945",
   "game_version": "1.22.5",
   "check_ts": "20260804-171855",
   "latest_engine": "1.22.6",
@@ -2160,12 +2160,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 106.4,
-        "blocksTravelled": 173561,
+        "playtimeHours": 106.5,
+        "blocksTravelled": 173565,
         "blocksBroken": 7646,
         "blocksPlaced": 482,
         "deepestY": 1,
-        "lastSeen": 1785864378,
+        "lastSeen": 1785864483,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2328,12 +2328,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 52.6,
+        "playtimeHours": 52.7,
         "blocksTravelled": 68551,
         "blocksBroken": 1354,
         "blocksPlaced": 911,
         "deepestY": 67,
-        "lastSeen": 1785864437,
+        "lastSeen": 1785864483,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2344,7 +2344,6 @@
           "Miner belt",
           "Leather bracers",
           "Fur coat",
-          "Tailored gambeson body armor",
           "Weapon sling",
           "Bags belt",
           "Ammo pouch"
@@ -2402,11 +2401,6 @@
             "code": "game:clothes-upperbodyover-fur-coat",
             "name": "Fur coat",
             "icon": "character/icons/upperbodyover-fur-coat.png"
-          },
-          {
-            "slot": "armorbody",
-            "code": "game:armor-body-tailored-pink-linen",
-            "name": "Tailored gambeson body armor"
           },
           {
             "slot": "",
@@ -2548,12 +2542,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 293.6,
-        "blocksTravelled": 343767,
+        "playtimeHours": 293.7,
+        "blocksTravelled": 343791,
         "blocksBroken": 19057,
         "blocksPlaced": 7379,
         "deepestY": 1,
-        "lastSeen": 1785864378,
+        "lastSeen": 1785864483,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2736,11 +2730,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 392.6,
-        "blocksTravelled": 245365,
+        "blocksTravelled": 245391,
         "blocksBroken": 10770,
         "blocksPlaced": 7126,
         "deepestY": 12,
-        "lastSeen": 1785864378,
+        "lastSeen": 1785864483,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
