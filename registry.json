@@ -1,5 +1,5 @@
 {
-  "generated": "20260809-215810",
+  "generated": "20260809-220011",
   "game_version": "1.22.5",
   "check_ts": "20260807-200052",
   "latest_engine": "1.22.6",
@@ -2484,9 +2484,9 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 621,
-        "mealsEaten": 727,
-        "caloriesConsumed": 120628,
-        "lastMeal": "Beautyberry",
+        "mealsEaten": 730,
+        "caloriesConsumed": 120868,
+        "lastMeal": "Blackcurrant",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
@@ -2497,7 +2497,7 @@
           "Leather-bound Oak Tankard": 1,
           "Syrup-covered muffin": 1,
           "Cranberry": 15,
-          "Blackcurrant": 34,
+          "Blackcurrant": 37,
           "Pear pie": 4,
           "Cooked dumplings": 7,
           "Almond mushroom": 1,
@@ -2558,7 +2558,7 @@
           "Grain": 215,
           "Protein": 102,
           "Vegetable": 193,
-          "Fruit": 425,
+          "Fruit": 428,
           "Dairy": 40
         },
         "deathCauses": {
@@ -2571,11 +2571,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 416.2,
-        "blocksTravelled": 371284,
-        "blocksBroken": 19996,
-        "blocksPlaced": 7776,
+        "blocksTravelled": 371342,
+        "blocksBroken": 19998,
+        "blocksPlaced": 7807,
         "deepestY": 1,
-        "lastSeen": 1786305474,
+        "lastSeen": 1786305570,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2771,11 +2771,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 515.1,
-        "blocksTravelled": 277478,
-        "blocksBroken": 11425,
-        "blocksPlaced": 7435,
+        "blocksTravelled": 277512,
+        "blocksBroken": 11430,
+        "blocksPlaced": 7451,
         "deepestY": 12,
-        "lastSeen": 1786305474,
+        "lastSeen": 1786305570,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
