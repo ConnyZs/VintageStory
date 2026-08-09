@@ -1,5 +1,5 @@
 {
-  "generated": "20260810-004422",
+  "generated": "20260810-004622",
   "game_version": "1.22.5",
   "check_ts": "20260807-200052",
   "latest_engine": "1.22.6",
@@ -2576,7 +2576,7 @@
         "blocksBroken": 20250,
         "blocksPlaced": 7874,
         "deepestY": 1,
-        "lastSeen": 1786315433,
+        "lastSeen": 1786315536,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2776,11 +2776,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 517.8,
-        "blocksTravelled": 296309,
+        "blocksTravelled": 296327,
         "blocksBroken": 11874,
         "blocksPlaced": 7583,
         "deepestY": 12,
-        "lastSeen": 1786315433,
+        "lastSeen": 1786315536,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
