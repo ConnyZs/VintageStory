@@ -1,5 +1,5 @@
 {
-  "generated": "20260809-223013",
+  "generated": "20260809-223213",
   "game_version": "1.22.5",
   "check_ts": "20260807-200052",
   "latest_engine": "1.22.6",
@@ -2571,11 +2571,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 416.7,
-        "blocksTravelled": 375609,
-        "blocksBroken": 20045,
-        "blocksPlaced": 7839,
+        "blocksTravelled": 376007,
+        "blocksBroken": 20048,
+        "blocksPlaced": 7841,
         "deepestY": 1,
-        "lastSeen": 1786307371,
+        "lastSeen": 1786307491,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2719,7 +2719,7 @@
         "uid": "bKc3JB7NGywTi9YbzXu/Qogt",
         "name": "Moritz",
         "class": "mason",
-        "deaths": 1,
+        "deaths": 2,
         "mobKills": 274,
         "mealsEaten": 264,
         "caloriesConsumed": 83693,
@@ -2769,14 +2769,15 @@
           "Dairy": 36
         },
         "deathCauses": {
-          "shiver-corrupt": 1
+          "shiver-corrupt": 1,
+          "bear-brown-adult-female": 1
         },
         "playtimeHours": 515.6,
-        "blocksTravelled": 281806,
+        "blocksTravelled": 282337,
         "blocksBroken": 11477,
         "blocksPlaced": 7458,
         "deepestY": 12,
-        "lastSeen": 1786307371,
+        "lastSeen": 1786307491,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3177,11 +3178,11 @@
     }
   ],
   "lastAccident": {
-    "playerName": "AddyBuschu",
-    "timestamp": 1784895245,
-    "cause": "shiver-surface",
-    "x": 520215,
-    "y": 113,
-    "z": 510521
+    "playerName": "Moritz",
+    "timestamp": 1786307495,
+    "cause": "bear-brown-adult-female",
+    "x": 521064,
+    "y": 111,
+    "z": 523223
   }
 }
