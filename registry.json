@@ -1,5 +1,5 @@
 {
-  "generated": "20260809-223413",
+  "generated": "20260809-223613",
   "game_version": "1.22.5",
   "check_ts": "20260807-200052",
   "latest_engine": "1.22.6",
@@ -2484,9 +2484,9 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 641,
-        "mealsEaten": 789,
-        "caloriesConsumed": 125588,
-        "lastMeal": "Blackcurrant",
+        "mealsEaten": 791,
+        "caloriesConsumed": 125748,
+        "lastMeal": "Beautyberry",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
@@ -2551,14 +2551,14 @@
           "Redcurrant pie": 4,
           "Syrup-covered fruit bread": 18,
           "Black ceramic jug": 1,
-          "Beautyberry": 53,
+          "Beautyberry": 55,
           "Amaranth grain": 5
         },
         "foodCatCounts": {
           "Grain": 215,
           "Protein": 102,
           "Vegetable": 193,
-          "Fruit": 487,
+          "Fruit": 489,
           "Dairy": 40
         },
         "deathCauses": {
@@ -2570,12 +2570,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 416.7,
-        "blocksTravelled": 376119,
-        "blocksBroken": 20048,
-        "blocksPlaced": 7841,
+        "playtimeHours": 416.8,
+        "blocksTravelled": 376329,
+        "blocksBroken": 20080,
+        "blocksPlaced": 7852,
         "deepestY": 1,
-        "lastSeen": 1786307611,
+        "lastSeen": 1786307731,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2721,9 +2721,9 @@
         "class": "mason",
         "deaths": 2,
         "mobKills": 274,
-        "mealsEaten": 264,
-        "caloriesConsumed": 83693,
-        "lastMeal": "Paddy straw",
+        "mealsEaten": 265,
+        "caloriesConsumed": 84288,
+        "lastMeal": "Syrup-covered fruit bread",
         "mealsByName": {
           "Cranberry": 19,
           "Meat pie": 20,
@@ -2736,7 +2736,7 @@
           "Rye bread": 3,
           "Leather-bound Oak Tankard": 2,
           "Syrup-covered muffin": 8,
-          "Syrup-covered fruit bread": 8,
+          "Syrup-covered fruit bread": 9,
           "Redcurrant": 5,
           "Pear pie": 1,
           "Cooked dumplings": 11,
@@ -2762,22 +2762,22 @@
           "Paddy straw": 1
         },
         "foodCatCounts": {
-          "Fruit": 124,
-          "Grain": 134,
+          "Fruit": 125,
+          "Grain": 135,
           "Protein": 115,
           "Vegetable": 87,
-          "Dairy": 36
+          "Dairy": 37
         },
         "deathCauses": {
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 515.6,
-        "blocksTravelled": 282377,
-        "blocksBroken": 11477,
-        "blocksPlaced": 7459,
+        "playtimeHours": 515.7,
+        "blocksTravelled": 282567,
+        "blocksBroken": 11511,
+        "blocksPlaced": 7467,
         "deepestY": 12,
-        "lastSeen": 1786307611,
+        "lastSeen": 1786307731,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
