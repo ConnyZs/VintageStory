@@ -1,5 +1,5 @@
 {
-  "generated": "20260810-003222",
+  "generated": "20260810-003422",
   "game_version": "1.22.5",
   "check_ts": "20260807-200052",
   "latest_engine": "1.22.6",
@@ -2571,12 +2571,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 418.7,
+        "playtimeHours": 418.8,
         "blocksTravelled": 387750,
         "blocksBroken": 20250,
         "blocksPlaced": 7874,
         "deepestY": 1,
-        "lastSeen": 1786314695,
+        "lastSeen": 1786314829,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2721,7 +2721,7 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 2,
-        "mobKills": 282,
+        "mobKills": 283,
         "mealsEaten": 273,
         "caloriesConsumed": 84928,
         "lastMeal": "King bolete",
@@ -2775,12 +2775,12 @@
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 517.6,
-        "blocksTravelled": 295528,
+        "playtimeHours": 517.7,
+        "blocksTravelled": 295611,
         "blocksBroken": 11785,
-        "blocksPlaced": 7574,
+        "blocksPlaced": 7577,
         "deepestY": 12,
-        "lastSeen": 1786314695,
+        "lastSeen": 1786314829,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
