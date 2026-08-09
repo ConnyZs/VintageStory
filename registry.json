@@ -1,5 +1,5 @@
 {
-  "generated": "20260809-222212",
+  "generated": "20260809-222412",
   "game_version": "1.22.5",
   "check_ts": "20260807-200052",
   "latest_engine": "1.22.6",
@@ -2570,12 +2570,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 416.5,
-        "blocksTravelled": 374583,
-        "blocksBroken": 20040,
-        "blocksPlaced": 7834,
+        "playtimeHours": 416.6,
+        "blocksTravelled": 374822,
+        "blocksBroken": 20042,
+        "blocksPlaced": 7836,
         "deepestY": 1,
-        "lastSeen": 1786306890,
+        "lastSeen": 1786307011,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2771,12 +2771,12 @@
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 515.4,
-        "blocksTravelled": 280902,
-        "blocksBroken": 11458,
-        "blocksPlaced": 7451,
+        "playtimeHours": 515.5,
+        "blocksTravelled": 281051,
+        "blocksBroken": 11465,
+        "blocksPlaced": 7453,
         "deepestY": 12,
-        "lastSeen": 1786306890,
+        "lastSeen": 1786307011,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -2787,7 +2787,8 @@
           "Gold gear amulet",
           "Messenger pin",
           "Sturdy belt",
-          "Large silver bracelets"
+          "Large silver bracelets",
+          "Fur coat"
         ],
         "gearDetail": [
           {
@@ -2845,6 +2846,12 @@
             "slot": "arm",
             "code": "game:clothes-arm-large-silver-bracelets",
             "name": "Large silver bracelets"
+          },
+          {
+            "slot": "upperbodyover",
+            "code": "game:clothes-upperbodyover-fur-coat",
+            "name": "Fur coat",
+            "icon": "character/icons/upperbodyover-fur-coat.png"
           },
           {
             "slot": "bag-1",
