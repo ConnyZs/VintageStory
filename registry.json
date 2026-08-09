@@ -1,5 +1,5 @@
 {
-  "generated": "20260809-215010",
+  "generated": "20260809-215210",
   "game_version": "1.22.5",
   "check_ts": "20260807-200052",
   "latest_engine": "1.22.6",
@@ -2483,7 +2483,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 619,
+        "mobKills": 621,
         "mealsEaten": 721,
         "caloriesConsumed": 120148,
         "lastMeal": "Syrup-covered fruit bread",
@@ -2571,11 +2571,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 416.0,
-        "blocksTravelled": 370073,
+        "blocksTravelled": 370441,
         "blocksBroken": 19982,
         "blocksPlaced": 7774,
         "deepestY": 1,
-        "lastSeen": 1786304969,
+        "lastSeen": 1786305089,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2720,10 +2720,10 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 267,
-        "mealsEaten": 259,
-        "caloriesConsumed": 83213,
-        "lastMeal": "Syrup-covered fruit bread",
+        "mobKills": 269,
+        "mealsEaten": 263,
+        "caloriesConsumed": 83613,
+        "lastMeal": "Onion",
         "mealsByName": {
           "Cranberry": 19,
           "Meat pie": 20,
@@ -2757,24 +2757,25 @@
           "Flax grain": 4,
           "Dryad saddle": 1,
           "Deer ear": 1,
-          "Beautyberry": 3
+          "Beautyberry": 3,
+          "Onion": 4
         },
         "foodCatCounts": {
           "Fruit": 124,
           "Grain": 134,
           "Protein": 115,
-          "Vegetable": 82,
+          "Vegetable": 86,
           "Dairy": 36
         },
         "deathCauses": {
           "shiver-corrupt": 1
         },
         "playtimeHours": 514.9,
-        "blocksTravelled": 276235,
-        "blocksBroken": 11395,
+        "blocksTravelled": 276586,
+        "blocksBroken": 11397,
         "blocksPlaced": 7414,
         "deepestY": 12,
-        "lastSeen": 1786304969,
+        "lastSeen": 1786305089,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
