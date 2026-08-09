@@ -1,5 +1,5 @@
 {
-  "generated": "20260809-224014",
+  "generated": "20260809-224214",
   "game_version": "1.22.5",
   "check_ts": "20260807-200052",
   "latest_engine": "1.22.6",
@@ -2484,8 +2484,8 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 641,
-        "mealsEaten": 791,
-        "caloriesConsumed": 125748,
+        "mealsEaten": 793,
+        "caloriesConsumed": 125908,
         "lastMeal": "Beautyberry",
         "mealsByName": {
           "Meat pie": 45,
@@ -2551,14 +2551,14 @@
           "Redcurrant pie": 4,
           "Syrup-covered fruit bread": 18,
           "Black ceramic jug": 1,
-          "Beautyberry": 55,
+          "Beautyberry": 57,
           "Amaranth grain": 5
         },
         "foodCatCounts": {
           "Grain": 215,
           "Protein": 102,
           "Vegetable": 193,
-          "Fruit": 489,
+          "Fruit": 491,
           "Dairy": 40
         },
         "deathCauses": {
@@ -2570,12 +2570,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 416.8,
-        "blocksTravelled": 376883,
+        "playtimeHours": 416.9,
+        "blocksTravelled": 377427,
         "blocksBroken": 20102,
         "blocksPlaced": 7852,
         "deepestY": 1,
-        "lastSeen": 1786307971,
+        "lastSeen": 1786308091,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2772,12 +2772,12 @@
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 515.7,
-        "blocksTravelled": 283091,
+        "playtimeHours": 515.8,
+        "blocksTravelled": 283661,
         "blocksBroken": 11579,
         "blocksPlaced": 7467,
         "deepestY": 12,
-        "lastSeen": 1786307971,
+        "lastSeen": 1786308091,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
