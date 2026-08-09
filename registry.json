@@ -1,5 +1,5 @@
 {
-  "generated": "20260809-223613",
+  "generated": "20260809-223813",
   "game_version": "1.22.5",
   "check_ts": "20260807-200052",
   "latest_engine": "1.22.6",
@@ -2571,11 +2571,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 416.8,
-        "blocksTravelled": 376329,
-        "blocksBroken": 20080,
+        "blocksTravelled": 376814,
+        "blocksBroken": 20093,
         "blocksPlaced": 7852,
         "deepestY": 1,
-        "lastSeen": 1786307731,
+        "lastSeen": 1786307889,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2721,9 +2721,9 @@
         "class": "mason",
         "deaths": 2,
         "mobKills": 274,
-        "mealsEaten": 265,
-        "caloriesConsumed": 84288,
-        "lastMeal": "Syrup-covered fruit bread",
+        "mealsEaten": 269,
+        "caloriesConsumed": 84608,
+        "lastMeal": "Green grapes",
         "mealsByName": {
           "Cranberry": 19,
           "Meat pie": 20,
@@ -2744,7 +2744,7 @@
           "Blackberry pie": 18,
           "Rice grain": 7,
           "Earthy orange ceramic bowl of jam": 1,
-          "Green grapes": 11,
+          "Green grapes": 15,
           "Vintage Beef": 1,
           "Blackcurrant pie": 4,
           "Blueberry pie": 12,
@@ -2762,7 +2762,7 @@
           "Paddy straw": 1
         },
         "foodCatCounts": {
-          "Fruit": 125,
+          "Fruit": 129,
           "Grain": 135,
           "Protein": 115,
           "Vegetable": 87,
@@ -2773,11 +2773,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 515.7,
-        "blocksTravelled": 282567,
-        "blocksBroken": 11511,
+        "blocksTravelled": 283037,
+        "blocksBroken": 11529,
         "blocksPlaced": 7467,
         "deepestY": 12,
-        "lastSeen": 1786307731,
+        "lastSeen": 1786307889,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
