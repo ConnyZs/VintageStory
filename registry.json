@@ -1,5 +1,5 @@
 {
-  "generated": "20260809-221412",
+  "generated": "20260809-221612",
   "game_version": "1.22.5",
   "check_ts": "20260807-200052",
   "latest_engine": "1.22.6",
@@ -2483,7 +2483,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 634,
+        "mobKills": 640,
         "mealsEaten": 762,
         "caloriesConsumed": 123428,
         "lastMeal": "Beautyberry",
@@ -2571,11 +2571,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 416.4,
-        "blocksTravelled": 373280,
+        "blocksTravelled": 373600,
         "blocksBroken": 20040,
         "blocksPlaced": 7833,
         "deepestY": 1,
-        "lastSeen": 1786306410,
+        "lastSeen": 1786306530,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2720,7 +2720,7 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 1,
-        "mobKills": 273,
+        "mobKills": 274,
         "mealsEaten": 264,
         "caloriesConsumed": 83693,
         "lastMeal": "Paddy straw",
@@ -2772,11 +2772,11 @@
           "shiver-corrupt": 1
         },
         "playtimeHours": 515.3,
-        "blocksTravelled": 279952,
-        "blocksBroken": 11457,
+        "blocksTravelled": 280233,
+        "blocksBroken": 11458,
         "blocksPlaced": 7451,
         "deepestY": 12,
-        "lastSeen": 1786306410,
+        "lastSeen": 1786306530,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
