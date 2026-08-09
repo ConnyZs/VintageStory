@@ -1,5 +1,5 @@
 {
-  "generated": "20260809-231016",
+  "generated": "20260809-231216",
   "game_version": "1.22.5",
   "check_ts": "20260807-200052",
   "latest_engine": "1.22.6",
@@ -2483,10 +2483,10 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 641,
-        "mealsEaten": 855,
-        "caloriesConsumed": 130868,
-        "lastMeal": "Redcurrant",
+        "mobKills": 642,
+        "mealsEaten": 858,
+        "caloriesConsumed": 131108,
+        "lastMeal": "King bolete",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
@@ -2523,7 +2523,7 @@
           "Violet web cap": 2,
           "Liberty cap": 1,
           "Green grapes": 53,
-          "King bolete": 2,
+          "King bolete": 4,
           "Chicken of the woods": 2,
           "Fennel": 12,
           "Gold-drop milkcap": 1,
@@ -2552,12 +2552,13 @@
           "Syrup-covered fruit bread": 18,
           "Black ceramic jug": 1,
           "Beautyberry": 75,
-          "Amaranth grain": 5
+          "Amaranth grain": 5,
+          "Reishi": 1
         },
         "foodCatCounts": {
           "Grain": 215,
           "Protein": 102,
-          "Vegetable": 193,
+          "Vegetable": 196,
           "Fruit": 553,
           "Dairy": 40
         },
@@ -2570,12 +2571,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 417.3,
-        "blocksTravelled": 381248,
-        "blocksBroken": 20169,
+        "playtimeHours": 417.4,
+        "blocksTravelled": 381633,
+        "blocksBroken": 20175,
         "blocksPlaced": 7858,
         "deepestY": 1,
-        "lastSeen": 1786309773,
+        "lastSeen": 1786309893,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2720,10 +2721,10 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 2,
-        "mobKills": 276,
-        "mealsEaten": 269,
-        "caloriesConsumed": 84608,
-        "lastMeal": "Green grapes",
+        "mobKills": 282,
+        "mealsEaten": 273,
+        "caloriesConsumed": 84928,
+        "lastMeal": "King bolete",
         "mealsByName": {
           "Cranberry": 19,
           "Meat pie": 20,
@@ -2740,7 +2741,7 @@
           "Redcurrant": 5,
           "Pear pie": 1,
           "Cooked dumplings": 11,
-          "Strawberry": 1,
+          "Strawberry": 3,
           "Blackberry pie": 18,
           "Rice grain": 7,
           "Earthy orange ceramic bowl of jam": 1,
@@ -2759,25 +2760,27 @@
           "Deer ear": 1,
           "Beautyberry": 3,
           "Onion": 4,
-          "Paddy straw": 1
+          "Paddy straw": 1,
+          "Reishi": 1,
+          "King bolete": 1
         },
         "foodCatCounts": {
-          "Fruit": 129,
+          "Fruit": 131,
           "Grain": 135,
           "Protein": 115,
-          "Vegetable": 87,
+          "Vegetable": 89,
           "Dairy": 37
         },
         "deathCauses": {
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 516.2,
-        "blocksTravelled": 287886,
-        "blocksBroken": 11623,
+        "playtimeHours": 516.3,
+        "blocksTravelled": 288266,
+        "blocksBroken": 11669,
         "blocksPlaced": 7487,
         "deepestY": 12,
-        "lastSeen": 1786309773,
+        "lastSeen": 1786309893,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
