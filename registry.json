@@ -1,5 +1,5 @@
 {
-  "generated": "20260809-221011",
+  "generated": "20260809-221211",
   "game_version": "1.22.5",
   "check_ts": "20260807-200052",
   "latest_engine": "1.22.6",
@@ -2483,7 +2483,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 633,
+        "mobKills": 634,
         "mealsEaten": 761,
         "caloriesConsumed": 123348,
         "lastMeal": "Blackcurrant",
@@ -2570,12 +2570,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 416.3,
-        "blocksTravelled": 372786,
-        "blocksBroken": 20000,
-        "blocksPlaced": 7815,
+        "playtimeHours": 416.4,
+        "blocksTravelled": 372941,
+        "blocksBroken": 20037,
+        "blocksPlaced": 7826,
         "deepestY": 1,
-        "lastSeen": 1786306170,
+        "lastSeen": 1786306290,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2721,9 +2721,9 @@
         "class": "mason",
         "deaths": 1,
         "mobKills": 273,
-        "mealsEaten": 263,
-        "caloriesConsumed": 83613,
-        "lastMeal": "Onion",
+        "mealsEaten": 264,
+        "caloriesConsumed": 83693,
+        "lastMeal": "Paddy straw",
         "mealsByName": {
           "Cranberry": 19,
           "Meat pie": 20,
@@ -2758,24 +2758,25 @@
           "Dryad saddle": 1,
           "Deer ear": 1,
           "Beautyberry": 3,
-          "Onion": 4
+          "Onion": 4,
+          "Paddy straw": 1
         },
         "foodCatCounts": {
           "Fruit": 124,
           "Grain": 134,
           "Protein": 115,
-          "Vegetable": 86,
+          "Vegetable": 87,
           "Dairy": 36
         },
         "deathCauses": {
           "shiver-corrupt": 1
         },
-        "playtimeHours": 515.2,
-        "blocksTravelled": 279106,
-        "blocksBroken": 11456,
+        "playtimeHours": 515.3,
+        "blocksTravelled": 279439,
+        "blocksBroken": 11457,
         "blocksPlaced": 7451,
         "deepestY": 12,
-        "lastSeen": 1786306170,
+        "lastSeen": 1786306290,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
