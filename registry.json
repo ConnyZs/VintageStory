@@ -1,5 +1,5 @@
 {
-  "generated": "20260810-213636",
+  "generated": "20260810-213836",
   "game_version": "1.22.5",
   "check_ts": "20260810-200058",
   "latest_engine": "1.22.6",
@@ -2343,11 +2343,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 198.7,
-        "blocksTravelled": 89629,
+        "blocksTravelled": 89638,
         "blocksBroken": 1409,
         "blocksPlaced": 947,
         "deepestY": 54,
-        "lastSeen": 1786390589,
+        "lastSeen": 1786390688,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2575,11 +2575,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 421.2,
-        "blocksTravelled": 401383,
-        "blocksBroken": 20516,
-        "blocksPlaced": 7987,
+        "blocksTravelled": 401625,
+        "blocksBroken": 20521,
+        "blocksPlaced": 7988,
         "deepestY": 1,
-        "lastSeen": 1786390589,
+        "lastSeen": 1786390688,
         "gear": [
           "Emerald reindeer herder hat",
           "Rotwalker cape",
@@ -2590,7 +2590,7 @@
           "Rotten king collar",
           "Prince emblem",
           "Sheep skull mask",
-          "Heavy tool belt",
+          "Forlorn Hope belt",
           "Leather bracers",
           "Fur coat",
           "Black bear hide helmet",
@@ -2649,9 +2649,9 @@
           },
           {
             "slot": "waist",
-            "code": "game:clothes-waist-heavy-tool-belt",
-            "name": "Heavy tool belt",
-            "icon": "character/icons/waist-heavy-tool-belt.png"
+            "code": "game:clothes-waist-forlorn-belt",
+            "name": "Forlorn Hope belt",
+            "icon": "character/icons/waist-forlorn-belt.png"
           },
           {
             "slot": "arm",
@@ -2723,8 +2723,8 @@
         "class": "mason",
         "deaths": 2,
         "mobKills": 314,
-        "mealsEaten": 379,
-        "caloriesConsumed": 96773,
+        "mealsEaten": 380,
+        "caloriesConsumed": 97248,
         "lastMeal": "Syrup-covered fruit bread",
         "mealsByName": {
           "Cranberry": 19,
@@ -2738,7 +2738,7 @@
           "Rye bread": 3,
           "Leather-bound Oak Tankard": 2,
           "Syrup-covered muffin": 8,
-          "Syrup-covered fruit bread": 16,
+          "Syrup-covered fruit bread": 17,
           "Redcurrant": 27,
           "Pear pie": 1,
           "Cooked dumplings": 11,
@@ -2769,22 +2769,22 @@
           "Blueberry": 8
         },
         "foodCatCounts": {
-          "Fruit": 231,
-          "Grain": 142,
+          "Fruit": 232,
+          "Grain": 143,
           "Protein": 115,
           "Vegetable": 95,
-          "Dairy": 44
+          "Dairy": 45
         },
         "deathCauses": {
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 538.7,
-        "blocksTravelled": 320645,
-        "blocksBroken": 12683,
+        "blocksTravelled": 320965,
+        "blocksBroken": 12696,
         "blocksPlaced": 7891,
         "deepestY": 12,
-        "lastSeen": 1786390589,
+        "lastSeen": 1786390688,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",

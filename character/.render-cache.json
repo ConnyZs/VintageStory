@@ -77,7 +77,7 @@
   }
  },
  "AddyBuschu": {
-  "hash": "6cbedbbcded4f4fd29c1b65b894620bc008f7f9f",
+  "hash": "f40432b9a96b64fd9cd8677d2dc1258a9bcdff6e",
   "info": {
    "class": "homesteader",
    "items": [
@@ -95,13 +95,13 @@
     "Rotten king collar",
     "Prince emblem",
     "Sheep skull mask",
-    "Heavy tool belt",
+    "Forlorn Hope belt",
     "Leather bracers",
     "Fur coat",
     "Fur coat"
    ],
    "frames": 16,
-   "v": 1786389895
+   "v": 1786390736
   }
  },
  "Barberschascher": {
