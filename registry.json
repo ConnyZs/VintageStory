@@ -1,5 +1,5 @@
 {
-  "generated": "20260810-205833",
+  "generated": "20260810-210033",
   "game_version": "1.22.5",
   "check_ts": "20260810-200058",
   "latest_engine": "1.22.6",
@@ -2309,8 +2309,8 @@
         "class": "smith",
         "deaths": 2,
         "mobKills": 61,
-        "mealsEaten": 74,
-        "caloriesConsumed": 30988,
+        "mealsEaten": 75,
+        "caloriesConsumed": 31608,
         "lastMeal": "Redcurrant pie",
         "mealsByName": {
           "Earthy orange ceramic bowl of meat stew": 17,
@@ -2324,7 +2324,7 @@
           "Blackcurrant pie": 2,
           "Blueberry pie": 3,
           "Fruit pie": 5,
-          "Redcurrant pie": 5,
+          "Redcurrant pie": 6,
           "Syrup-covered fruit bread": 4,
           "Red grapes": 7,
           "Black ceramic jug": 1,
@@ -2333,20 +2333,20 @@
         "foodCatCounts": {
           "Protein": 37,
           "Vegetable": 18,
-          "Grain": 39,
-          "Fruit": 46,
+          "Grain": 40,
+          "Fruit": 47,
           "Dairy": 17
         },
         "deathCauses": {
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 198.0,
-        "blocksTravelled": 88664,
+        "playtimeHours": 198.1,
+        "blocksTravelled": 88674,
         "blocksBroken": 1405,
         "blocksPlaced": 945,
         "deepestY": 54,
-        "lastSeen": 1786388286,
+        "lastSeen": 1786388406,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2573,11 +2573,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 420.6,
-        "blocksTravelled": 398395,
-        "blocksBroken": 20395,
-        "blocksPlaced": 7897,
+        "blocksTravelled": 398491,
+        "blocksBroken": 20399,
+        "blocksPlaced": 7898,
         "deepestY": 1,
-        "lastSeen": 1786388286,
+        "lastSeen": 1786388406,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2723,9 +2723,9 @@
         "class": "mason",
         "deaths": 2,
         "mobKills": 299,
-        "mealsEaten": 363,
-        "caloriesConsumed": 92763,
-        "lastMeal": "Green grapes",
+        "mealsEaten": 364,
+        "caloriesConsumed": 93358,
+        "lastMeal": "Syrup-covered fruit bread",
         "mealsByName": {
           "Cranberry": 19,
           "Meat pie": 20,
@@ -2738,7 +2738,7 @@
           "Rye bread": 3,
           "Leather-bound Oak Tankard": 2,
           "Syrup-covered muffin": 8,
-          "Syrup-covered fruit bread": 10,
+          "Syrup-covered fruit bread": 11,
           "Redcurrant": 27,
           "Pear pie": 1,
           "Cooked dumplings": 11,
@@ -2769,22 +2769,22 @@
           "Blueberry": 8
         },
         "foodCatCounts": {
-          "Fruit": 215,
-          "Grain": 136,
+          "Fruit": 216,
+          "Grain": 137,
           "Protein": 115,
           "Vegetable": 95,
-          "Dairy": 38
+          "Dairy": 39
         },
         "deathCauses": {
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 538.0,
-        "blocksTravelled": 317687,
+        "playtimeHours": 538.1,
+        "blocksTravelled": 318270,
         "blocksBroken": 12539,
         "blocksPlaced": 7838,
         "deepestY": 12,
-        "lastSeen": 1786388286,
+        "lastSeen": 1786388406,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
