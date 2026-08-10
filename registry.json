@@ -1,5 +1,5 @@
 {
-  "generated": "20260810-204232",
+  "generated": "20260810-204432",
   "game_version": "1.22.5",
   "check_ts": "20260810-200058",
   "latest_engine": "1.22.6",
@@ -2342,11 +2342,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 197.8,
-        "blocksTravelled": 88085,
+        "blocksTravelled": 88141,
         "blocksBroken": 1388,
         "blocksPlaced": 937,
         "deepestY": 54,
-        "lastSeen": 1786387325,
+        "lastSeen": 1786387445,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2358,9 +2358,6 @@
           "Leather bracers",
           "Fur coat",
           "Tailored gambeson body armor",
-          "Blackguard helm",
-          "Blackguard cuirass",
-          "Blackguard greaves",
           "Weapon sling",
           "Bags belt",
           "Ammo pouch"
@@ -2425,21 +2422,6 @@
             "name": "Tailored gambeson body armor"
           },
           {
-            "slot": "armorhead",
-            "code": "game:armor-head-antique-blackguard-pristine",
-            "name": "Blackguard helm"
-          },
-          {
-            "slot": "armorbody",
-            "code": "game:armor-body-antique-blackguard-pristine",
-            "name": "Blackguard cuirass"
-          },
-          {
-            "slot": "armorlegs",
-            "code": "game:armor-legs-antique-blackguard-pristine",
-            "name": "Blackguard greaves"
-          },
-          {
             "slot": "",
             "code": "quiversandsheaths:shoulderbag-rightleftfront-sling-firearms",
             "name": "Weapon sling"
@@ -2501,9 +2483,9 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 645,
-        "mealsEaten": 1068,
-        "caloriesConsumed": 149418,
+        "mobKills": 646,
+        "mealsEaten": 1071,
+        "caloriesConsumed": 149658,
         "lastMeal": "Redcurrant",
         "mealsByName": {
           "Meat pie": 45,
@@ -2519,7 +2501,7 @@
           "Pear pie": 4,
           "Cooked dumplings": 7,
           "Almond mushroom": 1,
-          "Redcurrant": 167,
+          "Redcurrant": 170,
           "Carrot": 7,
           "Field mushroom": 1,
           "Turnip": 8,
@@ -2578,7 +2560,7 @@
           "Grain": 220,
           "Protein": 103,
           "Vegetable": 207,
-          "Fruit": 751,
+          "Fruit": 754,
           "Dairy": 44
         },
         "deathCauses": {
@@ -2591,11 +2573,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 420.3,
-        "blocksTravelled": 397488,
-        "blocksBroken": 20360,
+        "blocksTravelled": 397602,
+        "blocksBroken": 20381,
         "blocksPlaced": 7893,
         "deepestY": 1,
-        "lastSeen": 1786387325,
+        "lastSeen": 1786387445,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2741,9 +2723,9 @@
         "class": "mason",
         "deaths": 2,
         "mobKills": 298,
-        "mealsEaten": 350,
-        "caloriesConsumed": 91723,
-        "lastMeal": "Syrup-covered fruit bread",
+        "mealsEaten": 356,
+        "caloriesConsumed": 92203,
+        "lastMeal": "Blueberry",
         "mealsByName": {
           "Cranberry": 19,
           "Meat pie": 20,
@@ -2784,10 +2766,10 @@
           "King bolete": 1,
           "Blackcurrant": 11,
           "Blackberry": 3,
-          "Blueberry": 2
+          "Blueberry": 8
         },
         "foodCatCounts": {
-          "Fruit": 202,
+          "Fruit": 208,
           "Grain": 136,
           "Protein": 115,
           "Vegetable": 95,
@@ -2798,11 +2780,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 537.8,
-        "blocksTravelled": 315699,
+        "blocksTravelled": 316012,
         "blocksBroken": 12499,
-        "blocksPlaced": 7810,
+        "blocksPlaced": 7811,
         "deepestY": 12,
-        "lastSeen": 1786387325,
+        "lastSeen": 1786387445,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
