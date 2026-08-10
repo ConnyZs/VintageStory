@@ -1,5 +1,5 @@
 {
-  "generated": "20260810-223040",
+  "generated": "20260810-223240",
   "game_version": "1.22.5",
   "check_ts": "20260810-200058",
   "latest_engine": "1.22.6",
@@ -2301,7 +2301,7 @@
       "name": "Eghetti",
       "role": "admin",
       "first_join": "04/22/2026 18:03",
-      "last_join": "08/10/2026 19:57",
+      "last_join": "08/10/2026 20:30",
       "last_char": "04/22/2026 18:08",
       "stats": {
         "uid": "TxqQ4g4qqKs+G5yFUTFmyGYb",
@@ -2343,11 +2343,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 199.6,
-        "blocksTravelled": 90885,
+        "blocksTravelled": 91037,
         "blocksBroken": 1422,
         "blocksPlaced": 964,
         "deepestY": 54,
-        "lastSeen": 1786393834,
+        "lastSeen": 1786393930,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2485,9 +2485,9 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 680,
-        "mealsEaten": 1234,
-        "caloriesConsumed": 169824,
-        "lastMeal": "Syrup-covered muffin",
+        "mealsEaten": 1235,
+        "caloriesConsumed": 169884,
+        "lastMeal": "Saguaro fruit",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
@@ -2557,13 +2557,14 @@
           "Reishi": 1,
           "Wavy cap": 1,
           "Lump of rendered fat": 1,
-          "Termites": 7
+          "Termites": 7,
+          "Saguaro fruit": 1
         },
         "foodCatCounts": {
           "Grain": 251,
           "Protein": 123,
           "Vegetable": 209,
-          "Fruit": 888,
+          "Fruit": 889,
           "Dairy": 56
         },
         "deathCauses": {
@@ -2576,11 +2577,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 422.1,
-        "blocksTravelled": 406915,
-        "blocksBroken": 20883,
+        "blocksTravelled": 407099,
+        "blocksBroken": 20890,
         "blocksPlaced": 8015,
         "deepestY": 1,
-        "lastSeen": 1786393810,
+        "lastSeen": 1786393930,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2783,11 +2784,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 539.6,
-        "blocksTravelled": 326983,
-        "blocksBroken": 13070,
+        "blocksTravelled": 327262,
+        "blocksBroken": 13072,
         "blocksPlaced": 7899,
         "deepestY": 12,
-        "lastSeen": 1786393810,
+        "lastSeen": 1786393930,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
