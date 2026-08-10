@@ -1,5 +1,5 @@
 {
-  "generated": "20260810-205032",
+  "generated": "20260810-205233",
   "game_version": "1.22.5",
   "check_ts": "20260810-200058",
   "latest_engine": "1.22.6",
@@ -2342,11 +2342,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 197.9,
-        "blocksTravelled": 88599,
+        "blocksTravelled": 88656,
         "blocksBroken": 1405,
         "blocksPlaced": 945,
         "deepestY": 54,
-        "lastSeen": 1786387806,
+        "lastSeen": 1786387926,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2572,12 +2572,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 420.4,
-        "blocksTravelled": 398066,
-        "blocksBroken": 20386,
-        "blocksPlaced": 7894,
+        "playtimeHours": 420.5,
+        "blocksTravelled": 398143,
+        "blocksBroken": 20393,
+        "blocksPlaced": 7896,
         "deepestY": 1,
-        "lastSeen": 1786387806,
+        "lastSeen": 1786387926,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2722,7 +2722,7 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 2,
-        "mobKills": 298,
+        "mobKills": 299,
         "mealsEaten": 363,
         "caloriesConsumed": 92763,
         "lastMeal": "Green grapes",
@@ -2780,11 +2780,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 537.9,
-        "blocksTravelled": 316550,
-        "blocksBroken": 12507,
-        "blocksPlaced": 7812,
+        "blocksTravelled": 316759,
+        "blocksBroken": 12509,
+        "blocksPlaced": 7813,
         "deepestY": 12,
-        "lastSeen": 1786387806,
+        "lastSeen": 1786387926,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
