@@ -1,5 +1,5 @@
 {
-  "generated": "20260810-214637",
+  "generated": "20260810-214837",
   "game_version": "1.22.5",
   "check_ts": "20260810-200058",
   "latest_engine": "1.22.6",
@@ -2342,12 +2342,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 198.8,
+        "playtimeHours": 198.9,
         "blocksTravelled": 89834,
         "blocksBroken": 1409,
         "blocksPlaced": 949,
         "deepestY": 54,
-        "lastSeen": 1786391194,
+        "lastSeen": 1786391288,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2484,7 +2484,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 655,
+        "mobKills": 656,
         "mealsEaten": 1192,
         "caloriesConsumed": 162994,
         "lastMeal": "Redcurrant",
@@ -2575,13 +2575,13 @@
           "shiver-surface": 1
         },
         "playtimeHours": 421.4,
-        "blocksTravelled": 403090,
-        "blocksBroken": 20564,
+        "blocksTravelled": 403129,
+        "blocksBroken": 20601,
         "blocksPlaced": 7988,
         "deepestY": 1,
-        "lastSeen": 1786391194,
+        "lastSeen": 1786391288,
         "gear": [
-          "Emerald reindeer herder hat",
+          "Bamboo cone hat (large)",
           "Rotwalker cape",
           "Tattered crimson tunic",
           "Marketeer pants",
@@ -2599,8 +2599,9 @@
         "gearDetail": [
           {
             "slot": "head",
-            "code": "game:clothes-head-emeraldreindeerherder",
-            "name": "Emerald reindeer herder hat"
+            "code": "game:clothes-head-bamboo-conehat-large",
+            "name": "Bamboo cone hat (large)",
+            "icon": "character/icons/head-bamboo-conehat-large.png"
           },
           {
             "slot": "shoulder",
@@ -2779,12 +2780,12 @@
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 538.8,
-        "blocksTravelled": 322627,
-        "blocksBroken": 12719,
-        "blocksPlaced": 7891,
+        "playtimeHours": 538.9,
+        "blocksTravelled": 322731,
+        "blocksBroken": 12737,
+        "blocksPlaced": 7892,
         "deepestY": 12,
-        "lastSeen": 1786391194,
+        "lastSeen": 1786391288,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
