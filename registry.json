@@ -1,5 +1,5 @@
 {
-  "generated": "20260810-223640",
+  "generated": "20260810-223841",
   "game_version": "1.22.5",
   "check_ts": "20260810-200058",
   "latest_engine": "1.22.6",
@@ -2309,8 +2309,8 @@
         "class": "smith",
         "deaths": 2,
         "mobKills": 61,
-        "mealsEaten": 81,
-        "caloriesConsumed": 35000,
+        "mealsEaten": 82,
+        "caloriesConsumed": 35620,
         "lastMeal": "Blackcurrant pie",
         "mealsByName": {
           "Earthy orange ceramic bowl of meat stew": 17,
@@ -2321,7 +2321,7 @@
           "Leather-bound Oak Tankard": 2,
           "Rye bread": 1,
           "Syrup-covered muffin": 11,
-          "Blackcurrant pie": 4,
+          "Blackcurrant pie": 5,
           "Blueberry pie": 3,
           "Fruit pie": 5,
           "Redcurrant pie": 6,
@@ -2334,20 +2334,20 @@
         "foodCatCounts": {
           "Protein": 37,
           "Vegetable": 18,
-          "Grain": 46,
-          "Fruit": 53,
+          "Grain": 47,
+          "Fruit": 54,
           "Dairy": 17
         },
         "deathCauses": {
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 199.6,
-        "blocksTravelled": 91148,
+        "playtimeHours": 199.7,
+        "blocksTravelled": 91363,
         "blocksBroken": 1422,
         "blocksPlaced": 964,
         "deepestY": 54,
-        "lastSeen": 1786394170,
+        "lastSeen": 1786394290,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2485,8 +2485,8 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 680,
-        "mealsEaten": 1252,
-        "caloriesConsumed": 170984,
+        "mealsEaten": 1260,
+        "caloriesConsumed": 171624,
         "lastMeal": "Red grapes",
         "mealsByName": {
           "Meat pie": 45,
@@ -2528,7 +2528,7 @@
           "Chicken of the woods": 2,
           "Fennel": 20,
           "Gold-drop milkcap": 1,
-          "Red grapes": 61,
+          "Red grapes": 69,
           "Whitecurrant": 7,
           "Bearded tooth": 5,
           "Rice grain": 13,
@@ -2564,7 +2564,7 @@
           "Grain": 251,
           "Protein": 131,
           "Vegetable": 209,
-          "Fruit": 898,
+          "Fruit": 906,
           "Dairy": 56
         },
         "deathCauses": {
@@ -2577,11 +2577,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 422.2,
-        "blocksTravelled": 407768,
+        "blocksTravelled": 408157,
         "blocksBroken": 20902,
         "blocksPlaced": 8015,
         "deepestY": 1,
-        "lastSeen": 1786394170,
+        "lastSeen": 1786394290,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2726,9 +2726,9 @@
         "class": "mason",
         "deaths": 2,
         "mobKills": 334,
-        "mealsEaten": 404,
-        "caloriesConsumed": 104313,
-        "lastMeal": "Saguaro fruit",
+        "mealsEaten": 405,
+        "caloriesConsumed": 104908,
+        "lastMeal": "Syrup-covered fruit bread",
         "mealsByName": {
           "Cranberry": 19,
           "Meat pie": 20,
@@ -2741,7 +2741,7 @@
           "Rye bread": 3,
           "Leather-bound Oak Tankard": 2,
           "Syrup-covered muffin": 8,
-          "Syrup-covered fruit bread": 28,
+          "Syrup-covered fruit bread": 29,
           "Redcurrant": 32,
           "Pear pie": 1,
           "Cooked dumplings": 11,
@@ -2774,22 +2774,22 @@
           "Saguaro fruit": 1
         },
         "foodCatCounts": {
-          "Fruit": 249,
-          "Grain": 154,
+          "Fruit": 250,
+          "Grain": 155,
           "Protein": 122,
           "Vegetable": 95,
-          "Dairy": 56
+          "Dairy": 57
         },
         "deathCauses": {
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 539.7,
-        "blocksTravelled": 328145,
-        "blocksBroken": 13072,
+        "blocksTravelled": 328496,
+        "blocksBroken": 13076,
         "blocksPlaced": 7899,
         "deepestY": 12,
-        "lastSeen": 1786394170,
+        "lastSeen": 1786394290,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
