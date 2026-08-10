@@ -1,5 +1,5 @@
 {
-  "generated": "20260810-211434",
+  "generated": "20260810-211634",
   "game_version": "1.22.5",
   "check_ts": "20260810-200058",
   "latest_engine": "1.22.6",
@@ -2342,11 +2342,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 198.3,
-        "blocksTravelled": 88990,
+        "blocksTravelled": 89000,
         "blocksBroken": 1405,
         "blocksPlaced": 945,
         "deepestY": 54,
-        "lastSeen": 1786389247,
+        "lastSeen": 1786389380,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2483,10 +2483,10 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 646,
-        "mealsEaten": 1154,
-        "caloriesConsumed": 156803,
-        "lastMeal": "Beautyberry",
+        "mobKills": 652,
+        "mealsEaten": 1157,
+        "caloriesConsumed": 157688,
+        "lastMeal": "Syrup-covered muffin",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
@@ -2495,7 +2495,7 @@
           "Pear pie (charred)": 1,
           "Rye bread": 8,
           "Leather-bound Oak Tankard": 1,
-          "Syrup-covered muffin": 3,
+          "Syrup-covered muffin": 4,
           "Cranberry": 45,
           "Blackcurrant": 98,
           "Pear pie": 4,
@@ -2551,17 +2551,17 @@
           "Redcurrant pie": 4,
           "Syrup-covered fruit bread": 21,
           "Black ceramic jug": 1,
-          "Beautyberry": 213,
+          "Beautyberry": 215,
           "Amaranth grain": 6,
           "Reishi": 1,
           "Wavy cap": 1
         },
         "foodCatCounts": {
-          "Grain": 221,
-          "Protein": 104,
+          "Grain": 222,
+          "Protein": 105,
           "Vegetable": 207,
-          "Fruit": 837,
-          "Dairy": 45
+          "Fruit": 840,
+          "Dairy": 46
         },
         "deathCauses": {
           "bear-brown-adult-female": 2,
@@ -2572,12 +2572,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 420.8,
-        "blocksTravelled": 399464,
+        "playtimeHours": 420.9,
+        "blocksTravelled": 399623,
         "blocksBroken": 20456,
-        "blocksPlaced": 7928,
+        "blocksPlaced": 7942,
         "deepestY": 1,
-        "lastSeen": 1786389247,
+        "lastSeen": 1786389380,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2722,9 +2722,9 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 2,
-        "mobKills": 309,
-        "mealsEaten": 365,
-        "caloriesConsumed": 93953,
+        "mobKills": 312,
+        "mealsEaten": 366,
+        "caloriesConsumed": 94548,
         "lastMeal": "Syrup-covered fruit bread",
         "mealsByName": {
           "Cranberry": 19,
@@ -2738,7 +2738,7 @@
           "Rye bread": 3,
           "Leather-bound Oak Tankard": 2,
           "Syrup-covered muffin": 8,
-          "Syrup-covered fruit bread": 12,
+          "Syrup-covered fruit bread": 13,
           "Redcurrant": 27,
           "Pear pie": 1,
           "Cooked dumplings": 11,
@@ -2769,22 +2769,22 @@
           "Blueberry": 8
         },
         "foodCatCounts": {
-          "Fruit": 217,
-          "Grain": 138,
+          "Fruit": 218,
+          "Grain": 139,
           "Protein": 115,
           "Vegetable": 95,
-          "Dairy": 40
+          "Dairy": 41
         },
         "deathCauses": {
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 538.3,
-        "blocksTravelled": 318758,
-        "blocksBroken": 12583,
-        "blocksPlaced": 7838,
+        "blocksTravelled": 318900,
+        "blocksBroken": 12585,
+        "blocksPlaced": 7839,
         "deepestY": 12,
-        "lastSeen": 1786389247,
+        "lastSeen": 1786389380,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
