@@ -1,5 +1,5 @@
 {
-  "generated": "20260810-232044",
+  "generated": "20260810-232244",
   "game_version": "1.22.5",
   "check_ts": "20260810-200058",
   "latest_engine": "1.22.6",
@@ -2343,11 +2343,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 200.4,
-        "blocksTravelled": 93097,
-        "blocksBroken": 1704,
-        "blocksPlaced": 1149,
+        "blocksTravelled": 93106,
+        "blocksBroken": 1708,
+        "blocksPlaced": 1156,
         "deepestY": 54,
-        "lastSeen": 1786396812,
+        "lastSeen": 1786396932,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2577,12 +2577,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 422.9,
-        "blocksTravelled": 416497,
+        "playtimeHours": 423.0,
+        "blocksTravelled": 417118,
         "blocksBroken": 21211,
         "blocksPlaced": 8024,
         "deepestY": 1,
-        "lastSeen": 1786396812,
+        "lastSeen": 1786396932,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2727,8 +2727,8 @@
         "class": "mason",
         "deaths": 2,
         "mobKills": 334,
-        "mealsEaten": 433,
-        "caloriesConsumed": 110633,
+        "mealsEaten": 434,
+        "caloriesConsumed": 111228,
         "lastMeal": "Syrup-covered fruit bread",
         "mealsByName": {
           "Cranberry": 25,
@@ -2742,7 +2742,7 @@
           "Rye bread": 3,
           "Leather-bound Oak Tankard": 2,
           "Syrup-covered muffin": 8,
-          "Syrup-covered fruit bread": 36,
+          "Syrup-covered fruit bread": 37,
           "Redcurrant": 43,
           "Pear pie": 1,
           "Cooked dumplings": 11,
@@ -2776,22 +2776,22 @@
           "Wavy cap": 4
         },
         "foodCatCounts": {
-          "Fruit": 274,
-          "Grain": 162,
+          "Fruit": 275,
+          "Grain": 163,
           "Protein": 122,
           "Vegetable": 99,
-          "Dairy": 64
+          "Dairy": 65
         },
         "deathCauses": {
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 540.4,
-        "blocksTravelled": 336762,
+        "blocksTravelled": 337376,
         "blocksBroken": 13261,
         "blocksPlaced": 7902,
         "deepestY": 12,
-        "lastSeen": 1786396812,
+        "lastSeen": 1786396932,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
