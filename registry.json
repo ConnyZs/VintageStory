@@ -1,5 +1,5 @@
 {
-  "generated": "20260810-223240",
+  "generated": "20260810-223440",
   "game_version": "1.22.5",
   "check_ts": "20260810-200058",
   "latest_engine": "1.22.6",
@@ -2343,11 +2343,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 199.6,
-        "blocksTravelled": 91037,
+        "blocksTravelled": 91100,
         "blocksBroken": 1422,
         "blocksPlaced": 964,
         "deepestY": 54,
-        "lastSeen": 1786393930,
+        "lastSeen": 1786394050,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2485,8 +2485,8 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 680,
-        "mealsEaten": 1235,
-        "caloriesConsumed": 169884,
+        "mealsEaten": 1247,
+        "caloriesConsumed": 170604,
         "lastMeal": "Saguaro fruit",
         "mealsByName": {
           "Meat pie": 45,
@@ -2557,14 +2557,14 @@
           "Reishi": 1,
           "Wavy cap": 1,
           "Lump of rendered fat": 1,
-          "Termites": 7,
-          "Saguaro fruit": 1
+          "Termites": 15,
+          "Saguaro fruit": 5
         },
         "foodCatCounts": {
           "Grain": 251,
-          "Protein": 123,
+          "Protein": 131,
           "Vegetable": 209,
-          "Fruit": 889,
+          "Fruit": 893,
           "Dairy": 56
         },
         "deathCauses": {
@@ -2576,12 +2576,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 422.1,
-        "blocksTravelled": 407099,
-        "blocksBroken": 20890,
+        "playtimeHours": 422.2,
+        "blocksTravelled": 407501,
+        "blocksBroken": 20894,
         "blocksPlaced": 8015,
         "deepestY": 1,
-        "lastSeen": 1786393930,
+        "lastSeen": 1786394050,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2726,9 +2726,9 @@
         "class": "mason",
         "deaths": 2,
         "mobKills": 334,
-        "mealsEaten": 403,
-        "caloriesConsumed": 104253,
-        "lastMeal": "Syrup-covered fruit bread",
+        "mealsEaten": 404,
+        "caloriesConsumed": 104313,
+        "lastMeal": "Saguaro fruit",
         "mealsByName": {
           "Cranberry": 19,
           "Meat pie": 20,
@@ -2770,10 +2770,11 @@
           "Blackcurrant": 11,
           "Blackberry": 3,
           "Blueberry": 8,
-          "Termites": 7
+          "Termites": 7,
+          "Saguaro fruit": 1
         },
         "foodCatCounts": {
-          "Fruit": 248,
+          "Fruit": 249,
           "Grain": 154,
           "Protein": 122,
           "Vegetable": 95,
@@ -2784,11 +2785,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 539.6,
-        "blocksTravelled": 327262,
+        "blocksTravelled": 327813,
         "blocksBroken": 13072,
         "blocksPlaced": 7899,
         "deepestY": 12,
-        "lastSeen": 1786393930,
+        "lastSeen": 1786394050,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
