@@ -1,5 +1,5 @@
 {
-  "generated": "20260810-210433",
+  "generated": "20260810-210634",
   "game_version": "1.22.5",
   "check_ts": "20260810-200058",
   "latest_engine": "1.22.6",
@@ -2341,12 +2341,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 198.1,
-        "blocksTravelled": 88687,
+        "playtimeHours": 198.2,
+        "blocksTravelled": 88693,
         "blocksBroken": 1405,
         "blocksPlaced": 945,
         "deepestY": 54,
-        "lastSeen": 1786388646,
+        "lastSeen": 1786388776,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2484,8 +2484,8 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 646,
-        "mealsEaten": 1097,
-        "caloriesConsumed": 151598,
+        "mealsEaten": 1100,
+        "caloriesConsumed": 151838,
         "lastMeal": "Beautyberry",
         "mealsByName": {
           "Meat pie": 45,
@@ -2551,7 +2551,7 @@
           "Redcurrant pie": 4,
           "Syrup-covered fruit bread": 21,
           "Black ceramic jug": 1,
-          "Beautyberry": 157,
+          "Beautyberry": 160,
           "Amaranth grain": 6,
           "Reishi": 1,
           "Wavy cap": 1
@@ -2560,7 +2560,7 @@
           "Grain": 220,
           "Protein": 103,
           "Vegetable": 207,
-          "Fruit": 780,
+          "Fruit": 783,
           "Dairy": 44
         },
         "deathCauses": {
@@ -2573,16 +2573,16 @@
           "shiver-surface": 1
         },
         "playtimeHours": 420.7,
-        "blocksTravelled": 398614,
+        "blocksTravelled": 398631,
         "blocksBroken": 20402,
-        "blocksPlaced": 7911,
+        "blocksPlaced": 7915,
         "deepestY": 1,
-        "lastSeen": 1786388646,
+        "lastSeen": 1786388776,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
           "Tattered crimson tunic",
-          "Rawhide trousers",
+          "Marketeer pants",
           "Rotten king shoes",
           "Survivor gloves",
           "Rotten king collar",
@@ -2615,9 +2615,9 @@
           },
           {
             "slot": "lowerbody",
-            "code": "game:clothes-lowerbody-raw-hide-trousers",
-            "name": "Rawhide trousers",
-            "icon": "character/icons/lowerbody-raw-hide-trousers.png"
+            "code": "game:clothes-lowerbody-marketeer",
+            "name": "Marketeer pants",
+            "icon": "character/icons/lowerbody-marketeer.png"
           },
           {
             "slot": "foot",
