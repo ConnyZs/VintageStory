@@ -1,5 +1,5 @@
 {
-  "generated": "20260810-193027",
+  "generated": "20260810-193227",
   "game_version": "1.22.5",
   "check_ts": "20260807-200052",
   "latest_engine": "1.22.6",
@@ -2301,7 +2301,7 @@
       "name": "Eghetti",
       "role": "admin",
       "first_join": "04/22/2026 18:03",
-      "last_join": "08/04/2026 20:00",
+      "last_join": "08/10/2026 17:28",
       "last_char": "04/22/2026 18:08",
       "stats": {
         "uid": "TxqQ4g4qqKs+G5yFUTFmyGYb",
@@ -2309,9 +2309,9 @@
         "class": "smith",
         "deaths": 2,
         "mobKills": 61,
-        "mealsEaten": 68,
-        "caloriesConsumed": 27946,
-        "lastMeal": "Syrup-covered muffin",
+        "mealsEaten": 69,
+        "caloriesConsumed": 28541,
+        "lastMeal": "Syrup-covered fruit bread",
         "mealsByName": {
           "Earthy orange ceramic bowl of meat stew": 17,
           "Meat pie": 5,
@@ -2325,7 +2325,7 @@
           "Blueberry pie": 3,
           "Fruit pie": 5,
           "Redcurrant pie": 1,
-          "Syrup-covered fruit bread": 2,
+          "Syrup-covered fruit bread": 3,
           "Red grapes": 7,
           "Black ceramic jug": 1,
           "Blueberry": 6
@@ -2333,20 +2333,20 @@
         "foodCatCounts": {
           "Protein": 37,
           "Vegetable": 18,
-          "Grain": 33,
-          "Fruit": 40,
-          "Dairy": 15
+          "Grain": 34,
+          "Fruit": 41,
+          "Dairy": 16
         },
         "deathCauses": {
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 196.6,
+        "playtimeHours": 196.7,
         "blocksTravelled": 86513,
         "blocksBroken": 1380,
         "blocksPlaced": 928,
         "deepestY": 54,
-        "lastSeen": 1786383002,
+        "lastSeen": 1786383122,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2476,7 +2476,7 @@
       "name": "AddyBuschu",
       "role": "admin",
       "first_join": "04/22/2026 17:55",
-      "last_join": "08/09/2026 19:42",
+      "last_join": "08/10/2026 17:28",
       "last_char": "04/25/2026 15:34",
       "stats": {
         "uid": "MT3maN90oN2gwGyklJR20Gu1",
@@ -2572,11 +2572,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 419.1,
-        "blocksTravelled": 388254,
+        "blocksTravelled": 388330,
         "blocksBroken": 20250,
-        "blocksPlaced": 7874,
+        "blocksPlaced": 7876,
         "deepestY": 1,
-        "lastSeen": 1786383002,
+        "lastSeen": 1786383122,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2776,11 +2776,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 536.6,
-        "blocksTravelled": 305877,
-        "blocksBroken": 12354,
-        "blocksPlaced": 7736,
+        "blocksTravelled": 305991,
+        "blocksBroken": 12399,
+        "blocksPlaced": 7743,
         "deepestY": 12,
-        "lastSeen": 1786383002,
+        "lastSeen": 1786383122,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
