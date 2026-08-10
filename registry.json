@@ -1,5 +1,5 @@
 {
-  "generated": "20260810-232644",
+  "generated": "20260810-232844",
   "game_version": "1.22.5",
   "check_ts": "20260810-200058",
   "latest_engine": "1.22.6",
@@ -2343,11 +2343,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 200.5,
-        "blocksTravelled": 93144,
+        "blocksTravelled": 93185,
         "blocksBroken": 1716,
-        "blocksPlaced": 1163,
+        "blocksPlaced": 1165,
         "deepestY": 54,
-        "lastSeen": 1786397172,
+        "lastSeen": 1786397292,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2485,9 +2485,9 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 688,
-        "mealsEaten": 1291,
-        "caloriesConsumed": 178859,
-        "lastMeal": "Onion",
+        "mealsEaten": 1294,
+        "caloriesConsumed": 179039,
+        "lastMeal": "Rye grain",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
@@ -2533,7 +2533,7 @@
           "Bearded tooth": 5,
           "Rice grain": 13,
           "Strawberry": 34,
-          "Rye grain": 11,
+          "Rye grain": 14,
           "Parsnip": 10,
           "Shiitake": 2,
           "Onion": 6,
@@ -2562,7 +2562,7 @@
           "Blue meanie": 2
         },
         "foodCatCounts": {
-          "Grain": 260,
+          "Grain": 263,
           "Protein": 131,
           "Vegetable": 217,
           "Fruit": 929,
@@ -2577,12 +2577,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 423.0,
-        "blocksTravelled": 418012,
-        "blocksBroken": 21216,
+        "playtimeHours": 423.1,
+        "blocksTravelled": 418515,
+        "blocksBroken": 21227,
         "blocksPlaced": 8024,
         "deepestY": 1,
-        "lastSeen": 1786397172,
+        "lastSeen": 1786397292,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2727,9 +2727,9 @@
         "class": "mason",
         "deaths": 2,
         "mobKills": 334,
-        "mealsEaten": 436,
-        "caloriesConsumed": 111388,
-        "lastMeal": "Reishi",
+        "mealsEaten": 439,
+        "caloriesConsumed": 111608,
+        "lastMeal": "Rye grain",
         "mealsByName": {
           "Cranberry": 25,
           "Meat pie": 20,
@@ -2773,13 +2773,15 @@
           "Blueberry": 8,
           "Termites": 7,
           "Saguaro fruit": 1,
-          "Wavy cap": 4
+          "Wavy cap": 4,
+          "Chanterelle": 2,
+          "Rye grain": 1
         },
         "foodCatCounts": {
           "Fruit": 275,
-          "Grain": 163,
+          "Grain": 164,
           "Protein": 122,
-          "Vegetable": 101,
+          "Vegetable": 103,
           "Dairy": 65
         },
         "deathCauses": {
@@ -2787,11 +2789,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 540.5,
-        "blocksTravelled": 338257,
+        "blocksTravelled": 338724,
         "blocksBroken": 13261,
-        "blocksPlaced": 7902,
+        "blocksPlaced": 7905,
         "deepestY": 12,
-        "lastSeen": 1786397172,
+        "lastSeen": 1786397292,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
