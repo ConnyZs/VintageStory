@@ -1,5 +1,5 @@
 {
-  "generated": "20260810-231043",
+  "generated": "20260810-231243",
   "game_version": "1.22.5",
   "check_ts": "20260810-200058",
   "latest_engine": "1.22.6",
@@ -2343,11 +2343,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 200.2,
-        "blocksTravelled": 92836,
-        "blocksBroken": 1552,
-        "blocksPlaced": 1010,
+        "blocksTravelled": 92916,
+        "blocksBroken": 1649,
+        "blocksPlaced": 1039,
         "deepestY": 54,
-        "lastSeen": 1786396212,
+        "lastSeen": 1786396332,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2485,8 +2485,8 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 682,
-        "mealsEaten": 1281,
-        "caloriesConsumed": 175879,
+        "mealsEaten": 1282,
+        "caloriesConsumed": 176474,
         "lastMeal": "Syrup-covered fruit bread",
         "mealsByName": {
           "Meat pie": 45,
@@ -2550,7 +2550,7 @@
           "Strawberry pie": 19,
           "Lump of raw fat": 2,
           "Redcurrant pie": 4,
-          "Syrup-covered fruit bread": 26,
+          "Syrup-covered fruit bread": 27,
           "Black ceramic jug": 1,
           "Beautyberry": 238,
           "Amaranth grain": 12,
@@ -2562,11 +2562,11 @@
           "Blue meanie": 2
         },
         "foodCatCounts": {
-          "Grain": 256,
+          "Grain": 257,
           "Protein": 131,
           "Vegetable": 211,
-          "Fruit": 925,
-          "Dairy": 61
+          "Fruit": 926,
+          "Dairy": 62
         },
         "deathCauses": {
           "bear-brown-adult-female": 2,
@@ -2578,11 +2578,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 422.8,
-        "blocksTravelled": 413801,
+        "blocksTravelled": 414428,
         "blocksBroken": 21183,
         "blocksPlaced": 8024,
         "deepestY": 1,
-        "lastSeen": 1786396212,
+        "lastSeen": 1786396332,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2786,12 +2786,12 @@
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 540.2,
-        "blocksTravelled": 334100,
+        "playtimeHours": 540.3,
+        "blocksTravelled": 334724,
         "blocksBroken": 13261,
         "blocksPlaced": 7902,
         "deepestY": 12,
-        "lastSeen": 1786396212,
+        "lastSeen": 1786396332,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
