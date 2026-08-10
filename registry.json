@@ -1,5 +1,5 @@
 {
-  "generated": "20260810-222239",
+  "generated": "20260810-222439",
   "game_version": "1.22.5",
   "check_ts": "20260810-200058",
   "latest_engine": "1.22.6",
@@ -2309,9 +2309,9 @@
         "class": "smith",
         "deaths": 2,
         "mobKills": 61,
-        "mealsEaten": 79,
-        "caloriesConsumed": 33760,
-        "lastMeal": "Blackberry pie",
+        "mealsEaten": 81,
+        "caloriesConsumed": 35000,
+        "lastMeal": "Blackcurrant pie",
         "mealsByName": {
           "Earthy orange ceramic bowl of meat stew": 17,
           "Meat pie": 5,
@@ -2321,7 +2321,7 @@
           "Leather-bound Oak Tankard": 2,
           "Rye bread": 1,
           "Syrup-covered muffin": 11,
-          "Blackcurrant pie": 2,
+          "Blackcurrant pie": 4,
           "Blueberry pie": 3,
           "Fruit pie": 5,
           "Redcurrant pie": 6,
@@ -2334,20 +2334,20 @@
         "foodCatCounts": {
           "Protein": 37,
           "Vegetable": 18,
-          "Grain": 44,
-          "Fruit": 51,
+          "Grain": 46,
+          "Fruit": 53,
           "Dairy": 17
         },
         "deathCauses": {
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 199.4,
-        "blocksTravelled": 90316,
+        "playtimeHours": 199.5,
+        "blocksTravelled": 90423,
         "blocksBroken": 1420,
-        "blocksPlaced": 962,
+        "blocksPlaced": 963,
         "deepestY": 54,
-        "lastSeen": 1786393329,
+        "lastSeen": 1786393449,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2484,7 +2484,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 665,
+        "mobKills": 673,
         "mealsEaten": 1232,
         "caloriesConsumed": 168374,
         "lastMeal": "Termites",
@@ -2576,11 +2576,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 422.0,
-        "blocksTravelled": 406371,
-        "blocksBroken": 20867,
-        "blocksPlaced": 8007,
+        "blocksTravelled": 406595,
+        "blocksBroken": 20874,
+        "blocksPlaced": 8009,
         "deepestY": 1,
-        "lastSeen": 1786393329,
+        "lastSeen": 1786393449,
         "gear": [
           "Bamboo cone hat (large)",
           "Rotwalker cape",
@@ -2724,10 +2724,10 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 2,
-        "mobKills": 328,
-        "mealsEaten": 400,
-        "caloriesConsumed": 102468,
-        "lastMeal": "Termites",
+        "mobKills": 331,
+        "mealsEaten": 401,
+        "caloriesConsumed": 103063,
+        "lastMeal": "Syrup-covered fruit bread",
         "mealsByName": {
           "Cranberry": 19,
           "Meat pie": 20,
@@ -2740,7 +2740,7 @@
           "Rye bread": 3,
           "Leather-bound Oak Tankard": 2,
           "Syrup-covered muffin": 8,
-          "Syrup-covered fruit bread": 25,
+          "Syrup-covered fruit bread": 26,
           "Redcurrant": 32,
           "Pear pie": 1,
           "Cooked dumplings": 11,
@@ -2772,22 +2772,22 @@
           "Termites": 7
         },
         "foodCatCounts": {
-          "Fruit": 245,
-          "Grain": 151,
+          "Fruit": 246,
+          "Grain": 152,
           "Protein": 122,
           "Vegetable": 95,
-          "Dairy": 53
+          "Dairy": 54
         },
         "deathCauses": {
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 539.4,
-        "blocksTravelled": 326373,
+        "playtimeHours": 539.5,
+        "blocksTravelled": 326663,
         "blocksBroken": 13066,
         "blocksPlaced": 7899,
         "deepestY": 12,
-        "lastSeen": 1786393329,
+        "lastSeen": 1786393449,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
