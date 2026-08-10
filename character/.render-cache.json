@@ -77,7 +77,7 @@
   }
  },
  "AddyBuschu": {
-  "hash": "a021370e58d0cb5aee7782a1a3ca11a334b2d1a2",
+  "hash": "7ce0d89a4a2c9a414a33efb21c831f535af7389f",
   "info": {
    "class": "homesteader",
    "items": [
@@ -91,7 +91,6 @@
     "Rotwalker cape",
     "Tattered crimson tunic",
     "Marketeer pants",
-    "Rotten king shoes",
     "Survivor gloves",
     "Rotten king collar",
     "Prince emblem",
@@ -102,7 +101,7 @@
     "Fur coat"
    ],
    "frames": 16,
-   "v": 1786388814
+   "v": 1786389775
   }
  },
  "Barberschascher": {

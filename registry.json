@@ -1,5 +1,5 @@
 {
-  "generated": "20260810-212035",
+  "generated": "20260810-212235",
   "game_version": "1.22.5",
   "check_ts": "20260810-200058",
   "latest_engine": "1.22.6",
@@ -2343,11 +2343,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 198.4,
-        "blocksTravelled": 89253,
-        "blocksBroken": 1405,
-        "blocksPlaced": 946,
+        "blocksTravelled": 89342,
+        "blocksBroken": 1409,
+        "blocksPlaced": 947,
         "deepestY": 54,
-        "lastSeen": 1786389607,
+        "lastSeen": 1786389727,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2485,8 +2485,8 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 655,
-        "mealsEaten": 1163,
-        "caloriesConsumed": 158136,
+        "mealsEaten": 1166,
+        "caloriesConsumed": 158334,
         "lastMeal": "Beautyberry",
         "mealsByName": {
           "Meat pie": 45,
@@ -2552,7 +2552,7 @@
           "Redcurrant pie": 4,
           "Syrup-covered fruit bread": 21,
           "Black ceramic jug": 1,
-          "Beautyberry": 221,
+          "Beautyberry": 224,
           "Amaranth grain": 6,
           "Reishi": 1,
           "Wavy cap": 1
@@ -2561,7 +2561,7 @@
           "Grain": 222,
           "Protein": 105,
           "Vegetable": 207,
-          "Fruit": 846,
+          "Fruit": 849,
           "Dairy": 46
         },
         "deathCauses": {
@@ -2573,18 +2573,18 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 420.9,
-        "blocksTravelled": 400178,
-        "blocksBroken": 20462,
+        "playtimeHours": 421.0,
+        "blocksTravelled": 400242,
+        "blocksBroken": 20465,
         "blocksPlaced": 7965,
         "deepestY": 1,
-        "lastSeen": 1786389607,
+        "lastSeen": 1786389727,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
           "Tattered crimson tunic",
           "Marketeer pants",
-          "Rotten king shoes",
+          "Nadiyan miner boots",
           "Survivor gloves",
           "Rotten king collar",
           "Prince emblem",
@@ -2622,9 +2622,8 @@
           },
           {
             "slot": "foot",
-            "code": "game:clothes-foot-rottenking",
-            "name": "Rotten king shoes",
-            "icon": "character/icons/foot-rottenking.png"
+            "code": "game:clothes-nadiya-foot-miner",
+            "name": "Nadiyan miner boots"
           },
           {
             "slot": "hand",
@@ -2723,9 +2722,9 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 2,
-        "mobKills": 312,
-        "mealsEaten": 366,
-        "caloriesConsumed": 94548,
+        "mobKills": 313,
+        "mealsEaten": 367,
+        "caloriesConsumed": 95023,
         "lastMeal": "Syrup-covered fruit bread",
         "mealsByName": {
           "Cranberry": 19,
@@ -2739,7 +2738,7 @@
           "Rye bread": 3,
           "Leather-bound Oak Tankard": 2,
           "Syrup-covered muffin": 8,
-          "Syrup-covered fruit bread": 13,
+          "Syrup-covered fruit bread": 14,
           "Redcurrant": 27,
           "Pear pie": 1,
           "Cooked dumplings": 11,
@@ -2770,22 +2769,22 @@
           "Blueberry": 8
         },
         "foodCatCounts": {
-          "Fruit": 218,
-          "Grain": 139,
+          "Fruit": 219,
+          "Grain": 140,
           "Protein": 115,
           "Vegetable": 95,
-          "Dairy": 41
+          "Dairy": 42
         },
         "deathCauses": {
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 538.4,
-        "blocksTravelled": 319430,
-        "blocksBroken": 12591,
+        "blocksTravelled": 319496,
+        "blocksBroken": 12593,
         "blocksPlaced": 7849,
         "deepestY": 12,
-        "lastSeen": 1786389607,
+        "lastSeen": 1786389727,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
