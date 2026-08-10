@@ -1,5 +1,5 @@
 {
-  "generated": "20260810-212235",
+  "generated": "20260810-212435",
   "game_version": "1.22.5",
   "check_ts": "20260810-200058",
   "latest_engine": "1.22.6",
@@ -2342,12 +2342,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 198.4,
-        "blocksTravelled": 89342,
+        "playtimeHours": 198.5,
+        "blocksTravelled": 89546,
         "blocksBroken": 1409,
         "blocksPlaced": 947,
         "deepestY": 54,
-        "lastSeen": 1786389727,
+        "lastSeen": 1786389847,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2574,13 +2574,13 @@
           "shiver-surface": 1
         },
         "playtimeHours": 421.0,
-        "blocksTravelled": 400242,
-        "blocksBroken": 20465,
+        "blocksTravelled": 400332,
+        "blocksBroken": 20467,
         "blocksPlaced": 7965,
         "deepestY": 1,
-        "lastSeen": 1786389727,
+        "lastSeen": 1786389847,
         "gear": [
-          "Red fox fur trapper hat",
+          "Emerald reindeer herder hat",
           "Rotwalker cape",
           "Tattered crimson tunic",
           "Marketeer pants",
@@ -2598,9 +2598,8 @@
         "gearDetail": [
           {
             "slot": "head",
-            "code": "game:clothes-head-furhatwide-fox-red",
-            "name": "Red fox fur trapper hat",
-            "icon": "character/icons/head-furhatwide-fox-red.png"
+            "code": "game:clothes-head-emeraldreindeerherder",
+            "name": "Emerald reindeer herder hat"
           },
           {
             "slot": "shoulder",
@@ -2723,9 +2722,9 @@
         "class": "mason",
         "deaths": 2,
         "mobKills": 313,
-        "mealsEaten": 367,
-        "caloriesConsumed": 95023,
-        "lastMeal": "Syrup-covered fruit bread",
+        "mealsEaten": 377,
+        "caloriesConsumed": 95823,
+        "lastMeal": "Red grapes",
         "mealsByName": {
           "Cranberry": 19,
           "Meat pie": 20,
@@ -2752,7 +2751,7 @@
           "Blueberry pie": 12,
           "Fruit pie": 6,
           "Redcurrant pie": 9,
-          "Red grapes": 4,
+          "Red grapes": 14,
           "Black ceramic jug": 4,
           "Turnip": 8,
           "Spelt grain": 4,
@@ -2769,7 +2768,7 @@
           "Blueberry": 8
         },
         "foodCatCounts": {
-          "Fruit": 219,
+          "Fruit": 229,
           "Grain": 140,
           "Protein": 115,
           "Vegetable": 95,
@@ -2779,12 +2778,12 @@
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 538.4,
-        "blocksTravelled": 319496,
+        "playtimeHours": 538.5,
+        "blocksTravelled": 319615,
         "blocksBroken": 12593,
         "blocksPlaced": 7849,
         "deepestY": 12,
-        "lastSeen": 1786389727,
+        "lastSeen": 1786389847,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
