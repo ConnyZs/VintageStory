@@ -1,5 +1,5 @@
 {
-  "generated": "20260810-223841",
+  "generated": "20260810-224041",
   "game_version": "1.22.5",
   "check_ts": "20260810-200058",
   "latest_engine": "1.22.6",
@@ -2308,7 +2308,7 @@
         "name": "Eghetti",
         "class": "smith",
         "deaths": 2,
-        "mobKills": 61,
+        "mobKills": 62,
         "mealsEaten": 82,
         "caloriesConsumed": 35620,
         "lastMeal": "Blackcurrant pie",
@@ -2343,11 +2343,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 199.7,
-        "blocksTravelled": 91363,
+        "blocksTravelled": 91451,
         "blocksBroken": 1422,
         "blocksPlaced": 964,
         "deepestY": 54,
-        "lastSeen": 1786394290,
+        "lastSeen": 1786394410,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2576,12 +2576,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 422.2,
-        "blocksTravelled": 408157,
-        "blocksBroken": 20902,
+        "playtimeHours": 422.3,
+        "blocksTravelled": 408411,
+        "blocksBroken": 20937,
         "blocksPlaced": 8015,
         "deepestY": 1,
-        "lastSeen": 1786394290,
+        "lastSeen": 1786394410,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2785,11 +2785,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 539.7,
-        "blocksTravelled": 328496,
-        "blocksBroken": 13076,
+        "blocksTravelled": 328593,
+        "blocksBroken": 13112,
         "blocksPlaced": 7899,
         "deepestY": 12,
-        "lastSeen": 1786394290,
+        "lastSeen": 1786394410,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
