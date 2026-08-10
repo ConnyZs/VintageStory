@@ -1,5 +1,5 @@
 {
-  "generated": "20260810-225842",
+  "generated": "20260810-230042",
   "game_version": "1.22.5",
   "check_ts": "20260810-200058",
   "latest_engine": "1.22.6",
@@ -2343,11 +2343,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 200.0,
-        "blocksTravelled": 92479,
+        "blocksTravelled": 92516,
         "blocksBroken": 1427,
         "blocksPlaced": 967,
         "deepestY": 54,
-        "lastSeen": 1786395491,
+        "lastSeen": 1786395611,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2577,11 +2577,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 422.6,
-        "blocksTravelled": 411546,
-        "blocksBroken": 21043,
+        "blocksTravelled": 412030,
+        "blocksBroken": 21049,
         "blocksPlaced": 8023,
         "deepestY": 1,
-        "lastSeen": 1786395491,
+        "lastSeen": 1786395611,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2726,11 +2726,11 @@
         "class": "mason",
         "deaths": 2,
         "mobKills": 334,
-        "mealsEaten": 420,
-        "caloriesConsumed": 108168,
-        "lastMeal": "Redcurrant",
+        "mealsEaten": 426,
+        "caloriesConsumed": 108528,
+        "lastMeal": "Cranberry",
         "mealsByName": {
-          "Cranberry": 19,
+          "Cranberry": 25,
           "Meat pie": 20,
           "Cranberry pie": 8,
           "Earthy orange ceramic bowl of soup": 7,
@@ -2774,7 +2774,7 @@
           "Saguaro fruit": 1
         },
         "foodCatCounts": {
-          "Fruit": 265,
+          "Fruit": 271,
           "Grain": 159,
           "Protein": 122,
           "Vegetable": 95,
@@ -2784,12 +2784,12 @@
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 540.0,
-        "blocksTravelled": 331800,
+        "playtimeHours": 540.1,
+        "blocksTravelled": 332304,
         "blocksBroken": 13239,
         "blocksPlaced": 7899,
         "deepestY": 12,
-        "lastSeen": 1786395491,
+        "lastSeen": 1786395611,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
