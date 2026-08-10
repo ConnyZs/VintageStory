@@ -1,5 +1,5 @@
 {
-  "generated": "20260810-232244",
+  "generated": "20260810-232444",
   "game_version": "1.22.5",
   "check_ts": "20260810-200058",
   "latest_engine": "1.22.6",
@@ -2343,11 +2343,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 200.4,
-        "blocksTravelled": 93106,
-        "blocksBroken": 1708,
-        "blocksPlaced": 1156,
+        "blocksTravelled": 93137,
+        "blocksBroken": 1714,
+        "blocksPlaced": 1160,
         "deepestY": 54,
-        "lastSeen": 1786396932,
+        "lastSeen": 1786397052,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2485,8 +2485,8 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 685,
-        "mealsEaten": 1283,
-        "caloriesConsumed": 177069,
+        "mealsEaten": 1285,
+        "caloriesConsumed": 178259,
         "lastMeal": "Syrup-covered fruit bread",
         "mealsByName": {
           "Meat pie": 45,
@@ -2550,7 +2550,7 @@
           "Strawberry pie": 19,
           "Lump of raw fat": 2,
           "Redcurrant pie": 4,
-          "Syrup-covered fruit bread": 28,
+          "Syrup-covered fruit bread": 30,
           "Black ceramic jug": 1,
           "Beautyberry": 238,
           "Amaranth grain": 12,
@@ -2562,11 +2562,11 @@
           "Blue meanie": 2
         },
         "foodCatCounts": {
-          "Grain": 258,
+          "Grain": 260,
           "Protein": 131,
           "Vegetable": 211,
-          "Fruit": 927,
-          "Dairy": 63
+          "Fruit": 929,
+          "Dairy": 65
         },
         "deathCauses": {
           "bear-brown-adult-female": 2,
@@ -2578,11 +2578,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 423.0,
-        "blocksTravelled": 417118,
-        "blocksBroken": 21211,
+        "blocksTravelled": 417617,
+        "blocksBroken": 21213,
         "blocksPlaced": 8024,
         "deepestY": 1,
-        "lastSeen": 1786396932,
+        "lastSeen": 1786397052,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2727,9 +2727,9 @@
         "class": "mason",
         "deaths": 2,
         "mobKills": 334,
-        "mealsEaten": 434,
-        "caloriesConsumed": 111228,
-        "lastMeal": "Syrup-covered fruit bread",
+        "mealsEaten": 436,
+        "caloriesConsumed": 111388,
+        "lastMeal": "Reishi",
         "mealsByName": {
           "Cranberry": 25,
           "Meat pie": 20,
@@ -2766,7 +2766,7 @@
           "Beautyberry": 35,
           "Onion": 4,
           "Paddy straw": 1,
-          "Reishi": 1,
+          "Reishi": 3,
           "King bolete": 1,
           "Blackcurrant": 11,
           "Blackberry": 3,
@@ -2779,19 +2779,19 @@
           "Fruit": 275,
           "Grain": 163,
           "Protein": 122,
-          "Vegetable": 99,
+          "Vegetable": 101,
           "Dairy": 65
         },
         "deathCauses": {
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 540.4,
-        "blocksTravelled": 337376,
+        "playtimeHours": 540.5,
+        "blocksTravelled": 337856,
         "blocksBroken": 13261,
         "blocksPlaced": 7902,
         "deepestY": 12,
-        "lastSeen": 1786396932,
+        "lastSeen": 1786397052,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
