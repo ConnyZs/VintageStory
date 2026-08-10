@@ -1,5 +1,5 @@
 {
-  "generated": "20260810-222439",
+  "generated": "20260810-222640",
   "game_version": "1.22.5",
   "check_ts": "20260810-200058",
   "latest_engine": "1.22.6",
@@ -2343,11 +2343,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 199.5,
-        "blocksTravelled": 90423,
+        "blocksTravelled": 90483,
         "blocksBroken": 1420,
         "blocksPlaced": 963,
         "deepestY": 54,
-        "lastSeen": 1786393449,
+        "lastSeen": 1786393569,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2484,7 +2484,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 673,
+        "mobKills": 680,
         "mealsEaten": 1232,
         "caloriesConsumed": 168374,
         "lastMeal": "Termites",
@@ -2576,11 +2576,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 422.0,
-        "blocksTravelled": 406595,
-        "blocksBroken": 20874,
+        "blocksTravelled": 406776,
+        "blocksBroken": 20876,
         "blocksPlaced": 8009,
         "deepestY": 1,
-        "lastSeen": 1786393449,
+        "lastSeen": 1786393569,
         "gear": [
           "Bamboo cone hat (large)",
           "Rotwalker cape",
@@ -2724,7 +2724,7 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 2,
-        "mobKills": 331,
+        "mobKills": 333,
         "mealsEaten": 401,
         "caloriesConsumed": 103063,
         "lastMeal": "Syrup-covered fruit bread",
@@ -2783,11 +2783,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 539.5,
-        "blocksTravelled": 326663,
+        "blocksTravelled": 326746,
         "blocksBroken": 13066,
         "blocksPlaced": 7899,
         "deepestY": 12,
-        "lastSeen": 1786393449,
+        "lastSeen": 1786393569,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
