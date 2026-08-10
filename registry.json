@@ -1,5 +1,5 @@
 {
-  "generated": "20260810-224841",
+  "generated": "20260810-225041",
   "game_version": "1.22.5",
   "check_ts": "20260810-200058",
   "latest_engine": "1.22.6",
@@ -2342,12 +2342,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 199.8,
-        "blocksTravelled": 92068,
+        "playtimeHours": 199.9,
+        "blocksTravelled": 92135,
         "blocksBroken": 1423,
         "blocksPlaced": 964,
         "deepestY": 54,
-        "lastSeen": 1786394891,
+        "lastSeen": 1786395011,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2577,11 +2577,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 422.4,
-        "blocksTravelled": 409947,
-        "blocksBroken": 20987,
+        "blocksTravelled": 410256,
+        "blocksBroken": 20998,
         "blocksPlaced": 8018,
         "deepestY": 1,
-        "lastSeen": 1786394891,
+        "lastSeen": 1786395011,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2785,11 +2785,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 539.9,
-        "blocksTravelled": 330199,
+        "blocksTravelled": 330472,
         "blocksBroken": 13186,
         "blocksPlaced": 7899,
         "deepestY": 12,
-        "lastSeen": 1786394891,
+        "lastSeen": 1786395011,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
