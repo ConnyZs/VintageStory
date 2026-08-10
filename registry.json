@@ -1,5 +1,5 @@
 {
-  "generated": "20260810-202831",
+  "generated": "20260810-203031",
   "game_version": "1.22.5",
   "check_ts": "20260810-200058",
   "latest_engine": "1.22.6",
@@ -2342,11 +2342,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 197.6,
-        "blocksTravelled": 87907,
+        "blocksTravelled": 87929,
         "blocksBroken": 1383,
         "blocksPlaced": 932,
         "deepestY": 54,
-        "lastSeen": 1786386485,
+        "lastSeen": 1786386587,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2484,8 +2484,8 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 644,
-        "mealsEaten": 1040,
-        "caloriesConsumed": 146673,
+        "mealsEaten": 1046,
+        "caloriesConsumed": 147033,
         "lastMeal": "Cranberry",
         "mealsByName": {
           "Meat pie": 45,
@@ -2496,7 +2496,7 @@
           "Rye bread": 8,
           "Leather-bound Oak Tankard": 1,
           "Syrup-covered muffin": 1,
-          "Cranberry": 32,
+          "Cranberry": 38,
           "Blackcurrant": 79,
           "Pear pie": 4,
           "Cooked dumplings": 7,
@@ -2559,7 +2559,7 @@
           "Grain": 218,
           "Protein": 102,
           "Vegetable": 206,
-          "Fruit": 725,
+          "Fruit": 731,
           "Dairy": 43
         },
         "deathCauses": {
@@ -2572,11 +2572,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 420.1,
-        "blocksTravelled": 394855,
-        "blocksBroken": 20316,
-        "blocksPlaced": 7891,
+        "blocksTravelled": 395116,
+        "blocksBroken": 20324,
+        "blocksPlaced": 7893,
         "deepestY": 1,
-        "lastSeen": 1786386485,
+        "lastSeen": 1786386605,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2722,8 +2722,8 @@
         "class": "mason",
         "deaths": 2,
         "mobKills": 298,
-        "mealsEaten": 339,
-        "caloriesConsumed": 90328,
+        "mealsEaten": 344,
+        "caloriesConsumed": 90728,
         "lastMeal": "Beautyberry",
         "mealsByName": {
           "Cranberry": 19,
@@ -2758,7 +2758,7 @@
           "Flax grain": 4,
           "Dryad saddle": 1,
           "Deer ear": 1,
-          "Beautyberry": 30,
+          "Beautyberry": 35,
           "Onion": 4,
           "Paddy straw": 1,
           "Reishi": 1,
@@ -2768,7 +2768,7 @@
           "Blueberry": 2
         },
         "foodCatCounts": {
-          "Fruit": 191,
+          "Fruit": 196,
           "Grain": 135,
           "Protein": 115,
           "Vegetable": 95,
@@ -2778,12 +2778,12 @@
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 537.5,
-        "blocksTravelled": 313169,
+        "playtimeHours": 537.6,
+        "blocksTravelled": 313416,
         "blocksBroken": 12470,
         "blocksPlaced": 7809,
         "deepestY": 12,
-        "lastSeen": 1786386485,
+        "lastSeen": 1786386605,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
