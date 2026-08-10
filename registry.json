@@ -1,5 +1,5 @@
 {
-  "generated": "20260810-220438",
+  "generated": "20260810-220638",
   "game_version": "1.22.5",
   "check_ts": "20260810-200058",
   "latest_engine": "1.22.6",
@@ -2342,12 +2342,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 199.1,
+        "playtimeHours": 199.2,
         "blocksTravelled": 90141,
         "blocksBroken": 1420,
         "blocksPlaced": 962,
         "deepestY": 54,
-        "lastSeen": 1786392249,
+        "lastSeen": 1786392369,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2485,9 +2485,9 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 658,
-        "mealsEaten": 1207,
-        "caloriesConsumed": 164579,
-        "lastMeal": "Common morel",
+        "mealsEaten": 1209,
+        "caloriesConsumed": 166029,
+        "lastMeal": "Syrup-covered muffin",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
@@ -2496,7 +2496,7 @@
           "Pear pie (charred)": 1,
           "Rye bread": 8,
           "Leather-bound Oak Tankard": 1,
-          "Syrup-covered muffin": 9,
+          "Syrup-covered muffin": 11,
           "Cranberry": 45,
           "Blackcurrant": 98,
           "Pear pie": 4,
@@ -2559,11 +2559,11 @@
           "Lump of rendered fat": 1
         },
         "foodCatCounts": {
-          "Grain": 246,
-          "Protein": 111,
+          "Grain": 248,
+          "Protein": 113,
           "Vegetable": 209,
-          "Fruit": 868,
-          "Dairy": 51
+          "Fruit": 870,
+          "Dairy": 53
         },
         "deathCauses": {
           "bear-brown-adult-female": 2,
@@ -2575,11 +2575,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 421.7,
-        "blocksTravelled": 404711,
+        "blocksTravelled": 404812,
         "blocksBroken": 20813,
         "blocksPlaced": 7995,
         "deepestY": 1,
-        "lastSeen": 1786392249,
+        "lastSeen": 1786392369,
         "gear": [
           "Bamboo cone hat (large)",
           "Rotwalker cape",
@@ -2723,7 +2723,7 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 2,
-        "mobKills": 314,
+        "mobKills": 317,
         "mealsEaten": 385,
         "caloriesConsumed": 99863,
         "lastMeal": "Syrup-covered fruit bread",
@@ -2780,12 +2780,12 @@
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 539.1,
-        "blocksTravelled": 324656,
-        "blocksBroken": 13013,
-        "blocksPlaced": 7893,
+        "playtimeHours": 539.2,
+        "blocksTravelled": 324738,
+        "blocksBroken": 13015,
+        "blocksPlaced": 7895,
         "deepestY": 12,
-        "lastSeen": 1786392249,
+        "lastSeen": 1786392369,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
