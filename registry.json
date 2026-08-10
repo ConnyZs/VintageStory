@@ -1,5 +1,5 @@
 {
-  "generated": "20260810-211835",
+  "generated": "20260810-212035",
   "game_version": "1.22.5",
   "check_ts": "20260810-200058",
   "latest_engine": "1.22.6",
@@ -2343,11 +2343,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 198.4,
-        "blocksTravelled": 89135,
+        "blocksTravelled": 89253,
         "blocksBroken": 1405,
         "blocksPlaced": 946,
         "deepestY": 54,
-        "lastSeen": 1786389487,
+        "lastSeen": 1786389607,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2484,7 +2484,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 652,
+        "mobKills": 655,
         "mealsEaten": 1163,
         "caloriesConsumed": 158136,
         "lastMeal": "Beautyberry",
@@ -2574,11 +2574,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 420.9,
-        "blocksTravelled": 399953,
+        "blocksTravelled": 400178,
         "blocksBroken": 20462,
-        "blocksPlaced": 7964,
+        "blocksPlaced": 7965,
         "deepestY": 1,
-        "lastSeen": 1786389487,
+        "lastSeen": 1786389607,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2781,11 +2781,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 538.4,
-        "blocksTravelled": 319211,
+        "blocksTravelled": 319430,
         "blocksBroken": 12591,
         "blocksPlaced": 7849,
         "deepestY": 12,
-        "lastSeen": 1786389487,
+        "lastSeen": 1786389607,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
