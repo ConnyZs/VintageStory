@@ -1,5 +1,5 @@
 {
-  "generated": "20260810-212635",
+  "generated": "20260810-212835",
   "game_version": "1.22.5",
   "check_ts": "20260810-200058",
   "latest_engine": "1.22.6",
@@ -2347,7 +2347,7 @@
         "blocksBroken": 1409,
         "blocksPlaced": 947,
         "deepestY": 54,
-        "lastSeen": 1786389985,
+        "lastSeen": 1786390087,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2485,9 +2485,9 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 655,
-        "mealsEaten": 1166,
-        "caloriesConsumed": 158334,
-        "lastMeal": "Beautyberry",
+        "mealsEaten": 1168,
+        "caloriesConsumed": 159784,
+        "lastMeal": "Syrup-covered muffin",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
@@ -2496,7 +2496,7 @@
           "Pear pie (charred)": 1,
           "Rye bread": 8,
           "Leather-bound Oak Tankard": 1,
-          "Syrup-covered muffin": 4,
+          "Syrup-covered muffin": 6,
           "Cranberry": 45,
           "Blackcurrant": 98,
           "Pear pie": 4,
@@ -2558,11 +2558,11 @@
           "Wavy cap": 1
         },
         "foodCatCounts": {
-          "Grain": 222,
-          "Protein": 105,
+          "Grain": 224,
+          "Protein": 107,
           "Vegetable": 207,
-          "Fruit": 849,
-          "Dairy": 46
+          "Fruit": 851,
+          "Dairy": 48
         },
         "deathCauses": {
           "bear-brown-adult-female": 2,
@@ -2573,12 +2573,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 421.0,
-        "blocksTravelled": 400501,
-        "blocksBroken": 20504,
-        "blocksPlaced": 7966,
+        "playtimeHours": 421.1,
+        "blocksTravelled": 400667,
+        "blocksBroken": 20511,
+        "blocksPlaced": 7975,
         "deepestY": 1,
-        "lastSeen": 1786389985,
+        "lastSeen": 1786390087,
         "gear": [
           "Emerald reindeer herder hat",
           "Rotwalker cape",
@@ -2721,7 +2721,7 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 2,
-        "mobKills": 313,
+        "mobKills": 314,
         "mealsEaten": 377,
         "caloriesConsumed": 95823,
         "lastMeal": "Red grapes",
@@ -2779,11 +2779,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 538.5,
-        "blocksTravelled": 319810,
-        "blocksBroken": 12596,
+        "blocksTravelled": 319898,
+        "blocksBroken": 12600,
         "blocksPlaced": 7850,
         "deepestY": 12,
-        "lastSeen": 1786389985,
+        "lastSeen": 1786390087,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
