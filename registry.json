@@ -1,5 +1,5 @@
 {
-  "generated": "20260810-215838",
+  "generated": "20260810-220038",
   "game_version": "1.22.5",
   "check_ts": "20260810-200058",
   "latest_engine": "1.22.6",
@@ -2342,12 +2342,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 199.0,
+        "playtimeHours": 199.1,
         "blocksTravelled": 90141,
         "blocksBroken": 1420,
         "blocksPlaced": 962,
         "deepestY": 54,
-        "lastSeen": 1786391889,
+        "lastSeen": 1786392009,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2485,9 +2485,9 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 656,
-        "mealsEaten": 1193,
-        "caloriesConsumed": 163719,
-        "lastMeal": "Syrup-covered muffin",
+        "mealsEaten": 1207,
+        "caloriesConsumed": 164579,
+        "lastMeal": "Common morel",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
@@ -2512,7 +2512,7 @@
           "Flax grain": 33,
           "Dryad saddle": 3,
           "White oyster": 2,
-          "Common morel": 2,
+          "Common morel": 3,
           "Lobster": 1,
           "Chanterelle": 1,
           "Black trumpet": 1,
@@ -2537,7 +2537,7 @@
           "Parsnip": 10,
           "Shiitake": 2,
           "Onion": 4,
-          "Spelt grain": 13,
+          "Spelt grain": 26,
           "Smoked Plain Primemeat": 11,
           "Blackberry pie": 8,
           "Earthy orange ceramic bowl of jam": 4,
@@ -2559,9 +2559,9 @@
           "Lump of rendered fat": 1
         },
         "foodCatCounts": {
-          "Grain": 233,
+          "Grain": 246,
           "Protein": 111,
-          "Vegetable": 208,
+          "Vegetable": 209,
           "Fruit": 868,
           "Dairy": 51
         },
@@ -2575,11 +2575,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 421.6,
-        "blocksTravelled": 403845,
-        "blocksBroken": 20796,
+        "blocksTravelled": 404274,
+        "blocksBroken": 20803,
         "blocksPlaced": 7990,
         "deepestY": 1,
-        "lastSeen": 1786391889,
+        "lastSeen": 1786392009,
         "gear": [
           "Bamboo cone hat (large)",
           "Rotwalker cape",
@@ -2780,12 +2780,12 @@
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 539.0,
-        "blocksTravelled": 323869,
-        "blocksBroken": 12986,
+        "playtimeHours": 539.1,
+        "blocksTravelled": 324221,
+        "blocksBroken": 13010,
         "blocksPlaced": 7892,
         "deepestY": 12,
-        "lastSeen": 1786391889,
+        "lastSeen": 1786392009,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
