@@ -1,5 +1,5 @@
 {
-  "generated": "20260810-231443",
+  "generated": "20260810-231643",
   "game_version": "1.22.5",
   "check_ts": "20260810-200058",
   "latest_engine": "1.22.6",
@@ -2343,11 +2343,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 200.3,
-        "blocksTravelled": 92981,
-        "blocksBroken": 1658,
-        "blocksPlaced": 1064,
+        "blocksTravelled": 93061,
+        "blocksBroken": 1664,
+        "blocksPlaced": 1098,
         "deepestY": 54,
-        "lastSeen": 1786396452,
+        "lastSeen": 1786396572,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2484,7 +2484,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 682,
+        "mobKills": 685,
         "mealsEaten": 1282,
         "caloriesConsumed": 176474,
         "lastMeal": "Syrup-covered fruit bread",
@@ -2577,12 +2577,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 422.8,
-        "blocksTravelled": 415041,
-        "blocksBroken": 21183,
+        "playtimeHours": 422.9,
+        "blocksTravelled": 415635,
+        "blocksBroken": 21208,
         "blocksPlaced": 8024,
         "deepestY": 1,
-        "lastSeen": 1786396452,
+        "lastSeen": 1786396572,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2727,8 +2727,8 @@
         "class": "mason",
         "deaths": 2,
         "mobKills": 334,
-        "mealsEaten": 432,
-        "caloriesConsumed": 110038,
+        "mealsEaten": 433,
+        "caloriesConsumed": 110633,
         "lastMeal": "Syrup-covered fruit bread",
         "mealsByName": {
           "Cranberry": 25,
@@ -2742,7 +2742,7 @@
           "Rye bread": 3,
           "Leather-bound Oak Tankard": 2,
           "Syrup-covered muffin": 8,
-          "Syrup-covered fruit bread": 35,
+          "Syrup-covered fruit bread": 36,
           "Redcurrant": 43,
           "Pear pie": 1,
           "Cooked dumplings": 11,
@@ -2776,22 +2776,22 @@
           "Wavy cap": 4
         },
         "foodCatCounts": {
-          "Fruit": 273,
-          "Grain": 161,
+          "Fruit": 274,
+          "Grain": 162,
           "Protein": 122,
           "Vegetable": 99,
-          "Dairy": 63
+          "Dairy": 64
         },
         "deathCauses": {
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 540.3,
-        "blocksTravelled": 335343,
+        "blocksTravelled": 335944,
         "blocksBroken": 13261,
         "blocksPlaced": 7902,
         "deepestY": 12,
-        "lastSeen": 1786396452,
+        "lastSeen": 1786396572,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
