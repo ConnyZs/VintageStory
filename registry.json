@@ -1,5 +1,5 @@
 {
-  "generated": "20260810-235045",
+  "generated": "20260810-235246",
   "game_version": "1.22.5",
   "check_ts": "20260810-200058",
   "latest_engine": "1.22.6",
@@ -2791,11 +2791,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 540.9,
-        "blocksTravelled": 342020,
+        "blocksTravelled": 342056,
         "blocksBroken": 13264,
         "blocksPlaced": 7910,
         "deepestY": 12,
-        "lastSeen": 1786398613,
+        "lastSeen": 1786398670,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
