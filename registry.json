@@ -1,5 +1,5 @@
 {
-  "generated": "20260810-211234",
+  "generated": "20260810-211434",
   "game_version": "1.22.5",
   "check_ts": "20260810-200058",
   "latest_engine": "1.22.6",
@@ -2342,11 +2342,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 198.3,
-        "blocksTravelled": 88978,
+        "blocksTravelled": 88990,
         "blocksBroken": 1405,
         "blocksPlaced": 945,
         "deepestY": 54,
-        "lastSeen": 1786389127,
+        "lastSeen": 1786389247,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2484,8 +2484,8 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 646,
-        "mealsEaten": 1150,
-        "caloriesConsumed": 156483,
+        "mealsEaten": 1154,
+        "caloriesConsumed": 156803,
         "lastMeal": "Beautyberry",
         "mealsByName": {
           "Meat pie": 45,
@@ -2551,7 +2551,7 @@
           "Redcurrant pie": 4,
           "Syrup-covered fruit bread": 21,
           "Black ceramic jug": 1,
-          "Beautyberry": 209,
+          "Beautyberry": 213,
           "Amaranth grain": 6,
           "Reishi": 1,
           "Wavy cap": 1
@@ -2560,7 +2560,7 @@
           "Grain": 221,
           "Protein": 104,
           "Vegetable": 207,
-          "Fruit": 833,
+          "Fruit": 837,
           "Dairy": 45
         },
         "deathCauses": {
@@ -2573,11 +2573,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 420.8,
-        "blocksTravelled": 399161,
-        "blocksBroken": 20408,
-        "blocksPlaced": 7915,
+        "blocksTravelled": 399464,
+        "blocksBroken": 20456,
+        "blocksPlaced": 7928,
         "deepestY": 1,
-        "lastSeen": 1786389127,
+        "lastSeen": 1786389247,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2722,7 +2722,7 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 2,
-        "mobKills": 304,
+        "mobKills": 309,
         "mealsEaten": 365,
         "caloriesConsumed": 93953,
         "lastMeal": "Syrup-covered fruit bread",
@@ -2780,11 +2780,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 538.3,
-        "blocksTravelled": 318700,
-        "blocksBroken": 12581,
+        "blocksTravelled": 318758,
+        "blocksBroken": 12583,
         "blocksPlaced": 7838,
         "deepestY": 12,
-        "lastSeen": 1786389127,
+        "lastSeen": 1786389247,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
