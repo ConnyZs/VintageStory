@@ -1,5 +1,5 @@
 {
-  "generated": "20260810-213836",
+  "generated": "20260810-214036",
   "game_version": "1.22.5",
   "check_ts": "20260810-200058",
   "latest_engine": "1.22.6",
@@ -2343,11 +2343,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 198.7,
-        "blocksTravelled": 89638,
+        "blocksTravelled": 89644,
         "blocksBroken": 1409,
         "blocksPlaced": 947,
         "deepestY": 54,
-        "lastSeen": 1786390688,
+        "lastSeen": 1786390808,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2485,9 +2485,9 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 655,
-        "mealsEaten": 1175,
-        "caloriesConsumed": 161009,
-        "lastMeal": "Amaranth grain",
+        "mealsEaten": 1176,
+        "caloriesConsumed": 161734,
+        "lastMeal": "Syrup-covered muffin",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
@@ -2496,7 +2496,7 @@
           "Pear pie (charred)": 1,
           "Rye bread": 8,
           "Leather-bound Oak Tankard": 1,
-          "Syrup-covered muffin": 7,
+          "Syrup-covered muffin": 8,
           "Cranberry": 45,
           "Blackcurrant": 98,
           "Pear pie": 4,
@@ -2559,11 +2559,11 @@
           "Lump of rendered fat": 1
         },
         "foodCatCounts": {
-          "Grain": 230,
-          "Protein": 109,
+          "Grain": 231,
+          "Protein": 110,
           "Vegetable": 207,
-          "Fruit": 852,
-          "Dairy": 49
+          "Fruit": 853,
+          "Dairy": 50
         },
         "deathCauses": {
           "bear-brown-adult-female": 2,
@@ -2574,12 +2574,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 421.2,
-        "blocksTravelled": 401625,
-        "blocksBroken": 20521,
+        "playtimeHours": 421.3,
+        "blocksTravelled": 401776,
+        "blocksBroken": 20522,
         "blocksPlaced": 7988,
         "deepestY": 1,
-        "lastSeen": 1786390688,
+        "lastSeen": 1786390808,
         "gear": [
           "Emerald reindeer herder hat",
           "Rotwalker cape",
@@ -2780,11 +2780,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 538.7,
-        "blocksTravelled": 320965,
+        "blocksTravelled": 321287,
         "blocksBroken": 12696,
         "blocksPlaced": 7891,
         "deepestY": 12,
-        "lastSeen": 1786390688,
+        "lastSeen": 1786390808,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
