@@ -1,5 +1,5 @@
 {
-  "generated": "20260810-234845",
+  "generated": "20260810-235045",
   "game_version": "1.22.5",
   "check_ts": "20260810-200058",
   "latest_engine": "1.22.6",
@@ -2342,12 +2342,12 @@
           "shiver-corrupt": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 200.8,
-        "blocksTravelled": 93468,
+        "playtimeHours": 200.9,
+        "blocksTravelled": 93518,
         "blocksBroken": 1742,
         "blocksPlaced": 1194,
         "deepestY": 54,
-        "lastSeen": 1786398493,
+        "lastSeen": 1786398645,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2728,8 +2728,8 @@
         "class": "mason",
         "deaths": 2,
         "mobKills": 335,
-        "mealsEaten": 471,
-        "caloriesConsumed": 114870,
+        "mealsEaten": 472,
+        "caloriesConsumed": 115154,
         "lastMeal": "Earthy brown ceramic bowl of meat stew",
         "mealsByName": {
           "Cranberry": 25,
@@ -2777,13 +2777,13 @@
           "Wavy cap": 4,
           "Chanterelle": 2,
           "Rye grain": 15,
-          "Earthy brown ceramic bowl of meat stew": 1
+          "Earthy brown ceramic bowl of meat stew": 2
         },
         "foodCatCounts": {
           "Fruit": 275,
           "Grain": 195,
-          "Protein": 123,
-          "Vegetable": 104,
+          "Protein": 124,
+          "Vegetable": 105,
           "Dairy": 65
         },
         "deathCauses": {
@@ -2791,11 +2791,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 540.9,
-        "blocksTravelled": 341947,
-        "blocksBroken": 13263,
-        "blocksPlaced": 7908,
+        "blocksTravelled": 342020,
+        "blocksBroken": 13264,
+        "blocksPlaced": 7910,
         "deepestY": 12,
-        "lastSeen": 1786398493,
+        "lastSeen": 1786398613,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
