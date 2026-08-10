@@ -1,5 +1,5 @@
 {
-  "generated": "20260810-182822",
+  "generated": "20260810-183023",
   "game_version": "1.22.5",
   "check_ts": "20260807-200052",
   "latest_engine": "1.22.6",
@@ -2714,7 +2714,7 @@
       "name": "Moritz",
       "role": "admin",
       "first_join": "04/22/2026 18:03",
-      "last_join": "08/09/2026 19:45",
+      "last_join": "08/10/2026 16:28",
       "last_char": "04/22/2026 18:05",
       "stats": {
         "uid": "bKc3JB7NGywTi9YbzXu/Qogt",
@@ -2776,11 +2776,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 535.6,
-        "blocksTravelled": 298666,
+        "blocksTravelled": 298668,
         "blocksBroken": 11914,
         "blocksPlaced": 7596,
         "deepestY": 12,
-        "lastSeen": 1786379280,
+        "lastSeen": 1786379417,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
