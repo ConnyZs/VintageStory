@@ -1,5 +1,5 @@
 {
-  "generated": "20260810-195028",
+  "generated": "20260810-195228",
   "game_version": "1.22.5",
   "check_ts": "20260807-200052",
   "latest_engine": "1.22.6",
@@ -2342,11 +2342,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 197.0,
-        "blocksTravelled": 87205,
+        "blocksTravelled": 87247,
         "blocksBroken": 1380,
         "blocksPlaced": 929,
         "deepestY": 54,
-        "lastSeen": 1786384203,
+        "lastSeen": 1786384323,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2571,12 +2571,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 419.4,
-        "blocksTravelled": 388528,
+        "playtimeHours": 419.5,
+        "blocksTravelled": 388531,
         "blocksBroken": 20250,
         "blocksPlaced": 7876,
         "deepestY": 1,
-        "lastSeen": 1786384203,
+        "lastSeen": 1786384323,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2722,8 +2722,8 @@
         "class": "mason",
         "deaths": 2,
         "mobKills": 298,
-        "mealsEaten": 288,
-        "caloriesConsumed": 86188,
+        "mealsEaten": 289,
+        "caloriesConsumed": 86268,
         "lastMeal": "Blackcurrant",
         "mealsByName": {
           "Cranberry": 19,
@@ -2763,10 +2763,10 @@
           "Paddy straw": 1,
           "Reishi": 1,
           "King bolete": 1,
-          "Blackcurrant": 6
+          "Blackcurrant": 7
         },
         "foodCatCounts": {
-          "Fruit": 143,
+          "Fruit": 144,
           "Grain": 135,
           "Protein": 115,
           "Vegetable": 92,
@@ -2777,11 +2777,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 536.9,
-        "blocksTravelled": 306786,
+        "blocksTravelled": 306829,
         "blocksBroken": 12452,
         "blocksPlaced": 7803,
         "deepestY": 12,
-        "lastSeen": 1786384203,
+        "lastSeen": 1786384323,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
