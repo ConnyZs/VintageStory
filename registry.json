@@ -1,5 +1,5 @@
 {
-  "generated": "20260810-204832",
+  "generated": "20260810-205032",
   "game_version": "1.22.5",
   "check_ts": "20260810-200058",
   "latest_engine": "1.22.6",
@@ -2342,11 +2342,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 197.9,
-        "blocksTravelled": 88455,
-        "blocksBroken": 1388,
-        "blocksPlaced": 937,
+        "blocksTravelled": 88599,
+        "blocksBroken": 1405,
+        "blocksPlaced": 945,
         "deepestY": 54,
-        "lastSeen": 1786387686,
+        "lastSeen": 1786387806,
         "gear": [
           "Raccoon tail hat",
           "Blacksmith apron",
@@ -2573,11 +2573,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 420.4,
-        "blocksTravelled": 397904,
-        "blocksBroken": 20384,
+        "blocksTravelled": 398066,
+        "blocksBroken": 20386,
         "blocksPlaced": 7894,
         "deepestY": 1,
-        "lastSeen": 1786387686,
+        "lastSeen": 1786387806,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2723,9 +2723,9 @@
         "class": "mason",
         "deaths": 2,
         "mobKills": 298,
-        "mealsEaten": 356,
-        "caloriesConsumed": 92203,
-        "lastMeal": "Blueberry",
+        "mealsEaten": 363,
+        "caloriesConsumed": 92763,
+        "lastMeal": "Green grapes",
         "mealsByName": {
           "Cranberry": 19,
           "Meat pie": 20,
@@ -2746,7 +2746,7 @@
           "Blackberry pie": 18,
           "Rice grain": 7,
           "Earthy orange ceramic bowl of jam": 1,
-          "Green grapes": 15,
+          "Green grapes": 22,
           "Vintage Beef": 1,
           "Blackcurrant pie": 4,
           "Blueberry pie": 12,
@@ -2769,7 +2769,7 @@
           "Blueberry": 8
         },
         "foodCatCounts": {
-          "Fruit": 208,
+          "Fruit": 215,
           "Grain": 136,
           "Protein": 115,
           "Vegetable": 95,
@@ -2780,11 +2780,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 537.9,
-        "blocksTravelled": 316381,
-        "blocksBroken": 12505,
-        "blocksPlaced": 7811,
+        "blocksTravelled": 316550,
+        "blocksBroken": 12507,
+        "blocksPlaced": 7812,
         "deepestY": 12,
-        "lastSeen": 1786387686,
+        "lastSeen": 1786387806,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
