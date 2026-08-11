@@ -1,7 +1,7 @@
 {
-  "generated": "20260811-195414",
+  "generated": "20260811-200057",
   "game_version": "1.22.5",
-  "check_ts": "20260810-200058",
+  "check_ts": "20260811-200057",
   "latest_engine": "1.22.6",
   "restart_needed": null,
   "last_deploy_ts": "20260804-172326",
@@ -1259,7 +1259,7 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": null,
-      "build_version": "0.9.6",
+      "build_version": "0.9.7",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": true
@@ -1547,9 +1547,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.5.6",
-      "build_version": "1.5.6",
+      "build_version": "1.5.7",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -1867,9 +1867,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.15.0",
-      "build_version": "1.15.0",
+      "build_version": "1.15.1",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
