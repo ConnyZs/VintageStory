@@ -1,5 +1,5 @@
 {
-  "generated": "20260812-223108",
+  "generated": "20260812-223309",
   "game_version": "1.22.5",
   "check_ts": "20260811-200057",
   "latest_engine": "1.22.6",
@@ -2128,9 +2128,9 @@
         "class": "tinker",
         "deaths": 7,
         "mobKills": 176,
-        "mealsEaten": 122,
-        "caloriesConsumed": 56605,
-        "lastMeal": "Blueberry",
+        "mealsEaten": 125,
+        "caloriesConsumed": 57205,
+        "lastMeal": "Lump of rendered fat",
         "mealsByName": {
           "Pear": 3,
           "Meat pie": 10,
@@ -2150,12 +2150,13 @@
           "Syrup-covered fruit bread": 25,
           "Black ceramic jug": 1,
           "Blueberry": 9,
-          "Blackberry": 2
+          "Blackberry": 2,
+          "Lump of rendered fat": 3
         },
         "foodCatCounts": {
           "Fruit": 83,
           "Grain": 69,
-          "Protein": 38,
+          "Protein": 41,
           "Vegetable": 29,
           "Dairy": 34
         },
@@ -2166,11 +2167,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 111.6,
-        "blocksTravelled": 207002,
+        "blocksTravelled": 207647,
         "blocksBroken": 8361,
         "blocksPlaced": 536,
         "deepestY": 1,
-        "lastSeen": 1786566568,
+        "lastSeen": 1786566683,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2484,10 +2485,10 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 707,
-        "mealsEaten": 1454,
-        "caloriesConsumed": 194495,
-        "lastMeal": "Redcurrant",
+        "mobKills": 709,
+        "mealsEaten": 1459,
+        "caloriesConsumed": 194895,
+        "lastMeal": "Liberty cap",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
@@ -2522,9 +2523,9 @@
           "Honeycomb": 2,
           "Green cracked russula": 13,
           "Violet web cap": 2,
-          "Liberty cap": 1,
+          "Liberty cap": 5,
           "Green grapes": 65,
-          "King bolete": 4,
+          "King bolete": 5,
           "Chicken of the woods": 2,
           "Fennel": 20,
           "Gold-drop milkcap": 1,
@@ -2565,7 +2566,7 @@
         "foodCatCounts": {
           "Grain": 264,
           "Protein": 139,
-          "Vegetable": 234,
+          "Vegetable": 239,
           "Fruit": 1068,
           "Dairy": 65
         },
@@ -2579,11 +2580,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 470.1,
-        "blocksTravelled": 439956,
-        "blocksBroken": 21912,
+        "blocksTravelled": 440309,
+        "blocksBroken": 21914,
         "blocksPlaced": 8201,
         "deepestY": 1,
-        "lastSeen": 1786566568,
+        "lastSeen": 1786566683,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2790,12 +2791,12 @@
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 587.5,
-        "blocksTravelled": 368310,
+        "playtimeHours": 587.6,
+        "blocksTravelled": 368667,
         "blocksBroken": 13354,
         "blocksPlaced": 7971,
         "deepestY": 12,
-        "lastSeen": 1786566568,
+        "lastSeen": 1786566683,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
