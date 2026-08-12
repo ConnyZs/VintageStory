@@ -77,7 +77,7 @@
   }
  },
  "AddyBuschu": {
-  "hash": "aef96da24b759310f7731619dabaf073fc2a6dcf",
+  "hash": "9dc124697aab1140710d2007b8d8f90990f4878d",
   "info": {
    "class": "homesteader",
    "items": [
@@ -86,7 +86,6 @@
     "mustache",
     "beard",
     "facialexpression",
-    "Red fox fur trapper hat",
     "Rotwalker cape",
     "Rotwalker cape",
     "Tattered crimson tunic",
@@ -101,7 +100,7 @@
     "Fur coat"
    ],
    "frames": 16,
-   "v": 1786393740
+   "v": 1786563448
   }
  },
  "Barberschascher": {
