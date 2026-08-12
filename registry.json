@@ -1,5 +1,5 @@
 {
-  "generated": "20260813-003916",
+  "generated": "20260813-004116",
   "game_version": "1.22.5",
   "check_ts": "20260811-200057",
   "latest_engine": "1.22.6",
@@ -2128,13 +2128,13 @@
         "class": "tinker",
         "deaths": 7,
         "mobKills": 182,
-        "mealsEaten": 164,
-        "caloriesConsumed": 70576,
-        "lastMeal": "Pear",
+        "mealsEaten": 165,
+        "caloriesConsumed": 71644,
+        "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Pear": 22,
           "Meat pie": 10,
-          "Earthy orange ceramic bowl of meat stew": 25,
+          "Earthy orange ceramic bowl of meat stew": 26,
           "Strawberry": 2,
           "Blackcurrant": 3,
           "Rye bread": 1,
@@ -2158,8 +2158,8 @@
         "foodCatCounts": {
           "Fruit": 110,
           "Grain": 77,
-          "Protein": 51,
-          "Vegetable": 41,
+          "Protein": 52,
+          "Vegetable": 42,
           "Dairy": 41
         },
         "deathCauses": {
@@ -2169,11 +2169,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 113.7,
-        "blocksTravelled": 223639,
+        "blocksTravelled": 223723,
         "blocksBroken": 8448,
         "blocksPlaced": 574,
         "deepestY": 1,
-        "lastSeen": 1786574248,
+        "lastSeen": 1786574421,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
