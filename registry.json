@@ -1,5 +1,5 @@
 {
-  "generated": "20260812-205502",
+  "generated": "20260812-205702",
   "game_version": "1.22.5",
   "check_ts": "20260811-200057",
   "latest_engine": "1.22.6",
@@ -2485,8 +2485,8 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 691,
-        "mealsEaten": 1318,
-        "caloriesConsumed": 182397,
+        "mealsEaten": 1330,
+        "caloriesConsumed": 183357,
         "lastMeal": "Red grapes",
         "mealsByName": {
           "Meat pie": 45,
@@ -2528,7 +2528,7 @@
           "Chicken of the woods": 2,
           "Fennel": 20,
           "Gold-drop milkcap": 1,
-          "Red grapes": 70,
+          "Red grapes": 82,
           "Whitecurrant": 7,
           "Bearded tooth": 5,
           "Rice grain": 13,
@@ -2566,7 +2566,7 @@
           "Grain": 264,
           "Protein": 132,
           "Vegetable": 230,
-          "Fruit": 939,
+          "Fruit": 951,
           "Dairy": 65
         },
         "deathCauses": {
@@ -2579,11 +2579,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 468.5,
-        "blocksTravelled": 423821,
+        "blocksTravelled": 424053,
         "blocksBroken": 21344,
         "blocksPlaced": 8047,
         "deepestY": 1,
-        "lastSeen": 1786560831,
+        "lastSeen": 1786560919,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2728,9 +2728,9 @@
         "class": "mason",
         "deaths": 2,
         "mobKills": 340,
-        "mealsEaten": 472,
-        "caloriesConsumed": 115154,
-        "lastMeal": "Earthy brown ceramic bowl of meat stew",
+        "mealsEaten": 479,
+        "caloriesConsumed": 115714,
+        "lastMeal": "Red grapes",
         "mealsByName": {
           "Cranberry": 25,
           "Meat pie": 20,
@@ -2757,7 +2757,7 @@
           "Blueberry pie": 12,
           "Fruit pie": 6,
           "Redcurrant pie": 9,
-          "Red grapes": 14,
+          "Red grapes": 21,
           "Black ceramic jug": 4,
           "Turnip": 8,
           "Spelt grain": 19,
@@ -2780,7 +2780,7 @@
           "Earthy brown ceramic bowl of meat stew": 2
         },
         "foodCatCounts": {
-          "Fruit": 275,
+          "Fruit": 282,
           "Grain": 195,
           "Protein": 124,
           "Vegetable": 105,
@@ -2790,12 +2790,12 @@
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 585.9,
-        "blocksTravelled": 350185,
+        "playtimeHours": 586.0,
+        "blocksTravelled": 350404,
         "blocksBroken": 13317,
         "blocksPlaced": 7943,
         "deepestY": 12,
-        "lastSeen": 1786560831,
+        "lastSeen": 1786560919,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
