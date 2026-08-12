@@ -55,8 +55,8 @@
     "beard",
     "facialexpression",
     "Rotwalker hood",
-    "Rotwalker cape",
-    "Rotwalker cape",
+    "Scribe hood",
+    "Scribe hood",
     "Tattered crimson tunic",
     "Marketeer pants",
     "Survivor gloves",
@@ -69,7 +69,7 @@
     "Fur coat"
    ],
    "frames": 16,
-   "v": 1786563567
+   "v": 1786572097
   },
   "Moritz": {
    "class": "mason",

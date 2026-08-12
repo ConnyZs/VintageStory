@@ -1,5 +1,5 @@
 {
-  "generated": "20260812-235914",
+  "generated": "20260813-000114",
   "game_version": "1.22.5",
   "check_ts": "20260811-200057",
   "latest_engine": "1.22.6",
@@ -2168,12 +2168,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 113.0,
-        "blocksTravelled": 222615,
+        "playtimeHours": 113.1,
+        "blocksTravelled": 222855,
         "blocksBroken": 8447,
         "blocksPlaced": 570,
         "deepestY": 1,
-        "lastSeen": 1786571847,
+        "lastSeen": 1786572005,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2582,14 +2582,14 @@
           "shiver-surface": 1
         },
         "playtimeHours": 471.5,
-        "blocksTravelled": 453358,
+        "blocksTravelled": 453407,
         "blocksBroken": 21995,
-        "blocksPlaced": 8259,
+        "blocksPlaced": 8263,
         "deepestY": 1,
-        "lastSeen": 1786571847,
+        "lastSeen": 1786572005,
         "gear": [
           "Rotwalker hood",
-          "Rotwalker cape",
+          "Scribe hood",
           "Tattered crimson tunic",
           "Marketeer pants",
           "Nadiyan miner boots",
@@ -2612,9 +2612,9 @@
           },
           {
             "slot": "shoulder",
-            "code": "game:clothes-shoulder-rotwalker",
-            "name": "Rotwalker cape",
-            "icon": "character/icons/shoulder-rotwalker.png"
+            "code": "game:clothes-shoulder-scribe",
+            "name": "Scribe hood",
+            "icon": "character/icons/shoulder-scribe.png"
           },
           {
             "slot": "upperbody",
@@ -2794,11 +2794,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 589.0,
-        "blocksTravelled": 382405,
-        "blocksBroken": 13398,
-        "blocksPlaced": 7983,
+        "blocksTravelled": 382618,
+        "blocksBroken": 13406,
+        "blocksPlaced": 7991,
         "deepestY": 12,
-        "lastSeen": 1786571847,
+        "lastSeen": 1786572005,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
