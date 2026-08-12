@@ -82,7 +82,7 @@
     "Miner cape",
     "Linen tunic",
     "Workmans pants",
-    "Forlorn Hope shoes",
+    "Squire boots",
     "Scribe gloves",
     "Gold gear amulet",
     "Messenger pin",
@@ -93,7 +93,7 @@
     "Fur coat"
    ],
    "frames": 16,
-   "v": 1786308633
+   "v": 1786567411
   },
   "Barberschascher": {
    "class": "miner",

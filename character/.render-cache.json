@@ -50,7 +50,7 @@
   }
  },
  "Moritz": {
-  "hash": "55cf54ed863ccfddcafb33569376a9a4a0379ea7",
+  "hash": "26199d4fb1e2779bce48ff636a3e62e8526527c2",
   "info": {
    "class": "mason",
    "items": [
@@ -62,7 +62,7 @@
     "Miner cape",
     "Linen tunic",
     "Workmans pants",
-    "Forlorn Hope shoes",
+    "Squire boots",
     "Scribe gloves",
     "Gold gear amulet",
     "Messenger pin",
@@ -73,7 +73,7 @@
     "Fur coat"
    ],
    "frames": 16,
-   "v": 1786308633
+   "v": 1786567411
   }
  },
  "AddyBuschu": {

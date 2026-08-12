@@ -1,5 +1,5 @@
 {
-  "generated": "20260812-224109",
+  "generated": "20260812-224309",
   "game_version": "1.22.5",
   "check_ts": "20260811-200057",
   "latest_engine": "1.22.6",
@@ -2166,12 +2166,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 111.7,
-        "blocksTravelled": 209595,
-        "blocksBroken": 8379,
+        "playtimeHours": 111.8,
+        "blocksTravelled": 209776,
+        "blocksBroken": 8383,
         "blocksPlaced": 554,
         "deepestY": 1,
-        "lastSeen": 1786567172,
+        "lastSeen": 1786567284,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2580,11 +2580,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 470.2,
-        "blocksTravelled": 441792,
+        "blocksTravelled": 441793,
         "blocksBroken": 21914,
         "blocksPlaced": 8203,
         "deepestY": 1,
-        "lastSeen": 1786567182,
+        "lastSeen": 1786567313,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2728,7 +2728,7 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 2,
-        "mobKills": 364,
+        "mobKills": 366,
         "mealsEaten": 484,
         "caloriesConsumed": 119448,
         "lastMeal": "Earthy brown ceramic bowl of meat stew",
@@ -2792,17 +2792,17 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 587.7,
-        "blocksTravelled": 370490,
+        "blocksTravelled": 370610,
         "blocksBroken": 13354,
         "blocksPlaced": 7971,
         "deepestY": 12,
-        "lastSeen": 1786567172,
+        "lastSeen": 1786567284,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
           "Linen tunic",
           "Workmans pants",
-          "Forlorn Hope shoes",
+          "Squire boots",
           "Scribe gloves",
           "Gold gear amulet",
           "Messenger pin",
@@ -2838,9 +2838,9 @@
           },
           {
             "slot": "foot",
-            "code": "game:clothes-foot-forlorn-shoes",
-            "name": "Forlorn Hope shoes",
-            "icon": "character/icons/foot-forlorn-shoes.png"
+            "code": "game:clothes-foot-squire-boots",
+            "name": "Squire boots",
+            "icon": "character/icons/foot-squire-boots.png"
           },
           {
             "slot": "hand",
