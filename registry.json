@@ -1,5 +1,5 @@
 {
-  "generated": "20260813-000714",
+  "generated": "20260813-000914",
   "game_version": "1.22.5",
   "check_ts": "20260811-200057",
   "latest_engine": "1.22.6",
@@ -2169,11 +2169,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 113.2,
-        "blocksTravelled": 222990,
+        "blocksTravelled": 223031,
         "blocksBroken": 8447,
         "blocksPlaced": 570,
         "deepestY": 1,
-        "lastSeen": 1786572327,
+        "lastSeen": 1786572447,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2581,12 +2581,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 471.6,
-        "blocksTravelled": 453854,
-        "blocksBroken": 22000,
-        "blocksPlaced": 8269,
+        "playtimeHours": 471.7,
+        "blocksTravelled": 453939,
+        "blocksBroken": 22002,
+        "blocksPlaced": 8271,
         "deepestY": 1,
-        "lastSeen": 1786572327,
+        "lastSeen": 1786572447,
         "gear": [
           "Rotwalker hood",
           "Scribe hood",
@@ -2731,8 +2731,8 @@
         "class": "mason",
         "deaths": 2,
         "mobKills": 368,
-        "mealsEaten": 492,
-        "caloriesConsumed": 124522,
+        "mealsEaten": 493,
+        "caloriesConsumed": 125552,
         "lastMeal": "Earthy brown ceramic bowl of meat stew",
         "mealsByName": {
           "Cranberry": 25,
@@ -2780,25 +2780,25 @@
           "Wavy cap": 4,
           "Chanterelle": 2,
           "Rye grain": 15,
-          "Earthy brown ceramic bowl of meat stew": 13
+          "Earthy brown ceramic bowl of meat stew": 14
         },
         "foodCatCounts": {
           "Fruit": 283,
           "Grain": 196,
-          "Protein": 136,
-          "Vegetable": 117,
+          "Protein": 137,
+          "Vegetable": 118,
           "Dairy": 65
         },
         "deathCauses": {
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 589.1,
-        "blocksTravelled": 383001,
-        "blocksBroken": 13449,
-        "blocksPlaced": 8050,
+        "playtimeHours": 589.2,
+        "blocksTravelled": 383179,
+        "blocksBroken": 13456,
+        "blocksPlaced": 8065,
         "deepestY": 12,
-        "lastSeen": 1786572327,
+        "lastSeen": 1786572447,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
