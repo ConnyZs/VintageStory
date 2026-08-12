@@ -1,5 +1,5 @@
 {
-  "generated": "20260812-231511",
+  "generated": "20260812-231711",
   "game_version": "1.22.5",
   "check_ts": "20260811-200057",
   "latest_engine": "1.22.6",
@@ -2169,11 +2169,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 112.3,
-        "blocksTravelled": 216839,
+        "blocksTravelled": 217056,
         "blocksBroken": 8447,
         "blocksPlaced": 569,
         "deepestY": 1,
-        "lastSeen": 1786569286,
+        "lastSeen": 1786569325,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2487,7 +2487,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 712,
+        "mobKills": 713,
         "mealsEaten": 1472,
         "caloriesConsumed": 197873,
         "lastMeal": "Earthy brown ceramic bowl of meat stew",
@@ -2582,11 +2582,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 470.8,
-        "blocksTravelled": 447639,
+        "blocksTravelled": 447811,
         "blocksBroken": 21951,
         "blocksPlaced": 8223,
         "deepestY": 1,
-        "lastSeen": 1786569286,
+        "lastSeen": 1786569325,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2794,11 +2794,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 588.3,
-        "blocksTravelled": 376573,
+        "blocksTravelled": 376749,
         "blocksBroken": 13384,
         "blocksPlaced": 7971,
         "deepestY": 12,
-        "lastSeen": 1786569286,
+        "lastSeen": 1786569325,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
