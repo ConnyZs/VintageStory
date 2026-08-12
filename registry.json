@@ -1,5 +1,5 @@
 {
-  "generated": "20260812-225710",
+  "generated": "20260812-225910",
   "game_version": "1.22.5",
   "check_ts": "20260811-200057",
   "latest_engine": "1.22.6",
@@ -2128,9 +2128,9 @@
         "class": "tinker",
         "deaths": 7,
         "mobKills": 181,
-        "mealsEaten": 132,
-        "caloriesConsumed": 61370,
-        "lastMeal": "Syrup-covered fruit bread",
+        "mealsEaten": 136,
+        "caloriesConsumed": 62894,
+        "lastMeal": "Earthy brown ceramic bowl of meat stew",
         "mealsByName": {
           "Pear": 3,
           "Meat pie": 10,
@@ -2151,13 +2151,15 @@
           "Black ceramic jug": 1,
           "Blueberry": 9,
           "Blackberry": 2,
-          "Lump of rendered fat": 3
+          "Lump of rendered fat": 3,
+          "King bolete": 2,
+          "Earthy brown ceramic bowl of meat stew": 2
         },
         "foodCatCounts": {
           "Fruit": 90,
           "Grain": 76,
-          "Protein": 41,
-          "Vegetable": 29,
+          "Protein": 43,
+          "Vegetable": 33,
           "Dairy": 41
         },
         "deathCauses": {
@@ -2167,11 +2169,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 112.0,
-        "blocksTravelled": 212299,
-        "blocksBroken": 8440,
+        "blocksTravelled": 213097,
+        "blocksBroken": 8442,
         "blocksPlaced": 554,
         "deepestY": 1,
-        "lastSeen": 1786568124,
+        "lastSeen": 1786568244,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2486,8 +2488,8 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 712,
-        "mealsEaten": 1465,
-        "caloriesConsumed": 195541,
+        "mealsEaten": 1466,
+        "caloriesConsumed": 195709,
         "lastMeal": "Earthy brown ceramic bowl of meat stew",
         "mealsByName": {
           "Meat pie": 45,
@@ -2561,12 +2563,12 @@
           "Termites": 15,
           "Saguaro fruit": 6,
           "Blue meanie": 2,
-          "Earthy brown ceramic bowl of meat stew": 6
+          "Earthy brown ceramic bowl of meat stew": 7
         },
         "foodCatCounts": {
           "Grain": 264,
-          "Protein": 140,
-          "Vegetable": 245,
+          "Protein": 141,
+          "Vegetable": 246,
           "Fruit": 1068,
           "Dairy": 65
         },
@@ -2580,11 +2582,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 470.5,
-        "blocksTravelled": 444293,
-        "blocksBroken": 21935,
+        "blocksTravelled": 444330,
+        "blocksBroken": 21937,
         "blocksPlaced": 8222,
         "deepestY": 1,
-        "lastSeen": 1786568124,
+        "lastSeen": 1786568244,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2729,8 +2731,8 @@
         "class": "mason",
         "deaths": 2,
         "mobKills": 366,
-        "mealsEaten": 485,
-        "caloriesConsumed": 119776,
+        "mealsEaten": 487,
+        "caloriesConsumed": 121272,
         "lastMeal": "Earthy brown ceramic bowl of meat stew",
         "mealsByName": {
           "Cranberry": 25,
@@ -2778,13 +2780,13 @@
           "Wavy cap": 4,
           "Chanterelle": 2,
           "Rye grain": 15,
-          "Earthy brown ceramic bowl of meat stew": 8
+          "Earthy brown ceramic bowl of meat stew": 10
         },
         "foodCatCounts": {
           "Fruit": 282,
           "Grain": 195,
-          "Protein": 130,
-          "Vegetable": 111,
+          "Protein": 132,
+          "Vegetable": 113,
           "Dairy": 65
         },
         "deathCauses": {
@@ -2792,11 +2794,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 588.0,
-        "blocksTravelled": 372590,
+        "blocksTravelled": 373186,
         "blocksBroken": 13383,
         "blocksPlaced": 7971,
         "deepestY": 12,
-        "lastSeen": 1786568124,
+        "lastSeen": 1786568244,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
