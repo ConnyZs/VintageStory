@@ -1,5 +1,5 @@
 {
-  "generated": "20260812-225310",
+  "generated": "20260812-225510",
   "game_version": "1.22.5",
   "check_ts": "20260811-200057",
   "latest_engine": "1.22.6",
@@ -2166,12 +2166,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 111.9,
-        "blocksTravelled": 211336,
-        "blocksBroken": 8430,
+        "playtimeHours": 112.0,
+        "blocksTravelled": 212136,
+        "blocksBroken": 8435,
         "blocksPlaced": 554,
         "deepestY": 1,
-        "lastSeen": 1786567884,
+        "lastSeen": 1786568078,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2486,9 +2486,9 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 712,
-        "mealsEaten": 1464,
-        "caloriesConsumed": 195295,
-        "lastMeal": "Liberty cap",
+        "mealsEaten": 1465,
+        "caloriesConsumed": 195541,
+        "lastMeal": "Earthy brown ceramic bowl of meat stew",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
@@ -2561,12 +2561,12 @@
           "Termites": 15,
           "Saguaro fruit": 6,
           "Blue meanie": 2,
-          "Earthy brown ceramic bowl of meat stew": 5
+          "Earthy brown ceramic bowl of meat stew": 6
         },
         "foodCatCounts": {
           "Grain": 264,
-          "Protein": 139,
-          "Vegetable": 244,
+          "Protein": 140,
+          "Vegetable": 245,
           "Fruit": 1068,
           "Dairy": 65
         },
@@ -2579,12 +2579,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 470.4,
-        "blocksTravelled": 443749,
+        "playtimeHours": 470.5,
+        "blocksTravelled": 444274,
         "blocksBroken": 21935,
-        "blocksPlaced": 8203,
+        "blocksPlaced": 8222,
         "deepestY": 1,
-        "lastSeen": 1786567884,
+        "lastSeen": 1786568078,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2791,12 +2791,12 @@
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 587.9,
-        "blocksTravelled": 371562,
+        "playtimeHours": 588.0,
+        "blocksTravelled": 372358,
         "blocksBroken": 13383,
         "blocksPlaced": 7971,
         "deepestY": 12,
-        "lastSeen": 1786567884,
+        "lastSeen": 1786568078,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
