@@ -1,5 +1,5 @@
 {
-  "generated": "20260813-002515",
+  "generated": "20260813-002715",
   "game_version": "1.22.5",
   "check_ts": "20260811-200057",
   "latest_engine": "1.22.6",
@@ -2169,11 +2169,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 113.5,
-        "blocksTravelled": 223435,
+        "blocksTravelled": 223469,
         "blocksBroken": 8447,
         "blocksPlaced": 573,
         "deepestY": 1,
-        "lastSeen": 1786573515,
+        "lastSeen": 1786573528,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2731,16 +2731,16 @@
         "class": "mason",
         "deaths": 2,
         "mobKills": 368,
-        "mealsEaten": 496,
-        "caloriesConsumed": 125792,
-        "lastMeal": "Earthy brown ceramic jug",
+        "mealsEaten": 498,
+        "caloriesConsumed": 127288,
+        "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Cranberry": 25,
           "Meat pie": 20,
           "Cranberry pie": 8,
           "Earthy orange ceramic bowl of soup": 7,
           "Wooden bucket": 1,
-          "Earthy orange ceramic bowl of meat stew": 69,
+          "Earthy orange ceramic bowl of meat stew": 71,
           "Chopped cabbage": 1,
           "Pear": 4,
           "Rye bread": 3,
@@ -2786,8 +2786,8 @@
         "foodCatCounts": {
           "Fruit": 286,
           "Grain": 196,
-          "Protein": 137,
-          "Vegetable": 118,
+          "Protein": 139,
+          "Vegetable": 120,
           "Dairy": 65
         },
         "deathCauses": {
@@ -2795,11 +2795,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 589.5,
-        "blocksTravelled": 384092,
-        "blocksBroken": 13465,
-        "blocksPlaced": 8086,
+        "blocksTravelled": 384285,
+        "blocksBroken": 13467,
+        "blocksPlaced": 8087,
         "deepestY": 12,
-        "lastSeen": 1786573515,
+        "lastSeen": 1786573528,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
