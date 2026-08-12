@@ -54,6 +54,7 @@
     "mustache",
     "beard",
     "facialexpression",
+    "Rotwalker hood",
     "Rotwalker cape",
     "Rotwalker cape",
     "Tattered crimson tunic",
@@ -68,7 +69,7 @@
     "Fur coat"
    ],
    "frames": 16,
-   "v": 1786563448
+   "v": 1786563567
   },
   "Moritz": {
    "class": "mason",
