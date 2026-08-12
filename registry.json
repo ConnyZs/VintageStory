@@ -1,5 +1,5 @@
 {
-  "generated": "20260812-223309",
+  "generated": "20260812-223509",
   "game_version": "1.22.5",
   "check_ts": "20260811-200057",
   "latest_engine": "1.22.6",
@@ -2166,12 +2166,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 111.6,
-        "blocksTravelled": 207647,
+        "playtimeHours": 111.7,
+        "blocksTravelled": 208098,
         "blocksBroken": 8361,
-        "blocksPlaced": 536,
+        "blocksPlaced": 542,
         "deepestY": 1,
-        "lastSeen": 1786566683,
+        "lastSeen": 1786566870,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2485,9 +2485,9 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 709,
-        "mealsEaten": 1459,
-        "caloriesConsumed": 194895,
+        "mobKills": 710,
+        "mealsEaten": 1460,
+        "caloriesConsumed": 194975,
         "lastMeal": "Liberty cap",
         "mealsByName": {
           "Meat pie": 45,
@@ -2523,7 +2523,7 @@
           "Honeycomb": 2,
           "Green cracked russula": 13,
           "Violet web cap": 2,
-          "Liberty cap": 5,
+          "Liberty cap": 6,
           "Green grapes": 65,
           "King bolete": 5,
           "Chicken of the woods": 2,
@@ -2566,7 +2566,7 @@
         "foodCatCounts": {
           "Grain": 264,
           "Protein": 139,
-          "Vegetable": 239,
+          "Vegetable": 240,
           "Fruit": 1068,
           "Dairy": 65
         },
@@ -2579,12 +2579,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 470.1,
-        "blocksTravelled": 440309,
+        "playtimeHours": 470.2,
+        "blocksTravelled": 440655,
         "blocksBroken": 21914,
         "blocksPlaced": 8201,
         "deepestY": 1,
-        "lastSeen": 1786566683,
+        "lastSeen": 1786566870,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2792,11 +2792,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 587.6,
-        "blocksTravelled": 368667,
+        "blocksTravelled": 369086,
         "blocksBroken": 13354,
         "blocksPlaced": 7971,
         "deepestY": 12,
-        "lastSeen": 1786566683,
+        "lastSeen": 1786566870,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
