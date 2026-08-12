@@ -1,5 +1,5 @@
 {
-  "generated": "20260812-230711",
+  "generated": "20260812-230911",
   "game_version": "1.22.5",
   "check_ts": "20260811-200057",
   "latest_engine": "1.22.6",
@@ -2169,11 +2169,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 112.2,
-        "blocksTravelled": 214720,
+        "blocksTravelled": 215693,
         "blocksBroken": 8444,
         "blocksPlaced": 569,
         "deepestY": 1,
-        "lastSeen": 1786568725,
+        "lastSeen": 1786568845,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2488,8 +2488,8 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 712,
-        "mealsEaten": 1469,
-        "caloriesConsumed": 196385,
+        "mealsEaten": 1470,
+        "caloriesConsumed": 196425,
         "lastMeal": "Earthy brown ceramic bowl of meat stew",
         "mealsByName": {
           "Meat pie": 45,
@@ -2563,12 +2563,12 @@
           "Termites": 15,
           "Saguaro fruit": 6,
           "Blue meanie": 2,
-          "Earthy brown ceramic bowl of meat stew": 10
+          "Earthy brown ceramic bowl of meat stew": 11
         },
         "foodCatCounts": {
           "Grain": 264,
-          "Protein": 144,
-          "Vegetable": 249,
+          "Protein": 145,
+          "Vegetable": 250,
           "Fruit": 1068,
           "Dairy": 65
         },
@@ -2581,12 +2581,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 470.6,
-        "blocksTravelled": 445568,
-        "blocksBroken": 21941,
+        "playtimeHours": 470.7,
+        "blocksTravelled": 446218,
+        "blocksBroken": 21951,
         "blocksPlaced": 8223,
         "deepestY": 1,
-        "lastSeen": 1786568725,
+        "lastSeen": 1786568845,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2730,7 +2730,7 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 2,
-        "mobKills": 366,
+        "mobKills": 367,
         "mealsEaten": 487,
         "caloriesConsumed": 121272,
         "lastMeal": "Earthy brown ceramic bowl of meat stew",
@@ -2793,12 +2793,12 @@
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 588.1,
-        "blocksTravelled": 374872,
+        "playtimeHours": 588.2,
+        "blocksTravelled": 375625,
         "blocksBroken": 13383,
         "blocksPlaced": 7971,
         "deepestY": 12,
-        "lastSeen": 1786568725,
+        "lastSeen": 1786568845,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
