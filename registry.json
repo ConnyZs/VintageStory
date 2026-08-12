@@ -1,5 +1,5 @@
 {
-  "generated": "20260812-210303",
+  "generated": "20260812-210503",
   "game_version": "1.22.5",
   "check_ts": "20260811-200057",
   "latest_engine": "1.22.6",
@@ -2485,9 +2485,9 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 693,
-        "mealsEaten": 1331,
-        "caloriesConsumed": 183437,
-        "lastMeal": "Redcurrant",
+        "mealsEaten": 1340,
+        "caloriesConsumed": 184157,
+        "lastMeal": "Beautyberry",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
@@ -2502,7 +2502,7 @@
           "Pear pie": 4,
           "Cooked dumplings": 7,
           "Almond mushroom": 1,
-          "Redcurrant": 207,
+          "Redcurrant": 209,
           "Carrot": 7,
           "Field mushroom": 1,
           "Turnip": 16,
@@ -2552,7 +2552,7 @@
           "Redcurrant pie": 4,
           "Syrup-covered fruit bread": 30,
           "Black ceramic jug": 1,
-          "Beautyberry": 238,
+          "Beautyberry": 245,
           "Amaranth grain": 12,
           "Reishi": 1,
           "Wavy cap": 1,
@@ -2566,7 +2566,7 @@
           "Grain": 264,
           "Protein": 132,
           "Vegetable": 230,
-          "Fruit": 952,
+          "Fruit": 961,
           "Dairy": 65
         },
         "deathCauses": {
@@ -2579,11 +2579,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 468.6,
-        "blocksTravelled": 425409,
+        "blocksTravelled": 425600,
         "blocksBroken": 21361,
         "blocksPlaced": 8063,
         "deepestY": 1,
-        "lastSeen": 1786561279,
+        "lastSeen": 1786561435,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2791,11 +2791,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 586.1,
-        "blocksTravelled": 351793,
+        "blocksTravelled": 352026,
         "blocksBroken": 13323,
         "blocksPlaced": 7948,
         "deepestY": 12,
-        "lastSeen": 1786561279,
+        "lastSeen": 1786561435,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
