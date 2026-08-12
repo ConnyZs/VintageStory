@@ -1,5 +1,5 @@
 {
-  "generated": "20260812-215906",
+  "generated": "20260812-220107",
   "game_version": "1.22.5",
   "check_ts": "20260811-200057",
   "latest_engine": "1.22.6",
@@ -2120,7 +2120,7 @@
       "name": "Raschuetzer",
       "role": "admin",
       "first_join": "04/22/2026 17:47",
-      "last_join": "08/04/2026 20:08",
+      "last_join": "08/12/2026 19:57",
       "last_char": "04/29/2026 21:30",
       "stats": {
         "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
@@ -2165,12 +2165,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 111.0,
-        "blocksTravelled": 200351,
+        "playtimeHours": 111.1,
+        "blocksTravelled": 200602,
         "blocksBroken": 8190,
         "blocksPlaced": 534,
         "deepestY": 1,
-        "lastSeen": 1786564694,
+        "lastSeen": 1786564762,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2485,8 +2485,8 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 706,
-        "mealsEaten": 1381,
-        "caloriesConsumed": 187437,
+        "mealsEaten": 1382,
+        "caloriesConsumed": 187517,
         "lastMeal": "Redcurrant",
         "mealsByName": {
           "Meat pie": 45,
@@ -2502,7 +2502,7 @@
           "Pear pie": 4,
           "Cooked dumplings": 7,
           "Almond mushroom": 1,
-          "Redcurrant": 213,
+          "Redcurrant": 214,
           "Carrot": 7,
           "Field mushroom": 1,
           "Turnip": 16,
@@ -2566,7 +2566,7 @@
           "Grain": 264,
           "Protein": 132,
           "Vegetable": 230,
-          "Fruit": 1002,
+          "Fruit": 1003,
           "Dairy": 65
         },
         "deathCauses": {
@@ -2578,12 +2578,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 469.5,
-        "blocksTravelled": 432370,
+        "playtimeHours": 469.6,
+        "blocksTravelled": 432698,
         "blocksBroken": 21889,
         "blocksPlaced": 8196,
         "deepestY": 1,
-        "lastSeen": 1786564642,
+        "lastSeen": 1786564762,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2791,11 +2791,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 587.0,
-        "blocksTravelled": 360789,
+        "blocksTravelled": 361158,
         "blocksBroken": 13353,
         "blocksPlaced": 7967,
         "deepestY": 12,
-        "lastSeen": 1786564642,
+        "lastSeen": 1786564762,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
