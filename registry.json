@@ -1,5 +1,5 @@
 {
-  "generated": "20260812-220907",
+  "generated": "20260812-221107",
   "game_version": "1.22.5",
   "check_ts": "20260811-200057",
   "latest_engine": "1.22.6",
@@ -2166,11 +2166,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 111.2,
-        "blocksTravelled": 202655,
+        "blocksTravelled": 203060,
         "blocksBroken": 8191,
         "blocksPlaced": 536,
         "deepestY": 1,
-        "lastSeen": 1786565242,
+        "lastSeen": 1786565362,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2484,9 +2484,9 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 706,
-        "mealsEaten": 1399,
-        "caloriesConsumed": 189117,
+        "mobKills": 707,
+        "mealsEaten": 1422,
+        "caloriesConsumed": 190957,
         "lastMeal": "Redcurrant",
         "mealsByName": {
           "Meat pie": 45,
@@ -2502,7 +2502,7 @@
           "Pear pie": 4,
           "Cooked dumplings": 7,
           "Almond mushroom": 1,
-          "Redcurrant": 222,
+          "Redcurrant": 238,
           "Carrot": 7,
           "Field mushroom": 1,
           "Turnip": 16,
@@ -2552,7 +2552,7 @@
           "Redcurrant pie": 4,
           "Syrup-covered fruit bread": 30,
           "Black ceramic jug": 1,
-          "Beautyberry": 261,
+          "Beautyberry": 268,
           "Amaranth grain": 12,
           "Reishi": 1,
           "Wavy cap": 1,
@@ -2566,7 +2566,7 @@
           "Grain": 264,
           "Protein": 134,
           "Vegetable": 230,
-          "Fruit": 1018,
+          "Fruit": 1041,
           "Dairy": 65
         },
         "deathCauses": {
@@ -2579,11 +2579,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 469.7,
-        "blocksTravelled": 434655,
+        "blocksTravelled": 435425,
         "blocksBroken": 21898,
         "blocksPlaced": 8200,
         "deepestY": 1,
-        "lastSeen": 1786565242,
+        "lastSeen": 1786565362,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2791,11 +2791,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 587.2,
-        "blocksTravelled": 363319,
+        "blocksTravelled": 363634,
         "blocksBroken": 13354,
-        "blocksPlaced": 7968,
+        "blocksPlaced": 7971,
         "deepestY": 12,
-        "lastSeen": 1786565242,
+        "lastSeen": 1786565362,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
