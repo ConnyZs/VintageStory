@@ -1,5 +1,5 @@
 {
-  "generated": "20260812-212104",
+  "generated": "20260812-212304",
   "game_version": "1.22.5",
   "check_ts": "20260811-200057",
   "latest_engine": "1.22.6",
@@ -2484,7 +2484,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 695,
+        "mobKills": 696,
         "mealsEaten": 1340,
         "caloriesConsumed": 184157,
         "lastMeal": "Beautyberry",
@@ -2579,11 +2579,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 468.9,
-        "blocksTravelled": 426328,
-        "blocksBroken": 21748,
-        "blocksPlaced": 8141,
+        "blocksTravelled": 426453,
+        "blocksBroken": 21801,
+        "blocksPlaced": 8160,
         "deepestY": 1,
-        "lastSeen": 1786562360,
+        "lastSeen": 1786562480,
         "gear": [
           "Red fox fur trapper hat",
           "Rotwalker cape",
@@ -2791,11 +2791,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 586.4,
-        "blocksTravelled": 354959,
+        "blocksTravelled": 355174,
         "blocksBroken": 13326,
         "blocksPlaced": 7949,
         "deepestY": 12,
-        "lastSeen": 1786562360,
+        "lastSeen": 1786562480,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
