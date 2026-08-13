@@ -1,5 +1,5 @@
 {
-  "generated": "20260813-221840",
+  "generated": "20260813-222040",
   "game_version": "1.22.5",
   "check_ts": "20260813-200057",
   "latest_engine": "1.22.6",
@@ -2127,7 +2127,7 @@
         "name": "Raschuetzer",
         "class": "tinker",
         "deaths": 7,
-        "mobKills": 186,
+        "mobKills": 187,
         "mealsEaten": 173,
         "caloriesConsumed": 75366,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
@@ -2170,11 +2170,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 135.4,
-        "blocksTravelled": 226080,
+        "blocksTravelled": 226187,
         "blocksBroken": 8463,
-        "blocksPlaced": 580,
+        "blocksPlaced": 583,
         "deepestY": 1,
-        "lastSeen": 1786652284,
+        "lastSeen": 1786652404,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2488,10 +2488,10 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 730,
-        "mealsEaten": 1495,
-        "caloriesConsumed": 209003,
-        "lastMeal": "Earthy orange ceramic bowl of meat stew",
+        "mobKills": 731,
+        "mealsEaten": 1500,
+        "caloriesConsumed": 210239,
+        "lastMeal": "Earthy orange ceramic bowl of jam",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
@@ -2544,7 +2544,7 @@
           "Spelt grain": 31,
           "Smoked Plain Primemeat": 11,
           "Blackberry pie": 8,
-          "Earthy orange ceramic bowl of jam": 4,
+          "Earthy orange ceramic bowl of jam": 9,
           "Cabbage": 1,
           "Earthy orange ceramic bowl of soup": 3,
           "Fruit pie": 10,
@@ -2570,7 +2570,7 @@
           "Grain": 271,
           "Protein": 163,
           "Vegetable": 268,
-          "Fruit": 1071,
+          "Fruit": 1076,
           "Dairy": 65
         },
         "deathCauses": {
@@ -2583,11 +2583,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 493.7,
-        "blocksTravelled": 464228,
+        "blocksTravelled": 464314,
         "blocksBroken": 22622,
         "blocksPlaced": 8389,
         "deepestY": 1,
-        "lastSeen": 1786652284,
+        "lastSeen": 1786652404,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2795,12 +2795,12 @@
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 610.3,
-        "blocksTravelled": 401968,
+        "playtimeHours": 610.4,
+        "blocksTravelled": 402178,
         "blocksBroken": 14074,
         "blocksPlaced": 8686,
         "deepestY": 12,
-        "lastSeen": 1786652284,
+        "lastSeen": 1786652404,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
