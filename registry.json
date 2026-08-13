@@ -1,5 +1,5 @@
 {
-  "generated": "20260813-232644",
+  "generated": "20260813-232844",
   "game_version": "1.22.5",
   "check_ts": "20260813-200057",
   "latest_engine": "1.22.6",
@@ -2174,7 +2174,7 @@
         "blocksBroken": 8498,
         "blocksPlaced": 636,
         "deepestY": 1,
-        "lastSeen": 1786656402,
+        "lastSeen": 1786656486,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2489,13 +2489,13 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 731,
-        "mealsEaten": 1519,
-        "caloriesConsumed": 218915,
+        "mealsEaten": 1521,
+        "caloriesConsumed": 220413,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
-          "Earthy orange ceramic bowl of meat stew": 51,
+          "Earthy orange ceramic bowl of meat stew": 53,
           "Blueberry": 27,
           "Pear pie (charred)": 1,
           "Rye bread": 8,
@@ -2568,8 +2568,8 @@
         },
         "foodCatCounts": {
           "Grain": 271,
-          "Protein": 177,
-          "Vegetable": 282,
+          "Protein": 179,
+          "Vegetable": 284,
           "Fruit": 1081,
           "Dairy": 65
         },
@@ -2583,11 +2583,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 494.8,
-        "blocksTravelled": 468882,
+        "blocksTravelled": 469017,
         "blocksBroken": 24586,
         "blocksPlaced": 8599,
         "deepestY": 1,
-        "lastSeen": 1786656402,
+        "lastSeen": 1786656486,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2797,11 +2797,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 611.5,
-        "blocksTravelled": 407037,
-        "blocksBroken": 14277,
-        "blocksPlaced": 9216,
+        "blocksTravelled": 407127,
+        "blocksBroken": 14283,
+        "blocksPlaced": 9219,
         "deepestY": 12,
-        "lastSeen": 1786656402,
+        "lastSeen": 1786656486,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
