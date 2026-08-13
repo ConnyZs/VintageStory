@@ -77,7 +77,7 @@
   }
  },
  "AddyBuschu": {
-  "hash": "ca76959c684841e7234d13c52d2122a4a404d559",
+  "hash": "0e44efbbdfda76e40007556e2cffb5f318a41644",
   "info": {
    "class": "homesteader",
    "items": [
@@ -85,10 +85,13 @@
     "hairextra",
     "mustache",
     "beard",
-    "facialexpression"
+    "facialexpression",
+    "Survivor gloves",
+    "Prince emblem",
+    "Leather bracers"
    ],
    "frames": 16,
-   "v": 1786645369
+   "v": 1786645487
   }
  },
  "Barberschascher": {

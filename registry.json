@@ -1,5 +1,5 @@
 {
-  "generated": "20260813-202232",
+  "generated": "20260813-202432",
   "game_version": "1.22.5",
   "check_ts": "20260813-200057",
   "latest_engine": "1.22.6",
@@ -2583,13 +2583,34 @@
           "shiver-surface": 1
         },
         "playtimeHours": 491.9,
-        "blocksTravelled": 455224,
+        "blocksTravelled": 455225,
         "blocksBroken": 22038,
         "blocksPlaced": 8285,
         "deepestY": 1,
-        "lastSeen": 1786645320,
-        "gear": [],
+        "lastSeen": 1786645440,
+        "gear": [
+          "Survivor gloves",
+          "Prince emblem",
+          "Leather bracers"
+        ],
         "gearDetail": [
+          {
+            "slot": "hand",
+            "code": "game:clothes-hand-survivor",
+            "name": "Survivor gloves",
+            "icon": "character/icons/hand-survivor.png"
+          },
+          {
+            "slot": "emblem",
+            "code": "game:clothes-emblem-royal-pin",
+            "name": "Prince emblem"
+          },
+          {
+            "slot": "arm",
+            "code": "game:clothes-arm-leather-bracers",
+            "name": "Leather bracers",
+            "icon": "character/icons/arm-leather-bracers.png"
+          },
           {
             "slot": "bag-1",
             "code": "game:backpack-normal",

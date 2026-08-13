@@ -53,10 +53,13 @@
     "hairextra",
     "mustache",
     "beard",
-    "facialexpression"
+    "facialexpression",
+    "Survivor gloves",
+    "Prince emblem",
+    "Leather bracers"
    ],
    "frames": 16,
-   "v": 1786645369
+   "v": 1786645487
   },
   "Moritz": {
    "class": "mason",
