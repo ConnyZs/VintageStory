@@ -1,5 +1,5 @@
 {
-  "generated": "20260813-202633",
+  "generated": "20260813-202833",
   "game_version": "1.22.5",
   "check_ts": "20260813-200057",
   "latest_engine": "1.22.6",
@@ -2583,18 +2583,26 @@
           "shiver-surface": 1
         },
         "playtimeHours": 492.0,
-        "blocksTravelled": 455225,
-        "blocksBroken": 22038,
-        "blocksPlaced": 8285,
+        "blocksTravelled": 455294,
+        "blocksBroken": 22043,
+        "blocksPlaced": 8288,
         "deepestY": 1,
-        "lastSeen": 1786645560,
+        "lastSeen": 1786645680,
         "gear": [
           "Rotwalker hood",
-          "Scribe hood",
+          "Rotwalker cape",
+          "Tattered crimson tunic",
+          "Nomad trousers",
           "Nadiyan miner boots",
           "Survivor gloves",
+          "Temporal gear amulet",
           "Prince emblem",
-          "Leather bracers"
+          "Sheep skull mask",
+          "Forlorn Hope belt",
+          "Leather bracers",
+          "Fur coat",
+          "Black bear hide helmet",
+          "Black bear hide body armor"
         ],
         "gearDetail": [
           {
@@ -2605,9 +2613,21 @@
           },
           {
             "slot": "shoulder",
-            "code": "game:clothes-shoulder-scribe",
-            "name": "Scribe hood",
-            "icon": "character/icons/shoulder-scribe.png"
+            "code": "game:clothes-shoulder-rotwalker",
+            "name": "Rotwalker cape",
+            "icon": "character/icons/shoulder-rotwalker.png"
+          },
+          {
+            "slot": "upperbody",
+            "code": "game:clothes-upperbody-tattered-crimson-tunic",
+            "name": "Tattered crimson tunic",
+            "icon": "character/icons/upperbody-tattered-crimson-tunic.png"
+          },
+          {
+            "slot": "lowerbody",
+            "code": "game:clothes-lowerbody-nomad-trousers",
+            "name": "Nomad trousers",
+            "icon": "character/icons/lowerbody-nomad-trousers.png"
           },
           {
             "slot": "foot",
@@ -2621,15 +2641,48 @@
             "icon": "character/icons/hand-survivor.png"
           },
           {
+            "slot": "neck",
+            "code": "game:clothes-neck-gear-amulet-temporal",
+            "name": "Temporal gear amulet"
+          },
+          {
             "slot": "emblem",
             "code": "game:clothes-emblem-royal-pin",
             "name": "Prince emblem"
+          },
+          {
+            "slot": "face",
+            "code": "game:clothes-face-sheepskull",
+            "name": "Sheep skull mask",
+            "icon": "character/icons/face-sheepskull.png"
+          },
+          {
+            "slot": "waist",
+            "code": "game:clothes-waist-forlorn-belt",
+            "name": "Forlorn Hope belt",
+            "icon": "character/icons/waist-forlorn-belt.png"
           },
           {
             "slot": "arm",
             "code": "game:clothes-arm-leather-bracers",
             "name": "Leather bracers",
             "icon": "character/icons/arm-leather-bracers.png"
+          },
+          {
+            "slot": "upperbodyover",
+            "code": "game:clothes-upperbodyover-fur-coat",
+            "name": "Fur coat",
+            "icon": "character/icons/upperbodyover-fur-coat.png"
+          },
+          {
+            "slot": "armorhead",
+            "code": "game:armor-head-hide-bear-black",
+            "name": "Black bear hide helmet"
+          },
+          {
+            "slot": "armorbody",
+            "code": "game:armor-body-hide-bear-black",
+            "name": "Black bear hide body armor"
           },
           {
             "slot": "bag-1",

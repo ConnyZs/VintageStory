@@ -77,7 +77,7 @@
   }
  },
  "AddyBuschu": {
-  "hash": "e02f3660ccc5a4779f9b83daefcebe750b96222f",
+  "hash": "d8f3a7cb6e9f07e78b7bb36b959641e29ec16d3a",
   "info": {
    "class": "homesteader",
    "items": [
@@ -87,14 +87,21 @@
     "beard",
     "facialexpression",
     "Rotwalker hood",
-    "Scribe hood",
-    "Scribe hood",
+    "Rotwalker cape",
+    "Rotwalker cape",
+    "Tattered crimson tunic",
+    "Nomad trousers",
     "Survivor gloves",
+    "Temporal gear amulet",
     "Prince emblem",
-    "Leather bracers"
+    "Sheep skull mask",
+    "Forlorn Hope belt",
+    "Leather bracers",
+    "Fur coat",
+    "Fur coat"
    ],
    "frames": 16,
-   "v": 1786645609
+   "v": 1786645733
   }
  },
  "Barberschascher": {

@@ -55,14 +55,21 @@
     "beard",
     "facialexpression",
     "Rotwalker hood",
-    "Scribe hood",
-    "Scribe hood",
+    "Rotwalker cape",
+    "Rotwalker cape",
+    "Tattered crimson tunic",
+    "Nomad trousers",
     "Survivor gloves",
+    "Temporal gear amulet",
     "Prince emblem",
-    "Leather bracers"
+    "Sheep skull mask",
+    "Forlorn Hope belt",
+    "Leather bracers",
+    "Fur coat",
+    "Fur coat"
    ],
    "frames": 16,
-   "v": 1786645609
+   "v": 1786645733
   },
   "Moritz": {
    "class": "mason",
