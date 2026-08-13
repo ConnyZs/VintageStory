@@ -1,5 +1,5 @@
 {
-  "generated": "20260813-214838",
+  "generated": "20260813-215038",
   "game_version": "1.22.5",
   "check_ts": "20260813-200057",
   "latest_engine": "1.22.6",
@@ -2583,11 +2583,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 493.2,
-        "blocksTravelled": 461291,
-        "blocksBroken": 22174,
+        "blocksTravelled": 461755,
+        "blocksBroken": 22176,
         "blocksPlaced": 8387,
         "deepestY": 1,
-        "lastSeen": 1786650483,
+        "lastSeen": 1786650603,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2698,6 +2698,11 @@
             "slot": "bag-3",
             "code": "butchering:deadwolf-female-eurasian-10-dead",
             "name": "Wolf (dead)"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           }
         ],
         "skin": {
@@ -2790,12 +2795,12 @@
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 609.8,
-        "blocksTravelled": 399779,
-        "blocksBroken": 13919,
-        "blocksPlaced": 8486,
+        "playtimeHours": 609.9,
+        "blocksTravelled": 399893,
+        "blocksBroken": 13930,
+        "blocksPlaced": 8520,
         "deepestY": 12,
-        "lastSeen": 1786650483,
+        "lastSeen": 1786650603,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
