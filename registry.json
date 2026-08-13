@@ -1,5 +1,5 @@
 {
-  "generated": "20260813-222240",
+  "generated": "20260813-222440",
   "game_version": "1.22.5",
   "check_ts": "20260813-200057",
   "latest_engine": "1.22.6",
@@ -2169,12 +2169,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 135.4,
-        "blocksTravelled": 226295,
+        "playtimeHours": 135.5,
+        "blocksTravelled": 226373,
         "blocksBroken": 8463,
         "blocksPlaced": 586,
         "deepestY": 1,
-        "lastSeen": 1786652524,
+        "lastSeen": 1786652644,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2489,13 +2489,13 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 731,
-        "mealsEaten": 1503,
-        "caloriesConsumed": 210457,
-        "lastMeal": "Earthy orange ceramic bowl of jam",
+        "mealsEaten": 1506,
+        "caloriesConsumed": 211525,
+        "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
-          "Earthy orange ceramic bowl of meat stew": 37,
+          "Earthy orange ceramic bowl of meat stew": 38,
           "Blueberry": 27,
           "Pear pie (charred)": 1,
           "Rye bread": 8,
@@ -2544,7 +2544,7 @@
           "Spelt grain": 31,
           "Smoked Plain Primemeat": 11,
           "Blackberry pie": 8,
-          "Earthy orange ceramic bowl of jam": 12,
+          "Earthy orange ceramic bowl of jam": 14,
           "Cabbage": 1,
           "Earthy orange ceramic bowl of soup": 3,
           "Fruit pie": 10,
@@ -2568,9 +2568,9 @@
         },
         "foodCatCounts": {
           "Grain": 271,
-          "Protein": 163,
-          "Vegetable": 268,
-          "Fruit": 1079,
+          "Protein": 164,
+          "Vegetable": 269,
+          "Fruit": 1081,
           "Dairy": 65
         },
         "deathCauses": {
@@ -2582,12 +2582,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 493.7,
-        "blocksTravelled": 464395,
+        "playtimeHours": 493.8,
+        "blocksTravelled": 464428,
         "blocksBroken": 22622,
         "blocksPlaced": 8389,
         "deepestY": 1,
-        "lastSeen": 1786652524,
+        "lastSeen": 1786652644,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2732,8 +2732,8 @@
         "class": "mason",
         "deaths": 2,
         "mobKills": 374,
-        "mealsEaten": 502,
-        "caloriesConsumed": 129574,
+        "mealsEaten": 505,
+        "caloriesConsumed": 130488,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Cranberry": 25,
@@ -2741,7 +2741,7 @@
           "Cranberry pie": 8,
           "Earthy orange ceramic bowl of soup": 7,
           "Wooden bucket": 1,
-          "Earthy orange ceramic bowl of meat stew": 75,
+          "Earthy orange ceramic bowl of meat stew": 76,
           "Chopped cabbage": 1,
           "Pear": 4,
           "Rye bread": 3,
@@ -2782,13 +2782,14 @@
           "Chanterelle": 2,
           "Rye grain": 15,
           "Earthy brown ceramic bowl of meat stew": 14,
-          "Earthy brown ceramic jug": 3
+          "Earthy brown ceramic jug": 3,
+          "Earthy brown ceramic bowl of jam": 2
         },
         "foodCatCounts": {
-          "Fruit": 286,
+          "Fruit": 288,
           "Grain": 196,
-          "Protein": 143,
-          "Vegetable": 124,
+          "Protein": 144,
+          "Vegetable": 125,
           "Dairy": 65
         },
         "deathCauses": {
@@ -2796,11 +2797,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 610.4,
-        "blocksTravelled": 402319,
+        "blocksTravelled": 402373,
         "blocksBroken": 14077,
         "blocksPlaced": 8691,
         "deepestY": 12,
-        "lastSeen": 1786652524,
+        "lastSeen": 1786652644,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
