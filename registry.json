@@ -1,7 +1,7 @@
 {
-  "generated": "20260813-195430",
+  "generated": "20260813-200057",
   "game_version": "1.22.5",
-  "check_ts": "20260811-200057",
+  "check_ts": "20260813-200057",
   "latest_engine": "1.22.6",
   "restart_needed": null,
   "last_deploy_ts": "20260804-172326",
@@ -139,7 +139,7 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "2.1.16",
-      "build_version": "2.1.18",
+      "build_version": "2.1.19",
       "build_branch": "1.22",
       "update_pending": true,
       "proposed": false
@@ -203,9 +203,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "5.0.0",
-      "build_version": "5.0.0",
+      "build_version": "5.0.1",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -1259,7 +1259,7 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": null,
-      "build_version": "0.9.7",
+      "build_version": "0.9.8",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": true
@@ -1547,7 +1547,7 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.5.6",
-      "build_version": "1.5.7",
+      "build_version": "1.5.8",
       "build_branch": "1.22",
       "update_pending": true,
       "proposed": false
@@ -1595,9 +1595,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "0.5.0",
-      "build_version": "0.5.0",
+      "build_version": "0.6.0",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -1787,9 +1787,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "0.18.4",
-      "build_version": "0.18.4",
+      "build_version": "0.18.5",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
