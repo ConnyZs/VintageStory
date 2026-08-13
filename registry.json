@@ -1,5 +1,5 @@
 {
-  "generated": "20260813-221039",
+  "generated": "20260813-221240",
   "game_version": "1.22.5",
   "check_ts": "20260813-200057",
   "latest_engine": "1.22.6",
@@ -2128,8 +2128,8 @@
         "class": "tinker",
         "deaths": 7,
         "mobKills": 184,
-        "mealsEaten": 171,
-        "caloriesConsumed": 74884,
+        "mealsEaten": 172,
+        "caloriesConsumed": 74984,
         "lastMeal": "Earthy orange ceramic bowl of jam",
         "mealsByName": {
           "Pear": 22,
@@ -2154,10 +2154,10 @@
           "Lump of rendered fat": 3,
           "King bolete": 2,
           "Earthy brown ceramic bowl of meat stew": 10,
-          "Earthy orange ceramic bowl of jam": 5
+          "Earthy orange ceramic bowl of jam": 6
         },
         "foodCatCounts": {
-          "Fruit": 115,
+          "Fruit": 116,
           "Grain": 77,
           "Protein": 53,
           "Vegetable": 43,
@@ -2169,12 +2169,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 135.2,
-        "blocksTravelled": 225944,
+        "playtimeHours": 135.3,
+        "blocksTravelled": 225982,
         "blocksBroken": 8463,
         "blocksPlaced": 580,
         "deepestY": 1,
-        "lastSeen": 1786651804,
+        "lastSeen": 1786651924,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2488,7 +2488,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 727,
+        "mobKills": 728,
         "mealsEaten": 1495,
         "caloriesConsumed": 209003,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
@@ -2582,12 +2582,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 493.5,
-        "blocksTravelled": 463608,
-        "blocksBroken": 22427,
+        "playtimeHours": 493.6,
+        "blocksTravelled": 463781,
+        "blocksBroken": 22545,
         "blocksPlaced": 8389,
         "deepestY": 1,
-        "lastSeen": 1786651804,
+        "lastSeen": 1786651924,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2796,11 +2796,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 610.2,
-        "blocksTravelled": 401192,
+        "blocksTravelled": 401491,
         "blocksBroken": 14068,
         "blocksPlaced": 8679,
         "deepestY": 12,
-        "lastSeen": 1786651804,
+        "lastSeen": 1786651924,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
