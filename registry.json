@@ -1,5 +1,5 @@
 {
-  "generated": "20260813-231043",
+  "generated": "20260813-231243",
   "game_version": "1.22.5",
   "check_ts": "20260813-200057",
   "latest_engine": "1.22.6",
@@ -2169,12 +2169,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 136.2,
+        "playtimeHours": 136.3,
         "blocksTravelled": 227713,
         "blocksBroken": 8498,
         "blocksPlaced": 636,
         "deepestY": 1,
-        "lastSeen": 1786655406,
+        "lastSeen": 1786655526,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2489,13 +2489,13 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 731,
-        "mealsEaten": 1515,
-        "caloriesConsumed": 216851,
+        "mealsEaten": 1517,
+        "caloriesConsumed": 218347,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
-          "Earthy orange ceramic bowl of meat stew": 47,
+          "Earthy orange ceramic bowl of meat stew": 49,
           "Blueberry": 27,
           "Pear pie (charred)": 1,
           "Rye bread": 8,
@@ -2568,8 +2568,8 @@
         },
         "foodCatCounts": {
           "Grain": 271,
-          "Protein": 173,
-          "Vegetable": 278,
+          "Protein": 175,
+          "Vegetable": 280,
           "Fruit": 1081,
           "Dairy": 65
         },
@@ -2582,12 +2582,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 494.5,
-        "blocksTravelled": 467354,
-        "blocksBroken": 24220,
+        "playtimeHours": 494.6,
+        "blocksTravelled": 467594,
+        "blocksBroken": 24240,
         "blocksPlaced": 8483,
         "deepestY": 1,
-        "lastSeen": 1786655406,
+        "lastSeen": 1786655526,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2732,8 +2732,8 @@
         "class": "mason",
         "deaths": 2,
         "mobKills": 374,
-        "mealsEaten": 510,
-        "caloriesConsumed": 133698,
+        "mealsEaten": 512,
+        "caloriesConsumed": 134918,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Cranberry": 25,
@@ -2741,7 +2741,7 @@
           "Cranberry pie": 8,
           "Earthy orange ceramic bowl of soup": 7,
           "Wooden bucket": 1,
-          "Earthy orange ceramic bowl of meat stew": 81,
+          "Earthy orange ceramic bowl of meat stew": 83,
           "Chopped cabbage": 1,
           "Pear": 4,
           "Rye bread": 3,
@@ -2788,8 +2788,8 @@
         "foodCatCounts": {
           "Fruit": 288,
           "Grain": 196,
-          "Protein": 149,
-          "Vegetable": 130,
+          "Protein": 151,
+          "Vegetable": 132,
           "Dairy": 65
         },
         "deathCauses": {
@@ -2797,11 +2797,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 611.2,
-        "blocksTravelled": 405742,
-        "blocksBroken": 14226,
-        "blocksPlaced": 9125,
+        "blocksTravelled": 405931,
+        "blocksBroken": 14229,
+        "blocksPlaced": 9146,
         "deepestY": 12,
-        "lastSeen": 1786655406,
+        "lastSeen": 1786655526,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
