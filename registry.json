@@ -1,5 +1,5 @@
 {
-  "generated": "20260813-225642",
+  "generated": "20260813-225842",
   "game_version": "1.22.5",
   "check_ts": "20260813-200057",
   "latest_engine": "1.22.6",
@@ -2170,11 +2170,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 136.0,
-        "blocksTravelled": 227406,
+        "blocksTravelled": 227416,
         "blocksBroken": 8498,
         "blocksPlaced": 633,
         "deepestY": 1,
-        "lastSeen": 1786654590,
+        "lastSeen": 1786654685,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2583,11 +2583,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 494.3,
-        "blocksTravelled": 466521,
+        "blocksTravelled": 466558,
         "blocksBroken": 23552,
         "blocksPlaced": 8397,
         "deepestY": 1,
-        "lastSeen": 1786654590,
+        "lastSeen": 1786654685,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2732,8 +2732,8 @@
         "class": "mason",
         "deaths": 2,
         "mobKills": 374,
-        "mealsEaten": 508,
-        "caloriesConsumed": 132386,
+        "mealsEaten": 510,
+        "caloriesConsumed": 133698,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Cranberry": 25,
@@ -2741,7 +2741,7 @@
           "Cranberry pie": 8,
           "Earthy orange ceramic bowl of soup": 7,
           "Wooden bucket": 1,
-          "Earthy orange ceramic bowl of meat stew": 79,
+          "Earthy orange ceramic bowl of meat stew": 81,
           "Chopped cabbage": 1,
           "Pear": 4,
           "Rye bread": 3,
@@ -2788,8 +2788,8 @@
         "foodCatCounts": {
           "Fruit": 288,
           "Grain": 196,
-          "Protein": 147,
-          "Vegetable": 128,
+          "Protein": 149,
+          "Vegetable": 130,
           "Dairy": 65
         },
         "deathCauses": {
@@ -2797,11 +2797,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 611.0,
-        "blocksTravelled": 404813,
+        "blocksTravelled": 404885,
         "blocksBroken": 14154,
         "blocksPlaced": 8915,
         "deepestY": 12,
-        "lastSeen": 1786654590,
+        "lastSeen": 1786654685,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
