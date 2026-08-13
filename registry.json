@@ -1,5 +1,5 @@
 {
-  "generated": "20260814-001847",
+  "generated": "20260814-002048",
   "game_version": "1.22.5",
   "check_ts": "20260813-200057",
   "latest_engine": "1.22.6",
@@ -2127,7 +2127,7 @@
         "name": "Raschuetzer",
         "class": "tinker",
         "deaths": 7,
-        "mobKills": 188,
+        "mobKills": 189,
         "mealsEaten": 183,
         "caloriesConsumed": 82418,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
@@ -2170,11 +2170,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 137.4,
-        "blocksTravelled": 231527,
-        "blocksBroken": 8839,
-        "blocksPlaced": 647,
+        "blocksTravelled": 231571,
+        "blocksBroken": 8875,
+        "blocksPlaced": 652,
         "deepestY": 1,
-        "lastSeen": 1786659489,
+        "lastSeen": 1786659609,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2583,11 +2583,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 495.7,
-        "blocksTravelled": 472828,
-        "blocksBroken": 25149,
+        "blocksTravelled": 472954,
+        "blocksBroken": 25155,
         "blocksPlaced": 8860,
         "deepestY": 1,
-        "lastSeen": 1786659489,
+        "lastSeen": 1786659609,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2796,12 +2796,12 @@
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 612.3,
-        "blocksTravelled": 410206,
+        "playtimeHours": 612.4,
+        "blocksTravelled": 410244,
         "blocksBroken": 14349,
         "blocksPlaced": 9411,
         "deepestY": 12,
-        "lastSeen": 1786659489,
+        "lastSeen": 1786659609,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
