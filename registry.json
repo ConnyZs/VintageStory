@@ -1,5 +1,5 @@
 {
-  "generated": "20260813-225442",
+  "generated": "20260813-225642",
   "game_version": "1.22.5",
   "check_ts": "20260813-200057",
   "latest_engine": "1.22.6",
@@ -2170,11 +2170,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 136.0,
-        "blocksTravelled": 227388,
+        "blocksTravelled": 227406,
         "blocksBroken": 8498,
         "blocksPlaced": 633,
         "deepestY": 1,
-        "lastSeen": 1786654445,
+        "lastSeen": 1786654590,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2583,11 +2583,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 494.3,
-        "blocksTravelled": 466464,
+        "blocksTravelled": 466521,
         "blocksBroken": 23552,
-        "blocksPlaced": 8393,
+        "blocksPlaced": 8397,
         "deepestY": 1,
-        "lastSeen": 1786654445,
+        "lastSeen": 1786654590,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2796,12 +2796,12 @@
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 610.9,
-        "blocksTravelled": 404572,
-        "blocksBroken": 14151,
-        "blocksPlaced": 8905,
+        "playtimeHours": 611.0,
+        "blocksTravelled": 404813,
+        "blocksBroken": 14154,
+        "blocksPlaced": 8915,
         "deepestY": 12,
-        "lastSeen": 1786654445,
+        "lastSeen": 1786654590,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
