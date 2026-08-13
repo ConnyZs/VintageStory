@@ -1,5 +1,5 @@
 {
-  "generated": "20260813-235046",
+  "generated": "20260813-235246",
   "game_version": "1.22.5",
   "check_ts": "20260813-200057",
   "latest_engine": "1.22.6",
@@ -2170,11 +2170,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 136.9,
-        "blocksTravelled": 228272,
-        "blocksBroken": 8498,
+        "blocksTravelled": 228991,
+        "blocksBroken": 8499,
         "blocksPlaced": 636,
         "deepestY": 1,
-        "lastSeen": 1786657807,
+        "lastSeen": 1786657928,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2583,11 +2583,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 495.2,
-        "blocksTravelled": 470759,
-        "blocksBroken": 25096,
+        "blocksTravelled": 470904,
+        "blocksBroken": 25107,
         "blocksPlaced": 8611,
         "deepestY": 1,
-        "lastSeen": 1786657807,
+        "lastSeen": 1786657928,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2732,8 +2732,8 @@
         "class": "mason",
         "deaths": 2,
         "mobKills": 374,
-        "mealsEaten": 515,
-        "caloriesConsumed": 137054,
+        "mealsEaten": 516,
+        "caloriesConsumed": 137582,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Cranberry": 25,
@@ -2741,7 +2741,7 @@
           "Cranberry pie": 8,
           "Earthy orange ceramic bowl of soup": 7,
           "Wooden bucket": 1,
-          "Earthy orange ceramic bowl of meat stew": 86,
+          "Earthy orange ceramic bowl of meat stew": 87,
           "Chopped cabbage": 1,
           "Pear": 4,
           "Rye bread": 3,
@@ -2788,8 +2788,8 @@
         "foodCatCounts": {
           "Fruit": 288,
           "Grain": 196,
-          "Protein": 154,
-          "Vegetable": 135,
+          "Protein": 155,
+          "Vegetable": 136,
           "Dairy": 65
         },
         "deathCauses": {
@@ -2797,11 +2797,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 611.9,
-        "blocksTravelled": 409042,
+        "blocksTravelled": 409062,
         "blocksBroken": 14322,
         "blocksPlaced": 9296,
         "deepestY": 12,
-        "lastSeen": 1786657807,
+        "lastSeen": 1786657928,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
