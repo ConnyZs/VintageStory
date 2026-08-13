@@ -1,5 +1,5 @@
 {
-  "generated": "20260813-222040",
+  "generated": "20260813-222240",
   "game_version": "1.22.5",
   "check_ts": "20260813-200057",
   "latest_engine": "1.22.6",
@@ -2127,10 +2127,10 @@
         "name": "Raschuetzer",
         "class": "tinker",
         "deaths": 7,
-        "mobKills": 187,
-        "mealsEaten": 173,
-        "caloriesConsumed": 75366,
-        "lastMeal": "Earthy orange ceramic bowl of meat stew",
+        "mobKills": 188,
+        "mealsEaten": 177,
+        "caloriesConsumed": 76750,
+        "lastMeal": "Earthy orange ceramic bowl of jam",
         "mealsByName": {
           "Pear": 22,
           "Meat pie": 10,
@@ -2154,10 +2154,10 @@
           "Lump of rendered fat": 3,
           "King bolete": 2,
           "Earthy brown ceramic bowl of meat stew": 10,
-          "Earthy orange ceramic bowl of jam": 6
+          "Earthy orange ceramic bowl of jam": 10
         },
         "foodCatCounts": {
-          "Fruit": 116,
+          "Fruit": 120,
           "Grain": 77,
           "Protein": 54,
           "Vegetable": 44,
@@ -2170,11 +2170,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 135.4,
-        "blocksTravelled": 226187,
+        "blocksTravelled": 226295,
         "blocksBroken": 8463,
-        "blocksPlaced": 583,
+        "blocksPlaced": 586,
         "deepestY": 1,
-        "lastSeen": 1786652404,
+        "lastSeen": 1786652524,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2489,8 +2489,8 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 731,
-        "mealsEaten": 1500,
-        "caloriesConsumed": 210239,
+        "mealsEaten": 1503,
+        "caloriesConsumed": 210457,
         "lastMeal": "Earthy orange ceramic bowl of jam",
         "mealsByName": {
           "Meat pie": 45,
@@ -2544,7 +2544,7 @@
           "Spelt grain": 31,
           "Smoked Plain Primemeat": 11,
           "Blackberry pie": 8,
-          "Earthy orange ceramic bowl of jam": 9,
+          "Earthy orange ceramic bowl of jam": 12,
           "Cabbage": 1,
           "Earthy orange ceramic bowl of soup": 3,
           "Fruit pie": 10,
@@ -2570,7 +2570,7 @@
           "Grain": 271,
           "Protein": 163,
           "Vegetable": 268,
-          "Fruit": 1076,
+          "Fruit": 1079,
           "Dairy": 65
         },
         "deathCauses": {
@@ -2583,11 +2583,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 493.7,
-        "blocksTravelled": 464314,
+        "blocksTravelled": 464395,
         "blocksBroken": 22622,
         "blocksPlaced": 8389,
         "deepestY": 1,
-        "lastSeen": 1786652404,
+        "lastSeen": 1786652524,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2796,11 +2796,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 610.4,
-        "blocksTravelled": 402178,
-        "blocksBroken": 14074,
-        "blocksPlaced": 8686,
+        "blocksTravelled": 402319,
+        "blocksBroken": 14077,
+        "blocksPlaced": 8691,
         "deepestY": 12,
-        "lastSeen": 1786652404,
+        "lastSeen": 1786652524,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
