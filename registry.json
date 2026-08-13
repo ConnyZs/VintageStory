@@ -1,5 +1,5 @@
 {
-  "generated": "20260813-201232",
+  "generated": "20260813-201832",
   "game_version": "1.22.5",
   "check_ts": "20260813-200057",
   "latest_engine": "1.22.6",
@@ -2582,12 +2582,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 472.0,
+        "playtimeHours": 491.8,
         "blocksTravelled": 455152,
         "blocksBroken": 22019,
         "blocksPlaced": 8285,
         "deepestY": 1,
-        "lastSeen": 1786573475,
+        "lastSeen": 1786645080,
         "gear": [
           "Rotwalker hood",
           "Scribe hood",
