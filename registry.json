@@ -1,5 +1,5 @@
 {
-  "generated": "20260813-205034",
+  "generated": "20260813-205234",
   "game_version": "1.22.5",
   "check_ts": "20260813-200057",
   "latest_engine": "1.22.6",
@@ -2583,11 +2583,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 492.4,
-        "blocksTravelled": 456574,
+        "blocksTravelled": 456632,
         "blocksBroken": 22069,
-        "blocksPlaced": 8296,
+        "blocksPlaced": 8300,
         "deepestY": 1,
-        "lastSeen": 1786647001,
+        "lastSeen": 1786647121,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2696,13 +2696,13 @@
           },
           {
             "slot": "bag-3",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "code": "butchering:butcherybag-standard",
+            "name": "Hide Butchering Bag"
           },
           {
             "slot": "bag-4",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "code": "butchering:butcherybag-standard",
+            "name": "Hide Butchering Bag"
           }
         ],
         "skin": {
