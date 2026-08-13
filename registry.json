@@ -1,5 +1,5 @@
 {
-  "generated": "20260813-225042",
+  "generated": "20260813-225242",
   "game_version": "1.22.5",
   "check_ts": "20260813-200057",
   "latest_engine": "1.22.6",
@@ -2128,13 +2128,13 @@
         "class": "tinker",
         "deaths": 7,
         "mobKills": 188,
-        "mealsEaten": 179,
-        "caloriesConsumed": 78246,
+        "mealsEaten": 180,
+        "caloriesConsumed": 79476,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Pear": 22,
           "Meat pie": 10,
-          "Earthy orange ceramic bowl of meat stew": 30,
+          "Earthy orange ceramic bowl of meat stew": 31,
           "Strawberry": 2,
           "Blackcurrant": 3,
           "Rye bread": 1,
@@ -2159,8 +2159,8 @@
         "foodCatCounts": {
           "Fruit": 120,
           "Grain": 77,
-          "Protein": 56,
-          "Vegetable": 46,
+          "Protein": 57,
+          "Vegetable": 47,
           "Dairy": 41
         },
         "deathCauses": {
@@ -2170,11 +2170,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 135.9,
-        "blocksTravelled": 227297,
+        "blocksTravelled": 227362,
         "blocksBroken": 8498,
         "blocksPlaced": 633,
         "deepestY": 1,
-        "lastSeen": 1786654205,
+        "lastSeen": 1786654325,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2489,13 +2489,13 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 731,
-        "mealsEaten": 1512,
-        "caloriesConsumed": 214575,
+        "mealsEaten": 1513,
+        "caloriesConsumed": 215775,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
-          "Earthy orange ceramic bowl of meat stew": 44,
+          "Earthy orange ceramic bowl of meat stew": 45,
           "Blueberry": 27,
           "Pear pie (charred)": 1,
           "Rye bread": 8,
@@ -2568,8 +2568,8 @@
         },
         "foodCatCounts": {
           "Grain": 271,
-          "Protein": 170,
-          "Vegetable": 275,
+          "Protein": 171,
+          "Vegetable": 276,
           "Fruit": 1081,
           "Dairy": 65
         },
@@ -2583,11 +2583,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 494.2,
-        "blocksTravelled": 466058,
+        "blocksTravelled": 466263,
         "blocksBroken": 23512,
         "blocksPlaced": 8393,
         "deepestY": 1,
-        "lastSeen": 1786654205,
+        "lastSeen": 1786654325,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2797,11 +2797,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 610.9,
-        "blocksTravelled": 404271,
-        "blocksBroken": 14148,
-        "blocksPlaced": 8902,
+        "blocksTravelled": 404441,
+        "blocksBroken": 14150,
+        "blocksPlaced": 8904,
         "deepestY": 12,
-        "lastSeen": 1786654205,
+        "lastSeen": 1786654325,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
