@@ -1,5 +1,5 @@
 {
-  "generated": "20260813-215038",
+  "generated": "20260813-215238",
   "game_version": "1.22.5",
   "check_ts": "20260813-200057",
   "latest_engine": "1.22.6",
@@ -2169,12 +2169,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 115.1,
+        "playtimeHours": 134.9,
         "blocksTravelled": 225039,
         "blocksBroken": 8463,
         "blocksPlaced": 580,
         "deepestY": 1,
-        "lastSeen": 1786579110,
+        "lastSeen": 1786650723,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2583,11 +2583,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 493.2,
-        "blocksTravelled": 461755,
-        "blocksBroken": 22176,
-        "blocksPlaced": 8387,
+        "blocksTravelled": 461955,
+        "blocksBroken": 22210,
+        "blocksPlaced": 8388,
         "deepestY": 1,
-        "lastSeen": 1786650603,
+        "lastSeen": 1786650723,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2696,8 +2696,8 @@
           },
           {
             "slot": "bag-3",
-            "code": "butchering:deadwolf-female-eurasian-10-dead",
-            "name": "Wolf (dead)"
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           },
           {
             "slot": "bag-4",
@@ -2796,11 +2796,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 609.9,
-        "blocksTravelled": 399893,
-        "blocksBroken": 13930,
+        "blocksTravelled": 400004,
+        "blocksBroken": 13954,
         "blocksPlaced": 8520,
         "deepestY": 12,
-        "lastSeen": 1786650603,
+        "lastSeen": 1786650723,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
