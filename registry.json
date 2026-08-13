@@ -1,5 +1,5 @@
 {
-  "generated": "20260813-202032",
+  "generated": "20260813-202232",
   "game_version": "1.22.5",
   "check_ts": "20260813-200057",
   "latest_engine": "1.22.6",
@@ -2583,107 +2583,13 @@
           "shiver-surface": 1
         },
         "playtimeHours": 491.9,
-        "blocksTravelled": 455207,
-        "blocksBroken": 22022,
+        "blocksTravelled": 455224,
+        "blocksBroken": 22038,
         "blocksPlaced": 8285,
         "deepestY": 1,
-        "lastSeen": 1786645225,
-        "gear": [
-          "Rotwalker hood",
-          "Scribe hood",
-          "Tattered crimson tunic",
-          "Marketeer pants",
-          "Nadiyan miner boots",
-          "Survivor gloves",
-          "Rotten king collar",
-          "Prince emblem",
-          "Sheep skull mask",
-          "Forlorn Hope belt",
-          "Leather bracers",
-          "Fur coat",
-          "Black bear hide helmet",
-          "Black bear hide body armor"
-        ],
+        "lastSeen": 1786645320,
+        "gear": [],
         "gearDetail": [
-          {
-            "slot": "head",
-            "code": "game:clothes-head-rotwalker",
-            "name": "Rotwalker hood",
-            "icon": "character/icons/head-rotwalker.png"
-          },
-          {
-            "slot": "shoulder",
-            "code": "game:clothes-shoulder-scribe",
-            "name": "Scribe hood",
-            "icon": "character/icons/shoulder-scribe.png"
-          },
-          {
-            "slot": "upperbody",
-            "code": "game:clothes-upperbody-tattered-crimson-tunic",
-            "name": "Tattered crimson tunic",
-            "icon": "character/icons/upperbody-tattered-crimson-tunic.png"
-          },
-          {
-            "slot": "lowerbody",
-            "code": "game:clothes-lowerbody-marketeer",
-            "name": "Marketeer pants",
-            "icon": "character/icons/lowerbody-marketeer.png"
-          },
-          {
-            "slot": "foot",
-            "code": "game:clothes-nadiya-foot-miner",
-            "name": "Nadiyan miner boots"
-          },
-          {
-            "slot": "hand",
-            "code": "game:clothes-hand-survivor",
-            "name": "Survivor gloves",
-            "icon": "character/icons/hand-survivor.png"
-          },
-          {
-            "slot": "neck",
-            "code": "game:clothes-neck-rottenking",
-            "name": "Rotten king collar"
-          },
-          {
-            "slot": "emblem",
-            "code": "game:clothes-emblem-royal-pin",
-            "name": "Prince emblem"
-          },
-          {
-            "slot": "face",
-            "code": "game:clothes-face-sheepskull",
-            "name": "Sheep skull mask",
-            "icon": "character/icons/face-sheepskull.png"
-          },
-          {
-            "slot": "waist",
-            "code": "game:clothes-waist-forlorn-belt",
-            "name": "Forlorn Hope belt",
-            "icon": "character/icons/waist-forlorn-belt.png"
-          },
-          {
-            "slot": "arm",
-            "code": "game:clothes-arm-leather-bracers",
-            "name": "Leather bracers",
-            "icon": "character/icons/arm-leather-bracers.png"
-          },
-          {
-            "slot": "upperbodyover",
-            "code": "game:clothes-upperbodyover-fur-coat",
-            "name": "Fur coat",
-            "icon": "character/icons/upperbodyover-fur-coat.png"
-          },
-          {
-            "slot": "armorhead",
-            "code": "game:armor-head-hide-bear-black",
-            "name": "Black bear hide helmet"
-          },
-          {
-            "slot": "armorbody",
-            "code": "game:armor-body-hide-bear-black",
-            "name": "Black bear hide body armor"
-          },
           {
             "slot": "bag-1",
             "code": "game:backpack-normal",

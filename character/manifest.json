@@ -53,23 +53,10 @@
     "hairextra",
     "mustache",
     "beard",
-    "facialexpression",
-    "Rotwalker hood",
-    "Scribe hood",
-    "Scribe hood",
-    "Tattered crimson tunic",
-    "Marketeer pants",
-    "Survivor gloves",
-    "Rotten king collar",
-    "Prince emblem",
-    "Sheep skull mask",
-    "Forlorn Hope belt",
-    "Leather bracers",
-    "Fur coat",
-    "Fur coat"
+    "facialexpression"
    ],
    "frames": 16,
-   "v": 1786572097
+   "v": 1786645369
   },
   "Moritz": {
    "class": "mason",
