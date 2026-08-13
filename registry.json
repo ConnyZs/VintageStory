@@ -1,5 +1,5 @@
 {
-  "generated": "20260813-174222",
+  "generated": "20260813-174422",
   "game_version": "1.22.5",
   "check_ts": "20260811-200057",
   "latest_engine": "1.22.6",
@@ -2724,7 +2724,7 @@
       "name": "Moritz",
       "role": "admin",
       "first_join": "04/22/2026 18:03",
-      "last_join": "08/13/2026 13:57",
+      "last_join": "08/13/2026 15:38",
       "last_char": "04/22/2026 18:05",
       "stats": {
         "uid": "bKc3JB7NGywTi9YbzXu/Qogt",
@@ -2795,12 +2795,12 @@
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 605.7,
-        "blocksTravelled": 394993,
+        "playtimeHours": 605.8,
+        "blocksTravelled": 395168,
         "blocksBroken": 13883,
         "blocksPlaced": 8451,
         "deepestY": 12,
-        "lastSeen": 1786635715,
+        "lastSeen": 1786635835,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
