@@ -1,5 +1,5 @@
 {
-  "generated": "20260813-201832",
+  "generated": "20260813-202032",
   "game_version": "1.22.5",
   "check_ts": "20260813-200057",
   "latest_engine": "1.22.6",
@@ -2481,7 +2481,7 @@
       "name": "AddyBuschu",
       "role": "admin",
       "first_join": "04/22/2026 17:55",
-      "last_join": "08/12/2026 20:41",
+      "last_join": "08/13/2026 18:17",
       "last_char": "04/25/2026 15:34",
       "stats": {
         "uid": "MT3maN90oN2gwGyklJR20Gu1",
@@ -2489,13 +2489,13 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 718,
-        "mealsEaten": 1491,
-        "caloriesConsumed": 206769,
+        "mealsEaten": 1493,
+        "caloriesConsumed": 207655,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
-          "Earthy orange ceramic bowl of meat stew": 33,
+          "Earthy orange ceramic bowl of meat stew": 35,
           "Blueberry": 27,
           "Pear pie (charred)": 1,
           "Rye bread": 8,
@@ -2568,8 +2568,8 @@
         },
         "foodCatCounts": {
           "Grain": 271,
-          "Protein": 159,
-          "Vegetable": 264,
+          "Protein": 161,
+          "Vegetable": 266,
           "Fruit": 1071,
           "Dairy": 65
         },
@@ -2582,12 +2582,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 491.8,
-        "blocksTravelled": 455152,
-        "blocksBroken": 22019,
+        "playtimeHours": 491.9,
+        "blocksTravelled": 455207,
+        "blocksBroken": 22022,
         "blocksPlaced": 8285,
         "deepestY": 1,
-        "lastSeen": 1786645080,
+        "lastSeen": 1786645225,
         "gear": [
           "Rotwalker hood",
           "Scribe hood",
