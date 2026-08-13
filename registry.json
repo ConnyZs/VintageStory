@@ -1,5 +1,5 @@
 {
-  "generated": "20260813-202432",
+  "generated": "20260813-202633",
   "game_version": "1.22.5",
   "check_ts": "20260813-200057",
   "latest_engine": "1.22.6",
@@ -2582,18 +2582,38 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 491.9,
+        "playtimeHours": 492.0,
         "blocksTravelled": 455225,
         "blocksBroken": 22038,
         "blocksPlaced": 8285,
         "deepestY": 1,
-        "lastSeen": 1786645440,
+        "lastSeen": 1786645560,
         "gear": [
+          "Rotwalker hood",
+          "Scribe hood",
+          "Nadiyan miner boots",
           "Survivor gloves",
           "Prince emblem",
           "Leather bracers"
         ],
         "gearDetail": [
+          {
+            "slot": "head",
+            "code": "game:clothes-head-rotwalker",
+            "name": "Rotwalker hood",
+            "icon": "character/icons/head-rotwalker.png"
+          },
+          {
+            "slot": "shoulder",
+            "code": "game:clothes-shoulder-scribe",
+            "name": "Scribe hood",
+            "icon": "character/icons/shoulder-scribe.png"
+          },
+          {
+            "slot": "foot",
+            "code": "game:clothes-nadiya-foot-miner",
+            "name": "Nadiyan miner boots"
+          },
           {
             "slot": "hand",
             "code": "game:clothes-hand-survivor",

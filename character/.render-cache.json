@@ -77,7 +77,7 @@
   }
  },
  "AddyBuschu": {
-  "hash": "0e44efbbdfda76e40007556e2cffb5f318a41644",
+  "hash": "e02f3660ccc5a4779f9b83daefcebe750b96222f",
   "info": {
    "class": "homesteader",
    "items": [
@@ -86,12 +86,15 @@
     "mustache",
     "beard",
     "facialexpression",
+    "Rotwalker hood",
+    "Scribe hood",
+    "Scribe hood",
     "Survivor gloves",
     "Prince emblem",
     "Leather bracers"
    ],
    "frames": 16,
-   "v": 1786645487
+   "v": 1786645609
   }
  },
  "Barberschascher": {

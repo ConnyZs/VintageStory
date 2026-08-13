@@ -54,12 +54,15 @@
     "mustache",
     "beard",
     "facialexpression",
+    "Rotwalker hood",
+    "Scribe hood",
+    "Scribe hood",
     "Survivor gloves",
     "Prince emblem",
     "Leather bracers"
    ],
    "frames": 16,
-   "v": 1786645487
+   "v": 1786645609
   },
   "Moritz": {
    "class": "mason",
