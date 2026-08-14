@@ -1,5 +1,5 @@
 {
-  "generated": "20260815-000423",
+  "generated": "20260815-000623",
   "game_version": "1.22.5",
   "check_ts": "20260814-200058",
   "latest_engine": "1.22.6",
@@ -2169,12 +2169,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 160.0,
-        "blocksTravelled": 253025,
+        "playtimeHours": 160.1,
+        "blocksTravelled": 253392,
         "blocksBroken": 11373,
         "blocksPlaced": 759,
         "deepestY": 1,
-        "lastSeen": 1786744974,
+        "lastSeen": 1786745094,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2489,13 +2489,13 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 755,
-        "mealsEaten": 1578,
-        "caloriesConsumed": 248857,
+        "mealsEaten": 1579,
+        "caloriesConsumed": 248929,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
-          "Earthy orange ceramic bowl of meat stew": 90,
+          "Earthy orange ceramic bowl of meat stew": 91,
           "Blueberry": 27,
           "Pear pie (charred)": 1,
           "Rye bread": 8,
@@ -2569,8 +2569,8 @@
         },
         "foodCatCounts": {
           "Grain": 271,
-          "Protein": 233,
-          "Vegetable": 341,
+          "Protein": 234,
+          "Vegetable": 342,
           "Fruit": 1081,
           "Dairy": 65
         },
@@ -2584,11 +2584,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 519.4,
-        "blocksTravelled": 485721,
+        "blocksTravelled": 485778,
         "blocksBroken": 26246,
         "blocksPlaced": 8908,
         "deepestY": 1,
-        "lastSeen": 1786744974,
+        "lastSeen": 1786745094,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3053,11 +3053,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 16.8,
-        "blocksTravelled": 27561,
+        "blocksTravelled": 27605,
         "blocksBroken": 878,
         "blocksPlaced": 480,
         "deepestY": 100,
-        "lastSeen": 1786744974,
+        "lastSeen": 1786745094,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
