@@ -1,5 +1,5 @@
 {
-  "generated": "20260814-201409",
+  "generated": "20260814-201609",
   "game_version": "1.22.5",
   "check_ts": "20260814-200058",
   "latest_engine": "1.22.6",
@@ -2128,13 +2128,13 @@
         "class": "tinker",
         "deaths": 7,
         "mobKills": 189,
-        "mealsEaten": 189,
-        "caloriesConsumed": 86472,
+        "mealsEaten": 190,
+        "caloriesConsumed": 86918,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Pear": 22,
           "Meat pie": 10,
-          "Earthy orange ceramic bowl of meat stew": 38,
+          "Earthy orange ceramic bowl of meat stew": 39,
           "Strawberry": 2,
           "Blackcurrant": 3,
           "Rye bread": 1,
@@ -2159,8 +2159,8 @@
         "foodCatCounts": {
           "Fruit": 120,
           "Grain": 77,
-          "Protein": 66,
-          "Vegetable": 56,
+          "Protein": 67,
+          "Vegetable": 57,
           "Dairy": 41
         },
         "deathCauses": {
@@ -2170,11 +2170,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 157.3,
-        "blocksTravelled": 235734,
+        "blocksTravelled": 235896,
         "blocksBroken": 9370,
         "blocksPlaced": 735,
         "deepestY": 1,
-        "lastSeen": 1786731176,
+        "lastSeen": 1786731289,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2584,11 +2584,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 515.6,
-        "blocksTravelled": 475994,
+        "blocksTravelled": 476086,
         "blocksBroken": 25406,
         "blocksPlaced": 8871,
         "deepestY": 1,
-        "lastSeen": 1786731176,
+        "lastSeen": 1786731289,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
