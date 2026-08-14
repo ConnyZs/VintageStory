@@ -1,5 +1,5 @@
 {
-  "generated": "20260814-215615",
+  "generated": "20260814-215815",
   "game_version": "1.22.5",
   "check_ts": "20260814-200058",
   "latest_engine": "1.22.6",
@@ -2128,13 +2128,13 @@
         "class": "tinker",
         "deaths": 7,
         "mobKills": 192,
-        "mealsEaten": 193,
-        "caloriesConsumed": 88924,
+        "mealsEaten": 194,
+        "caloriesConsumed": 90154,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Pear": 22,
           "Meat pie": 10,
-          "Earthy orange ceramic bowl of meat stew": 42,
+          "Earthy orange ceramic bowl of meat stew": 43,
           "Strawberry": 2,
           "Blackcurrant": 3,
           "Rye bread": 1,
@@ -2159,8 +2159,8 @@
         "foodCatCounts": {
           "Fruit": 120,
           "Grain": 77,
-          "Protein": 70,
-          "Vegetable": 60,
+          "Protein": 71,
+          "Vegetable": 61,
           "Dairy": 41
         },
         "deathCauses": {
@@ -2170,11 +2170,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 157.9,
-        "blocksTravelled": 241167,
-        "blocksBroken": 9399,
+        "blocksTravelled": 241451,
+        "blocksBroken": 9423,
         "blocksPlaced": 752,
         "deepestY": 1,
-        "lastSeen": 1786737293,
+        "lastSeen": 1786737413,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2489,8 +2489,8 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 738,
-        "mealsEaten": 1555,
-        "caloriesConsumed": 237936,
+        "mealsEaten": 1557,
+        "caloriesConsumed": 238278,
         "lastMeal": "Earthy brown ceramic bowl of meat stew",
         "mealsByName": {
           "Meat pie": 45,
@@ -2564,13 +2564,13 @@
           "Termites": 15,
           "Saguaro fruit": 6,
           "Blue meanie": 2,
-          "Earthy brown ceramic bowl of meat stew": 34,
+          "Earthy brown ceramic bowl of meat stew": 36,
           "Earthy orange ceramic bowl of vegetable stew": 3
         },
         "foodCatCounts": {
           "Grain": 271,
-          "Protein": 210,
-          "Vegetable": 318,
+          "Protein": 212,
+          "Vegetable": 320,
           "Fruit": 1081,
           "Dairy": 65
         },
@@ -2584,11 +2584,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 517.3,
-        "blocksTravelled": 480153,
-        "blocksBroken": 25919,
+        "blocksTravelled": 480362,
+        "blocksBroken": 25932,
         "blocksPlaced": 8878,
         "deepestY": 1,
-        "lastSeen": 1786737293,
+        "lastSeen": 1786737413,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3052,12 +3052,12 @@
           "shiver-deepsplit": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 14.7,
+        "playtimeHours": 14.8,
         "blocksTravelled": 25066,
         "blocksBroken": 774,
         "blocksPlaced": 447,
         "deepestY": 100,
-        "lastSeen": 1786737293,
+        "lastSeen": 1786737449,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
