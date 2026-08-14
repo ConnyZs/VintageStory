@@ -1,5 +1,5 @@
 {
-  "generated": "20260814-202209",
+  "generated": "20260814-202409",
   "game_version": "1.22.5",
   "check_ts": "20260814-200058",
   "latest_engine": "1.22.6",
@@ -2170,11 +2170,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 157.4,
-        "blocksTravelled": 235972,
+        "blocksTravelled": 236111,
         "blocksBroken": 9370,
         "blocksPlaced": 735,
         "deepestY": 1,
-        "lastSeen": 1786731649,
+        "lastSeen": 1786731780,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2584,11 +2584,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 515.7,
-        "blocksTravelled": 476123,
+        "blocksTravelled": 476184,
         "blocksBroken": 25406,
         "blocksPlaced": 8871,
         "deepestY": 1,
-        "lastSeen": 1786731649,
+        "lastSeen": 1786731780,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3052,12 +3052,12 @@
           "shiver-deepsplit": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 13.1,
-        "blocksTravelled": 24042,
+        "playtimeHours": 13.2,
+        "blocksTravelled": 24097,
         "blocksBroken": 765,
         "blocksPlaced": 432,
         "deepestY": 100,
-        "lastSeen": 1786731649,
+        "lastSeen": 1786731780,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
@@ -3067,8 +3067,7 @@
           "Tailor belt",
           "Tailor needle puff",
           "Tailor jacket",
-          "Tailored gamboised helmet",
-          "Tailored gamboised leg armor"
+          "Tailored gamboised helmet"
         ],
         "gearDetail": [
           {
@@ -3123,11 +3122,6 @@
             "slot": "armorhead",
             "code": "game:armor-head-tailored-plain-linen",
             "name": "Tailored gamboised helmet"
-          },
-          {
-            "slot": "armorlegs",
-            "code": "game:armor-legs-tailored-plain-linen",
-            "name": "Tailored gamboised leg armor"
           },
           {
             "slot": "bag-1",
