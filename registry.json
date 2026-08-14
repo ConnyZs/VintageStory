@@ -1,5 +1,5 @@
 {
-  "generated": "20260814-222417",
+  "generated": "20260814-222617",
   "game_version": "1.22.5",
   "check_ts": "20260814-200058",
   "latest_engine": "1.22.6",
@@ -2128,13 +2128,13 @@
         "class": "tinker",
         "deaths": 7,
         "mobKills": 193,
-        "mealsEaten": 195,
-        "caloriesConsumed": 91384,
+        "mealsEaten": 196,
+        "caloriesConsumed": 92550,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Pear": 22,
           "Meat pie": 10,
-          "Earthy orange ceramic bowl of meat stew": 44,
+          "Earthy orange ceramic bowl of meat stew": 45,
           "Strawberry": 2,
           "Blackcurrant": 3,
           "Rye bread": 1,
@@ -2159,8 +2159,8 @@
         "foodCatCounts": {
           "Fruit": 120,
           "Grain": 77,
-          "Protein": 72,
-          "Vegetable": 62,
+          "Protein": 73,
+          "Vegetable": 63,
           "Dairy": 41
         },
         "deathCauses": {
@@ -2170,11 +2170,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 158.4,
-        "blocksTravelled": 245414,
-        "blocksBroken": 10086,
+        "blocksTravelled": 245788,
+        "blocksBroken": 10087,
         "blocksPlaced": 752,
         "deepestY": 1,
-        "lastSeen": 1786738969,
+        "lastSeen": 1786739089,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2584,11 +2584,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 517.7,
-        "blocksTravelled": 482027,
-        "blocksBroken": 26012,
+        "blocksTravelled": 482122,
+        "blocksBroken": 26019,
         "blocksPlaced": 8887,
         "deepestY": 1,
-        "lastSeen": 1786738969,
+        "lastSeen": 1786739089,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3053,11 +3053,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 15.1,
-        "blocksTravelled": 25145,
-        "blocksBroken": 792,
-        "blocksPlaced": 456,
+        "blocksTravelled": 25313,
+        "blocksBroken": 795,
+        "blocksPlaced": 457,
         "deepestY": 100,
-        "lastSeen": 1786738969,
+        "lastSeen": 1786739089,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
