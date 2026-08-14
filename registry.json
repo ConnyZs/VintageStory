@@ -1,5 +1,5 @@
 {
-  "generated": "20260814-094126",
+  "generated": "20260814-094326",
   "game_version": "1.22.5",
   "check_ts": "20260813-200057",
   "latest_engine": "1.22.6",
@@ -2733,9 +2733,9 @@
         "class": "mason",
         "deaths": 2,
         "mobKills": 378,
-        "mealsEaten": 524,
-        "caloriesConsumed": 141154,
-        "lastMeal": "Tender redmeat",
+        "mealsEaten": 527,
+        "caloriesConsumed": 142228,
+        "lastMeal": "Earthy orange ceramic bowl of vegetable stew",
         "mealsByName": {
           "Cranberry": 25,
           "Meat pie": 20,
@@ -2785,13 +2785,14 @@
           "Earthy brown ceramic bowl of meat stew": 15,
           "Earthy brown ceramic jug": 3,
           "Earthy brown ceramic bowl of jam": 2,
-          "Tender redmeat": 5
+          "Tender redmeat": 5,
+          "Earthy orange ceramic bowl of vegetable stew": 3
         },
         "foodCatCounts": {
           "Fruit": 288,
           "Grain": 196,
           "Protein": 163,
-          "Vegetable": 139,
+          "Vegetable": 142,
           "Dairy": 65
         },
         "deathCauses": {
@@ -2799,11 +2800,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 621.7,
-        "blocksTravelled": 412669,
+        "blocksTravelled": 412754,
         "blocksBroken": 14377,
         "blocksPlaced": 9436,
         "deepestY": 12,
-        "lastSeen": 1786693263,
+        "lastSeen": 1786693348,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
