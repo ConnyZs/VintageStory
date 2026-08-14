@@ -1,5 +1,5 @@
 {
-  "generated": "20260814-211412",
+  "generated": "20260814-211613",
   "game_version": "1.22.5",
   "check_ts": "20260814-200058",
   "latest_engine": "1.22.6",
@@ -2584,11 +2584,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 516.6,
-        "blocksTravelled": 478222,
+        "blocksTravelled": 478229,
         "blocksBroken": 25628,
         "blocksPlaced": 8872,
         "deepestY": 1,
-        "lastSeen": 1786734801,
+        "lastSeen": 1786734891,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3053,11 +3053,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 14.0,
-        "blocksTravelled": 24756,
-        "blocksBroken": 767,
-        "blocksPlaced": 434,
+        "blocksTravelled": 24776,
+        "blocksBroken": 768,
+        "blocksPlaced": 438,
         "deepestY": 100,
-        "lastSeen": 1786734801,
+        "lastSeen": 1786734891,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
