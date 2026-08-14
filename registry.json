@@ -1,5 +1,5 @@
 {
-  "generated": "20260814-222217",
+  "generated": "20260814-222417",
   "game_version": "1.22.5",
   "check_ts": "20260814-200058",
   "latest_engine": "1.22.6",
@@ -2169,12 +2169,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 158.3,
-        "blocksTravelled": 245183,
+        "playtimeHours": 158.4,
+        "blocksTravelled": 245414,
         "blocksBroken": 10086,
         "blocksPlaced": 752,
         "deepestY": 1,
-        "lastSeen": 1786738926,
+        "lastSeen": 1786738969,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2584,11 +2584,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 517.7,
-        "blocksTravelled": 482010,
-        "blocksBroken": 26010,
-        "blocksPlaced": 8886,
+        "blocksTravelled": 482027,
+        "blocksBroken": 26012,
+        "blocksPlaced": 8887,
         "deepestY": 1,
-        "lastSeen": 1786738926,
+        "lastSeen": 1786738969,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3053,11 +3053,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 15.1,
-        "blocksTravelled": 25138,
-        "blocksBroken": 788,
-        "blocksPlaced": 452,
+        "blocksTravelled": 25145,
+        "blocksBroken": 792,
+        "blocksPlaced": 456,
         "deepestY": 100,
-        "lastSeen": 1786738926,
+        "lastSeen": 1786738969,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
