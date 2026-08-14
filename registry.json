@@ -1,5 +1,5 @@
 {
-  "generated": "20260814-204611",
+  "generated": "20260814-204811",
   "game_version": "1.22.5",
   "check_ts": "20260814-200058",
   "latest_engine": "1.22.6",
@@ -2489,13 +2489,13 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 734,
-        "mealsEaten": 1544,
-        "caloriesConsumed": 233256,
+        "mealsEaten": 1545,
+        "caloriesConsumed": 233868,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
-          "Earthy orange ceramic bowl of meat stew": 67,
+          "Earthy orange ceramic bowl of meat stew": 68,
           "Blueberry": 27,
           "Pear pie (charred)": 1,
           "Rye bread": 8,
@@ -2569,8 +2569,8 @@
         },
         "foodCatCounts": {
           "Grain": 271,
-          "Protein": 199,
-          "Vegetable": 307,
+          "Protein": 200,
+          "Vegetable": 308,
           "Fruit": 1081,
           "Dairy": 65
         },
@@ -2584,11 +2584,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 516.1,
-        "blocksTravelled": 477443,
+        "blocksTravelled": 477495,
         "blocksBroken": 25579,
         "blocksPlaced": 8871,
         "deepestY": 1,
-        "lastSeen": 1786733090,
+        "lastSeen": 1786733210,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3052,12 +3052,12 @@
           "shiver-deepsplit": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 13.5,
-        "blocksTravelled": 24111,
+        "playtimeHours": 13.6,
+        "blocksTravelled": 24119,
         "blocksBroken": 765,
         "blocksPlaced": 432,
         "deepestY": 100,
-        "lastSeen": 1786733090,
+        "lastSeen": 1786733210,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
@@ -3067,7 +3067,9 @@
           "Tailor belt",
           "Tailor needle puff",
           "Tailor jacket",
-          "Tailored gamboised helmet"
+          "Tailored gamboised helmet",
+          "Tailored gambeson body armor",
+          "Tailored gamboised leg armor"
         ],
         "gearDetail": [
           {
@@ -3122,6 +3124,16 @@
             "slot": "armorhead",
             "code": "game:armor-head-tailored-plain-linen",
             "name": "Tailored gamboised helmet"
+          },
+          {
+            "slot": "armorbody",
+            "code": "game:armor-body-tailored-plain-linen",
+            "name": "Tailored gambeson body armor"
+          },
+          {
+            "slot": "armorlegs",
+            "code": "game:armor-legs-tailored-plain-linen",
+            "name": "Tailored gamboised leg armor"
           },
           {
             "slot": "bag-1",
