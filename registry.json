@@ -1,5 +1,5 @@
 {
-  "generated": "20260814-192606",
+  "generated": "20260814-192806",
   "game_version": "1.22.5",
   "check_ts": "20260813-200057",
   "latest_engine": "1.22.6",
@@ -2120,7 +2120,7 @@
       "name": "Raschuetzer",
       "role": "admin",
       "first_join": "04/22/2026 17:47",
-      "last_join": "08/13/2026 19:51",
+      "last_join": "08/14/2026 17:27",
       "last_char": "04/29/2026 21:30",
       "stats": {
         "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
@@ -2169,12 +2169,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 137.9,
-        "blocksTravelled": 233665,
+        "playtimeHours": 156.5,
+        "blocksTravelled": 233670,
         "blocksBroken": 9321,
         "blocksPlaced": 655,
         "deepestY": 1,
-        "lastSeen": 1786661299,
+        "lastSeen": 1786728473,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2799,12 +2799,12 @@
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 628.6,
-        "blocksTravelled": 425244,
+        "playtimeHours": 628.7,
+        "blocksTravelled": 425653,
         "blocksBroken": 14668,
         "blocksPlaced": 9717,
         "deepestY": 12,
-        "lastSeen": 1786728287,
+        "lastSeen": 1786728457,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
