@@ -1,5 +1,5 @@
 {
-  "generated": "20260814-235422",
+  "generated": "20260814-235623",
   "game_version": "1.22.5",
   "check_ts": "20260814-200058",
   "latest_engine": "1.22.6",
@@ -2170,11 +2170,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 159.9,
-        "blocksTravelled": 252097,
-        "blocksBroken": 11136,
+        "blocksTravelled": 252109,
+        "blocksBroken": 11214,
         "blocksPlaced": 759,
         "deepestY": 1,
-        "lastSeen": 1786744373,
+        "lastSeen": 1786744493,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2584,11 +2584,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 519.2,
-        "blocksTravelled": 485048,
+        "blocksTravelled": 485094,
         "blocksBroken": 26240,
         "blocksPlaced": 8906,
         "deepestY": 1,
-        "lastSeen": 1786744373,
+        "lastSeen": 1786744493,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3028,11 +3028,11 @@
         "class": "tailor",
         "deaths": 4,
         "mobKills": 14,
-        "mealsEaten": 37,
-        "caloriesConsumed": 18946,
+        "mealsEaten": 39,
+        "caloriesConsumed": 20168,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
-          "Earthy orange ceramic bowl of meat stew": 19,
+          "Earthy orange ceramic bowl of meat stew": 21,
           "Meat pie": 8,
           "Leather-bound Oak Tankard": 1,
           "Pear pie (charred)": 6,
@@ -3040,8 +3040,8 @@
           "Cranberry": 1
         },
         "foodCatCounts": {
-          "Protein": 27,
-          "Vegetable": 18,
+          "Protein": 29,
+          "Vegetable": 20,
           "Grain": 19,
           "Fruit": 8,
           "Dairy": 11
@@ -3053,11 +3053,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 16.6,
-        "blocksTravelled": 27346,
+        "blocksTravelled": 27402,
         "blocksBroken": 878,
         "blocksPlaced": 480,
         "deepestY": 100,
-        "lastSeen": 1786744373,
+        "lastSeen": 1786744493,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
