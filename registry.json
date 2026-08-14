@@ -1,5 +1,5 @@
 {
-  "generated": "20260814-215015",
+  "generated": "20260814-215215",
   "game_version": "1.22.5",
   "check_ts": "20260814-200058",
   "latest_engine": "1.22.6",
@@ -2170,11 +2170,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 157.8,
-        "blocksTravelled": 239914,
-        "blocksBroken": 9377,
+        "blocksTravelled": 240367,
+        "blocksBroken": 9397,
         "blocksPlaced": 752,
         "deepestY": 1,
-        "lastSeen": 1786736932,
+        "lastSeen": 1786737052,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2489,8 +2489,8 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 738,
-        "mealsEaten": 1553,
-        "caloriesConsumed": 237408,
+        "mealsEaten": 1554,
+        "caloriesConsumed": 237722,
         "lastMeal": "Earthy brown ceramic bowl of meat stew",
         "mealsByName": {
           "Meat pie": 45,
@@ -2564,13 +2564,13 @@
           "Termites": 15,
           "Saguaro fruit": 6,
           "Blue meanie": 2,
-          "Earthy brown ceramic bowl of meat stew": 32,
+          "Earthy brown ceramic bowl of meat stew": 33,
           "Earthy orange ceramic bowl of vegetable stew": 3
         },
         "foodCatCounts": {
           "Grain": 271,
-          "Protein": 208,
-          "Vegetable": 316,
+          "Protein": 209,
+          "Vegetable": 317,
           "Fruit": 1081,
           "Dairy": 65
         },
@@ -2584,11 +2584,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 517.2,
-        "blocksTravelled": 479812,
-        "blocksBroken": 25918,
+        "blocksTravelled": 479972,
+        "blocksBroken": 25919,
         "blocksPlaced": 8878,
         "deepestY": 1,
-        "lastSeen": 1786736932,
+        "lastSeen": 1786737052,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3053,17 +3053,17 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 14.6,
-        "blocksTravelled": 25006,
+        "blocksTravelled": 25018,
         "blocksBroken": 771,
         "blocksPlaced": 444,
         "deepestY": 100,
-        "lastSeen": 1786736932,
+        "lastSeen": 1786737052,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
           "Tailor trousers",
           "Tailor shoes",
-          "Tailor gloves",
+          "Cuffs",
           "Tailor mask",
           "Tailor belt",
           "Tailor needle puff",
@@ -3096,9 +3096,9 @@
           },
           {
             "slot": "hand",
-            "code": "game:clothes-hand-tailor-gloves",
-            "name": "Tailor gloves",
-            "icon": "character/icons/hand-tailor-gloves.png"
+            "code": "game:clothes-hand-cuffsplain",
+            "name": "Cuffs",
+            "icon": "character/icons/hand-cuffsplain.png"
           },
           {
             "slot": "face",
