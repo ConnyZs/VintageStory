@@ -1,5 +1,5 @@
 {
-  "generated": "20260815-011229",
+  "generated": "20260815-011429",
   "game_version": "1.22.5",
   "check_ts": "20260814-200058",
   "latest_engine": "1.22.6",
@@ -2128,13 +2128,13 @@
         "class": "tinker",
         "deaths": 7,
         "mobKills": 197,
-        "mealsEaten": 204,
-        "caloriesConsumed": 101220,
+        "mealsEaten": 205,
+        "caloriesConsumed": 102174,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Pear": 22,
           "Meat pie": 10,
-          "Earthy orange ceramic bowl of meat stew": 53,
+          "Earthy orange ceramic bowl of meat stew": 54,
           "Strawberry": 2,
           "Blackcurrant": 3,
           "Rye bread": 1,
@@ -2159,8 +2159,8 @@
         "foodCatCounts": {
           "Fruit": 120,
           "Grain": 77,
-          "Protein": 81,
-          "Vegetable": 71,
+          "Protein": 82,
+          "Vegetable": 72,
           "Dairy": 41
         },
         "deathCauses": {
@@ -2170,11 +2170,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 161.1,
-        "blocksTravelled": 260251,
+        "blocksTravelled": 260311,
         "blocksBroken": 11602,
         "blocksPlaced": 766,
         "deepestY": 1,
-        "lastSeen": 1786749057,
+        "lastSeen": 1786749202,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2488,7 +2488,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 757,
+        "mobKills": 762,
         "mealsEaten": 1593,
         "caloriesConsumed": 254844,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
@@ -2584,11 +2584,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 520.5,
-        "blocksTravelled": 489958,
+        "blocksTravelled": 490149,
         "blocksBroken": 26989,
         "blocksPlaced": 9333,
         "deepestY": 1,
-        "lastSeen": 1786749057,
+        "lastSeen": 1786749202,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3052,12 +3052,12 @@
           "shiver-deepsplit": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 17.9,
-        "blocksTravelled": 31351,
+        "playtimeHours": 18.0,
+        "blocksTravelled": 31370,
         "blocksBroken": 991,
         "blocksPlaced": 507,
         "deepestY": 64,
-        "lastSeen": 1786749057,
+        "lastSeen": 1786749202,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
