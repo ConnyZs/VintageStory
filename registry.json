@@ -1,5 +1,5 @@
 {
-  "generated": "20260814-223017",
+  "generated": "20260814-223217",
   "game_version": "1.22.5",
   "check_ts": "20260814-200058",
   "latest_engine": "1.22.6",
@@ -2170,11 +2170,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 158.5,
-        "blocksTravelled": 246215,
-        "blocksBroken": 10266,
+        "blocksTravelled": 246269,
+        "blocksBroken": 10417,
         "blocksPlaced": 752,
         "deepestY": 1,
-        "lastSeen": 1786739329,
+        "lastSeen": 1786739530,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2488,14 +2488,14 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 738,
-        "mealsEaten": 1560,
-        "caloriesConsumed": 240006,
-        "lastMeal": "Earthy brown ceramic bowl of meat stew",
+        "mobKills": 750,
+        "mealsEaten": 1562,
+        "caloriesConsumed": 241504,
+        "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
-          "Earthy orange ceramic bowl of meat stew": 72,
+          "Earthy orange ceramic bowl of meat stew": 74,
           "Blueberry": 27,
           "Pear pie (charred)": 1,
           "Rye bread": 8,
@@ -2569,8 +2569,8 @@
         },
         "foodCatCounts": {
           "Grain": 271,
-          "Protein": 215,
-          "Vegetable": 323,
+          "Protein": 217,
+          "Vegetable": 325,
           "Fruit": 1081,
           "Dairy": 65
         },
@@ -2584,11 +2584,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 517.8,
-        "blocksTravelled": 482456,
+        "blocksTravelled": 482643,
         "blocksBroken": 26033,
         "blocksPlaced": 8887,
         "deepestY": 1,
-        "lastSeen": 1786739329,
+        "lastSeen": 1786739530,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3052,12 +3052,12 @@
           "shiver-deepsplit": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 15.2,
-        "blocksTravelled": 25463,
+        "playtimeHours": 15.3,
+        "blocksTravelled": 25479,
         "blocksBroken": 796,
         "blocksPlaced": 459,
         "deepestY": 100,
-        "lastSeen": 1786739329,
+        "lastSeen": 1786739530,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
