@@ -1,5 +1,5 @@
 {
-  "generated": "20260814-215215",
+  "generated": "20260814-215415",
   "game_version": "1.22.5",
   "check_ts": "20260814-200058",
   "latest_engine": "1.22.6",
@@ -2128,13 +2128,13 @@
         "class": "tinker",
         "deaths": 7,
         "mobKills": 191,
-        "mealsEaten": 192,
-        "caloriesConsumed": 88414,
+        "mealsEaten": 193,
+        "caloriesConsumed": 88924,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Pear": 22,
           "Meat pie": 10,
-          "Earthy orange ceramic bowl of meat stew": 41,
+          "Earthy orange ceramic bowl of meat stew": 42,
           "Strawberry": 2,
           "Blackcurrant": 3,
           "Rye bread": 1,
@@ -2159,8 +2159,8 @@
         "foodCatCounts": {
           "Fruit": 120,
           "Grain": 77,
-          "Protein": 69,
-          "Vegetable": 59,
+          "Protein": 70,
+          "Vegetable": 60,
           "Dairy": 41
         },
         "deathCauses": {
@@ -2169,12 +2169,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 157.8,
-        "blocksTravelled": 240367,
-        "blocksBroken": 9397,
+        "playtimeHours": 157.9,
+        "blocksTravelled": 240955,
+        "blocksBroken": 9398,
         "blocksPlaced": 752,
         "deepestY": 1,
-        "lastSeen": 1786737052,
+        "lastSeen": 1786737217,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2584,11 +2584,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 517.2,
-        "blocksTravelled": 479972,
+        "blocksTravelled": 480100,
         "blocksBroken": 25919,
         "blocksPlaced": 8878,
         "deepestY": 1,
-        "lastSeen": 1786737052,
+        "lastSeen": 1786737217,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3028,11 +3028,11 @@
         "class": "tailor",
         "deaths": 4,
         "mobKills": 13,
-        "mealsEaten": 33,
-        "caloriesConsumed": 15616,
+        "mealsEaten": 34,
+        "caloriesConsumed": 16846,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
-          "Earthy orange ceramic bowl of meat stew": 15,
+          "Earthy orange ceramic bowl of meat stew": 16,
           "Meat pie": 8,
           "Leather-bound Oak Tankard": 1,
           "Pear pie (charred)": 6,
@@ -3040,8 +3040,8 @@
           "Cranberry": 1
         },
         "foodCatCounts": {
-          "Protein": 23,
-          "Vegetable": 14,
+          "Protein": 24,
+          "Vegetable": 15,
           "Grain": 19,
           "Fruit": 8,
           "Dairy": 11
@@ -3052,18 +3052,18 @@
           "shiver-deepsplit": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 14.6,
-        "blocksTravelled": 25018,
-        "blocksBroken": 771,
-        "blocksPlaced": 444,
+        "playtimeHours": 14.7,
+        "blocksTravelled": 25065,
+        "blocksBroken": 774,
+        "blocksPlaced": 447,
         "deepestY": 100,
-        "lastSeen": 1786737052,
+        "lastSeen": 1786737217,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
           "Tailor trousers",
           "Tailor shoes",
-          "Cuffs",
+          "Tailor gloves",
           "Tailor mask",
           "Tailor belt",
           "Tailor needle puff",
@@ -3096,9 +3096,9 @@
           },
           {
             "slot": "hand",
-            "code": "game:clothes-hand-cuffsplain",
-            "name": "Cuffs",
-            "icon": "character/icons/hand-cuffsplain.png"
+            "code": "game:clothes-hand-tailor-gloves",
+            "name": "Tailor gloves",
+            "icon": "character/icons/hand-tailor-gloves.png"
           },
           {
             "slot": "face",
