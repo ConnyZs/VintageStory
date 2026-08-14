@@ -1,5 +1,5 @@
 {
-  "generated": "20260814-195608",
+  "generated": "20260814-195808",
   "game_version": "1.22.5",
   "check_ts": "20260813-200057",
   "latest_engine": "1.22.6",
@@ -2170,11 +2170,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 157.0,
-        "blocksTravelled": 234986,
+        "blocksTravelled": 235008,
         "blocksBroken": 9321,
         "blocksPlaced": 655,
         "deepestY": 1,
-        "lastSeen": 1786730088,
+        "lastSeen": 1786730270,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2489,13 +2489,13 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 733,
-        "mealsEaten": 1535,
-        "caloriesConsumed": 229244,
+        "mealsEaten": 1536,
+        "caloriesConsumed": 229322,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
-          "Earthy orange ceramic bowl of meat stew": 59,
+          "Earthy orange ceramic bowl of meat stew": 60,
           "Blueberry": 27,
           "Pear pie (charred)": 1,
           "Rye bread": 8,
@@ -2569,8 +2569,8 @@
         },
         "foodCatCounts": {
           "Grain": 271,
-          "Protein": 190,
-          "Vegetable": 298,
+          "Protein": 191,
+          "Vegetable": 299,
           "Fruit": 1081,
           "Dairy": 65
         },
@@ -2584,11 +2584,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 515.3,
-        "blocksTravelled": 475243,
-        "blocksBroken": 25396,
+        "blocksTravelled": 475327,
+        "blocksBroken": 25401,
         "blocksPlaced": 8869,
         "deepestY": 1,
-        "lastSeen": 1786730088,
+        "lastSeen": 1786730270,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
