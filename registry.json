@@ -1,5 +1,5 @@
 {
-  "generated": "20260814-213214",
+  "generated": "20260814-213414",
   "game_version": "1.22.5",
   "check_ts": "20260814-200058",
   "latest_engine": "1.22.6",
@@ -2120,14 +2120,14 @@
       "name": "Raschuetzer",
       "role": "admin",
       "first_join": "04/22/2026 17:47",
-      "last_join": "08/14/2026 17:27",
+      "last_join": "08/14/2026 19:29",
       "last_char": "04/29/2026 21:30",
       "stats": {
         "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
         "name": "Raschuetzer",
         "class": "tinker",
         "deaths": 7,
-        "mobKills": 189,
+        "mobKills": 191,
         "mealsEaten": 190,
         "caloriesConsumed": 86918,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
@@ -2169,12 +2169,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 157.5,
-        "blocksTravelled": 236345,
+        "playtimeHours": 157.6,
+        "blocksTravelled": 236873,
         "blocksBroken": 9370,
         "blocksPlaced": 735,
         "deepestY": 1,
-        "lastSeen": 1786735851,
+        "lastSeen": 1786736009,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2584,11 +2584,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 516.9,
-        "blocksTravelled": 478597,
-        "blocksBroken": 25724,
-        "blocksPlaced": 8874,
+        "blocksTravelled": 478824,
+        "blocksBroken": 25725,
+        "blocksPlaced": 8877,
         "deepestY": 1,
-        "lastSeen": 1786735851,
+        "lastSeen": 1786736009,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3052,19 +3052,18 @@
           "shiver-deepsplit": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 14.3,
-        "blocksTravelled": 24972,
+        "playtimeHours": 14.4,
+        "blocksTravelled": 24979,
         "blocksBroken": 771,
         "blocksPlaced": 444,
         "deepestY": 100,
-        "lastSeen": 1786735851,
+        "lastSeen": 1786736009,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
           "Tailor trousers",
           "Tailor shoes",
           "Tailor gloves",
-          "Tailor mask",
           "Tailor belt",
           "Tailor needle puff",
           "Tailor jacket",
@@ -3102,12 +3101,6 @@
             "code": "game:clothes-hand-tailor-gloves",
             "name": "Tailor gloves",
             "icon": "character/icons/hand-tailor-gloves.png"
-          },
-          {
-            "slot": "face",
-            "code": "game:clothes-face-tailor-mask",
-            "name": "Tailor mask",
-            "icon": "character/icons/face-tailor-mask.png"
           },
           {
             "slot": "waist",
