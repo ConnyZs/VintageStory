@@ -1,5 +1,5 @@
 {
-  "generated": "20260815-010828",
+  "generated": "20260815-011028",
   "game_version": "1.22.5",
   "check_ts": "20260814-200058",
   "latest_engine": "1.22.6",
@@ -2174,7 +2174,7 @@
         "blocksBroken": 11602,
         "blocksPlaced": 766,
         "deepestY": 1,
-        "lastSeen": 1786748900,
+        "lastSeen": 1786748937,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2489,13 +2489,13 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 755,
-        "mealsEaten": 1591,
-        "caloriesConsumed": 253384,
+        "mealsEaten": 1592,
+        "caloriesConsumed": 253852,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
-          "Earthy orange ceramic bowl of meat stew": 103,
+          "Earthy orange ceramic bowl of meat stew": 104,
           "Blueberry": 27,
           "Pear pie (charred)": 1,
           "Rye bread": 8,
@@ -2569,7 +2569,7 @@
         },
         "foodCatCounts": {
           "Grain": 271,
-          "Protein": 246,
+          "Protein": 247,
           "Vegetable": 353,
           "Fruit": 1081,
           "Dairy": 65
@@ -2583,12 +2583,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 520.4,
-        "blocksTravelled": 489714,
-        "blocksBroken": 26965,
+        "playtimeHours": 520.5,
+        "blocksTravelled": 489768,
+        "blocksBroken": 26975,
         "blocksPlaced": 9330,
         "deepestY": 1,
-        "lastSeen": 1786748900,
+        "lastSeen": 1786748937,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3053,11 +3053,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 17.9,
-        "blocksTravelled": 31306,
+        "blocksTravelled": 31313,
         "blocksBroken": 991,
         "blocksPlaced": 507,
         "deepestY": 64,
-        "lastSeen": 1786748900,
+        "lastSeen": 1786748937,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
