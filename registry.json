@@ -1,5 +1,5 @@
 {
-  "generated": "20260814-223818",
+  "generated": "20260814-224018",
   "game_version": "1.22.5",
   "check_ts": "20260814-200058",
   "latest_engine": "1.22.6",
@@ -2170,11 +2170,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 158.6,
-        "blocksTravelled": 246352,
-        "blocksBroken": 10685,
+        "blocksTravelled": 246406,
+        "blocksBroken": 10815,
         "blocksPlaced": 752,
         "deepestY": 1,
-        "lastSeen": 1786739832,
+        "lastSeen": 1786739929,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2488,14 +2488,14 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 750,
-        "mealsEaten": 1562,
-        "caloriesConsumed": 241504,
+        "mobKills": 752,
+        "mealsEaten": 1563,
+        "caloriesConsumed": 242014,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
-          "Earthy orange ceramic bowl of meat stew": 74,
+          "Earthy orange ceramic bowl of meat stew": 75,
           "Blueberry": 27,
           "Pear pie (charred)": 1,
           "Rye bread": 8,
@@ -2569,8 +2569,8 @@
         },
         "foodCatCounts": {
           "Grain": 271,
-          "Protein": 217,
-          "Vegetable": 325,
+          "Protein": 218,
+          "Vegetable": 326,
           "Fruit": 1081,
           "Dairy": 65
         },
@@ -2583,12 +2583,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 517.9,
-        "blocksTravelled": 482703,
+        "playtimeHours": 518.0,
+        "blocksTravelled": 482837,
         "blocksBroken": 26034,
         "blocksPlaced": 8888,
         "deepestY": 1,
-        "lastSeen": 1786739832,
+        "lastSeen": 1786739929,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3057,7 +3057,7 @@
         "blocksBroken": 796,
         "blocksPlaced": 459,
         "deepestY": 100,
-        "lastSeen": 1786739832,
+        "lastSeen": 1786739929,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
