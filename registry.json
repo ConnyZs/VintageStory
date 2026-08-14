@@ -1,5 +1,5 @@
 {
-  "generated": "20260815-004826",
+  "generated": "20260815-005026",
   "game_version": "1.22.5",
   "check_ts": "20260814-200058",
   "latest_engine": "1.22.6",
@@ -2174,7 +2174,7 @@
         "blocksBroken": 11602,
         "blocksPlaced": 766,
         "deepestY": 1,
-        "lastSeen": 1786747695,
+        "lastSeen": 1786747736,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2584,11 +2584,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 520.1,
-        "blocksTravelled": 488699,
-        "blocksBroken": 26690,
+        "blocksTravelled": 488762,
+        "blocksBroken": 26705,
         "blocksPlaced": 9001,
         "deepestY": 1,
-        "lastSeen": 1786747692,
+        "lastSeen": 1786747736,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3028,11 +3028,11 @@
         "class": "tailor",
         "deaths": 4,
         "mobKills": 14,
-        "mealsEaten": 41,
-        "caloriesConsumed": 21187,
+        "mealsEaten": 43,
+        "caloriesConsumed": 22456,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
-          "Earthy orange ceramic bowl of meat stew": 23,
+          "Earthy orange ceramic bowl of meat stew": 25,
           "Meat pie": 8,
           "Leather-bound Oak Tankard": 1,
           "Pear pie (charred)": 6,
@@ -3040,8 +3040,8 @@
           "Cranberry": 1
         },
         "foodCatCounts": {
-          "Protein": 31,
-          "Vegetable": 22,
+          "Protein": 33,
+          "Vegetable": 23,
           "Grain": 19,
           "Fruit": 8,
           "Dairy": 11
@@ -3053,11 +3053,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 17.5,
-        "blocksTravelled": 29290,
+        "blocksTravelled": 29548,
         "blocksBroken": 970,
         "blocksPlaced": 492,
         "deepestY": 64,
-        "lastSeen": 1786747692,
+        "lastSeen": 1786747736,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
