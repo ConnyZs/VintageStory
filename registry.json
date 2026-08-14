@@ -1,5 +1,5 @@
 {
-  "generated": "20260815-011629",
+  "generated": "20260815-011829",
   "game_version": "1.22.5",
   "check_ts": "20260814-200058",
   "latest_engine": "1.22.6",
@@ -2174,7 +2174,7 @@
         "blocksBroken": 11603,
         "blocksPlaced": 767,
         "deepestY": 1,
-        "lastSeen": 1786749297,
+        "lastSeen": 1786749409,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2489,13 +2489,13 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 762,
-        "mealsEaten": 1593,
-        "caloriesConsumed": 254844,
+        "mealsEaten": 1594,
+        "caloriesConsumed": 255428,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
-          "Earthy orange ceramic bowl of meat stew": 105,
+          "Earthy orange ceramic bowl of meat stew": 106,
           "Blueberry": 27,
           "Pear pie (charred)": 1,
           "Rye bread": 8,
@@ -2569,8 +2569,8 @@
         },
         "foodCatCounts": {
           "Grain": 271,
-          "Protein": 248,
-          "Vegetable": 354,
+          "Protein": 249,
+          "Vegetable": 355,
           "Fruit": 1081,
           "Dairy": 65
         },
@@ -2584,11 +2584,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 520.6,
-        "blocksTravelled": 490149,
-        "blocksBroken": 26989,
+        "blocksTravelled": 490300,
+        "blocksBroken": 26994,
         "blocksPlaced": 9333,
         "deepestY": 1,
-        "lastSeen": 1786749297,
+        "lastSeen": 1786749504,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3027,7 +3027,7 @@
         "name": "Morsel",
         "class": "tailor",
         "deaths": 5,
-        "mobKills": 16,
+        "mobKills": 17,
         "mealsEaten": 46,
         "caloriesConsumed": 24726,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
@@ -3053,11 +3053,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 18.0,
-        "blocksTravelled": 31370,
+        "blocksTravelled": 31397,
         "blocksBroken": 991,
-        "blocksPlaced": 507,
+        "blocksPlaced": 510,
         "deepestY": 64,
-        "lastSeen": 1786749297,
+        "lastSeen": 1786749504,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
