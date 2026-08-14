@@ -127,7 +127,7 @@
   }
  },
  "Morsel": {
-  "hash": "009deefbebdf5bfe9f70296a38175405fc41a9e4",
+  "hash": "2daa89a75210f0035c99fd93f932fa6aaa889188",
   "info": {
    "class": "tailor",
    "items": [
@@ -140,7 +140,6 @@
     "Mooncloth robe",
     "Tailor blouse",
     "Tailor blouse",
-    "Tailor trousers",
     "Tailor shoes",
     "Tailor gloves",
     "Tailor belt",
@@ -148,7 +147,7 @@
     "Tailor jacket"
    ],
    "frames": 16,
-   "v": 1786736073
+   "v": 1786736193
   }
  }
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "20260814-213414",
+  "generated": "20260814-213614",
   "game_version": "1.22.5",
   "check_ts": "20260814-200058",
   "latest_engine": "1.22.6",
@@ -2170,11 +2170,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 157.6,
-        "blocksTravelled": 236873,
-        "blocksBroken": 9370,
+        "blocksTravelled": 237167,
+        "blocksBroken": 9371,
         "blocksPlaced": 735,
         "deepestY": 1,
-        "lastSeen": 1786736009,
+        "lastSeen": 1786736091,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2584,11 +2584,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 516.9,
-        "blocksTravelled": 478824,
-        "blocksBroken": 25725,
+        "blocksTravelled": 478921,
+        "blocksBroken": 25727,
         "blocksPlaced": 8877,
         "deepestY": 1,
-        "lastSeen": 1786736009,
+        "lastSeen": 1786736091,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3053,15 +3053,14 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 14.4,
-        "blocksTravelled": 24979,
+        "blocksTravelled": 24980,
         "blocksBroken": 771,
         "blocksPlaced": 444,
         "deepestY": 100,
-        "lastSeen": 1786736009,
+        "lastSeen": 1786736091,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
-          "Tailor trousers",
           "Tailor shoes",
           "Tailor gloves",
           "Tailor belt",
@@ -3083,12 +3082,6 @@
             "code": "game:clothes-upperbody-tailor-blouse",
             "name": "Tailor blouse",
             "icon": "character/icons/upperbody-tailor-blouse.png"
-          },
-          {
-            "slot": "lowerbody",
-            "code": "game:clothes-lowerbody-tailor-trousers",
-            "name": "Tailor trousers",
-            "icon": "character/icons/lowerbody-tailor-trousers.png"
           },
           {
             "slot": "foot",
