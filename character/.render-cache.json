@@ -127,7 +127,7 @@
   }
  },
  "Morsel": {
-  "hash": "f4ee0b2de198dadd7b23c9f12a9e2434b8ab905e",
+  "hash": "622a59340ba1814e26ea083717abedda38728a49",
   "info": {
    "class": "tailor",
    "items": [
@@ -149,7 +149,7 @@
     "Tailor jacket"
    ],
    "frames": 16,
-   "v": 1786747967
+   "v": 1786748085
   }
  }
 }
