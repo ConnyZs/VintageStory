@@ -1,5 +1,5 @@
 {
-  "generated": "20260814-221616",
+  "generated": "20260814-221817",
   "game_version": "1.22.5",
   "check_ts": "20260814-200058",
   "latest_engine": "1.22.6",
@@ -2120,7 +2120,7 @@
       "name": "Raschuetzer",
       "role": "admin",
       "first_join": "04/22/2026 17:47",
-      "last_join": "08/14/2026 19:29",
+      "last_join": "08/14/2026 20:13",
       "last_char": "04/29/2026 21:30",
       "stats": {
         "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
@@ -2128,13 +2128,13 @@
         "class": "tinker",
         "deaths": 7,
         "mobKills": 193,
-        "mealsEaten": 194,
-        "caloriesConsumed": 90154,
+        "mealsEaten": 195,
+        "caloriesConsumed": 91384,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Pear": 22,
           "Meat pie": 10,
-          "Earthy orange ceramic bowl of meat stew": 43,
+          "Earthy orange ceramic bowl of meat stew": 44,
           "Strawberry": 2,
           "Blackcurrant": 3,
           "Rye bread": 1,
@@ -2159,8 +2159,8 @@
         "foodCatCounts": {
           "Fruit": 120,
           "Grain": 77,
-          "Protein": 71,
-          "Vegetable": 61,
+          "Protein": 72,
+          "Vegetable": 62,
           "Dairy": 41
         },
         "deathCauses": {
@@ -2169,12 +2169,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 158.2,
-        "blocksTravelled": 242830,
-        "blocksBroken": 10078,
+        "playtimeHours": 158.3,
+        "blocksTravelled": 243667,
+        "blocksBroken": 10086,
         "blocksPlaced": 752,
         "deepestY": 1,
-        "lastSeen": 1786738488,
+        "lastSeen": 1786738624,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2481,7 +2481,7 @@
       "name": "AddyBuschu",
       "role": "admin",
       "first_join": "04/22/2026 17:55",
-      "last_join": "08/14/2026 17:31",
+      "last_join": "08/14/2026 20:14",
       "last_char": "04/25/2026 15:34",
       "stats": {
         "uid": "MT3maN90oN2gwGyklJR20Gu1",
@@ -2584,11 +2584,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 517.6,
-        "blocksTravelled": 481571,
-        "blocksBroken": 25978,
+        "blocksTravelled": 481687,
+        "blocksBroken": 25995,
         "blocksPlaced": 8886,
         "deepestY": 1,
-        "lastSeen": 1786738488,
+        "lastSeen": 1786738624,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3020,7 +3020,7 @@
       "name": "Morsel",
       "role": "suplayer",
       "first_join": "06/22/2026 18:28",
-      "last_join": "08/14/2026 20:11",
+      "last_join": "08/14/2026 20:14",
       "last_char": "06/22/2026 18:37",
       "stats": {
         "uid": "1VGBHqraGibxC1fHS6a4PjOF",
@@ -3053,11 +3053,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 15.0,
-        "blocksTravelled": 25066,
-        "blocksBroken": 774,
+        "blocksTravelled": 25090,
+        "blocksBroken": 780,
         "blocksPlaced": 447,
         "deepestY": 100,
-        "lastSeen": 1786738488,
+        "lastSeen": 1786738624,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
