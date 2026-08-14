@@ -1,5 +1,5 @@
 {
-  "generated": "20260814-193006",
+  "generated": "20260814-193206",
   "game_version": "1.22.5",
   "check_ts": "20260813-200057",
   "latest_engine": "1.22.6",
@@ -2128,9 +2128,9 @@
         "class": "tinker",
         "deaths": 7,
         "mobKills": 189,
-        "mealsEaten": 186,
-        "caloriesConsumed": 84002,
-        "lastMeal": "Earthy orange ceramic bowl of meat stew",
+        "mealsEaten": 188,
+        "caloriesConsumed": 85242,
+        "lastMeal": "Earthy brown ceramic bowl of meat stew",
         "mealsByName": {
           "Pear": 22,
           "Meat pie": 10,
@@ -2153,14 +2153,14 @@
           "Blackberry": 2,
           "Lump of rendered fat": 3,
           "King bolete": 2,
-          "Earthy brown ceramic bowl of meat stew": 10,
+          "Earthy brown ceramic bowl of meat stew": 12,
           "Earthy orange ceramic bowl of jam": 10
         },
         "foodCatCounts": {
           "Fruit": 120,
           "Grain": 77,
-          "Protein": 63,
-          "Vegetable": 53,
+          "Protein": 65,
+          "Vegetable": 55,
           "Dairy": 41
         },
         "deathCauses": {
@@ -2169,12 +2169,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 156.5,
-        "blocksTravelled": 233724,
+        "playtimeHours": 156.6,
+        "blocksTravelled": 233744,
         "blocksBroken": 9321,
         "blocksPlaced": 655,
         "deepestY": 1,
-        "lastSeen": 1786728527,
+        "lastSeen": 1786728647,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2800,11 +2800,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 628.7,
-        "blocksTravelled": 425770,
+        "blocksTravelled": 425887,
         "blocksBroken": 14668,
         "blocksPlaced": 9717,
         "deepestY": 12,
-        "lastSeen": 1786728527,
+        "lastSeen": 1786728647,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
