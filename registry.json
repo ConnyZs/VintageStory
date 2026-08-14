@@ -1,5 +1,5 @@
 {
-  "generated": "20260814-210212",
+  "generated": "20260814-210412",
   "game_version": "1.22.5",
   "check_ts": "20260814-200058",
   "latest_engine": "1.22.6",
@@ -2489,9 +2489,9 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 738,
-        "mealsEaten": 1548,
-        "caloriesConsumed": 234508,
-        "lastMeal": "Earthy orange ceramic bowl of meat stew",
+        "mealsEaten": 1549,
+        "caloriesConsumed": 235442,
+        "lastMeal": "Earthy brown ceramic bowl of meat stew",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
@@ -2564,13 +2564,13 @@
           "Termites": 15,
           "Saguaro fruit": 6,
           "Blue meanie": 2,
-          "Earthy brown ceramic bowl of meat stew": 28,
+          "Earthy brown ceramic bowl of meat stew": 29,
           "Earthy orange ceramic bowl of vegetable stew": 3
         },
         "foodCatCounts": {
           "Grain": 271,
-          "Protein": 203,
-          "Vegetable": 311,
+          "Protein": 204,
+          "Vegetable": 312,
           "Fruit": 1081,
           "Dairy": 65
         },
@@ -2584,11 +2584,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 516.4,
-        "blocksTravelled": 478073,
+        "blocksTravelled": 478200,
         "blocksBroken": 25628,
         "blocksPlaced": 8872,
         "deepestY": 1,
-        "lastSeen": 1786734050,
+        "lastSeen": 1786734197,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3052,12 +3052,12 @@
           "shiver-deepsplit": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 13.8,
-        "blocksTravelled": 24553,
+        "playtimeHours": 13.9,
+        "blocksTravelled": 24630,
         "blocksBroken": 765,
         "blocksPlaced": 432,
         "deepestY": 100,
-        "lastSeen": 1786734050,
+        "lastSeen": 1786734197,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
