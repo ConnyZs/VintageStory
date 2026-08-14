@@ -1,5 +1,5 @@
 {
-  "generated": "20260814-205011",
+  "generated": "20260814-205211",
   "game_version": "1.22.5",
   "check_ts": "20260814-200058",
   "latest_engine": "1.22.6",
@@ -2488,14 +2488,14 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 734,
-        "mealsEaten": 1545,
-        "caloriesConsumed": 233868,
+        "mobKills": 735,
+        "mealsEaten": 1547,
+        "caloriesConsumed": 234450,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
-          "Earthy orange ceramic bowl of meat stew": 68,
+          "Earthy orange ceramic bowl of meat stew": 70,
           "Blueberry": 27,
           "Pear pie (charred)": 1,
           "Rye bread": 8,
@@ -2569,8 +2569,8 @@
         },
         "foodCatCounts": {
           "Grain": 271,
-          "Protein": 200,
-          "Vegetable": 308,
+          "Protein": 202,
+          "Vegetable": 310,
           "Fruit": 1081,
           "Dairy": 65
         },
@@ -2584,11 +2584,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 516.2,
-        "blocksTravelled": 477672,
-        "blocksBroken": 25579,
+        "blocksTravelled": 477907,
+        "blocksBroken": 25581,
         "blocksPlaced": 8871,
         "deepestY": 1,
-        "lastSeen": 1786733330,
+        "lastSeen": 1786733450,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3053,11 +3053,11 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 13.6,
-        "blocksTravelled": 24137,
+        "blocksTravelled": 24182,
         "blocksBroken": 765,
         "blocksPlaced": 432,
         "deepestY": 100,
-        "lastSeen": 1786733330,
+        "lastSeen": 1786733450,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
