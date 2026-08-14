@@ -1,5 +1,5 @@
 {
-  "generated": "20260814-213014",
+  "generated": "20260814-213214",
   "game_version": "1.22.5",
   "check_ts": "20260814-200058",
   "latest_engine": "1.22.6",
@@ -2170,11 +2170,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 157.5,
-        "blocksTravelled": 236193,
+        "blocksTravelled": 236345,
         "blocksBroken": 9370,
         "blocksPlaced": 735,
         "deepestY": 1,
-        "lastSeen": 1786735764,
+        "lastSeen": 1786735851,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2583,12 +2583,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 516.8,
+        "playtimeHours": 516.9,
         "blocksTravelled": 478597,
         "blocksBroken": 25724,
         "blocksPlaced": 8874,
         "deepestY": 1,
-        "lastSeen": 1786735731,
+        "lastSeen": 1786735851,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3053,17 +3053,18 @@
           "shiver-nightmare": 1
         },
         "playtimeHours": 14.3,
-        "blocksTravelled": 24942,
+        "blocksTravelled": 24972,
         "blocksBroken": 771,
         "blocksPlaced": 444,
         "deepestY": 100,
-        "lastSeen": 1786735731,
+        "lastSeen": 1786735851,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
           "Tailor trousers",
           "Tailor shoes",
           "Tailor gloves",
+          "Tailor mask",
           "Tailor belt",
           "Tailor needle puff",
           "Tailor jacket",
@@ -3101,6 +3102,12 @@
             "code": "game:clothes-hand-tailor-gloves",
             "name": "Tailor gloves",
             "icon": "character/icons/hand-tailor-gloves.png"
+          },
+          {
+            "slot": "face",
+            "code": "game:clothes-face-tailor-mask",
+            "name": "Tailor mask",
+            "icon": "character/icons/face-tailor-mask.png"
           },
           {
             "slot": "waist",
