@@ -77,7 +77,7 @@
   }
  },
  "AddyBuschu": {
-  "hash": "c891714b98a17ad64b6bc05f07167dffe1b89f38",
+  "hash": "938428c3db65dd8d89884eea121f0836016462dd",
   "info": {
    "class": "homesteader",
    "items": [
@@ -101,7 +101,7 @@
     "Fur coat"
    ],
    "frames": 16,
-   "v": 1786650781
+   "v": 1786750133
   }
  },
  "Barberschascher": {
@@ -127,7 +127,7 @@
   }
  },
  "Morsel": {
-  "hash": "622a59340ba1814e26ea083717abedda38728a49",
+  "hash": "5bb5de0bf2803f3a0752e2dc3700aa7a664c0163",
   "info": {
    "class": "tailor",
    "items": [
@@ -142,14 +142,14 @@
     "Tailor blouse",
     "Tailor trousers",
     "Tailor shoes",
-    "Tailor gloves",
+    "Cuffs",
     "Tailor mask",
     "Tailor belt",
     "Tailor needle puff",
     "Tailor jacket"
    ],
    "frames": 16,
-   "v": 1786748085
+   "v": 1786750154
   }
  }
 }

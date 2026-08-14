@@ -1,5 +1,5 @@
 {
-  "generated": "20260815-012629",
+  "generated": "20260815-012830",
   "game_version": "1.22.5",
   "check_ts": "20260814-200058",
   "latest_engine": "1.22.6",
@@ -2488,7 +2488,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 762,
+        "mobKills": 763,
         "mealsEaten": 1595,
         "caloriesConsumed": 256038,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
@@ -2583,12 +2583,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 520.7,
-        "blocksTravelled": 490893,
-        "blocksBroken": 27001,
-        "blocksPlaced": 9336,
+        "playtimeHours": 520.8,
+        "blocksTravelled": 491437,
+        "blocksBroken": 27004,
+        "blocksPlaced": 9355,
         "deepestY": 1,
-        "lastSeen": 1786749898,
+        "lastSeen": 1786750108,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2702,8 +2702,8 @@
           },
           {
             "slot": "bag-4",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "code": "butchering:deadwolf-male-eurasian-6-dead",
+            "name": "Wolf (dead)"
           }
         ],
         "skin": {
@@ -3052,18 +3052,18 @@
           "shiver-deepsplit": 1,
           "shiver-nightmare": 1
         },
-        "playtimeHours": 18.1,
-        "blocksTravelled": 31534,
+        "playtimeHours": 18.2,
+        "blocksTravelled": 31546,
         "blocksBroken": 995,
         "blocksPlaced": 514,
         "deepestY": 64,
-        "lastSeen": 1786749898,
+        "lastSeen": 1786750108,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
           "Tailor trousers",
           "Tailor shoes",
-          "Tailor gloves",
+          "Cuffs",
           "Tailor mask",
           "Tailor belt",
           "Tailor needle puff",
@@ -3098,9 +3098,9 @@
           },
           {
             "slot": "hand",
-            "code": "game:clothes-hand-tailor-gloves",
-            "name": "Tailor gloves",
-            "icon": "character/icons/hand-tailor-gloves.png"
+            "code": "game:clothes-hand-cuffsplain",
+            "name": "Cuffs",
+            "icon": "character/icons/hand-cuffsplain.png"
           },
           {
             "slot": "face",

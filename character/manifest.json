@@ -69,7 +69,7 @@
     "Fur coat"
    ],
    "frames": 16,
-   "v": 1786650781
+   "v": 1786750133
   },
   "Moritz": {
    "class": "mason",
@@ -128,14 +128,14 @@
     "Tailor blouse",
     "Tailor trousers",
     "Tailor shoes",
-    "Tailor gloves",
+    "Cuffs",
     "Tailor mask",
     "Tailor belt",
     "Tailor needle puff",
     "Tailor jacket"
    ],
    "frames": 16,
-   "v": 1786748085
+   "v": 1786750154
   }
  }
 }
