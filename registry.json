@@ -1,5 +1,5 @@
 {
-  "generated": "20260814-192806",
+  "generated": "20260814-193006",
   "game_version": "1.22.5",
   "check_ts": "20260813-200057",
   "latest_engine": "1.22.6",
@@ -2128,13 +2128,13 @@
         "class": "tinker",
         "deaths": 7,
         "mobKills": 189,
-        "mealsEaten": 185,
-        "caloriesConsumed": 83913,
+        "mealsEaten": 186,
+        "caloriesConsumed": 84002,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Pear": 22,
           "Meat pie": 10,
-          "Earthy orange ceramic bowl of meat stew": 36,
+          "Earthy orange ceramic bowl of meat stew": 37,
           "Strawberry": 2,
           "Blackcurrant": 3,
           "Rye bread": 1,
@@ -2159,8 +2159,8 @@
         "foodCatCounts": {
           "Fruit": 120,
           "Grain": 77,
-          "Protein": 62,
-          "Vegetable": 52,
+          "Protein": 63,
+          "Vegetable": 53,
           "Dairy": 41
         },
         "deathCauses": {
@@ -2170,11 +2170,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 156.5,
-        "blocksTravelled": 233670,
+        "blocksTravelled": 233724,
         "blocksBroken": 9321,
         "blocksPlaced": 655,
         "deepestY": 1,
-        "lastSeen": 1786728473,
+        "lastSeen": 1786728527,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2800,11 +2800,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 628.7,
-        "blocksTravelled": 425653,
+        "blocksTravelled": 425770,
         "blocksBroken": 14668,
         "blocksPlaced": 9717,
         "deepestY": 12,
-        "lastSeen": 1786728457,
+        "lastSeen": 1786728527,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
