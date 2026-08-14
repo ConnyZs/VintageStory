@@ -1,5 +1,5 @@
 {
-  "generated": "20260814-143147",
+  "generated": "20260814-143347",
   "game_version": "1.22.5",
   "check_ts": "20260813-200057",
   "latest_engine": "1.22.6",
@@ -2732,7 +2732,7 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 2,
-        "mobKills": 380,
+        "mobKills": 381,
         "mealsEaten": 529,
         "caloriesConsumed": 142619,
         "lastMeal": "Earthy brown ceramic bowl of meat stew",
@@ -2799,12 +2799,12 @@
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 623.7,
-        "blocksTravelled": 420411,
-        "blocksBroken": 14625,
-        "blocksPlaced": 9685,
+        "playtimeHours": 623.8,
+        "blocksTravelled": 420730,
+        "blocksBroken": 14626,
+        "blocksPlaced": 9687,
         "deepestY": 12,
-        "lastSeen": 1786710638,
+        "lastSeen": 1786710825,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
