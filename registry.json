@@ -1,5 +1,5 @@
 {
-  "generated": "20260815-232907",
+  "generated": "20260815-234708",
   "game_version": "1.22.5",
   "check_ts": "20260815-200046",
   "latest_engine": "1.22.6",
@@ -2583,12 +2583,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 522.5,
-        "blocksTravelled": 498918,
-        "blocksBroken": 28862,
-        "blocksPlaced": 10611,
+        "playtimeHours": 522.8,
+        "blocksTravelled": 499899,
+        "blocksBroken": 29380,
+        "blocksPlaced": 11138,
         "deepestY": 1,
-        "lastSeen": 1786829316,
+        "lastSeen": 1786830397,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3053,12 +3053,12 @@
           "shiver-nightmare": 1,
           "bear-brown-adult-male": 1
         },
-        "playtimeHours": 19.7,
-        "blocksTravelled": 37175,
-        "blocksBroken": 1003,
-        "blocksPlaced": 517,
+        "playtimeHours": 20.0,
+        "blocksTravelled": 38412,
+        "blocksBroken": 1057,
+        "blocksPlaced": 519,
         "deepestY": 64,
-        "lastSeen": 1786829316,
+        "lastSeen": 1786830397,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
@@ -3142,6 +3142,26 @@
             "slot": "armorlegs",
             "code": "game:armor-legs-tailored-plain-linen",
             "name": "Tailored gamboised leg armor"
+          },
+          {
+            "slot": "bag-1",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-3",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           }
         ],
         "skin": {
