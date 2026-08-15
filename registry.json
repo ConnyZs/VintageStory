@@ -1,5 +1,5 @@
 {
-  "generated": "20260815-220901",
+  "generated": "20260815-221102",
   "game_version": "1.22.5",
   "check_ts": "20260815-200046",
   "latest_engine": "1.22.6",
@@ -2583,12 +2583,12 @@
           "wolf-eurasian-adult-male": 2,
           "shiver-surface": 1
         },
-        "playtimeHours": 521.1,
+        "playtimeHours": 521.2,
         "blocksTravelled": 493440,
         "blocksBroken": 27055,
         "blocksPlaced": 9454,
         "deepestY": 1,
-        "lastSeen": 1786824512,
+        "lastSeen": 1786824633,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
