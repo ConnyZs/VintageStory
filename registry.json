@@ -1,5 +1,5 @@
 {
-  "generated": "20260816-001910",
+  "generated": "20260816-002110",
   "game_version": "1.22.5",
   "check_ts": "20260815-200046",
   "latest_engine": "1.22.6",
@@ -2487,7 +2487,7 @@
         "uid": "MT3maN90oN2gwGyklJR20Gu1",
         "name": "AddyBuschu",
         "class": "homesteader",
-        "deaths": 24,
+        "deaths": 25,
         "mobKills": 779,
         "mealsEaten": 1611,
         "caloriesConsumed": 264422,
@@ -2580,15 +2580,15 @@
           "pig-eurasian-adult-male": 1,
           "pig-eurasian-adult-female": 1,
           "wolf-eurasian-adult-female": 1,
-          "wolf-eurasian-adult-male": 2,
+          "wolf-eurasian-adult-male": 3,
           "shiver-surface": 1
         },
-        "playtimeHours": 523.3,
-        "blocksTravelled": 504028,
-        "blocksBroken": 29418,
+        "playtimeHours": 523.4,
+        "blocksTravelled": 504600,
+        "blocksBroken": 29419,
         "blocksPlaced": 11145,
         "deepestY": 1,
-        "lastSeen": 1786832318,
+        "lastSeen": 1786832439,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2699,6 +2699,11 @@
             "slot": "bag-3",
             "code": "game:backpack-normal",
             "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-4",
+            "code": "butchering:butcherybag-standard",
+            "name": "Hide Butchering Bag"
           }
         ],
         "skin": {
@@ -3049,12 +3054,12 @@
           "shiver-nightmare": 1,
           "bear-brown-adult-male": 1
         },
-        "playtimeHours": 20.5,
-        "blocksTravelled": 40039,
-        "blocksBroken": 1395,
+        "playtimeHours": 20.6,
+        "blocksTravelled": 40066,
+        "blocksBroken": 1500,
         "blocksPlaced": 520,
         "deepestY": 64,
-        "lastSeen": 1786832318,
+        "lastSeen": 1786832439,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
@@ -3177,11 +3182,11 @@
     }
   ],
   "lastAccident": {
-    "playerName": "Morsel",
-    "timestamp": 1786825302,
-    "cause": "bear-brown-adult-male",
-    "x": 519823,
-    "y": 113,
-    "z": 509931
+    "playerName": "AddyBuschu",
+    "timestamp": 1786832461,
+    "cause": "wolf-eurasian-adult-male",
+    "x": 519825,
+    "y": 110,
+    "z": 510601
   }
 }
