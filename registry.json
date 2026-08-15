@@ -1,5 +1,5 @@
 {
-  "generated": "20260816-005313",
+  "generated": "20260816-005513",
   "game_version": "1.22.5",
   "check_ts": "20260815-200046",
   "latest_engine": "1.22.6",
@@ -3055,17 +3055,17 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 21.1,
-        "blocksTravelled": 42906,
+        "blocksTravelled": 42907,
         "blocksBroken": 1841,
         "blocksPlaced": 523,
         "deepestY": 64,
-        "lastSeen": 1786834360,
+        "lastSeen": 1786834480,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
           "Tailor trousers",
           "Tailor shoes",
-          "Cuffs",
+          "Tailor gloves",
           "Tailor mask",
           "Tailor belt",
           "Tailor needle puff",
@@ -3101,9 +3101,9 @@
           },
           {
             "slot": "hand",
-            "code": "game:clothes-hand-cuffsplain",
-            "name": "Cuffs",
-            "icon": "character/icons/hand-cuffsplain.png"
+            "code": "game:clothes-hand-tailor-gloves",
+            "name": "Tailor gloves",
+            "icon": "character/icons/hand-tailor-gloves.png"
           },
           {
             "slot": "face",
