@@ -1,5 +1,5 @@
 {
-  "generated": "20260815-235909",
+  "generated": "20260816-000109",
   "game_version": "1.22.5",
   "check_ts": "20260815-200046",
   "latest_engine": "1.22.6",
@@ -2489,13 +2489,13 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 776,
-        "mealsEaten": 1609,
-        "caloriesConsumed": 263574,
+        "mealsEaten": 1610,
+        "caloriesConsumed": 264346,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
-          "Earthy orange ceramic bowl of meat stew": 121,
+          "Earthy orange ceramic bowl of meat stew": 122,
           "Blueberry": 27,
           "Pear pie (charred)": 1,
           "Rye bread": 8,
@@ -2569,8 +2569,8 @@
         },
         "foodCatCounts": {
           "Grain": 271,
-          "Protein": 264,
-          "Vegetable": 370,
+          "Protein": 265,
+          "Vegetable": 371,
           "Fruit": 1081,
           "Dairy": 65
         },
@@ -2584,11 +2584,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 523.0,
-        "blocksTravelled": 500818,
-        "blocksBroken": 29401,
+        "blocksTravelled": 501143,
+        "blocksBroken": 29417,
         "blocksPlaced": 11144,
         "deepestY": 1,
-        "lastSeen": 1786831117,
+        "lastSeen": 1786831238,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3054,11 +3054,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 20.2,
-        "blocksTravelled": 39227,
-        "blocksBroken": 1163,
+        "blocksTravelled": 39254,
+        "blocksBroken": 1218,
         "blocksPlaced": 519,
         "deepestY": 64,
-        "lastSeen": 1786831117,
+        "lastSeen": 1786831238,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
