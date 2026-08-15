@@ -1,5 +1,5 @@
 {
-  "generated": "20260816-002311",
+  "generated": "20260816-002511",
   "game_version": "1.22.5",
   "check_ts": "20260815-200046",
   "latest_engine": "1.22.6",
@@ -2584,11 +2584,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 523.4,
-        "blocksTravelled": 505056,
+        "blocksTravelled": 505708,
         "blocksBroken": 29419,
         "blocksPlaced": 11145,
         "deepestY": 1,
-        "lastSeen": 1786832559,
+        "lastSeen": 1786832679,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2686,7 +2686,7 @@
             "name": "Black bear hide body armor"
           },
           {
-            "slot": "bag-1",
+            "slot": "bag-3",
             "code": "butchering:butcherybag-standard",
             "name": "Hide Butchering Bag"
           }
@@ -3040,11 +3040,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 20.6,
-        "blocksTravelled": 40086,
-        "blocksBroken": 1580,
+        "blocksTravelled": 40108,
+        "blocksBroken": 1652,
         "blocksPlaced": 520,
         "deepestY": 64,
-        "lastSeen": 1786832559,
+        "lastSeen": 1786832679,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
