@@ -1,5 +1,5 @@
 {
-  "generated": "20260816-002110",
+  "generated": "20260816-002311",
   "game_version": "1.22.5",
   "check_ts": "20260815-200046",
   "latest_engine": "1.22.6",
@@ -2584,11 +2584,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 523.4,
-        "blocksTravelled": 504600,
+        "blocksTravelled": 505056,
         "blocksBroken": 29419,
         "blocksPlaced": 11145,
         "deepestY": 1,
-        "lastSeen": 1786832439,
+        "lastSeen": 1786832559,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2687,21 +2687,6 @@
           },
           {
             "slot": "bag-1",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-2",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-3",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-4",
             "code": "butchering:butcherybag-standard",
             "name": "Hide Butchering Bag"
           }
@@ -3055,11 +3040,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 20.6,
-        "blocksTravelled": 40066,
-        "blocksBroken": 1500,
+        "blocksTravelled": 40086,
+        "blocksBroken": 1580,
         "blocksPlaced": 520,
         "deepestY": 64,
-        "lastSeen": 1786832439,
+        "lastSeen": 1786832559,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
