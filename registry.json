@@ -1,5 +1,5 @@
 {
-  "generated": "20260815-215500",
+  "generated": "20260815-215701",
   "game_version": "1.22.5",
   "check_ts": "20260815-200046",
   "latest_engine": "1.22.6",
@@ -2584,11 +2584,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 520.9,
-        "blocksTravelled": 492216,
-        "blocksBroken": 27026,
+        "blocksTravelled": 492277,
+        "blocksBroken": 27029,
         "blocksPlaced": 9434,
         "deepestY": 1,
-        "lastSeen": 1786823674,
+        "lastSeen": 1786823792,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
