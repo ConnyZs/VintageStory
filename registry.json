@@ -1,5 +1,5 @@
 {
-  "generated": "20260815-215100",
+  "generated": "20260815-215300",
   "game_version": "1.22.5",
   "check_ts": "20260815-200046",
   "latest_engine": "1.22.6",
@@ -2489,13 +2489,13 @@
         "class": "homesteader",
         "deaths": 24,
         "mobKills": 763,
-        "mealsEaten": 1596,
-        "caloriesConsumed": 256066,
+        "mealsEaten": 1598,
+        "caloriesConsumed": 257564,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
-          "Earthy orange ceramic bowl of meat stew": 108,
+          "Earthy orange ceramic bowl of meat stew": 110,
           "Blueberry": 27,
           "Pear pie (charred)": 1,
           "Rye bread": 8,
@@ -2569,8 +2569,8 @@
         },
         "foodCatCounts": {
           "Grain": 271,
-          "Protein": 251,
-          "Vegetable": 357,
+          "Protein": 253,
+          "Vegetable": 359,
           "Fruit": 1081,
           "Dairy": 65
         },
@@ -2584,11 +2584,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 520.9,
-        "blocksTravelled": 492133,
+        "blocksTravelled": 492216,
         "blocksBroken": 27026,
         "blocksPlaced": 9434,
         "deepestY": 1,
-        "lastSeen": 1786823432,
+        "lastSeen": 1786823552,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
