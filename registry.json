@@ -1,5 +1,5 @@
 {
-  "generated": "20260815-222302",
+  "generated": "20260815-222503",
   "game_version": "1.22.5",
   "check_ts": "20260815-200046",
   "latest_engine": "1.22.6",
@@ -2584,11 +2584,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 521.4,
-        "blocksTravelled": 494043,
-        "blocksBroken": 27729,
-        "blocksPlaced": 9491,
+        "blocksTravelled": 494111,
+        "blocksBroken": 27906,
+        "blocksPlaced": 9492,
         "deepestY": 1,
-        "lastSeen": 1786825353,
+        "lastSeen": 1786825487,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3028,11 +3028,11 @@
         "class": "tailor",
         "deaths": 6,
         "mobKills": 18,
-        "mealsEaten": 50,
-        "caloriesConsumed": 25988,
+        "mealsEaten": 51,
+        "caloriesConsumed": 26750,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
-          "Earthy orange ceramic bowl of meat stew": 32,
+          "Earthy orange ceramic bowl of meat stew": 33,
           "Meat pie": 8,
           "Leather-bound Oak Tankard": 1,
           "Pear pie (charred)": 6,
@@ -3040,8 +3040,8 @@
           "Cranberry": 1
         },
         "foodCatCounts": {
-          "Protein": 40,
-          "Vegetable": 29,
+          "Protein": 41,
+          "Vegetable": 30,
           "Grain": 19,
           "Fruit": 8,
           "Dairy": 11
@@ -3054,11 +3054,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 18.6,
-        "blocksTravelled": 34025,
+        "blocksTravelled": 34122,
         "blocksBroken": 1002,
         "blocksPlaced": 514,
         "deepestY": 64,
-        "lastSeen": 1786825353,
+        "lastSeen": 1786825487,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
