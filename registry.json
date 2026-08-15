@@ -1,5 +1,5 @@
 {
-  "generated": "20260816-004712",
+  "generated": "20260816-004912",
   "game_version": "1.22.5",
   "check_ts": "20260815-200046",
   "latest_engine": "1.22.6",
@@ -3055,11 +3055,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 21.0,
-        "blocksTravelled": 42801,
+        "blocksTravelled": 42843,
         "blocksBroken": 1838,
         "blocksPlaced": 520,
         "deepestY": 64,
-        "lastSeen": 1786834000,
+        "lastSeen": 1786834120,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
