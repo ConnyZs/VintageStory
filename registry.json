@@ -1,5 +1,5 @@
 {
-  "generated": "20260816-001510",
+  "generated": "20260816-001710",
   "game_version": "1.22.5",
   "check_ts": "20260815-200046",
   "latest_engine": "1.22.6",
@@ -2584,11 +2584,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 523.3,
-        "blocksTravelled": 503387,
+        "blocksTravelled": 503553,
         "blocksBroken": 29418,
         "blocksPlaced": 11144,
         "deepestY": 1,
-        "lastSeen": 1786832078,
+        "lastSeen": 1786832198,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3027,7 +3027,7 @@
         "name": "Morsel",
         "class": "tailor",
         "deaths": 6,
-        "mobKills": 20,
+        "mobKills": 21,
         "mealsEaten": 59,
         "caloriesConsumed": 29062,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
@@ -3055,11 +3055,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 20.5,
-        "blocksTravelled": 39760,
+        "blocksTravelled": 39964,
         "blocksBroken": 1329,
         "blocksPlaced": 520,
         "deepestY": 64,
-        "lastSeen": 1786832078,
+        "lastSeen": 1786832198,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
