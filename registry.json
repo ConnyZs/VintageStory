@@ -1,5 +1,5 @@
 {
-  "generated": "20260815-224704",
+  "generated": "20260815-224904",
   "game_version": "1.22.5",
   "check_ts": "20260815-200046",
   "latest_engine": "1.22.6",
@@ -2488,14 +2488,14 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 24,
-        "mobKills": 767,
-        "mealsEaten": 1601,
-        "caloriesConsumed": 259372,
+        "mobKills": 769,
+        "mealsEaten": 1603,
+        "caloriesConsumed": 260338,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
-          "Earthy orange ceramic bowl of meat stew": 113,
+          "Earthy orange ceramic bowl of meat stew": 115,
           "Blueberry": 27,
           "Pear pie (charred)": 1,
           "Rye bread": 8,
@@ -2569,8 +2569,8 @@
         },
         "foodCatCounts": {
           "Grain": 271,
-          "Protein": 256,
-          "Vegetable": 362,
+          "Protein": 258,
+          "Vegetable": 364,
           "Fruit": 1081,
           "Dairy": 65
         },
@@ -2584,11 +2584,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 521.8,
-        "blocksTravelled": 495254,
+        "blocksTravelled": 495467,
         "blocksBroken": 28795,
         "blocksPlaced": 9635,
         "deepestY": 1,
-        "lastSeen": 1786826794,
+        "lastSeen": 1786826914,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3054,11 +3054,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 19.0,
-        "blocksTravelled": 34370,
+        "blocksTravelled": 34380,
         "blocksBroken": 1002,
         "blocksPlaced": 515,
         "deepestY": 64,
-        "lastSeen": 1786826794,
+        "lastSeen": 1786826914,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
