@@ -1,5 +1,5 @@
 {
-  "generated": "20260815-173043",
+  "generated": "20260815-173700",
   "game_version": "1.22.5",
   "check_ts": "20260814-200058",
   "latest_engine": "1.22.6",
@@ -501,9 +501,9 @@
       "modid": "coinage",
       "section": "1.22",
       "category": "Utility",
-      "on_server": true,
+      "on_server": false,
       "link": "https://mods.vintagestory.at/coinage",
-      "server_state": "yes",
+      "server_state": "remove",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "2.2.1",
