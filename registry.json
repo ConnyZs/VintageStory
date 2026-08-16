@@ -1,5 +1,5 @@
 {
-  "generated": "20260816-210051",
+  "generated": "20260816-210119",
   "game_version": "1.22.5",
   "check_ts": "20260815-200046",
   "latest_engine": "1.22.7",
@@ -47,7 +47,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 131,
+  "count": 134,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -2045,6 +2045,54 @@
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "1.0.5",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": true
+    },
+    {
+      "name": "Forgotten Armory: Hussar style",
+      "modid": "fahussar",
+      "section": "1.22",
+      "category": "Cosmetics",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/show/mod/31411",
+      "server_state": "no",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": null,
+      "build_version": "1.1.6",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": true
+    },
+    {
+      "name": "Forgotten Armory: Varangian Style",
+      "modid": "favarangian",
+      "section": "1.22",
+      "category": "Cosmetics",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/show/mod/38338",
+      "server_state": "no",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": null,
+      "build_version": "1.1.0",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": true
+    },
+    {
+      "name": "Forgotten Armory: Greenwich style",
+      "modid": "fagreenwich",
+      "section": "1.22",
+      "category": "Cosmetics",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/show/mod/25550",
+      "server_state": "no",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": null,
+      "build_version": "1.4.6",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": true
