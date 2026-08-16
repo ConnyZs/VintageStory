@@ -1,6 +1,54 @@
 {
   "actions": [
     {
+      "ts": "2026-08-16T19:05:44Z",
+      "label": "Approved for server",
+      "link": "https://mods.vintagestory.at/show/mod/46214",
+      "name": "Echoes of the Lens: The Shadow Fantasy"
+    },
+    {
+      "ts": "2026-08-16T19:05:43Z",
+      "label": "Approved for server",
+      "link": "https://mods.vintagestory.at/show/mod/25550",
+      "name": "Forgotten Armory: Greenwich style"
+    },
+    {
+      "ts": "2026-08-16T19:05:43Z",
+      "label": "Approved for server",
+      "link": "https://mods.vintagestory.at/show/mod/31411",
+      "name": "Forgotten Armory: Hussar style"
+    },
+    {
+      "ts": "2026-08-16T19:05:42Z",
+      "label": "Approved for server",
+      "link": "https://mods.vintagestory.at/show/mod/38338",
+      "name": "Forgotten Armory: Varangian Style"
+    },
+    {
+      "ts": "2026-08-16T19:05:41Z",
+      "label": "Approved for server",
+      "link": "https://mods.vintagestory.at/show/mod/42149",
+      "name": "Wanderer's Sketchbook"
+    },
+    {
+      "ts": "2026-08-16T19:05:37Z",
+      "label": "Rejected",
+      "link": "https://mods.vintagestory.at/immersivebodytemperature",
+      "name": "Immersive Body Temperature"
+    },
+    {
+      "ts": "2026-08-16T19:05:34Z",
+      "label": "Rejected",
+      "link": "https://mods.vintagestory.at/show/mod/41284",
+      "name": "Forgotten Armory: Jousting style"
+    },
+    {
+      "ts": "2026-08-16T19:05:29Z",
+      "label": "Rejected",
+      "link": "https://mods.vintagestory.at/show/mod/58501",
+      "name": "Extreme Weathers [ALPHA]"
+    },
+    {
       "ts": "2026-07-24T18:36:44Z",
       "label": "Approved for server",
       "link": "https://mods.vintagestory.at/configlib",
@@ -251,54 +299,6 @@
       "label": "Approved for server",
       "link": "https://mods.vintagestory.at/fitnshard",
       "name": "Fitting & Sharding"
-    },
-    {
-      "ts": "2026-07-12T22:06:25Z",
-      "label": "Approved for server",
-      "link": "https://mods.vintagestory.at/vanity",
-      "name": "Vanity"
-    },
-    {
-      "ts": "2026-07-12T22:05:18Z",
-      "label": "Approved for server",
-      "link": "https://mods.vintagestory.at/kscartographytable",
-      "name": "K's Cartography Table"
-    },
-    {
-      "ts": "2026-07-12T22:05:06Z",
-      "label": "Approved for server",
-      "link": "https://mods.vintagestory.at/stepupadvanced",
-      "name": "StepUp Advanced"
-    },
-    {
-      "ts": "2026-07-12T22:05:06Z",
-      "label": "Un-approved",
-      "link": "https://mods.vintagestory.at/smex",
-      "name": "Steelmaking Expanded"
-    },
-    {
-      "ts": "2026-07-12T22:05:01Z",
-      "label": "Approved for server",
-      "link": "https://mods.vintagestory.at/smex",
-      "name": "Steelmaking Expanded"
-    },
-    {
-      "ts": "2026-07-12T20:38:06Z",
-      "label": "Proposed",
-      "link": "https://mods.vintagestory.at/stepupadvanced",
-      "name": "StepUp Advanced"
-    },
-    {
-      "ts": "2026-07-12T20:37:48Z",
-      "label": "Listed as client-side",
-      "link": "https://mods.vintagestory.at/__test_local_only_e2e__",
-      "name": "Local Only E2E Test"
-    },
-    {
-      "ts": "2026-07-12T20:37:45Z",
-      "label": "Rejected",
-      "link": "https://mods.vintagestory.at/__test_local_only_e2e__",
-      "name": "Local Only E2E Test"
     }
   ]
 }

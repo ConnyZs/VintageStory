@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-16T19:00:40Z",
+  "updated": "2026-08-16T19:06:07Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1087,28 +1087,10 @@
     },
     {
       "name": "",
-      "link": "https://mods.vintagestory.at/show/mod/58501",
-      "category": "Other",
-      "section": "1.22",
-      "server_state": "no",
-      "proposed": true,
-      "note": ""
-    },
-    {
-      "name": "",
-      "link": "https://mods.vintagestory.at/immersivebodytemperature",
-      "category": "Other",
-      "section": "1.22",
-      "server_state": "no",
-      "proposed": true,
-      "note": ""
-    },
-    {
-      "name": "",
       "link": "https://mods.vintagestory.at/show/mod/42149",
       "category": "Other",
       "section": "1.22",
-      "server_state": "no",
+      "server_state": "yes",
       "proposed": true,
       "note": ""
     },
@@ -1117,16 +1099,7 @@
       "link": "https://mods.vintagestory.at/show/mod/46214",
       "category": "Other",
       "section": "1.22",
-      "server_state": "no",
-      "proposed": true,
-      "note": ""
-    },
-    {
-      "name": "",
-      "link": "https://mods.vintagestory.at/show/mod/41284",
-      "category": "Other",
-      "section": "1.22",
-      "server_state": "no",
+      "server_state": "yes",
       "proposed": true,
       "note": ""
     },
@@ -1135,7 +1108,7 @@
       "link": "https://mods.vintagestory.at/show/mod/31411",
       "category": "Other",
       "section": "1.22",
-      "server_state": "no",
+      "server_state": "yes",
       "proposed": true,
       "note": ""
     },
@@ -1144,13 +1117,22 @@
       "link": "https://mods.vintagestory.at/show/mod/38338",
       "category": "Other",
       "section": "1.22",
-      "server_state": "no",
+      "server_state": "yes",
       "proposed": true,
       "note": ""
     },
     {
       "name": "",
       "link": "https://mods.vintagestory.at/show/mod/25550",
+      "category": "Other",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": true,
+      "note": ""
+    },
+    {
+      "name": "",
+      "link": "https://mods.vintagestory.at/vsairshipmod",
       "category": "Other",
       "section": "1.22",
       "server_state": "no",
