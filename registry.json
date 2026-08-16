@@ -1,5 +1,5 @@
 {
-  "generated": "20260816-223110",
+  "generated": "20260816-223510",
   "game_version": "1.22.5",
   "check_ts": "20260816-222647",
   "latest_engine": "1.22.7",
@@ -2218,11 +2218,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 179.0,
-        "blocksTravelled": 268647,
+        "blocksTravelled": 268648,
         "blocksBroken": 12712,
         "blocksPlaced": 821,
         "deepestY": 1,
-        "lastSeen": 1786911882,
+        "lastSeen": 1786912453,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
