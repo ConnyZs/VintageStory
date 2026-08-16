@@ -1,5 +1,5 @@
 {
-  "generated": "20260816-022119",
+  "generated": "20260816-022319",
   "game_version": "1.22.5",
   "check_ts": "20260815-200046",
   "latest_engine": "1.22.6",
@@ -2127,7 +2127,7 @@
         "name": "Raschuetzer",
         "class": "tinker",
         "deaths": 7,
-        "mobKills": 203,
+        "mobKills": 208,
         "mealsEaten": 205,
         "caloriesConsumed": 102174,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
@@ -2169,12 +2169,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 161.7,
-        "blocksTravelled": 261915,
-        "blocksBroken": 12089,
+        "playtimeHours": 161.8,
+        "blocksTravelled": 262000,
+        "blocksBroken": 12110,
         "blocksPlaced": 807,
         "deepestY": 1,
-        "lastSeen": 1786839644,
+        "lastSeen": 1786839764,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
