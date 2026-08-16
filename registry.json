@@ -1,5 +1,5 @@
 {
-  "generated": "20260816-222647",
+  "generated": "2026-08-16T20:27:31Z",
   "game_version": "1.22.5",
   "check_ts": "20260816-222647",
   "latest_engine": "1.22.7",
@@ -1249,22 +1249,6 @@
       "proposed": false
     },
     {
-      "name": "Steelmaking Expanded",
-      "modid": "smex",
-      "section": "1.22",
-      "category": "Technology",
-      "on_server": false,
-      "link": "https://mods.vintagestory.at/smex",
-      "server_state": "no",
-      "avail": "available",
-      "note": "available for 1.22 (installs on update)",
-      "version": null,
-      "build_version": "0.9.8",
-      "build_branch": "1.22",
-      "update_pending": false,
-      "proposed": true
-    },
-    {
       "name": "Amphorae",
       "modid": "amphorae",
       "section": "1.22",
@@ -2053,9 +2037,9 @@
       "modid": "vsairshipmod",
       "section": "1.22",
       "category": "Technology",
-      "on_server": false,
+      "on_server": true,
       "link": "https://mods.vintagestory.at/vsairshipmod",
-      "server_state": "no",
+      "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": null,

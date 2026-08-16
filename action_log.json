@@ -1,6 +1,18 @@
 {
   "actions": [
     {
+      "ts": "2026-08-16T20:27:31Z",
+      "label": "Rejected",
+      "link": "https://mods.vintagestory.at/smex",
+      "name": "Steelmaking Expanded"
+    },
+    {
+      "ts": "2026-08-16T20:27:18Z",
+      "label": "Approved for server",
+      "link": "https://mods.vintagestory.at/vsairshipmod",
+      "name": "VS AIRSHIP MOD"
+    },
+    {
       "ts": "2026-08-16T19:05:44Z",
       "label": "Approved for server",
       "link": "https://mods.vintagestory.at/show/mod/46214",
@@ -287,18 +299,6 @@
       "label": "Rejected",
       "link": "https://mods.vintagestory.at/armory",
       "name": "Combat Overhaul: Armory"
-    },
-    {
-      "ts": "2026-07-13T18:22:34Z",
-      "label": "Rejected",
-      "link": "https://mods.vintagestory.at/combatoverhaul",
-      "name": "Combat Overhaul"
-    },
-    {
-      "ts": "2026-07-12T22:07:43Z",
-      "label": "Approved for server",
-      "link": "https://mods.vintagestory.at/fitnshard",
-      "name": "Fitting & Sharding"
     }
   ]
 }

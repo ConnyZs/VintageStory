@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-16T19:06:07Z",
+  "updated": "2026-08-16T20:27:31Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -681,15 +681,6 @@
       "note": ""
     },
     {
-      "name": "Steelmaking Expanded",
-      "link": "https://mods.vintagestory.at/smex",
-      "category": "Technology",
-      "section": "1.22",
-      "server_state": "no",
-      "proposed": true,
-      "note": ""
-    },
-    {
       "name": "Amphorae",
       "link": "https://mods.vintagestory.at/amphorae",
       "category": "Crafting",
@@ -1135,7 +1126,7 @@
       "link": "https://mods.vintagestory.at/vsairshipmod",
       "category": "Other",
       "section": "1.22",
-      "server_state": "no",
+      "server_state": "yes",
       "proposed": true,
       "note": ""
     }
