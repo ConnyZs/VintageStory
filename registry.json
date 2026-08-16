@@ -1,5 +1,5 @@
 {
-  "generated": "20260816-205704",
+  "generated": "20260816-210022",
   "game_version": "1.22.5",
   "check_ts": "20260815-200046",
   "latest_engine": "1.22.7",
@@ -26,6 +26,7 @@
     "Cosmetics",
     "Crafting",
     "Creatures",
+    "Fantasy",
     "Flora",
     "Food",
     "Furniture",
@@ -46,7 +47,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 129,
+  "count": 130,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -2012,6 +2013,22 @@
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "2.0.5",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": true
+    },
+    {
+      "name": "Echoes of the Lens: The Shadow Fantasy",
+      "modid": "elshadowsp",
+      "section": "1.22",
+      "category": "Fantasy",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/show/mod/46214",
+      "server_state": "no",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": null,
+      "build_version": "1.0.3",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": true
