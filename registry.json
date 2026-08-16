@@ -1,5 +1,5 @@
 {
-  "generated": "20260816-210022",
+  "generated": "20260816-210051",
   "game_version": "1.22.5",
   "check_ts": "20260815-200046",
   "latest_engine": "1.22.7",
@@ -47,7 +47,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 130,
+  "count": 131,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -2029,6 +2029,22 @@
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "1.0.3",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": true
+    },
+    {
+      "name": "Forgotten Armory: Jousting style",
+      "modid": "fajousting",
+      "section": "1.22",
+      "category": "Cosmetics",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/show/mod/41284",
+      "server_state": "no",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": null,
+      "build_version": "1.0.5",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": true
