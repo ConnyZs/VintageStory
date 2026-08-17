@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-17T17:53:07Z",
+  "updated": "2026-08-17T17:58:08Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -216,7 +216,7 @@
       "link": "https://mods.vintagestory.at/show/mod/463",
       "category": "Technology",
       "section": "1.21",
-      "server_state": "no",
+      "server_state": "remove",
       "proposed": false,
       "note": "",
       "forced_outdated": true
@@ -1142,6 +1142,15 @@
     {
       "name": "",
       "link": "https://mods.vintagestory.at/show/mod/58027",
+      "category": "Other",
+      "section": "1.22",
+      "server_state": "no",
+      "proposed": true,
+      "note": ""
+    },
+    {
+      "name": "",
+      "link": "https://mods.vintagestory.at/show/mod/61428",
       "category": "Other",
       "section": "1.22",
       "server_state": "no",

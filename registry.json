@@ -1,5 +1,5 @@
 {
-  "generated": "20260817-195339",
+  "generated": "20260817-195819",
   "game_version": "1.22.5",
   "check_ts": "20260816-222647",
   "latest_engine": "1.22.7",
@@ -424,7 +424,7 @@
       "category": "Technology",
       "on_server": false,
       "link": "https://mods.vintagestory.at/show/mod/463",
-      "server_state": "no",
+      "server_state": "remove",
       "avail": "outdated",
       "note": "outdated \u2014 marked incompatible with current server setup; monitoring for updates",
       "version": null,
