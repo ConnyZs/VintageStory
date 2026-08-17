@@ -1,5 +1,5 @@
 {
-  "generated": "20260817-195819",
+  "generated": "20260817-195854",
   "game_version": "1.22.5",
   "check_ts": "20260816-222647",
   "latest_engine": "1.22.7",
@@ -47,7 +47,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 133,
+  "count": 134,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -2077,6 +2077,22 @@
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "1.2.9",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": true
+    },
+    {
+      "name": "VS Instruments Redux",
+      "modid": "vsinstrumentsredux",
+      "section": "1.22",
+      "category": "Technology",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/show/mod/61428",
+      "server_state": "no",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": null,
+      "build_version": "1.5.2",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": true
