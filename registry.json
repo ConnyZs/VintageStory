@@ -1,5 +1,5 @@
 {
-  "generated": "20260817-201222",
+  "generated": "20260817-201514",
   "game_version": "1.22.5",
   "check_ts": "20260817-200100",
   "latest_engine": "1.22.7",
@@ -47,7 +47,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 134,
+  "count": 135,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -2093,6 +2093,22 @@
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "1.5.2",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": true
+    },
+    {
+      "name": "Chonky Vessels",
+      "modid": "chonkyvessels",
+      "section": "1.22",
+      "category": "Storage",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/show/mod/44504",
+      "server_state": "no",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": null,
+      "build_version": "1.5.9",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": true
