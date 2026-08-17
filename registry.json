@@ -1,5 +1,5 @@
 {
-  "generated": "20260817-194544",
+  "generated": "20260817-195339",
   "game_version": "1.22.5",
   "check_ts": "20260816-222647",
   "latest_engine": "1.22.7",
@@ -38,6 +38,7 @@
     "Other",
     "QOL",
     "QoL",
+    "Server-Specific",
     "Storage",
     "Symphony",
     "Technology",
@@ -46,7 +47,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 132,
+  "count": 133,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -2060,6 +2061,22 @@
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "0.6.1",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": true
+    },
+    {
+      "name": "Resonator Overhaul ",
+      "modid": "resonatoroverhaul",
+      "section": "1.22",
+      "category": "Server-Specific",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/show/mod/58027",
+      "server_state": "no",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": null,
+      "build_version": "1.2.9",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": true
