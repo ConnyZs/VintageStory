@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-17T18:26:32Z",
+  "updated": "2026-08-17T18:56:55Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -188,7 +188,7 @@
       "link": "https://mods.vintagestory.at/bola",
       "category": "Weapons",
       "section": "1.22",
-      "server_state": "no",
+      "server_state": "yes",
       "proposed": false,
       "note": ""
     },

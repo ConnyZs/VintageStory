@@ -1,5 +1,5 @@
 {
-  "generated": "20260817-204919",
+  "generated": "2026-08-17T18:56:55Z",
   "game_version": "1.22.7",
   "check_ts": "20260817-200100",
   "latest_engine": "1.22.7",
@@ -374,9 +374,9 @@
       "modid": "bola",
       "section": "1.22",
       "category": "Weapons",
-      "on_server": false,
+      "on_server": true,
       "link": "https://mods.vintagestory.at/bola",
-      "server_state": "no",
+      "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": null,
