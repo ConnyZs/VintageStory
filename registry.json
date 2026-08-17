@@ -1,5 +1,5 @@
 {
-  "generated": "20260817-201514",
+  "generated": "20260817-201558",
   "game_version": "1.22.5",
   "check_ts": "20260817-200100",
   "latest_engine": "1.22.7",
@@ -47,7 +47,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 135,
+  "count": 136,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -2109,6 +2109,22 @@
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "1.5.9",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": true
+    },
+    {
+      "name": "Temporal Vessels - A Vessel Teleportation System",
+      "modid": "temporalvessels",
+      "section": "1.22",
+      "category": "Technology",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/temporalvessels",
+      "server_state": "no",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": null,
+      "build_version": "1.0.3",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": true
