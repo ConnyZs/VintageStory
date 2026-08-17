@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-16T20:27:31Z",
+  "updated": "2026-08-17T17:45:12Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1127,6 +1127,15 @@
       "category": "Other",
       "section": "1.22",
       "server_state": "yes",
+      "proposed": true,
+      "note": ""
+    },
+    {
+      "name": "",
+      "link": "https://mods.vintagestory.at/clayworks",
+      "category": "Other",
+      "section": "1.22",
+      "server_state": "no",
       "proposed": true,
       "note": ""
     }

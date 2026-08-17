@@ -1,5 +1,5 @@
 {
-  "generated": "20260817-193620",
+  "generated": "20260817-194544",
   "game_version": "1.22.5",
   "check_ts": "20260816-222647",
   "latest_engine": "1.22.7",
@@ -1531,7 +1531,7 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.5.6",
-      "build_version": "1.5.8",
+      "build_version": "1.5.9",
       "build_branch": "1.22",
       "update_pending": true,
       "proposed": false
@@ -2044,6 +2044,22 @@
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "1.1.4",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": true
+    },
+    {
+      "name": "Clayworks",
+      "modid": "clayworks",
+      "section": "1.22",
+      "category": "Cosmetics",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/clayworks",
+      "server_state": "no",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": null,
+      "build_version": "0.6.1",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": true

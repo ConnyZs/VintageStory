@@ -74,7 +74,6 @@ Expanded Foods: Meals Module 1.0.0-dev.5,https://mods.vintagestory.at/efmealsmod
 Expanded Foods: Chef's Tricks 1.0.0-dev.3,https://mods.vintagestory.at/efchefstricks,Food,1.22,yes,available for 1.22 (installs on update),efchefstricks,available,1.0.0-dev.3
 Salty´s TrashBinned,https://mods.vintagestory.at/trashbinned,QoL,1.22,yes,available for 1.22 (installs on update),trashbinned,available,0.4.2
 Composter [Finished],https://mods.vintagestory.at/composter,Utility,1.22,yes,available for 1.22 (installs on update),composter,available,1.2.2
-Steelmaking Expanded,https://mods.vintagestory.at/smex,Technology,1.22,no,available for 1.22 (installs on update),smex,available,
 Amphorae,https://mods.vintagestory.at/amphorae,Crafting,1.22,yes,available for 1.22 (installs on update),amphorae,available,1.0.2
 Extra Info,https://mods.vintagestory.at/extrainfo,Utility,1.22,no,available for 1.22 (installs on update),extrainfo,available,2.2.1
 Improved Handbook Recipe Helper,https://mods.vintagestory.at/improvedhandbookrecipesfork,Utility,1.22,no,available for 1.22 (installs on update),improvedhandbookrecipesfork,available,1222.0.2
@@ -124,7 +123,8 @@ Echoes of the Lens: The Shadow Fantasy,https://mods.vintagestory.at/show/mod/462
 Forgotten Armory: Hussar style,https://mods.vintagestory.at/show/mod/31411,Cosmetics,1.22,yes,available for 1.22 (installs on update),fahussar,available,
 Forgotten Armory: Varangian Style,https://mods.vintagestory.at/show/mod/38338,Cosmetics,1.22,yes,available for 1.22 (installs on update),favarangian,available,
 Forgotten Armory: Greenwich style,https://mods.vintagestory.at/show/mod/25550,Cosmetics,1.22,yes,available for 1.22 (installs on update),fagreenwich,available,
-VS AIRSHIP MOD,https://mods.vintagestory.at/vsairshipmod,Technology,1.22,no,available for 1.22 (installs on update),vsairshipmod,available,
+VS AIRSHIP MOD,https://mods.vintagestory.at/vsairshipmod,Technology,1.22,yes,available for 1.22 (installs on update),vsairshipmod,available,
+Clayworks,https://mods.vintagestory.at/clayworks,Cosmetics,1.22,no,available for 1.22 (installs on update),clayworks,available,
 smithingplus,,Misc.,1.22,yes,,smithingplus,available,1.8.7
 Windmill Sail Fix,,Misc.,1.22,,,windmillsailfix,available,2.0.2
 Labeled Trunks,,Storage,1.22,yes,,labeledtrunk,available,1.1.11
