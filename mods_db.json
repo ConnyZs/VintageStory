@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-17T18:21:24Z",
+  "updated": "2026-08-17T18:26:32Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1187,6 +1187,33 @@
     {
       "name": "",
       "link": "https://mods.vintagestory.at/airthermomod",
+      "category": "Other",
+      "section": "1.22",
+      "server_state": "no",
+      "proposed": true,
+      "note": ""
+    },
+    {
+      "name": "",
+      "link": "https://mods.vintagestory.at/arrowbarrels",
+      "category": "Other",
+      "section": "1.22",
+      "server_state": "no",
+      "proposed": true,
+      "note": ""
+    },
+    {
+      "name": "",
+      "link": "https://mods.vintagestory.at/apelanterns",
+      "category": "Other",
+      "section": "1.22",
+      "server_state": "no",
+      "proposed": true,
+      "note": ""
+    },
+    {
+      "name": "",
+      "link": "https://mods.vintagestory.at/morebeams",
       "category": "Other",
       "section": "1.22",
       "server_state": "no",
