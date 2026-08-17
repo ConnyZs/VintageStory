@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-17T18:16:11Z",
+  "updated": "2026-08-17T18:21:24Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1178,6 +1178,15 @@
     {
       "name": "",
       "link": "https://mods.vintagestory.at/zipline",
+      "category": "Other",
+      "section": "1.22",
+      "server_state": "no",
+      "proposed": true,
+      "note": ""
+    },
+    {
+      "name": "",
+      "link": "https://mods.vintagestory.at/airthermomod",
       "category": "Other",
       "section": "1.22",
       "server_state": "no",

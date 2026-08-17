@@ -1,5 +1,5 @@
 {
-  "generated": "20260817-201644",
+  "generated": "20260817-202158",
   "game_version": "1.22.5",
   "check_ts": "20260817-200100",
   "latest_engine": "1.22.7",
@@ -47,7 +47,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 137,
+  "count": 138,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -2141,6 +2141,22 @@
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "1.0.8",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": true
+    },
+    {
+      "name": "Self-Recording Thermometer",
+      "modid": "airthermomod",
+      "section": "1.22",
+      "category": "Utility",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/airthermomod",
+      "server_state": "no",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": null,
+      "build_version": "0.5.0",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": true
