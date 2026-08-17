@@ -1,5 +1,5 @@
 {
-  "generated": "20260817-202659",
+  "generated": "20260817-202735",
   "game_version": "1.22.5",
   "check_ts": "20260817-200100",
   "latest_engine": "1.22.7",
@@ -47,7 +47,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 139,
+  "count": 141,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -2173,6 +2173,38 @@
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "1.5.1",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": true
+    },
+    {
+      "name": "More Lanterns",
+      "modid": "apelanterns",
+      "section": "1.22",
+      "category": "Cosmetics",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/apelanterns",
+      "server_state": "no",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": null,
+      "build_version": "1.4.3",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": true
+    },
+    {
+      "name": "More Beams",
+      "modid": "apebeams",
+      "section": "1.22",
+      "category": "Cosmetics",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/morebeams",
+      "server_state": "no",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": null,
+      "build_version": "1.3.0",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": true
