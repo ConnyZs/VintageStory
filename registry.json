@@ -1,5 +1,5 @@
 {
-  "generated": "20260818-223717",
+  "generated": "20260818-223917",
   "game_version": "1.22.7",
   "check_ts": "20260818-200104",
   "latest_engine": "1.22.7",
@@ -2347,11 +2347,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 225.9,
-        "blocksTravelled": 284534,
+        "blocksTravelled": 284786,
         "blocksBroken": 14148,
         "blocksPlaced": 841,
         "deepestY": 1,
-        "lastSeen": 1787085405,
+        "lastSeen": 1787085525,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2762,11 +2762,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 526.9,
-        "blocksTravelled": 520041,
+        "blocksTravelled": 520132,
         "blocksBroken": 30204,
-        "blocksPlaced": 11255,
+        "blocksPlaced": 11256,
         "deepestY": 1,
-        "lastSeen": 1787085405,
+        "lastSeen": 1787085525,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2979,11 +2979,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 662.7,
-        "blocksTravelled": 445529,
+        "blocksTravelled": 445617,
         "blocksBroken": 15935,
         "blocksPlaced": 10139,
         "deepestY": 12,
-        "lastSeen": 1787085405,
+        "lastSeen": 1787085525,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3207,11 +3207,11 @@
         "class": "tailor",
         "deaths": 6,
         "mobKills": 25,
-        "mealsEaten": 71,
-        "caloriesConsumed": 36636,
+        "mealsEaten": 72,
+        "caloriesConsumed": 37532,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
-          "Earthy orange ceramic bowl of meat stew": 46,
+          "Earthy orange ceramic bowl of meat stew": 47,
           "Meat pie": 8,
           "Leather-bound Oak Tankard": 1,
           "Pear pie (charred)": 6,
@@ -3222,11 +3222,11 @@
           "Smoked Blood Sausage": 4
         },
         "foodCatCounts": {
-          "Protein": 59,
+          "Protein": 60,
           "Vegetable": 40,
-          "Grain": 24,
+          "Grain": 25,
           "Fruit": 8,
-          "Dairy": 16
+          "Dairy": 17
         },
         "deathCauses": {
           "bear-brown-adult-female": 2,
@@ -3236,11 +3236,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 24.0,
-        "blocksTravelled": 45565,
+        "blocksTravelled": 45596,
         "blocksBroken": 1864,
         "blocksPlaced": 542,
         "deepestY": 64,
-        "lastSeen": 1787085405,
+        "lastSeen": 1787085525,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
