@@ -1,5 +1,5 @@
 {
-  "generated": "20260818-210911",
+  "generated": "20260818-211112",
   "game_version": "1.22.7",
   "check_ts": "20260818-200104",
   "latest_engine": "1.22.7",
@@ -2297,7 +2297,7 @@
       "name": "Raschuetzer",
       "role": "admin",
       "first_join": "04/22/2026 17:47",
-      "last_join": "08/18/2026 18:42",
+      "last_join": "08/18/2026 19:08",
       "last_char": "04/29/2026 21:30",
       "stats": {
         "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
@@ -2347,11 +2347,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 224.5,
-        "blocksTravelled": 278097,
-        "blocksBroken": 13505,
-        "blocksPlaced": 826,
+        "blocksTravelled": 278256,
+        "blocksBroken": 13537,
+        "blocksPlaced": 829,
         "deepestY": 1,
-        "lastSeen": 1787079451,
+        "lastSeen": 1787080241,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2761,12 +2761,12 @@
           "wolf-eurasian-adult-male": 3,
           "shiver-surface": 1
         },
-        "playtimeHours": 525.4,
-        "blocksTravelled": 513107,
-        "blocksBroken": 30152,
+        "playtimeHours": 525.5,
+        "blocksTravelled": 513426,
+        "blocksBroken": 30167,
         "blocksPlaced": 11232,
         "deepestY": 1,
-        "lastSeen": 1787080120,
+        "lastSeen": 1787080241,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2979,11 +2979,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 661.3,
-        "blocksTravelled": 441139,
+        "blocksTravelled": 441215,
         "blocksBroken": 15847,
         "blocksPlaced": 9938,
         "deepestY": 12,
-        "lastSeen": 1787080120,
+        "lastSeen": 1787080270,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3207,8 +3207,8 @@
         "class": "tailor",
         "deaths": 6,
         "mobKills": 25,
-        "mealsEaten": 64,
-        "caloriesConsumed": 32212,
+        "mealsEaten": 65,
+        "caloriesConsumed": 32912,
         "lastMeal": "Smoked Blood Sausage",
         "mealsByName": {
           "Earthy orange ceramic bowl of meat stew": 41,
@@ -3219,10 +3219,10 @@
           "Cranberry": 1,
           "Turnip": 2,
           "Earthy brown ceramic bowl of meat stew": 1,
-          "Smoked Blood Sausage": 2
+          "Smoked Blood Sausage": 3
         },
         "foodCatCounts": {
-          "Protein": 52,
+          "Protein": 53,
           "Vegetable": 40,
           "Grain": 19,
           "Fruit": 8,
@@ -3236,11 +3236,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 22.5,
-        "blocksTravelled": 44441,
+        "blocksTravelled": 44630,
         "blocksBroken": 1857,
         "blocksPlaced": 532,
         "deepestY": 64,
-        "lastSeen": 1787080120,
+        "lastSeen": 1787080241,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
