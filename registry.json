@@ -1,5 +1,5 @@
 {
-  "generated": "20260818-222516",
+  "generated": "20260818-222716",
   "game_version": "1.22.7",
   "check_ts": "20260818-200104",
   "latest_engine": "1.22.7",
@@ -2347,11 +2347,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 225.7,
-        "blocksTravelled": 283578,
-        "blocksBroken": 13945,
+        "blocksTravelled": 283632,
+        "blocksBroken": 14002,
         "blocksPlaced": 830,
         "deepestY": 1,
-        "lastSeen": 1787084684,
+        "lastSeen": 1787084804,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2665,7 +2665,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 26,
-        "mobKills": 808,
+        "mobKills": 809,
         "mealsEaten": 1644,
         "caloriesConsumed": 284362,
         "lastMeal": "Earthy brown ceramic bowl of meat stew",
@@ -2762,11 +2762,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 526.7,
-        "blocksTravelled": 519303,
-        "blocksBroken": 30191,
-        "blocksPlaced": 11245,
+        "blocksTravelled": 519381,
+        "blocksBroken": 30192,
+        "blocksPlaced": 11247,
         "deepestY": 1,
-        "lastSeen": 1787084684,
+        "lastSeen": 1787084804,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2875,13 +2875,13 @@
           },
           {
             "slot": "bag-3",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "code": "butchering:butcherybag-standard",
+            "name": "Hide Butchering Bag"
           },
           {
             "slot": "bag-4",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "code": "butchering:butcherybag-standard",
+            "name": "Hide Butchering Bag"
           }
         ],
         "skin": {
@@ -2979,11 +2979,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 662.5,
-        "blocksTravelled": 444815,
+        "blocksTravelled": 444835,
         "blocksBroken": 15915,
         "blocksPlaced": 10077,
         "deepestY": 12,
-        "lastSeen": 1787084684,
+        "lastSeen": 1787084804,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3236,11 +3236,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 23.8,
-        "blocksTravelled": 45448,
+        "blocksTravelled": 45458,
         "blocksBroken": 1864,
         "blocksPlaced": 542,
         "deepestY": 64,
-        "lastSeen": 1787084684,
+        "lastSeen": 1787084804,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
