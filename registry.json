@@ -1,5 +1,5 @@
 {
-  "generated": "20260818-173458",
+  "generated": "20260818-174041",
   "game_version": "1.22.7",
   "check_ts": "20260818-173355",
   "latest_engine": "1.22.7",
@@ -8,10 +8,10 @@
   "modset": {
     "server_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset.zip",
     "full_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset-full.zip",
-    "server_count": 113,
-    "full_count": 118,
-    "server_size": 166568692,
-    "full_size": 167565224,
+    "server_count": 128,
+    "full_count": 133,
+    "server_size": 219106425,
+    "full_size": 220102957,
     "client_only": [
       "Extra Info",
       "Improved Handbook Recipes (Fork)",
@@ -19,7 +19,7 @@
       "Status HUD",
       "StepUp Advanced"
     ],
-    "generated": "20260804-172250"
+    "generated": "20260818-174008"
   },
   "admin_url": "http://127.0.0.1:3042",
   "categories": [
@@ -47,7 +47,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 140,
+  "count": 138,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -139,10 +139,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "2.1.16",
+      "version": "2.1.19",
       "build_version": "2.1.19",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -171,10 +171,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "2.3.1",
+      "version": "2.3.2",
       "build_version": "2.3.2",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -203,10 +203,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "5.0.0",
+      "version": "5.0.1",
       "build_version": "5.0.1",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -315,10 +315,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "3.4.4",
+      "version": "3.4.5",
       "build_version": "3.4.5",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -379,7 +379,7 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "1.4.2",
       "build_version": "1.4.2",
       "build_branch": "1.22",
       "update_pending": false,
@@ -418,22 +418,6 @@
       "proposed": false
     },
     {
-      "name": "Instruments",
-      "modid": "instruments",
-      "section": "1.21",
-      "category": "Technology",
-      "on_server": false,
-      "link": "https://mods.vintagestory.at/show/mod/463",
-      "server_state": "remove",
-      "avail": "outdated",
-      "note": "outdated \u2014 marked incompatible with current server setup; monitoring for updates",
-      "version": null,
-      "build_version": "2.0.7",
-      "build_branch": "1.21",
-      "update_pending": false,
-      "proposed": false
-    },
-    {
       "name": "Buzzwords",
       "modid": "buzzwords",
       "section": "1.22",
@@ -459,10 +443,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "0.6.23",
+      "version": "0.6.24",
       "build_version": "0.6.24",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -491,24 +475,8 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.14.2",
+      "version": "1.14.3",
       "build_version": "1.14.3",
-      "build_branch": "1.22",
-      "update_pending": true,
-      "proposed": false
-    },
-    {
-      "name": "Coinage",
-      "modid": "coinage",
-      "section": "1.22",
-      "category": "Utility",
-      "on_server": false,
-      "link": "https://mods.vintagestory.at/coinage",
-      "server_state": "remove",
-      "avail": "available",
-      "note": "available for 1.22 (installs on update)",
-      "version": "2.2.1",
-      "build_version": "2.2.1",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": false
@@ -747,10 +715,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "3.0.2",
+      "version": "3.0.3",
       "build_version": "3.0.3",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -811,10 +779,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.17.4",
+      "version": "1.17.6",
       "build_version": "1.17.6",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -971,10 +939,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.7.0",
+      "version": "1.7.1",
       "build_version": "1.7.1",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -1483,10 +1451,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "3.1.5",
+      "version": "3.2.0",
       "build_version": "3.2.0",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -1531,10 +1499,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.5.6",
+      "version": "1.5.9",
       "build_version": "1.5.9",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -1579,10 +1547,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "0.5.0",
+      "version": "0.6.0",
       "build_version": "0.6.0",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -1771,10 +1739,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "0.18.4",
+      "version": "0.18.6",
       "build_version": "0.18.6",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -1851,10 +1819,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.15.0",
+      "version": "1.15.1",
       "build_version": "1.15.1",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -1867,10 +1835,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "0.9.30",
+      "version": "0.9.31",
       "build_version": "0.9.31",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -1963,11 +1931,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "2.0.5",
       "build_version": "2.0.5",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Echoes of the Lens: The Shadow Fantasy",
@@ -1979,11 +1947,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "1.0.3",
       "build_version": "1.0.3",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Forgotten Armory: Hussar style",
@@ -1995,11 +1963,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "1.1.6",
       "build_version": "1.1.6",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Forgotten Armory: Varangian Style",
@@ -2011,11 +1979,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "1.1.0",
       "build_version": "1.1.0",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Forgotten Armory: Greenwich style",
@@ -2027,11 +1995,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "1.4.6",
       "build_version": "1.4.6",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "VS AIRSHIP MOD",
@@ -2043,11 +2011,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "1.1.4",
       "build_version": "1.1.4",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Clayworks",
@@ -2059,11 +2027,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "0.6.1",
       "build_version": "0.6.1",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Resonator Overhaul ",
@@ -2075,11 +2043,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "1.2.9",
       "build_version": "1.2.9",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "VS Instruments Redux",
@@ -2091,11 +2059,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "1.5.4",
       "build_version": "1.5.4",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Chonky Vessels",
@@ -2107,11 +2075,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "1.5.9",
       "build_version": "1.5.9",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Zipline",
@@ -2123,11 +2091,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "1.0.8",
       "build_version": "1.0.8",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Self-Recording Thermometer",
@@ -2139,11 +2107,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "0.5.0",
       "build_version": "0.5.0",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Arrow Barrels",
@@ -2155,11 +2123,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "1.5.1",
       "build_version": "1.5.1",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "More Lanterns",
@@ -2171,11 +2139,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "1.4.3",
       "build_version": "1.4.3",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "More Beams",
@@ -2187,11 +2155,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "1.3.0",
       "build_version": "1.3.0",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "smithingplus",
@@ -2313,7 +2281,7 @@
       "name": "Raschuetzer",
       "role": "admin",
       "first_join": "04/22/2026 17:47",
-      "last_join": "08/16/2026 20:33",
+      "last_join": "08/18/2026 15:34",
       "last_char": "04/29/2026 21:30",
       "stats": {
         "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
