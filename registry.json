@@ -1,5 +1,5 @@
 {
-  "generated": "20260818-195250",
+  "generated": "20260818-195307",
   "game_version": "1.22.7",
   "check_ts": "20260818-173355",
   "latest_engine": "1.22.7",
@@ -2347,8 +2347,8 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 223.4,
-        "blocksTravelled": 271982,
-        "blocksBroken": 13056,
+        "blocksTravelled": 271988,
+        "blocksBroken": 13067,
         "blocksPlaced": 825,
         "deepestY": 1,
         "lastSeen": 1787075556,
@@ -2666,13 +2666,13 @@
         "class": "homesteader",
         "deaths": 25,
         "mobKills": 781,
-        "mealsEaten": 1616,
-        "caloriesConsumed": 267464,
+        "mealsEaten": 1617,
+        "caloriesConsumed": 267916,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
-          "Earthy orange ceramic bowl of meat stew": 128,
+          "Earthy orange ceramic bowl of meat stew": 129,
           "Blueberry": 27,
           "Pear pie (charred)": 1,
           "Rye bread": 8,
@@ -2746,8 +2746,8 @@
         },
         "foodCatCounts": {
           "Grain": 271,
-          "Protein": 271,
-          "Vegetable": 377,
+          "Protein": 272,
+          "Vegetable": 378,
           "Fruit": 1081,
           "Dairy": 65
         },
@@ -2761,7 +2761,7 @@
           "shiver-surface": 1
         },
         "playtimeHours": 524.2,
-        "blocksTravelled": 508628,
+        "blocksTravelled": 508638,
         "blocksBroken": 29421,
         "blocksPlaced": 11165,
         "deepestY": 1,
@@ -2978,8 +2978,8 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 660.0,
-        "blocksTravelled": 436169,
-        "blocksBroken": 15010,
+        "blocksTravelled": 436179,
+        "blocksBroken": 15022,
         "blocksPlaced": 9790,
         "deepestY": 12,
         "lastSeen": 1787075556,
