@@ -1,7 +1,7 @@
 {
-  "generated": "20260818-024848",
+  "generated": "20260818-025714",
   "game_version": "1.22.7",
-  "check_ts": "20260817-200100",
+  "check_ts": "20260818-025714",
   "latest_engine": "1.22.7",
   "restart_needed": null,
   "last_deploy_ts": "20260804-172326",
@@ -2092,7 +2092,7 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": null,
-      "build_version": "1.5.2",
+      "build_version": "1.5.3",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": true
