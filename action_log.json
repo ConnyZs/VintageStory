@@ -1,6 +1,54 @@
 {
   "actions": [
     {
+      "ts": "2026-08-18T00:58:01Z",
+      "label": "Approved for server",
+      "link": "https://mods.vintagestory.at/arrowbarrels",
+      "name": "Arrow Barrels"
+    },
+    {
+      "ts": "2026-08-18T00:57:56Z",
+      "label": "Approved for server",
+      "link": "https://mods.vintagestory.at/clayworks",
+      "name": "Clayworks"
+    },
+    {
+      "ts": "2026-08-18T00:57:53Z",
+      "label": "Approved for server",
+      "link": "https://mods.vintagestory.at/morebeams",
+      "name": "More Beams"
+    },
+    {
+      "ts": "2026-08-18T00:57:53Z",
+      "label": "Approved for server",
+      "link": "https://mods.vintagestory.at/apelanterns",
+      "name": "More Lanterns"
+    },
+    {
+      "ts": "2026-08-18T00:57:51Z",
+      "label": "Approved for server",
+      "link": "https://mods.vintagestory.at/show/mod/58027",
+      "name": "Resonator Overhaul "
+    },
+    {
+      "ts": "2026-08-18T00:57:47Z",
+      "label": "Approved for server",
+      "link": "https://mods.vintagestory.at/show/mod/61428",
+      "name": "VS Instruments Redux"
+    },
+    {
+      "ts": "2026-08-18T00:57:46Z",
+      "label": "Approved for server",
+      "link": "https://mods.vintagestory.at/airthermomod",
+      "name": "Self-Recording Thermometer"
+    },
+    {
+      "ts": "2026-08-18T00:57:44Z",
+      "label": "Rejected",
+      "link": "https://mods.vintagestory.at/temporalvessels",
+      "name": "Temporal Vessels - A Vessel Teleportation System"
+    },
+    {
       "ts": "2026-08-17T18:56:55Z",
       "label": "Approved for server",
       "link": "https://mods.vintagestory.at/bola",
@@ -251,54 +299,6 @@
       "label": "Approved for server",
       "link": "https://mods.vintagestory.at/armoryfork",
       "name": "Armory Fork"
-    },
-    {
-      "ts": "2026-07-13T18:24:05Z",
-      "label": "Proposed",
-      "link": "https://mods.vintagestory.at/armoryfork",
-      "name": "Armory Fork"
-    },
-    {
-      "ts": "2026-07-13T18:24:04Z",
-      "label": "Approved for server",
-      "link": "https://mods.vintagestory.at/combatoverhaulforked",
-      "name": "Combat Overhaul Fork"
-    },
-    {
-      "ts": "2026-07-13T18:24:03Z",
-      "label": "Proposed",
-      "link": "https://mods.vintagestory.at/combatoverhaulforked",
-      "name": "Combat Overhaul Fork"
-    },
-    {
-      "ts": "2026-07-13T18:22:37Z",
-      "label": "Rejected",
-      "link": "https://mods.vintagestory.at/quiversandsheaths",
-      "name": "Quivers And Sheaths"
-    },
-    {
-      "ts": "2026-07-13T18:22:36Z",
-      "label": "Rejected",
-      "link": "https://mods.vintagestory.at/playercorpse",
-      "name": "Player Corpse"
-    },
-    {
-      "ts": "2026-07-13T18:22:36Z",
-      "label": "Rejected",
-      "link": "https://mods.vintagestory.at/firearms",
-      "name": "Firearms"
-    },
-    {
-      "ts": "2026-07-13T18:22:35Z",
-      "label": "Rejected",
-      "link": "https://mods.vintagestory.at/crossbows",
-      "name": "Crossbows"
-    },
-    {
-      "ts": "2026-07-13T18:22:35Z",
-      "label": "Rejected",
-      "link": "https://mods.vintagestory.at/combatoverhaulreanimated",
-      "name": "Combat Overhaul: Reanimated"
     }
   ]
 }
