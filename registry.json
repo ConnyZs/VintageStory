@@ -1,5 +1,5 @@
 {
-  "generated": "20260818-220915",
+  "generated": "20260818-221115",
   "game_version": "1.22.7",
   "check_ts": "20260818-200104",
   "latest_engine": "1.22.7",
@@ -2346,12 +2346,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 225.4,
-        "blocksTravelled": 282838,
+        "playtimeHours": 225.5,
+        "blocksTravelled": 282970,
         "blocksBroken": 13770,
         "blocksPlaced": 829,
         "deepestY": 1,
-        "lastSeen": 1787083723,
+        "lastSeen": 1787083844,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2761,12 +2761,12 @@
           "wolf-eurasian-adult-male": 3,
           "shiver-surface": 1
         },
-        "playtimeHours": 526.4,
-        "blocksTravelled": 518167,
+        "playtimeHours": 526.5,
+        "blocksTravelled": 518243,
         "blocksBroken": 30191,
         "blocksPlaced": 11244,
         "deepestY": 1,
-        "lastSeen": 1787083723,
+        "lastSeen": 1787083844,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2978,12 +2978,12 @@
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 662.2,
-        "blocksTravelled": 444201,
-        "blocksBroken": 15913,
-        "blocksPlaced": 10074,
+        "playtimeHours": 662.3,
+        "blocksTravelled": 444258,
+        "blocksBroken": 15914,
+        "blocksPlaced": 10076,
         "deepestY": 12,
-        "lastSeen": 1787083723,
+        "lastSeen": 1787083844,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3236,11 +3236,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 23.5,
-        "blocksTravelled": 45311,
-        "blocksBroken": 1863,
-        "blocksPlaced": 538,
+        "blocksTravelled": 45349,
+        "blocksBroken": 1864,
+        "blocksPlaced": 542,
         "deepestY": 64,
-        "lastSeen": 1787083723,
+        "lastSeen": 1787083844,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
