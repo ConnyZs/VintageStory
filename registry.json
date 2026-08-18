@@ -1,9 +1,9 @@
 {
-  "generated": "20260818-175900",
+  "generated": "20260818-180700",
   "game_version": "1.22.7",
   "check_ts": "20260818-173355",
   "latest_engine": "1.22.7",
-  "restart_needed": "20260818-174059",
+  "restart_needed": null,
   "last_deploy_ts": "20260818-174059",
   "modset": {
     "server_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset.zip",
@@ -2331,11 +2331,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 222.0,
-        "blocksTravelled": 268649,
+        "blocksTravelled": 268661,
         "blocksBroken": 12712,
         "blocksPlaced": 821,
         "deepestY": 1,
-        "lastSeen": 1787067296,
+        "lastSeen": 1787069173,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
