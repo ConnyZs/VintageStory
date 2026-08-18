@@ -1,5 +1,5 @@
 {
-  "generated": "20260818-195107",
+  "generated": "20260818-195250",
   "game_version": "1.22.7",
   "check_ts": "20260818-173355",
   "latest_engine": "1.22.7",
@@ -47,7 +47,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 138,
+  "count": 139,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1260,7 +1260,7 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1222.0.2",
-      "build_version": "1222.0.2",
+      "build_version": "1227.0.1",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": false
@@ -2162,6 +2162,22 @@
       "proposed": false
     },
     {
+      "name": "Translocator Map Marker",
+      "modid": "translocatormarker",
+      "section": "1.22",
+      "category": "Utility",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/translocatormarker",
+      "server_state": "no",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": null,
+      "build_version": "0.0.4",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": true
+    },
+    {
       "name": "smithingplus",
       "modid": "smithingplus",
       "section": "1.22",
@@ -2288,7 +2304,7 @@
         "name": "Raschuetzer",
         "class": "tinker",
         "deaths": 7,
-        "mobKills": 237,
+        "mobKills": 238,
         "mealsEaten": 207,
         "caloriesConsumed": 103898,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
@@ -2330,12 +2346,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 223.3,
-        "blocksTravelled": 271922,
-        "blocksBroken": 13007,
+        "playtimeHours": 223.4,
+        "blocksTravelled": 271982,
+        "blocksBroken": 13056,
         "blocksPlaced": 825,
         "deepestY": 1,
-        "lastSeen": 1787075436,
+        "lastSeen": 1787075556,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2744,12 +2760,12 @@
           "wolf-eurasian-adult-male": 3,
           "shiver-surface": 1
         },
-        "playtimeHours": 524.1,
-        "blocksTravelled": 508570,
+        "playtimeHours": 524.2,
+        "blocksTravelled": 508628,
         "blocksBroken": 29421,
         "blocksPlaced": 11165,
         "deepestY": 1,
-        "lastSeen": 1787075436,
+        "lastSeen": 1787075556,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2894,8 +2910,8 @@
         "class": "mason",
         "deaths": 2,
         "mobKills": 382,
-        "mealsEaten": 534,
-        "caloriesConsumed": 145811,
+        "mealsEaten": 535,
+        "caloriesConsumed": 146511,
         "lastMeal": "Smoked Blood Sausage",
         "mealsByName": {
           "Cranberry": 25,
@@ -2948,12 +2964,12 @@
           "Earthy brown ceramic bowl of jam": 2,
           "Tender redmeat": 5,
           "Earthy orange ceramic bowl of vegetable stew": 4,
-          "Smoked Blood Sausage": 2
+          "Smoked Blood Sausage": 3
         },
         "foodCatCounts": {
           "Fruit": 288,
           "Grain": 196,
-          "Protein": 169,
+          "Protein": 170,
           "Vegetable": 147,
           "Dairy": 65
         },
@@ -2962,11 +2978,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 660.0,
-        "blocksTravelled": 436134,
-        "blocksBroken": 14932,
-        "blocksPlaced": 9787,
+        "blocksTravelled": 436169,
+        "blocksBroken": 15010,
+        "blocksPlaced": 9790,
         "deepestY": 12,
-        "lastSeen": 1787075436,
+        "lastSeen": 1787075556,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
