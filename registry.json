@@ -1,5 +1,5 @@
 {
-  "generated": "20260818-211312",
+  "generated": "20260818-211512",
   "game_version": "1.22.7",
   "check_ts": "20260818-200104",
   "latest_engine": "1.22.7",
@@ -2305,13 +2305,13 @@
         "class": "tinker",
         "deaths": 7,
         "mobKills": 242,
-        "mealsEaten": 210,
-        "caloriesConsumed": 106218,
+        "mealsEaten": 212,
+        "caloriesConsumed": 107714,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Pear": 22,
           "Meat pie": 10,
-          "Earthy orange ceramic bowl of meat stew": 59,
+          "Earthy orange ceramic bowl of meat stew": 61,
           "Strawberry": 2,
           "Blackcurrant": 3,
           "Rye bread": 1,
@@ -2336,8 +2336,8 @@
         "foodCatCounts": {
           "Fruit": 120,
           "Grain": 77,
-          "Protein": 87,
-          "Vegetable": 77,
+          "Protein": 89,
+          "Vegetable": 79,
           "Dairy": 41
         },
         "deathCauses": {
@@ -2346,12 +2346,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 224.5,
-        "blocksTravelled": 278562,
-        "blocksBroken": 13552,
+        "playtimeHours": 224.6,
+        "blocksTravelled": 278688,
+        "blocksBroken": 13594,
         "blocksPlaced": 829,
         "deepestY": 1,
-        "lastSeen": 1787080361,
+        "lastSeen": 1787080491,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2762,11 +2762,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 525.5,
-        "blocksTravelled": 513593,
+        "blocksTravelled": 513771,
         "blocksBroken": 30170,
         "blocksPlaced": 11234,
         "deepestY": 1,
-        "lastSeen": 1787080361,
+        "lastSeen": 1787080491,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2903,7 +2903,7 @@
       "name": "Moritz",
       "role": "admin",
       "first_join": "04/22/2026 18:03",
-      "last_join": "08/18/2026 17:00",
+      "last_join": "08/18/2026 19:14",
       "last_char": "04/22/2026 18:05",
       "stats": {
         "uid": "bKc3JB7NGywTi9YbzXu/Qogt",
@@ -2978,12 +2978,12 @@
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 661.3,
-        "blocksTravelled": 441215,
+        "playtimeHours": 661.4,
+        "blocksTravelled": 441223,
         "blocksBroken": 15847,
         "blocksPlaced": 9938,
         "deepestY": 12,
-        "lastSeen": 1787080270,
+        "lastSeen": 1787080491,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3236,11 +3236,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 22.6,
-        "blocksTravelled": 44702,
+        "blocksTravelled": 44713,
         "blocksBroken": 1857,
         "blocksPlaced": 532,
         "deepestY": 64,
-        "lastSeen": 1787080361,
+        "lastSeen": 1787080491,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
