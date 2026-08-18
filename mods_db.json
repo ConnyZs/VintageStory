@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-18T15:37:47Z",
+  "updated": "2026-08-18T15:37:49Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -243,15 +243,6 @@
       "category": "Storage",
       "section": "1.22",
       "server_state": "yes",
-      "proposed": false,
-      "note": ""
-    },
-    {
-      "name": "Coinage",
-      "link": "https://mods.vintagestory.at/coinage",
-      "category": "Utility",
-      "section": "1.22",
-      "server_state": "remove",
       "proposed": false,
       "note": ""
     },
