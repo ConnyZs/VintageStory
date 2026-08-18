@@ -1,7 +1,7 @@
 {
-  "generated": "20260818-195907",
+  "generated": "20260818-200104",
   "game_version": "1.22.7",
-  "check_ts": "20260818-173355",
+  "check_ts": "20260818-200104",
   "latest_engine": "1.22.7",
   "restart_needed": null,
   "last_deploy_ts": "20260818-174059",
@@ -1484,9 +1484,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "3.7.0",
-      "build_version": "3.7.0",
+      "build_version": "3.8.0",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -2347,11 +2347,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 223.5,
-        "blocksTravelled": 272552,
-        "blocksBroken": 13100,
+        "blocksTravelled": 272773,
+        "blocksBroken": 13108,
         "blocksPlaced": 825,
         "deepestY": 1,
-        "lastSeen": 1787075916,
+        "lastSeen": 1787076037,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2761,11 +2761,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 524.3,
-        "blocksTravelled": 508794,
+        "blocksTravelled": 508877,
         "blocksBroken": 29588,
         "blocksPlaced": 11165,
         "deepestY": 1,
-        "lastSeen": 1787075916,
+        "lastSeen": 1787076037,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2910,8 +2910,8 @@
         "class": "mason",
         "deaths": 2,
         "mobKills": 382,
-        "mealsEaten": 535,
-        "caloriesConsumed": 146511,
+        "mealsEaten": 536,
+        "caloriesConsumed": 147211,
         "lastMeal": "Smoked Blood Sausage",
         "mealsByName": {
           "Cranberry": 25,
@@ -2964,12 +2964,12 @@
           "Earthy brown ceramic bowl of jam": 2,
           "Tender redmeat": 5,
           "Earthy orange ceramic bowl of vegetable stew": 4,
-          "Smoked Blood Sausage": 3
+          "Smoked Blood Sausage": 4
         },
         "foodCatCounts": {
           "Fruit": 288,
           "Grain": 196,
-          "Protein": 170,
+          "Protein": 171,
           "Vegetable": 147,
           "Dairy": 65
         },
@@ -2978,11 +2978,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 660.1,
-        "blocksTravelled": 436267,
-        "blocksBroken": 15230,
+        "blocksTravelled": 436305,
+        "blocksBroken": 15320,
         "blocksPlaced": 9791,
         "deepestY": 12,
-        "lastSeen": 1787075916,
+        "lastSeen": 1787076037,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3198,7 +3198,7 @@
       "name": "Morsel",
       "role": "suplayer",
       "first_join": "06/22/2026 18:28",
-      "last_join": "08/15/2026 20:12",
+      "last_join": "08/18/2026 17:55",
       "last_char": "06/22/2026 18:37",
       "stats": {
         "uid": "1VGBHqraGibxC1fHS6a4PjOF",
@@ -3232,12 +3232,12 @@
           "shiver-nightmare": 1,
           "bear-brown-adult-male": 1
         },
-        "playtimeHours": 21.3,
+        "playtimeHours": 21.4,
         "blocksTravelled": 43024,
         "blocksBroken": 1845,
         "blocksPlaced": 529,
         "deepestY": 64,
-        "lastSeen": 1787075916,
+        "lastSeen": 1787076037,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
