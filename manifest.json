@@ -1,6 +1,6 @@
 {
   "game_version": "1.22.7",
-  "generated": "20260818-173851",
+  "generated": "20260818-204247",
   "count": 128,
   "mods": [
     {
@@ -1185,13 +1185,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/StepUpAdvanced_1.4.0.zip"
     },
     {
-      "filename": "improvedhandbookrecipesfork-1222.0.2.zip",
-      "sha256": "db2f8660bdfa06e33f4982e076636826233060e69a20a38b2aa28785508ce9a9",
-      "size": 195458,
+      "filename": "improvedhandbookrecipesfork-1227.0.1.zip",
+      "sha256": "b39971226f404ee0f29c5d5efa4481973bc3e2e1fb230dcacc1aca66b73dd3c1",
+      "size": 196982,
       "modid": "improvedhandbookrecipesfork",
-      "version": "1222.0.2",
+      "version": "1227.0.1",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/improvedhandbookrecipesfork-1222.0.2.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/improvedhandbookrecipesfork-1227.0.1.zip"
     },
     {
       "filename": "statushudcont_4.4.0.zip",

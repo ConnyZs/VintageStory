@@ -4,7 +4,7 @@
   "server_count": 128,
   "full_count": 133,
   "server_size": 219106425,
-  "full_size": 220102957,
+  "full_size": 220104481,
   "client_only": [
     "Extra Info",
     "Improved Handbook Recipes (Fork)",
@@ -12,5 +12,5 @@
     "Status HUD",
     "StepUp Advanced"
   ],
-  "generated": "20260818-174008"
+  "generated": "20260818-204403"
 }
