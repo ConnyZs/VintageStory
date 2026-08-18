@@ -1,5 +1,5 @@
 {
-  "generated": "20260818-222916",
+  "generated": "20260818-223116",
   "game_version": "1.22.7",
   "check_ts": "20260818-200104",
   "latest_engine": "1.22.7",
@@ -2347,11 +2347,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 225.8,
-        "blocksTravelled": 283695,
-        "blocksBroken": 14015,
+        "blocksTravelled": 283758,
+        "blocksBroken": 14087,
         "blocksPlaced": 834,
         "deepestY": 1,
-        "lastSeen": 1787084924,
+        "lastSeen": 1787085044,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2762,11 +2762,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 526.8,
-        "blocksTravelled": 519460,
-        "blocksBroken": 30192,
-        "blocksPlaced": 11248,
+        "blocksTravelled": 519618,
+        "blocksBroken": 30194,
+        "blocksPlaced": 11249,
         "deepestY": 1,
-        "lastSeen": 1787084924,
+        "lastSeen": 1787085044,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2867,21 +2867,6 @@
             "slot": "bag-1",
             "code": "game:backpack-normal",
             "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-2",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-3",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-4",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
           }
         ],
         "skin": {
@@ -2911,9 +2896,9 @@
         "class": "mason",
         "deaths": 2,
         "mobKills": 384,
-        "mealsEaten": 548,
-        "caloriesConsumed": 155713,
-        "lastMeal": "Smoked Blood Sausage",
+        "mealsEaten": 550,
+        "caloriesConsumed": 157071,
+        "lastMeal": "Earthy brown ceramic bowl of meat stew",
         "mealsByName": {
           "Cranberry": 25,
           "Meat pie": 20,
@@ -2960,7 +2945,7 @@
           "Wavy cap": 4,
           "Chanterelle": 2,
           "Rye grain": 15,
-          "Earthy brown ceramic bowl of meat stew": 23,
+          "Earthy brown ceramic bowl of meat stew": 25,
           "Earthy brown ceramic jug": 3,
           "Earthy brown ceramic bowl of jam": 2,
           "Tender redmeat": 5,
@@ -2970,8 +2955,8 @@
         "foodCatCounts": {
           "Fruit": 288,
           "Grain": 196,
-          "Protein": 183,
-          "Vegetable": 150,
+          "Protein": 185,
+          "Vegetable": 152,
           "Dairy": 65
         },
         "deathCauses": {
@@ -2979,11 +2964,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 662.6,
-        "blocksTravelled": 444841,
+        "blocksTravelled": 445035,
         "blocksBroken": 15915,
         "blocksPlaced": 10077,
         "deepestY": 12,
-        "lastSeen": 1787084924,
+        "lastSeen": 1787085044,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3236,11 +3221,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 23.9,
-        "blocksTravelled": 45513,
+        "blocksTravelled": 45521,
         "blocksBroken": 1864,
         "blocksPlaced": 542,
         "deepestY": 64,
-        "lastSeen": 1787084924,
+        "lastSeen": 1787085044,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
