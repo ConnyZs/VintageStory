@@ -1,5 +1,5 @@
 {
-  "generated": "20260818-232720",
+  "generated": "20260818-232920",
   "game_version": "1.22.7",
   "check_ts": "20260818-200104",
   "latest_engine": "1.22.7",
@@ -2978,12 +2978,12 @@
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 663.5,
-        "blocksTravelled": 448681,
-        "blocksBroken": 16152,
-        "blocksPlaced": 10453,
+        "playtimeHours": 663.6,
+        "blocksTravelled": 448765,
+        "blocksBroken": 16156,
+        "blocksPlaced": 10466,
         "deepestY": 12,
-        "lastSeen": 1787088407,
+        "lastSeen": 1787088527,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3235,12 +3235,12 @@
           "shiver-nightmare": 1,
           "bear-brown-adult-male": 1
         },
-        "playtimeHours": 24.8,
-        "blocksTravelled": 46378,
+        "playtimeHours": 24.9,
+        "blocksTravelled": 46452,
         "blocksBroken": 1869,
         "blocksPlaced": 542,
         "deepestY": 64,
-        "lastSeen": 1787088407,
+        "lastSeen": 1787088527,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
