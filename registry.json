@@ -1,5 +1,5 @@
 {
-  "generated": "20260818-230118",
+  "generated": "20260818-230318",
   "game_version": "1.22.7",
   "check_ts": "20260818-200104",
   "latest_engine": "1.22.7",
@@ -2347,11 +2347,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 226.3,
-        "blocksTravelled": 288227,
+        "blocksTravelled": 288243,
         "blocksBroken": 14459,
         "blocksPlaced": 844,
         "deepestY": 1,
-        "lastSeen": 1787086846,
+        "lastSeen": 1787086956,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2665,7 +2665,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 26,
-        "mobKills": 813,
+        "mobKills": 814,
         "mealsEaten": 1651,
         "caloriesConsumed": 288870,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
@@ -2762,11 +2762,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 527.3,
-        "blocksTravelled": 522398,
+        "blocksTravelled": 522735,
         "blocksBroken": 31423,
         "blocksPlaced": 11269,
         "deepestY": 1,
-        "lastSeen": 1787086846,
+        "lastSeen": 1787086966,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2979,11 +2979,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 663.1,
-        "blocksTravelled": 446820,
-        "blocksBroken": 16074,
-        "blocksPlaced": 10339,
+        "blocksTravelled": 446880,
+        "blocksBroken": 16107,
+        "blocksPlaced": 10377,
         "deepestY": 12,
-        "lastSeen": 1787086846,
+        "lastSeen": 1787086966,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3207,11 +3207,11 @@
         "class": "tailor",
         "deaths": 6,
         "mobKills": 25,
-        "mealsEaten": 72,
-        "caloriesConsumed": 37532,
+        "mealsEaten": 73,
+        "caloriesConsumed": 38692,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
-          "Earthy orange ceramic bowl of meat stew": 47,
+          "Earthy orange ceramic bowl of meat stew": 48,
           "Meat pie": 8,
           "Leather-bound Oak Tankard": 1,
           "Pear pie (charred)": 6,
@@ -3222,11 +3222,11 @@
           "Smoked Blood Sausage": 4
         },
         "foodCatCounts": {
-          "Protein": 60,
+          "Protein": 61,
           "Vegetable": 40,
-          "Grain": 25,
+          "Grain": 26,
           "Fruit": 8,
-          "Dairy": 17
+          "Dairy": 18
         },
         "deathCauses": {
           "bear-brown-adult-female": 2,
@@ -3236,11 +3236,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 24.4,
-        "blocksTravelled": 45768,
+        "blocksTravelled": 45801,
         "blocksBroken": 1869,
         "blocksPlaced": 542,
         "deepestY": 64,
-        "lastSeen": 1787086846,
+        "lastSeen": 1787086966,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
