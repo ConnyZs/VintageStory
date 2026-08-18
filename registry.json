@@ -1,5 +1,5 @@
 {
-  "generated": "20260818-210111",
+  "generated": "20260818-210311",
   "game_version": "1.22.7",
   "check_ts": "20260818-200104",
   "latest_engine": "1.22.7",
@@ -2666,9 +2666,9 @@
         "class": "homesteader",
         "deaths": 25,
         "mobKills": 781,
-        "mealsEaten": 1629,
-        "caloriesConsumed": 274730,
-        "lastMeal": "Earthy brown ceramic bowl of meat stew",
+        "mealsEaten": 1630,
+        "caloriesConsumed": 275430,
+        "lastMeal": "Smoked Blood Sausage",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
@@ -2743,11 +2743,11 @@
           "Blue meanie": 2,
           "Earthy brown ceramic bowl of meat stew": 43,
           "Earthy orange ceramic bowl of vegetable stew": 3,
-          "Smoked Blood Sausage": 5
+          "Smoked Blood Sausage": 6
         },
         "foodCatCounts": {
           "Grain": 271,
-          "Protein": 284,
+          "Protein": 285,
           "Vegetable": 381,
           "Fruit": 1081,
           "Dairy": 65
@@ -2762,11 +2762,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 525.3,
-        "blocksTravelled": 512686,
+        "blocksTravelled": 512731,
         "blocksBroken": 30150,
-        "blocksPlaced": 11221,
+        "blocksPlaced": 11231,
         "deepestY": 1,
-        "lastSeen": 1787079640,
+        "lastSeen": 1787079760,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2978,12 +2978,12 @@
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 661.1,
-        "blocksTravelled": 440805,
-        "blocksBroken": 15785,
-        "blocksPlaced": 9859,
+        "playtimeHours": 661.2,
+        "blocksTravelled": 440857,
+        "blocksBroken": 15822,
+        "blocksPlaced": 9878,
         "deepestY": 12,
-        "lastSeen": 1787079640,
+        "lastSeen": 1787079760,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3236,11 +3236,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 22.4,
-        "blocksTravelled": 44365,
+        "blocksTravelled": 44372,
         "blocksBroken": 1855,
         "blocksPlaced": 532,
         "deepestY": 64,
-        "lastSeen": 1787079640,
+        "lastSeen": 1787079760,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
