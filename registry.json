@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-18T15:32:56Z",
+  "generated": "20260818-173355",
   "game_version": "1.22.7",
-  "check_ts": "20260818-025714",
+  "check_ts": "20260818-173355",
   "latest_engine": "1.22.7",
   "restart_needed": null,
   "last_deploy_ts": "20260804-172326",
@@ -47,7 +47,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 141,
+  "count": 140,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -2092,7 +2092,7 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": null,
-      "build_version": "1.5.3",
+      "build_version": "1.5.4",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": true
@@ -2118,9 +2118,9 @@
       "modid": "zipline",
       "section": "1.22",
       "category": "QoL",
-      "on_server": false,
+      "on_server": true,
       "link": "https://mods.vintagestory.at/zipline",
-      "server_state": "no",
+      "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": null,

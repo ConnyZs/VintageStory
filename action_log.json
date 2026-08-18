@@ -1,6 +1,12 @@
 {
   "actions": [
     {
+      "ts": "2026-08-18T15:32:59Z",
+      "label": "Approved for server",
+      "link": "https://mods.vintagestory.at/zipline",
+      "name": "Zipline"
+    },
+    {
       "ts": "2026-08-18T15:32:56Z",
       "label": "Approved for server",
       "link": "https://mods.vintagestory.at/show/mod/44504",
@@ -291,12 +297,6 @@
     {
       "ts": "2026-07-13T18:24:07Z",
       "label": "Approved for server",
-      "link": "https://mods.vintagestory.at/combatreanimatedfork",
-      "name": "Combat Overhaul Reanimated Fork"
-    },
-    {
-      "ts": "2026-07-13T18:24:06Z",
-      "label": "Proposed",
       "link": "https://mods.vintagestory.at/combatreanimatedfork",
       "name": "Combat Overhaul Reanimated Fork"
     }
