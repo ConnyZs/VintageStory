@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-18T15:32:59Z",
+  "updated": "2026-08-18T15:37:47Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -209,16 +209,6 @@
       "server_state": "yes",
       "proposed": false,
       "note": ""
-    },
-    {
-      "name": "Instruments",
-      "link": "https://mods.vintagestory.at/show/mod/463",
-      "category": "Technology",
-      "section": "1.21",
-      "server_state": "remove",
-      "proposed": false,
-      "note": "",
-      "forced_outdated": true
     },
     {
       "name": "Buzzwords",
