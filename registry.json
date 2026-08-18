@@ -1,5 +1,5 @@
 {
-  "generated": "20260818-203909",
+  "generated": "20260818-204110",
   "game_version": "1.22.7",
   "check_ts": "20260818-200104",
   "latest_engine": "1.22.7",
@@ -2666,8 +2666,8 @@
         "class": "homesteader",
         "deaths": 25,
         "mobKills": 781,
-        "mealsEaten": 1624,
-        "caloriesConsumed": 271646,
+        "mealsEaten": 1626,
+        "caloriesConsumed": 273046,
         "lastMeal": "Smoked Blood Sausage",
         "mealsByName": {
           "Meat pie": 45,
@@ -2743,11 +2743,11 @@
           "Blue meanie": 2,
           "Earthy brown ceramic bowl of meat stew": 41,
           "Earthy orange ceramic bowl of vegetable stew": 3,
-          "Smoked Blood Sausage": 2
+          "Smoked Blood Sausage": 4
         },
         "foodCatCounts": {
           "Grain": 271,
-          "Protein": 279,
+          "Protein": 281,
           "Vegetable": 381,
           "Fruit": 1081,
           "Dairy": 65
@@ -2761,12 +2761,12 @@
           "wolf-eurasian-adult-male": 3,
           "shiver-surface": 1
         },
-        "playtimeHours": 524.9,
-        "blocksTravelled": 510803,
+        "playtimeHours": 525.0,
+        "blocksTravelled": 510997,
         "blocksBroken": 29962,
         "blocksPlaced": 11182,
         "deepestY": 1,
-        "lastSeen": 1787078319,
+        "lastSeen": 1787078439,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2911,8 +2911,8 @@
         "class": "mason",
         "deaths": 2,
         "mobKills": 382,
-        "mealsEaten": 539,
-        "caloriesConsumed": 149311,
+        "mealsEaten": 540,
+        "caloriesConsumed": 150011,
         "lastMeal": "Smoked Blood Sausage",
         "mealsByName": {
           "Cranberry": 25,
@@ -2965,12 +2965,12 @@
           "Earthy brown ceramic bowl of jam": 2,
           "Tender redmeat": 5,
           "Earthy orange ceramic bowl of vegetable stew": 4,
-          "Smoked Blood Sausage": 7
+          "Smoked Blood Sausage": 8
         },
         "foodCatCounts": {
           "Fruit": 288,
           "Grain": 196,
-          "Protein": 174,
+          "Protein": 175,
           "Vegetable": 147,
           "Dairy": 65
         },
@@ -2979,11 +2979,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 660.8,
-        "blocksTravelled": 439879,
+        "blocksTravelled": 440123,
         "blocksBroken": 15694,
-        "blocksPlaced": 9793,
+        "blocksPlaced": 9794,
         "deepestY": 12,
-        "lastSeen": 1787078319,
+        "lastSeen": 1787078439,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3235,11 +3235,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 22.0,
-        "blocksTravelled": 43761,
-        "blocksBroken": 1846,
-        "blocksPlaced": 530,
+        "blocksTravelled": 43796,
+        "blocksBroken": 1848,
+        "blocksPlaced": 531,
         "deepestY": 64,
-        "lastSeen": 1787078319,
+        "lastSeen": 1787078439,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
