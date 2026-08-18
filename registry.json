@@ -1,5 +1,5 @@
 {
-  "generated": "20260818-172257",
+  "generated": "2026-08-18T15:32:56Z",
   "game_version": "1.22.7",
   "check_ts": "20260818-025714",
   "latest_engine": "1.22.7",
@@ -2102,9 +2102,9 @@
       "modid": "chonkyvessels",
       "section": "1.22",
       "category": "Storage",
-      "on_server": false,
+      "on_server": true,
       "link": "https://mods.vintagestory.at/show/mod/44504",
-      "server_state": "no",
+      "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": null,

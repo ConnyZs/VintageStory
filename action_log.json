@@ -1,6 +1,12 @@
 {
   "actions": [
     {
+      "ts": "2026-08-18T15:32:56Z",
+      "label": "Approved for server",
+      "link": "https://mods.vintagestory.at/show/mod/44504",
+      "name": "Chonky Vessels"
+    },
+    {
       "ts": "2026-08-18T00:58:01Z",
       "label": "Approved for server",
       "link": "https://mods.vintagestory.at/arrowbarrels",
@@ -293,12 +299,6 @@
       "label": "Proposed",
       "link": "https://mods.vintagestory.at/combatreanimatedfork",
       "name": "Combat Overhaul Reanimated Fork"
-    },
-    {
-      "ts": "2026-07-13T18:24:06Z",
-      "label": "Approved for server",
-      "link": "https://mods.vintagestory.at/armoryfork",
-      "name": "Armory Fork"
     }
   ]
 }
