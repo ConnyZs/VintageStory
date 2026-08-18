@@ -1,5 +1,5 @@
 {
-  "generated": "20260818-203309",
+  "generated": "20260818-203509",
   "game_version": "1.22.7",
   "check_ts": "20260818-200104",
   "latest_engine": "1.22.7",
@@ -2666,9 +2666,9 @@
         "class": "homesteader",
         "deaths": 25,
         "mobKills": 781,
-        "mealsEaten": 1622,
-        "caloriesConsumed": 270246,
-        "lastMeal": "Earthy brown ceramic bowl of meat stew",
+        "mealsEaten": 1623,
+        "caloriesConsumed": 270946,
+        "lastMeal": "Smoked Blood Sausage",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
@@ -2742,11 +2742,12 @@
           "Saguaro fruit": 6,
           "Blue meanie": 2,
           "Earthy brown ceramic bowl of meat stew": 41,
-          "Earthy orange ceramic bowl of vegetable stew": 3
+          "Earthy orange ceramic bowl of vegetable stew": 3,
+          "Smoked Blood Sausage": 1
         },
         "foodCatCounts": {
           "Grain": 271,
-          "Protein": 277,
+          "Protein": 278,
           "Vegetable": 381,
           "Fruit": 1081,
           "Dairy": 65
@@ -2760,12 +2761,12 @@
           "wolf-eurasian-adult-male": 3,
           "shiver-surface": 1
         },
-        "playtimeHours": 524.8,
-        "blocksTravelled": 510656,
+        "playtimeHours": 524.9,
+        "blocksTravelled": 510700,
         "blocksBroken": 29792,
         "blocksPlaced": 11182,
         "deepestY": 1,
-        "lastSeen": 1787077959,
+        "lastSeen": 1787078079,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2910,8 +2911,8 @@
         "class": "mason",
         "deaths": 2,
         "mobKills": 382,
-        "mealsEaten": 538,
-        "caloriesConsumed": 148611,
+        "mealsEaten": 539,
+        "caloriesConsumed": 149311,
         "lastMeal": "Smoked Blood Sausage",
         "mealsByName": {
           "Cranberry": 25,
@@ -2964,12 +2965,12 @@
           "Earthy brown ceramic bowl of jam": 2,
           "Tender redmeat": 5,
           "Earthy orange ceramic bowl of vegetable stew": 4,
-          "Smoked Blood Sausage": 6
+          "Smoked Blood Sausage": 7
         },
         "foodCatCounts": {
           "Fruit": 288,
           "Grain": 196,
-          "Protein": 173,
+          "Protein": 174,
           "Vegetable": 147,
           "Dairy": 65
         },
@@ -2978,11 +2979,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 660.7,
-        "blocksTravelled": 439392,
+        "blocksTravelled": 439600,
         "blocksBroken": 15693,
         "blocksPlaced": 9793,
         "deepestY": 12,
-        "lastSeen": 1787077959,
+        "lastSeen": 1787078079,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3234,11 +3235,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 21.9,
-        "blocksTravelled": 43691,
+        "blocksTravelled": 43717,
         "blocksBroken": 1846,
         "blocksPlaced": 529,
         "deepestY": 64,
-        "lastSeen": 1787077959,
+        "lastSeen": 1787078079,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
