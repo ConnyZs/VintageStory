@@ -1,5 +1,5 @@
 {
-  "generated": "20260818-212512",
+  "generated": "20260818-212713",
   "game_version": "1.22.7",
   "check_ts": "20260818-200104",
   "latest_engine": "1.22.7",
@@ -2347,11 +2347,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 224.7,
-        "blocksTravelled": 279022,
+        "blocksTravelled": 279179,
         "blocksBroken": 13769,
         "blocksPlaced": 829,
         "deepestY": 1,
-        "lastSeen": 1787081095,
+        "lastSeen": 1787081202,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2762,11 +2762,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 525.7,
-        "blocksTravelled": 514908,
+        "blocksTravelled": 515114,
         "blocksBroken": 30175,
         "blocksPlaced": 11238,
         "deepestY": 1,
-        "lastSeen": 1787081095,
+        "lastSeen": 1787081202,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2911,8 +2911,8 @@
         "class": "mason",
         "deaths": 2,
         "mobKills": 384,
-        "mealsEaten": 542,
-        "caloriesConsumed": 151355,
+        "mealsEaten": 543,
+        "caloriesConsumed": 152535,
         "lastMeal": "Earthy brown ceramic bowl of meat stew",
         "mealsByName": {
           "Cranberry": 25,
@@ -2960,7 +2960,7 @@
           "Wavy cap": 4,
           "Chanterelle": 2,
           "Rye grain": 15,
-          "Earthy brown ceramic bowl of meat stew": 19,
+          "Earthy brown ceramic bowl of meat stew": 20,
           "Earthy brown ceramic jug": 3,
           "Earthy brown ceramic bowl of jam": 2,
           "Tender redmeat": 5,
@@ -2970,7 +2970,7 @@
         "foodCatCounts": {
           "Fruit": 288,
           "Grain": 196,
-          "Protein": 177,
+          "Protein": 178,
           "Vegetable": 147,
           "Dairy": 65
         },
@@ -2979,11 +2979,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 661.5,
-        "blocksTravelled": 441814,
-        "blocksBroken": 15847,
+        "blocksTravelled": 442057,
+        "blocksBroken": 15857,
         "blocksPlaced": 9974,
         "deepestY": 12,
-        "lastSeen": 1787081095,
+        "lastSeen": 1787081202,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3236,11 +3236,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 22.8,
-        "blocksTravelled": 44794,
+        "blocksTravelled": 44806,
         "blocksBroken": 1857,
         "blocksPlaced": 532,
         "deepestY": 64,
-        "lastSeen": 1787081095,
+        "lastSeen": 1787081202,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
