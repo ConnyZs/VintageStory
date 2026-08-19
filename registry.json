@@ -1,5 +1,5 @@
 {
-  "generated": "20260819-211401",
+  "generated": "20260819-211601",
   "game_version": "1.22.7",
   "check_ts": "20260819-200104",
   "latest_engine": "1.22.7",
@@ -2795,12 +2795,12 @@
           "wolf-eurasian-adult-male": 3,
           "shiver-surface": 1
         },
-        "playtimeHours": 529.3,
-        "blocksTravelled": 533163,
+        "playtimeHours": 529.4,
+        "blocksTravelled": 533334,
         "blocksBroken": 32047,
         "blocksPlaced": 11304,
         "deepestY": 1,
-        "lastSeen": 1787166797,
+        "lastSeen": 1787166917,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2914,8 +2914,8 @@
           },
           {
             "slot": "bag-4",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "code": "butchering:butcherybag-standard",
+            "name": "Hide Butchering Bag"
           }
         ],
         "skin": {
@@ -3013,11 +3013,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 677.1,
-        "blocksTravelled": 457182,
+        "blocksTravelled": 457209,
         "blocksBroken": 16549,
-        "blocksPlaced": 10932,
+        "blocksPlaced": 10933,
         "deepestY": 12,
-        "lastSeen": 1787166797,
+        "lastSeen": 1787166917,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3241,11 +3241,11 @@
         "class": "tailor",
         "deaths": 6,
         "mobKills": 25,
-        "mealsEaten": 78,
-        "caloriesConsumed": 42284,
+        "mealsEaten": 79,
+        "caloriesConsumed": 42862,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
-          "Earthy orange ceramic bowl of meat stew": 53,
+          "Earthy orange ceramic bowl of meat stew": 54,
           "Meat pie": 8,
           "Leather-bound Oak Tankard": 1,
           "Pear pie (charred)": 6,
@@ -3256,11 +3256,11 @@
           "Smoked Blood Sausage": 4
         },
         "foodCatCounts": {
-          "Protein": 66,
+          "Protein": 67,
           "Vegetable": 40,
-          "Grain": 31,
+          "Grain": 32,
           "Fruit": 8,
-          "Dairy": 23
+          "Dairy": 24
         },
         "deathCauses": {
           "bear-brown-adult-female": 2,
@@ -3270,11 +3270,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 26.2,
-        "blocksTravelled": 48728,
+        "blocksTravelled": 48993,
         "blocksBroken": 1883,
         "blocksPlaced": 558,
         "deepestY": 64,
-        "lastSeen": 1787166797,
+        "lastSeen": 1787166917,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
