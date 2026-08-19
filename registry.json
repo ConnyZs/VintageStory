@@ -1,5 +1,5 @@
 {
-  "generated": "20260819-213402",
+  "generated": "20260819-213603",
   "game_version": "1.22.7",
   "check_ts": "20260819-200104",
   "latest_engine": "1.22.7",
@@ -2699,8 +2699,8 @@
         "class": "homesteader",
         "deaths": 26,
         "mobKills": 869,
-        "mealsEaten": 1687,
-        "caloriesConsumed": 305788,
+        "mealsEaten": 1688,
+        "caloriesConsumed": 306680,
         "lastMeal": "Earthy brown ceramic bowl of meat stew",
         "mealsByName": {
           "Meat pie": 45,
@@ -2774,7 +2774,7 @@
           "Termites": 15,
           "Saguaro fruit": 6,
           "Blue meanie": 2,
-          "Earthy brown ceramic bowl of meat stew": 78,
+          "Earthy brown ceramic bowl of meat stew": 79,
           "Earthy orange ceramic bowl of vegetable stew": 3,
           "Smoked Blood Sausage": 6,
           "Wooden bucket": 5,
@@ -2783,9 +2783,9 @@
           "Earthy brown ceramic bowl of hot pasta": 2
         },
         "foodCatCounts": {
-          "Grain": 293,
-          "Protein": 340,
-          "Vegetable": 414,
+          "Grain": 294,
+          "Protein": 341,
+          "Vegetable": 415,
           "Fruit": 1081,
           "Dairy": 65
         },
@@ -2799,11 +2799,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 529.7,
-        "blocksTravelled": 535197,
+        "blocksTravelled": 535536,
         "blocksBroken": 32068,
-        "blocksPlaced": 11364,
+        "blocksPlaced": 11370,
         "deepestY": 1,
-        "lastSeen": 1787167998,
+        "lastSeen": 1787168118,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2902,8 +2902,23 @@
           },
           {
             "slot": "bag-1",
-            "code": "game:skep-reed-populated-east",
-            "name": "Populated reed skep"
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-3",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           }
         ],
         "skin": {
@@ -2933,9 +2948,9 @@
         "class": "mason",
         "deaths": 2,
         "mobKills": 386,
-        "mealsEaten": 562,
-        "caloriesConsumed": 166911,
-        "lastMeal": "Cooked redmeat nuggets",
+        "mealsEaten": 563,
+        "caloriesConsumed": 167113,
+        "lastMeal": "Earthy brown ceramic bowl of meat stew",
         "mealsByName": {
           "Cranberry": 25,
           "Meat pie": 20,
@@ -2982,7 +2997,7 @@
           "Wavy cap": 4,
           "Chanterelle": 2,
           "Rye grain": 15,
-          "Earthy brown ceramic bowl of meat stew": 31,
+          "Earthy brown ceramic bowl of meat stew": 32,
           "Earthy brown ceramic jug": 3,
           "Earthy brown ceramic bowl of jam": 2,
           "Tender redmeat": 5,
@@ -2993,9 +3008,9 @@
         },
         "foodCatCounts": {
           "Fruit": 288,
-          "Grain": 204,
-          "Protein": 197,
-          "Vegetable": 158,
+          "Grain": 205,
+          "Protein": 198,
+          "Vegetable": 159,
           "Dairy": 65
         },
         "deathCauses": {
@@ -3003,11 +3018,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 677.4,
-        "blocksTravelled": 457502,
+        "blocksTravelled": 457600,
         "blocksBroken": 16549,
         "blocksPlaced": 10937,
         "deepestY": 12,
-        "lastSeen": 1787167998,
+        "lastSeen": 1787168118,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3260,11 +3275,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 26.5,
-        "blocksTravelled": 49606,
-        "blocksBroken": 1897,
-        "blocksPlaced": 560,
+        "blocksTravelled": 49687,
+        "blocksBroken": 1904,
+        "blocksPlaced": 563,
         "deepestY": 64,
-        "lastSeen": 1787167998,
+        "lastSeen": 1787168118,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
