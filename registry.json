@@ -1,5 +1,5 @@
 {
-  "generated": "20260819-212802",
+  "generated": "20260819-213002",
   "game_version": "1.22.7",
   "check_ts": "20260819-200104",
   "latest_engine": "1.22.7",
@@ -2799,11 +2799,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 529.6,
-        "blocksTravelled": 534522,
-        "blocksBroken": 32064,
-        "blocksPlaced": 11317,
+        "blocksTravelled": 534763,
+        "blocksBroken": 32066,
+        "blocksPlaced": 11327,
         "deepestY": 1,
-        "lastSeen": 1787167638,
+        "lastSeen": 1787167765,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2997,11 +2997,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 677.3,
-        "blocksTravelled": 457377,
+        "blocksTravelled": 457435,
         "blocksBroken": 16549,
         "blocksPlaced": 10934,
         "deepestY": 12,
-        "lastSeen": 1787167638,
+        "lastSeen": 1787167765,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3225,11 +3225,11 @@
         "class": "tailor",
         "deaths": 6,
         "mobKills": 25,
-        "mealsEaten": 79,
-        "caloriesConsumed": 42862,
+        "mealsEaten": 80,
+        "caloriesConsumed": 43968,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
-          "Earthy orange ceramic bowl of meat stew": 54,
+          "Earthy orange ceramic bowl of meat stew": 55,
           "Meat pie": 8,
           "Leather-bound Oak Tankard": 1,
           "Pear pie (charred)": 6,
@@ -3240,11 +3240,11 @@
           "Smoked Blood Sausage": 4
         },
         "foodCatCounts": {
-          "Protein": 67,
+          "Protein": 68,
           "Vegetable": 40,
-          "Grain": 32,
+          "Grain": 33,
           "Fruit": 8,
-          "Dairy": 24
+          "Dairy": 25
         },
         "deathCauses": {
           "bear-brown-adult-female": 2,
@@ -3254,11 +3254,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 26.4,
-        "blocksTravelled": 49376,
+        "blocksTravelled": 49442,
         "blocksBroken": 1897,
-        "blocksPlaced": 558,
+        "blocksPlaced": 560,
         "deepestY": 64,
-        "lastSeen": 1787167638,
+        "lastSeen": 1787167765,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
