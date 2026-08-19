@@ -1,5 +1,5 @@
 {
-  "generated": "20260819-225207",
+  "generated": "20260819-225407",
   "game_version": "1.22.7",
   "check_ts": "20260819-200104",
   "latest_engine": "1.22.7",
@@ -2379,12 +2379,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 229.6,
-        "blocksTravelled": 304013,
+        "playtimeHours": 229.7,
+        "blocksTravelled": 304280,
         "blocksBroken": 15555,
         "blocksPlaced": 1081,
         "deepestY": 1,
-        "lastSeen": 1787172682,
+        "lastSeen": 1787172802,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2800,12 +2800,12 @@
           "wolf-eurasian-adult-male": 3,
           "shiver-surface": 1
         },
-        "playtimeHours": 530.8,
-        "blocksTravelled": 540413,
+        "playtimeHours": 530.9,
+        "blocksTravelled": 540553,
         "blocksBroken": 32119,
         "blocksPlaced": 11461,
         "deepestY": 1,
-        "lastSeen": 1787172682,
+        "lastSeen": 1787172802,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3024,11 +3024,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 678.7,
-        "blocksTravelled": 462456,
-        "blocksBroken": 16997,
-        "blocksPlaced": 11378,
+        "blocksTravelled": 462667,
+        "blocksBroken": 17030,
+        "blocksPlaced": 11400,
         "deepestY": 12,
-        "lastSeen": 1787172682,
+        "lastSeen": 1787172802,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3283,11 +3283,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 27.8,
-        "blocksTravelled": 51525,
+        "blocksTravelled": 51552,
         "blocksBroken": 1908,
         "blocksPlaced": 573,
         "deepestY": 64,
-        "lastSeen": 1787172682,
+        "lastSeen": 1787172802,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
