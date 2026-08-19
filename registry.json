@@ -1,5 +1,5 @@
 {
-  "generated": "20260819-223606",
+  "generated": "20260819-223806",
   "game_version": "1.22.7",
   "check_ts": "20260819-200104",
   "latest_engine": "1.22.7",
@@ -2380,11 +2380,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 229.4,
-        "blocksTravelled": 302056,
-        "blocksBroken": 15497,
+        "blocksTravelled": 302099,
+        "blocksBroken": 15530,
         "blocksPlaced": 1081,
         "deepestY": 1,
-        "lastSeen": 1787171721,
+        "lastSeen": 1787171841,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2800,11 +2800,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 530.7,
-        "blocksTravelled": 540022,
+        "blocksTravelled": 540053,
         "blocksBroken": 32113,
         "blocksPlaced": 11449,
         "deepestY": 1,
-        "lastSeen": 1787171721,
+        "lastSeen": 1787171841,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3021,12 +3021,12 @@
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 678.4,
-        "blocksTravelled": 461562,
-        "blocksBroken": 16954,
+        "playtimeHours": 678.5,
+        "blocksTravelled": 461727,
+        "blocksBroken": 16963,
         "blocksPlaced": 11266,
         "deepestY": 12,
-        "lastSeen": 1787171721,
+        "lastSeen": 1787171841,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3250,9 +3250,9 @@
         "class": "tailor",
         "deaths": 6,
         "mobKills": 25,
-        "mealsEaten": 84,
-        "caloriesConsumed": 46140,
-        "lastMeal": "Earthy brown ceramic bowl of cold pasta",
+        "mealsEaten": 85,
+        "caloriesConsumed": 47292,
+        "lastMeal": "Earthy orange ceramic bowl of cold pasta",
         "mealsByName": {
           "Earthy orange ceramic bowl of meat stew": 58,
           "Meat pie": 8,
@@ -3263,12 +3263,13 @@
           "Turnip": 2,
           "Earthy brown ceramic bowl of meat stew": 1,
           "Smoked Blood Sausage": 4,
-          "Earthy brown ceramic bowl of cold pasta": 1
+          "Earthy brown ceramic bowl of cold pasta": 1,
+          "Earthy orange ceramic bowl of cold pasta": 1
         },
         "foodCatCounts": {
-          "Protein": 72,
-          "Vegetable": 41,
-          "Grain": 37,
+          "Protein": 73,
+          "Vegetable": 42,
+          "Grain": 38,
           "Fruit": 8,
           "Dairy": 28
         },
@@ -3279,12 +3280,12 @@
           "shiver-nightmare": 1,
           "bear-brown-adult-male": 1
         },
-        "playtimeHours": 27.5,
-        "blocksTravelled": 51212,
+        "playtimeHours": 27.6,
+        "blocksTravelled": 51344,
         "blocksBroken": 1907,
         "blocksPlaced": 572,
         "deepestY": 64,
-        "lastSeen": 1787171721,
+        "lastSeen": 1787171841,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
