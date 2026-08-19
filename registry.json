@@ -1,5 +1,5 @@
 {
-  "generated": "20260819-231609",
+  "generated": "20260819-231809",
   "game_version": "1.22.7",
   "check_ts": "20260819-200104",
   "latest_engine": "1.22.7",
@@ -2380,12 +2380,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 230.0,
-        "blocksTravelled": 305255,
+        "playtimeHours": 230.1,
+        "blocksTravelled": 305282,
         "blocksBroken": 15555,
         "blocksPlaced": 1081,
         "deepestY": 1,
-        "lastSeen": 1787174123,
+        "lastSeen": 1787174243,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2700,9 +2700,9 @@
         "class": "homesteader",
         "deaths": 26,
         "mobKills": 881,
-        "mealsEaten": 1714,
-        "caloriesConsumed": 316643,
-        "lastMeal": "King bolete",
+        "mealsEaten": 1715,
+        "caloriesConsumed": 316919,
+        "lastMeal": "Earthy brown ceramic bowl of soup",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
@@ -2782,13 +2782,13 @@
           "Vintage redmeat sausage": 2,
           "Earthy orange ceramic bowl of hot pasta": 2,
           "Earthy brown ceramic bowl of hot pasta": 6,
-          "Earthy brown ceramic bowl of soup": 6,
+          "Earthy brown ceramic bowl of soup": 7,
           "Earthy brown ceramic bowl of cold pasta": 2
         },
         "foodCatCounts": {
-          "Grain": 307,
-          "Protein": 357,
-          "Vegetable": 433,
+          "Grain": 308,
+          "Protein": 358,
+          "Vegetable": 434,
           "Fruit": 1081,
           "Dairy": 65
         },
@@ -2801,12 +2801,12 @@
           "wolf-eurasian-adult-male": 3,
           "shiver-surface": 1
         },
-        "playtimeHours": 531.2,
-        "blocksTravelled": 542089,
-        "blocksBroken": 32165,
-        "blocksPlaced": 11467,
+        "playtimeHours": 531.3,
+        "blocksTravelled": 542160,
+        "blocksBroken": 32169,
+        "blocksPlaced": 11468,
         "deepestY": 1,
-        "lastSeen": 1787174123,
+        "lastSeen": 1787174243,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3025,11 +3025,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 679.1,
-        "blocksTravelled": 464042,
-        "blocksBroken": 17122,
-        "blocksPlaced": 11674,
+        "blocksTravelled": 464125,
+        "blocksBroken": 17130,
+        "blocksPlaced": 11681,
         "deepestY": 12,
-        "lastSeen": 1787174123,
+        "lastSeen": 1787174243,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3285,11 +3285,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 28.2,
-        "blocksTravelled": 52050,
+        "blocksTravelled": 52176,
         "blocksBroken": 1909,
         "blocksPlaced": 573,
         "deepestY": 64,
-        "lastSeen": 1787174123,
+        "lastSeen": 1787174243,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
