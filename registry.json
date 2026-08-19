@@ -1,5 +1,5 @@
 {
-  "generated": "20260819-223406",
+  "generated": "20260819-223606",
   "game_version": "1.22.7",
   "check_ts": "20260819-200104",
   "latest_engine": "1.22.7",
@@ -2379,12 +2379,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 229.3,
-        "blocksTravelled": 302006,
-        "blocksBroken": 15475,
+        "playtimeHours": 229.4,
+        "blocksTravelled": 302056,
+        "blocksBroken": 15497,
         "blocksPlaced": 1081,
         "deepestY": 1,
-        "lastSeen": 1787171601,
+        "lastSeen": 1787171721,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2800,11 +2800,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 530.7,
-        "blocksTravelled": 539793,
-        "blocksBroken": 32110,
+        "blocksTravelled": 540022,
+        "blocksBroken": 32113,
         "blocksPlaced": 11449,
         "deepestY": 1,
-        "lastSeen": 1787171601,
+        "lastSeen": 1787171721,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2949,9 +2949,9 @@
         "class": "mason",
         "deaths": 2,
         "mobKills": 386,
-        "mealsEaten": 569,
-        "caloriesConsumed": 170013,
-        "lastMeal": "Earthy orange ceramic bowl of hot pasta",
+        "mealsEaten": 571,
+        "caloriesConsumed": 171509,
+        "lastMeal": "Earthy brown ceramic bowl of cold pasta",
         "mealsByName": {
           "Cranberry": 25,
           "Meat pie": 20,
@@ -3006,13 +3006,15 @@
           "Smoked Blood Sausage": 10,
           "Earthy orange ceramic bowl of hot pasta": 2,
           "Cooked redmeat nuggets": 1,
-          "Earthy brown ceramic bowl of hot pasta": 4
+          "Earthy brown ceramic bowl of hot pasta": 4,
+          "Earthy brown ceramic bowl of soup": 1,
+          "Earthy brown ceramic bowl of cold pasta": 1
         },
         "foodCatCounts": {
           "Fruit": 288,
-          "Grain": 211,
-          "Protein": 204,
-          "Vegetable": 160,
+          "Grain": 213,
+          "Protein": 206,
+          "Vegetable": 162,
           "Dairy": 65
         },
         "deathCauses": {
@@ -3020,11 +3022,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 678.4,
-        "blocksTravelled": 461363,
-        "blocksBroken": 16947,
-        "blocksPlaced": 11254,
+        "blocksTravelled": 461562,
+        "blocksBroken": 16954,
+        "blocksPlaced": 11266,
         "deepestY": 12,
-        "lastSeen": 1787171601,
+        "lastSeen": 1787171721,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3248,11 +3250,11 @@
         "class": "tailor",
         "deaths": 6,
         "mobKills": 25,
-        "mealsEaten": 82,
-        "caloriesConsumed": 45802,
-        "lastMeal": "Earthy orange ceramic bowl of meat stew",
+        "mealsEaten": 84,
+        "caloriesConsumed": 46140,
+        "lastMeal": "Earthy brown ceramic bowl of cold pasta",
         "mealsByName": {
-          "Earthy orange ceramic bowl of meat stew": 57,
+          "Earthy orange ceramic bowl of meat stew": 58,
           "Meat pie": 8,
           "Leather-bound Oak Tankard": 1,
           "Pear pie (charred)": 6,
@@ -3260,14 +3262,15 @@
           "Cranberry": 1,
           "Turnip": 2,
           "Earthy brown ceramic bowl of meat stew": 1,
-          "Smoked Blood Sausage": 4
+          "Smoked Blood Sausage": 4,
+          "Earthy brown ceramic bowl of cold pasta": 1
         },
         "foodCatCounts": {
-          "Protein": 70,
-          "Vegetable": 40,
-          "Grain": 35,
+          "Protein": 72,
+          "Vegetable": 41,
+          "Grain": 37,
           "Fruit": 8,
-          "Dairy": 27
+          "Dairy": 28
         },
         "deathCauses": {
           "bear-brown-adult-female": 2,
@@ -3277,11 +3280,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 27.5,
-        "blocksTravelled": 51060,
+        "blocksTravelled": 51212,
         "blocksBroken": 1907,
         "blocksPlaced": 572,
         "deepestY": 64,
-        "lastSeen": 1787171601,
+        "lastSeen": 1787171721,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
