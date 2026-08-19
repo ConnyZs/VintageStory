@@ -1,5 +1,5 @@
 {
-  "generated": "20260819-233410",
+  "generated": "20260819-233610",
   "game_version": "1.22.7",
   "check_ts": "20260819-200104",
   "latest_engine": "1.22.7",
@@ -2380,12 +2380,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 230.3,
-        "blocksTravelled": 305314,
+        "playtimeHours": 230.4,
+        "blocksTravelled": 305339,
         "blocksBroken": 15555,
         "blocksPlaced": 1081,
         "deepestY": 1,
-        "lastSeen": 1787175204,
+        "lastSeen": 1787175324,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -3025,11 +3025,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 679.4,
-        "blocksTravelled": 465138,
+        "blocksTravelled": 465209,
         "blocksBroken": 17177,
         "blocksPlaced": 11790,
         "deepestY": 12,
-        "lastSeen": 1787175204,
+        "lastSeen": 1787175324,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3253,9 +3253,9 @@
         "class": "tailor",
         "deaths": 6,
         "mobKills": 25,
-        "mealsEaten": 88,
-        "caloriesConsumed": 48965,
-        "lastMeal": "Earthy orange ceramic bowl of soup",
+        "mealsEaten": 91,
+        "caloriesConsumed": 49631,
+        "lastMeal": "Earthy brown ceramic bowl of soup",
         "mealsByName": {
           "Earthy orange ceramic bowl of meat stew": 58,
           "Meat pie": 8,
@@ -3266,14 +3266,15 @@
           "Turnip": 2,
           "Earthy brown ceramic bowl of meat stew": 1,
           "Smoked Blood Sausage": 4,
-          "Earthy brown ceramic bowl of cold pasta": 1,
+          "Earthy brown ceramic bowl of cold pasta": 2,
           "Earthy orange ceramic bowl of cold pasta": 2,
-          "Earthy orange ceramic bowl of soup": 2
+          "Earthy orange ceramic bowl of soup": 3,
+          "Earthy brown ceramic bowl of soup": 1
         },
         "foodCatCounts": {
-          "Protein": 76,
-          "Vegetable": 45,
-          "Grain": 41,
+          "Protein": 79,
+          "Vegetable": 48,
+          "Grain": 44,
           "Fruit": 8,
           "Dairy": 28
         },
@@ -3285,11 +3286,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 28.5,
-        "blocksTravelled": 53037,
+        "blocksTravelled": 53120,
         "blocksBroken": 1912,
         "blocksPlaced": 573,
         "deepestY": 64,
-        "lastSeen": 1787175204,
+        "lastSeen": 1787175324,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
