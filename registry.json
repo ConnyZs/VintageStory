@@ -1,5 +1,5 @@
 {
-  "generated": "20260819-203359",
+  "generated": "20260819-203559",
   "game_version": "1.22.7",
   "check_ts": "20260819-200104",
   "latest_engine": "1.22.7",
@@ -2378,12 +2378,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 228.2,
-        "blocksTravelled": 295542,
-        "blocksBroken": 15173,
+        "playtimeHours": 228.3,
+        "blocksTravelled": 295604,
+        "blocksBroken": 15219,
         "blocksPlaced": 878,
         "deepestY": 1,
-        "lastSeen": 1787164395,
+        "lastSeen": 1787164515,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2697,7 +2697,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 26,
-        "mobKills": 834,
+        "mobKills": 836,
         "mealsEaten": 1668,
         "caloriesConsumed": 298729,
         "lastMeal": "Earthy brown ceramic bowl of meat stew",
@@ -2794,11 +2794,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 528.7,
-        "blocksTravelled": 530116,
+        "blocksTravelled": 530324,
         "blocksBroken": 32042,
-        "blocksPlaced": 11293,
+        "blocksPlaced": 11297,
         "deepestY": 1,
-        "lastSeen": 1787164395,
+        "lastSeen": 1787164515,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3011,11 +3011,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 676.4,
-        "blocksTravelled": 456034,
+        "blocksTravelled": 456148,
         "blocksBroken": 16549,
         "blocksPlaced": 10925,
         "deepestY": 12,
-        "lastSeen": 1787164395,
+        "lastSeen": 1787164515,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3268,11 +3268,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 25.5,
-        "blocksTravelled": 47467,
+        "blocksTravelled": 47623,
         "blocksBroken": 1873,
         "blocksPlaced": 547,
         "deepestY": 64,
-        "lastSeen": 1787164395,
+        "lastSeen": 1787164515,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
