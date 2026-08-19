@@ -1,7 +1,7 @@
 {
   "game_version": "1.22.7",
-  "generated": "20260819-183430",
-  "count": 130,
+  "generated": "20260819-190329",
+  "count": 131,
   "mods": [
     {
       "filename": "windmillsailfix.zip",
@@ -877,6 +877,15 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/gourmand_1.8.12.zip"
     },
     {
+      "filename": "improvedhandbookrecipesfork-1227.0.1.zip",
+      "sha256": "b568976742bfd127f40594659fa7615c9bc290b4fea8aba86f04112b7eaa9be2",
+      "size": 197156,
+      "modid": "improvedhandbookrecipesfork",
+      "version": "1227.0.1",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/improvedhandbookrecipesfork-1227.0.1.zip"
+    },
+    {
       "filename": "jsonpatcheslib_1.5.9.zip",
       "sha256": "b6444d3ac519b8466a7c0f397a9c12ceebd9c52e1ce43c1b0f4993e775442a94",
       "size": 57901,
@@ -1201,15 +1210,6 @@
       "version": "1.4.0",
       "name": null,
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/StepUpAdvanced_1.4.0.zip"
-    },
-    {
-      "filename": "improvedhandbookrecipesfork-1227.0.1.zip",
-      "sha256": "b568976742bfd127f40594659fa7615c9bc290b4fea8aba86f04112b7eaa9be2",
-      "size": 197156,
-      "modid": "improvedhandbookrecipesfork",
-      "version": "1227.0.1",
-      "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/improvedhandbookrecipesfork-1227.0.1.zip"
     },
     {
       "filename": "statushudcont_4.4.0.zip",
