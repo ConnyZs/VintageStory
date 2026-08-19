@@ -1,5 +1,5 @@
 {
-  "generated": "20260819-221005",
+  "generated": "20260819-221205",
   "game_version": "1.22.7",
   "check_ts": "20260819-200104",
   "latest_engine": "1.22.7",
@@ -2379,12 +2379,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 228.9,
-        "blocksTravelled": 299127,
+        "playtimeHours": 229.0,
+        "blocksTravelled": 299135,
         "blocksBroken": 15413,
         "blocksPlaced": 1081,
         "deepestY": 1,
-        "lastSeen": 1787170182,
+        "lastSeen": 1787170280,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2799,11 +2799,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 530.3,
-        "blocksTravelled": 537790,
+        "blocksTravelled": 537882,
         "blocksBroken": 32075,
         "blocksPlaced": 11382,
         "deepestY": 1,
-        "lastSeen": 1787170182,
+        "lastSeen": 1787170280,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2948,9 +2948,9 @@
         "class": "mason",
         "deaths": 2,
         "mobKills": 386,
-        "mealsEaten": 567,
-        "caloriesConsumed": 168557,
-        "lastMeal": "Earthy brown ceramic bowl of hot pasta",
+        "mealsEaten": 569,
+        "caloriesConsumed": 170013,
+        "lastMeal": "Earthy orange ceramic bowl of hot pasta",
         "mealsByName": {
           "Cranberry": 25,
           "Meat pie": 20,
@@ -3003,14 +3003,14 @@
           "Tender redmeat": 5,
           "Earthy orange ceramic bowl of vegetable stew": 4,
           "Smoked Blood Sausage": 10,
-          "Earthy orange ceramic bowl of hot pasta": 1,
+          "Earthy orange ceramic bowl of hot pasta": 2,
           "Cooked redmeat nuggets": 1,
-          "Earthy brown ceramic bowl of hot pasta": 3
+          "Earthy brown ceramic bowl of hot pasta": 4
         },
         "foodCatCounts": {
           "Fruit": 288,
-          "Grain": 209,
-          "Protein": 202,
+          "Grain": 211,
+          "Protein": 204,
           "Vegetable": 160,
           "Dairy": 65
         },
@@ -3019,11 +3019,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 678.0,
-        "blocksTravelled": 459865,
+        "blocksTravelled": 460144,
         "blocksBroken": 16827,
         "blocksPlaced": 11086,
         "deepestY": 12,
-        "lastSeen": 1787170182,
+        "lastSeen": 1787170280,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3276,11 +3276,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 27.1,
-        "blocksTravelled": 50739,
+        "blocksTravelled": 50759,
         "blocksBroken": 1907,
         "blocksPlaced": 570,
         "deepestY": 64,
-        "lastSeen": 1787170182,
+        "lastSeen": 1787170280,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
@@ -3293,8 +3293,7 @@
           "Tailor jacket",
           "Gamboised helmet",
           "Tailored gambeson body armor",
-          "Tailored gamboised leg armor",
-          "Blackguard helm"
+          "Tailored gamboised leg armor"
         ],
         "gearDetail": [
           {
@@ -3365,11 +3364,6 @@
             "slot": "armorlegs",
             "code": "game:armor-legs-tailored-plain-linen",
             "name": "Tailored gamboised leg armor"
-          },
-          {
-            "slot": "armorhead",
-            "code": "game:armor-head-antique-blackguard-pristine",
-            "name": "Blackguard helm"
           },
           {
             "slot": "bag-1",
