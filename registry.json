@@ -1,5 +1,5 @@
 {
-  "generated": "20260819-222806",
+  "generated": "20260819-223006",
   "game_version": "1.22.7",
   "check_ts": "20260819-200104",
   "latest_engine": "1.22.7",
@@ -2379,12 +2379,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 229.2,
-        "blocksTravelled": 300646,
+        "playtimeHours": 229.3,
+        "blocksTravelled": 301463,
         "blocksBroken": 15413,
         "blocksPlaced": 1081,
         "deepestY": 1,
-        "lastSeen": 1787171240,
+        "lastSeen": 1787171390,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2800,11 +2800,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 530.6,
-        "blocksTravelled": 539495,
-        "blocksBroken": 32098,
-        "blocksPlaced": 11423,
+        "blocksTravelled": 539572,
+        "blocksBroken": 32103,
+        "blocksPlaced": 11426,
         "deepestY": 1,
-        "lastSeen": 1787171240,
+        "lastSeen": 1787171390,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3020,11 +3020,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 678.3,
-        "blocksTravelled": 461007,
-        "blocksBroken": 16857,
-        "blocksPlaced": 11167,
+        "blocksTravelled": 461172,
+        "blocksBroken": 16904,
+        "blocksPlaced": 11200,
         "deepestY": 12,
-        "lastSeen": 1787171240,
+        "lastSeen": 1787171390,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3277,11 +3277,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 27.4,
-        "blocksTravelled": 51023,
+        "blocksTravelled": 51051,
         "blocksBroken": 1907,
-        "blocksPlaced": 571,
+        "blocksPlaced": 572,
         "deepestY": 64,
-        "lastSeen": 1787171240,
+        "lastSeen": 1787171390,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
