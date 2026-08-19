@@ -1,5 +1,5 @@
 {
-  "generated": "20260819-212602",
+  "generated": "20260819-212802",
   "game_version": "1.22.7",
   "check_ts": "20260819-200104",
   "latest_engine": "1.22.7",
@@ -2699,9 +2699,9 @@
         "class": "homesteader",
         "deaths": 26,
         "mobKills": 869,
-        "mealsEaten": 1685,
-        "caloriesConsumed": 305321,
-        "lastMeal": "Earthy brown ceramic bowl of hot pasta",
+        "mealsEaten": 1687,
+        "caloriesConsumed": 305788,
+        "lastMeal": "Earthy brown ceramic bowl of meat stew",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
@@ -2774,18 +2774,18 @@
           "Termites": 15,
           "Saguaro fruit": 6,
           "Blue meanie": 2,
-          "Earthy brown ceramic bowl of meat stew": 77,
+          "Earthy brown ceramic bowl of meat stew": 78,
           "Earthy orange ceramic bowl of vegetable stew": 3,
           "Smoked Blood Sausage": 6,
           "Wooden bucket": 5,
           "Vintage redmeat sausage": 2,
           "Earthy orange ceramic bowl of hot pasta": 1,
-          "Earthy brown ceramic bowl of hot pasta": 1
+          "Earthy brown ceramic bowl of hot pasta": 2
         },
         "foodCatCounts": {
-          "Grain": 291,
-          "Protein": 338,
-          "Vegetable": 413,
+          "Grain": 293,
+          "Protein": 340,
+          "Vegetable": 414,
           "Fruit": 1081,
           "Dairy": 65
         },
@@ -2798,12 +2798,12 @@
           "wolf-eurasian-adult-male": 3,
           "shiver-surface": 1
         },
-        "playtimeHours": 529.5,
-        "blocksTravelled": 534320,
-        "blocksBroken": 32060,
-        "blocksPlaced": 11314,
+        "playtimeHours": 529.6,
+        "blocksTravelled": 534522,
+        "blocksBroken": 32064,
+        "blocksPlaced": 11317,
         "deepestY": 1,
-        "lastSeen": 1787167518,
+        "lastSeen": 1787167638,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2899,26 +2899,6 @@
             "slot": "armorbody",
             "code": "game:armor-body-hide-bear-black",
             "name": "Black bear hide body armor"
-          },
-          {
-            "slot": "bag-1",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-2",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-3",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-4",
-            "code": "butchering:butcherybag-standard",
-            "name": "Hide Butchering Bag"
           }
         ],
         "skin": {
@@ -3017,11 +2997,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 677.3,
-        "blocksTravelled": 457343,
+        "blocksTravelled": 457377,
         "blocksBroken": 16549,
         "blocksPlaced": 10934,
         "deepestY": 12,
-        "lastSeen": 1787167518,
+        "lastSeen": 1787167638,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3274,11 +3254,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 26.4,
-        "blocksTravelled": 49259,
+        "blocksTravelled": 49376,
         "blocksBroken": 1897,
         "blocksPlaced": 558,
         "deepestY": 64,
-        "lastSeen": 1787167518,
+        "lastSeen": 1787167638,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
