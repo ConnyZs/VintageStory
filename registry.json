@@ -1,5 +1,5 @@
 {
-  "generated": "20260819-202158",
+  "generated": "20260819-202358",
   "game_version": "1.22.7",
   "check_ts": "20260819-200104",
   "latest_engine": "1.22.7",
@@ -2336,8 +2336,8 @@
         "class": "tinker",
         "deaths": 7,
         "mobKills": 260,
-        "mealsEaten": 228,
-        "caloriesConsumed": 118226,
+        "mealsEaten": 229,
+        "caloriesConsumed": 118986,
         "lastMeal": "Vintage redmeat sausage",
         "mealsByName": {
           "Pear": 22,
@@ -2363,12 +2363,12 @@
           "King bolete": 2,
           "Earthy brown ceramic bowl of meat stew": 22,
           "Earthy orange ceramic bowl of jam": 10,
-          "Vintage redmeat sausage": 2
+          "Vintage redmeat sausage": 3
         },
         "foodCatCounts": {
           "Fruit": 120,
           "Grain": 79,
-          "Protein": 105,
+          "Protein": 106,
           "Vegetable": 89,
           "Dairy": 41
         },
@@ -2378,12 +2378,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 228.0,
-        "blocksTravelled": 295060,
-        "blocksBroken": 14908,
+        "playtimeHours": 228.1,
+        "blocksTravelled": 295166,
+        "blocksBroken": 14944,
         "blocksPlaced": 868,
         "deepestY": 1,
-        "lastSeen": 1787163674,
+        "lastSeen": 1787163836,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2698,9 +2698,9 @@
         "class": "homesteader",
         "deaths": 26,
         "mobKills": 833,
-        "mealsEaten": 1664,
-        "caloriesConsumed": 297046,
-        "lastMeal": "Earthy brown ceramic bowl of meat stew",
+        "mealsEaten": 1666,
+        "caloriesConsumed": 297246,
+        "lastMeal": "Turnip",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
@@ -2716,9 +2716,9 @@
           "Cooked dumplings": 7,
           "Almond mushroom": 1,
           "Redcurrant": 252,
-          "Carrot": 7,
+          "Carrot": 8,
           "Field mushroom": 1,
-          "Turnip": 16,
+          "Turnip": 17,
           "Puffball": 21,
           "Tinder hoof": 3,
           "Raspberry": 6,
@@ -2780,7 +2780,7 @@
         "foodCatCounts": {
           "Grain": 279,
           "Protein": 319,
-          "Vegetable": 401,
+          "Vegetable": 403,
           "Fruit": 1081,
           "Dairy": 65
         },
@@ -2794,11 +2794,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 528.5,
-        "blocksTravelled": 528845,
-        "blocksBroken": 32039,
-        "blocksPlaced": 11283,
+        "blocksTravelled": 529044,
+        "blocksBroken": 32041,
+        "blocksPlaced": 11285,
         "deepestY": 1,
-        "lastSeen": 1787163674,
+        "lastSeen": 1787163836,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3011,11 +3011,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 676.2,
-        "blocksTravelled": 455394,
+        "blocksTravelled": 455591,
         "blocksBroken": 16547,
         "blocksPlaced": 10919,
         "deepestY": 12,
-        "lastSeen": 1787163674,
+        "lastSeen": 1787163836,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3268,11 +3268,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 25.3,
-        "blocksTravelled": 47136,
+        "blocksTravelled": 47178,
         "blocksBroken": 1873,
-        "blocksPlaced": 543,
+        "blocksPlaced": 545,
         "deepestY": 64,
-        "lastSeen": 1787163674,
+        "lastSeen": 1787163836,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
@@ -3283,7 +3283,7 @@
           "Tailor belt",
           "Tailor needle puff",
           "Tailor jacket",
-          "Tailored gamboised helmet",
+          "Gamboised helmet",
           "Tailored gambeson body armor",
           "Tailored gamboised leg armor"
         ],
@@ -3344,8 +3344,8 @@
           },
           {
             "slot": "armorhead",
-            "code": "game:armor-head-tailored-plain-linen",
-            "name": "Tailored gamboised helmet"
+            "code": "game:armor-head-sewn-linen",
+            "name": "Gamboised helmet"
           },
           {
             "slot": "armorbody",
