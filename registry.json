@@ -1,5 +1,5 @@
 {
-  "generated": "20260819-220805",
+  "generated": "20260819-221005",
   "game_version": "1.22.7",
   "check_ts": "20260819-200104",
   "latest_engine": "1.22.7",
@@ -2380,11 +2380,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 228.9,
-        "blocksTravelled": 299074,
-        "blocksBroken": 15410,
-        "blocksPlaced": 1062,
+        "blocksTravelled": 299127,
+        "blocksBroken": 15413,
+        "blocksPlaced": 1081,
         "deepestY": 1,
-        "lastSeen": 1787170039,
+        "lastSeen": 1787170182,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2798,12 +2798,12 @@
           "wolf-eurasian-adult-male": 3,
           "shiver-surface": 1
         },
-        "playtimeHours": 530.2,
-        "blocksTravelled": 537692,
-        "blocksBroken": 32071,
-        "blocksPlaced": 11380,
+        "playtimeHours": 530.3,
+        "blocksTravelled": 537790,
+        "blocksBroken": 32075,
+        "blocksPlaced": 11382,
         "deepestY": 1,
-        "lastSeen": 1787170039,
+        "lastSeen": 1787170182,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3019,11 +3019,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 678.0,
-        "blocksTravelled": 459604,
-        "blocksBroken": 16826,
-        "blocksPlaced": 11076,
+        "blocksTravelled": 459865,
+        "blocksBroken": 16827,
+        "blocksPlaced": 11086,
         "deepestY": 12,
-        "lastSeen": 1787170039,
+        "lastSeen": 1787170182,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3276,11 +3276,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 27.1,
-        "blocksTravelled": 50694,
+        "blocksTravelled": 50739,
         "blocksBroken": 1907,
         "blocksPlaced": 570,
         "deepestY": 64,
-        "lastSeen": 1787170039,
+        "lastSeen": 1787170182,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
@@ -3293,7 +3293,8 @@
           "Tailor jacket",
           "Gamboised helmet",
           "Tailored gambeson body armor",
-          "Tailored gamboised leg armor"
+          "Tailored gamboised leg armor",
+          "Blackguard helm"
         ],
         "gearDetail": [
           {
@@ -3364,6 +3365,11 @@
             "slot": "armorlegs",
             "code": "game:armor-legs-tailored-plain-linen",
             "name": "Tailored gamboised leg armor"
+          },
+          {
+            "slot": "armorhead",
+            "code": "game:armor-head-antique-blackguard-pristine",
+            "name": "Blackguard helm"
           },
           {
             "slot": "bag-1",
