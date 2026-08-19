@@ -1,5 +1,5 @@
 {
-  "generated": "20260819-192154",
+  "generated": "20260819-192354",
   "game_version": "1.22.7",
   "check_ts": "20260818-200104",
   "latest_engine": "1.22.7",
@@ -2377,12 +2377,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 227.0,
-        "blocksTravelled": 289155,
+        "playtimeHours": 227.1,
+        "blocksTravelled": 289277,
         "blocksBroken": 14633,
         "blocksPlaced": 852,
         "deepestY": 1,
-        "lastSeen": 1787160071,
+        "lastSeen": 1787160211,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2942,8 +2942,8 @@
         "class": "mason",
         "deaths": 2,
         "mobKills": 384,
-        "mealsEaten": 552,
-        "caloriesConsumed": 159075,
+        "mealsEaten": 553,
+        "caloriesConsumed": 160399,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
           "Cranberry": 25,
@@ -2951,7 +2951,7 @@
           "Cranberry pie": 8,
           "Earthy orange ceramic bowl of soup": 7,
           "Wooden bucket": 1,
-          "Earthy orange ceramic bowl of meat stew": 92,
+          "Earthy orange ceramic bowl of meat stew": 93,
           "Chopped cabbage": 1,
           "Pear": 4,
           "Rye bread": 3,
@@ -3000,8 +3000,8 @@
         },
         "foodCatCounts": {
           "Fruit": 288,
-          "Grain": 197,
-          "Protein": 187,
+          "Grain": 198,
+          "Protein": 188,
           "Vegetable": 152,
           "Dairy": 65
         },
@@ -3010,11 +3010,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 675.2,
-        "blocksTravelled": 451647,
+        "blocksTravelled": 451932,
         "blocksBroken": 16302,
         "blocksPlaced": 10745,
         "deepestY": 12,
-        "lastSeen": 1787160071,
+        "lastSeen": 1787160211,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
