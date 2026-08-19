@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-19T16:26:02Z",
+  "generated": "20260819-183031",
   "game_version": "1.22.7",
   "check_ts": "20260818-200104",
   "latest_engine": "1.22.7",
@@ -8,10 +8,10 @@
   "modset": {
     "server_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset.zip",
     "full_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset-full.zip",
-    "server_count": 128,
-    "full_count": 133,
-    "server_size": 219106425,
-    "full_size": 220104481,
+    "server_count": 130,
+    "full_count": 135,
+    "server_size": 220497746,
+    "full_size": 221495976,
     "client_only": [
       "Extra Info",
       "Improved Handbook Recipes (Fork)",
@@ -19,11 +19,10 @@
       "Status HUD",
       "StepUp Advanced"
     ],
-    "generated": "20260818-204403"
+    "generated": "20260819-182959"
   },
   "admin_url": "http://127.0.0.1:3042",
   "categories": [
-    "Absolute Cinema",
     "Cosmetics",
     "Crafting",
     "Creatures",
@@ -1020,10 +1019,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "2.0.0-dev.12",
+      "version": "2.0.0-dev.13",
       "build_version": "2.0.0-dev.13",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -1036,10 +1035,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "2.0.0-dev.21",
+      "version": "2.0.0-dev.22",
       "build_version": "2.0.0-dev.22",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -1164,10 +1163,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.0.0-dev.5",
+      "version": "1.0.0-dev.6",
       "build_version": "1.0.0-dev.6",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -1180,10 +1179,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.0.0-dev.3",
+      "version": "1.0.0-dev.4",
       "build_version": "1.0.0-dev.4",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -1484,10 +1483,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "3.7.0",
+      "version": "3.8.0",
       "build_version": "3.8.0",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -2172,11 +2171,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "0.0.4",
       "build_version": "0.0.4",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Regalia",
@@ -2188,11 +2187,27 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "1.8.2",
       "build_version": "1.8.2",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
+    },
+    {
+      "name": "Improved Handbook Recipe Helper",
+      "modid": "improvedhandbookrecipesfork",
+      "section": "1.22",
+      "category": "Utility",
+      "on_server": true,
+      "link": "https://mods.vintagestory.at/show/mod/47215",
+      "server_state": "yes",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": "1227.0.1",
+      "build_version": "1227.0.1",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": false
     },
     {
       "name": "smithingplus",
@@ -2307,22 +2322,6 @@
       "proposed": false,
       "custom": true,
       "client_only": false
-    },
-    {
-      "name": "Improved Handbook Recipe Helper",
-      "modid": null,
-      "section": "1.22",
-      "category": "QOL",
-      "on_server": true,
-      "link": "https://mods.vintagestory.at/show/mod/47215",
-      "server_state": "yes",
-      "avail": "pending",
-      "note": "",
-      "version": null,
-      "build_version": null,
-      "build_branch": null,
-      "update_pending": false,
-      "proposed": true
     }
   ],
   "crew": [

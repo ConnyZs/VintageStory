@@ -1,7 +1,7 @@
 {
   "game_version": "1.22.7",
-  "generated": "20260818-204247",
-  "count": 128,
+  "generated": "20260819-182842",
+  "count": 130,
   "mods": [
     {
       "filename": "windmillsailfix.zip",
@@ -13,13 +13,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/windmillsailfix.zip"
     },
     {
-      "filename": "ACulinaryArtillery 2.0.0-dev.21.zip",
-      "sha256": "2bdd6c86632c24df7f1306ed367fce6a383b2c139a3e9acaf268a886fd0037be",
-      "size": 730458,
+      "filename": "ACulinaryArtillery 2.0.0-dev.22.zip",
+      "sha256": "68fa931f11f0d58d211d38933814e6d7178defd6b9402307d9c226ca425501b3",
+      "size": 986519,
       "modid": "aculinaryartillery",
-      "version": "2.0.0-dev.21",
+      "version": "2.0.0-dev.22",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/ACulinaryArtillery%202.0.0-dev.21.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/ACulinaryArtillery%202.0.0-dev.22.zip"
     },
     {
       "filename": "AttributeRenderingLibrary-v3.2.0.zip",
@@ -193,31 +193,31 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/Eotl-The-Shadow-Fantasy-v1.0.3.zip"
     },
     {
-      "filename": "ExpandedFoods 2.0.0-dev.12.zip",
-      "sha256": "868bb749ecb07f8224a1e9fe6203abd868316ee6bf1a619f38d6b5792def0592",
-      "size": 5316499,
+      "filename": "ExpandedFoods 2.0.0-dev.13.zip",
+      "sha256": "7e1e86a7c455a4f3c0c7eb43e8a845c54d6b443b47d53b50956fca0b04d0acdb",
+      "size": 5451311,
       "modid": "expandedfoods",
-      "version": "2.0.0-dev.12",
+      "version": "2.0.0-dev.13",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/ExpandedFoods%202.0.0-dev.12.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/ExpandedFoods%202.0.0-dev.13.zip"
     },
     {
-      "filename": "ExpandedFoods_ChefsTricks 1.0.0-dev.3.zip",
-      "sha256": "970d4bd5c40da39ebf3d432069e835834997477b46db01437c4ec1f98c65a118",
-      "size": 128308,
+      "filename": "ExpandedFoods_ChefsTricks 1.0.0-dev.4.zip",
+      "sha256": "4176353d73a28b3f5b12740beb37906bb662ed78b785e8d3093dc06d58a84ddc",
+      "size": 130606,
       "modid": "efchefstricks",
-      "version": "1.0.0-dev.3",
+      "version": "1.0.0-dev.4",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/ExpandedFoods_ChefsTricks%201.0.0-dev.3.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/ExpandedFoods_ChefsTricks%201.0.0-dev.4.zip"
     },
     {
-      "filename": "ExpandedFoods_MealsModule 1.0.0-dev.5.zip",
-      "sha256": "a55cf8014acb996eb8298e1255d006dbbc63a23cf71e4a8d7621f70a30d92789",
-      "size": 103939,
+      "filename": "ExpandedFoods_MealsModule 1.0.0-dev.6.zip",
+      "sha256": "f5126ee0ddac954df57450bc2be23ce799ac937ccefac1918a3ff943a14c4154",
+      "size": 106689,
       "modid": "efmealsmodule",
-      "version": "1.0.0-dev.5",
+      "version": "1.0.0-dev.6",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/ExpandedFoods_MealsModule%201.0.0-dev.5.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/ExpandedFoods_MealsModule%201.0.0-dev.6.zip"
     },
     {
       "filename": "Footprints-v1.2.5.zip",
@@ -805,13 +805,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/electricalprogressivecore_3.3.0.zip"
     },
     {
-      "filename": "expanded_matter-3.7.0.zip",
-      "sha256": "7e55005b646052a5845518a126f869a29ced422362470961d29c6075556e65bb",
-      "size": 314916,
+      "filename": "expanded_matter-3.8.0.zip",
+      "sha256": "a0d39fcc6a72b933ad10c2e50cf98ab1de096fbe75fd0c100b3a7c4984fcc0d1",
+      "size": 323975,
       "modid": "em",
-      "version": "3.7.0",
+      "version": "3.8.0",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/expanded_matter-3.7.0.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/expanded_matter-3.8.0.zip"
     },
     {
       "filename": "extendedcreation_1.2.5.zip",
@@ -985,6 +985,15 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/realsmoke_1.3.1.zip"
     },
     {
+      "filename": "regalia_v.1.8.2.zip",
+      "sha256": "840a79186557ff8032f15f7086350dfb5200ca61d6eb7de2c7f36d40aa9e0e14",
+      "size": 973779,
+      "modid": "regalia",
+      "version": "1.8.2",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/regalia_v.1.8.2.zip"
+    },
+    {
       "filename": "scaffolding_1.3.1.zip",
       "sha256": "8d019b14b611f40fe4b3e57babf47b4bb56a06d94a0c56ed454cb5b77685e37c",
       "size": 417785,
@@ -1073,6 +1082,15 @@
       "version": "1.6.6",
       "name": null,
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/translocatorengineeringredux_1.6.6.zip"
+    },
+    {
+      "filename": "translocatormarker_0.0.4.zip",
+      "sha256": "b0726f8d38051d88bf4bcda4805b6a0728027fa6ce78ed4e81e10bc5e88108ee",
+      "size": 12316,
+      "modid": "translocatormarker",
+      "version": "0.0.4",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/translocatormarker_0.0.4.zip"
     },
     {
       "filename": "tstoolsr_v3.1.2.zip",
@@ -1186,8 +1204,8 @@
     },
     {
       "filename": "improvedhandbookrecipesfork-1227.0.1.zip",
-      "sha256": "b39971226f404ee0f29c5d5efa4481973bc3e2e1fb230dcacc1aca66b73dd3c1",
-      "size": 196982,
+      "sha256": "b568976742bfd127f40594659fa7615c9bc290b4fea8aba86f04112b7eaa9be2",
+      "size": 197156,
       "modid": "improvedhandbookrecipesfork",
       "version": "1227.0.1",
       "name": null,
