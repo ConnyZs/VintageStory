@@ -1,6 +1,24 @@
 {
   "actions": [
     {
+      "ts": "2026-08-19T16:26:02Z",
+      "label": "Approved for server",
+      "link": "https://mods.vintagestory.at/translocatormarker",
+      "name": "Translocator Map Marker"
+    },
+    {
+      "ts": "2026-08-19T16:25:59Z",
+      "label": "Approved for server",
+      "link": "https://mods.vintagestory.at/regalia",
+      "name": "Regalia"
+    },
+    {
+      "ts": "2026-08-19T16:25:58Z",
+      "label": "Approved for server",
+      "link": "https://mods.vintagestory.at/show/mod/47215",
+      "name": "Improved Handbook Recipe Helper"
+    },
+    {
       "ts": "2026-08-19T15:35:38Z",
       "label": "Proposed",
       "link": "https://mods.vintagestory.at/show/mod/47215",
@@ -281,24 +299,6 @@
       "label": "Proposed",
       "link": "https://mods.vintagestory.at/playercorpseforkedazu",
       "name": "Player Corpse (Azu Modded)"
-    },
-    {
-      "ts": "2026-07-13T18:24:10Z",
-      "label": "Approved for server",
-      "link": "https://mods.vintagestory.at/firearmsfork",
-      "name": "Firearms fork"
-    },
-    {
-      "ts": "2026-07-13T18:24:09Z",
-      "label": "Proposed",
-      "link": "https://mods.vintagestory.at/firearmsfork",
-      "name": "Firearms fork"
-    },
-    {
-      "ts": "2026-07-13T18:24:09Z",
-      "label": "Approved for server",
-      "link": "https://mods.vintagestory.at/crossbowsfork",
-      "name": "Crossbows Fork"
     }
   ]
 }
