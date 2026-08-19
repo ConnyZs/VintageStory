@@ -1,5 +1,5 @@
 {
-  "generated": "20260819-204759",
+  "generated": "20260819-205000",
   "game_version": "1.22.7",
   "check_ts": "20260819-200104",
   "latest_engine": "1.22.7",
@@ -2698,7 +2698,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 26,
-        "mobKills": 837,
+        "mobKills": 842,
         "mealsEaten": 1676,
         "caloriesConsumed": 300798,
         "lastMeal": "Earthy brown ceramic bowl of meat stew",
@@ -2796,11 +2796,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 528.9,
-        "blocksTravelled": 531387,
+        "blocksTravelled": 531707,
         "blocksBroken": 32042,
         "blocksPlaced": 11304,
         "deepestY": 1,
-        "lastSeen": 1787165236,
+        "lastSeen": 1787165356,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -2937,7 +2937,7 @@
       "name": "Moritz",
       "role": "admin",
       "first_join": "04/22/2026 18:03",
-      "last_join": "08/19/2026 17:01",
+      "last_join": "08/19/2026 18:48",
       "last_char": "04/22/2026 18:05",
       "stats": {
         "uid": "bKc3JB7NGywTi9YbzXu/Qogt",
@@ -3012,12 +3012,12 @@
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 676.6,
+        "playtimeHours": 676.7,
         "blocksTravelled": 456504,
         "blocksBroken": 16549,
         "blocksPlaced": 10928,
         "deepestY": 12,
-        "lastSeen": 1787165193,
+        "lastSeen": 1787165387,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3269,12 +3269,12 @@
           "shiver-nightmare": 1,
           "bear-brown-adult-male": 1
         },
-        "playtimeHours": 25.7,
-        "blocksTravelled": 48302,
+        "playtimeHours": 25.8,
+        "blocksTravelled": 48383,
         "blocksBroken": 1883,
-        "blocksPlaced": 554,
+        "blocksPlaced": 555,
         "deepestY": 64,
-        "lastSeen": 1787165236,
+        "lastSeen": 1787165356,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
