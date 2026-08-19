@@ -1,5 +1,5 @@
 {
-  "generated": "20260819-220605",
+  "generated": "20260819-220805",
   "game_version": "1.22.7",
   "check_ts": "20260819-200104",
   "latest_engine": "1.22.7",
@@ -2380,11 +2380,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 228.9,
-        "blocksTravelled": 299031,
-        "blocksBroken": 15396,
-        "blocksPlaced": 1016,
+        "blocksTravelled": 299074,
+        "blocksBroken": 15410,
+        "blocksPlaced": 1062,
         "deepestY": 1,
-        "lastSeen": 1787169919,
+        "lastSeen": 1787170039,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2799,11 +2799,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 530.2,
-        "blocksTravelled": 537602,
+        "blocksTravelled": 537692,
         "blocksBroken": 32071,
         "blocksPlaced": 11380,
         "deepestY": 1,
-        "lastSeen": 1787169919,
+        "lastSeen": 1787170039,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3018,12 +3018,12 @@
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 677.9,
-        "blocksTravelled": 459471,
-        "blocksBroken": 16807,
-        "blocksPlaced": 11061,
+        "playtimeHours": 678.0,
+        "blocksTravelled": 459604,
+        "blocksBroken": 16826,
+        "blocksPlaced": 11076,
         "deepestY": 12,
-        "lastSeen": 1787169919,
+        "lastSeen": 1787170039,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3247,11 +3247,11 @@
         "class": "tailor",
         "deaths": 6,
         "mobKills": 25,
-        "mealsEaten": 81,
-        "caloriesConsumed": 44508,
+        "mealsEaten": 82,
+        "caloriesConsumed": 45802,
         "lastMeal": "Earthy orange ceramic bowl of meat stew",
         "mealsByName": {
-          "Earthy orange ceramic bowl of meat stew": 56,
+          "Earthy orange ceramic bowl of meat stew": 57,
           "Meat pie": 8,
           "Leather-bound Oak Tankard": 1,
           "Pear pie (charred)": 6,
@@ -3262,11 +3262,11 @@
           "Smoked Blood Sausage": 4
         },
         "foodCatCounts": {
-          "Protein": 69,
+          "Protein": 70,
           "Vegetable": 40,
-          "Grain": 34,
+          "Grain": 35,
           "Fruit": 8,
-          "Dairy": 26
+          "Dairy": 27
         },
         "deathCauses": {
           "bear-brown-adult-female": 2,
@@ -3275,12 +3275,12 @@
           "shiver-nightmare": 1,
           "bear-brown-adult-male": 1
         },
-        "playtimeHours": 27.0,
-        "blocksTravelled": 50691,
+        "playtimeHours": 27.1,
+        "blocksTravelled": 50694,
         "blocksBroken": 1907,
         "blocksPlaced": 570,
         "deepestY": 64,
-        "lastSeen": 1787169919,
+        "lastSeen": 1787170039,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
