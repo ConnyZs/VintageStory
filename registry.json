@@ -1,5 +1,5 @@
 {
-  "generated": "20260819-024733",
+  "generated": "20260819-151052",
   "game_version": "1.22.7",
   "check_ts": "20260818-200104",
   "latest_engine": "1.22.7",
@@ -23,6 +23,7 @@
   },
   "admin_url": "http://127.0.0.1:3042",
   "categories": [
+    "Absolute Cinema",
     "Cosmetics",
     "Crafting",
     "Creatures",
@@ -47,7 +48,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 139,
+  "count": 141,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1010,7 +1011,7 @@
       "proposed": false
     },
     {
-      "name": "Expanded Foods: Core 2.0.0-dev",
+      "name": "Expanded Foods: Core 2.0.0-dev.13",
       "modid": "expandedfoods",
       "section": "1.22",
       "category": "Utility",
@@ -1020,13 +1021,13 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "2.0.0-dev.12",
-      "build_version": "2.0.0-dev.12",
+      "build_version": "2.0.0-dev.13",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
-      "name": "A Culinary Artillery 2.0.0-dev",
+      "name": "A Culinary Artillery 2.0.0-dev.22",
       "modid": "aculinaryartillery",
       "section": "1.22",
       "category": "Technology",
@@ -1036,9 +1037,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "2.0.0-dev.21",
-      "build_version": "2.0.0-dev.21",
+      "build_version": "2.0.0-dev.22",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -1154,7 +1155,7 @@
       "proposed": false
     },
     {
-      "name": "Expanded Foods: Meals Module 1.0.0-dev.5",
+      "name": "Expanded Foods: Meals Module 1.0.0-dev.6",
       "modid": "efmealsmodule",
       "section": "1.22",
       "category": "Food",
@@ -1164,13 +1165,13 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.0.0-dev.5",
-      "build_version": "1.0.0-dev.5",
+      "build_version": "1.0.0-dev.6",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
-      "name": "Expanded Foods: Chef's Tricks 1.0.0-dev.3",
+      "name": "Expanded Foods: Chef's Tricks 1.0.0-dev.4",
       "modid": "efchefstricks",
       "section": "1.22",
       "category": "Food",
@@ -1180,9 +1181,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.0.0-dev.3",
-      "build_version": "1.0.0-dev.3",
+      "build_version": "1.0.0-dev.4",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -2178,6 +2179,38 @@
       "proposed": true
     },
     {
+      "name": "Regalia",
+      "modid": "regalia",
+      "section": "1.22",
+      "category": "Cosmetics",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/regalia",
+      "server_state": "no",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": null,
+      "build_version": "1.8.2",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": true
+    },
+    {
+      "name": "Milkable Players!",
+      "modid": "milkableplayers",
+      "section": "1.22",
+      "category": "Absolute Cinema",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/godisdead",
+      "server_state": "no",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": null,
+      "build_version": "1.0.0",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": true
+    },
+    {
       "name": "smithingplus",
       "modid": "smithingplus",
       "section": "1.22",
@@ -2903,7 +2936,7 @@
       "name": "Moritz",
       "role": "admin",
       "first_join": "04/22/2026 18:03",
-      "last_join": "08/18/2026 19:14",
+      "last_join": "08/19/2026 08:35",
       "last_char": "04/22/2026 18:05",
       "stats": {
         "uid": "bKc3JB7NGywTi9YbzXu/Qogt",
@@ -2978,12 +3011,12 @@
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 663.7,
-        "blocksTravelled": 449616,
-        "blocksBroken": 16164,
-        "blocksPlaced": 10525,
+        "playtimeHours": 674.9,
+        "blocksTravelled": 450638,
+        "blocksBroken": 16227,
+        "blocksPlaced": 10620,
         "deepestY": 12,
-        "lastSeen": 1787088990,
+        "lastSeen": 1787129316,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",

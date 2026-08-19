@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-18T17:52:16Z",
+  "updated": "2026-08-19T13:10:19Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1194,6 +1194,24 @@
     {
       "name": "",
       "link": "https://mods.vintagestory.at/translocatormarker",
+      "category": "Other",
+      "section": "1.22",
+      "server_state": "no",
+      "proposed": true,
+      "note": ""
+    },
+    {
+      "name": "",
+      "link": "https://mods.vintagestory.at/regalia",
+      "category": "Other",
+      "section": "1.22",
+      "server_state": "no",
+      "proposed": true,
+      "note": ""
+    },
+    {
+      "name": "",
+      "link": "https://mods.vintagestory.at/godisdead",
       "category": "Other",
       "section": "1.22",
       "server_state": "no",
