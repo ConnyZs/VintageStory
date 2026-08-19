@@ -1,6 +1,18 @@
 {
   "actions": [
     {
+      "ts": "2026-08-19T15:35:38Z",
+      "label": "Proposed",
+      "link": "https://mods.vintagestory.at/show/mod/47215",
+      "name": "Improved Handbook Recipe Helper"
+    },
+    {
+      "ts": "2026-08-19T15:34:51Z",
+      "label": "Rejected",
+      "link": "https://mods.vintagestory.at/godisdead",
+      "name": "Milkable Players!"
+    },
+    {
       "ts": "2026-08-18T15:32:59Z",
       "label": "Approved for server",
       "link": "https://mods.vintagestory.at/zipline",
@@ -287,18 +299,6 @@
       "label": "Approved for server",
       "link": "https://mods.vintagestory.at/crossbowsfork",
       "name": "Crossbows Fork"
-    },
-    {
-      "ts": "2026-07-13T18:24:08Z",
-      "label": "Proposed",
-      "link": "https://mods.vintagestory.at/crossbowsfork",
-      "name": "Crossbows Fork"
-    },
-    {
-      "ts": "2026-07-13T18:24:07Z",
-      "label": "Approved for server",
-      "link": "https://mods.vintagestory.at/combatreanimatedfork",
-      "name": "Combat Overhaul Reanimated Fork"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-19T13:10:19Z",
+  "updated": "2026-08-19T15:35:38Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1210,13 +1210,13 @@
       "note": ""
     },
     {
-      "name": "",
-      "link": "https://mods.vintagestory.at/godisdead",
-      "category": "Other",
+      "name": "Improved Handbook Recipe Helper",
+      "link": "https://mods.vintagestory.at/show/mod/47215",
+      "category": "QOL",
       "section": "1.22",
       "server_state": "no",
       "proposed": true,
-      "note": ""
+      "note": "added via dashboard"
     }
   ]
 }
