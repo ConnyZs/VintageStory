@@ -1,5 +1,5 @@
 {
-  "generated": "20260820-142750",
+  "generated": "20260820-142950",
   "game_version": "1.22.7",
   "check_ts": "20260820-002150",
   "latest_engine": "1.22.7",
@@ -2943,14 +2943,14 @@
       "name": "Moritz",
       "role": "admin",
       "first_join": "04/22/2026 18:03",
-      "last_join": "08/19/2026 18:48",
+      "last_join": "08/20/2026 12:25",
       "last_char": "04/22/2026 18:05",
       "stats": {
         "uid": "bKc3JB7NGywTi9YbzXu/Qogt",
         "name": "Moritz",
         "class": "mason",
         "deaths": 2,
-        "mobKills": 391,
+        "mobKills": 392,
         "mealsEaten": 579,
         "caloriesConsumed": 175555,
         "lastMeal": "Earthy brown ceramic bowl of cold pasta",
@@ -3025,11 +3025,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 694.3,
-        "blocksTravelled": 465706,
+        "blocksTravelled": 465740,
         "blocksBroken": 17177,
         "blocksPlaced": 11790,
         "deepestY": 12,
-        "lastSeen": 1787228765,
+        "lastSeen": 1787228870,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
