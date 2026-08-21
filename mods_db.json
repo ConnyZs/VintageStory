@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-19T16:28:08Z",
+  "updated": "2026-08-21T15:42:40Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1217,6 +1217,51 @@
       "server_state": "yes",
       "proposed": false,
       "note": "added via dashboard"
+    },
+    {
+      "name": "",
+      "link": "https://mods.vintagestory.at/densegroundstorage",
+      "category": "Other",
+      "section": "1.22",
+      "server_state": "no",
+      "proposed": true,
+      "note": ""
+    },
+    {
+      "name": "",
+      "link": "https://mods.vintagestory.at/chiseledwallmounting",
+      "category": "Other",
+      "section": "1.22",
+      "server_state": "no",
+      "proposed": true,
+      "note": ""
+    },
+    {
+      "name": "",
+      "link": "https://mods.vintagestory.at/chiseledgroundplacement",
+      "category": "Other",
+      "section": "1.22",
+      "server_state": "no",
+      "proposed": true,
+      "note": ""
+    },
+    {
+      "name": "",
+      "link": "https://mods.vintagestory.at/additivechiseling",
+      "category": "Other",
+      "section": "1.22",
+      "server_state": "no",
+      "proposed": true,
+      "note": ""
+    },
+    {
+      "name": "",
+      "link": "https://mods.vintagestory.at/vintagehorizons",
+      "category": "Other",
+      "section": "1.22",
+      "server_state": "no",
+      "proposed": true,
+      "note": ""
     }
   ]
 }
