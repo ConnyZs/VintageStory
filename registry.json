@@ -1,5 +1,5 @@
 {
-  "generated": "20260822-224914",
+  "generated": "20260822-225114",
   "game_version": "1.22.7",
   "check_ts": "20260822-200110",
   "latest_engine": "1.22.7",
@@ -2662,7 +2662,7 @@
         "blocksBroken": 15693,
         "blocksPlaced": 1216,
         "deepestY": 1,
-        "lastSeen": 1787431692,
+        "lastSeen": 1787431813,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -3080,11 +3080,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 575.2,
-        "blocksTravelled": 557957,
+        "blocksTravelled": 558054,
         "blocksBroken": 32904,
         "blocksPlaced": 11571,
         "deepestY": 1,
-        "lastSeen": 1787431692,
+        "lastSeen": 1787431813,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3304,11 +3304,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 724.1,
-        "blocksTravelled": 477501,
-        "blocksBroken": 18988,
+        "blocksTravelled": 477576,
+        "blocksBroken": 18989,
         "blocksPlaced": 12300,
         "deepestY": 12,
-        "lastSeen": 1787431692,
+        "lastSeen": 1787431813,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3565,11 +3565,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 30.8,
-        "blocksTravelled": 56189,
-        "blocksBroken": 1958,
-        "blocksPlaced": 618,
+        "blocksTravelled": 56204,
+        "blocksBroken": 1960,
+        "blocksPlaced": 619,
         "deepestY": 64,
-        "lastSeen": 1787431692,
+        "lastSeen": 1787431813,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
