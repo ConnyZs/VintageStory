@@ -1,5 +1,5 @@
 {
-  "generated": "20260822-202305",
+  "generated": "20260822-202737",
   "game_version": "1.22.7",
   "check_ts": "20260822-200110",
   "latest_engine": "1.22.7",
@@ -10,8 +10,8 @@
     "full_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset-full.zip",
     "server_count": 137,
     "full_count": 142,
-    "server_size": 221121337,
-    "full_size": 222093123,
+    "server_size": 221122023,
+    "full_size": 222093809,
     "client_only": [
       "Extra Info",
       "Natural Foliage",
@@ -19,7 +19,7 @@
       "Status HUD",
       "StepUp Advanced"
     ],
-    "generated": "20260822-194250"
+    "generated": "20260822-202701"
   },
   "admin_url": "http://127.0.0.1:3042",
   "categories": [
@@ -1337,8 +1337,8 @@
       "server_state": "no",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1227.0.1",
-      "build_version": "1227.0.1",
+      "version": "1227.0.2",
+      "build_version": "1227.0.2",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": false
@@ -2340,8 +2340,8 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1227.0.1",
-      "build_version": "1227.0.1",
+      "version": "1227.0.2",
+      "build_version": "1227.0.2",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": false
@@ -2531,8 +2531,8 @@
       "server_state": "yes",
       "avail": "available",
       "note": "",
-      "version": "1.1.12",
-      "build_version": "1.1.12",
+      "version": "1.1.13",
+      "build_version": "1.1.13",
       "build_branch": null,
       "update_pending": false,
       "proposed": false,
@@ -2602,7 +2602,7 @@
       "name": "Raschuetzer",
       "role": "admin",
       "first_join": "04/22/2026 17:47",
-      "last_join": "08/22/2026 18:14",
+      "last_join": "08/22/2026 18:21",
       "last_char": "04/29/2026 21:30",
       "stats": {
         "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
@@ -2655,12 +2655,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 231.4,
-        "blocksTravelled": 307655,
+        "playtimeHours": 231.5,
+        "blocksTravelled": 307758,
         "blocksBroken": 15556,
         "blocksPlaced": 1086,
         "deepestY": 1,
-        "lastSeen": 1787422943,
+        "lastSeen": 1787423189,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -3226,7 +3226,7 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 2,
-        "mobKills": 394,
+        "mobKills": 395,
         "mealsEaten": 591,
         "caloriesConsumed": 178113,
         "lastMeal": "Smoked Blood Sausage",
@@ -3301,12 +3301,12 @@
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 721.8,
-        "blocksTravelled": 468767,
-        "blocksBroken": 17860,
+        "playtimeHours": 721.9,
+        "blocksTravelled": 468859,
+        "blocksBroken": 18000,
         "blocksPlaced": 11832,
         "deepestY": 12,
-        "lastSeen": 1787422943,
+        "lastSeen": 1787423184,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",

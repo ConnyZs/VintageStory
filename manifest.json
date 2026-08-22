@@ -1,6 +1,6 @@
 {
   "game_version": "1.22.7",
-  "generated": "20260822-194126",
+  "generated": "20260822-202541",
   "count": 137,
   "mods": [
     {
@@ -931,13 +931,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/gourmand_1.8.12.zip"
     },
     {
-      "filename": "improvedhandbookrecipesfork-1227.0.1.zip",
-      "sha256": "b568976742bfd127f40594659fa7615c9bc290b4fea8aba86f04112b7eaa9be2",
-      "size": 197156,
+      "filename": "improvedhandbookrecipesfork-1227.0.2.zip",
+      "sha256": "331ac9f5913dbd5363513725024d838ae55605142e33556cc50fd93323673074",
+      "size": 197823,
       "modid": "improvedhandbookrecipesfork",
-      "version": "1227.0.1",
+      "version": "1227.0.2",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/improvedhandbookrecipesfork-1227.0.1.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/improvedhandbookrecipesfork-1227.0.2.zip"
     },
     {
       "filename": "jsonpatcheslib_1.5.9.zip",
@@ -958,13 +958,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/kevinsfurniture_1.9.0.zip"
     },
     {
-      "filename": "labeledtrunk-1.1.12.zip",
-      "sha256": "06439620461b1d2599f68b76e092943eea69e888f3d22d2276c092e8af46c0d9",
-      "size": 11661,
+      "filename": "labeledtrunk-1.1.13.zip",
+      "sha256": "afc698ae88068117b580eeb14da420728b22de89ad07f5e1204c98fccae2c4a0",
+      "size": 11680,
       "modid": "labeledtrunk",
-      "version": "1.1.12",
+      "version": "1.1.13",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/labeledtrunk-1.1.12.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/labeledtrunk-1.1.13.zip"
     },
     {
       "filename": "millwright_1.3.4.zip",
