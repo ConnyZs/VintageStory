@@ -1,5 +1,5 @@
 {
-  "generated": "20260823-005722",
+  "generated": "20260823-005916",
   "game_version": "1.22.7",
   "check_ts": "20260822-200110",
   "latest_engine": "1.22.7",
@@ -2494,9 +2494,9 @@
       "avail": "available",
       "note": "",
       "version": "1.8.8",
-      "build_version": "1.8.8",
+      "build_version": "1.8.9",
       "build_branch": null,
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false,
       "custom": true,
       "client_only": false
