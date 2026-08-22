@@ -1,5 +1,5 @@
 {
-  "generated": "20260823-001119",
+  "generated": "20260823-001319",
   "game_version": "1.22.7",
   "check_ts": "20260822-200110",
   "latest_engine": "1.22.7",
@@ -2610,8 +2610,8 @@
         "class": "tinker",
         "deaths": 7,
         "mobKills": 272,
-        "mealsEaten": 259,
-        "caloriesConsumed": 140856,
+        "mealsEaten": 260,
+        "caloriesConsumed": 141563,
         "lastMeal": "Earthy orange ceramic bowl of cold pasta",
         "mealsByName": {
           "Pear": 22,
@@ -2642,14 +2642,14 @@
           "Earthy brown ceramic bowl of cold pasta": 3,
           "Earthy brown ceramic bowl of soup": 4,
           "Earthy orange ceramic bowl of soup": 2,
-          "Earthy orange ceramic bowl of cold pasta": 5,
+          "Earthy orange ceramic bowl of cold pasta": 6,
           "Earthy orange ceramic bowl of hot pasta": 1
         },
         "foodCatCounts": {
           "Fruit": 120,
-          "Grain": 94,
-          "Protein": 134,
-          "Vegetable": 103,
+          "Grain": 95,
+          "Protein": 135,
+          "Vegetable": 104,
           "Dairy": 41
         },
         "deathCauses": {
@@ -2659,11 +2659,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 234.5,
-        "blocksTravelled": 321904,
+        "blocksTravelled": 321958,
         "blocksBroken": 15976,
         "blocksPlaced": 1216,
         "deepestY": 1,
-        "lastSeen": 1787436633,
+        "lastSeen": 1787436738,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2977,7 +2977,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 26,
-        "mobKills": 930,
+        "mobKills": 932,
         "mealsEaten": 1797,
         "caloriesConsumed": 347201,
         "lastMeal": "Carrot",
@@ -3081,11 +3081,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 576.6,
-        "blocksTravelled": 565527,
-        "blocksBroken": 33384,
-        "blocksPlaced": 11615,
+        "blocksTravelled": 565613,
+        "blocksBroken": 33511,
+        "blocksPlaced": 11628,
         "deepestY": 1,
-        "lastSeen": 1787436633,
+        "lastSeen": 1787436738,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3567,11 +3567,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 32.2,
-        "blocksTravelled": 59830,
+        "blocksTravelled": 59872,
         "blocksBroken": 2110,
         "blocksPlaced": 717,
         "deepestY": 64,
-        "lastSeen": 1787436633,
+        "lastSeen": 1787436738,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
