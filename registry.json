@@ -1,5 +1,5 @@
 {
-  "generated": "20260823-000519",
+  "generated": "20260823-000719",
   "game_version": "1.22.7",
   "check_ts": "20260822-200110",
   "latest_engine": "1.22.7",
@@ -2659,11 +2659,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 234.4,
-        "blocksTravelled": 320345,
+        "blocksTravelled": 320833,
         "blocksBroken": 15976,
         "blocksPlaced": 1216,
         "deepestY": 1,
-        "lastSeen": 1787436257,
+        "lastSeen": 1787436378,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2977,9 +2977,9 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 26,
-        "mobKills": 929,
-        "mealsEaten": 1794,
-        "caloriesConsumed": 346901,
+        "mobKills": 930,
+        "mealsEaten": 1797,
+        "caloriesConsumed": 347201,
         "lastMeal": "Carrot",
         "mealsByName": {
           "Meat pie": 45,
@@ -2996,7 +2996,7 @@
           "Cooked dumplings": 7,
           "Almond mushroom": 1,
           "Redcurrant": 252,
-          "Carrot": 23,
+          "Carrot": 26,
           "Field mushroom": 1,
           "Turnip": 17,
           "Puffball": 21,
@@ -3067,7 +3067,7 @@
         "foodCatCounts": {
           "Grain": 360,
           "Protein": 419,
-          "Vegetable": 504,
+          "Vegetable": 507,
           "Fruit": 1081,
           "Dairy": 65
         },
@@ -3081,11 +3081,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 576.5,
-        "blocksTravelled": 565158,
-        "blocksBroken": 33116,
-        "blocksPlaced": 11612,
+        "blocksTravelled": 565381,
+        "blocksBroken": 33170,
+        "blocksPlaced": 11614,
         "deepestY": 1,
-        "lastSeen": 1787436257,
+        "lastSeen": 1787436378,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3199,8 +3199,8 @@
           },
           {
             "slot": "bag-4",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "code": "butchering:butcherybag-standard",
+            "name": "Hide Butchering Bag"
           }
         ],
         "skin": {
@@ -3304,12 +3304,12 @@
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 725.3,
-        "blocksTravelled": 480952,
-        "blocksBroken": 19047,
-        "blocksPlaced": 12382,
+        "playtimeHours": 725.4,
+        "blocksTravelled": 481021,
+        "blocksBroken": 19053,
+        "blocksPlaced": 12388,
         "deepestY": 12,
-        "lastSeen": 1787436257,
+        "lastSeen": 1787436378,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3567,11 +3567,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 32.1,
-        "blocksTravelled": 59496,
+        "blocksTravelled": 59755,
         "blocksBroken": 2110,
-        "blocksPlaced": 714,
+        "blocksPlaced": 717,
         "deepestY": 64,
-        "lastSeen": 1787436257,
+        "lastSeen": 1787436378,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
