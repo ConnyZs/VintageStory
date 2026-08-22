@@ -1,5 +1,5 @@
 {
-  "generated": "20260822-205307",
+  "generated": "20260822-205507",
   "game_version": "1.22.7",
   "check_ts": "20260822-200110",
   "latest_engine": "1.22.7",
@@ -2610,8 +2610,8 @@
         "class": "tinker",
         "deaths": 7,
         "mobKills": 267,
-        "mealsEaten": 250,
-        "caloriesConsumed": 132430,
+        "mealsEaten": 251,
+        "caloriesConsumed": 132948,
         "lastMeal": "Earthy brown ceramic bowl of soup",
         "mealsByName": {
           "Pear": 22,
@@ -2640,13 +2640,13 @@
           "Vintage redmeat sausage": 16,
           "Small potion flask": 2,
           "Earthy brown ceramic bowl of cold pasta": 3,
-          "Earthy brown ceramic bowl of soup": 3
+          "Earthy brown ceramic bowl of soup": 4
         },
         "foodCatCounts": {
           "Fruit": 120,
-          "Grain": 85,
-          "Protein": 125,
-          "Vegetable": 95,
+          "Grain": 86,
+          "Protein": 126,
+          "Vegetable": 96,
           "Dairy": 41
         },
         "deathCauses": {
@@ -2655,12 +2655,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 231.8,
-        "blocksTravelled": 309405,
+        "playtimeHours": 231.9,
+        "blocksTravelled": 309550,
         "blocksBroken": 15579,
         "blocksPlaced": 1104,
         "deepestY": 1,
-        "lastSeen": 1787424727,
+        "lastSeen": 1787424853,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -3078,11 +3078,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 573.3,
-        "blocksTravelled": 548759,
-        "blocksBroken": 32422,
-        "blocksPlaced": 11492,
+        "blocksTravelled": 548895,
+        "blocksBroken": 32423,
+        "blocksPlaced": 11493,
         "deepestY": 1,
-        "lastSeen": 1787424727,
+        "lastSeen": 1787424853,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3301,12 +3301,12 @@
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 722.1,
-        "blocksTravelled": 469229,
-        "blocksBroken": 18327,
+        "playtimeHours": 722.2,
+        "blocksTravelled": 469232,
+        "blocksBroken": 18337,
         "blocksPlaced": 11833,
         "deepestY": 12,
-        "lastSeen": 1787424727,
+        "lastSeen": 1787424853,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3563,11 +3563,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 28.9,
-        "blocksTravelled": 54170,
+        "blocksTravelled": 54229,
         "blocksBroken": 1948,
         "blocksPlaced": 606,
         "deepestY": 64,
-        "lastSeen": 1787424727,
+        "lastSeen": 1787424853,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
