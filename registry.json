@@ -1,9 +1,9 @@
 {
-  "generated": "20260822-201506",
+  "generated": "20260822-201706",
   "game_version": "1.22.7",
   "check_ts": "20260822-200110",
   "latest_engine": "1.22.7",
-  "restart_needed": "20260822-194352",
+  "restart_needed": null,
   "last_deploy_ts": "20260822-194352",
   "modset": {
     "server_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset.zip",
@@ -2610,9 +2610,9 @@
         "class": "tinker",
         "deaths": 7,
         "mobKills": 267,
-        "mealsEaten": 246,
-        "caloriesConsumed": 130302,
-        "lastMeal": "Earthy brown ceramic bowl of cold pasta",
+        "mealsEaten": 248,
+        "caloriesConsumed": 131729,
+        "lastMeal": "Earthy brown ceramic bowl of soup",
         "mealsByName": {
           "Pear": 22,
           "Meat pie": 10,
@@ -2639,13 +2639,14 @@
           "Earthy orange ceramic bowl of jam": 10,
           "Vintage redmeat sausage": 16,
           "Small potion flask": 1,
-          "Earthy brown ceramic bowl of cold pasta": 3
+          "Earthy brown ceramic bowl of cold pasta": 3,
+          "Earthy brown ceramic bowl of soup": 2
         },
         "foodCatCounts": {
           "Fruit": 120,
-          "Grain": 82,
-          "Protein": 122,
-          "Vegetable": 92,
+          "Grain": 84,
+          "Protein": 124,
+          "Vegetable": 94,
           "Dairy": 41
         },
         "deathCauses": {
@@ -2655,11 +2656,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 231.3,
-        "blocksTravelled": 307459,
+        "blocksTravelled": 307514,
         "blocksBroken": 15556,
         "blocksPlaced": 1086,
         "deepestY": 1,
-        "lastSeen": 1787422392,
+        "lastSeen": 1787422583,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -3081,7 +3082,7 @@
         "blocksBroken": 32403,
         "blocksPlaced": 11474,
         "deepestY": 1,
-        "lastSeen": 1787422315,
+        "lastSeen": 1787422606,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3305,7 +3306,7 @@
         "blocksBroken": 17806,
         "blocksPlaced": 11832,
         "deepestY": 12,
-        "lastSeen": 1787422392,
+        "lastSeen": 1787422546,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
