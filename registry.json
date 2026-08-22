@@ -1,5 +1,5 @@
 {
-  "generated": "20260823-003120",
+  "generated": "20260823-003321",
   "game_version": "1.22.7",
   "check_ts": "20260822-200110",
   "latest_engine": "1.22.7",
@@ -2658,12 +2658,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 234.8,
+        "playtimeHours": 234.9,
         "blocksTravelled": 322498,
         "blocksBroken": 15976,
         "blocksPlaced": 1216,
         "deepestY": 1,
-        "lastSeen": 1787437839,
+        "lastSeen": 1787437939,
         "gear": [
           "Messenger hat",
           "Forgotten noble shirt",
@@ -2964,9 +2964,9 @@
         "class": "homesteader",
         "deaths": 26,
         "mobKills": 932,
-        "mealsEaten": 1813,
-        "caloriesConsumed": 348801,
-        "lastMeal": "Carrot",
+        "mealsEaten": 1816,
+        "caloriesConsumed": 350148,
+        "lastMeal": "Earthy brown ceramic bowl of cold pasta",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
@@ -3045,15 +3045,15 @@
           "Wooden bucket": 5,
           "Vintage redmeat sausage": 2,
           "Earthy orange ceramic bowl of hot pasta": 6,
-          "Earthy brown ceramic bowl of hot pasta": 10,
+          "Earthy brown ceramic bowl of hot pasta": 11,
           "Earthy brown ceramic bowl of soup": 13,
-          "Earthy brown ceramic bowl of cold pasta": 4,
-          "Earthy orange ceramic bowl of cold pasta": 13
+          "Earthy brown ceramic bowl of cold pasta": 5,
+          "Earthy orange ceramic bowl of cold pasta": 14
         },
         "foodCatCounts": {
-          "Grain": 360,
-          "Protein": 419,
-          "Vegetable": 523,
+          "Grain": 363,
+          "Protein": 422,
+          "Vegetable": 525,
           "Fruit": 1081,
           "Dairy": 65
         },
@@ -3067,11 +3067,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 576.9,
-        "blocksTravelled": 566786,
+        "blocksTravelled": 566950,
         "blocksBroken": 33814,
         "blocksPlaced": 11631,
         "deepestY": 1,
-        "lastSeen": 1787437839,
+        "lastSeen": 1787437939,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3553,11 +3553,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 32.5,
-        "blocksTravelled": 60486,
-        "blocksBroken": 2117,
-        "blocksPlaced": 718,
+        "blocksTravelled": 60491,
+        "blocksBroken": 2118,
+        "blocksPlaced": 720,
         "deepestY": 64,
-        "lastSeen": 1787437839,
+        "lastSeen": 1787437939,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
