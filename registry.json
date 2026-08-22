@@ -1,5 +1,5 @@
 {
-  "generated": "20260822-193903",
+  "generated": "20260822-194326",
   "game_version": "1.22.7",
   "check_ts": "20260822-171124",
   "latest_engine": "1.22.7",
@@ -10,8 +10,8 @@
     "full_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset-full.zip",
     "server_count": 137,
     "full_count": 142,
-    "server_size": 221121334,
-    "full_size": 222093120,
+    "server_size": 221121337,
+    "full_size": 222093123,
     "client_only": [
       "Extra Info",
       "Natural Foliage",
@@ -19,7 +19,7 @@
       "Status HUD",
       "StepUp Advanced"
     ],
-    "generated": "20260822-181432"
+    "generated": "20260822-194250"
   },
   "admin_url": "http://127.0.0.1:3042",
   "categories": [
@@ -2531,8 +2531,8 @@
       "server_state": "yes",
       "avail": "available",
       "note": "",
-      "version": "1.1.11",
-      "build_version": "1.1.11",
+      "version": "1.1.12",
+      "build_version": "1.1.12",
       "build_branch": null,
       "update_pending": false,
       "proposed": false,
@@ -2654,12 +2654,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 230.7,
-        "blocksTravelled": 306308,
+        "playtimeHours": 230.8,
+        "blocksTravelled": 306627,
         "blocksBroken": 15555,
         "blocksPlaced": 1081,
         "deepestY": 1,
-        "lastSeen": 1787420254,
+        "lastSeen": 1787420516,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2974,8 +2974,8 @@
         "class": "homesteader",
         "deaths": 26,
         "mobKills": 892,
-        "mealsEaten": 1722,
-        "caloriesConsumed": 320188,
+        "mealsEaten": 1723,
+        "caloriesConsumed": 321147,
         "lastMeal": "Earthy orange ceramic bowl of cold pasta",
         "mealsByName": {
           "Meat pie": 45,
@@ -3058,12 +3058,12 @@
           "Earthy brown ceramic bowl of hot pasta": 6,
           "Earthy brown ceramic bowl of soup": 9,
           "Earthy brown ceramic bowl of cold pasta": 4,
-          "Earthy orange ceramic bowl of cold pasta": 3
+          "Earthy orange ceramic bowl of cold pasta": 4
         },
         "foodCatCounts": {
-          "Grain": 315,
-          "Protein": 365,
-          "Vegetable": 441,
+          "Grain": 316,
+          "Protein": 366,
+          "Vegetable": 442,
           "Fruit": 1081,
           "Dairy": 65
         },
@@ -3077,11 +3077,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 572.4,
-        "blocksTravelled": 545004,
-        "blocksBroken": 32348,
+        "blocksTravelled": 545232,
+        "blocksBroken": 32350,
         "blocksPlaced": 11472,
         "deepestY": 1,
-        "lastSeen": 1787420254,
+        "lastSeen": 1787420516,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3190,13 +3190,13 @@
           },
           {
             "slot": "bag-3",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "code": "butchering:butcherybag-standard",
+            "name": "Hide Butchering Bag"
           },
           {
             "slot": "bag-4",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "code": "butchering:butcherybag-standard",
+            "name": "Hide Butchering Bag"
           }
         ],
         "skin": {
@@ -3226,14 +3226,14 @@
         "class": "mason",
         "deaths": 2,
         "mobKills": 392,
-        "mealsEaten": 579,
-        "caloriesConsumed": 175555,
-        "lastMeal": "Earthy brown ceramic bowl of cold pasta",
+        "mealsEaten": 583,
+        "caloriesConsumed": 176639,
+        "lastMeal": "Earthy orange ceramic bowl of soup",
         "mealsByName": {
           "Cranberry": 25,
           "Meat pie": 20,
           "Cranberry pie": 8,
-          "Earthy orange ceramic bowl of soup": 10,
+          "Earthy orange ceramic bowl of soup": 12,
           "Wooden bucket": 1,
           "Earthy orange ceramic bowl of meat stew": 95,
           "Chopped cabbage": 1,
@@ -3286,25 +3286,26 @@
           "Earthy brown ceramic bowl of hot pasta": 4,
           "Earthy brown ceramic bowl of soup": 3,
           "Earthy brown ceramic bowl of cold pasta": 3,
-          "Small potion flask": 1
+          "Small potion flask": 2,
+          "Earthy orange ceramic bowl of cold pasta": 1
         },
         "foodCatCounts": {
           "Fruit": 288,
-          "Grain": 220,
-          "Protein": 213,
-          "Vegetable": 169,
+          "Grain": 223,
+          "Protein": 216,
+          "Vegetable": 172,
           "Dairy": 65
         },
         "deathCauses": {
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 721.1,
-        "blocksTravelled": 465970,
-        "blocksBroken": 17279,
-        "blocksPlaced": 11814,
+        "playtimeHours": 721.2,
+        "blocksTravelled": 466215,
+        "blocksBroken": 17299,
+        "blocksPlaced": 11830,
         "deepestY": 12,
-        "lastSeen": 1787420254,
+        "lastSeen": 1787420516,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",

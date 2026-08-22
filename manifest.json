@@ -1,6 +1,6 @@
 {
   "game_version": "1.22.7",
-  "generated": "20260822-181316",
+  "generated": "20260822-194126",
   "count": 137,
   "mods": [
     {
@@ -958,13 +958,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/kevinsfurniture_1.9.0.zip"
     },
     {
-      "filename": "labeledtrunk-1.1.11.zip",
-      "sha256": "bdedc0b35a65d4402ad03aa9004497e44bd00f023f7c1d612a5cedcd9a882ecb",
-      "size": 11658,
+      "filename": "labeledtrunk-1.1.12.zip",
+      "sha256": "06439620461b1d2599f68b76e092943eea69e888f3d22d2276c092e8af46c0d9",
+      "size": 11661,
       "modid": "labeledtrunk",
-      "version": "1.1.11",
+      "version": "1.1.12",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/labeledtrunk-1.1.11.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/labeledtrunk-1.1.12.zip"
     },
     {
       "filename": "millwright_1.3.4.zip",
