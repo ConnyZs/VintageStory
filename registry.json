@@ -1,5 +1,5 @@
 {
-  "generated": "20260822-171653",
+  "generated": "2026-08-22T15:21:03Z",
   "game_version": "1.22.7",
   "check_ts": "20260822-171124",
   "latest_engine": "1.22.7",
@@ -2270,22 +2270,6 @@
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "0.5.1",
-      "build_branch": "1.22",
-      "update_pending": false,
-      "proposed": true
-    },
-    {
-      "name": "Vintage Horizons",
-      "modid": "vintagehorizons",
-      "section": "1.22",
-      "category": "Absolute Cinema",
-      "on_server": false,
-      "link": "https://mods.vintagestory.at/vintagehorizons",
-      "server_state": "no",
-      "avail": "available",
-      "note": "available for 1.22 (installs on update)",
-      "version": null,
-      "build_version": "0.2.1",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": true

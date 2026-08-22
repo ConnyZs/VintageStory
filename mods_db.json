@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-22T15:14:34Z",
+  "updated": "2026-08-22T15:21:03Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1248,15 +1248,6 @@
     {
       "name": "",
       "link": "https://mods.vintagestory.at/additivechiseling",
-      "category": "Other",
-      "section": "1.22",
-      "server_state": "no",
-      "proposed": true,
-      "note": ""
-    },
-    {
-      "name": "",
-      "link": "https://mods.vintagestory.at/vintagehorizons",
       "category": "Other",
       "section": "1.22",
       "server_state": "no",
