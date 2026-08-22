@@ -1,5 +1,5 @@
 {
-  "generated": "20260823-004721",
+  "generated": "20260823-004921",
   "game_version": "1.22.7",
   "check_ts": "20260822-200110",
   "latest_engine": "1.22.7",
@@ -2610,9 +2610,9 @@
         "class": "tinker",
         "deaths": 7,
         "mobKills": 273,
-        "mealsEaten": 260,
-        "caloriesConsumed": 141563,
-        "lastMeal": "Earthy orange ceramic bowl of cold pasta",
+        "mealsEaten": 261,
+        "caloriesConsumed": 142783,
+        "lastMeal": "Earthy brown ceramic bowl of cold pasta",
         "mealsByName": {
           "Pear": 22,
           "Meat pie": 10,
@@ -2639,7 +2639,7 @@
           "Earthy orange ceramic bowl of jam": 10,
           "Vintage redmeat sausage": 16,
           "Small potion flask": 2,
-          "Earthy brown ceramic bowl of cold pasta": 3,
+          "Earthy brown ceramic bowl of cold pasta": 4,
           "Earthy brown ceramic bowl of soup": 4,
           "Earthy orange ceramic bowl of soup": 2,
           "Earthy orange ceramic bowl of cold pasta": 6,
@@ -2647,9 +2647,9 @@
         },
         "foodCatCounts": {
           "Fruit": 120,
-          "Grain": 95,
-          "Protein": 135,
-          "Vegetable": 104,
+          "Grain": 96,
+          "Protein": 136,
+          "Vegetable": 105,
           "Dairy": 41
         },
         "deathCauses": {
@@ -2659,11 +2659,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 235.1,
-        "blocksTravelled": 323246,
+        "blocksTravelled": 323254,
         "blocksBroken": 15982,
         "blocksPlaced": 1221,
         "deepestY": 1,
-        "lastSeen": 1787438779,
+        "lastSeen": 1787438899,
         "gear": [
           "Messenger hat",
           "Forgotten noble shirt",
@@ -2964,8 +2964,8 @@
         "class": "homesteader",
         "deaths": 26,
         "mobKills": 932,
-        "mealsEaten": 1816,
-        "caloriesConsumed": 350148,
+        "mealsEaten": 1818,
+        "caloriesConsumed": 351519,
         "lastMeal": "Earthy brown ceramic bowl of cold pasta",
         "mealsByName": {
           "Meat pie": 45,
@@ -3047,13 +3047,13 @@
           "Earthy orange ceramic bowl of hot pasta": 6,
           "Earthy brown ceramic bowl of hot pasta": 11,
           "Earthy brown ceramic bowl of soup": 13,
-          "Earthy brown ceramic bowl of cold pasta": 5,
+          "Earthy brown ceramic bowl of cold pasta": 7,
           "Earthy orange ceramic bowl of cold pasta": 14
         },
         "foodCatCounts": {
-          "Grain": 363,
-          "Protein": 422,
-          "Vegetable": 525,
+          "Grain": 365,
+          "Protein": 424,
+          "Vegetable": 527,
           "Fruit": 1081,
           "Dairy": 65
         },
@@ -3067,11 +3067,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 577.2,
-        "blocksTravelled": 567517,
+        "blocksTravelled": 567674,
         "blocksBroken": 33824,
         "blocksPlaced": 11642,
         "deepestY": 1,
-        "lastSeen": 1787438779,
+        "lastSeen": 1787438899,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3519,9 +3519,9 @@
         "class": "tailor",
         "deaths": 6,
         "mobKills": 25,
-        "mealsEaten": 108,
-        "caloriesConsumed": 62846,
-        "lastMeal": "Earthy orange ceramic bowl of cold pasta",
+        "mealsEaten": 109,
+        "caloriesConsumed": 64341,
+        "lastMeal": "Earthy brown ceramic bowl of cold pasta",
         "mealsByName": {
           "Earthy orange ceramic bowl of meat stew": 58,
           "Meat pie": 8,
@@ -3532,16 +3532,16 @@
           "Turnip": 2,
           "Earthy brown ceramic bowl of meat stew": 1,
           "Smoked Blood Sausage": 4,
-          "Earthy brown ceramic bowl of cold pasta": 4,
+          "Earthy brown ceramic bowl of cold pasta": 5,
           "Earthy orange ceramic bowl of cold pasta": 4,
           "Earthy orange ceramic bowl of soup": 5,
           "Earthy brown ceramic bowl of soup": 11,
           "Earthy brown ceramic bowl of hot pasta": 1
         },
         "foodCatCounts": {
-          "Protein": 96,
-          "Vegetable": 64,
-          "Grain": 61,
+          "Protein": 97,
+          "Vegetable": 65,
+          "Grain": 62,
           "Fruit": 8,
           "Dairy": 28
         },
@@ -3553,11 +3553,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 32.8,
-        "blocksTravelled": 60787,
+        "blocksTravelled": 61091,
         "blocksBroken": 2125,
         "blocksPlaced": 725,
         "deepestY": 64,
-        "lastSeen": 1787438779,
+        "lastSeen": 1787438899,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
@@ -3568,11 +3568,13 @@
           "Tailor belt",
           "Tailor needle puff",
           "Tailor jacket",
-          "Tailored gamboised helmet",
+          "Gamboised helmet",
           "Tailored gambeson body armor",
           "Tailored gamboised leg armor",
           "Chain head armor (Iron)",
-          "Chain leg armor (Iron)"
+          "Chain leg armor (Iron)",
+          "Plate helmet (Iron)",
+          "Plate body armor (Iron)"
         ],
         "gearDetail": [
           {
@@ -3631,8 +3633,8 @@
           },
           {
             "slot": "armorhead",
-            "code": "game:armor-head-tailored-plain-linen",
-            "name": "Tailored gamboised helmet"
+            "code": "game:armor-head-sewn-linen",
+            "name": "Gamboised helmet"
           },
           {
             "slot": "armorbody",
@@ -3653,6 +3655,16 @@
             "slot": "armorlegs",
             "code": "game:armor-legs-chain-iron",
             "name": "Chain leg armor (Iron)"
+          },
+          {
+            "slot": "armorhead",
+            "code": "game:armor-head-plate-iron",
+            "name": "Plate helmet (Iron)"
+          },
+          {
+            "slot": "armorbody",
+            "code": "game:armor-body-plate-iron",
+            "name": "Plate body armor (Iron)"
           },
           {
             "slot": "bag-1",
