@@ -1,7 +1,7 @@
 {
   "game_version": "1.22.7",
-  "generated": "20260819-190329",
-  "count": 131,
+  "generated": "20260822-181316",
+  "count": 137,
   "mods": [
     {
       "filename": "windmillsailfix.zip",
@@ -193,13 +193,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/Eotl-The-Shadow-Fantasy-v1.0.3.zip"
     },
     {
-      "filename": "ExpandedFoods 2.0.0-dev.13.zip",
-      "sha256": "7e1e86a7c455a4f3c0c7eb43e8a845c54d6b443b47d53b50956fca0b04d0acdb",
-      "size": 5451311,
+      "filename": "ExpandedFoods 2.0.0-dev.14.zip",
+      "sha256": "65dc47bba51dd1351bf4fc02bd2b68feafc6852d5f4db218085e91232dd791e1",
+      "size": 5453034,
       "modid": "expandedfoods",
-      "version": "2.0.0-dev.13",
+      "version": "2.0.0-dev.14",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/ExpandedFoods%202.0.0-dev.13.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/ExpandedFoods%202.0.0-dev.14.zip"
     },
     {
       "filename": "ExpandedFoods_ChefsTricks 1.0.0-dev.4.zip",
@@ -355,6 +355,15 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/ProspectTogether-2.2.1.zip"
     },
     {
+      "filename": "RealSmokeQPPatch1.0.1.zip",
+      "sha256": "d20413295adbd85b913ae41e78b67dcdb88ef3b0a07248efe72b21c689ce2ca8",
+      "size": 1621,
+      "modid": "realsmokeqppatch",
+      "version": "1.0.1",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/RealSmokeQPPatch1.0.1.zip"
+    },
+    {
       "filename": "ResonatorOverhaul1.2.9.zip",
       "sha256": "046897cc5d53244ebd51c0e4faddc436b362a34d01518f8bc89e6749be362b35",
       "size": 18178,
@@ -391,13 +400,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/SewingCommoner.zip"
     },
     {
-      "filename": "SmithingPlus_1.8.7_1.22.zip",
-      "sha256": "98c34883d7b3ae87809d68e45ed0234eae0577c7df9063ecce6368d556224cf8",
-      "size": 202712,
+      "filename": "SmithingPlus_1.8.8_1.22.zip",
+      "sha256": "277a066934de26c905e58963e98884136002d4eb7c1b8a771b9dc9e36df3857f",
+      "size": 202650,
       "modid": "smithingplus",
-      "version": "1.8.7",
+      "version": "1.8.8",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/SmithingPlus_1.8.7_1.22.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/SmithingPlus_1.8.8_1.22.zip"
     },
     {
       "filename": "StoneQuarryRepacked.3.6.3.zip",
@@ -416,6 +425,15 @@
       "version": "1.4.0",
       "name": null,
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/StoneRailings.1.4.0.zip"
+    },
+    {
+      "filename": "Synergy-1.1.25.zip",
+      "sha256": "a280bbb560404387a5b26114c700605d74bdbc60bcd9d3ffec4f9fa48d055e1f",
+      "size": 120179,
+      "modid": "synergy",
+      "version": "1.1.25",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/Synergy-1.1.25.zip"
     },
     {
       "filename": "TableExpansion_1.0.3.zip",
@@ -533,6 +551,15 @@
       "version": "1.0.8",
       "name": null,
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/Zipline_1.0.8.zip"
+    },
+    {
+      "filename": "additivechiseling_0.5.1.zip",
+      "sha256": "79ceb5fe47ead0f81fc07b5600af4b7ce49350408e729437780e5fc483b7fa9c",
+      "size": 155671,
+      "modid": "additivechiseling",
+      "version": "0.5.1",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/additivechiseling_0.5.1.zip"
     },
     {
       "filename": "adventurers-walking-stick-net10_3.0.10.zip",
@@ -697,13 +724,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/bola_1.4.2.zip"
     },
     {
-      "filename": "bricklayers-3.2.2.zip",
-      "sha256": "55f5af2cadbc7ddd5e897416d8d19bb9012fd04395aa973abe687be83f6e0946",
-      "size": 1944300,
+      "filename": "bricklayers-3.3.0.zip",
+      "sha256": "91ae07c98dae790df8cb97d2a04f708858f09ece214b5f54ac541b6bee3a1fcf",
+      "size": 1940355,
       "modid": "bricklayers",
-      "version": "3.2.2",
+      "version": "3.3.0",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/bricklayers-3.2.2.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/bricklayers-3.3.0.zip"
     },
     {
       "filename": "butchering_1.13.6.zip",
@@ -740,6 +767,24 @@
       "version": "1.2.1",
       "name": null,
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/chisel_leaf_1.2.1.zip"
+    },
+    {
+      "filename": "chiseledgroundplacement_0.2.2.zip",
+      "sha256": "5f051db10a43ad85efd8f86b8005736146bbb42e2b44271caca51f38b7c241d1",
+      "size": 40119,
+      "modid": "chiseledgroundplacement",
+      "version": "0.2.2",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/chiseledgroundplacement_0.2.2.zip"
+    },
+    {
+      "filename": "chiseledwallmounting_0.3.2.zip",
+      "sha256": "3911bcf6fee7116e44a084fa957188f9de258a1c0196304155b9e3fcb00abfad",
+      "size": 27985,
+      "modid": "chiseledwallmounting",
+      "version": "0.3.2",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/chiseledwallmounting_0.3.2.zip"
     },
     {
       "filename": "chonkyvessels_1.5.9.zip",
@@ -787,6 +832,15 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/crossbowsfork_1.10.1.zip"
     },
     {
+      "filename": "densegroundstorage_0.3.3.zip",
+      "sha256": "138c94b7a1245f29f226b95b3486a85179f032aa4da767b75ab97f18be223e38",
+      "size": 67349,
+      "modid": "densegroundstorage",
+      "version": "0.3.3",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/densegroundstorage_0.3.3.zip"
+    },
+    {
       "filename": "electricalprogressivebasics_3.3.1.zip",
       "sha256": "b0904e4c80871b8af26fc8559309e218fb13dfbe313a0a0ac9c8842dd20eb13e",
       "size": 1437296,
@@ -832,13 +886,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/farseer_1.4.0.zip"
     },
     {
-      "filename": "firearmsfork_1.10.1.zip",
-      "sha256": "54cd6c65fff6d3ad47a0141e0c944f312176974d7bbcd2656440371de7c8baec",
-      "size": 3377798,
+      "filename": "firearmsfork_1.10.2.zip",
+      "sha256": "669bd462cbf0c647724601be3371b24905c50bc57b9d19fafad7c082888f6b0c",
+      "size": 3378035,
       "modid": "firearmsfork",
-      "version": "1.10.1",
+      "version": "1.10.2",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/firearmsfork_1.10.1.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/firearmsfork_1.10.2.zip"
     },
     {
       "filename": "fitnshard v0.7.2.zip",
@@ -940,13 +994,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/ndlwoodentorchholder_3.0.3.zip"
     },
     {
-      "filename": "overhaulliblegacycompat_1.2.5.zip",
-      "sha256": "66023e389d481e35717116f2c52608c2e6f175a4d597b5a51cc9edbe476ec8d7",
-      "size": 885941,
+      "filename": "overhaulliblegacycompat_1.2.8.zip",
+      "sha256": "4d282aa7abaae4a8577440c6d833a384a22a3dc9b9f753131f8fcc2237ba3bd3",
+      "size": 897881,
       "modid": "overhaulliblegacycompat",
-      "version": "1.2.5",
+      "version": "1.2.8",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/overhaulliblegacycompat_1.2.5.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/overhaulliblegacycompat_1.2.8.zip"
     },
     {
       "filename": "papierspeints1-0-1.zip",
@@ -1156,22 +1210,22 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/vsimgui_1.2.7.zip"
     },
     {
-      "filename": "vsinstrumentsredux_1.5.4.zip",
-      "sha256": "7be17c39eb0ece5d09a544dd11592e1c48e5d9d280c0e5a8902ff68bfaf08d75",
-      "size": 40218576,
+      "filename": "vsinstrumentsredux_1.5.6.zip",
+      "sha256": "0ccaaaa9d1334107440f72f6438f435a754597aa4e044d3d309136b175b15f46",
+      "size": 40221212,
       "modid": "vsinstrumentsredux",
-      "version": "1.5.4",
+      "version": "1.5.6",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/vsinstrumentsredux_1.5.4.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/vsinstrumentsredux_1.5.6.zip"
     },
     {
-      "filename": "vsroofing_1.7.1.zip",
-      "sha256": "2d462b03621bacc621bef9427fdf9bf21f3a2d3dbe5d3379166c9e821e6e3ed0",
-      "size": 2662563,
+      "filename": "vsroofing_1.7.2.zip",
+      "sha256": "73e1bbadda0ba2cc1e7d665cf72293ba02a3d7bbf758b0b01f1c4cf75c6431bb",
+      "size": 2662608,
       "modid": "vsroofing",
-      "version": "1.7.1",
+      "version": "1.7.2",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/vsroofing_1.7.1.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/vsroofing_1.7.2.zip"
     },
     {
       "filename": "wanderers-sketchbook-net10-2.0.5.zip",
@@ -1201,6 +1255,15 @@
       "version": "0.0.4",
       "name": null,
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/Natural%20Foliage_v0.04.zip"
+    },
+    {
+      "filename": "OptiTime-1.5.16.zip",
+      "sha256": "22fe52aa99c05e162236edb1ea47e9b6ce61b1a7aecc1a4f3797232e9c336061",
+      "size": 170754,
+      "modid": "optitime",
+      "version": "1.5.16",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/OptiTime-1.5.16.zip"
     },
     {
       "filename": "StepUpAdvanced_1.4.0.zip",

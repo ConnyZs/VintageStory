@@ -20,7 +20,7 @@ Storage Options,https://mods.vintagestory.at/storageoptions,Storage,1.21,no,outd
 BetterRuins,https://mods.vintagestory.at/betterruins,Worldgen,1.22,yes,available for 1.22 (installs on update),betterruins,available,0.6.3
 Blood Trail,https://mods.vintagestory.at/bloodtrail,Other,1.22,yes,available for 1.22 (installs on update),bloodtrail,available,1.2.5
 Bola,https://mods.vintagestory.at/bola,Weapons,1.22,yes,available for 1.22 (installs on update),bola,available,1.4.2
-Bricklayers,https://mods.vintagestory.at/bricklayers,Cosmetics,1.22,yes,available for 1.22 (installs on update),bricklayers,available,3.2.2
+Bricklayers,https://mods.vintagestory.at/bricklayers,Cosmetics,1.22,yes,available for 1.22 (installs on update),bricklayers,available,3.3.0
 Butchering,https://mods.vintagestory.at/butchering,Crafting,1.22,yes,available for 1.22 (installs on update),butchering,available,1.13.6
 Buzzwords,https://mods.vintagestory.at/buzzwords,QOL,1.22,yes,available for 1.22 (installs on update),buzzwords,available,1.8.2
 C&N Jewelry,https://mods.vintagestory.at/canjewelry,Utility,1.22,yes,available for 1.22 (installs on update),canjewelry,available,0.6.24
@@ -54,12 +54,12 @@ Stone Railings,https://mods.vintagestory.at/stonerailings,Cosmetics,1.22,yes,ava
 Tabletop Games,https://mods.vintagestory.at/tabletopgames,Utility,1.22,yes,available for 1.22 (installs on update),tabletopgames,available,4.0.0
 "Tankards, Goblets and More!",https://mods.vintagestory.at/tankardsandgoblets,Food,1.22,yes,available for 1.22 (installs on update),tankardsandgoblets,available,1.4.4
 Translocator Engineering - Redux,https://mods.vintagestory.at/translocatorengineeringredux,Technology,1.22,yes,available for 1.22 (installs on update),translocatorengineeringredux,available,1.6.6
-VS Roofing Mod,https://mods.vintagestory.at/show/mod/30143,Utility,1.22,yes,available for 1.22 (installs on update),vsroofing,available,1.7.1
+VS Roofing Mod,https://mods.vintagestory.at/show/mod/30143,Utility,1.22,yes,available for 1.22 (installs on update),vsroofing,available,1.7.2
 Window Storage [Legacy],https://mods.vintagestory.at/windowstorage,Storage,1.22,yes,available for 1.22 (installs on update),windowstorage,available,1.8.25
 Tailor's Delight,https://mods.vintagestory.at/tailorsdelight,Cosmetics,1.22,yes,available for 1.22 (installs on update),tailorsdelight,available,2.2.2
 Cartwright´s Caravan,https://mods.vintagestory.at/cartwrightscaravan,Storage,1.22,yes,available for 1.22 (installs on update),cartwrightscaravan,available,1.9.1
 Chiseled Block Retention,https://mods.vintagestory.at/cbr,QoL,1.22,yes,available for 1.22 (installs on update),cbr,available,2.0.1
-Expanded Foods: Core 2.0.0-dev.14,https://mods.vintagestory.at/expandedfoods,Utility,1.22,yes,available for 1.22 (installs on update),expandedfoods,available,2.0.0-dev.13
+Expanded Foods: Core 2.0.0-dev.14,https://mods.vintagestory.at/expandedfoods,Utility,1.22,yes,available for 1.22 (installs on update),expandedfoods,available,2.0.0-dev.14
 A Culinary Artillery 2.0.0-dev.22,https://mods.vintagestory.at/aculinaryartillery,Technology,1.22,yes,available for 1.22 (installs on update),aculinaryartillery,available,2.0.0-dev.22
 Spyglass,https://mods.vintagestory.at/spyglass,Technology,1.22,yes,available for 1.22 (installs on update),spyglass,available,0.6.1
 Useful Traders,https://mods.vintagestory.at/show/mod/19225,QoL,1.22,yes,available for 1.22 (installs on update),usefultraders,available,2.5.2
@@ -108,10 +108,10 @@ Combat Overhaul Fork,https://mods.vintagestory.at/combatoverhaulforked,Weapons,1
 Armory Fork,https://mods.vintagestory.at/armoryfork,Weapons,1.22,yes,available for 1.22 (installs on update),armoryfork,available,1.11.0
 Combat Overhaul Reanimated Fork,https://mods.vintagestory.at/combatreanimatedfork,Weapons,1.22,yes,available for 1.22 (installs on update),combatreanimatedfork,available,1.0.1
 Crossbows Fork,https://mods.vintagestory.at/crossbowsfork,Weapons,1.22,yes,available for 1.22 (installs on update),crossbowsfork,available,1.10.1
-Firearms fork,https://mods.vintagestory.at/firearmsfork,Weapons,1.22,yes,available for 1.22 (installs on update),firearmsfork,available,1.10.1
+Firearms fork,https://mods.vintagestory.at/firearmsfork,Weapons,1.22,yes,available for 1.22 (installs on update),firearmsfork,available,1.10.2
 Player Corpse (Azu Modded),https://mods.vintagestory.at/playercorpseforkedazu,Utility,1.22,yes,available for 1.22 (installs on update),playercorpseforkedazu,available,1.15.1
 Quivers and Sheaths Fork,https://mods.vintagestory.at/quiversfork,Weapons,1.22,yes,available for 1.22 (installs on update),quiversfork,available,0.9.31
-Overhaul lib legacy compatibility,https://mods.vintagestory.at/overhaulliblegacycompat,Utility,1.22,yes,available for 1.22 (installs on update),overhaulliblegacycompat,available,1.2.5
+Overhaul lib legacy compatibility,https://mods.vintagestory.at/overhaulliblegacycompat,Utility,1.22,yes,available for 1.22 (installs on update),overhaulliblegacycompat,available,1.2.8
 Animations lib,https://mods.vintagestory.at/animationslib,Weapons,1.22,yes,"available for 1.22 (Draft on ModDB — pinned download, installs on update)",animationslib,available,0.0.2
 Chisel Leaf,https://mods.vintagestory.at/chiselleaf,Crafting,1.22,yes,available for 1.22 (installs on update),chiselleaf,available,1.2.1
 Unnerfed Flowers,https://mods.vintagestory.at/show/mod/47392,Flora,1.22,yes,available for 1.22 (installs on update),unnerfedflowers,available,1.0.0
@@ -124,7 +124,7 @@ Forgotten Armory: Greenwich style,https://mods.vintagestory.at/show/mod/25550,Co
 VS AIRSHIP MOD,https://mods.vintagestory.at/vsairshipmod,Technology,1.22,yes,available for 1.22 (installs on update),vsairshipmod,available,1.1.4
 Clayworks,https://mods.vintagestory.at/clayworks,Cosmetics,1.22,yes,available for 1.22 (installs on update),clayworks,available,0.6.1
 Resonator Overhaul ,https://mods.vintagestory.at/show/mod/58027,Server-Specific,1.22,yes,available for 1.22 (installs on update),resonatoroverhaul,available,1.2.9
-VS Instruments Redux,https://mods.vintagestory.at/show/mod/61428,Technology,1.22,yes,available for 1.22 (installs on update),vsinstrumentsredux,available,1.5.4
+VS Instruments Redux,https://mods.vintagestory.at/show/mod/61428,Technology,1.22,yes,available for 1.22 (installs on update),vsinstrumentsredux,available,1.5.6
 Chonky Vessels,https://mods.vintagestory.at/show/mod/44504,Storage,1.22,yes,available for 1.22 (installs on update),chonkyvessels,available,1.5.9
 Zipline,https://mods.vintagestory.at/zipline,QoL,1.22,yes,available for 1.22 (installs on update),zipline,available,1.0.8
 Self-Recording Thermometer,https://mods.vintagestory.at/airthermomod,Utility,1.22,yes,available for 1.22 (installs on update),airthermomod,available,0.5.0
@@ -134,13 +134,15 @@ More Beams,https://mods.vintagestory.at/morebeams,Cosmetics,1.22,yes,available f
 Translocator Map Marker,https://mods.vintagestory.at/translocatormarker,Utility,1.22,yes,available for 1.22 (installs on update),translocatormarker,available,0.0.4
 Regalia,https://mods.vintagestory.at/regalia,Cosmetics,1.22,yes,available for 1.22 (installs on update),regalia,available,1.8.2
 Improved Handbook Recipe Helper,https://mods.vintagestory.at/show/mod/47215,Utility,1.22,yes,available for 1.22 (installs on update),improvedhandbookrecipesfork,available,1227.0.1
-Dense Ground Storage,https://mods.vintagestory.at/densegroundstorage,Storage,1.22,no,available for 1.22 (installs on update),densegroundstorage,available,
-Chiseled Wall Mounting,https://mods.vintagestory.at/chiseledwallmounting,Chisel,1.22,no,available for 1.22 (installs on update),chiseledwallmounting,available,
-Chiseled Ground Placement,https://mods.vintagestory.at/chiseledgroundplacement,Chisel,1.22,no,available for 1.22 (installs on update),chiseledgroundplacement,available,
-Additive Chiseling,https://mods.vintagestory.at/additivechiseling,Chisel,1.22,no,available for 1.22 (installs on update),additivechiseling,available,
-Real Smoke & QP's Chisel Tools Compatibility Patch 1.22,https://mods.vintagestory.at/realsmokeqp,Compatibility,1.22,no,available for 1.22 (installs on update),realsmokeqppatch,available,
-OptiTime,https://mods.vintagestory.at/optitime,Utility,1.22,no,available for 1.22 (installs on update),optitime,available,
-smithingplus,,Misc.,1.22,yes,,smithingplus,available,1.8.7
+Dense Ground Storage,https://mods.vintagestory.at/densegroundstorage,Storage,1.22,yes,available for 1.22 (installs on update),densegroundstorage,available,0.3.3
+Chiseled Wall Mounting,https://mods.vintagestory.at/chiseledwallmounting,Chisel,1.22,yes,available for 1.22 (installs on update),chiseledwallmounting,available,0.3.2
+Chiseled Ground Placement,https://mods.vintagestory.at/chiseledgroundplacement,Chisel,1.22,yes,available for 1.22 (installs on update),chiseledgroundplacement,available,0.2.2
+Additive Chiseling,https://mods.vintagestory.at/additivechiseling,Chisel,1.22,yes,available for 1.22 (installs on update),additivechiseling,available,0.5.1
+Real Smoke & QP's Chisel Tools Compatibility Patch 1.22,https://mods.vintagestory.at/realsmokeqp,Compatibility,1.22,yes,available for 1.22 (installs on update),realsmokeqppatch,available,1.0.1
+OptiTime,https://mods.vintagestory.at/optitime,Utility,optional,no,available for 1.22 (installs on update),optitime,available,1.5.16
+Synergy,https://mods.vintagestory.at/synergy,Utility,1.22,yes,available for 1.22 (installs on update),synergy,available,1.1.25
+Tungsten,https://mods.vintagestory.at/tungsten,Utility,1.22,yes,available for 1.22 (installs on update),tungsten,available,
+smithingplus,,Misc.,1.22,yes,,smithingplus,available,1.8.8
 Windmill Sail Fix,,Misc.,1.22,,,windmillsailfix,available,2.0.2
 Labeled Trunks,,Storage,1.22,yes,,labeledtrunk,available,1.1.11
 Weapon Pack Alpha (quenchable),,Misc.,1.22,yes,"custom 1.9.0 build — quenching, tempering and sharpening added",weaponpackalphaunoff,available,1.9.0
