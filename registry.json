@@ -1,5 +1,5 @@
 {
-  "generated": "20260823-004521",
+  "generated": "20260823-004721",
   "game_version": "1.22.7",
   "check_ts": "20260822-200110",
   "latest_engine": "1.22.7",
@@ -2663,7 +2663,7 @@
         "blocksBroken": 15982,
         "blocksPlaced": 1221,
         "deepestY": 1,
-        "lastSeen": 1787438659,
+        "lastSeen": 1787438779,
         "gear": [
           "Messenger hat",
           "Forgotten noble shirt",
@@ -3066,12 +3066,12 @@
           "wolf-eurasian-adult-male": 3,
           "shiver-surface": 1
         },
-        "playtimeHours": 577.1,
-        "blocksTravelled": 567511,
+        "playtimeHours": 577.2,
+        "blocksTravelled": 567517,
         "blocksBroken": 33824,
         "blocksPlaced": 11642,
         "deepestY": 1,
-        "lastSeen": 1787438659,
+        "lastSeen": 1787438779,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3552,12 +3552,12 @@
           "shiver-nightmare": 1,
           "bear-brown-adult-male": 1
         },
-        "playtimeHours": 32.7,
-        "blocksTravelled": 60754,
+        "playtimeHours": 32.8,
+        "blocksTravelled": 60787,
         "blocksBroken": 2125,
         "blocksPlaced": 725,
         "deepestY": 64,
-        "lastSeen": 1787438659,
+        "lastSeen": 1787438779,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
@@ -3568,9 +3568,11 @@
           "Tailor belt",
           "Tailor needle puff",
           "Tailor jacket",
-          "Gamboised helmet",
+          "Tailored gamboised helmet",
           "Tailored gambeson body armor",
-          "Tailored gamboised leg armor"
+          "Tailored gamboised leg armor",
+          "Chain head armor (Iron)",
+          "Chain leg armor (Iron)"
         ],
         "gearDetail": [
           {
@@ -3629,8 +3631,8 @@
           },
           {
             "slot": "armorhead",
-            "code": "game:armor-head-sewn-linen",
-            "name": "Gamboised helmet"
+            "code": "game:armor-head-tailored-plain-linen",
+            "name": "Tailored gamboised helmet"
           },
           {
             "slot": "armorbody",
@@ -3641,6 +3643,16 @@
             "slot": "armorlegs",
             "code": "game:armor-legs-tailored-plain-linen",
             "name": "Tailored gamboised leg armor"
+          },
+          {
+            "slot": "armorhead",
+            "code": "game:armor-head-chain-iron",
+            "name": "Chain head armor (Iron)"
+          },
+          {
+            "slot": "armorlegs",
+            "code": "game:armor-legs-chain-iron",
+            "name": "Chain leg armor (Iron)"
           },
           {
             "slot": "bag-1",
