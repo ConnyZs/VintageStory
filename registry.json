@@ -1,5 +1,5 @@
 {
-  "generated": "20260822-232516",
+  "generated": "20260822-232717",
   "game_version": "1.22.7",
   "check_ts": "20260822-200110",
   "latest_engine": "1.22.7",
@@ -3080,11 +3080,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 575.8,
-        "blocksTravelled": 560640,
-        "blocksBroken": 32924,
-        "blocksPlaced": 11602,
+        "blocksTravelled": 560819,
+        "blocksBroken": 32926,
+        "blocksPlaced": 11603,
         "deepestY": 1,
-        "lastSeen": 1787433855,
+        "lastSeen": 1787433976,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3304,11 +3304,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 724.7,
-        "blocksTravelled": 478641,
-        "blocksBroken": 19011,
-        "blocksPlaced": 12329,
+        "blocksTravelled": 478647,
+        "blocksBroken": 19013,
+        "blocksPlaced": 12334,
         "deepestY": 12,
-        "lastSeen": 1787433855,
+        "lastSeen": 1787433976,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3565,11 +3565,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 31.4,
-        "blocksTravelled": 57728,
-        "blocksBroken": 2003,
+        "blocksTravelled": 57944,
+        "blocksBroken": 2005,
         "blocksPlaced": 636,
         "deepestY": 64,
-        "lastSeen": 1787433855,
+        "lastSeen": 1787433976,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
