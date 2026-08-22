@@ -1,5 +1,5 @@
 {
-  "generated": "20260822-223513",
+  "generated": "20260822-223714",
   "game_version": "1.22.7",
   "check_ts": "20260822-200110",
   "latest_engine": "1.22.7",
@@ -2658,11 +2658,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 233.6,
-        "blocksTravelled": 314530,
+        "blocksTravelled": 314532,
         "blocksBroken": 15693,
         "blocksPlaced": 1214,
         "deepestY": 1,
-        "lastSeen": 1787430901,
+        "lastSeen": 1787430972,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2976,7 +2976,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 26,
-        "mobKills": 916,
+        "mobKills": 919,
         "mealsEaten": 1762,
         "caloriesConsumed": 336406,
         "lastMeal": "Earthy orange ceramic bowl of cold pasta",
@@ -3080,11 +3080,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 575.0,
-        "blocksTravelled": 557014,
+        "blocksTravelled": 557141,
         "blocksBroken": 32902,
         "blocksPlaced": 11568,
         "deepestY": 1,
-        "lastSeen": 1787430901,
+        "lastSeen": 1787430972,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3188,8 +3188,8 @@
           },
           {
             "slot": "bag-2",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "code": "butchering:deadwolf-female-eurasian-6-dead",
+            "name": "Wolf (dead)"
           },
           {
             "slot": "bag-3",
@@ -3303,12 +3303,12 @@
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 723.8,
-        "blocksTravelled": 476511,
+        "playtimeHours": 723.9,
+        "blocksTravelled": 476712,
         "blocksBroken": 18922,
         "blocksPlaced": 12274,
         "deepestY": 12,
-        "lastSeen": 1787430901,
+        "lastSeen": 1787430972,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3565,11 +3565,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 30.6,
-        "blocksTravelled": 55800,
+        "blocksTravelled": 55827,
         "blocksBroken": 1954,
         "blocksPlaced": 617,
         "deepestY": 64,
-        "lastSeen": 1787430901,
+        "lastSeen": 1787430972,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
