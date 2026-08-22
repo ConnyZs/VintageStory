@@ -1,5 +1,5 @@
 {
-  "generated": "20260822-215311",
+  "generated": "20260822-215511",
   "game_version": "1.22.7",
   "check_ts": "20260822-200110",
   "latest_engine": "1.22.7",
@@ -2656,12 +2656,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 232.8,
-        "blocksTravelled": 311965,
-        "blocksBroken": 15629,
+        "playtimeHours": 232.9,
+        "blocksTravelled": 312103,
+        "blocksBroken": 15652,
         "blocksPlaced": 1106,
         "deepestY": 1,
-        "lastSeen": 1787428330,
+        "lastSeen": 1787428487,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2975,7 +2975,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 26,
-        "mobKills": 895,
+        "mobKills": 897,
         "mealsEaten": 1754,
         "caloriesConsumed": 332235,
         "lastMeal": "Earthy orange ceramic bowl of cold pasta",
@@ -3079,11 +3079,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 574.3,
-        "blocksTravelled": 553371,
-        "blocksBroken": 32687,
-        "blocksPlaced": 11532,
+        "blocksTravelled": 553628,
+        "blocksBroken": 32693,
+        "blocksPlaced": 11535,
         "deepestY": 1,
-        "lastSeen": 1787428330,
+        "lastSeen": 1787428487,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3192,13 +3192,8 @@
           },
           {
             "slot": "bag-3",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
-          },
-          {
-            "slot": "bag-4",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "code": "butchering:deadwolf-male-eurasian-9-dead",
+            "name": "Wolf (dead)"
           }
         ],
         "skin": {
@@ -3228,8 +3223,8 @@
         "class": "mason",
         "deaths": 2,
         "mobKills": 399,
-        "mealsEaten": 597,
-        "caloriesConsumed": 182428,
+        "mealsEaten": 598,
+        "caloriesConsumed": 183091,
         "lastMeal": "Earthy orange ceramic bowl of cold pasta",
         "mealsByName": {
           "Cranberry": 25,
@@ -3289,25 +3284,25 @@
           "Earthy brown ceramic bowl of soup": 4,
           "Earthy brown ceramic bowl of cold pasta": 3,
           "Small potion flask": 2,
-          "Earthy orange ceramic bowl of cold pasta": 2
+          "Earthy orange ceramic bowl of cold pasta": 3
         },
         "foodCatCounts": {
           "Fruit": 288,
-          "Grain": 225,
-          "Protein": 224,
-          "Vegetable": 180,
+          "Grain": 226,
+          "Protein": 225,
+          "Vegetable": 181,
           "Dairy": 65
         },
         "deathCauses": {
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 723.1,
-        "blocksTravelled": 473343,
+        "playtimeHours": 723.2,
+        "blocksTravelled": 473738,
         "blocksBroken": 18652,
         "blocksPlaced": 12029,
         "deepestY": 12,
-        "lastSeen": 1787428330,
+        "lastSeen": 1787428487,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3564,11 +3559,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 29.9,
-        "blocksTravelled": 55325,
+        "blocksTravelled": 55355,
         "blocksBroken": 1949,
         "blocksPlaced": 608,
         "deepestY": 64,
-        "lastSeen": 1787428330,
+        "lastSeen": 1787428487,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
