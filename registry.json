@@ -1,5 +1,5 @@
 {
-  "generated": "20260822-223914",
+  "generated": "20260822-224114",
   "game_version": "1.22.7",
   "check_ts": "20260822-200110",
   "latest_engine": "1.22.7",
@@ -2658,11 +2658,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 233.6,
-        "blocksTravelled": 314998,
+        "blocksTravelled": 315175,
         "blocksBroken": 15693,
         "blocksPlaced": 1216,
         "deepestY": 1,
-        "lastSeen": 1787431092,
+        "lastSeen": 1787431212,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -3079,12 +3079,12 @@
           "wolf-eurasian-adult-male": 3,
           "shiver-surface": 1
         },
-        "playtimeHours": 575.0,
-        "blocksTravelled": 557356,
+        "playtimeHours": 575.1,
+        "blocksTravelled": 557534,
         "blocksBroken": 32902,
         "blocksPlaced": 11568,
         "deepestY": 1,
-        "lastSeen": 1787431092,
+        "lastSeen": 1787431212,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3304,11 +3304,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 723.9,
-        "blocksTravelled": 476805,
-        "blocksBroken": 18968,
-        "blocksPlaced": 12283,
+        "blocksTravelled": 477044,
+        "blocksBroken": 18980,
+        "blocksPlaced": 12288,
         "deepestY": 12,
-        "lastSeen": 1787431092,
+        "lastSeen": 1787431212,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3564,12 +3564,12 @@
           "shiver-nightmare": 1,
           "bear-brown-adult-male": 1
         },
-        "playtimeHours": 30.6,
-        "blocksTravelled": 55831,
+        "playtimeHours": 30.7,
+        "blocksTravelled": 55837,
         "blocksBroken": 1954,
         "blocksPlaced": 617,
         "deepestY": 64,
-        "lastSeen": 1787431092,
+        "lastSeen": 1787431212,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
