@@ -1,5 +1,5 @@
 {
-  "generated": "20260823-002720",
+  "generated": "20260823-002920",
   "game_version": "1.22.7",
   "check_ts": "20260822-200110",
   "latest_engine": "1.22.7",
@@ -2663,7 +2663,7 @@
         "blocksBroken": 15976,
         "blocksPlaced": 1216,
         "deepestY": 1,
-        "lastSeen": 1787437579,
+        "lastSeen": 1787437699,
         "gear": [
           "Messenger hat",
           "Forgotten noble shirt",
@@ -3066,12 +3066,12 @@
           "wolf-eurasian-adult-male": 3,
           "shiver-surface": 1
         },
-        "playtimeHours": 576.8,
-        "blocksTravelled": 566615,
+        "playtimeHours": 576.9,
+        "blocksTravelled": 566719,
         "blocksBroken": 33812,
         "blocksPlaced": 11631,
         "deepestY": 1,
-        "lastSeen": 1787437579,
+        "lastSeen": 1787437699,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3552,12 +3552,12 @@
           "shiver-nightmare": 1,
           "bear-brown-adult-male": 1
         },
-        "playtimeHours": 32.4,
-        "blocksTravelled": 60320,
+        "playtimeHours": 32.5,
+        "blocksTravelled": 60394,
         "blocksBroken": 2117,
         "blocksPlaced": 718,
         "deepestY": 64,
-        "lastSeen": 1787437579,
+        "lastSeen": 1787437699,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
