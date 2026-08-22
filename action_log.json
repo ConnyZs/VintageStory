@@ -1,6 +1,12 @@
 {
   "actions": [
     {
+      "ts": "2026-08-22T15:14:34Z",
+      "label": "Proposed",
+      "link": "https://mods.vintagestory.at/realsmokeqp",
+      "name": "Real Smoke & QP's Chisel Tools Compatibility Patch 1.22"
+    },
+    {
       "ts": "2026-08-19T16:26:02Z",
       "label": "Approved for server",
       "link": "https://mods.vintagestory.at/translocatormarker",
@@ -291,12 +297,6 @@
     {
       "ts": "2026-07-13T18:24:12Z",
       "label": "Approved for server",
-      "link": "https://mods.vintagestory.at/playercorpseforkedazu",
-      "name": "Player Corpse (Azu Modded)"
-    },
-    {
-      "ts": "2026-07-13T18:24:11Z",
-      "label": "Proposed",
       "link": "https://mods.vintagestory.at/playercorpseforkedazu",
       "name": "Player Corpse (Azu Modded)"
     }

@@ -1,5 +1,5 @@
 {
-  "generated": "20260822-171124",
+  "generated": "2026-08-22T15:14:34Z",
   "game_version": "1.22.7",
   "check_ts": "20260822-171124",
   "latest_engine": "1.22.7",
@@ -2403,6 +2403,22 @@
       "proposed": false,
       "custom": true,
       "client_only": false
+    },
+    {
+      "name": "Real Smoke & QP's Chisel Tools Compatibility Patch 1.22",
+      "modid": null,
+      "section": "1.22",
+      "category": "Misc.",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/realsmokeqp",
+      "server_state": "no",
+      "avail": "pending",
+      "note": "",
+      "version": null,
+      "build_version": null,
+      "build_branch": null,
+      "update_pending": false,
+      "proposed": true
     }
   ],
   "crew": [
