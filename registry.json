@@ -1,5 +1,5 @@
 {
-  "generated": "20260822-191501",
+  "generated": "20260822-191701",
   "game_version": "1.22.7",
   "check_ts": "20260822-171124",
   "latest_engine": "1.22.7",
@@ -2654,12 +2654,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 230.5,
-        "blocksTravelled": 305734,
+        "playtimeHours": 230.6,
+        "blocksTravelled": 305758,
         "blocksBroken": 15555,
         "blocksPlaced": 1081,
         "deepestY": 1,
-        "lastSeen": 1787418813,
+        "lastSeen": 1787419007,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
