@@ -1,5 +1,5 @@
 {
-  "generated": "20260822-234518",
+  "generated": "20260822-234718",
   "game_version": "1.22.7",
   "check_ts": "20260822-200110",
   "latest_engine": "1.22.7",
@@ -2658,11 +2658,11 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 234.1,
-        "blocksTravelled": 317614,
-        "blocksBroken": 15697,
+        "blocksTravelled": 318209,
+        "blocksBroken": 15702,
         "blocksPlaced": 1216,
         "deepestY": 1,
-        "lastSeen": 1787435056,
+        "lastSeen": 1787435177,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2976,7 +2976,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 26,
-        "mobKills": 921,
+        "mobKills": 925,
         "mealsEaten": 1775,
         "caloriesConsumed": 343333,
         "lastMeal": "Earthy orange ceramic bowl of hot pasta",
@@ -3079,12 +3079,12 @@
           "wolf-eurasian-adult-male": 3,
           "shiver-surface": 1
         },
-        "playtimeHours": 576.1,
-        "blocksTravelled": 562671,
-        "blocksBroken": 33106,
-        "blocksPlaced": 11604,
+        "playtimeHours": 576.2,
+        "blocksTravelled": 562972,
+        "blocksBroken": 33109,
+        "blocksPlaced": 11607,
         "deepestY": 1,
-        "lastSeen": 1787435056,
+        "lastSeen": 1787435177,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3198,8 +3198,8 @@
           },
           {
             "slot": "bag-4",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "code": "butchering:butcherybag-standard",
+            "name": "Hide Butchering Bag"
           }
         ],
         "skin": {
@@ -3304,11 +3304,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 725.0,
-        "blocksTravelled": 479258,
+        "blocksTravelled": 479402,
         "blocksBroken": 19015,
         "blocksPlaced": 12347,
         "deepestY": 12,
-        "lastSeen": 1787435056,
+        "lastSeen": 1787435177,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3532,9 +3532,9 @@
         "class": "tailor",
         "deaths": 6,
         "mobKills": 25,
-        "mealsEaten": 106,
-        "caloriesConsumed": 60010,
-        "lastMeal": "Earthy orange ceramic bowl of soup",
+        "mealsEaten": 107,
+        "caloriesConsumed": 61351,
+        "lastMeal": "Earthy brown ceramic bowl of hot pasta",
         "mealsByName": {
           "Earthy orange ceramic bowl of meat stew": 58,
           "Meat pie": 8,
@@ -3548,12 +3548,13 @@
           "Earthy brown ceramic bowl of cold pasta": 4,
           "Earthy orange ceramic bowl of cold pasta": 3,
           "Earthy orange ceramic bowl of soup": 5,
-          "Earthy brown ceramic bowl of soup": 11
+          "Earthy brown ceramic bowl of soup": 11,
+          "Earthy brown ceramic bowl of hot pasta": 1
         },
         "foodCatCounts": {
-          "Protein": 94,
+          "Protein": 95,
           "Vegetable": 63,
-          "Grain": 59,
+          "Grain": 60,
           "Fruit": 8,
           "Dairy": 28
         },
@@ -3564,12 +3565,12 @@
           "shiver-nightmare": 1,
           "bear-brown-adult-male": 1
         },
-        "playtimeHours": 31.7,
-        "blocksTravelled": 58887,
-        "blocksBroken": 2088,
+        "playtimeHours": 31.8,
+        "blocksTravelled": 59055,
+        "blocksBroken": 2109,
         "blocksPlaced": 707,
         "deepestY": 64,
-        "lastSeen": 1787435056,
+        "lastSeen": 1787435177,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
