@@ -11,11 +11,9 @@
     "beard",
     "facialexpression",
     "Messenger hat",
-    "Embroidered tartar scarf",
     "Forgotten noble shirt",
     "Prince breeches",
     "Thigh-high boots",
-    "Deep noble gloves",
     "Deep noble amulet",
     "Malefactor whitewood mask",
     "Forlorn Hope belt",
@@ -23,7 +21,7 @@
     "Forgotten noble robe"
    ],
    "frames": 16,
-   "v": 1786900397
+   "v": 1787437421
   },
   "Eghetti": {
    "class": "smith",
@@ -69,7 +67,7 @@
     "Fur coat"
    ],
    "frames": 16,
-   "v": 1787436462
+   "v": 1787437444
   },
   "Moritz": {
    "class": "mason",

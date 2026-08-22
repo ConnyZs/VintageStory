@@ -1,6 +1,6 @@
 {
  "Raschuetzer": {
-  "hash": "d04e5b2a110ea1d30d9def5aa010fa10fe2f2d47",
+  "hash": "71c529717bca3d93aca191cf93cce5511cafb87a",
   "info": {
    "class": "tinker",
    "items": [
@@ -10,11 +10,9 @@
     "beard",
     "facialexpression",
     "Messenger hat",
-    "Embroidered tartar scarf",
     "Forgotten noble shirt",
     "Prince breeches",
     "Thigh-high boots",
-    "Deep noble gloves",
     "Deep noble amulet",
     "Malefactor whitewood mask",
     "Forlorn Hope belt",
@@ -22,7 +20,7 @@
     "Forgotten noble robe"
    ],
    "frames": 16,
-   "v": 1786900397
+   "v": 1787437421
   }
  },
  "Eghetti": {
@@ -77,7 +75,7 @@
   }
  },
  "AddyBuschu": {
-  "hash": "209fe17f9697e6a785820054bf790267de3f25f6",
+  "hash": "c891714b98a17ad64b6bc05f07167dffe1b89f38",
   "info": {
    "class": "homesteader",
    "items": [
@@ -101,7 +99,7 @@
     "Fur coat"
    ],
    "frames": 16,
-   "v": 1787436462
+   "v": 1787437444
   }
  },
  "Barberschascher": {

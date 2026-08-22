@@ -1,5 +1,5 @@
 {
-  "generated": "20260823-002120",
+  "generated": "20260823-002320",
   "game_version": "1.22.7",
   "check_ts": "20260822-200110",
   "latest_engine": "1.22.7",
@@ -2659,18 +2659,16 @@
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
         "playtimeHours": 234.7,
-        "blocksTravelled": 322258,
+        "blocksTravelled": 322330,
         "blocksBroken": 15976,
         "blocksPlaced": 1216,
         "deepestY": 1,
-        "lastSeen": 1787437236,
+        "lastSeen": 1787437339,
         "gear": [
           "Messenger hat",
-          "Embroidered tartar scarf",
           "Forgotten noble shirt",
           "Prince breeches",
           "Thigh-high boots",
-          "Deep noble gloves",
           "Deep noble amulet",
           "Butterfly pin (Temporal)",
           "Malefactor whitewood mask",
@@ -2685,12 +2683,6 @@
             "code": "game:clothes-head-messengers-hat",
             "name": "Messenger hat",
             "icon": "character/icons/head-messengers-hat.png"
-          },
-          {
-            "slot": "shoulder",
-            "code": "game:clothes-shoulder-embroidered-tartarean-scarf",
-            "name": "Embroidered tartar scarf",
-            "icon": "character/icons/shoulder-embroidered-tartarean-scarf.png"
           },
           {
             "slot": "upperbody",
@@ -2709,12 +2701,6 @@
             "code": "game:clothes-foot-tigh-high-boots",
             "name": "Thigh-high boots",
             "icon": "character/icons/foot-tigh-high-boots.png"
-          },
-          {
-            "slot": "hand",
-            "code": "game:clothes-hand-deep",
-            "name": "Deep noble gloves",
-            "icon": "character/icons/hand-deep.png"
           },
           {
             "slot": "neck",
@@ -3080,12 +3066,12 @@
           "wolf-eurasian-adult-male": 3,
           "shiver-surface": 1
         },
-        "playtimeHours": 576.7,
-        "blocksTravelled": 566138,
-        "blocksBroken": 33631,
-        "blocksPlaced": 11630,
+        "playtimeHours": 576.8,
+        "blocksTravelled": 566328,
+        "blocksBroken": 33632,
+        "blocksPlaced": 11631,
         "deepestY": 1,
-        "lastSeen": 1787437236,
+        "lastSeen": 1787437339,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3199,8 +3185,8 @@
           },
           {
             "slot": "bag-4",
-            "code": "butchering:butcherybag-standard",
-            "name": "Hide Butchering Bag"
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
           }
         ],
         "skin": {
@@ -3533,9 +3519,9 @@
         "class": "tailor",
         "deaths": 6,
         "mobKills": 25,
-        "mealsEaten": 107,
-        "caloriesConsumed": 61351,
-        "lastMeal": "Earthy brown ceramic bowl of hot pasta",
+        "mealsEaten": 108,
+        "caloriesConsumed": 62846,
+        "lastMeal": "Earthy orange ceramic bowl of cold pasta",
         "mealsByName": {
           "Earthy orange ceramic bowl of meat stew": 58,
           "Meat pie": 8,
@@ -3547,15 +3533,15 @@
           "Earthy brown ceramic bowl of meat stew": 1,
           "Smoked Blood Sausage": 4,
           "Earthy brown ceramic bowl of cold pasta": 4,
-          "Earthy orange ceramic bowl of cold pasta": 3,
+          "Earthy orange ceramic bowl of cold pasta": 4,
           "Earthy orange ceramic bowl of soup": 5,
           "Earthy brown ceramic bowl of soup": 11,
           "Earthy brown ceramic bowl of hot pasta": 1
         },
         "foodCatCounts": {
-          "Protein": 95,
-          "Vegetable": 63,
-          "Grain": 60,
+          "Protein": 96,
+          "Vegetable": 64,
+          "Grain": 61,
           "Fruit": 8,
           "Dairy": 28
         },
@@ -3567,11 +3553,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 32.4,
-        "blocksTravelled": 59967,
+        "blocksTravelled": 60201,
         "blocksBroken": 2112,
         "blocksPlaced": 718,
         "deepestY": 64,
-        "lastSeen": 1787437236,
+        "lastSeen": 1787437339,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
