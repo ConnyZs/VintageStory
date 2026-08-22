@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-22T15:33:03Z",
+  "updated": "2026-08-22T15:39:50Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1264,13 +1264,31 @@
       "note": "added via dashboard"
     },
     {
-      "name": "",
+      "name": "OptiTime",
       "link": "https://mods.vintagestory.at/optitime",
-      "category": "Other",
+      "category": "Utility",
+      "section": "optional",
+      "server_state": "no",
+      "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "Synergy",
+      "link": "https://mods.vintagestory.at/synergy",
+      "category": "Utility",
       "section": "1.22",
       "server_state": "yes",
       "proposed": true,
       "note": ""
+    },
+    {
+      "name": "Tungsten",
+      "link": "https://mods.vintagestory.at/tungsten",
+      "category": "Utility",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": true,
+      "note": "server-side only"
     }
   ]
 }

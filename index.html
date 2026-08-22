@@ -661,6 +661,7 @@ function modRow(m){
   const srvTag = st==="remove"?`<span class="tag-srv rem">removing…</span>`
                : st==="disabled"?`<span class="tag-srv off">disabled</span>`
                : m.client_only?`<span class="tag-srv">client side</span>`
+               : m.server_only?`<span class="tag-srv">server side only</span>`
                : onsrv?`<span class="tag-srv">on server</span>`
                : m.section==="optional"?`<span class="tag-srv">client side</span>`
                : `<span class="tag-srv off">not on server</span>`;   // candidate / not installed → no server controls
