@@ -1,9 +1,9 @@
 {
-  "generated": "20260822-202906",
+  "generated": "20260822-203107",
   "game_version": "1.22.7",
   "check_ts": "20260822-200110",
   "latest_engine": "1.22.7",
-  "restart_needed": "20260822-202738",
+  "restart_needed": null,
   "last_deploy_ts": "20260822-202738",
   "modset": {
     "server_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset.zip",
@@ -2660,7 +2660,7 @@
         "blocksBroken": 15556,
         "blocksPlaced": 1086,
         "deepestY": 1,
-        "lastSeen": 1787423189,
+        "lastSeen": 1787423461,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
