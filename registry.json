@@ -1,5 +1,5 @@
 {
-  "generated": "20260822-210508",
+  "generated": "20260822-210708",
   "game_version": "1.22.7",
   "check_ts": "20260822-200110",
   "latest_engine": "1.22.7",
@@ -2655,12 +2655,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 232.0,
-        "blocksTravelled": 310149,
+        "playtimeHours": 232.1,
+        "blocksTravelled": 310185,
         "blocksBroken": 15579,
         "blocksPlaced": 1104,
         "deepestY": 1,
-        "lastSeen": 1787425456,
+        "lastSeen": 1787425568,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -3078,11 +3078,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 573.5,
-        "blocksTravelled": 549927,
-        "blocksBroken": 32447,
+        "blocksTravelled": 550145,
+        "blocksBroken": 32449,
         "blocksPlaced": 11511,
         "deepestY": 1,
-        "lastSeen": 1787425456,
+        "lastSeen": 1787425568,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3227,8 +3227,8 @@
         "class": "mason",
         "deaths": 2,
         "mobKills": 399,
-        "mealsEaten": 592,
-        "caloriesConsumed": 178813,
+        "mealsEaten": 594,
+        "caloriesConsumed": 180213,
         "lastMeal": "Smoked Blood Sausage",
         "mealsByName": {
           "Cranberry": 25,
@@ -3281,7 +3281,7 @@
           "Earthy brown ceramic bowl of jam": 2,
           "Tender redmeat": 5,
           "Earthy orange ceramic bowl of vegetable stew": 4,
-          "Smoked Blood Sausage": 12,
+          "Smoked Blood Sausage": 14,
           "Earthy orange ceramic bowl of hot pasta": 2,
           "Cooked redmeat nuggets": 1,
           "Earthy brown ceramic bowl of hot pasta": 4,
@@ -3293,7 +3293,7 @@
         "foodCatCounts": {
           "Fruit": 288,
           "Grain": 224,
-          "Protein": 219,
+          "Protein": 221,
           "Vegetable": 179,
           "Dairy": 65
         },
@@ -3301,12 +3301,12 @@
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 722.3,
-        "blocksTravelled": 470528,
+        "playtimeHours": 722.4,
+        "blocksTravelled": 470817,
         "blocksBroken": 18419,
-        "blocksPlaced": 11841,
+        "blocksPlaced": 11842,
         "deepestY": 12,
-        "lastSeen": 1787425456,
+        "lastSeen": 1787425568,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3563,11 +3563,11 @@
           "bear-brown-adult-male": 1
         },
         "playtimeHours": 29.1,
-        "blocksTravelled": 54608,
+        "blocksTravelled": 54623,
         "blocksBroken": 1948,
         "blocksPlaced": 607,
         "deepestY": 64,
-        "lastSeen": 1787425456,
+        "lastSeen": 1787425568,
         "gear": [
           "Mooncloth robe",
           "Tailor blouse",
