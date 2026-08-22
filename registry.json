@@ -1,5 +1,5 @@
 {
-  "generated": "20260822-194504",
+  "generated": "20260822-194704",
   "game_version": "1.22.7",
   "check_ts": "20260822-171124",
   "latest_engine": "1.22.7",
@@ -2654,12 +2654,12 @@
           "shiver-corrupt": 3,
           "pantherinae-panthera-adult-female-tigris-normal": 1
         },
-        "playtimeHours": 230.8,
+        "playtimeHours": 230.9,
         "blocksTravelled": 306679,
         "blocksBroken": 15555,
         "blocksPlaced": 1081,
         "deepestY": 1,
-        "lastSeen": 1787420614,
+        "lastSeen": 1787420818,
         "gear": [
           "Messenger hat",
           "Embroidered tartar scarf",
@@ -2973,9 +2973,9 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 26,
-        "mobKills": 892,
-        "mealsEaten": 1724,
-        "caloriesConsumed": 321223,
+        "mobKills": 893,
+        "mealsEaten": 1726,
+        "caloriesConsumed": 321564,
         "lastMeal": "Earthy orange ceramic bowl of soup",
         "mealsByName": {
           "Meat pie": 45,
@@ -3031,7 +3031,7 @@
           "Blackberry pie": 8,
           "Earthy orange ceramic bowl of jam": 14,
           "Cabbage": 1,
-          "Earthy orange ceramic bowl of soup": 4,
+          "Earthy orange ceramic bowl of soup": 6,
           "Fruit pie": 10,
           "Cranberry pie": 2,
           "Blueberry pie": 5,
@@ -3061,9 +3061,9 @@
           "Earthy orange ceramic bowl of cold pasta": 4
         },
         "foodCatCounts": {
-          "Grain": 317,
-          "Protein": 367,
-          "Vegetable": 443,
+          "Grain": 319,
+          "Protein": 369,
+          "Vegetable": 445,
           "Fruit": 1081,
           "Dairy": 65
         },
@@ -3077,11 +3077,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 572.5,
-        "blocksTravelled": 545407,
+        "blocksTravelled": 545706,
         "blocksBroken": 32350,
         "blocksPlaced": 11472,
         "deepestY": 1,
-        "lastSeen": 1787420614,
+        "lastSeen": 1787420818,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3195,8 +3195,8 @@
           },
           {
             "slot": "bag-4",
-            "code": "game:backpack-normal",
-            "name": "Leather backpack"
+            "code": "butchering:deadsheep-female-mouflon-1-dead",
+            "name": "Sheep (dead)"
           }
         ],
         "skin": {
@@ -3225,10 +3225,10 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 2,
-        "mobKills": 392,
-        "mealsEaten": 583,
-        "caloriesConsumed": 176639,
-        "lastMeal": "Earthy orange ceramic bowl of soup",
+        "mobKills": 393,
+        "mealsEaten": 584,
+        "caloriesConsumed": 176813,
+        "lastMeal": "Earthy brown ceramic bowl of soup",
         "mealsByName": {
           "Cranberry": 25,
           "Meat pie": 20,
@@ -3284,28 +3284,28 @@
           "Earthy orange ceramic bowl of hot pasta": 2,
           "Cooked redmeat nuggets": 1,
           "Earthy brown ceramic bowl of hot pasta": 4,
-          "Earthy brown ceramic bowl of soup": 3,
+          "Earthy brown ceramic bowl of soup": 4,
           "Earthy brown ceramic bowl of cold pasta": 3,
           "Small potion flask": 2,
           "Earthy orange ceramic bowl of cold pasta": 1
         },
         "foodCatCounts": {
           "Fruit": 288,
-          "Grain": 223,
-          "Protein": 216,
-          "Vegetable": 172,
+          "Grain": 224,
+          "Protein": 217,
+          "Vegetable": 173,
           "Dairy": 65
         },
         "deathCauses": {
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 721.2,
-        "blocksTravelled": 466393,
-        "blocksBroken": 17300,
+        "playtimeHours": 721.3,
+        "blocksTravelled": 466840,
+        "blocksBroken": 17301,
         "blocksPlaced": 11831,
         "deepestY": 12,
-        "lastSeen": 1787420614,
+        "lastSeen": 1787420818,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
