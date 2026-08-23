@@ -1,5 +1,5 @@
 {
-  "generated": "20260823-214001",
+  "generated": "20260823-214201",
   "game_version": "1.22.7",
   "check_ts": "20260822-200110",
   "latest_engine": "1.22.7",
@@ -2964,8 +2964,8 @@
         "class": "homesteader",
         "deaths": 26,
         "mobKills": 967,
-        "mealsEaten": 1841,
-        "caloriesConsumed": 354203,
+        "mealsEaten": 1842,
+        "caloriesConsumed": 354283,
         "lastMeal": "Blackcurrant",
         "mealsByName": {
           "Meat pie": 45,
@@ -2977,7 +2977,7 @@
           "Leather-bound Oak Tankard": 1,
           "Syrup-covered muffin": 14,
           "Cranberry": 47,
-          "Blackcurrant": 126,
+          "Blackcurrant": 127,
           "Pear pie": 4,
           "Cooked dumplings": 7,
           "Almond mushroom": 1,
@@ -3054,7 +3054,7 @@
           "Grain": 377,
           "Protein": 426,
           "Vegetable": 533,
-          "Fruit": 1087,
+          "Fruit": 1088,
           "Dairy": 65
         },
         "deathCauses": {
@@ -3066,12 +3066,12 @@
           "wolf-eurasian-adult-male": 3,
           "shiver-surface": 1
         },
-        "playtimeHours": 598.0,
-        "blocksTravelled": 578720,
+        "playtimeHours": 598.1,
+        "blocksTravelled": 579103,
         "blocksBroken": 34102,
         "blocksPlaced": 11761,
         "deepestY": 1,
-        "lastSeen": 1787513935,
+        "lastSeen": 1787514099,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3297,11 +3297,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 746.9,
-        "blocksTravelled": 500614,
-        "blocksBroken": 19784,
-        "blocksPlaced": 12743,
+        "blocksTravelled": 500968,
+        "blocksBroken": 19789,
+        "blocksPlaced": 12744,
         "deepestY": 12,
-        "lastSeen": 1787513935,
+        "lastSeen": 1787514099,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
