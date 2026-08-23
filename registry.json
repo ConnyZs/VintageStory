@@ -1,5 +1,5 @@
 {
-  "generated": "20260823-201556",
+  "generated": "20260823-201756",
   "game_version": "1.22.7",
   "check_ts": "20260822-200110",
   "latest_engine": "1.22.7",
@@ -3066,12 +3066,12 @@
           "wolf-eurasian-adult-male": 3,
           "shiver-surface": 1
         },
-        "playtimeHours": 596.6,
-        "blocksTravelled": 568621,
-        "blocksBroken": 33824,
-        "blocksPlaced": 11643,
+        "playtimeHours": 596.7,
+        "blocksTravelled": 568795,
+        "blocksBroken": 33825,
+        "blocksPlaced": 11646,
         "deepestY": 1,
-        "lastSeen": 1787508890,
+        "lastSeen": 1787509010,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3216,9 +3216,9 @@
         "class": "mason",
         "deaths": 2,
         "mobKills": 403,
-        "mealsEaten": 612,
-        "caloriesConsumed": 192331,
-        "lastMeal": "Earthy orange ceramic bowl of cold pasta",
+        "mealsEaten": 613,
+        "caloriesConsumed": 192757,
+        "lastMeal": "Earthy orange ceramic bowl of hot pasta",
         "mealsByName": {
           "Cranberry": 25,
           "Meat pie": 20,
@@ -3271,7 +3271,7 @@
           "Tender redmeat": 5,
           "Earthy orange ceramic bowl of vegetable stew": 4,
           "Smoked Blood Sausage": 16,
-          "Earthy orange ceramic bowl of hot pasta": 4,
+          "Earthy orange ceramic bowl of hot pasta": 5,
           "Cooked redmeat nuggets": 1,
           "Earthy brown ceramic bowl of hot pasta": 6,
           "Earthy brown ceramic bowl of soup": 4,
@@ -3281,8 +3281,8 @@
         },
         "foodCatCounts": {
           "Fruit": 288,
-          "Grain": 240,
-          "Protein": 239,
+          "Grain": 241,
+          "Protein": 240,
           "Vegetable": 191,
           "Dairy": 65
         },
@@ -3291,11 +3291,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 745.5,
-        "blocksTravelled": 490559,
+        "blocksTravelled": 490912,
         "blocksBroken": 19392,
         "blocksPlaced": 12678,
         "deepestY": 12,
-        "lastSeen": 1787508890,
+        "lastSeen": 1787509010,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
