@@ -1,5 +1,5 @@
 {
-  "generated": "20260823-214401",
+  "generated": "20260823-214601",
   "game_version": "1.22.7",
   "check_ts": "20260822-200110",
   "latest_engine": "1.22.7",
@@ -2963,10 +2963,10 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 26,
-        "mobKills": 967,
-        "mealsEaten": 1842,
-        "caloriesConsumed": 354283,
-        "lastMeal": "Blackcurrant",
+        "mobKills": 968,
+        "mealsEaten": 1849,
+        "caloriesConsumed": 354703,
+        "lastMeal": "Cranberry",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
@@ -2976,7 +2976,7 @@
           "Rye bread": 8,
           "Leather-bound Oak Tankard": 1,
           "Syrup-covered muffin": 14,
-          "Cranberry": 47,
+          "Cranberry": 54,
           "Blackcurrant": 127,
           "Pear pie": 4,
           "Cooked dumplings": 7,
@@ -3054,7 +3054,7 @@
           "Grain": 377,
           "Protein": 426,
           "Vegetable": 533,
-          "Fruit": 1088,
+          "Fruit": 1095,
           "Dairy": 65
         },
         "deathCauses": {
@@ -3067,11 +3067,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 598.1,
-        "blocksTravelled": 579146,
+        "blocksTravelled": 579476,
         "blocksBroken": 34102,
-        "blocksPlaced": 11761,
+        "blocksPlaced": 11770,
         "deepestY": 1,
-        "lastSeen": 1787514175,
+        "lastSeen": 1787514295,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3296,12 +3296,12 @@
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 746.9,
-        "blocksTravelled": 501008,
-        "blocksBroken": 19794,
-        "blocksPlaced": 12744,
+        "playtimeHours": 747.0,
+        "blocksTravelled": 501292,
+        "blocksBroken": 19813,
+        "blocksPlaced": 12745,
         "deepestY": 12,
-        "lastSeen": 1787514175,
+        "lastSeen": 1787514295,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
