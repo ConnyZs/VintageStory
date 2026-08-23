@@ -1,5 +1,5 @@
 {
-  "generated": "20260823-202957",
+  "generated": "20260823-203157",
   "game_version": "1.22.7",
   "check_ts": "20260822-200110",
   "latest_engine": "1.22.7",
@@ -2964,9 +2964,9 @@
         "class": "homesteader",
         "deaths": 26,
         "mobKills": 932,
-        "mealsEaten": 1820,
-        "caloriesConsumed": 352628,
-        "lastMeal": "Earthy orange ceramic bowl of hot pasta",
+        "mealsEaten": 1824,
+        "caloriesConsumed": 353028,
+        "lastMeal": "Turnip",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
@@ -2984,7 +2984,7 @@
           "Redcurrant": 252,
           "Carrot": 42,
           "Field mushroom": 1,
-          "Turnip": 17,
+          "Turnip": 21,
           "Puffball": 21,
           "Tinder hoof": 6,
           "Raspberry": 6,
@@ -3053,7 +3053,7 @@
         "foodCatCounts": {
           "Grain": 367,
           "Protein": 426,
-          "Vegetable": 528,
+          "Vegetable": 532,
           "Fruit": 1081,
           "Dairy": 65
         },
@@ -3067,11 +3067,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 596.9,
-        "blocksTravelled": 570567,
-        "blocksBroken": 33837,
+        "blocksTravelled": 570762,
+        "blocksBroken": 33883,
         "blocksPlaced": 11651,
         "deepestY": 1,
-        "lastSeen": 1787509731,
+        "lastSeen": 1787509874,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3291,11 +3291,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 745.7,
-        "blocksTravelled": 492586,
-        "blocksBroken": 19419,
+        "blocksTravelled": 492798,
+        "blocksBroken": 19445,
         "blocksPlaced": 12678,
         "deepestY": 12,
-        "lastSeen": 1787509731,
+        "lastSeen": 1787509874,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
