@@ -1,5 +1,5 @@
 {
-  "generated": "20260823-222004",
+  "generated": "20260823-222204",
   "game_version": "1.22.7",
   "check_ts": "20260822-200110",
   "latest_engine": "1.22.7",
@@ -2963,7 +2963,7 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 26,
-        "mobKills": 977,
+        "mobKills": 978,
         "mealsEaten": 1888,
         "caloriesConsumed": 357503,
         "lastMeal": "Blackberry",
@@ -3067,11 +3067,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 598.7,
-        "blocksTravelled": 583505,
-        "blocksBroken": 34184,
-        "blocksPlaced": 11844,
+        "blocksTravelled": 583721,
+        "blocksBroken": 34188,
+        "blocksPlaced": 11845,
         "deepestY": 1,
-        "lastSeen": 1787516336,
+        "lastSeen": 1787516515,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3221,7 +3221,7 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 2,
-        "mobKills": 414,
+        "mobKills": 416,
         "mealsEaten": 613,
         "caloriesConsumed": 192757,
         "lastMeal": "Earthy orange ceramic bowl of hot pasta",
@@ -3296,12 +3296,12 @@
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 747.5,
-        "blocksTravelled": 505552,
+        "playtimeHours": 747.6,
+        "blocksTravelled": 505782,
         "blocksBroken": 19963,
         "blocksPlaced": 12763,
         "deepestY": 12,
-        "lastSeen": 1787516336,
+        "lastSeen": 1787516515,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3314,7 +3314,8 @@
           "Miner mask",
           "Sturdy belt",
           "Large silver bracelets",
-          "Fur coat"
+          "Fur coat",
+          "Body lamellar (Wood)"
         ],
         "gearDetail": [
           {
@@ -3384,6 +3385,11 @@
             "code": "game:clothes-upperbodyover-fur-coat",
             "name": "Fur coat",
             "icon": "character/icons/upperbodyover-fur-coat.png"
+          },
+          {
+            "slot": "armorbody",
+            "code": "game:armor-body-lamellar-wood",
+            "name": "Body lamellar (Wood)"
           },
           {
             "slot": "bag-1",
