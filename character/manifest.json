@@ -61,13 +61,13 @@
     "Rotten king collar",
     "Prince emblem",
     "Sheep skull mask",
-    "Forlorn Hope belt",
+    "Alchemist belt",
     "Leather bracers",
     "Fur coat",
     "Fur coat"
    ],
    "frames": 16,
-   "v": 1787513301
+   "v": 1787517745
   },
   "Moritz": {
    "class": "mason",
@@ -84,12 +84,12 @@
     "Scribe gloves",
     "Gold gear amulet",
     "Messenger pin",
-    "Miner mask",
     "Sturdy belt",
-    "Large silver bracelets"
+    "Large silver bracelets",
+    "Fortune teller vest"
    ],
    "frames": 16,
-   "v": 1787517624
+   "v": 1787517764
   },
   "Barberschascher": {
    "class": "miner",

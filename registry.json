@@ -1,5 +1,5 @@
 {
-  "generated": "20260823-224005",
+  "generated": "20260823-224205",
   "game_version": "1.22.7",
   "check_ts": "20260822-200110",
   "latest_engine": "1.22.7",
@@ -3066,12 +3066,12 @@
           "wolf-eurasian-adult-male": 3,
           "shiver-surface": 1
         },
-        "playtimeHours": 599.0,
-        "blocksTravelled": 585196,
-        "blocksBroken": 34237,
-        "blocksPlaced": 11870,
+        "playtimeHours": 599.1,
+        "blocksTravelled": 585359,
+        "blocksBroken": 34238,
+        "blocksPlaced": 11876,
         "deepestY": 1,
-        "lastSeen": 1787517537,
+        "lastSeen": 1787517723,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3082,7 +3082,7 @@
           "Rotten king collar",
           "Prince emblem",
           "Sheep skull mask",
-          "Forlorn Hope belt",
+          "Alchemist belt",
           "Leather bracers",
           "Fur coat",
           "Tailored gamboised leg armor",
@@ -3143,9 +3143,9 @@
           },
           {
             "slot": "waist",
-            "code": "game:clothes-waist-forlorn-belt",
-            "name": "Forlorn Hope belt",
-            "icon": "character/icons/waist-forlorn-belt.png"
+            "code": "game:clothes-waist-alchemist",
+            "name": "Alchemist belt",
+            "icon": "character/icons/waist-alchemist.png"
           },
           {
             "slot": "arm",
@@ -3297,11 +3297,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 747.9,
-        "blocksTravelled": 507286,
+        "blocksTravelled": 507492,
         "blocksBroken": 19969,
-        "blocksPlaced": 12770,
+        "blocksPlaced": 12772,
         "deepestY": 12,
-        "lastSeen": 1787517537,
+        "lastSeen": 1787517723,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3311,9 +3311,9 @@
           "Scribe gloves",
           "Gold gear amulet",
           "Messenger pin",
-          "Miner mask",
           "Sturdy belt",
-          "Large silver bracelets"
+          "Large silver bracelets",
+          "Fortune teller vest"
         ],
         "gearDetail": [
           {
@@ -3362,12 +3362,6 @@
             "name": "Messenger pin"
           },
           {
-            "slot": "face",
-            "code": "game:clothes-face-miner",
-            "name": "Miner mask",
-            "icon": "character/icons/face-miner.png"
-          },
-          {
             "slot": "waist",
             "code": "game:clothes-waist-sturdy-belt",
             "name": "Sturdy belt",
@@ -3377,6 +3371,12 @@
             "slot": "arm",
             "code": "game:clothes-arm-large-silver-bracelets",
             "name": "Large silver bracelets"
+          },
+          {
+            "slot": "upperbodyover",
+            "code": "game:clothes-upperbodyover-fortuneteller",
+            "name": "Fortune teller vest",
+            "icon": "character/icons/upperbodyover-fortuneteller.png"
           },
           {
             "slot": "bag-1",
