@@ -1,5 +1,5 @@
 {
-  "generated": "20260823-205558",
+  "generated": "20260823-205758",
   "game_version": "1.22.7",
   "check_ts": "20260822-200110",
   "latest_engine": "1.22.7",
@@ -3067,11 +3067,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 597.3,
-        "blocksTravelled": 573799,
+        "blocksTravelled": 573917,
         "blocksBroken": 33960,
         "blocksPlaced": 11691,
         "deepestY": 1,
-        "lastSeen": 1787511292,
+        "lastSeen": 1787511413,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3290,12 +3290,12 @@
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 746.1,
-        "blocksTravelled": 496047,
+        "playtimeHours": 746.2,
+        "blocksTravelled": 496157,
         "blocksBroken": 19506,
-        "blocksPlaced": 12700,
+        "blocksPlaced": 12701,
         "deepestY": 12,
-        "lastSeen": 1787511292,
+        "lastSeen": 1787511413,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
