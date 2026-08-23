@@ -86,12 +86,10 @@
     "Messenger pin",
     "Miner mask",
     "Sturdy belt",
-    "Large silver bracelets",
-    "Fur coat",
-    "Fur coat"
+    "Large silver bracelets"
    ],
    "frames": 16,
-   "v": 1787516543
+   "v": 1787517624
   },
   "Barberschascher": {
    "class": "miner",

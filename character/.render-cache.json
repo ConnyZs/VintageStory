@@ -48,7 +48,7 @@
   }
  },
  "Moritz": {
-  "hash": "f0c2e303c8380f3903ebc0ce7aba7441cafb60e9",
+  "hash": "70333db543ed07f65e5dcbb2ad81da0bd4ebd6d6",
   "info": {
    "class": "mason",
    "items": [
@@ -66,12 +66,10 @@
     "Messenger pin",
     "Miner mask",
     "Sturdy belt",
-    "Large silver bracelets",
-    "Fur coat",
-    "Fur coat"
+    "Large silver bracelets"
    ],
    "frames": 16,
-   "v": 1787516543
+   "v": 1787517624
   }
  },
  "AddyBuschu": {

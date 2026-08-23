@@ -1,5 +1,5 @@
 {
-  "generated": "20260823-223805",
+  "generated": "20260823-224005",
   "game_version": "1.22.7",
   "check_ts": "20260822-200110",
   "latest_engine": "1.22.7",
@@ -3067,11 +3067,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 599.0,
-        "blocksTravelled": 585133,
-        "blocksBroken": 34235,
-        "blocksPlaced": 11867,
+        "blocksTravelled": 585196,
+        "blocksBroken": 34237,
+        "blocksPlaced": 11870,
         "deepestY": 1,
-        "lastSeen": 1787517421,
+        "lastSeen": 1787517537,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3296,12 +3296,12 @@
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 747.8,
-        "blocksTravelled": 507151,
+        "playtimeHours": 747.9,
+        "blocksTravelled": 507286,
         "blocksBroken": 19969,
         "blocksPlaced": 12770,
         "deepestY": 12,
-        "lastSeen": 1787517421,
+        "lastSeen": 1787517537,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
@@ -3313,9 +3313,7 @@
           "Messenger pin",
           "Miner mask",
           "Sturdy belt",
-          "Large silver bracelets",
-          "Fur coat",
-          "Body lamellar (Wood)"
+          "Large silver bracelets"
         ],
         "gearDetail": [
           {
@@ -3379,17 +3377,6 @@
             "slot": "arm",
             "code": "game:clothes-arm-large-silver-bracelets",
             "name": "Large silver bracelets"
-          },
-          {
-            "slot": "upperbodyover",
-            "code": "game:clothes-upperbodyover-fur-coat",
-            "name": "Fur coat",
-            "icon": "character/icons/upperbodyover-fur-coat.png"
-          },
-          {
-            "slot": "armorbody",
-            "code": "game:armor-body-lamellar-wood",
-            "name": "Body lamellar (Wood)"
           },
           {
             "slot": "bag-1",
