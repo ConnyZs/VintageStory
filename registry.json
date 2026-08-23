@@ -1,5 +1,5 @@
 {
-  "generated": "20260823-215202",
+  "generated": "20260823-215402",
   "game_version": "1.22.7",
   "check_ts": "20260822-200110",
   "latest_engine": "1.22.7",
@@ -2963,10 +2963,10 @@
         "name": "AddyBuschu",
         "class": "homesteader",
         "deaths": 26,
-        "mobKills": 973,
-        "mealsEaten": 1856,
-        "caloriesConsumed": 355203,
-        "lastMeal": "Redcurrant",
+        "mobKills": 974,
+        "mealsEaten": 1868,
+        "caloriesConsumed": 355923,
+        "lastMeal": "Spelt grain",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
@@ -3016,7 +3016,7 @@
           "Parsnip": 10,
           "Shiitake": 2,
           "Onion": 6,
-          "Spelt grain": 40,
+          "Spelt grain": 52,
           "Smoked Plain Primemeat": 14,
           "Blackberry pie": 8,
           "Earthy orange ceramic bowl of jam": 14,
@@ -3051,7 +3051,7 @@
           "Earthy orange ceramic bowl of cold pasta": 15
         },
         "foodCatCounts": {
-          "Grain": 377,
+          "Grain": 389,
           "Protein": 426,
           "Vegetable": 533,
           "Fruit": 1102,
@@ -3066,12 +3066,12 @@
           "wolf-eurasian-adult-male": 3,
           "shiver-surface": 1
         },
-        "playtimeHours": 598.2,
-        "blocksTravelled": 580413,
-        "blocksBroken": 34104,
-        "blocksPlaced": 11770,
+        "playtimeHours": 598.3,
+        "blocksTravelled": 580605,
+        "blocksBroken": 34156,
+        "blocksPlaced": 11771,
         "deepestY": 1,
-        "lastSeen": 1787514703,
+        "lastSeen": 1787514775,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3297,11 +3297,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 747.1,
-        "blocksTravelled": 502197,
-        "blocksBroken": 19819,
+        "blocksTravelled": 502429,
+        "blocksBroken": 19830,
         "blocksPlaced": 12745,
         "deepestY": 12,
-        "lastSeen": 1787514703,
+        "lastSeen": 1787514775,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
