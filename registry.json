@@ -1,5 +1,5 @@
 {
-  "generated": "20260823-212600",
+  "generated": "20260823-212800",
   "game_version": "1.22.7",
   "check_ts": "20260822-200110",
   "latest_engine": "1.22.7",
@@ -2964,9 +2964,9 @@
         "class": "homesteader",
         "deaths": 26,
         "mobKills": 956,
-        "mealsEaten": 1825,
-        "caloriesConsumed": 353108,
-        "lastMeal": "Dryad saddle",
+        "mealsEaten": 1834,
+        "caloriesConsumed": 353648,
+        "lastMeal": "Spelt grain",
         "mealsByName": {
           "Meat pie": 45,
           "Smoked Plain Bushmeat": 3,
@@ -3016,7 +3016,7 @@
           "Parsnip": 10,
           "Shiitake": 2,
           "Onion": 6,
-          "Spelt grain": 31,
+          "Spelt grain": 40,
           "Smoked Plain Primemeat": 14,
           "Blackberry pie": 8,
           "Earthy orange ceramic bowl of jam": 14,
@@ -3051,7 +3051,7 @@
           "Earthy orange ceramic bowl of cold pasta": 15
         },
         "foodCatCounts": {
-          "Grain": 367,
+          "Grain": 376,
           "Protein": 426,
           "Vegetable": 533,
           "Fruit": 1081,
@@ -3067,11 +3067,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 597.8,
-        "blocksTravelled": 577179,
-        "blocksBroken": 34045,
-        "blocksPlaced": 11727,
+        "blocksTravelled": 577240,
+        "blocksBroken": 34055,
+        "blocksPlaced": 11729,
         "deepestY": 1,
-        "lastSeen": 1787513094,
+        "lastSeen": 1787513214,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3085,6 +3085,7 @@
           "Forlorn Hope belt",
           "Leather bracers",
           "Fur coat",
+          "Tailored gamboised leg armor",
           "Black bear hide helmet",
           "Black bear hide body armor"
         ],
@@ -3157,6 +3158,11 @@
             "code": "game:clothes-upperbodyover-fur-coat",
             "name": "Fur coat",
             "icon": "character/icons/upperbodyover-fur-coat.png"
+          },
+          {
+            "slot": "armorlegs",
+            "code": "game:armor-legs-tailored-black-linen",
+            "name": "Tailored gamboised leg armor"
           },
           {
             "slot": "armorhead",
@@ -3290,12 +3296,12 @@
           "shiver-corrupt": 1,
           "bear-brown-adult-female": 1
         },
-        "playtimeHours": 746.6,
-        "blocksTravelled": 499245,
-        "blocksBroken": 19743,
-        "blocksPlaced": 12736,
+        "playtimeHours": 746.7,
+        "blocksTravelled": 499314,
+        "blocksBroken": 19750,
+        "blocksPlaced": 12741,
         "deepestY": 12,
-        "lastSeen": 1787513094,
+        "lastSeen": 1787513214,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
