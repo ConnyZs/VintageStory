@@ -1,5 +1,5 @@
 {
-  "generated": "20260823-221804",
+  "generated": "20260823-222004",
   "game_version": "1.22.7",
   "check_ts": "20260822-200110",
   "latest_engine": "1.22.7",
@@ -2964,8 +2964,8 @@
         "class": "homesteader",
         "deaths": 26,
         "mobKills": 977,
-        "mealsEaten": 1881,
-        "caloriesConsumed": 356943,
+        "mealsEaten": 1888,
+        "caloriesConsumed": 357503,
         "lastMeal": "Blackberry",
         "mealsByName": {
           "Meat pie": 45,
@@ -2996,7 +2996,7 @@
           "Chanterelle": 1,
           "Black trumpet": 1,
           "Witch's hat": 1,
-          "Blackberry": 25,
+          "Blackberry": 32,
           "Red wine cap": 13,
           "Honeycomb": 2,
           "Green cracked russula": 13,
@@ -3054,7 +3054,7 @@
           "Grain": 389,
           "Protein": 427,
           "Vegetable": 533,
-          "Fruit": 1114,
+          "Fruit": 1121,
           "Dairy": 65
         },
         "deathCauses": {
@@ -3067,11 +3067,11 @@
           "shiver-surface": 1
         },
         "playtimeHours": 598.7,
-        "blocksTravelled": 583463,
-        "blocksBroken": 34183,
-        "blocksPlaced": 11843,
+        "blocksTravelled": 583505,
+        "blocksBroken": 34184,
+        "blocksPlaced": 11844,
         "deepestY": 1,
-        "lastSeen": 1787516216,
+        "lastSeen": 1787516336,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
@@ -3221,7 +3221,7 @@
         "name": "Moritz",
         "class": "mason",
         "deaths": 2,
-        "mobKills": 413,
+        "mobKills": 414,
         "mealsEaten": 613,
         "caloriesConsumed": 192757,
         "lastMeal": "Earthy orange ceramic bowl of hot pasta",
@@ -3297,11 +3297,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 747.5,
-        "blocksTravelled": 505491,
-        "blocksBroken": 19960,
+        "blocksTravelled": 505552,
+        "blocksBroken": 19963,
         "blocksPlaced": 12763,
         "deepestY": 12,
-        "lastSeen": 1787516216,
+        "lastSeen": 1787516336,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
