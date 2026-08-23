@@ -1,5 +1,5 @@
 {
-  "generated": "20260823-205958",
+  "generated": "20260823-210159",
   "game_version": "1.22.7",
   "check_ts": "20260822-200110",
   "latest_engine": "1.22.7",
@@ -3067,16 +3067,16 @@
           "shiver-surface": 1
         },
         "playtimeHours": 597.4,
-        "blocksTravelled": 574044,
+        "blocksTravelled": 574256,
         "blocksBroken": 33960,
         "blocksPlaced": 11692,
         "deepestY": 1,
-        "lastSeen": 1787511533,
+        "lastSeen": 1787511685,
         "gear": [
           "Rotwalker hood",
           "Rotwalker cape",
           "Tattered crimson tunic",
-          "Nomad trousers",
+          "Rotwalker leggings",
           "Nadiyan miner boots",
           "Survivor gloves",
           "Rotten king collar",
@@ -3109,9 +3109,9 @@
           },
           {
             "slot": "lowerbody",
-            "code": "game:clothes-lowerbody-nomad-trousers",
-            "name": "Nomad trousers",
-            "icon": "character/icons/lowerbody-nomad-trousers.png"
+            "code": "game:clothes-lowerbody-rotwalker",
+            "name": "Rotwalker leggings",
+            "icon": "character/icons/lowerbody-rotwalker.png"
           },
           {
             "slot": "foot",
@@ -3291,11 +3291,11 @@
           "bear-brown-adult-female": 1
         },
         "playtimeHours": 746.2,
-        "blocksTravelled": 496209,
+        "blocksTravelled": 496463,
         "blocksBroken": 19506,
-        "blocksPlaced": 12701,
+        "blocksPlaced": 12702,
         "deepestY": 12,
-        "lastSeen": 1787511533,
+        "lastSeen": 1787511685,
         "gear": [
           "Raccoon fur trapper hat",
           "Miner cape",
