@@ -1,5 +1,5 @@
 {
-  "generated": "20260824-152125",
+  "generated": "20260824-152950",
   "game_version": "1.22.7",
   "check_ts": "20260823-235312",
   "latest_engine": "1.22.7",
@@ -40,6 +40,7 @@
     "Other",
     "QOL",
     "QoL",
+    "Server tooling",
     "Server-Specific",
     "Storage",
     "Symphony",
@@ -49,7 +50,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 149,
+  "count": 151,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -437,7 +438,7 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.13.6",
-      "build_version": "1.14.1",
+      "build_version": "1.14.2",
       "build_branch": "1.22",
       "update_pending": true,
       "proposed": false
@@ -1848,9 +1849,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "0.18.6",
-      "build_version": "0.18.6",
+      "build_version": "0.18.7",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -1865,9 +1866,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.11.0",
-      "build_version": "1.11.0",
+      "build_version": "1.11.1",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -2171,9 +2172,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.2.9",
-      "build_version": "1.2.9",
+      "build_version": "1.3.0",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -2483,6 +2484,23 @@
       "proposed": false
     },
     {
+      "name": "Frontier's Map",
+      "modid": "frontiersmap",
+      "section": "1.22",
+      "category": "Crafting",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/show/mod/53436",
+      "server_only": false,
+      "server_state": "no",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": null,
+      "build_version": "2.0.0",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": true
+    },
+    {
       "name": "smithingplus",
       "modid": "smithingplus",
       "section": "1.22",
@@ -2592,6 +2610,25 @@
       "build_version": "1.0.3",
       "build_branch": null,
       "update_pending": false,
+      "proposed": false,
+      "custom": true,
+      "client_only": false
+    },
+    {
+      "name": "Dashboard Stats Exporter",
+      "modid": "dashboardstats",
+      "section": "1.22",
+      "category": "Server tooling",
+      "on_server": true,
+      "link": null,
+      "repo_link": "https://github.com/ConnyZs/vs-dashboardstats",
+      "server_state": "yes",
+      "avail": "available",
+      "note": "server-only \u2014 exports Crew tab stats, also in SERVER_ONLY_MODS",
+      "version": "0.1.2",
+      "build_version": "0.1.3",
+      "build_branch": null,
+      "update_pending": true,
       "proposed": false,
       "custom": true,
       "client_only": false

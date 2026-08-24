@@ -142,9 +142,11 @@ Real Smoke & QP's Chisel Tools Compatibility Patch 1.22,https://mods.vintagestor
 OptiTime,https://mods.vintagestory.at/optitime,Utility,optional,no,available for 1.22 (installs on update),optitime,available,1.5.16
 Synergy,https://mods.vintagestory.at/synergy,Utility,1.22,yes,available for 1.22 (installs on update),synergy,available,1.1.25
 Tungsten,https://mods.vintagestory.at/tungsten,Utility,1.22,yes,available for 1.22 (installs on update),tungsten,available,1.3.7
+Frontier's Map,https://mods.vintagestory.at/show/mod/53436,Crafting,1.22,no,available for 1.22 (installs on update),frontiersmap,available,
 smithingplus,,Misc.,1.22,yes,,smithingplus,available,1.8.8
 Windmill Sail Fix,,Misc.,1.22,,,windmillsailfix,available,2.0.2
 Labeled Trunks,,Storage,1.22,yes,,labeledtrunk,available,1.1.13
 Weapon Pack Alpha (quenchable),,Misc.,1.22,yes,"custom 1.9.0 build — quenching, tempering and sharpening added",weaponpackalphaunoff,available,1.9.0
 Flowers & Mushrooms Cultivation,,Tweak,1.22,yes,custom mod — cultivate alchemy flowers and mushrooms in garden beds,floramycology,available,1.0.1
 All Helve Workable,,Tweak,1.22,yes,custom build — makes all anvil recipes fully workable by the helve hammer (client+server),allhelveworkable,available,1.0.3
+Dashboard Stats Exporter,,Server tooling,1.22,yes,"server-only — exports Crew tab stats, also in SERVER_ONLY_MODS",dashboardstats,available,0.1.2
