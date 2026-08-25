@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-25T16:12:05Z",
+  "generated": "20260825-181346",
   "game_version": "1.22.7",
-  "check_ts": "20260824-200104",
+  "check_ts": "20260825-181346",
   "latest_engine": "1.22.7",
   "restart_needed": null,
   "last_deploy_ts": "20260822-202738",
@@ -50,7 +50,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 151,
+  "count": 150,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -438,7 +438,7 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.13.6",
-      "build_version": "1.14.2",
+      "build_version": "1.14.3",
       "build_branch": "1.22",
       "update_pending": true,
       "proposed": false
@@ -2410,9 +2410,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "0.5.1",
-      "build_version": "0.5.1",
+      "build_version": "0.5.2",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
