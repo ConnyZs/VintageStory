@@ -1,8 +1,17 @@
 {
   "game_version": "1.22.7",
-  "generated": "20260822-202541",
-  "count": 137,
+  "generated": "20260825-183236",
+  "count": 138,
   "mods": [
+    {
+      "filename": "ExtraInfo-v2.2.1.zip",
+      "sha256": "4d6058abbb1e30640db8a8b67b8eba7030da1bc80bc8410a6f6c1fcfb532ca44",
+      "size": 80671,
+      "modid": "extrainfo",
+      "version": "2.2.1",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/ExtraInfo-v2.2.1.zip"
+    },
     {
       "filename": "windmillsailfix.zip",
       "sha256": "265947d48b78820a7f5dc1520046ac1150c7e956098be9ed8ef67078af6c4c8a",
@@ -364,13 +373,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/RealSmokeQPPatch1.0.1.zip"
     },
     {
-      "filename": "ResonatorOverhaul1.2.9.zip",
-      "sha256": "046897cc5d53244ebd51c0e4faddc436b362a34d01518f8bc89e6749be362b35",
-      "size": 18178,
+      "filename": "ResonatorOverhaul1.3.0.zip",
+      "sha256": "941ddf6088604024bf7fac868a51ffb8660c75f38dcb02a1047c5b937a62d05d",
+      "size": 20600,
       "modid": "resonatoroverhaul",
-      "version": "1.2.9",
+      "version": "1.3.0",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/ResonatorOverhaul1.2.9.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/ResonatorOverhaul1.3.0.zip"
     },
     {
       "filename": "Sammiches_v1.3.0.zip",
@@ -400,13 +409,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/SewingCommoner.zip"
     },
     {
-      "filename": "SmithingPlus_1.8.8_1.22.zip",
-      "sha256": "277a066934de26c905e58963e98884136002d4eb7c1b8a771b9dc9e36df3857f",
-      "size": 202650,
+      "filename": "SmithingPlus_1.8.10_1.22.zip",
+      "sha256": "5fcb79737b090305cf256128de3cebaf34a80015ead867740c8189b7a2f995b1",
+      "size": 198279,
       "modid": "smithingplus",
-      "version": "1.8.8",
+      "version": "1.8.10",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/SmithingPlus_1.8.8_1.22.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/SmithingPlus_1.8.10_1.22.zip"
     },
     {
       "filename": "StoneQuarryRepacked.3.6.3.zip",
@@ -553,13 +562,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/Zipline_1.0.8.zip"
     },
     {
-      "filename": "additivechiseling_0.5.1.zip",
-      "sha256": "79ceb5fe47ead0f81fc07b5600af4b7ce49350408e729437780e5fc483b7fa9c",
-      "size": 155671,
+      "filename": "additivechiseling_0.5.2.zip",
+      "sha256": "7ccab2307ab5a5d24823027286e992bcf817a4714294245ce73aa78e2c41f88f",
+      "size": 171570,
       "modid": "additivechiseling",
-      "version": "0.5.1",
+      "version": "0.5.2",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/additivechiseling_0.5.1.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/additivechiseling_0.5.2.zip"
     },
     {
       "filename": "adventurers-walking-stick-net10_3.0.10.zip",
@@ -580,13 +589,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/airthermomod_0.5.0.zip"
     },
     {
-      "filename": "alchemy_2.1.19.zip",
-      "sha256": "7ca5a6412cd9440ddbdacf047b41e43bba53b78decccca6063a5615e83becb81",
-      "size": 2336736,
+      "filename": "alchemy_2.1.21.zip",
+      "sha256": "c6ded652355e6217992d974ec98d934d95641516141651600a23be68de10a512",
+      "size": 2338129,
       "modid": "alchemy",
-      "version": "2.1.19",
+      "version": "2.1.21",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/alchemy_2.1.19.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/alchemy_2.1.21.zip"
     },
     {
       "filename": "algernonsterrainsampler_1.3.0.zip",
@@ -670,13 +679,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/apelanterns-v1.22.0-1.4.3.zip"
     },
     {
-      "filename": "armoryfork_1.11.0.zip",
-      "sha256": "29af453d7a4733cf3c736f1ce67de5905b8faeb5596ecb13c79ca9e23f731e76",
-      "size": 1470586,
+      "filename": "armoryfork_1.11.1.zip",
+      "sha256": "3c7b5938cd6798d0aa6a381f873106685496e7a9abb4c14ae6f3d3e322dedef0",
+      "size": 1470115,
       "modid": "armoryfork",
-      "version": "1.11.0",
+      "version": "1.11.1",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/armoryfork_1.11.0.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/armoryfork_1.11.1.zip"
     },
     {
       "filename": "arrowbarrels-V1.22.0-1.5.1.zip",
@@ -733,13 +742,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/bricklayers-3.3.0.zip"
     },
     {
-      "filename": "butchering_1.13.6.zip",
-      "sha256": "f29135a42193e3033d2e0470c6370bdd8f19cfd63eb6d7ed7636f93327da4e6d",
-      "size": 1716206,
+      "filename": "butchering_1.14.3.zip",
+      "sha256": "8332a390c42677ab4376e8817ef93e8835b3f074e9cd3fe534ff32a8d5508862",
+      "size": 1727389,
       "modid": "butchering",
-      "version": "1.13.6",
+      "version": "1.14.3",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/butchering_1.13.6.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/butchering_1.14.3.zip"
     },
     {
       "filename": "buzzwords_1.8.2.zip",
@@ -751,13 +760,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/buzzwords_1.8.2.zip"
     },
     {
-      "filename": "canjewelry_0.6.24.zip",
-      "sha256": "2b5f10260cb5f86432eaaf9454724b48f9e014a96623502863d50719c2910573",
-      "size": 706203,
+      "filename": "canjewelry_0.7.1.zip",
+      "sha256": "3535d9756631f8f5e014cd734df86280162835229567baf5c7defa433169a84a",
+      "size": 608530,
       "modid": "canjewelry",
-      "version": "0.6.24",
+      "version": "0.7.1",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/canjewelry_0.6.24.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/canjewelry_0.7.1.zip"
     },
     {
       "filename": "chisel_leaf_1.2.1.zip",
@@ -805,13 +814,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/clayworks_0.6.1.zip"
     },
     {
-      "filename": "combatoverhaulfork_0.18.6.zip",
-      "sha256": "e6120673c908e475cb07fedb4b49dc3fc96bad8f56bc0901e6bf7f8c2b048352",
-      "size": 1702282,
+      "filename": "combatoverhaulfork_0.18.7.zip",
+      "sha256": "e5c2f62a71912107f1cd3b306e6f15d6df9fa4eed4d725855efa18b733303f61",
+      "size": 1702271,
       "modid": "combatoverhaulfork",
-      "version": "0.18.6",
+      "version": "0.18.7",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/combatoverhaulfork_0.18.6.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/combatoverhaulfork_0.18.7.zip"
     },
     {
       "filename": "configlib_1.12.0.zip",
@@ -859,13 +868,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/electricalprogressivecore_3.3.0.zip"
     },
     {
-      "filename": "expanded_matter-3.8.0.zip",
-      "sha256": "a0d39fcc6a72b933ad10c2e50cf98ab1de096fbe75fd0c100b3a7c4984fcc0d1",
-      "size": 323975,
+      "filename": "expanded_matter-3.8.1.zip",
+      "sha256": "18e9b4462276bc93f20ed38995304ef35a2a312fe6ad99748deae60d503491c5",
+      "size": 324832,
       "modid": "em",
-      "version": "3.8.0",
+      "version": "3.8.1",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/expanded_matter-3.8.0.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/expanded_matter-3.8.1.zip"
     },
     {
       "filename": "extendedcreation_1.2.5.zip",
@@ -994,13 +1003,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/ndlwoodentorchholder_3.0.3.zip"
     },
     {
-      "filename": "overhaulliblegacycompat_1.2.8.zip",
-      "sha256": "4d282aa7abaae4a8577440c6d833a384a22a3dc9b9f753131f8fcc2237ba3bd3",
+      "filename": "overhaulliblegacycompat_1.2.9.zip",
+      "sha256": "5e4342b558f3652393852134b36894471851fcc895ab808eee418b38d75dcc75",
       "size": 897881,
       "modid": "overhaulliblegacycompat",
-      "version": "1.2.8",
+      "version": "1.2.9",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/overhaulliblegacycompat_1.2.8.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/overhaulliblegacycompat_1.2.9.zip"
     },
     {
       "filename": "papierspeints1-0-1.zip",
@@ -1238,15 +1247,6 @@
     }
   ],
   "optional": [
-    {
-      "filename": "ExtraInfo-v2.2.1.zip",
-      "sha256": "4d6058abbb1e30640db8a8b67b8eba7030da1bc80bc8410a6f6c1fcfb532ca44",
-      "size": 80671,
-      "modid": "extrainfo",
-      "version": "2.2.1",
-      "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/ExtraInfo-v2.2.1.zip"
-    },
     {
       "filename": "Natural Foliage_v0.04.zip",
       "sha256": "cc8fc35262b6f2a1092bb7ba0f189a4ec78aa01284f746f72b45f067ccbd11eb",
