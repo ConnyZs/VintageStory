@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-24T13:29:15Z",
+  "updated": "2026-08-25T16:12:05Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1289,15 +1289,6 @@
       "server_state": "yes",
       "proposed": false,
       "note": "server-side only"
-    },
-    {
-      "name": "",
-      "link": "https://mods.vintagestory.at/show/mod/53436",
-      "category": "Other",
-      "section": "1.22",
-      "server_state": "no",
-      "proposed": true,
-      "note": ""
     }
   ]
 }

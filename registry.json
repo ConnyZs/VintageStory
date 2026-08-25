@@ -1,5 +1,5 @@
 {
-  "generated": "20260825-180415",
+  "generated": "2026-08-25T16:12:05Z",
   "game_version": "1.22.7",
   "check_ts": "20260824-200104",
   "latest_engine": "1.22.7",
@@ -2482,23 +2482,6 @@
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": false
-    },
-    {
-      "name": "Frontier's Map",
-      "modid": "frontiersmap",
-      "section": "1.22",
-      "category": "Crafting",
-      "on_server": false,
-      "link": "https://mods.vintagestory.at/show/mod/53436",
-      "server_only": false,
-      "server_state": "no",
-      "avail": "available",
-      "note": "available for 1.22 (installs on update)",
-      "version": null,
-      "build_version": "2.0.0",
-      "build_branch": "1.22",
-      "update_pending": false,
-      "proposed": true
     },
     {
       "name": "smithingplus",
