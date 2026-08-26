@@ -1,5 +1,5 @@
 {
-  "generated": "20260827-005341",
+  "generated": "2026-08-26T22:54:27Z",
   "game_version": "1.22.7",
   "check_ts": "20260827-005341",
   "latest_engine": "1.22.7",
@@ -2614,6 +2614,22 @@
       "proposed": false,
       "custom": true,
       "client_only": false
+    },
+    {
+      "name": "Local Only E2E Test",
+      "modid": "__test_local_only_e2e__",
+      "section": "optional",
+      "category": "Other",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/__test_local_only_e2e__",
+      "server_state": "no",
+      "avail": "not-found",
+      "note": "",
+      "version": null,
+      "build_version": null,
+      "build_branch": null,
+      "update_pending": false,
+      "proposed": false
     }
   ]
 }
