@@ -833,7 +833,11 @@ const SERAPH_SVG=`<svg viewBox="0 0 64 132" fill="none" stroke="var(--copper-glo
   <path d="M21 33 L9 70 Q8 74 12 74 M43 33 L55 70 Q56 74 52 74"/>
   <path d="M23 80 L21 124 Q21 127 25 127 M41 80 L43 124 Q43 127 39 127"/>
 </svg>`;
-const EQ_SLOTS=[["head","Head"],["face","Face"],["neck","Neck"],["shoulder","Shoulders"],["upperbody","Chest"],["upperbodyover","Over"],["arm","Arms"],["hand","Hands"],["waist","Waist"],["lowerbody","Legs"],["foot","Feet"],["emblem","Emblem"]];
+// armorhead/armorbody/armorlegs are EnumCharacterDressType's own dedicated armor slots
+// (distinct from clothescategory, which vanilla armor items never set - see ReadGear() in
+// DashboardStatsModSystem.cs) - listed right after their base-layer counterpart since armor
+// renders on top of, not instead of, the garment underneath.
+const EQ_SLOTS=[["head","Head"],["armorhead","Head Armor"],["face","Face"],["neck","Neck"],["shoulder","Shoulders"],["upperbody","Chest"],["armorbody","Body Armor"],["upperbodyover","Over"],["arm","Arms"],["hand","Hands"],["waist","Waist"],["lowerbody","Legs"],["armorlegs","Leg Armor"],["foot","Feet"],["emblem","Emblem"]];
 // Slot-type → simple SVG icon (path data only, drawn at 20×20)
 const SLOT_ICONS={
   head:`<path d="M10 3a7 7 0 0 0-7 7c0 2.5 1.3 4.7 3.2 6h7.6A7 7 0 0 0 17 10a7 7 0 0 0-7-7z" fill="none" stroke="currentColor" stroke-width="1.4"/>`,
