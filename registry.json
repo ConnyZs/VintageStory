@@ -1,5 +1,5 @@
 {
-  "generated": "20260826-200306",
+  "generated": "20260826-200445",
   "game_version": "1.22.7",
   "check_ts": "20260826-200306",
   "latest_engine": "1.22.7",
@@ -2616,6 +2616,1093 @@
       "client_only": false
     }
   ],
-  "crew": [],
-  "lastAccident": null
+  "crew": [
+    {
+      "name": "Raschuetzer",
+      "role": "admin",
+      "first_join": "04/22/2026 17:47",
+      "last_join": "08/25/2026 20:16",
+      "last_char": "04/29/2026 21:30",
+      "stats": {
+        "uid": "2JmDuoYa9MI7E/Sxze1+hvDV",
+        "name": "Raschuetzer",
+        "class": "tinker",
+        "deaths": 7,
+        "mobKills": 273,
+        "mealsEaten": 261,
+        "caloriesConsumed": 142783,
+        "lastMeal": "Earthy brown ceramic bowl of cold pasta",
+        "mealsByName": {
+          "Pear": 22,
+          "Meat pie": 10,
+          "Earthy orange ceramic bowl of meat stew": 65,
+          "Strawberry": 2,
+          "Blackcurrant": 3,
+          "Rye bread": 1,
+          "Syrup-covered muffin": 1,
+          "Leather-bound Oak Tankard": 3,
+          "Cooked dumplings": 2,
+          "Pear pie (charred)": 3,
+          "Red grapes": 7,
+          "Blackberry pie": 9,
+          "Fruit pie": 7,
+          "Cranberry pie": 7,
+          "Blackcurrant pie": 3,
+          "Syrup-covered fruit bread": 32,
+          "Black ceramic jug": 1,
+          "Blueberry": 9,
+          "Blackberry": 2,
+          "Lump of rendered fat": 3,
+          "King bolete": 2,
+          "Earthy brown ceramic bowl of meat stew": 22,
+          "Earthy orange ceramic bowl of jam": 10,
+          "Vintage redmeat sausage": 16,
+          "Small potion flask": 2,
+          "Earthy brown ceramic bowl of cold pasta": 4,
+          "Earthy brown ceramic bowl of soup": 4,
+          "Earthy orange ceramic bowl of soup": 2,
+          "Earthy orange ceramic bowl of cold pasta": 6,
+          "Earthy orange ceramic bowl of hot pasta": 1
+        },
+        "foodCatCounts": {
+          "Fruit": 120,
+          "Grain": 96,
+          "Protein": 136,
+          "Vegetable": 105,
+          "Dairy": 41
+        },
+        "deathCauses": {
+          "wolf-eurasian-adult-male": 1,
+          "internal": 1,
+          "shiver-corrupt": 3,
+          "pantherinae-panthera-adult-female-tigris-normal": 1
+        },
+        "playtimeHours": 235.3,
+        "blocksTravelled": 323289,
+        "blocksBroken": 15982,
+        "blocksPlaced": 1221,
+        "deepestY": 1,
+        "lastSeen": 1787439342,
+        "gear": [
+          "Messenger hat",
+          "Forgotten noble shirt",
+          "Prince breeches",
+          "Thigh-high boots",
+          "Deep noble amulet",
+          "Butterfly pin (Temporal)",
+          "Malefactor whitewood mask",
+          "Forlorn Hope belt",
+          "Silver bracelet",
+          "Forgotten noble robe",
+          "Tailored gamboised helmet"
+        ],
+        "gearDetail": [
+          {
+            "slot": "head",
+            "code": "game:clothes-head-messengers-hat",
+            "name": "Messenger hat",
+            "icon": "character/icons/head-messengers-hat.png"
+          },
+          {
+            "slot": "upperbody",
+            "code": "game:clothes-upperbody-forgotten",
+            "name": "Forgotten noble shirt",
+            "icon": "character/icons/upperbody-forgotten.png"
+          },
+          {
+            "slot": "lowerbody",
+            "code": "game:clothes-lowerbody-prince-breeches",
+            "name": "Prince breeches",
+            "icon": "character/icons/lowerbody-prince-breeches.png"
+          },
+          {
+            "slot": "foot",
+            "code": "game:clothes-foot-tigh-high-boots",
+            "name": "Thigh-high boots",
+            "icon": "character/icons/foot-tigh-high-boots.png"
+          },
+          {
+            "slot": "neck",
+            "code": "game:clothes-neck-deep",
+            "name": "Deep noble amulet"
+          },
+          {
+            "slot": "emblem",
+            "code": "game:clothes-butterflypin-temporal",
+            "name": "Butterfly pin (Temporal)"
+          },
+          {
+            "slot": "face",
+            "code": "game:clothes-face-malefactor-mask",
+            "name": "Malefactor whitewood mask",
+            "icon": "character/icons/face-malefactor-mask.png"
+          },
+          {
+            "slot": "waist",
+            "code": "game:clothes-waist-forlorn-belt",
+            "name": "Forlorn Hope belt",
+            "icon": "character/icons/waist-forlorn-belt.png"
+          },
+          {
+            "slot": "arm",
+            "code": "game:clothes-arm-silver-bracelet",
+            "name": "Silver bracelet"
+          },
+          {
+            "slot": "upperbodyover",
+            "code": "game:clothes-upperbodyover-forgotten",
+            "name": "Forgotten noble robe",
+            "icon": "character/icons/upperbodyover-forgotten.png"
+          },
+          {
+            "slot": "armorhead",
+            "code": "game:armor-head-tailored-plain-linen",
+            "name": "Tailored gamboised helmet"
+          },
+          {
+            "slot": "bag-1",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-3",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          }
+        ],
+        "skin": {
+          "baseskin": "skin1",
+          "eyecolor": "aquamarine",
+          "underwear": "leotard",
+          "voicetype": "harmonica",
+          "voicepitch": "high",
+          "hairbase": "short",
+          "hairextra": "ponytailcurly",
+          "facialexpression": "smirk",
+          "mustache": "mst-u05-stirrups",
+          "beard": "brd-box05-anchor",
+          "haircolor": "rosewood"
+        }
+      }
+    },
+    {
+      "name": "Eghetti",
+      "role": "admin",
+      "first_join": "04/22/2026 18:03",
+      "last_join": "08/10/2026 20:30",
+      "last_char": "04/22/2026 18:08",
+      "stats": {
+        "uid": "TxqQ4g4qqKs+G5yFUTFmyGYb",
+        "name": "Eghetti",
+        "class": "smith",
+        "deaths": 2,
+        "mobKills": 63,
+        "mealsEaten": 83,
+        "caloriesConsumed": 36240,
+        "lastMeal": "Blackcurrant pie",
+        "mealsByName": {
+          "Earthy orange ceramic bowl of meat stew": 17,
+          "Meat pie": 5,
+          "Earthy orange ceramic bowl of soup": 2,
+          "Pear": 1,
+          "Cooked redmeat nuggets": 2,
+          "Leather-bound Oak Tankard": 2,
+          "Rye bread": 1,
+          "Syrup-covered muffin": 11,
+          "Blackcurrant pie": 6,
+          "Blueberry pie": 3,
+          "Fruit pie": 5,
+          "Redcurrant pie": 6,
+          "Syrup-covered fruit bread": 4,
+          "Red grapes": 7,
+          "Black ceramic jug": 1,
+          "Blueberry": 6,
+          "Blackberry pie": 4
+        },
+        "foodCatCounts": {
+          "Protein": 37,
+          "Vegetable": 18,
+          "Grain": 48,
+          "Fruit": 55,
+          "Dairy": 17
+        },
+        "deathCauses": {
+          "shiver-corrupt": 1,
+          "shiver-nightmare": 1
+        },
+        "playtimeHours": 200.9,
+        "blocksTravelled": 93518,
+        "blocksBroken": 1742,
+        "blocksPlaced": 1194,
+        "deepestY": 54,
+        "lastSeen": 1786398645,
+        "gear": [
+          "Raccoon tail hat",
+          "Blacksmith apron",
+          "Workmans pants",
+          "Soldier boots",
+          "Heavy leather gloves",
+          "Ornamental cross",
+          "Miner belt",
+          "Leather bracers",
+          "Fur coat",
+          "Tailored gambeson body armor",
+          "Weapon sling",
+          "Bags belt",
+          "Ammo pouch"
+        ],
+        "gearDetail": [
+          {
+            "slot": "head",
+            "code": "game:clothes-head-furhattail-raccoon-common",
+            "name": "Raccoon tail hat",
+            "icon": "character/icons/head-furhattail-raccoon-common.png"
+          },
+          {
+            "slot": "shoulder",
+            "code": "game:clothes-shoulder-blacksmith-apron",
+            "name": "Blacksmith apron",
+            "icon": "character/icons/shoulder-blacksmith-apron.png"
+          },
+          {
+            "slot": "lowerbody",
+            "code": "game:clothes-lowerbody-workmans-gown",
+            "name": "Workmans pants",
+            "icon": "character/icons/lowerbody-workmans-gown.png"
+          },
+          {
+            "slot": "foot",
+            "code": "game:clothes-foot-soldier-boots",
+            "name": "Soldier boots",
+            "icon": "character/icons/foot-soldier-boots.png"
+          },
+          {
+            "slot": "hand",
+            "code": "game:clothes-hand-heavy-leather-gloves",
+            "name": "Heavy leather gloves",
+            "icon": "character/icons/hand-heavy-leather-gloves.png"
+          },
+          {
+            "slot": "neck",
+            "code": "game:clothes-neck-fancy-cross",
+            "name": "Ornamental cross"
+          },
+          {
+            "slot": "waist",
+            "code": "game:clothes-waist-miner",
+            "name": "Miner belt",
+            "icon": "character/icons/waist-miner.png"
+          },
+          {
+            "slot": "arm",
+            "code": "game:clothes-arm-leather-bracers",
+            "name": "Leather bracers",
+            "icon": "character/icons/arm-leather-bracers.png"
+          },
+          {
+            "slot": "upperbodyover",
+            "code": "game:clothes-upperbodyover-fur-coat",
+            "name": "Fur coat",
+            "icon": "character/icons/upperbodyover-fur-coat.png"
+          },
+          {
+            "slot": "armorbody",
+            "code": "game:armor-body-tailored-pink-linen",
+            "name": "Tailored gambeson body armor"
+          },
+          {
+            "slot": "",
+            "code": "quiversandsheaths:shoulderbag-rightleftfront-sling-firearms",
+            "name": "Weapon sling"
+          },
+          {
+            "slot": "waistgear",
+            "code": "quiversandsheaths:belt-waist-plain-general",
+            "name": "Bags belt"
+          },
+          {
+            "slot": "addBeltBack",
+            "code": "quiversandsheaths:beltbag-back-pouch-firearms",
+            "name": "Ammo pouch"
+          },
+          {
+            "slot": "bag-1",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-3",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          }
+        ],
+        "skin": {
+          "baseskin": "skin15",
+          "eyecolor": "dark-green",
+          "underwear": "twopiece",
+          "voicetype": "trumpet",
+          "voicepitch": "low",
+          "hairbase": "bowlcut",
+          "hairextra": "none",
+          "facialexpression": "kind",
+          "mustache": "mst-walrus05-neat",
+          "beard": "brd-box01-chincurtain",
+          "haircolor": "oldburgundy"
+        }
+      }
+    },
+    {
+      "name": "AddyBuschu",
+      "role": "admin",
+      "first_join": "04/22/2026 17:55",
+      "last_join": "08/25/2026 17:07",
+      "last_char": "04/25/2026 15:34",
+      "stats": {
+        "uid": "MT3maN90oN2gwGyklJR20Gu1",
+        "name": "AddyBuschu",
+        "class": "homesteader",
+        "deaths": 26,
+        "mobKills": 978,
+        "mealsEaten": 1888,
+        "caloriesConsumed": 357503,
+        "lastMeal": "Blackberry",
+        "mealsByName": {
+          "Meat pie": 45,
+          "Smoked Plain Bushmeat": 3,
+          "Earthy orange ceramic bowl of meat stew": 150,
+          "Blueberry": 27,
+          "Pear pie (charred)": 1,
+          "Rye bread": 8,
+          "Leather-bound Oak Tankard": 1,
+          "Syrup-covered muffin": 14,
+          "Cranberry": 64,
+          "Blackcurrant": 127,
+          "Pear pie": 4,
+          "Cooked dumplings": 7,
+          "Almond mushroom": 1,
+          "Redcurrant": 256,
+          "Carrot": 42,
+          "Field mushroom": 1,
+          "Turnip": 21,
+          "Puffball": 21,
+          "Tinder hoof": 6,
+          "Raspberry": 6,
+          "Flax grain": 33,
+          "Dryad saddle": 12,
+          "White oyster": 2,
+          "Common morel": 3,
+          "Lobster": 1,
+          "Chanterelle": 1,
+          "Black trumpet": 1,
+          "Witch's hat": 1,
+          "Blackberry": 32,
+          "Red wine cap": 13,
+          "Honeycomb": 2,
+          "Green cracked russula": 13,
+          "Violet web cap": 2,
+          "Liberty cap": 10,
+          "Green grapes": 65,
+          "King bolete": 15,
+          "Chicken of the woods": 2,
+          "Fennel": 20,
+          "Gold-drop milkcap": 1,
+          "Red grapes": 95,
+          "Whitecurrant": 7,
+          "Bearded tooth": 5,
+          "Rice grain": 14,
+          "Strawberry": 34,
+          "Rye grain": 14,
+          "Parsnip": 10,
+          "Shiitake": 2,
+          "Onion": 6,
+          "Spelt grain": 52,
+          "Smoked Plain Primemeat": 14,
+          "Blackberry pie": 8,
+          "Earthy orange ceramic bowl of jam": 14,
+          "Cabbage": 1,
+          "Earthy orange ceramic bowl of soup": 26,
+          "Fruit pie": 10,
+          "Cranberry pie": 2,
+          "Blueberry pie": 5,
+          "Blackcurrant pie": 7,
+          "Strawberry pie": 19,
+          "Lump of raw fat": 6,
+          "Redcurrant pie": 4,
+          "Syrup-covered fruit bread": 30,
+          "Black ceramic jug": 1,
+          "Beautyberry": 281,
+          "Amaranth grain": 12,
+          "Reishi": 1,
+          "Wavy cap": 1,
+          "Lump of rendered fat": 2,
+          "Termites": 15,
+          "Saguaro fruit": 6,
+          "Blue meanie": 2,
+          "Earthy brown ceramic bowl of meat stew": 79,
+          "Earthy orange ceramic bowl of vegetable stew": 3,
+          "Smoked Blood Sausage": 6,
+          "Wooden bucket": 5,
+          "Vintage redmeat sausage": 2,
+          "Earthy orange ceramic bowl of hot pasta": 7,
+          "Earthy brown ceramic bowl of hot pasta": 11,
+          "Earthy brown ceramic bowl of soup": 13,
+          "Earthy brown ceramic bowl of cold pasta": 7,
+          "Earthy orange ceramic bowl of cold pasta": 15
+        },
+        "foodCatCounts": {
+          "Grain": 389,
+          "Protein": 427,
+          "Vegetable": 533,
+          "Fruit": 1121,
+          "Dairy": 65
+        },
+        "deathCauses": {
+          "bear-brown-adult-female": 2,
+          "sheep-mouflon-adult-male": 2,
+          "pig-eurasian-adult-male": 1,
+          "pig-eurasian-adult-female": 1,
+          "wolf-eurasian-adult-female": 1,
+          "wolf-eurasian-adult-male": 3,
+          "shiver-surface": 1
+        },
+        "playtimeHours": 643.2,
+        "blocksTravelled": 586805,
+        "blocksBroken": 34245,
+        "blocksPlaced": 11884,
+        "deepestY": 1,
+        "lastSeen": 1787676569,
+        "gear": [
+          "Rotwalker hood",
+          "Rotwalker cape",
+          "Tattered crimson tunic",
+          "Rotwalker leggings",
+          "Nadiyan miner boots",
+          "Survivor gloves",
+          "Rotten king collar",
+          "Prince emblem",
+          "Sheep skull mask",
+          "Alchemist belt",
+          "Leather bracers",
+          "Fur coat",
+          "Tailored gamboised leg armor",
+          "Black bear hide helmet",
+          "Black bear hide body armor"
+        ],
+        "gearDetail": [
+          {
+            "slot": "head",
+            "code": "game:clothes-head-rotwalker",
+            "name": "Rotwalker hood",
+            "icon": "character/icons/head-rotwalker.png"
+          },
+          {
+            "slot": "shoulder",
+            "code": "game:clothes-shoulder-rotwalker",
+            "name": "Rotwalker cape",
+            "icon": "character/icons/shoulder-rotwalker.png"
+          },
+          {
+            "slot": "upperbody",
+            "code": "game:clothes-upperbody-tattered-crimson-tunic",
+            "name": "Tattered crimson tunic",
+            "icon": "character/icons/upperbody-tattered-crimson-tunic.png"
+          },
+          {
+            "slot": "lowerbody",
+            "code": "game:clothes-lowerbody-rotwalker",
+            "name": "Rotwalker leggings",
+            "icon": "character/icons/lowerbody-rotwalker.png"
+          },
+          {
+            "slot": "foot",
+            "code": "game:clothes-nadiya-foot-miner",
+            "name": "Nadiyan miner boots"
+          },
+          {
+            "slot": "hand",
+            "code": "game:clothes-hand-survivor",
+            "name": "Survivor gloves",
+            "icon": "character/icons/hand-survivor.png"
+          },
+          {
+            "slot": "neck",
+            "code": "game:clothes-neck-rottenking",
+            "name": "Rotten king collar"
+          },
+          {
+            "slot": "emblem",
+            "code": "game:clothes-emblem-royal-pin",
+            "name": "Prince emblem"
+          },
+          {
+            "slot": "face",
+            "code": "game:clothes-face-sheepskull",
+            "name": "Sheep skull mask",
+            "icon": "character/icons/face-sheepskull.png"
+          },
+          {
+            "slot": "waist",
+            "code": "game:clothes-waist-alchemist",
+            "name": "Alchemist belt",
+            "icon": "character/icons/waist-alchemist.png"
+          },
+          {
+            "slot": "arm",
+            "code": "game:clothes-arm-leather-bracers",
+            "name": "Leather bracers",
+            "icon": "character/icons/arm-leather-bracers.png"
+          },
+          {
+            "slot": "upperbodyover",
+            "code": "game:clothes-upperbodyover-fur-coat",
+            "name": "Fur coat",
+            "icon": "character/icons/upperbodyover-fur-coat.png"
+          },
+          {
+            "slot": "armorlegs",
+            "code": "game:armor-legs-tailored-black-linen",
+            "name": "Tailored gamboised leg armor"
+          },
+          {
+            "slot": "armorhead",
+            "code": "game:armor-head-hide-bear-black",
+            "name": "Black bear hide helmet"
+          },
+          {
+            "slot": "armorbody",
+            "code": "game:armor-body-hide-bear-black",
+            "name": "Black bear hide body armor"
+          },
+          {
+            "slot": "bag-1",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-3",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          }
+        ],
+        "skin": {
+          "baseskin": "skin16",
+          "eyecolor": "citrine",
+          "underwear": "leotard",
+          "voicetype": "tuba",
+          "voicepitch": "high",
+          "hairbase": "messy2",
+          "hairextra": "unkempt",
+          "facialexpression": "kind",
+          "mustache": "mst-walrus30-fat",
+          "beard": "brd-full10-shaggy",
+          "haircolor": "lightgray"
+        }
+      }
+    },
+    {
+      "name": "Moritz",
+      "role": "admin",
+      "first_join": "04/22/2026 18:03",
+      "last_join": "08/26/2026 08:59",
+      "last_char": "04/22/2026 18:05",
+      "stats": {
+        "uid": "bKc3JB7NGywTi9YbzXu/Qogt",
+        "name": "Moritz",
+        "class": "mason",
+        "deaths": 2,
+        "mobKills": 417,
+        "mealsEaten": 613,
+        "caloriesConsumed": 192757,
+        "lastMeal": "Earthy orange ceramic bowl of hot pasta",
+        "mealsByName": {
+          "Cranberry": 25,
+          "Meat pie": 20,
+          "Cranberry pie": 8,
+          "Earthy orange ceramic bowl of soup": 12,
+          "Wooden bucket": 1,
+          "Earthy orange ceramic bowl of meat stew": 95,
+          "Chopped cabbage": 1,
+          "Pear": 4,
+          "Rye bread": 3,
+          "Leather-bound Oak Tankard": 2,
+          "Syrup-covered muffin": 8,
+          "Syrup-covered fruit bread": 37,
+          "Redcurrant": 43,
+          "Pear pie": 1,
+          "Cooked dumplings": 11,
+          "Strawberry": 3,
+          "Blackberry pie": 18,
+          "Rice grain": 7,
+          "Earthy orange ceramic bowl of jam": 1,
+          "Green grapes": 22,
+          "Vintage Beef": 1,
+          "Blackcurrant pie": 5,
+          "Blueberry pie": 12,
+          "Fruit pie": 6,
+          "Redcurrant pie": 9,
+          "Red grapes": 21,
+          "Black ceramic jug": 4,
+          "Turnip": 14,
+          "Spelt grain": 19,
+          "Flax grain": 6,
+          "Dryad saddle": 1,
+          "Deer ear": 1,
+          "Beautyberry": 35,
+          "Onion": 4,
+          "Paddy straw": 1,
+          "Reishi": 3,
+          "King bolete": 1,
+          "Blackcurrant": 11,
+          "Blackberry": 3,
+          "Blueberry": 8,
+          "Termites": 7,
+          "Saguaro fruit": 1,
+          "Wavy cap": 4,
+          "Chanterelle": 2,
+          "Rye grain": 15,
+          "Earthy brown ceramic bowl of meat stew": 33,
+          "Earthy brown ceramic jug": 3,
+          "Earthy brown ceramic bowl of jam": 2,
+          "Tender redmeat": 5,
+          "Earthy orange ceramic bowl of vegetable stew": 4,
+          "Smoked Blood Sausage": 16,
+          "Earthy orange ceramic bowl of hot pasta": 5,
+          "Cooked redmeat nuggets": 1,
+          "Earthy brown ceramic bowl of hot pasta": 6,
+          "Earthy brown ceramic bowl of soup": 4,
+          "Earthy brown ceramic bowl of cold pasta": 4,
+          "Small potion flask": 2,
+          "Earthy orange ceramic bowl of cold pasta": 12
+        },
+        "foodCatCounts": {
+          "Fruit": 288,
+          "Grain": 241,
+          "Protein": 240,
+          "Vegetable": 191,
+          "Dairy": 65
+        },
+        "deathCauses": {
+          "shiver-corrupt": 1,
+          "bear-brown-adult-female": 1
+        },
+        "playtimeHours": 783.4,
+        "blocksTravelled": 514870,
+        "blocksBroken": 20197,
+        "blocksPlaced": 12979,
+        "deepestY": 12,
+        "lastSeen": 1787645576,
+        "gear": [
+          "Raccoon fur trapper hat",
+          "Miner cape",
+          "Linen tunic",
+          "Workmans pants",
+          "Squire boots",
+          "Scribe gloves",
+          "Gold gear amulet",
+          "Messenger pin",
+          "Sturdy belt",
+          "Large silver bracelets",
+          "Fortune teller vest"
+        ],
+        "gearDetail": [
+          {
+            "slot": "head",
+            "code": "game:clothes-head-furhatwide-generic-gray",
+            "name": "Raccoon fur trapper hat",
+            "icon": "character/icons/head-furhatwide-generic-gray.png"
+          },
+          {
+            "slot": "shoulder",
+            "code": "game:clothes-shoulder-miner",
+            "name": "Miner cape",
+            "icon": "character/icons/shoulder-miner.png"
+          },
+          {
+            "slot": "upperbody",
+            "code": "game:clothes-upperbody-linen-tunic",
+            "name": "Linen tunic",
+            "icon": "character/icons/upperbody-linen-tunic.png"
+          },
+          {
+            "slot": "lowerbody",
+            "code": "game:clothes-lowerbody-workmans-gown",
+            "name": "Workmans pants",
+            "icon": "character/icons/lowerbody-workmans-gown.png"
+          },
+          {
+            "slot": "foot",
+            "code": "game:clothes-foot-squire-boots",
+            "name": "Squire boots",
+            "icon": "character/icons/foot-squire-boots.png"
+          },
+          {
+            "slot": "hand",
+            "code": "game:clothes-hand-scribe",
+            "name": "Scribe gloves"
+          },
+          {
+            "slot": "neck",
+            "code": "game:clothes-neck-gear-amulet-gold",
+            "name": "Gold gear amulet"
+          },
+          {
+            "slot": "emblem",
+            "code": "game:clothes-emblem-messenger-pin",
+            "name": "Messenger pin"
+          },
+          {
+            "slot": "waist",
+            "code": "game:clothes-waist-sturdy-belt",
+            "name": "Sturdy belt",
+            "icon": "character/icons/waist-sturdy-belt.png"
+          },
+          {
+            "slot": "arm",
+            "code": "game:clothes-arm-large-silver-bracelets",
+            "name": "Large silver bracelets"
+          },
+          {
+            "slot": "upperbodyover",
+            "code": "game:clothes-upperbodyover-fortuneteller",
+            "name": "Fortune teller vest",
+            "icon": "character/icons/upperbodyover-fortuneteller.png"
+          },
+          {
+            "slot": "bag-1",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-3",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          }
+        ],
+        "skin": {
+          "baseskin": "skin11",
+          "eyecolor": "citron",
+          "underwear": "leotard",
+          "voicetype": "harmonica",
+          "voicepitch": "high",
+          "hairbase": "dreadlocks",
+          "hairextra": "none",
+          "facialexpression": "weary",
+          "mustache": "mst-u01-horseshoe",
+          "beard": "none",
+          "haircolor": "palatinatepurple"
+        }
+      }
+    },
+    {
+      "name": "Barberschascher",
+      "role": "suplayer",
+      "first_join": "05/20/2026 15:50",
+      "last_join": "06/17/2026 19:32",
+      "last_char": "05/20/2026 15:53",
+      "stats": {
+        "uid": "UrK7mUY2s/AeUmjXRew0G72x",
+        "name": "Barberschascher",
+        "class": "miner",
+        "deaths": 6,
+        "mobKills": 2,
+        "mealsEaten": 0,
+        "caloriesConsumed": 0,
+        "lastMeal": null,
+        "mealsByName": {},
+        "foodCatCounts": {},
+        "deathCauses": {},
+        "playtimeHours": 1.8,
+        "blocksTravelled": 10635,
+        "blocksBroken": 43,
+        "blocksPlaced": 6,
+        "deepestY": 108,
+        "lastSeen": 1780434032,
+        "gear": [
+          "Jailors hat",
+          "Clockmaker shirt",
+          "Malefactor trousers",
+          "Blackguard shoes",
+          "Heavy leather gloves",
+          "Leather reinforced mask",
+          "Heavy belt"
+        ],
+        "gearDetail": [
+          {
+            "slot": "head",
+            "code": "game:clothes-head-jailors-hat",
+            "name": "Jailors hat",
+            "icon": "character/icons/head-jailors-hat.png"
+          },
+          {
+            "slot": "upperbody",
+            "code": "game:clothes-upperbody-clockmaker-shirt",
+            "name": "Clockmaker shirt",
+            "icon": "character/icons/upperbody-clockmaker-shirt.png"
+          },
+          {
+            "slot": "lowerbody",
+            "code": "game:clothes-lowerbody-malefactor-trousers",
+            "name": "Malefactor trousers",
+            "icon": "character/icons/lowerbody-malefactor-trousers.png"
+          },
+          {
+            "slot": "foot",
+            "code": "game:clothes-foot-blackguard-shoes",
+            "name": "Blackguard shoes",
+            "icon": "character/icons/foot-blackguard-shoes.png"
+          },
+          {
+            "slot": "hand",
+            "code": "game:clothes-hand-heavy-leather-gloves",
+            "name": "Heavy leather gloves",
+            "icon": "character/icons/hand-heavy-leather-gloves.png"
+          },
+          {
+            "slot": "face",
+            "code": "game:clothes-face-leather-reinforced-mask",
+            "name": "Leather reinforced mask",
+            "icon": "character/icons/face-leather-reinforced-mask.png"
+          },
+          {
+            "slot": "waist",
+            "code": "game:clothes-waist-heavy-belt",
+            "name": "Heavy belt",
+            "icon": "character/icons/waist-heavy-belt.png"
+          }
+        ],
+        "skin": {
+          "baseskin": "skin16",
+          "eyecolor": "dark-green",
+          "underwear": "breeches",
+          "voicetype": "tuba",
+          "voicepitch": "low",
+          "hairbase": "longwithstrands",
+          "hairextra": "vikingtopbraid",
+          "facialexpression": "exhausted",
+          "mustache": "mst-whiskbroom",
+          "beard": "brd-wisp10-wiseman",
+          "haircolor": "oldburgundy"
+        }
+      }
+    },
+    {
+      "name": "Morsel",
+      "role": "suplayer",
+      "first_join": "06/22/2026 18:28",
+      "last_join": "08/25/2026 20:01",
+      "last_char": "06/22/2026 18:37",
+      "stats": {
+        "uid": "1VGBHqraGibxC1fHS6a4PjOF",
+        "name": "Morsel",
+        "class": "tailor",
+        "deaths": 6,
+        "mobKills": 25,
+        "mealsEaten": 109,
+        "caloriesConsumed": 64341,
+        "lastMeal": "Earthy brown ceramic bowl of cold pasta",
+        "mealsByName": {
+          "Earthy orange ceramic bowl of meat stew": 58,
+          "Meat pie": 8,
+          "Leather-bound Oak Tankard": 1,
+          "Pear pie (charred)": 6,
+          "Rye bread": 2,
+          "Cranberry": 1,
+          "Turnip": 2,
+          "Earthy brown ceramic bowl of meat stew": 1,
+          "Smoked Blood Sausage": 4,
+          "Earthy brown ceramic bowl of cold pasta": 5,
+          "Earthy orange ceramic bowl of cold pasta": 4,
+          "Earthy orange ceramic bowl of soup": 5,
+          "Earthy brown ceramic bowl of soup": 11,
+          "Earthy brown ceramic bowl of hot pasta": 1
+        },
+        "foodCatCounts": {
+          "Protein": 97,
+          "Vegetable": 65,
+          "Grain": 62,
+          "Fruit": 8,
+          "Dairy": 28
+        },
+        "deathCauses": {
+          "bear-brown-adult-female": 2,
+          "shiver-corrupt": 1,
+          "shiver-deepsplit": 1,
+          "shiver-nightmare": 1,
+          "bear-brown-adult-male": 1
+        },
+        "playtimeHours": 32.9,
+        "blocksTravelled": 61124,
+        "blocksBroken": 2125,
+        "blocksPlaced": 725,
+        "deepestY": 64,
+        "lastSeen": 1787439265,
+        "gear": [
+          "Mooncloth robe",
+          "Tailor blouse",
+          "Tailor trousers",
+          "Tailor shoes",
+          "Tailor gloves",
+          "Tailor mask",
+          "Tailor belt",
+          "Tailor needle puff",
+          "Tailor jacket",
+          "Gamboised helmet",
+          "Tailored gambeson body armor",
+          "Tailored gamboised leg armor"
+        ],
+        "gearDetail": [
+          {
+            "slot": "shoulder",
+            "code": "game:clothes-shoulder-mooncloth-robe",
+            "name": "Mooncloth robe",
+            "icon": "character/icons/shoulder-mooncloth-robe.png"
+          },
+          {
+            "slot": "upperbody",
+            "code": "game:clothes-upperbody-tailor-blouse",
+            "name": "Tailor blouse",
+            "icon": "character/icons/upperbody-tailor-blouse.png"
+          },
+          {
+            "slot": "lowerbody",
+            "code": "game:clothes-lowerbody-tailor-trousers",
+            "name": "Tailor trousers",
+            "icon": "character/icons/lowerbody-tailor-trousers.png"
+          },
+          {
+            "slot": "foot",
+            "code": "game:clothes-foot-tailor-shoes",
+            "name": "Tailor shoes",
+            "icon": "character/icons/foot-tailor-shoes.png"
+          },
+          {
+            "slot": "hand",
+            "code": "game:clothes-hand-tailor-gloves",
+            "name": "Tailor gloves",
+            "icon": "character/icons/hand-tailor-gloves.png"
+          },
+          {
+            "slot": "face",
+            "code": "game:clothes-face-tailor-mask",
+            "name": "Tailor mask",
+            "icon": "character/icons/face-tailor-mask.png"
+          },
+          {
+            "slot": "waist",
+            "code": "game:clothes-waist-tailor-belt",
+            "name": "Tailor belt",
+            "icon": "character/icons/waist-tailor-belt.png"
+          },
+          {
+            "slot": "arm",
+            "code": "game:clothes-arm-tailor-needlepuff",
+            "name": "Tailor needle puff",
+            "icon": "character/icons/arm-tailor-needlepuff.png"
+          },
+          {
+            "slot": "upperbodyover",
+            "code": "game:clothes-upperbodyover-tailor-jacket",
+            "name": "Tailor jacket",
+            "icon": "character/icons/upperbodyover-tailor-jacket.png"
+          },
+          {
+            "slot": "armorhead",
+            "code": "game:armor-head-sewn-linen",
+            "name": "Gamboised helmet"
+          },
+          {
+            "slot": "armorbody",
+            "code": "game:armor-body-tailored-plain-linen",
+            "name": "Tailored gambeson body armor"
+          },
+          {
+            "slot": "armorlegs",
+            "code": "game:armor-legs-tailored-plain-linen",
+            "name": "Tailored gamboised leg armor"
+          },
+          {
+            "slot": "bag-1",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-2",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-3",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          },
+          {
+            "slot": "bag-4",
+            "code": "game:backpack-normal",
+            "name": "Leather backpack"
+          }
+        ],
+        "skin": {
+          "baseskin": "skin10",
+          "eyecolor": "azure",
+          "underwear": "leotard",
+          "voicetype": "tuba",
+          "voicepitch": "low",
+          "hairbase": "tonsure",
+          "hairextra": "vikingtopbraid",
+          "facialexpression": "weary",
+          "mustache": "mst-u01-horseshoe",
+          "beard": "brd-braid15-triple",
+          "haircolor": "palatinatepurple"
+        }
+      }
+    }
+  ],
+  "lastAccident": {
+    "playerName": "AddyBuschu",
+    "timestamp": 1787084673,
+    "cause": "sheep-mouflon-adult-male",
+    "x": 518816,
+    "y": 116,
+    "z": 511317
+  }
 }
