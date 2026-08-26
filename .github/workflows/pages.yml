@@ -2,6 +2,18 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+    # crew.json/character/** update on their own ~2min timer (vs-crew.timer) independent of
+    # any real mod-list change. A GitHub Pages deployment auto-cancels whatever's still
+    # pending the moment a newer commit lands (regardless of this workflow's own
+    # concurrency:cancel-in-progress below, which only governs the Actions job queue, not the
+    # Pages deployment resource) - at a 2min push cadence a deploy can never outrun the next
+    # push, so every deployment gets cancelled before finishing and the published site gets
+    # stuck indefinitely (this happened for real: three weeks stale, confirmed 0 successes in
+    # the last 500 workflow runs, 2026-08-27). Real registry.json changes still trigger a
+    # deploy immediately; a commit touching only these paths must not.
+    paths-ignore:
+      - 'crew.json'
+      - 'character/**'
 permissions:
   contents: read
   pages: write

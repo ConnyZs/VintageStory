@@ -562,7 +562,7 @@ const AVAIL_LABEL={available:"Updated",likely:"Likely works",outdated:"Outdated"
 // whatever avail would otherwise show (usually "available"/green, which reads as
 // "already current" and would hide that an update is actually waiting).
 function sealState(m){ return m.update_pending ? "updatepending" : m.avail; }
-let DATA=[], REG={}, filter="all", query="", PROPOSALS=[];
+let DATA=[], REG={}, CREW={}, filter="all", query="", PROPOSALS=[];
 const ADMIN_KEY=new URLSearchParams(location.search).get("key");   // ?key=… → approval mode
 
 // Admin sees the LIVE local state straight off the bot's disk (GET admin_url + "/registry") —
@@ -577,12 +577,26 @@ async function fetchRegistry(adminUrl){
   }
   return await (await fetch("registry.json?_="+Date.now())).json();
 }
+// Crew lives in its own file, separate from registry.json (see write_crew_json's docstring
+// in vsupdate.py) - it updates on its own ~2min timer and is deliberately excluded from
+// triggering a GitHub Pages deploy, so the published crew.json is only as fresh as the last
+// real mod-list deploy. Same admin-bypass pattern as fetchRegistry so the admin's own view
+// still gets live crew data regardless.
+async function fetchCrew(adminUrl){
+  if(ADMIN_KEY && adminUrl){
+    try{ return await (await fetch(adminUrl.replace(/\/$/,"")+"/crew")).json(); }
+    catch(e){ /* bot unreachable from here — fall through to the published copy */ }
+  }
+  try{ return await (await fetch("crew.json?_="+Date.now())).json(); }
+  catch(e){ return {crew:[], lastAccident:null}; }
+}
 
 fetchRegistry(null).then(async reg=>{
   if(ADMIN_KEY && reg.admin_url){
     try{ reg = await fetchRegistry(reg.admin_url); }catch(e){}
   }
   REG=reg; DATA=reg.mods||[];
+  try{ CREW = await fetchCrew(reg.admin_url); }catch(e){ CREW = {crew:[], lastAccident:null}; }
   // restore locally-pending submissions (added since last sync) until they appear for real
   loadPending();
   applyPendingStates();   // re-apply pending disable/remove marks across sessions
@@ -592,7 +606,8 @@ fetchRegistry(null).then(async reg=>{
   document.getElementById("foot").textContent=reg.count+" mods catalogued";
   // check_ts is written server-side ONLY by a real ModDB check (vsupdate.py registry) —
   // never guessed client-side and never borrowed from `generated`, which also gets bumped
-  // by unrelated things (proposal approvals, the 2-min crew-stats sync).
+  // by unrelated things (proposal approvals). Crew data lives in its own crew.json now and
+  // no longer touches this timestamp at all (see write_crew_json in vsupdate.py).
   const _cts=document.getElementById("checkTs");
   if(_cts) _cts.textContent=reg.check_ts?"last checked "+fmt(reg.check_ts):"";
   const dl=document.getElementById("cats");
@@ -911,7 +926,7 @@ async function loadCharManifest(){
 async function renderCrew(){
   await loadCharManifest();
   const box=document.getElementById("tab-crew");
-  const crew=REG.crew||[];
+  const crew=CREW.crew||[];
   if(!crew.length){box.innerHTML='<div class="empty">No players found in the save yet.</div>';return;}
   const fmtPlay=h=>h==null?null:(h<1?`${Math.round(h*60)}m`:`${h.toFixed(1)}h`);
   const num=v=>v==null?null:Number(v).toLocaleString();
@@ -972,8 +987,8 @@ function fmtMB(b){return (b/1048576).toFixed(b<10485760?1:0)+" MB";}
 function renderAccidentBanner(){
   const el=document.getElementById("accidentBanner");
   if(!el)return;
-  const la=REG.lastAccident;
-  const crew=REG.crew||[];
+  const la=CREW.lastAccident;
+  const crew=CREW.crew||[];
   // days without accidents — inverse tiers: more days = gold, 0 days = wither
   const days=la&&la.timestamp?Math.floor((Date.now()/1000-la.timestamp)/86400):0;
   const accTier=days>=50?'t0':days>=25?'t1':days>=10?'t2':days>=1?'t3':'t4';
