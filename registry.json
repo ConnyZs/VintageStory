@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-26T22:54:27Z",
+  "generated": "20260827-200110",
   "game_version": "1.22.7",
-  "check_ts": "20260827-005341",
+  "check_ts": "20260827-200110",
   "latest_engine": "1.22.7",
   "restart_needed": "20260825-183432",
   "last_deploy_ts": "20260825-183432",
@@ -49,7 +49,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 150,
+  "count": 151,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -335,9 +335,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "3.4.5",
-      "build_version": "3.4.5",
+      "build_version": "3.4.7",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -1338,7 +1338,7 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1227.0.2",
-      "build_version": "1227.0.2",
+      "build_version": "1227.0.3",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": false
@@ -2341,9 +2341,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1227.0.2",
-      "build_version": "1227.0.2",
+      "build_version": "1227.0.3",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -2483,6 +2483,23 @@
       "proposed": false
     },
     {
+      "name": "Local Only E2E Test",
+      "modid": "__test_local_only_e2e__",
+      "section": "optional",
+      "category": "Other",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/__test_local_only_e2e__",
+      "server_only": false,
+      "server_state": "no",
+      "avail": "not-found",
+      "note": "not on ModDB / link unresolved",
+      "version": null,
+      "build_version": null,
+      "build_branch": null,
+      "update_pending": false,
+      "proposed": false
+    },
+    {
       "name": "smithingplus",
       "modid": "smithingplus",
       "section": "1.22",
@@ -2608,28 +2625,12 @@
       "avail": "available",
       "note": "server-only \u2014 exports Crew tab stats, also in SERVER_ONLY_MODS",
       "version": "0.1.3",
-      "build_version": "0.1.3",
+      "build_version": "0.1.4",
       "build_branch": null,
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false,
       "custom": true,
       "client_only": false
-    },
-    {
-      "name": "Local Only E2E Test",
-      "modid": "__test_local_only_e2e__",
-      "section": "optional",
-      "category": "Other",
-      "on_server": false,
-      "link": "https://mods.vintagestory.at/__test_local_only_e2e__",
-      "server_state": "no",
-      "avail": "not-found",
-      "note": "",
-      "version": null,
-      "build_version": null,
-      "build_branch": null,
-      "update_pending": false,
-      "proposed": false
     }
   ]
 }
