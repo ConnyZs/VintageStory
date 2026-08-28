@@ -1,5 +1,5 @@
 {
-  "generated": "20260828-200112",
+  "generated": "20260828-214923",
   "game_version": "1.22.7",
   "check_ts": "20260828-200112",
   "latest_engine": "1.22.7",
@@ -23,6 +23,7 @@
   "admin_url": "http://127.0.0.1:3042",
   "categories": [
     "Chisel",
+    "Clothing",
     "Compatibility",
     "Cosmetics",
     "Crafting",
@@ -49,7 +50,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 151,
+  "count": 152,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -2498,6 +2499,23 @@
       "build_branch": null,
       "update_pending": false,
       "proposed": false
+    },
+    {
+      "name": "Grand Army of the Republic",
+      "modid": "gar",
+      "section": "1.22",
+      "category": "Clothing",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/gar",
+      "server_only": false,
+      "server_state": "no",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": null,
+      "build_version": "0.1.0",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": true
     },
     {
       "name": "smithingplus",
