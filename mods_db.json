@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-28T19:48:46Z",
+  "updated": "2026-09-03T22:56:15Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1302,6 +1302,15 @@
     {
       "name": "",
       "link": "https://mods.vintagestory.at/gar",
+      "category": "Other",
+      "section": "1.22",
+      "server_state": "no",
+      "proposed": true,
+      "note": ""
+    },
+    {
+      "name": "",
+      "link": "https://mods.vintagestory.at/fablewoodfoods",
       "category": "Other",
       "section": "1.22",
       "server_state": "no",
