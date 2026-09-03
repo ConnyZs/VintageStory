@@ -18,9 +18,20 @@ permissions:
   contents: read
   pages: write
   id-token: write
+# Renamed from "pages" (2026-09-03): the old group name accumulated a massive backlog of
+# never-dispatched runs during the 2026-08 crew-timer-spam era (thousands queued with
+# cancel-in-progress:false, so none could ever cut in line to get a job). Even after the
+# crew.json paths-ignore fix stopped new spam, every legitimate push since kept queueing
+# behind that dead backlog and never got a job either - confirmed via the Actions API
+# (0 jobs on every run since 2026-08-06, and 0 Pages deployment records created since then).
+# A fresh group name sidesteps the backlog outright. cancel-in-progress is now true so a
+# single wedged run (which can still happen - see the diagnostic-commit incident,
+# 2026-08-26/27) can't deadlock the whole pipeline for weeks again; the tradeoff (a later
+# push cancelling an earlier still-in-flight deploy) is fine now that paths-ignore keeps
+# push frequency low.
 concurrency:
-  group: pages
-  cancel-in-progress: false
+  group: pages-deploy-v2
+  cancel-in-progress: true
 jobs:
   deploy:
     runs-on: ubuntu-latest
