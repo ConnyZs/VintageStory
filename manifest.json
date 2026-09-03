@@ -1,7 +1,7 @@
 {
   "game_version": "1.22.7",
-  "generated": "20260825-190916",
-  "count": 138,
+  "generated": "20260904-013132",
+  "count": 139,
   "mods": [
     {
       "filename": "ExtraInfo-v2.2.1.zip",
@@ -220,13 +220,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/ExpandedFoods_ChefsTricks%201.0.0-dev.4.zip"
     },
     {
-      "filename": "ExpandedFoods_MealsModule 1.0.0-dev.6.zip",
-      "sha256": "f5126ee0ddac954df57450bc2be23ce799ac937ccefac1918a3ff943a14c4154",
-      "size": 106689,
+      "filename": "ExpandedFoods_MealsModule 1.0.0-dev.8.zip",
+      "sha256": "3ad6b067cccc9b5563e0eb9e457abdcc429811d6303edb9427a20e57dabf016a",
+      "size": 114002,
       "modid": "efmealsmodule",
-      "version": "1.0.0-dev.6",
+      "version": "1.0.0-dev.8",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/ExpandedFoods_MealsModule%201.0.0-dev.6.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/ExpandedFoods_MealsModule%201.0.0-dev.8.zip"
     },
     {
       "filename": "Footprints-v1.2.5.zip",
@@ -337,13 +337,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/KsCartographyTable_v2.0.4.zip"
     },
     {
-      "filename": "Molds_v0.3.6.zip",
-      "sha256": "bc472ad5a97d5badaf2c180d9dd5dccf91116b8e9931c4c439c154072caff8af",
-      "size": 125086,
+      "filename": "Molds_v0.3.7.zip",
+      "sha256": "d86cf3b4d9e3bcdb0e1ff361735b4fb90f082fe41ccacfce9cb9783e100d6baf",
+      "size": 125672,
       "modid": "molds",
-      "version": "0.3.6",
+      "version": "0.3.7",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/Molds_v0.3.6.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/Molds_v0.3.7.zip"
     },
     {
       "filename": "NoticeBoard_2.1.1.zip",
@@ -373,13 +373,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/RealSmokeQPPatch1.0.1.zip"
     },
     {
-      "filename": "ResonatorOverhaul1.3.0.zip",
-      "sha256": "941ddf6088604024bf7fac868a51ffb8660c75f38dcb02a1047c5b937a62d05d",
-      "size": 20600,
+      "filename": "ResonatorOverhaul1.4.1.zip",
+      "sha256": "73b5da88d27e8d9ab1eaba383015b35f254af6c4a34be853e44681f819f2323b",
+      "size": 23740,
       "modid": "resonatoroverhaul",
-      "version": "1.3.0",
+      "version": "1.4.1",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/ResonatorOverhaul1.3.0.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/ResonatorOverhaul1.4.1.zip"
     },
     {
       "filename": "Sammiches_v1.3.0.zip",
@@ -589,13 +589,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/airthermomod_0.5.0.zip"
     },
     {
-      "filename": "alchemy_2.1.21.zip",
-      "sha256": "c6ded652355e6217992d974ec98d934d95641516141651600a23be68de10a512",
-      "size": 2338129,
+      "filename": "alchemy_2.1.22.zip",
+      "sha256": "a3c0e56a87a28fdb992dcc5117779142d57f5195ee7e8e07660c078079e932f4",
+      "size": 2360188,
       "modid": "alchemy",
-      "version": "2.1.21",
+      "version": "2.1.22",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/alchemy_2.1.21.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/alchemy_2.1.22.zip"
     },
     {
       "filename": "algernonsterrainsampler_1.3.0.zip",
@@ -706,13 +706,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/betterarrows-1.0.1.zip"
     },
     {
-      "filename": "bettererprospecting_3.4.5.zip",
-      "sha256": "ba645fe026918178cf10e74a9981f47619ba2c1007fe48c4a6c27a32f2c77719",
-      "size": 179470,
+      "filename": "bettererprospecting_3.4.8.zip",
+      "sha256": "8b979f122d85a53ae9589417873e03643af30a30903f90c4c9176ba7bd46bf54",
+      "size": 179791,
       "modid": "bettererprospecting",
-      "version": "3.4.5",
+      "version": "3.4.8",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/bettererprospecting_3.4.5.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/bettererprospecting_3.4.8.zip"
     },
     {
       "filename": "betterloot2.0.2.zip",
@@ -760,13 +760,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/buzzwords_1.8.2.zip"
     },
     {
-      "filename": "canjewelry_0.7.1.zip",
-      "sha256": "3535d9756631f8f5e014cd734df86280162835229567baf5c7defa433169a84a",
-      "size": 608530,
+      "filename": "canjewelry_0.7.2.zip",
+      "sha256": "44d62450c42304f68ce8759a9ea099f884efc742b7d346cba422c1c969b297db",
+      "size": 608244,
       "modid": "canjewelry",
-      "version": "0.7.1",
+      "version": "0.7.2",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/canjewelry_0.7.1.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/canjewelry_0.7.2.zip"
     },
     {
       "filename": "chisel_leaf_1.2.1.zip",
@@ -814,22 +814,22 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/clayworks_0.6.1.zip"
     },
     {
-      "filename": "combatoverhaulfork_0.18.7.zip",
-      "sha256": "e5c2f62a71912107f1cd3b306e6f15d6df9fa4eed4d725855efa18b733303f61",
-      "size": 1702271,
+      "filename": "combatoverhaulfork_0.18.8.zip",
+      "sha256": "eb1af1f6e59e22d6c3728b4bed42ee5f0f123bcc477e9cb5a6a9a21213945429",
+      "size": 1702225,
       "modid": "combatoverhaulfork",
-      "version": "0.18.7",
+      "version": "0.18.8",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/combatoverhaulfork_0.18.7.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/combatoverhaulfork_0.18.8.zip"
     },
     {
-      "filename": "configlib_1.12.0.zip",
-      "sha256": "7376d892ee4b9dc8d435e4b4b32e964773e770d5f6ec01f2c913ef49b729d9fc",
-      "size": 198885,
+      "filename": "configlib_1.13.2.zip",
+      "sha256": "17943dcdfb5b93c28343e19e66b582da69019e7863f96450f8637399f80f1c95",
+      "size": 193299,
       "modid": "configlib",
-      "version": "1.12.0",
+      "version": "1.13.2",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/configlib_1.12.0.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/configlib_1.13.2.zip"
     },
     {
       "filename": "crossbowsfork_1.10.1.zip",
@@ -886,6 +886,15 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/extendedcreation_1.2.5.zip"
     },
     {
+      "filename": "fablewoodfoods_1.0.5.zip",
+      "sha256": "2f2b42eccf73633a5c632a2c539d9a956f0a434a76a69efae2c1a1b6bf3237f4",
+      "size": 675806,
+      "modid": "fablewoodfoods",
+      "version": "1.0.5",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/fablewoodfoods_1.0.5.zip"
+    },
+    {
       "filename": "farseer_1.4.0.zip",
       "sha256": "bac916746b57c214e31d0d9189c4f7bc8be11b689c238ea7d6cbf32debc302bc",
       "size": 168172,
@@ -940,13 +949,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/gourmand_1.8.12.zip"
     },
     {
-      "filename": "improvedhandbookrecipesfork-1227.0.2.zip",
-      "sha256": "331ac9f5913dbd5363513725024d838ae55605142e33556cc50fd93323673074",
-      "size": 197823,
+      "filename": "improvedhandbookrecipesfork-1227.0.5.zip",
+      "sha256": "dbb35708b523a4d083bf032f8a7c593a58e633935b2194037b11e138310f768c",
+      "size": 200744,
       "modid": "improvedhandbookrecipesfork",
-      "version": "1227.0.2",
+      "version": "1227.0.5",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/improvedhandbookrecipesfork-1227.0.2.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/improvedhandbookrecipesfork-1227.0.5.zip"
     },
     {
       "filename": "jsonpatcheslib_1.5.9.zip",
@@ -1039,13 +1048,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/playercorpseforkedazu_1.15.1.zip"
     },
     {
-      "filename": "quiversfork_0.9.31.zip",
-      "sha256": "3f2d1740f7fdafbafce856e3435042c1ba101b56596f7a9801cdac5b465a2005",
-      "size": 941291,
+      "filename": "quiversfork_0.9.32.zip",
+      "sha256": "2a8f355b9566a67021000a114bd2445f733551ec5c624f508a84e9110bf03362",
+      "size": 941297,
       "modid": "quiversfork",
-      "version": "0.9.31",
+      "version": "0.9.32",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/quiversfork_0.9.31.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/quiversfork_0.9.32.zip"
     },
     {
       "filename": "realsmoke_1.3.1.zip",
@@ -1111,13 +1120,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/sortablestorage_3.0.0.zip"
     },
     {
-      "filename": "spinningwheel_1.2.12.zip",
-      "sha256": "d42fe19d59c1b857882902caf1f25c3faf91289baeaebafa9d6226b26eaac180",
-      "size": 696421,
+      "filename": "spinningwheel_1.2.13.zip",
+      "sha256": "187cd6fb2ae7e4a055177a5b5fa7d23a1888675bd743e5bc73759d02ac7e80d7",
+      "size": 696353,
       "modid": "spinningwheel",
-      "version": "1.2.12",
+      "version": "1.2.13",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/spinningwheel_1.2.12.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/spinningwheel_1.2.13.zip"
     },
     {
       "filename": "spyglass_0.6.1.zip",
