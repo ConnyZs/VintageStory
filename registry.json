@@ -3,8 +3,8 @@
   "game_version": "1.22.7",
   "check_ts": "20260903-200110",
   "latest_engine": "1.22.7",
-  "restart_needed": "20260825-183432",
-  "last_deploy_ts": "20260825-183432",
+  "restart_needed": "20260904-013331",
+  "last_deploy_ts": "20260904-013331",
   "modset": {
     "server_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset.zip",
     "full_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset-full.zip",
