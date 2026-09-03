@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-03T23:30:58Z",
+  "updated": "2026-09-03T23:54:57Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1306,6 +1306,15 @@
       "section": "1.22",
       "server_state": "yes",
       "proposed": false,
+      "note": ""
+    },
+    {
+      "name": "",
+      "link": "https://mods.vintagestory.at/longtermfood",
+      "category": "Other",
+      "section": "1.22",
+      "server_state": "no",
+      "proposed": true,
       "note": ""
     }
   ]
