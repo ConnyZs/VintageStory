@@ -1,5 +1,5 @@
 {
-  "generated": "20260904-185744",
+  "generated": "20260904-190410",
   "game_version": "1.22.7",
   "check_ts": "20260904-014006",
   "latest_engine": "1.22.7",
@@ -54,7 +54,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 167,
+  "count": 168,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -2772,6 +2772,23 @@
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "1.1.4",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": true
+    },
+    {
+      "name": "Opine Upon Pine",
+      "modid": "opineuponpine",
+      "section": "1.22",
+      "category": "Graphics",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/show/mod/39996",
+      "server_only": false,
+      "server_state": "no",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": null,
+      "build_version": "1.1.0",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": true

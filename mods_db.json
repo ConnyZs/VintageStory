@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-04T16:56:57Z",
+  "updated": "2026-09-04T17:03:15Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1437,6 +1437,15 @@
     {
       "name": "",
       "link": "https://mods.vintagestory.at/panningmachine",
+      "category": "Other",
+      "section": "1.22",
+      "server_state": "no",
+      "proposed": true,
+      "note": ""
+    },
+    {
+      "name": "",
+      "link": "https://mods.vintagestory.at/show/mod/39996",
       "category": "Other",
       "section": "1.22",
       "server_state": "no",
