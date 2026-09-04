@@ -1,5 +1,5 @@
 {
-  "generated": "20260904-185652",
+  "generated": "20260904-185744",
   "game_version": "1.22.7",
   "check_ts": "20260904-014006",
   "latest_engine": "1.22.7",
@@ -54,7 +54,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 166,
+  "count": 167,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -2760,6 +2760,23 @@
       "proposed": true
     },
     {
+      "name": "Panning Machine",
+      "modid": "panningmachine",
+      "section": "1.22",
+      "category": "Technology",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/panningmachine",
+      "server_only": false,
+      "server_state": "no",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": null,
+      "build_version": "1.1.4",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": true
+    },
+    {
       "name": "smithingplus",
       "modid": "smithingplus",
       "section": "1.22",
@@ -2885,7 +2902,7 @@
       "avail": "available",
       "note": "server-only \u2014 exports Crew tab stats, also in SERVER_ONLY_MODS",
       "version": "0.1.4",
-      "build_version": "0.1.4",
+      "build_version": null,
       "build_branch": null,
       "update_pending": false,
       "proposed": false,
