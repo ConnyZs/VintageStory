@@ -144,8 +144,18 @@ Synergy,https://mods.vintagestory.at/synergy,Utility,1.22,yes,available for 1.22
 Tungsten,https://mods.vintagestory.at/tungsten,Utility,1.22,yes,available for 1.22 (installs on update),tungsten,available,1.3.7
 Local Only E2E Test,https://mods.vintagestory.at/__test_local_only_e2e__,Other,optional,no,not on ModDB / link unresolved,__test_local_only_e2e__,not-found,
 Fablewood Foods,https://mods.vintagestory.at/fablewoodfoods,Food,1.22,yes,available for 1.22 (installs on update),fablewoodfoods,available,1.0.5
-Long term food,https://mods.vintagestory.at/longtermfood,Worldgen,1.22,no,available for 1.22 (installs on update),long-term_food,available,
-Yang's Transport Tycoon,https://mods.vintagestory.at/yangtransport,Technology,1.22,no,available for 1.22 (installs on update),yangtransport,available,
+Long term food,https://mods.vintagestory.at/longtermfood,Worldgen,1.22,yes,available for 1.22 (installs on update),long-term_food,available,
+Yang's Transport Tycoon,https://mods.vintagestory.at/yangtransport,Technology,1.22,yes,available for 1.22 (installs on update),yangtransport,available,
+Flow Field Collisions,https://mods.vintagestory.at/show/mod/43422,Utility,1.22,yes,available for 1.22 (installs on update),collisionflowfields,available,
+Integrated Mod Manager,https://mods.vintagestory.at/imm,Accessibility,1.22,yes,available for 1.22 (installs on update),integratedmodmanager,available,
+Yang's Evil Arse Interaction Range Patch,https://mods.vintagestory.at/show/mod/56866,Fix,1.22,yes,available for 1.22 (installs on update),evilinteractionrangehack,available,
+Craftable Locusts,https://mods.vintagestory.at/craftablelocusts,Utility,1.22,yes,available for 1.22 (installs on update),craftablelocusts,available,
+Extended Rail Set for Yang's Transport Tycoon,https://mods.vintagestory.at/extendedrailset,Addon,1.22,yes,available for 1.22 (installs on update),yttextendedrails,available,
+Basic Diagonals For Yang's Transport Tycoon,https://mods.vintagestory.at/show/mod/63213,Cheat,1.22,yes,available for 1.22 (installs on update),yttdiagonals,available,
+Too Many Tabs! Scrollable Creative Inventory Tabs,https://mods.vintagestory.at/show/mod/63049,Misc.,1.22,yes,available for 1.22 (installs on update),scrollbarcreativeinventorytabs,available,
+Enhanced Interaction Picker For YTT,https://mods.vintagestory.at/show/mod/63405,Misc.,1.22,yes,available for 1.22 (installs on update),yttenhancedinteractionfiltering,available,
+Drinkable Interaction Ordering Patch,https://mods.vintagestory.at/show/mod/50412,Harmony Patching,1.22,yes,available for 1.22 (installs on update),yangcoifix,available,
+AstraTerra,https://mods.vintagestory.at/show/mod/50376,Other,1.22,no,available for 1.22 (installs on update),astraterra,available,
 smithingplus,,Misc.,1.22,yes,,smithingplus,available,1.8.10
 Windmill Sail Fix,,Misc.,1.22,,,windmillsailfix,available,2.0.2
 Labeled Trunks,,Storage,1.22,yes,,labeledtrunk,available,1.1.13

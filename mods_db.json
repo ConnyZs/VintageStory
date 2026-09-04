@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-04T16:27:08Z",
+  "updated": "2026-09-04T16:53:50Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1313,13 +1313,103 @@
       "link": "https://mods.vintagestory.at/longtermfood",
       "category": "Other",
       "section": "1.22",
-      "server_state": "no",
+      "server_state": "yes",
       "proposed": true,
       "note": ""
     },
     {
       "name": "",
       "link": "https://mods.vintagestory.at/yangtransport",
+      "category": "Other",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": true,
+      "note": ""
+    },
+    {
+      "name": "Flow Field Collisions",
+      "link": "https://mods.vintagestory.at/show/mod/43422",
+      "category": "Misc.",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": true,
+      "note": "added via dashboard"
+    },
+    {
+      "name": "Integrated Mod Manager",
+      "link": "https://mods.vintagestory.at/imm",
+      "category": "Misc.",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": true,
+      "note": "added via dashboard"
+    },
+    {
+      "name": "Yang's Evil Arse Interaction Range Patch",
+      "link": "https://mods.vintagestory.at/show/mod/56866",
+      "category": "Misc.",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": true,
+      "note": "added via dashboard"
+    },
+    {
+      "name": "Craftable Locusts",
+      "link": "https://mods.vintagestory.at/craftablelocusts",
+      "category": "Misc.",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": true,
+      "note": "added via dashboard"
+    },
+    {
+      "name": "Extended Rail Set for Yang's Transport Tycoon",
+      "link": "https://mods.vintagestory.at/extendedrailset",
+      "category": "Misc.",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": true,
+      "note": "added via dashboard"
+    },
+    {
+      "name": "Basic Diagonals For Yang's Transport Tycoon",
+      "link": "https://mods.vintagestory.at/show/mod/63213",
+      "category": "Misc.",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": true,
+      "note": "added via dashboard"
+    },
+    {
+      "name": "Too Many Tabs! Scrollable Creative Inventory Tabs",
+      "link": "https://mods.vintagestory.at/show/mod/63049",
+      "category": "Misc.",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": true,
+      "note": "added via dashboard"
+    },
+    {
+      "name": "Enhanced Interaction Picker For YTT",
+      "link": "https://mods.vintagestory.at/show/mod/63405",
+      "category": "Misc.",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": true,
+      "note": "added via dashboard"
+    },
+    {
+      "name": "Drinkable Interaction Ordering Patch",
+      "link": "https://mods.vintagestory.at/show/mod/50412",
+      "category": "Misc.",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": true,
+      "note": "added via dashboard"
+    },
+    {
+      "name": "",
+      "link": "https://mods.vintagestory.at/show/mod/50376",
       "category": "Other",
       "section": "1.22",
       "server_state": "no",
