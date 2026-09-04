@@ -1,5 +1,5 @@
 {
-  "generated": "20260904-015535",
+  "generated": "20260904-182747",
   "game_version": "1.22.7",
   "check_ts": "20260904-014006",
   "latest_engine": "1.22.7",
@@ -49,7 +49,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 153,
+  "count": 154,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -2529,6 +2529,23 @@
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "0.7.2",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": true
+    },
+    {
+      "name": "Yang's Transport Tycoon",
+      "modid": "yangtransport",
+      "section": "1.22",
+      "category": "Technology",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/yangtransport",
+      "server_only": false,
+      "server_state": "no",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": null,
+      "build_version": "0.8.6",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": true
