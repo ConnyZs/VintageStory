@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-04T17:03:15Z",
+  "updated": "2026-09-04T17:05:24Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1412,16 +1412,7 @@
       "link": "https://mods.vintagestory.at/show/mod/50376",
       "category": "Other",
       "section": "1.22",
-      "server_state": "no",
-      "proposed": true,
-      "note": ""
-    },
-    {
-      "name": "",
-      "link": "https://mods.vintagestory.at/show/mod/19368",
-      "category": "Other",
-      "section": "1.22",
-      "server_state": "no",
+      "server_state": "yes",
       "proposed": true,
       "note": ""
     },
@@ -1430,7 +1421,7 @@
       "link": "https://mods.vintagestory.at/show/mod/57484",
       "category": "Other",
       "section": "1.22",
-      "server_state": "no",
+      "server_state": "yes",
       "proposed": true,
       "note": ""
     },
@@ -1439,7 +1430,7 @@
       "link": "https://mods.vintagestory.at/panningmachine",
       "category": "Other",
       "section": "1.22",
-      "server_state": "no",
+      "server_state": "yes",
       "proposed": true,
       "note": ""
     },
