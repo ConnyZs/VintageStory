@@ -1,7 +1,7 @@
 {
-  "generated": "20260907-200116",
+  "generated": "20260908-200117",
   "game_version": "1.22.7",
-  "check_ts": "20260907-200116",
+  "check_ts": "20260908-200117",
   "latest_engine": "1.22.7",
   "restart_needed": "20260904-013331",
   "last_deploy_ts": "20260904-013945",
@@ -340,9 +340,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "3.4.8",
-      "build_version": "3.4.8",
+      "build_version": "3.4.9",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -663,9 +663,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.3.4",
-      "build_version": "1.3.4",
+      "build_version": "2.0.1",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -1972,7 +1972,7 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.2.9",
-      "build_version": "1.2.10",
+      "build_version": "1.2.11",
       "build_branch": "1.22",
       "update_pending": true,
       "proposed": false
@@ -2125,9 +2125,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.4.6",
-      "build_version": "1.4.6",
+      "build_version": "2.0.2",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -2193,7 +2193,7 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.5.6",
-      "build_version": "1.5.7",
+      "build_version": "1.5.8",
       "build_branch": "1.22",
       "update_pending": true,
       "proposed": false
@@ -2584,7 +2584,7 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": null,
-      "build_version": "1.0.5",
+      "build_version": "1.1.0",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": true
