@@ -1,7 +1,7 @@
 {
-  "generated": "20260911-200117",
+  "generated": "20260912-200116",
   "game_version": "1.22.7",
-  "check_ts": "20260911-200117",
+  "check_ts": "20260912-200116",
   "latest_engine": "1.22.7",
   "restart_needed": "20260904-013331",
   "last_deploy_ts": "20260904-013945",
@@ -425,9 +425,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "3.3.0",
-      "build_version": "3.3.0",
+      "build_version": "3.3.1",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -646,7 +646,7 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.2.5",
-      "build_version": "1.2.6",
+      "build_version": "1.2.7",
       "build_branch": "1.22",
       "update_pending": true,
       "proposed": false
@@ -771,7 +771,7 @@
       "proposed": false
     },
     {
-      "name": "Notice Board",
+      "name": "Notice Board [v3.0]!",
       "modid": "noticeboard",
       "section": "1.22",
       "category": "Utility",
@@ -2533,7 +2533,7 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": null,
-      "build_version": "0.7.2",
+      "build_version": "0.7.3",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": true
