@@ -1,7 +1,7 @@
 {
-  "generated": "20260926-200117",
+  "generated": "20260927-200117",
   "game_version": "1.22.7",
-  "check_ts": "20260926-200117",
+  "check_ts": "20260927-200117",
   "latest_engine": "1.22.7",
   "restart_needed": "20260904-013331",
   "last_deploy_ts": "20260904-013945",
@@ -629,9 +629,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "3.0.5",
-      "build_version": "3.0.5",
+      "build_version": "3.1.0",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -714,7 +714,7 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.8.12",
-      "build_version": "1.9.2",
+      "build_version": "1.9.3",
       "build_branch": "1.22",
       "update_pending": true,
       "proposed": false
@@ -1009,7 +1009,7 @@
       "proposed": false
     },
     {
-      "name": "Window Storage [Legacy]",
+      "name": "Window Storage",
       "modid": "windowstorage",
       "section": "1.22",
       "category": "Storage",
@@ -1017,11 +1017,11 @@
       "link": "https://mods.vintagestory.at/windowstorage",
       "server_only": false,
       "server_state": "yes",
-      "avail": "available",
-      "note": "available for 1.22 (installs on update)",
+      "avail": "not-found",
+      "note": "not on ModDB / link unresolved",
       "version": "1.8.25",
-      "build_version": "1.8.5",
-      "build_branch": "1.22",
+      "build_version": null,
+      "build_branch": null,
       "update_pending": false,
       "proposed": false
     },
@@ -1077,7 +1077,7 @@
       "proposed": false
     },
     {
-      "name": "Expanded Foods: Core 2.0.0-dev.14",
+      "name": "Expanded Foods: Core 2.0.0-dev.15",
       "modid": "expandedfoods",
       "section": "1.22",
       "category": "Utility",
@@ -1088,13 +1088,13 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "2.0.0-dev.14",
-      "build_version": "2.0.0-dev.14",
+      "build_version": "2.0.0-dev.15",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
-      "name": "A Culinary Artillery 2.0.0-dev.24",
+      "name": "A Culinary Artillery 2.0.0-dev.25",
       "modid": "aculinaryartillery",
       "section": "1.22",
       "category": "Technology",
@@ -1105,7 +1105,7 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "2.0.0-dev.22",
-      "build_version": "2.0.0-dev.24",
+      "build_version": "2.0.0-dev.25",
       "build_branch": "1.22",
       "update_pending": true,
       "proposed": false
@@ -1247,7 +1247,7 @@
       "proposed": false
     },
     {
-      "name": "Expanded Foods: Chef's Tricks 1.0.0-dev.4",
+      "name": "Expanded Foods: Chef's Tricks 1.0.0-dev.5",
       "modid": "efchefstricks",
       "section": "1.22",
       "category": "Food",
@@ -1258,9 +1258,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.0.0-dev.4",
-      "build_version": "1.0.0-dev.4",
+      "build_version": "1.0.0-dev.5",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -1621,7 +1621,7 @@
       "proposed": false
     },
     {
-      "name": "Window Storage Lib [Legacy]",
+      "name": "Window Storage Lib",
       "modid": "windowstoragelib",
       "section": "1.22",
       "category": "Library",
@@ -1629,11 +1629,11 @@
       "link": "https://mods.vintagestory.at/windowstoragelib",
       "server_only": false,
       "server_state": "yes",
-      "avail": "available",
-      "note": "available for 1.22 (installs on update)",
+      "avail": "not-found",
+      "note": "not on ModDB / link unresolved",
       "version": "1.2.7",
-      "build_version": "1.2.7",
-      "build_branch": "1.22",
+      "build_version": null,
+      "build_branch": null,
       "update_pending": false,
       "proposed": false
     },
@@ -2703,7 +2703,7 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": null,
-      "build_version": "2.5.0",
+      "build_version": "5.0.0",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": true
@@ -2788,7 +2788,7 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": null,
-      "build_version": "1.0.4",
+      "build_version": "1.0.5",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": true

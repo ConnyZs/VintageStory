@@ -55,12 +55,12 @@ Tabletop Games,https://mods.vintagestory.at/tabletopgames,Utility,1.22,yes,avail
 "Tankards, Goblets and More!",https://mods.vintagestory.at/tankardsandgoblets,Food,1.22,yes,available for 1.22 (installs on update),tankardsandgoblets,available,1.4.4
 Translocator Engineering - Redux,https://mods.vintagestory.at/translocatorengineeringredux,Technology,1.22,yes,available for 1.22 (installs on update),translocatorengineeringredux,available,1.6.6
 VS Roofing Mod,https://mods.vintagestory.at/show/mod/30143,Utility,1.22,yes,available for 1.22 (installs on update),vsroofing,available,1.7.2
-Window Storage [Legacy],https://mods.vintagestory.at/windowstorage,Storage,1.22,yes,available for 1.22 (installs on update),windowstorage,available,1.8.25
+Window Storage,https://mods.vintagestory.at/windowstorage,Storage,1.22,yes,not on ModDB / link unresolved,windowstorage,not-found,1.8.25
 Tailor's Delight,https://mods.vintagestory.at/tailorsdelight,Cosmetics,1.22,yes,available for 1.22 (installs on update),tailorsdelight,available,2.2.2
 Cartwright´s Caravan,https://mods.vintagestory.at/cartwrightscaravan,Storage,1.22,yes,available for 1.22 (installs on update),cartwrightscaravan,available,1.9.1
 Chiseled Block Retention,https://mods.vintagestory.at/cbr,QoL,1.22,yes,available for 1.22 (installs on update),cbr,available,2.0.1
-Expanded Foods: Core 2.0.0-dev.14,https://mods.vintagestory.at/expandedfoods,Utility,1.22,yes,available for 1.22 (installs on update),expandedfoods,available,2.0.0-dev.14
-A Culinary Artillery 2.0.0-dev.24,https://mods.vintagestory.at/aculinaryartillery,Technology,1.22,yes,available for 1.22 (installs on update),aculinaryartillery,available,2.0.0-dev.22
+Expanded Foods: Core 2.0.0-dev.15,https://mods.vintagestory.at/expandedfoods,Utility,1.22,yes,available for 1.22 (installs on update),expandedfoods,available,2.0.0-dev.14
+A Culinary Artillery 2.0.0-dev.25,https://mods.vintagestory.at/aculinaryartillery,Technology,1.22,yes,available for 1.22 (installs on update),aculinaryartillery,available,2.0.0-dev.22
 Spyglass,https://mods.vintagestory.at/spyglass,Technology,1.22,yes,available for 1.22 (installs on update),spyglass,available,0.6.1
 Useful Traders,https://mods.vintagestory.at/show/mod/19225,QoL,1.22,yes,available for 1.22 (installs on update),usefultraders,available,2.5.2
 ImGui,https://mods.vintagestory.at/imgui,Misc.,1.22,yes,available for 1.22 (installs on update),vsimgui,available,1.2.7
@@ -69,7 +69,7 @@ Sewing Commoner,https://mods.vintagestory.at/sewingcommoner,Crafting,1.22,yes,"o
 Farseer,https://mods.vintagestory.at/show/mod/22371,Worldgen,1.22,yes,available for 1.22 (installs on update),farseer,available,1.4.0
 Algernon's Terrain Sampler Lib,https://mods.vintagestory.at/algernonsterrainsampler,Library,1.22,yes,available for 1.22 (installs on update),algernonsterrainsampler,available,1.3.0
 Expanded Foods: Meals Module 1.0.0-dev.8,https://mods.vintagestory.at/efmealsmodule,Food,1.22,yes,available for 1.22 (installs on update),efmealsmodule,available,1.0.0-dev.8
-Expanded Foods: Chef's Tricks 1.0.0-dev.4,https://mods.vintagestory.at/efchefstricks,Food,1.22,yes,available for 1.22 (installs on update),efchefstricks,available,1.0.0-dev.4
+Expanded Foods: Chef's Tricks 1.0.0-dev.5,https://mods.vintagestory.at/efchefstricks,Food,1.22,yes,available for 1.22 (installs on update),efchefstricks,available,1.0.0-dev.4
 Salty´s TrashBinned,https://mods.vintagestory.at/trashbinned,QoL,1.22,yes,available for 1.22 (installs on update),trashbinned,available,0.4.2
 Composter [Finished],https://mods.vintagestory.at/composter,Utility,1.22,yes,available for 1.22 (installs on update),composter,available,1.2.2
 Amphorae,https://mods.vintagestory.at/amphorae,Crafting,1.22,yes,available for 1.22 (installs on update),amphorae,available,1.0.2
@@ -91,7 +91,7 @@ Electrical Progressive: Core,https://mods.vintagestory.at/electricalprogressivec
 Expanded Matter,https://mods.vintagestory.at/em,Worldgen,1.22,yes,available for 1.22 (installs on update),em,available,3.8.1
 JSON Patches lib,https://mods.vintagestory.at/jsonpatcheslib,Library,1.22,yes,available for 1.22 (installs on update),jsonpatcheslib,available,1.5.9
 Molds,https://mods.vintagestory.at/molds,Technology,1.22,yes,available for 1.22 (installs on update),molds,available,0.3.7
-Window Storage Lib [Legacy],https://mods.vintagestory.at/windowstoragelib,Library,1.22,yes,available for 1.22 (installs on update),windowstoragelib,available,1.2.7
+Window Storage Lib,https://mods.vintagestory.at/windowstoragelib,Library,1.22,yes,not on ModDB / link unresolved,windowstoragelib,not-found,1.2.7
 Salty´s TerraTag,https://mods.vintagestory.at/terratag,Utility,1.22,yes,available for 1.22 (installs on update),terratag,available,0.6.0
 Vanity,https://mods.vintagestory.at/vanity,Cosmetics,1.22,yes,available for 1.22 (installs on update),vanity,available,2.4.8
 From Golden Combs,https://mods.vintagestory.at/show/mod/1373,Food,1.22,yes,available for 1.22 (installs on update),fromgoldencombs,available,2.0.8
