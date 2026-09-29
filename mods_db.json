@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-25T19:39:01Z",
+  "updated": "2026-09-28T23:39:59Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1439,7 +1439,7 @@
       "link": "https://mods.vintagestory.at/show/mod/39996",
       "category": "Other",
       "section": "1.22",
-      "server_state": "no",
+      "server_state": "yes",
       "proposed": true,
       "note": ""
     },
@@ -1448,9 +1448,27 @@
       "link": "https://mods.vintagestory.at/teapotsgiantboar",
       "category": "Other",
       "section": "1.22",
-      "server_state": "no",
+      "server_state": "yes",
       "proposed": true,
       "note": ""
+    },
+    {
+      "name": "YTT Place-on-Slabs Compatibility Mod",
+      "link": "https://mods.vintagestory.at/show/mod/69853",
+      "category": "Misc.",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": true,
+      "note": "Confirmed no overlap with LabeledTrunk - only touches PlaceOnSlabs/SlabHelper + its own rail placement code"
+    },
+    {
+      "name": "Forgotten Armory: Core",
+      "link": "https://mods.vintagestory.at/show/mod/66838",
+      "category": "Misc.",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": true,
+      "note": "Hard dependency for fagothic/fagreenwich/favarangian 2.x - those won't load without this"
     }
   ]
 }
