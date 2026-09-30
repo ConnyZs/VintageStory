@@ -1,5 +1,5 @@
 {
-  "generated": "20260930-201306",
+  "generated": "20260930-222626",
   "game_version": "1.22.7",
   "check_ts": "20260930-200122",
   "latest_engine": "1.22.7",
@@ -18,7 +18,7 @@
       "Status HUD",
       "StepUp Advanced"
     ],
-    "generated": "20260930-201217"
+    "generated": "20260930-222544"
   },
   "admin_url": "http://127.0.0.1:3042",
   "categories": [
@@ -629,9 +629,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "3.1.0",
-      "build_version": "3.1.0",
+      "build_version": "3.1.1",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -3004,7 +3004,7 @@
       "avail": "available",
       "note": "server-only \u2014 exports Crew tab stats, also in SERVER_ONLY_MODS",
       "version": "0.1.4",
-      "build_version": null,
+      "build_version": "0.1.4",
       "build_branch": null,
       "update_pending": false,
       "proposed": false,

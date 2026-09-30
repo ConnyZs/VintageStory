@@ -1,6 +1,6 @@
 {
   "game_version": "1.22.7",
-  "generated": "20260930-201043",
+  "generated": "20260930-222413",
   "count": 160,
   "mods": [
     {
@@ -1490,6 +1490,14 @@
       "sha256": "a2857ab077fcd66b6ecd028aa2c26fee9aa06dc444569e9894f33d017a395386",
       "size": 4809,
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/client-configs/stepupadvanced/StepUpAdvanced_BlockBlacklist.json"
+    },
+    {
+      "modid": "synergy",
+      "filename": "Synergy.json",
+      "target": "ModConfig/Synergy.json",
+      "sha256": "0b570ff9af7ff1626175ec978ce906c5add65a366cb390be47e1bbbf43608134",
+      "size": 834,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/client-configs/synergy/Synergy.json"
     }
   ]
 }
