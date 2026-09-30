@@ -1487,6 +1487,15 @@
       "server_state": "yes",
       "proposed": false,
       "note": "Required dependency for Teapot's Giant Boar"
+    },
+    {
+      "name": "BPFFC Place-on-Slabs Compatibility Mod",
+      "link": "https://mods.vintagestory.at/show/mod/69859",
+      "category": "Misc.",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": "Fixes collision-geometry misalignment between Collision Flow Fields and Place On Slabs, per IMM conflict detection"
     }
   ]
 }

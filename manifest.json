@@ -1,7 +1,7 @@
 {
   "game_version": "1.22.7",
-  "generated": "20260930-193003",
-  "count": 159,
+  "generated": "20260930-201043",
+  "count": 160,
   "mods": [
     {
       "filename": "ExtraInfo-v2.2.1.zip",
@@ -767,6 +767,15 @@
       "version": "1.4.2",
       "name": null,
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/bola_1.4.2.zip"
+    },
+    {
+      "filename": "bpffcplaceonslabscompatibility.zip",
+      "sha256": "e7a52850c9731f262be4f88b06dc35588ed71ce3baa39816a336b6c50ea24680",
+      "size": 443700,
+      "modid": "bpffcplaceonslabscompatibility",
+      "version": "1.0.1",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/bpffcplaceonslabscompatibility.zip"
     },
     {
       "filename": "bricklayers-3.3.2.zip",

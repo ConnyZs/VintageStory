@@ -1,5 +1,5 @@
 {
-  "generated": "20260930-200122",
+  "generated": "20260930-201306",
   "game_version": "1.22.7",
   "check_ts": "20260930-200122",
   "latest_engine": "1.22.7",
@@ -8,17 +8,17 @@
   "modset": {
     "server_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset.zip",
     "full_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset-full.zip",
-    "server_count": 159,
-    "full_count": 163,
-    "server_size": 270433544,
-    "full_size": 271324543,
+    "server_count": 160,
+    "full_count": 164,
+    "server_size": 270877388,
+    "full_size": 271768387,
     "client_only": [
       "Natural Foliage",
       "OptiTime",
       "Status HUD",
       "StepUp Advanced"
     ],
-    "generated": "20260930-193139"
+    "generated": "20260930-201217"
   },
   "admin_url": "http://127.0.0.1:3042",
   "categories": [
@@ -54,7 +54,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 172,
+  "count": 173,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -833,9 +833,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.17.7",
-      "build_version": "1.17.7",
+      "build_version": "1.17.8",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -2862,6 +2862,23 @@
       "proposed": false
     },
     {
+      "name": "BPFFC Place-on-Slabs Compatibility Mod",
+      "modid": "bpffcplaceonslabscompatibility",
+      "section": "1.22",
+      "category": "Compatibility",
+      "on_server": true,
+      "link": "https://mods.vintagestory.at/show/mod/69859",
+      "server_only": false,
+      "server_state": "yes",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": "1.0.1",
+      "build_version": "1.0.1",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": false
+    },
+    {
       "name": "smithingplus",
       "modid": "smithingplus",
       "section": "1.22",
@@ -2987,7 +3004,7 @@
       "avail": "available",
       "note": "server-only \u2014 exports Crew tab stats, also in SERVER_ONLY_MODS",
       "version": "0.1.4",
-      "build_version": "0.1.4",
+      "build_version": null,
       "build_branch": null,
       "update_pending": false,
       "proposed": false,
