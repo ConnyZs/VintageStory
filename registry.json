@@ -1,5 +1,5 @@
 {
-  "generated": "20260930-192547",
+  "generated": "20260930-193222",
   "game_version": "1.22.7",
   "check_ts": "20260930-191310",
   "latest_engine": "1.22.7",
@@ -8,17 +8,17 @@
   "modset": {
     "server_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset.zip",
     "full_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset-full.zip",
-    "server_count": 157,
-    "full_count": 161,
-    "server_size": 270052614,
-    "full_size": 270943613,
+    "server_count": 159,
+    "full_count": 163,
+    "server_size": 270433544,
+    "full_size": 271324543,
     "client_only": [
       "Natural Foliage",
       "OptiTime",
       "Status HUD",
       "StepUp Advanced"
     ],
-    "generated": "20260930-192504"
+    "generated": "20260930-193139"
   },
   "admin_url": "http://127.0.0.1:3042",
   "categories": [
@@ -54,7 +54,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 170,
+  "count": 172,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -2823,6 +2823,40 @@
       "note": "available for 1.22 (installs on update)",
       "version": "1.1.0",
       "build_version": "1.1.0",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": false
+    },
+    {
+      "name": "Pet AI",
+      "modid": "petai",
+      "section": "1.22",
+      "category": "Creatures",
+      "on_server": true,
+      "link": "https://mods.vintagestory.at/show/mod/1618",
+      "server_only": false,
+      "server_state": "yes",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": "5.1.2",
+      "build_version": "5.1.2",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": false
+    },
+    {
+      "name": "Jaunt: Entity Movement System",
+      "modid": "jaunt",
+      "section": "1.22",
+      "category": "Utility",
+      "on_server": true,
+      "link": "https://mods.vintagestory.at/show/mod/25170",
+      "server_only": false,
+      "server_state": "yes",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": "3.3.1",
+      "build_version": "3.3.1",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": false

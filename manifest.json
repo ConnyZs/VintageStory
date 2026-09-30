@@ -1,7 +1,7 @@
 {
   "game_version": "1.22.7",
-  "generated": "20260930-192332",
-  "count": 157,
+  "generated": "20260930-193003",
+  "count": 159,
   "mods": [
     {
       "filename": "ExtraInfo-v2.2.1.zip",
@@ -1030,6 +1030,15 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/integratedmodmanager.zip"
     },
     {
+      "filename": "jaunt_3.3.1.zip",
+      "sha256": "54c4d33e508ede71fa3eaacf34ff85363e48f3a069c67b70d250c5551f63e1af",
+      "size": 90387,
+      "modid": "jaunt",
+      "version": "3.3.1",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/jaunt_3.3.1.zip"
+    },
+    {
       "filename": "jsonpatcheslib_1.5.9.zip",
       "sha256": "b6444d3ac519b8466a7c0f397a9c12ceebd9c52e1ce43c1b0f4993e775442a94",
       "size": 57901,
@@ -1109,6 +1118,15 @@
       "version": "1.0.1",
       "name": null,
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/papierspeints1-0-1.zip"
+    },
+    {
+      "filename": "petai_v5.1.2.zip",
+      "sha256": "8bfa25c6d3e3e2b410aea39bb29c0be6dc406bcf06cac7b82258eaa849387cb6",
+      "size": 290329,
+      "modid": "petai",
+      "version": "5.1.2",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/petai_v5.1.2.zip"
     },
     {
       "filename": "placeitanywhere_0.7.9.zip",

@@ -1469,6 +1469,24 @@
       "server_state": "yes",
       "proposed": false,
       "note": "Hard dependency for fagothic/fagreenwich/favarangian 2.x - those won't load without this"
+    },
+    {
+      "name": "Pet AI",
+      "link": "https://mods.vintagestory.at/show/mod/1618",
+      "category": "Misc.",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": "Required dependency for Teapot's Giant Boar"
+    },
+    {
+      "name": "Jaunt: Entity Movement System",
+      "link": "https://mods.vintagestory.at/show/mod/25170",
+      "category": "Misc.",
+      "section": "1.22",
+      "server_state": "yes",
+      "proposed": false,
+      "note": "Required dependency for Teapot's Giant Boar"
     }
   ]
 }
