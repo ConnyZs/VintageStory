@@ -1,7 +1,7 @@
 {
-  "generated": "20261006-200118",
+  "generated": "20261007-200121",
   "game_version": "1.22.7",
-  "check_ts": "20261006-200118",
+  "check_ts": "20261007-200121",
   "latest_engine": "1.22.7",
   "restart_needed": "20260930-192235",
   "last_deploy_ts": "20260930-192235",
@@ -1247,7 +1247,7 @@
       "proposed": false
     },
     {
-      "name": "Expanded Foods: Chef's Tricks 1.0.0-dev.5",
+      "name": "Expanded Foods: Chef's Tricks 1.0.0-dev.6",
       "modid": "efchefstricks",
       "section": "1.22",
       "category": "Food",
@@ -1258,9 +1258,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.0.0-dev.5",
-      "build_version": "1.0.0-dev.5",
+      "build_version": "1.0.0-dev.6",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -2567,9 +2567,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.2.1",
-      "build_version": "1.2.1",
+      "build_version": "1.2.2",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
