@@ -1,7 +1,7 @@
 {
-  "generated": "20261008-200119",
+  "generated": "20261009-200122",
   "game_version": "1.22.7",
-  "check_ts": "20261008-200119",
+  "check_ts": "20261009-200122",
   "latest_engine": "1.22.7",
   "restart_needed": "20260930-192235",
   "last_deploy_ts": "20260930-192235",
@@ -1003,7 +1003,7 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "2.0.5",
-      "build_version": "2.1.0",
+      "build_version": "2.1.1",
       "build_branch": "1.22",
       "update_pending": true,
       "proposed": false
@@ -1077,7 +1077,7 @@
       "proposed": false
     },
     {
-      "name": "Expanded Foods: Core 2.0.0-dev.15",
+      "name": "Expanded Foods: Core 2.0.0-dev.16",
       "modid": "expandedfoods",
       "section": "1.22",
       "category": "Utility",
@@ -1088,9 +1088,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "2.0.0-dev.15",
-      "build_version": "2.0.0-dev.15",
+      "build_version": "2.0.0-dev.16",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -1230,7 +1230,7 @@
       "proposed": false
     },
     {
-      "name": "Expanded Foods: Meals Module 1.0.0-dev.8",
+      "name": "Expanded Foods: Meals Module 1.0.0-dev.9",
       "modid": "efmealsmodule",
       "section": "1.22",
       "category": "Food",
@@ -1241,9 +1241,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.0.0-dev.8",
-      "build_version": "1.0.0-dev.8",
+      "build_version": "1.0.0-dev.9",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -1853,9 +1853,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "0.18.8",
-      "build_version": "0.18.8",
+      "build_version": "0.18.9",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -1972,9 +1972,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.2.14",
-      "build_version": "1.2.14",
+      "build_version": "1.2.15",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -2788,7 +2788,7 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.0.5",
-      "build_version": "1.0.9",
+      "build_version": "1.0.10",
       "build_branch": "1.22",
       "update_pending": true,
       "proposed": false
