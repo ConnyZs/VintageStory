@@ -1,7 +1,7 @@
 {
-  "generated": "20261011-200134",
+  "generated": "20261013-003203",
   "game_version": "1.22.7",
-  "check_ts": "20261011-200134",
+  "check_ts": "20261013-003203",
   "latest_engine": "1.22.7",
   "restart_needed": "20260930-192235",
   "last_deploy_ts": "20260930-192235",
@@ -1094,7 +1094,7 @@
       "proposed": false
     },
     {
-      "name": "A Culinary Artillery 2.0.0-dev.26",
+      "name": "A Culinary Artillery 2.0.0-dev.27",
       "modid": "aculinaryartillery",
       "section": "1.22",
       "category": "Technology",
@@ -1105,9 +1105,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "2.0.0-dev.26",
-      "build_version": "2.0.0-dev.26",
+      "build_version": "2.0.0-dev.27",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -1938,9 +1938,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.15.2",
-      "build_version": "1.15.2",
+      "build_version": "1.16.0",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -2193,7 +2193,7 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "2.1.0",
-      "build_version": "2.1.1",
+      "build_version": "2.2.0",
       "build_branch": "1.22",
       "update_pending": true,
       "proposed": false
