@@ -1,7 +1,7 @@
 {
-  "generated": "20261025-222957",
+  "generated": "20261026-200121",
   "game_version": "1.22.7",
-  "check_ts": "20261025-222957",
+  "check_ts": "20261026-200121",
   "latest_engine": "1.22.7",
   "restart_needed": "20260930-192235",
   "last_deploy_ts": "20260930-192235",
@@ -1077,7 +1077,7 @@
       "proposed": false
     },
     {
-      "name": "Expanded Foods: Core 2.0.0-dev.16",
+      "name": "Expanded Foods: Core 2.0.0-dev.17",
       "modid": "expandedfoods",
       "section": "1.22",
       "category": "Utility",
@@ -1088,7 +1088,7 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "2.0.0-dev.15",
-      "build_version": "2.0.0-dev.16",
+      "build_version": "2.0.0-dev.17",
       "build_branch": "1.22",
       "update_pending": true,
       "proposed": false
@@ -2057,9 +2057,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "2.0.5",
-      "build_version": "2.0.5",
+      "build_version": "2.0.6",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
