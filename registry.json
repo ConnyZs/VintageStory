@@ -1,5 +1,5 @@
 {
-  "generated": "20261028-160422",
+  "generated": "20261028-160516",
   "game_version": "1.22.7",
   "check_ts": "20261027-200126",
   "latest_engine": "1.22.7",
@@ -54,7 +54,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 175,
+  "count": 176,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -2908,6 +2908,23 @@
       "note": "available for 1.22 (installs on update)",
       "version": null,
       "build_version": "2.1.0",
+      "build_branch": "1.22",
+      "update_pending": false,
+      "proposed": true
+    },
+    {
+      "name": "Leaf Litter",
+      "modid": "leaflitter",
+      "section": "1.22",
+      "category": "Tweak",
+      "on_server": false,
+      "link": "https://mods.vintagestory.at/leaflitter",
+      "server_only": false,
+      "server_state": "no",
+      "avail": "available",
+      "note": "available for 1.22 (installs on update)",
+      "version": null,
+      "build_version": "1.4.1",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": true
