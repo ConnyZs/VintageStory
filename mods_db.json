@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-27T21:29:58Z",
+  "updated": "2026-10-28T15:04:07Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -1500,6 +1500,24 @@
     {
       "name": "",
       "link": "https://mods.vintagestory.at/show/mod/75806#tab-description",
+      "category": "Other",
+      "section": "1.22",
+      "server_state": "no",
+      "proposed": true,
+      "note": ""
+    },
+    {
+      "name": "",
+      "link": "https://mods.vintagestory.at/deciduoustrees",
+      "category": "Other",
+      "section": "1.22",
+      "server_state": "no",
+      "proposed": true,
+      "note": ""
+    },
+    {
+      "name": "",
+      "link": "https://mods.vintagestory.at/leaflitter",
       "category": "Other",
       "section": "1.22",
       "server_state": "no",
