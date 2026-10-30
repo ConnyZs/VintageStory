@@ -1,5 +1,5 @@
 {
-  "generated": "20261030-180441",
+  "generated": "20261030-181450",
   "game_version": "1.22.7",
   "check_ts": "20261029-200133",
   "latest_engine": "1.22.7",
@@ -10,15 +10,15 @@
     "full_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset-full.zip",
     "server_count": 162,
     "full_count": 166,
-    "server_size": 278619369,
-    "full_size": 279540991,
+    "server_size": 278618040,
+    "full_size": 279539662,
     "client_only": [
       "Natural Foliage",
       "OptiTime",
       "Status HUD",
       "StepUp Advanced"
     ],
-    "generated": "20261030-180353"
+    "generated": "20261030-181401"
   },
   "admin_url": "http://127.0.0.1:3042",
   "categories": [
@@ -424,10 +424,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "3.3.2",
+      "version": "3.3.4",
       "build_version": "3.3.4",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {

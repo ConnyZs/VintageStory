@@ -1,6 +1,6 @@
 {
   "game_version": "1.22.7",
-  "generated": "20261030-180212",
+  "generated": "20261030-181224",
   "count": 162,
   "mods": [
     {
@@ -778,13 +778,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/bpffcplaceonslabscompatibility.zip"
     },
     {
-      "filename": "bricklayers-3.3.2.zip",
-      "sha256": "b5fe5f8503b467d374700cf5a258a509fb4ad94691eaac09f61ec9ed37655478",
-      "size": 1940587,
+      "filename": "bricklayers-3.3.4.zip",
+      "sha256": "d3105494676bbba514ed4f4f0e54a3dee55db400718132c9f2ff48a62cf638db",
+      "size": 1939258,
       "modid": "bricklayers",
-      "version": "3.3.2",
+      "version": "3.3.4",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/bricklayers-3.3.2.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/bricklayers-3.3.4.zip"
     },
     {
       "filename": "butchering_1.14.3.zip",
