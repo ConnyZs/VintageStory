@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-30T16:58:05Z",
+  "updated": "2026-10-30T17:09:02Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -199,8 +199,7 @@
       "section": "1.22",
       "server_state": "yes",
       "proposed": false,
-      "note": "",
-      "hold_update": true
+      "note": ""
     },
     {
       "name": "Butchering",
