@@ -1,6 +1,6 @@
 {
   "game_version": "1.22.7",
-  "generated": "20261030-181546",
+  "generated": "20261030-182447",
   "count": 162,
   "mods": [
     {
@@ -661,13 +661,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/allhelveworkable_1.0.3.zip"
     },
     {
-      "filename": "amphorae_1.1.0.zip",
-      "sha256": "611950dc8c9b5ede54d3851d7f94ff5d3f2e668e05254435bf4a7ab806be3a6b",
-      "size": 1625359,
+      "filename": "amphorae_1.0.2.zip",
+      "sha256": "6b81eb0ac5f8059a88f995ca2c3721ebd356341d8b84706c6cd10efef2ba2dd8",
+      "size": 388266,
       "modid": "amphorae",
-      "version": "1.1.0",
+      "version": "1.0.2",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/amphorae_1.1.0.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/amphorae_1.0.2.zip"
     },
     {
       "filename": "animalcages_v5.0.1.zip",
