@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T16:54:54Z",
+  "generated": "20261030-180116",
   "game_version": "1.22.7",
   "check_ts": "20261029-200133",
   "latest_engine": "1.22.7",
@@ -8,17 +8,17 @@
   "modset": {
     "server_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset.zip",
     "full_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset-full.zip",
-    "server_count": 160,
-    "full_count": 164,
-    "server_size": 278001045,
-    "full_size": 278922667,
+    "server_count": 162,
+    "full_count": 166,
+    "server_size": 278619369,
+    "full_size": 279540991,
     "client_only": [
       "Natural Foliage",
       "OptiTime",
       "Status HUD",
       "StepUp Advanced"
     ],
-    "generated": "20261030-175150"
+    "generated": "20261030-180029"
   },
   "admin_url": "http://127.0.0.1:3042",
   "categories": [
@@ -2889,11 +2889,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "2.1.0",
       "build_version": "2.1.0",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "Leaf Litter",
@@ -2906,11 +2906,11 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": null,
+      "version": "1.4.1",
       "build_version": "1.4.1",
       "build_branch": "1.22",
       "update_pending": false,
-      "proposed": true
+      "proposed": false
     },
     {
       "name": "smithingplus",

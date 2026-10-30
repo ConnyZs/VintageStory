@@ -1,7 +1,7 @@
 {
   "game_version": "1.22.7",
-  "generated": "20261030-175011",
-  "count": 160,
+  "generated": "20261030-175850",
+  "count": 162,
   "mods": [
     {
       "filename": "ExtraInfo-v2.2.1.zip",
@@ -904,6 +904,15 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/crossbowsfork_1.10.1.zip"
     },
     {
+      "filename": "deciduoustrees_2.1.0.zip",
+      "sha256": "11dfe7c71b058a879f055c3cb4ca84a343164d36223464bae989801576ba9de4",
+      "size": 187493,
+      "modid": "deciduoustrees",
+      "version": "2.1.0",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/deciduoustrees_2.1.0.zip"
+    },
+    {
       "filename": "densegroundstorage_0.3.3.zip",
       "sha256": "138c94b7a1245f29f226b95b3486a85179f032aa4da767b75ab97f18be223e38",
       "size": 67349,
@@ -1073,6 +1082,15 @@
       "version": "1.1.13",
       "name": null,
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/labeledtrunk-1.1.13.zip"
+    },
+    {
+      "filename": "leaflitter_1.4.1.zip",
+      "sha256": "3be93b54f356e0ae043bf4c8b7322f559131e2c5cbfa8946501e32fbd28b4d68",
+      "size": 430591,
+      "modid": "leaflitter",
+      "version": "1.4.1",
+      "name": null,
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/leaflitter_1.4.1.zip"
     },
     {
       "filename": "millwright_1.3.5.zip",
