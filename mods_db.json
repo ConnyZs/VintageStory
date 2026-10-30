@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-28T15:04:07Z",
+  "updated": "2026-10-30T16:18:05Z",
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -199,7 +199,8 @@
       "section": "1.22",
       "server_state": "yes",
       "proposed": false,
-      "note": ""
+      "note": "",
+      "hold_update": true
     },
     {
       "name": "Butchering",
@@ -1496,15 +1497,6 @@
       "server_state": "yes",
       "proposed": false,
       "note": "Fixes collision-geometry misalignment between Collision Flow Fields and Place On Slabs, per IMM conflict detection"
-    },
-    {
-      "name": "",
-      "link": "https://mods.vintagestory.at/show/mod/75806#tab-description",
-      "category": "Other",
-      "section": "1.22",
-      "server_state": "no",
-      "proposed": true,
-      "note": ""
     },
     {
       "name": "",

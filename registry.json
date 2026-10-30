@@ -1,5 +1,5 @@
 {
-  "generated": "20261029-200133",
+  "generated": "2026-10-30T15:53:01Z",
   "game_version": "1.22.7",
   "check_ts": "20261029-200133",
   "latest_engine": "1.22.7",
@@ -2877,23 +2877,6 @@
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": false
-    },
-    {
-      "name": "MX's Bio Chemistry",
-      "modid": "penicillin",
-      "section": "1.22",
-      "category": "Technology",
-      "on_server": false,
-      "link": "https://mods.vintagestory.at/show/mod/75806#tab-description",
-      "server_only": false,
-      "server_state": "no",
-      "avail": "available",
-      "note": "available for 1.22 (installs on update)",
-      "version": null,
-      "build_version": "1.18.3",
-      "build_branch": "1.22",
-      "update_pending": false,
-      "proposed": true
     },
     {
       "name": "Deciduous Trees",

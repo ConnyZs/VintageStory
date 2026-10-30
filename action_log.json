@@ -1,6 +1,12 @@
 {
   "actions": [
     {
+      "ts": "2026-10-30T15:53:01Z",
+      "label": "Rejected",
+      "link": "https://mods.vintagestory.at/show/mod/75806#tab-description",
+      "name": "MX's Bio Chemistry"
+    },
+    {
       "ts": "2026-09-28T22:56:30Z",
       "label": "Approved for server",
       "link": "https://mods.vintagestory.at/teapotsgiantboar",
@@ -291,12 +297,6 @@
     {
       "ts": "2026-08-19T16:25:58Z",
       "label": "Approved for server",
-      "link": "https://mods.vintagestory.at/show/mod/47215",
-      "name": "Improved Handbook Recipe Helper"
-    },
-    {
-      "ts": "2026-08-19T15:35:38Z",
-      "label": "Proposed",
       "link": "https://mods.vintagestory.at/show/mod/47215",
       "name": "Improved Handbook Recipe Helper"
     }
