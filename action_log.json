@@ -1,6 +1,18 @@
 {
   "actions": [
     {
+      "ts": "2026-10-30T16:54:54Z",
+      "label": "Approved for server",
+      "link": "https://mods.vintagestory.at/leaflitter",
+      "name": "Leaf Litter"
+    },
+    {
+      "ts": "2026-10-30T16:54:53Z",
+      "label": "Approved for server",
+      "link": "https://mods.vintagestory.at/deciduoustrees",
+      "name": "Deciduous Trees"
+    },
+    {
       "ts": "2026-10-30T15:53:01Z",
       "label": "Rejected",
       "link": "https://mods.vintagestory.at/show/mod/75806#tab-description",
@@ -287,18 +299,6 @@
       "label": "Approved for server",
       "link": "https://mods.vintagestory.at/translocatormarker",
       "name": "Translocator Map Marker"
-    },
-    {
-      "ts": "2026-08-19T16:25:59Z",
-      "label": "Approved for server",
-      "link": "https://mods.vintagestory.at/regalia",
-      "name": "Regalia"
-    },
-    {
-      "ts": "2026-08-19T16:25:58Z",
-      "label": "Approved for server",
-      "link": "https://mods.vintagestory.at/show/mod/47215",
-      "name": "Improved Handbook Recipe Helper"
     }
   ]
 }
