@@ -1,6 +1,6 @@
 {
   "game_version": "1.22.7",
-  "generated": "20261030-174615",
+  "generated": "20261030-175011",
   "count": 160,
   "mods": [
     {
@@ -1455,13 +1455,13 @@
       "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/Natural%20Foliage_v0.04.zip"
     },
     {
-      "filename": "OptiTime-1.5.16.zip",
-      "sha256": "22fe52aa99c05e162236edb1ea47e9b6ce61b1a7aecc1a4f3797232e9c336061",
-      "size": 170754,
+      "filename": "OptiTime-1.5.17.zip",
+      "sha256": "6a7bd01b2bd028dc5ee6ab67c54e95f5eae98a002550527c819925bea8d48182",
+      "size": 201377,
       "modid": "optitime",
-      "version": "1.5.16",
+      "version": "1.5.17",
       "name": null,
-      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/OptiTime-1.5.16.zip"
+      "url": "https://raw.githubusercontent.com/ConnyZs/VintageStory/main/mods/OptiTime-1.5.17.zip"
     },
     {
       "filename": "StepUpAdvanced_1.4.0.zip",
