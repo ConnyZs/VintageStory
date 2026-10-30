@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T15:53:01Z",
+  "generated": "20261030-174843",
   "game_version": "1.22.7",
   "check_ts": "20261029-200133",
   "latest_engine": "1.22.7",
@@ -10,15 +10,15 @@
     "full_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset-full.zip",
     "server_count": 160,
     "full_count": 164,
-    "server_size": 270877388,
-    "full_size": 271768387,
+    "server_size": 278001045,
+    "full_size": 278892044,
     "client_only": [
       "Natural Foliage",
       "OptiTime",
       "Status HUD",
       "StepUp Advanced"
     ],
-    "generated": "20260930-222544"
+    "generated": "20261030-174751"
   },
   "admin_url": "http://127.0.0.1:3042",
   "categories": [
@@ -54,7 +54,7 @@
     "Weapons",
     "Worldgen"
   ],
-  "count": 176,
+  "count": 175,
   "mods": [
     {
       "name": "Adventurer's Walking Stick",
@@ -152,10 +152,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "2.1.22",
+      "version": "2.1.25",
       "build_version": "2.1.25",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -305,10 +305,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.3.0",
+      "version": "1.3.1",
       "build_version": "1.3.1",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -339,10 +339,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "3.4.10",
+      "version": "3.4.12",
       "build_version": "3.4.12",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -390,10 +390,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.2.9",
+      "version": "1.2.12",
       "build_version": "1.2.12",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -407,10 +407,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.4.2",
+      "version": "2.0.0",
       "build_version": "2.0.0",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -475,10 +475,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "0.7.10",
+      "version": "0.7.13",
       "build_version": "0.7.13",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -543,10 +543,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "build_version": "1.0.5",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -628,10 +628,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "3.1.0",
+      "version": "3.1.1",
       "build_version": "3.1.1",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -645,10 +645,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.2.11",
+      "version": "1.2.14",
       "build_version": "1.2.14",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -662,10 +662,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "2.1.0",
+      "version": "2.2.0",
       "build_version": "2.2.0",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -713,10 +713,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.9.3",
+      "version": "1.9.5",
       "build_version": "1.9.5",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -781,10 +781,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "3.0.3",
+      "version": "3.0.4",
       "build_version": "3.0.4",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -832,10 +832,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.17.7",
+      "version": "1.17.9",
       "build_version": "1.17.9",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -1002,10 +1002,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "2.0.5",
+      "version": "2.1.1",
       "build_version": "2.1.1",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -1087,10 +1087,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "2.0.0-dev.15",
+      "version": "2.0.0-dev.17",
       "build_version": "2.0.0-dev.17",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -1104,10 +1104,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "2.0.0-dev.26",
+      "version": "2.0.0-dev.28",
       "build_version": "2.0.0-dev.28",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -1138,10 +1138,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "2.5.2",
+      "version": "2.5.4",
       "build_version": "2.5.4",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -1240,10 +1240,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.0.0-dev.8",
+      "version": "1.0.0-dev.9",
       "build_version": "1.0.0-dev.9",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -1257,10 +1257,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.0.0-dev.5",
+      "version": "1.0.0-dev.6",
       "build_version": "1.0.0-dev.6",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -1308,10 +1308,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.0.2",
+      "version": "1.1.0",
       "build_version": "1.1.0",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -1580,10 +1580,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "3.8.1",
+      "version": "3.8.2",
       "build_version": "3.8.2",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -1852,10 +1852,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "0.18.8",
+      "version": "0.18.9",
       "build_version": "0.18.9",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -1869,10 +1869,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.11.3",
+      "version": "1.11.4",
       "build_version": "1.11.4",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -1937,10 +1937,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.15.2",
+      "version": "1.16.0",
       "build_version": "1.16.0",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -1971,10 +1971,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.2.14",
+      "version": "1.2.15",
       "build_version": "1.2.15",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -2005,10 +2005,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.2.1",
+      "version": "1.2.2",
       "build_version": "1.2.2",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -2056,10 +2056,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "2.0.5",
+      "version": "2.0.6",
       "build_version": "2.0.6",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -2090,10 +2090,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.1.6",
+      "version": "2.0.0",
       "build_version": "2.0.0",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -2107,10 +2107,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "2.0.1",
+      "version": "2.1.0",
       "build_version": "2.1.0",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -2124,10 +2124,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "2.1.0",
+      "version": "2.2.0",
       "build_version": "2.2.0",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -2192,10 +2192,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "2.1.0",
+      "version": "2.3.0",
       "build_version": "2.3.0",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -2566,10 +2566,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.2.1",
+      "version": "1.2.2",
       "build_version": "1.2.2",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -2753,8 +2753,8 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.1.4",
-      "build_version": "1.1.4",
+      "version": "1.2.6",
+      "build_version": "1.2.6",
       "build_branch": "1.22",
       "update_pending": false,
       "proposed": false
@@ -2787,10 +2787,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.0.5",
+      "version": "1.1.0",
       "build_version": "1.1.0",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {
@@ -2821,10 +2821,10 @@
       "server_state": "yes",
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
-      "version": "1.1.0",
-      "build_version": "1.4.0",
+      "version": "1.4.2",
+      "build_version": "1.4.2",
       "build_branch": "1.22",
-      "update_pending": true,
+      "update_pending": false,
       "proposed": false
     },
     {

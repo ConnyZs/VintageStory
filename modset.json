@@ -3,13 +3,13 @@
   "full_url": "https://github.com/ConnyZs/VintageStory/releases/download/modset/modset-full.zip",
   "server_count": 160,
   "full_count": 164,
-  "server_size": 270877388,
-  "full_size": 271768387,
+  "server_size": 278001045,
+  "full_size": 278892044,
   "client_only": [
     "Natural Foliage",
     "OptiTime",
     "Status HUD",
     "StepUp Advanced"
   ],
-  "generated": "20260930-222544"
+  "generated": "20261030-174751"
 }
