@@ -1,7 +1,7 @@
 {
-  "generated": "20261030-200135",
+  "generated": "20261031-200133",
   "game_version": "1.22.7",
-  "check_ts": "20261030-200135",
+  "check_ts": "20261031-200133",
   "latest_engine": "1.22.7",
   "restart_needed": "20261030-181452",
   "last_deploy_ts": "20261030-181452",
@@ -42,7 +42,6 @@
     "Magic",
     "Misc.",
     "Other",
-    "QOL",
     "QoL",
     "Server tooling",
     "Server-Specific",
@@ -187,9 +186,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "2.3.2",
-      "build_version": "2.3.2",
+      "build_version": "2.3.3",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -451,7 +450,7 @@
       "name": "Buzzwords",
       "modid": "buzzwords",
       "section": "1.22",
-      "category": "QOL",
+      "category": "Accessibility",
       "on_server": true,
       "link": "https://mods.vintagestory.at/buzzwords",
       "server_only": false,
@@ -476,9 +475,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "0.7.13",
-      "build_version": "0.7.13",
+      "build_version": "0.8.0",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -714,9 +713,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.9.5",
-      "build_version": "1.9.5",
+      "build_version": "1.9.6",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
