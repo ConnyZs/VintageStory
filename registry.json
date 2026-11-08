@@ -1,7 +1,7 @@
 {
-  "generated": "20261108-011821",
+  "generated": "20261108-200128",
   "game_version": "1.22.7",
-  "check_ts": "20261108-011821",
+  "check_ts": "20261108-200128",
   "latest_engine": "1.22.7",
   "restart_needed": "20261030-181452",
   "last_deploy_ts": "20261030-181452",
@@ -645,7 +645,7 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.2.14",
-      "build_version": "1.2.15",
+      "build_version": "1.2.16",
       "build_branch": "1.22",
       "update_pending": true,
       "proposed": false
@@ -858,7 +858,7 @@
       "name": "Scarecrow",
       "modid": "scarecrow",
       "section": "1.22",
-      "category": "QoL",
+      "category": "Creatures",
       "on_server": true,
       "link": "https://mods.vintagestory.at/scarecrow",
       "server_only": false,
@@ -866,9 +866,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.8.2",
-      "build_version": "1.8.2",
+      "build_version": "1.9.0",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -2549,9 +2549,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.0.4",
-      "build_version": "1.0.4",
+      "build_version": "1.0.5",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -2583,9 +2583,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.1.3",
-      "build_version": "1.1.3",
+      "build_version": "1.1.4",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
