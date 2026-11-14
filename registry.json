@@ -1,7 +1,7 @@
 {
-  "generated": "20261113-200126",
+  "generated": "20261114-200135",
   "game_version": "1.22.7",
-  "check_ts": "20261113-200126",
+  "check_ts": "20261114-200135",
   "latest_engine": "1.22.7",
   "restart_needed": "20261030-181452",
   "last_deploy_ts": "20261030-181452",
@@ -67,9 +67,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "3.0.10",
-      "build_version": "3.0.10",
+      "build_version": "3.0.12",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -475,7 +475,7 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "0.7.13",
-      "build_version": "0.8.0",
+      "build_version": "0.8.2",
       "build_branch": "1.22",
       "update_pending": true,
       "proposed": false
@@ -696,7 +696,7 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.4.6",
-      "build_version": "2.0.0",
+      "build_version": "2.0.1",
       "build_branch": "1.22",
       "update_pending": true,
       "proposed": false
@@ -866,7 +866,7 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.8.2",
-      "build_version": "1.9.1",
+      "build_version": "1.9.3",
       "build_branch": "1.22",
       "update_pending": true,
       "proposed": false
@@ -1580,9 +1580,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "3.8.2",
-      "build_version": "3.8.2",
+      "build_version": "3.8.3",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -2906,7 +2906,7 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.4.1",
-      "build_version": "1.4.2",
+      "build_version": "1.5.0",
       "build_branch": "1.22",
       "update_pending": true,
       "proposed": false
