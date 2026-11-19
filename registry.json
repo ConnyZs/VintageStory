@@ -1,7 +1,7 @@
 {
-  "generated": "20261118-200126",
+  "generated": "20261119-200119",
   "game_version": "1.22.7",
-  "check_ts": "20261118-200126",
+  "check_ts": "20261119-200119",
   "latest_engine": "1.22.7",
   "restart_needed": "20261030-181452",
   "last_deploy_ts": "20261030-181452",
@@ -866,7 +866,7 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.8.2",
-      "build_version": "1.9.3",
+      "build_version": "1.9.4",
       "build_branch": "1.22",
       "update_pending": true,
       "proposed": false
@@ -1076,7 +1076,7 @@
       "proposed": false
     },
     {
-      "name": "Expanded Foods: Core 2.0.0-dev.17",
+      "name": "Expanded Foods: Core 2.0.0-dev.18",
       "modid": "expandedfoods",
       "section": "1.22",
       "category": "Utility",
@@ -1087,13 +1087,13 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "2.0.0-dev.17",
-      "build_version": "2.0.0-dev.17",
+      "build_version": "2.0.0-dev.18",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
-      "name": "A Culinary Artillery 2.0.0-dev.29",
+      "name": "A Culinary Artillery 2.0.0-dev.30",
       "modid": "aculinaryartillery",
       "section": "1.22",
       "category": "Technology",
@@ -1104,7 +1104,7 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "2.0.0-dev.28",
-      "build_version": "2.0.0-dev.29",
+      "build_version": "2.0.0-dev.30",
       "build_branch": "1.22",
       "update_pending": true,
       "proposed": false
@@ -2226,9 +2226,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.0.8",
-      "build_version": "1.0.8",
+      "build_version": "1.2.0",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
@@ -2328,9 +2328,9 @@
       "avail": "available",
       "note": "available for 1.22 (installs on update)",
       "version": "1.8.2",
-      "build_version": "1.8.2",
+      "build_version": "1.8.3",
       "build_branch": "1.22",
-      "update_pending": false,
+      "update_pending": true,
       "proposed": false
     },
     {
